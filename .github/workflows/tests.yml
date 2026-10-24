@@ -17,5 +17,5 @@ jobs:
       - uses: astral-sh/setup-uv@v6
       - name: Install dependencies
         run: uv sync --frozen
-      - name: Run tests (no network: HTTP is mocked)
+      - name: "Run tests (no network: HTTP is mocked)"
         run: uv run pytest -q
