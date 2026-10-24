@@ -15,6 +15,7 @@ feeds:
   - name: AWS Machine Learning Blog
     url: https://aws.amazon.com/blogs/machine-learning/feed/
     section: work
+    images: false   # feed images are architecture diagrams, unreadable as thumbnails
   - name: CIO.com
     url: https://www.cio.com/feed/
     section: work

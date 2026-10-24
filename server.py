@@ -150,6 +150,9 @@ def collect_stories(section: str, days: int) -> tuple[list[dict], list[str]]:
             continue
         if feed.get("ai_filter"):
             items = [item for item in items if mentions_ai(item)]
+        if feed.get("images") is False:
+            for item in items:
+                item["image"] = None
         stories.extend(item for item in items if item["published"] >= cutoff)
 
     stories.sort(key=lambda s: s["published"], reverse=True)

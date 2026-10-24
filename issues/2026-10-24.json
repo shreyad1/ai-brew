@@ -39,7 +39,7 @@
       "summary": "Bayer Crop Science built a multi-agent system on Amazon Bedrock AgentCore, allowing researchers, breeders, and analysts to ask natural language questions about their analytics platform.",
       "link": "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/",
       "source": "AWS Machine Learning Blog",
-      "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/22/ML-21834-1.png"
+      "image": null
     },
     {
       "id": "w12",
@@ -48,7 +48,7 @@
       "summary": "Pet care company IskayPet built a corporate assistant using Amazon Bedrock Managed Knowledge Bases to answer employee questions across four languages and three countries without managing infrastructure.",
       "link": "https://aws.amazon.com/blogs/machine-learning/how-iskaypet-unified-corporate-knowledge-with-amazon-bedrock-managed-knowledge-bases/",
       "source": "AWS Machine Learning Blog",
-      "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21903-1.png"
+      "image": null
     }
   ],
   "still_roasting": [
