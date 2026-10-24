@@ -2,16 +2,16 @@
    Concept: the order ticket at a specialty coffee bar. A left rail of ticket metadata
    (source, brew time) beside the story. Ceramic white + cobalt glaze, like a blue-and-white café cup. */
 :root {
-  --ceramic: #F3F4F1;      /* page */
+  --ceramic: #EEF0F4;      /* page */
   --cup: #FFFFFF;          /* raised surfaces */
-  --ink: #17191C;          /* text */
-  --ink-soft: #4A4F57;
-  --ink-faint: #868B93;
-  --rule: #DADDE2;
-  --cobalt: #2347A6;       /* the glaze: links, accents */
-  --cobalt-wash: #E6EBF7;
-  --latte: #B88A5B;        /* warm note, used sparingly */
-  --night: #14171C;        /* Builder's Bar card */
+  --ink: #0E1116;          /* text */
+  --ink-soft: #343A44;
+  --ink-faint: #5F6672;
+  --rule: #CDD2DB;
+  --cobalt: #1B3FD1;       /* the glaze: links, accents */
+  --cobalt-wash: #DCE4FF;
+  --latte: #B0581A;        /* roasted caramel, used sparingly */
+  --night: #0F1A3D;        /* Builder's Bar card: deep cobalt night */
   --night-text: #E9ECF1;
   --night-soft: #A7AFBC;
 
@@ -28,16 +28,16 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --ceramic: #101317; --cup: #171B21; --ink: #ECEEF2; --ink-soft: #B6BCC6; --ink-faint: #7D8592;
-    --rule: #2A3039; --cobalt: #8EA8F5; --cobalt-wash: #1C2540; --latte: #D2A777;
-    --night: #0B0D10; --night-text: #E9ECF1; --night-soft: #9AA3B1;
+    --ceramic: #0C0F14; --cup: #151A22; --ink: #F2F4F8; --ink-soft: #C3C9D3; --ink-faint: #8E96A3;
+    --rule: #262D38; --cobalt: #7D9BFF; --cobalt-wash: #18244F; --latte: #E08A4A;
+    --night: #101C45; --night-text: #E9ECF1; --night-soft: #9AA3B1;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --ceramic: #101317; --cup: #171B21; --ink: #ECEEF2; --ink-soft: #B6BCC6; --ink-faint: #7D8592;
-  --rule: #2A3039; --cobalt: #8EA8F5; --cobalt-wash: #1C2540; --latte: #D2A777;
-  --night: #0B0D10; --night-text: #E9ECF1; --night-soft: #9AA3B1;
+  --ceramic: #0C0F14; --cup: #151A22; --ink: #F2F4F8; --ink-soft: #C3C9D3; --ink-faint: #8E96A3;
+  --rule: #262D38; --cobalt: #7D9BFF; --cobalt-wash: #18244F; --latte: #E08A4A;
+  --night: #101C45; --night-text: #E9ECF1; --night-soft: #9AA3B1;
   color-scheme: dark;
 }
 
@@ -79,7 +79,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 /* Masthead: big left-aligned wordmark, ticket stamp on the right */
 .masthead {
   display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: end;
-  padding-block: 48px 28px; border-bottom: 2px solid var(--ink);
+  padding-block: 48px 28px; border-bottom: 3px solid var(--cobalt);
 }
 .wordmark { font-family: var(--display); font-size: var(--step-4); line-height: 0.92; letter-spacing: -0.02em; }
 .wordmark em { font-style: normal; color: var(--cobalt); }
@@ -110,7 +110,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
   padding-block: 44px; border-bottom: 1px solid var(--rule);
 }
 .rail { display: flex; flex-direction: column; gap: 6px; }
-.rail h2 { font-family: var(--display); font-size: var(--step-2); line-height: 1.1; }
+.rail h2 { font-family: var(--display); font-size: var(--step-2); line-height: 1.1; color: var(--cobalt); }
 .rail p { color: var(--ink-faint); font-size: 0.9rem; }
 .rail .mono { color: var(--latte); }
 .content { display: flex; flex-direction: column; gap: 28px; max-width: 68ch; }
@@ -122,7 +122,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .story.lead p { font-size: var(--step-1); line-height: 1.55; color: var(--ink); }
 .meta { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: baseline; font-family: var(--mono); font-size: 0.75rem; color: var(--ink-faint); }
 .meta a { font-weight: 500; }
-.why { padding: 14px 16px; background: var(--cobalt-wash); border-radius: 4px; color: var(--ink); }
+.why { padding: 14px 16px; background: var(--cobalt-wash); border-left: 3px solid var(--cobalt); border-radius: 0 4px 4px 0; color: var(--ink); }
 .why b { font-family: var(--mono); font-size: 0.75rem; font-weight: 500; color: var(--cobalt); display: block; margin-bottom: 2px; }
 .pair-stories { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 28px; padding-top: 24px; border-top: 1px solid var(--rule); }
 
@@ -134,7 +134,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 
 /* Builder's Bar: the one dark block on the page */
 .section.night { background: var(--night); color: var(--night-text); border-radius: 6px; padding-inline: clamp(16px, 4vw, 36px); border-bottom: 0; margin-block: 28px; }
-.night .rail h2 { color: var(--night-text); }
+.night .rail h2 { color: #FFFFFF; }
 .night .rail p, .night .story p, .night .meta { color: var(--night-soft); }
 .night a { color: #A9BEFF; }
 .night .story h3 { color: var(--night-text); }
@@ -149,7 +149,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .reveal:hover { background: var(--ink); color: var(--cup); }
 .card[data-open="false"] .hidden-part { display: none; }
 .card .hidden-part { display: flex; flex-direction: column; gap: 8px; animation: pour 0.35s ease-out; }
-.night .card { background: #1C2128; border-color: #2E3540; }
+.night .card { background: #172656; border-color: #2B3F80; }
 .night .card .def { color: var(--night-soft); }
 .night .reveal { border-color: var(--night-text); color: var(--night-text); }
 .night .reveal:hover { background: var(--night-text); color: var(--night); }

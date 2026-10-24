@@ -1,10 +1,6 @@
 {#- The AI Brew web edition. Unlike the email, a web page can use real CSS and JavaScript. -#}
 {%- macro rail(name, plain, key) -%}
-<div class="rail">
-  <h2>{{ name }}</h2>
-  <p>{{ plain }}</p>
-  <span class="mono">brew time {{ times[key] }}</span>
-</div>
+<div class="rail"><h2>{{ name }}</h2></div>
 {%- endmacro -%}
 {%- macro figure(story) -%}
 {%- if story.image %}
@@ -42,9 +38,6 @@
       <h1 class="wordmark">The AI <em>Brew</em></h1>
       <div class="stamp"><b>No. {{ "%03d" | format(issue.number) }}</b>{{ issue.date_long }}<br>total brew time {{ times.total }}</div>
     </div>
-    {%- if issue.big_pour %}
-    <p class="lede">Good morning. {{ issue.big_pour[0].headline }}, plus {{ (issue.office_blend or []) | length + (issue.quick_sips or []) | length + 2 }} more stories, in about {{ issue.read_minutes }} minutes.</p>
-    {%- endif %}
     <nav class="ticket" aria-label="In this issue">
       {%- for name, teaser in issue.menu %}
       <a href="#{{ name | lower | replace(' ', '-') | replace("'", '') }}"{% if name == "The Builder's Bar" %} class="eng-only"{% endif %}><b>{{ name }}</b><span>{{ teaser }}</span></a>
@@ -168,7 +161,7 @@
 
   {%- if issue.word or issue.keep_brewing %}
   <section class="section" id="word-of-the-day">
-    {{ rail("Learn a little", "One AI word and one way to keep up.", "learn") }}
+    {{ rail("Learn", "", "learn") }}
     <div class="content">
       <div class="cards">
         {%- if issue.word %}
@@ -210,9 +203,8 @@
   {%- endif %}
 
   <section class="section" id="subscribe">
-    <div class="rail"><h2>Get your own cup</h2><p>Free, every weekday morning.</p></div>
+    <div class="rail"><h2>Get your own cup</h2></div>
     <div class="content">
-      <p>A 3-minute AI briefing in plain English. Every story links to its source.</p>
       <form class="signup" action="https://buttondown.com/api/emails/embed-subscribe/aibrew" method="post" target="_blank">
         <label for="email" class="visually-hidden">Email address</label>
         <input id="email" type="email" name="email" placeholder="you@example.com" required>
