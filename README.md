@@ -2,7 +2,7 @@
 
 [![Tests](https://github.com/shreyad1/ai-brew/actions/workflows/tests.yml/badge.svg)](https://github.com/shreyad1/ai-brew/actions/workflows/tests.yml)
 
-**A 3-minute AI briefing, written every weekday morning by an AI agent, with every fact checked against its source.**
+**A 3-minute AI briefing, written every morning by an AI agent, with every fact checked against its source.**
 
 **[theaibrew.pages.dev](https://theaibrew.pages.dev)** · Built by [Shreya Deshpande](https://www.linkedin.com/in/shreya-deshpande-data-business-analyst/)
 
@@ -10,7 +10,7 @@
 
 ## What it does
 
-Every weekday at 7 AM Central, with no human in the loop until review:
+Every morning at 6–7 AM Central, with no human in the loop until review:
 
 1. **Gathers** fresh stories from 19 RSS feeds: TechCrunch, The Verge, Ars Technica, MIT Technology Review, The New Stack, company blogs, and AI newsletters on Substack.
 2. **Cleans** them: drops sponsored posts, filters non-AI stories, and merges the same news reported by several outlets.
@@ -34,7 +34,7 @@ Every weekday at 7 AM Central, with no human in the loop until review:
             ├─► MCP server ──►│ digest agent│──► checks.py ──► issue JSON ──► web app (Cloudflare Pages)
             │   (6 tools)     │  (Gemini)   │    numbers,                     email (Buttondown, soon)
             │                 └─────────────┘    names, quotes
- GitHub Actions: runs it every weekday, commits the issue, redeploys the app
+ GitHub Actions: runs it every day, commits the issue, redeploys the app
 ```
 
 **The guardrails are the core of the project.** The model only ever sees story IDs, titles, and summaries, never links. It returns JSON that refers to stories by ID, and the code, not the model, attaches every link, source name, and date. `checks.py` then verifies that each number, capitalized name, and quoted phrase in the model's text appears in that story's source.

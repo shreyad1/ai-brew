@@ -2,9 +2,9 @@ name: Daily issue
 
 on:
   schedule:
-    # 12:00 UTC on weekdays = 7:00 AM Central in summer (CDT), 6:00 AM in winter (CST).
+    # 12:00 UTC every day = 7:00 AM Central in summer (CDT), 6:00 AM in winter (CST).
     # GitHub can start scheduled runs 5-30 minutes late, so this leaves room before 7 AM.
-    - cron: "0 12 * * 1-5"
+    - cron: "0 12 * * *"
   workflow_dispatch: # adds a "Run workflow" button for manual runs
 
 permissions:

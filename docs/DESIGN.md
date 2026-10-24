@@ -4,7 +4,7 @@ A daily AI news briefing written by an LLM agent. This document covers how it wo
 
 ## Goal and the one hard constraint
 
-**Goal:** a 3-minute, plain-English AI briefing every weekday, readable by non-engineers, with a section for engineers.
+**Goal:** a 3-minute, plain-English AI briefing every day, readable by non-engineers, with a section for engineers.
 
 **Constraint:** zero invented content. Every fact, number, name, quote, date, and link must trace back to a real source item. A summarizer that is fluent but occasionally wrong is worse than no summarizer, because readers can't tell which sentences to trust.
 
