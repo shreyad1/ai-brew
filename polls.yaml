@@ -1,12 +1,11 @@
-# The Tip Jar Poll. Count reply emails by hand and fill in results, e.g. "62% said YES (31 votes)".
 polls:
-  - question: Would you let an AI book your next trip?
-    results: null
-  - question: Do you use an AI chatbot at work at least once a week?
-    results: null
-  - question: Would you read a news story written entirely by AI?
-    results: null
-  - question: Have you ever caught an AI making something up?
-    results: null
-
-used: []
+- question: Would you let an AI book your next trip?
+  results: null
+- question: Do you use an AI chatbot at work at least once a week?
+  results: null
+- question: Would you read a news story written entirely by AI?
+  results: null
+- question: Have you ever caught an AI making something up?
+  results: null
+used:
+- Would you let an AI book your next trip?

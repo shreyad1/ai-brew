@@ -1,27 +1,32 @@
-# Word of the Day. Reviewed by a human: the agent copies these, never invents them.
-# Set reviewed: true once you've checked a definition. Unreviewed words are flagged in the issue log.
 weeks:
-  - theme: How AI works
-    words:
-      - term: LLM
-        definition: A large language model, an AI trained on huge amounts of text to predict and write words.
-        analogy: Like a barista who has read every coffee menu in the world and can describe any drink you name.
-        reviewed: false
-      - term: token
-        definition: A small piece of text an AI reads, often part of a word.
-        analogy: "Like coffee beans: AI grinds your sentence into little bits before it brews an answer."
-        reviewed: false
-      - term: context window
-        definition: The amount of text an AI can look at in one go, including your question and its answer.
-        analogy: Like the size of your cup. Pour in more than it holds and the earliest part spills out.
-        reviewed: false
-      - term: hallucination
-        definition: When an AI states something false with total confidence.
-        analogy: Like a barista who swears they put oat milk in your latte when they didn't.
-        reviewed: false
-      - term: RAG
-        definition: Retrieval-augmented generation, where an AI looks up real documents first and then answers using them.
-        analogy: Like checking the recipe card before making a drink, instead of guessing from memory.
-        reviewed: false
-
-used: []   # the agent appends each term here after it appears in an issue
+- theme: How AI works
+  words:
+  - term: LLM
+    definition: A large language model, an AI trained on huge amounts of text to predict
+      and write words.
+    analogy: Like a barista who has read every coffee menu in the world and can describe
+      any drink you name.
+    reviewed: false
+  - term: token
+    definition: A small piece of text an AI reads, often part of a word.
+    analogy: 'Like coffee beans: AI grinds your sentence into little bits before it
+      brews an answer.'
+    reviewed: false
+  - term: context window
+    definition: The amount of text an AI can look at in one go, including your question
+      and its answer.
+    analogy: Like the size of your cup. Pour in more than it holds and the earliest
+      part spills out.
+    reviewed: false
+  - term: hallucination
+    definition: When an AI states something false with total confidence.
+    analogy: Like a barista who swears they put oat milk in your latte when they didn't.
+    reviewed: false
+  - term: RAG
+    definition: Retrieval-augmented generation, where an AI looks up real documents
+      first and then answers using them.
+    analogy: Like checking the recipe card before making a drink, instead of guessing
+      from memory.
+    reviewed: false
+used:
+- LLM
