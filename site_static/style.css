@@ -194,3 +194,14 @@ footer { padding-top: 32px; display: flex; flex-wrap: wrap; gap: 8px 24px; justi
 .events-empty { color: var(--ink-faint); }
 .event-title { display: block; font-weight: 600; color: var(--ink); text-decoration: none; }
 .event-title:hover { color: var(--cobalt); text-decoration: underline; }
+
+/* Roast Meter: four beans, filled up to today's level */
+.roast { margin-top: 12px; display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
+.roast-label { font-family: var(--display); font-size: 1.35rem; color: var(--latte); line-height: 1; }
+.beans { display: inline-flex; gap: 5px; }
+.bean { width: 14px; height: 19px; border-radius: 50%; border: 1.5px solid var(--latte); position: relative; transform: rotate(18deg); }
+.bean::after { content: ""; position: absolute; left: 50%; top: 15%; bottom: 15%; border-left: 1.5px solid var(--latte); transform: translateX(-50%) rotate(-8deg); }
+.bean.on { background: var(--latte); }
+.bean.on::after { border-color: var(--cup); }
+.roast-why { font-size: 0.6875rem; color: var(--ink-faint); max-width: 30ch; text-align: right; }
+@media (max-width: 720px) { .roast { align-items: flex-start; } .roast-why { text-align: left; } }

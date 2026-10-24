@@ -15,7 +15,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>The AI Brew No. {{ issue.number }}</title>
+<title>{{ issue.subject or ("The AI Brew No. " ~ issue.number) }}</title>
 <meta name="description" content="{{ issue.big_pour[0].headline if issue.big_pour else 'A 3-minute AI briefing every weekday morning.' }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +36,14 @@
   <header>
     <div class="masthead">
       <h1 class="wordmark">The AI <em>Brew</em></h1>
-      <div class="stamp"><b>No. {{ "%03d" | format(issue.number) }}</b>{{ issue.date_long }}<br>total brew time {{ times.total }}</div>
+      <div class="stamp"><b>No. {{ "%03d" | format(issue.number) }}</b>{{ issue.date_long }}<br>total brew time {{ times.total }}
+        {%- if issue.roast %}
+        <div class="roast" title="{{ issue.roast.reasons | join(', ') }}">
+          <span class="roast-label">{{ issue.roast.level }} roast</span>
+          <span class="beans" aria-hidden="true">{% for lvl in ["Light", "Medium", "Dark", "Espresso"] %}<i class="bean{{ ' on' if loop.index0 <= issue.roast.position }}"></i>{% endfor %}</span>
+          <span class="roast-why">{{ issue.roast.reasons | join(" · ") }}</span>
+        </div>
+        {%- endif %}</div>
     </div>
     <nav class="ticket" aria-label="In this issue">
       {%- for name, teaser in issue.menu %}
