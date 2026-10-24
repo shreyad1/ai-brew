@@ -81,6 +81,9 @@ def dedupe(stories: list[dict]) -> list[dict]:
     return kept
 
 
+# Some sites (e.g. Substack) refuse requests that don't say who's asking.
+HEADERS = {"User-Agent": "AI-Brew/1.0 (+https://github.com/shreyad1/ai-brew; RSS reader)"}
+
 MAX_SUMMARY_CHARS = 500  # we only ever use a short summary, never the full article
 
 
@@ -94,7 +97,7 @@ def clean_text(raw: str) -> str:
 
 def fetch_feed(url: str, name: str) -> list[dict]:
     """Download one RSS feed and return its items as clean dicts."""
-    response = httpx.get(url, timeout=10, follow_redirects=True)
+    response = httpx.get(url, timeout=10, follow_redirects=True, headers=HEADERS)
     response.raise_for_status()
     feed = feedparser.parse(response.text)
 
