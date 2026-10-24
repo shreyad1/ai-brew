@@ -78,8 +78,6 @@ function renderIssue(issue) {
       <h1 class="wordmark">The AI <em>Brew</em></h1>
       <div class="stamp"><b>No. ${issueNo(issue.number)}</b>${esc(issue.date_long)}</div>
     </div>
-    ${issue.eval && issue.eval.faithfulness != null ? `<a class="factcheck" href="#/trust">
-      <b>${Math.round(issue.eval.faithfulness * 100)}%</b> fact-checked against sources &middot; ${issue.eval.claims} sentences, ${issue.eval.unsupported + issue.eval.partial} flagged &rarr;</a>` : ""}
   </header>`);
 
   const pour = issue.big_pour || [];
@@ -127,6 +125,7 @@ function renderIssue(issue) {
     <p class="question">${esc(issue.poll.question)}</p>
     <div class="vote">${["YES", "NO"].map((a) => `<a href="mailto:${esc(issue.reply_to)}?subject=${encodeURIComponent(`Poll ${issue.date_iso}: ${a}`)}">${a}</a>`).join("")}</div>`));
 
+  parts.push(`<p class="quiet-link"><a href="#/trust">How we fact-check</a></p>`);
   return parts.join("");
 }
 
