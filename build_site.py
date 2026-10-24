@@ -26,35 +26,6 @@ PLACES = {
     "india": [c["city"] for c in events.LUMA_CITIES if c["region"] == "India"],
 }
 
-WORDS_PER_MINUTE = 230  # average adult reading speed
-
-
-def words_in(value: object) -> int:
-    """Count words in every string inside a section, however deeply nested."""
-    if isinstance(value, str):
-        return len(value.split())
-    if isinstance(value, dict):
-        return sum(words_in(v) for k, v in value.items() if k not in ("link", "id", "source"))
-    if isinstance(value, list):
-        return sum(words_in(v) for v in value)
-    return 0
-
-
-def as_clock(words: int) -> str:
-    seconds = max(10, round(words / WORDS_PER_MINUTE * 60 / 5) * 5)
-    return f"{seconds // 60}:{seconds % 60:02d}"
-
-
-def brew_times(issue: dict) -> dict[str, str]:
-    """Real reading time per section, shown like a pour timer."""
-    counts = {key: words_in(issue.get(key)) for key in
-              ("big_pour", "builder", "office_blend", "still_roasting", "quick_sips", "long_read", "poll")}
-    counts["learn"] = words_in(issue.get("word")) + words_in(issue.get("keep_brewing"))
-    times = {key: as_clock(n) for key, n in counts.items()}
-    times["total"] = as_clock(sum(counts.values()))
-    return times
-
-
 def build() -> Path:
     if SITE_DIR.exists():
         shutil.rmtree(SITE_DIR)
@@ -69,20 +40,21 @@ def build() -> Path:
     except Exception as error:  # events are a bonus; never block the site on them
         print(f"Events skipped: {error}")
         payload = {"generated": None, "picks": {}}
-    (SITE_DIR / "events.json").write_text(json.dumps(payload))
-    # Embedded in each page too, so Near You works even when a page is opened straight from disk.
-    events_json = json.dumps(payload).replace("</", "<\\/")
 
-    issues = load_issues()
-    page = env.get_template("web.html.j2")
+    # The app is one page with every issue and the events built in, so it works offline too.
+    issues = [prepare(issue) for issue in load_issues()]
+    app_data = json.dumps({"issues": issues, "events": payload}).replace("</", "<\\/")
+    (SITE_DIR / "index.html").write_text(env.get_template("app.html.j2").render(places=PLACES, data_json=app_data))
+
+    # Old per-issue links (and email links) forward into the app.
     for issue in issues:
-        html = page.render(issue=prepare(issue), times=brew_times(issue), root="../", places=PLACES, events_json=events_json)
-        (SITE_DIR / "issues" / f"{issue['date_iso']}.html").write_text(html)
-
-    archive = env.get_template("archive.html.j2").render(issues=issues)
-    (SITE_DIR / "index.html").write_text(archive)
+        target = f"../#/issue/{issue['date_iso']}"
+        (SITE_DIR / "issues" / f"{issue['date_iso']}.html").write_text(
+            f'<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url={target}">'
+            f'<link rel="canonical" href="{SITE_URL}#/issue/{issue["date_iso"]}"><a href="{target}">Open this issue</a>'
+        )
     (SITE_DIR / ".nojekyll").touch()  # tells GitHub Pages to serve files as-is
-    print(f"Built {len(issues)} issue page(s) into {SITE_DIR}")
+    print(f"Built the app with {len(issues)} issue(s) into {SITE_DIR}")
     return SITE_DIR
 
 

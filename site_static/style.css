@@ -214,3 +214,61 @@ footer { padding-top: 32px; display: flex; flex-wrap: wrap; gap: 8px 24px; justi
 .explain-tabs button:hover { border-color: var(--cobalt); color: var(--cobalt); }
 .explain-tabs button[aria-selected="true"] { background: var(--cobalt); border-color: var(--cobalt); color: #FFFFFF; }
 .explain p { font-size: var(--step-1); line-height: 1.55; color: var(--ink); }
+
+/* ---------- App shell ----------
+   Phone: top app bar + tab bar fixed to the bottom. Laptop: tabs become a left sidebar. */
+.shell { max-width: 1120px; margin: 0 auto; }
+.appbar {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 6;
+  display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; align-items: center;
+  padding-block: 12px; background: var(--ceramic); border-bottom: 1px solid var(--rule);
+}
+.brand { font-family: var(--display); font-size: 1.6rem; line-height: 1; color: var(--ink); text-decoration: none; }
+.brand em { font-style: normal; color: var(--cobalt); }
+
+.tabs {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 7;
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  padding: 6px max(8px, env(safe-area-inset-right, 0px)) calc(6px + env(safe-area-inset-bottom, 0px)) max(8px, env(safe-area-inset-left, 0px));
+  background: var(--cup); border-top: 1px solid var(--rule);
+}
+.tabs a {
+  position: relative; display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 4px;
+  font: 500 0.75rem var(--body); color: var(--ink-faint); text-decoration: none; border-radius: 8px;
+}
+.tabs .ico { font-size: 1.2rem; line-height: 1; }
+.tabs a[aria-current="true"] { color: var(--cobalt); background: var(--cobalt-wash); }
+.badge { position: absolute; top: 2px; right: calc(50% - 26px); min-width: 18px; padding: 0 5px; border-radius: 999px; background: var(--latte); color: #FFFFFF; font: 600 0.6875rem/18px var(--body); text-align: center; }
+.view { padding-block: 8px calc(96px + env(safe-area-inset-bottom, 0px)); outline: none; }
+
+@media (min-width: 900px) {
+  .shell { display: grid; grid-template-columns: 170px minmax(0, 1fr); column-gap: 40px; }
+  .appbar { grid-column: 1 / -1; }
+  .tabs {
+    position: sticky; top: calc(72px + env(safe-area-inset-top, 0px)); align-self: start;
+    display: flex; flex-direction: column; gap: 4px; padding: 24px 0 0; background: none; border: 0;
+  }
+  .tabs a { flex-direction: row; gap: 10px; padding: 10px 12px; font-size: 0.95rem; }
+  .badge { position: static; margin-left: auto; }
+  .view { padding-bottom: 64px; }
+}
+
+/* Pages inside the app */
+.page-head { padding-block: 28px 18px; display: flex; flex-direction: column; gap: 4px; }
+.page-title { font-family: var(--display); font-size: var(--step-3); line-height: 1.05; }
+.page-sub { color: var(--ink-faint); }
+.search { width: 100%; padding: 14px 16px; border: 1px solid var(--rule); border-radius: 999px; background: var(--cup); color: var(--ink); font: inherit; margin-bottom: 18px; }
+.search:focus { border-color: var(--cobalt); }
+.empty { color: var(--ink-faint); padding-block: 12px; }
+.back { display: inline-block; margin-top: 18px; font: 500 0.8rem var(--mono); text-decoration: none; }
+.issue-head .masthead { padding-top: 28px; }
+.term.small { font-size: var(--step-2); }
+.loading { color: var(--ink-faint); padding-block: 40px; }
+
+/* Save (star) button */
+.save { margin-left: auto; width: 32px; height: 32px; display: inline-grid; place-items: center; border: 1px solid var(--rule); border-radius: 50%; background: var(--cup); color: var(--latte); cursor: pointer; font-size: 1rem; line-height: 1; }
+.save:hover { border-color: var(--latte); }
+.save[aria-pressed="true"] { background: var(--latte); border-color: var(--latte); color: #FFFFFF; }
+.meta { align-items: center; }
+.when .save { width: 26px; height: 26px; font-size: 0.85rem; margin-left: 6px; vertical-align: middle; }
+.night .save { background: transparent; border-color: #2B3F80; }

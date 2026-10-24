@@ -1,107 +1,290 @@
-// The AI Brew web edition: audience toggle and reveal cards.
+// The AI Brew web app: one page, four tabs (Today, Events, Archive, Saved), hash-based routing.
+// All data ships inside the page (#app-data), so it works offline and when opened from disk.
 
-const AUDIENCE_KEY = "aibrew-audience";
+const DATA = JSON.parse(document.getElementById("app-data").textContent);
+const ISSUES = DATA.issues; // newest first
+const PICKS = DATA.events.picks || {};
+const view = document.getElementById("view");
 
-function readAudience() {
-  try { return localStorage.getItem(AUDIENCE_KEY) || "everyone"; } catch { return "everyone"; }
+// ---------- small helpers ----------
+
+const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const store = {
+  get(key, fallback) { try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; } },
+  set(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* storage blocked */ } },
+};
+const when = (iso) => new Date(iso).toLocaleString(undefined, { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+const issueNo = (n) => String(n).padStart(3, "0");
+
+// ---------- saved stories ----------
+
+let saved = store.get("aibrew-saved", {});
+
+function updateSavedBadge() {
+  const count = Object.keys(saved).length;
+  const badge = document.getElementById("saved-count");
+  badge.textContent = count;
+  badge.hidden = count === 0;
 }
 
-function setAudience(audience) {
-  document.body.dataset.audience = audience;
-  document.querySelectorAll("button[data-audience]").forEach((button) => {
-    button.setAttribute("aria-pressed", String(button.dataset.audience === audience));
-  });
-  try { localStorage.setItem(AUDIENCE_KEY, audience); } catch { /* private mode: just don't remember */ }
+function toggleSave(story, issue) {
+  if (saved[story.link]) delete saved[story.link];
+  else saved[story.link] = { headline: story.headline || story.summary, summary: story.headline ? story.summary : "", link: story.link, source: story.source, date: issue.date_long, savedAt: Date.now() };
+  store.set("aibrew-saved", saved);
+  updateSavedBadge();
 }
 
-document.querySelectorAll("button[data-audience]").forEach((button) => {
-  button.addEventListener("click", () => setAudience(button.dataset.audience));
-});
-setAudience(readAudience());
+const saveButton = (story) => `<button type="button" class="save" data-save="${esc(story.link)}" aria-pressed="${Boolean(saved[story.link])}" aria-label="${saved[story.link] ? "Remove from saved" : "Save story"}">${saved[story.link] ? "&#9733;" : "&#9734;"}</button>`;
 
-document.querySelectorAll(".card .reveal").forEach((button) => {
-  const card = button.closest(".card");
-  const closedLabel = button.textContent;
-  button.addEventListener("click", () => {
-    const open = card.dataset.open !== "true";
-    card.dataset.open = String(open);
-    button.setAttribute("aria-expanded", String(open));
-    button.textContent = open ? "Hide" : closedLabel;
-  });
-});
+// ---------- pieces of an issue ----------
 
-// Near You: AI events for the reader's state or city, from events.json (rebuilt every morning).
-const PLACE_KEY = "aibrew-place";
-const picker = document.getElementById("place-picker");
+const photo = (story) => story.image
+  ? `<figure class="photo"><a href="${esc(story.link)}" tabindex="-1"><img src="${esc(story.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()"></a><figcaption>Image: ${esc(story.source)}</figcaption></figure>`
+  : "";
 
-if (picker) {
+const meta = (story) => `<div class="meta"><a href="${esc(story.link)}">Read at ${esc(story.source)} &rarr;</a>${saveButton(story)}</div>`;
+
+const section = (id, name, body, extraClass = "") => `
+  <section class="section ${extraClass}" id="${id}">
+    <div class="rail"><h2>${esc(name)}</h2></div>
+    <div class="content">${body}</div>
+  </section>`;
+
+function storyBlock(story, { lead = false, withPhoto = true, label = "" } = {}) {
+  let text = `<p>${esc(story.summary)}</p>`;
+  if (lead && story.explain) {
+    const versions = [["standard", "The short version", story.summary], ["kid", "Like I'm 10"], ["pm", "Like a PM"], ["engineer", "Like an engineer"]]
+      .map(([key, name, fixed]) => [key, name, fixed ?? story.explain[key]])
+      .filter(([, , value]) => value);
+    text = `<div class="explain">
+      <div class="explain-tabs" role="tablist" aria-label="Explain it like">${versions.map(([key, name], i) => `<button type="button" role="tab" aria-selected="${i === 0}" data-version="${key}">${name}</button>`).join("")}</div>
+      ${versions.map(([key, , value], i) => `<p data-version="${key}"${i ? " hidden" : ""}>${esc(value)}</p>`).join("")}
+    </div>`;
+  }
+  return `<article class="story${lead ? " lead" : ""}">
+    ${withPhoto ? photo(story) : ""}
+    ${label ? `<span class="label">${esc(label)}</span>` : ""}
+    <h3>${esc(story.headline)}</h3>
+    ${text}
+    ${lead && story.why ? `<div class="why"><b>Why you should care</b>${esc(story.why)}</div>` : ""}
+    ${meta(story)}
+  </article>`;
+}
+
+function renderIssue(issue) {
+  const parts = [];
+  parts.push(`<header class="issue-head">
+    <div class="masthead">
+      <h1 class="wordmark">The AI <em>Brew</em></h1>
+      <div class="stamp"><b>No. ${issueNo(issue.number)}</b>${esc(issue.date_long)}</div>
+    </div>
+  </header>`);
+
+  const pour = issue.big_pour || [];
+  if (pour.length) {
+    const pair = pour.slice(1, 3);
+    const pairPhotos = pair.every((s) => s.image);
+    parts.push(section("the-big-pour", "The Big Pour", `
+      ${storyBlock(pour[0], { lead: true })}
+      ${pair.length ? `<div class="pair-stories">${pair.map((s) => storyBlock(s, { withPhoto: pairPhotos })).join("")}</div>` : ""}`));
+  }
+
+  const builder = issue.builder || {};
+  if ((builder.stories || []).length || builder.concept) {
+    const concept = builder.concept ? `<div class="card" data-open="false">
+        <span class="label">Concept to know</span><span class="term">${esc(builder.concept.term)}</span>
+        <button type="button" class="reveal" aria-expanded="false">What does it mean?</button>
+        <div class="hidden-part"><p class="def">${esc(builder.concept.explanation)}</p></div></div>` : "";
+    parts.push(section("the-builders-bar", "The Builder's Bar", (builder.stories || []).map((s) => storyBlock(s, { label: s.label })).join("") + concept, "night eng-only"));
+  }
+
+  if ((issue.office_blend || []).length) parts.push(section("office-blend", "Office Blend", issue.office_blend.map((s) => storyBlock(s)).join("")));
+
+  if ((issue.still_roasting || []).length) parts.push(section("still-roasting", "Still Roasting", `<ul class="list">${issue.still_roasting.map((item, i) => `
+    <li><span class="n">${String(i + 1).padStart(2, "0")}</span><div><p>${esc(item.summary)}</p>
+    <span class="when">${esc(item.date_mentioned || "Date not announced")} &middot; <a href="${esc(item.link)}">${esc(item.source)}</a></span></div></li>`).join("")}</ul>`));
+
+  if ((issue.quick_sips || []).length) parts.push(section("quick-sips", "Quick Sips", `<ul class="list">${issue.quick_sips.map((sip) => `
+    <li><span class="n">&mdash;</span><div><p>${esc(sip.summary)}</p><span class="when"><a href="${esc(sip.link)}">${esc(sip.source)}</a> ${saveButton(sip)}</span></div></li>`).join("")}</ul>`));
+
+  if (issue.long_read) parts.push(section("the-long-read", "The Long Read", storyBlock(issue.long_read, { withPhoto: false, label: `from ${issue.long_read.source}` })));
+
+  const cards = [];
+  if (issue.word) cards.push(`<div class="card" data-open="false">
+    <span class="label">Word of the day &middot; ${esc(issue.word.theme)}, ${esc(issue.word.day)} of 5</span>
+    <span class="term">${esc(issue.word.term)}</span>
+    <button type="button" class="reveal" aria-expanded="false">Reveal the meaning</button>
+    <div class="hidden-part"><p>${esc(issue.word.definition)}</p><p class="def">${esc(issue.word.analogy)}</p></div></div>`);
+  if (issue.keep_brewing) cards.push(`<div class="card"><span class="label">Keep brewing</span>
+    <span class="term small">${esc(issue.keep_brewing.name)}</span><p class="def">${esc(issue.keep_brewing.description)}</p>
+    <a href="${esc(issue.keep_brewing.link)}">Start here &rarr;</a></div>`);
+  if (cards.length) parts.push(section("learn", "Learn", `<div class="cards">${cards.join("")}</div>`));
+
+  if (issue.poll) parts.push(section("poll", "Tip Jar Poll", `
+    ${issue.poll.last_results ? `<p class="mono">Last time: ${esc(issue.poll.last_results)}</p>` : ""}
+    <p class="question">${esc(issue.poll.question)}</p>
+    <div class="vote">${["YES", "NO"].map((a) => `<a href="mailto:${esc(issue.reply_to)}?subject=${encodeURIComponent(`Poll ${issue.date_iso}: ${a}`)}">${a}</a>`).join("")}</div>`));
+
+  return parts.join("");
+}
+
+// ---------- views ----------
+
+function viewToday() { return ISSUES.length ? renderIssue(ISSUES[0]) : `<p class="empty">The first issue is still brewing.</p>`; }
+
+function viewIssue(date) {
+  const issue = ISSUES.find((i) => i.date_iso === date);
+  return issue ? `<a class="back" href="#/archive">&larr; Archive</a>${renderIssue(issue)}` : `<p class="empty">No issue for ${esc(date)}. <a href="#/archive">See the archive</a>.</p>`;
+}
+
+function viewEvents() {
+  return `<div class="page-head"><h1 class="page-title">AI events near you</h1>
+    <p class="page-sub">Meetups, hackathons, and talks in the next 30 days, from Luma.</p></div>
+    <div class="picker">${document.getElementById("places-template").innerHTML}</div>
+    <p class="events-note" id="events-note" hidden></p>
+    <ul class="list events" id="events-list"></ul>
+    <p class="empty" id="events-empty"></p>`;
+}
+
+function renderEvents(place) {
   const list = document.getElementById("events-list");
   const note = document.getElementById("events-note");
   const empty = document.getElementById("events-empty");
-  const eventsUrl = new URL("events.json", document.currentScript?.src || location.href);
-  let picks = null;
-
-  const when = (iso) => new Date(iso).toLocaleString(undefined, {
-    weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit",
-  });
-
-  function render(place) {
-    list.replaceChildren();
-    note.hidden = true;
-    if (!place) { empty.hidden = false; empty.textContent = "Pick a place to see upcoming AI meetups, hackathons, and talks. Listings come from Luma."; return; }
-    const pick = picks && picks[place];
-    if (!pick) { empty.hidden = false; empty.textContent = "Events couldn't be loaded right now. Try again later."; return; }
-    if (pick.note) { note.textContent = pick.note; note.hidden = false; }
-    if (!pick.events.length) { empty.hidden = false; empty.textContent = `No AI events listed near ${pick.label} in the next 30 days.`; return; }
-    empty.hidden = true;
-    pick.events.forEach((event, i) => {
-      const li = document.createElement("li");
-      li.innerHTML = `<span class="n">${String(i + 1).padStart(2, "0")}</span><div><a class="event-title"></a><span class="when"></span></div>`;
-      const link = li.querySelector("a");
-      link.href = event.link;
-      link.textContent = event.title;
-      li.querySelector(".when").textContent = `${when(event.start)} · ${event.venue} · ${event.city}`;
-      list.append(li);
-    });
-  }
-
-  const embedded = document.getElementById("events-data");
-  try {
-    picks = JSON.parse(embedded.textContent).picks;
-    render(picker.value);
-  } catch {
-    fetch(eventsUrl)
-      .then((response) => response.json())
-      .then((data) => { picks = data.picks; render(picker.value); })
-      .catch(() => { picks = {}; render(picker.value); });
-  }
-
-  try { picker.value = localStorage.getItem(PLACE_KEY) || ""; } catch { /* storage blocked */ }
-  picker.addEventListener("change", () => {
-    try { localStorage.setItem(PLACE_KEY, picker.value); } catch { /* storage blocked */ }
-    render(picker.value);
-  });
+  list.replaceChildren();
+  note.hidden = true;
+  empty.hidden = false;
+  if (!place) { empty.textContent = "Pick a state or city to see what's coming up."; return; }
+  const pick = PICKS[place];
+  if (!pick) { empty.textContent = "Events couldn't be loaded. Try again tomorrow."; return; }
+  if (pick.note) { note.textContent = pick.note; note.hidden = false; }
+  if (!pick.events.length) { empty.textContent = `No AI events listed near ${pick.label} in the next 30 days.`; return; }
+  empty.hidden = true;
+  list.innerHTML = pick.events.map((e, i) => `<li><span class="n">${String(i + 1).padStart(2, "0")}</span>
+    <div><a class="event-title" href="${esc(e.link)}">${esc(e.title)}</a>
+    <span class="when">${esc(when(e.start))} &middot; ${esc(e.venue)} &middot; ${esc(e.city)}</span></div></li>`).join("");
 }
 
-// Light / dark toggle. With no saved choice, the page follows the device setting.
-const themeButton = document.getElementById("theme-toggle");
-if (themeButton) {
-  const isDark = () => (document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")) === "dark";
-  const label = () => themeButton.setAttribute("aria-label", isDark() ? "Switch to light theme" : "Switch to dark theme");
-  label();
-  themeButton.addEventListener("click", () => {
-    const next = isDark() ? "light" : "dark";
-    document.documentElement.dataset.theme = next;
-    try { localStorage.setItem("aibrew-theme", next); } catch { /* storage blocked */ }
-    label();
-  });
-}
-
-// Explain it like…: switch between versions of the lead story.
-document.querySelectorAll(".explain").forEach((box) => {
-  const tabs = box.querySelectorAll("button[data-version]");
-  tabs.forEach((tab) => tab.addEventListener("click", () => {
-    tabs.forEach((t) => t.setAttribute("aria-selected", String(t === tab)));
-    box.querySelectorAll("p[data-version]").forEach((p) => { p.hidden = p.dataset.version !== tab.dataset.version; });
-  }));
+// Every story across every issue, for search.
+const ALL_STORIES = ISSUES.flatMap((issue) => {
+  const stories = [
+    ...(issue.big_pour || []), ...(issue.office_blend || []), ...(issue.quick_sips || []),
+    ...((issue.builder || {}).stories || []), ...(issue.long_read ? [issue.long_read] : []),
+  ];
+  return stories.map((s) => ({ ...s, issue }));
 });
+
+function viewArchive() {
+  return `<div class="page-head"><h1 class="page-title">Archive</h1>
+    <p class="page-sub">${ISSUES.length} issue${ISSUES.length === 1 ? "" : "s"} so far. Search every story.</p></div>
+    <label for="search" class="visually-hidden">Search stories</label>
+    <input id="search" class="search" type="search" placeholder="Search: OpenAI, agents, Pennsylvania&hellip;" autocomplete="off">
+    <div id="results"></div>`;
+}
+
+function renderArchive(query) {
+  const results = document.getElementById("results");
+  const q = query.trim().toLowerCase();
+  if (!q) {
+    results.innerHTML = `<ul class="issues">${ISSUES.map((i) => `<li><a href="#/issue/${esc(i.date_iso)}">
+      <span class="mono">No. ${issueNo(i.number)}<br>${esc(i.date_long)}</span>
+      <div><h3>${esc(i.big_pour?.[0]?.headline || "The AI Brew")}</h3><p>${esc(i.big_pour?.[0]?.summary || "")}</p></div></a></li>`).join("")}</ul>`;
+    return;
+  }
+  const hits = ALL_STORIES.filter((s) => `${s.headline || ""} ${s.summary} ${s.source}`.toLowerCase().includes(q));
+  results.innerHTML = hits.length
+    ? `<p class="mono">${hits.length} stor${hits.length === 1 ? "y" : "ies"}</p><ul class="list">${hits.map((s) => `<li><span class="n">&mdash;</span><div>
+        <a class="event-title" href="${esc(s.link)}">${esc(s.headline || s.summary)}</a>
+        <span class="when">${esc(s.source)} &middot; <a href="#/issue/${esc(s.issue.date_iso)}">${esc(s.issue.date_long)}</a> ${saveButton(s)}</span></div></li>`).join("")}</ul>`
+    : `<p class="empty">No stories match &ldquo;${esc(query)}&rdquo;.</p>`;
+}
+
+function viewSaved() {
+  const items = Object.values(saved).sort((a, b) => b.savedAt - a.savedAt);
+  return `<div class="page-head"><h1 class="page-title">Saved</h1>
+    <p class="page-sub">Stories you starred. Kept in this browser only.</p></div>
+    ${items.length ? `<ul class="list">${items.map((s) => `<li><span class="n">&#9733;</span><div>
+      <a class="event-title" href="${esc(s.link)}">${esc(s.headline)}</a>
+      ${s.summary ? `<p>${esc(s.summary)}</p>` : ""}
+      <span class="when">${esc(s.source)} &middot; ${esc(s.date)} ${saveButton(s)}</span></div></li>`).join("")}</ul>`
+      : `<p class="empty">Nothing saved yet. Tap &#9734; next to any story to keep it here.</p>`}`;
+}
+
+// ---------- router ----------
+
+function route() {
+  const [, tab = "today", arg] = location.hash.split("/");
+  const views = { today: viewToday, events: viewEvents, archive: viewArchive, saved: viewSaved, issue: () => viewIssue(arg) };
+  view.innerHTML = (views[tab] || viewToday)();
+  document.querySelectorAll(".tabs a").forEach((a) => a.setAttribute("aria-current", String(a.dataset.tab === (tab === "issue" ? "archive" : tab))));
+
+  if (tab === "events") {
+    const picker = document.getElementById("place-picker");
+    picker.value = store.get("aibrew-place", "");
+    picker.addEventListener("change", () => { store.set("aibrew-place", picker.value); renderEvents(picker.value); });
+    renderEvents(picker.value);
+  }
+  if (tab === "archive") {
+    const search = document.getElementById("search");
+    search.addEventListener("input", () => renderArchive(search.value));
+    renderArchive("");
+  }
+  window.scrollTo(0, 0);
+}
+
+// One click handler for everything inside the view.
+view.addEventListener("click", (event) => {
+  const save = event.target.closest("button.save");
+  if (save) {
+    const story = ALL_STORIES.find((s) => s.link === save.dataset.save) || saved[save.dataset.save];
+    toggleSave(story, story.issue || { date_long: story.date });
+    const on = Boolean(saved[save.dataset.save]);
+    document.querySelectorAll(`button.save[data-save="${CSS.escape(save.dataset.save)}"]`).forEach((b) => {
+      b.setAttribute("aria-pressed", String(on));
+      b.setAttribute("aria-label", on ? "Remove from saved" : "Save story");
+      b.innerHTML = on ? "&#9733;" : "&#9734;";
+    });
+    if (location.hash === "#/saved") route();
+    return;
+  }
+  const tab = event.target.closest(".explain-tabs button");
+  if (tab) {
+    const box = tab.closest(".explain");
+    box.querySelectorAll(".explain-tabs button").forEach((t) => t.setAttribute("aria-selected", String(t === tab)));
+    box.querySelectorAll("p[data-version]").forEach((p) => { p.hidden = p.dataset.version !== tab.dataset.version; });
+    return;
+  }
+  const reveal = event.target.closest(".card .reveal");
+  if (reveal) {
+    const card = reveal.closest(".card");
+    const open = card.dataset.open !== "true";
+    card.dataset.open = String(open);
+    reveal.setAttribute("aria-expanded", String(open));
+    reveal.dataset.closedLabel ??= reveal.textContent;
+    reveal.textContent = open ? "Hide" : reveal.dataset.closedLabel;
+  }
+});
+
+// ---------- audience + theme ----------
+
+function setAudience(audience) {
+  document.body.dataset.audience = audience;
+  document.querySelectorAll("button[data-audience]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.audience === audience)));
+  store.set("aibrew-audience", audience);
+}
+document.querySelectorAll("button[data-audience]").forEach((b) => b.addEventListener("click", () => setAudience(b.dataset.audience)));
+setAudience(store.get("aibrew-audience", "everyone"));
+
+const themeButton = document.getElementById("theme-toggle");
+const isDark = () => (document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")) === "dark";
+const themeLabel = () => themeButton.setAttribute("aria-label", isDark() ? "Switch to light theme" : "Switch to dark theme");
+themeButton.addEventListener("click", () => {
+  const next = isDark() ? "light" : "dark";
+  document.documentElement.dataset.theme = next;
+  try { localStorage.setItem("aibrew-theme", next); } catch { /* storage blocked */ }
+  themeLabel();
+});
+themeLabel();
+
+updateSavedBadge();
+window.addEventListener("hashchange", route);
+route();

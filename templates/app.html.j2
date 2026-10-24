@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The AI Brew</title>
+<meta name="description" content="A 3-minute AI briefing every weekday morning, written by an AI agent and checked against its sources.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Hanken+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>
+  // Apply the saved theme before the page paints, so it never flashes the wrong colours.
+  try { const t = localStorage.getItem("aibrew-theme"); if (t) document.documentElement.dataset.theme = t; } catch {}
+</script>
+</head>
+<body data-audience="everyone">
+<div class="shell">
+
+  <header class="appbar">
+    <a class="brand" href="#/today">The AI <em>Brew</em></a>
+    <div class="controls">
+      <div class="audience" role="group" aria-label="Show stories for">
+        <button type="button" data-audience="everyone" aria-pressed="true">Everyone</button>
+        <button type="button" data-audience="engineers" aria-pressed="false">Engineers</button>
+      </div>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to dark theme"><span class="sun" aria-hidden="true">&#9728;</span><span class="moon" aria-hidden="true">&#9790;</span></button>
+    </div>
+  </header>
+
+  <nav class="tabs" aria-label="Sections">
+    <a href="#/today" data-tab="today"><span class="ico" aria-hidden="true">&#9749;</span>Today</a>
+    <a href="#/events" data-tab="events"><span class="ico" aria-hidden="true">&#9673;</span>Events</a>
+    <a href="#/archive" data-tab="archive"><span class="ico" aria-hidden="true">&#8981;</span>Archive</a>
+    <a href="#/saved" data-tab="saved"><span class="ico" aria-hidden="true">&#9734;</span>Saved <span class="badge" id="saved-count" hidden></span></a>
+  </nav>
+
+  <main id="view" class="view" tabindex="-1" aria-live="polite">
+    <p class="loading">Pouring today's issue&hellip;</p>
+  </main>
+
+  <template id="places-template">
+    <select id="place-picker">
+      <option value="">Choose your state or city</option>
+      <optgroup label="United States">
+        {%- for code, name in places.us %}<option value="{{ code }}">{{ name }}</option>{% endfor %}
+      </optgroup>
+      <optgroup label="India">
+        {%- for name in places.india %}<option value="{{ name }}">{{ name }}</option>{% endfor %}
+      </optgroup>
+    </select>
+  </template>
+</div>
+
+<script type="application/json" id="app-data">{{ data_json | safe }}</script>
+<script src="app.js"></script>
+</body>
+</html>
