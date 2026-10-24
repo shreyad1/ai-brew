@@ -273,10 +273,3 @@ footer { padding-top: 32px; display: flex; flex-wrap: wrap; gap: 8px 24px; justi
 .when .save { width: 26px; height: 26px; font-size: 0.85rem; margin-left: 6px; vertical-align: middle; }
 .night .save { background: transparent; border-color: #2B3F80; }
 
-/* Footer */
-.site-footer { display: flex; flex-direction: column; align-items: center; gap: 4px; text-align: center; padding-block: 28px calc(110px + env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--rule); color: var(--ink-soft); }
-.site-footer p:first-child { font-family: var(--display); font-size: 1.25rem; color: var(--ink); }
-.site-footer .heart { color: #D6336C; }
-.site-footer .fine { font-size: 0.8rem; color: var(--ink-faint); }
-.view { padding-bottom: 32px; }
-@media (min-width: 900px) { .site-footer { grid-column: 2; padding-bottom: 40px; } }
