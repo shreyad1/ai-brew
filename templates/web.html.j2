@@ -130,6 +130,27 @@
   </section>
   {%- endif %}
 
+  <section class="section" id="near-you">
+    {{ rail("Near You", "", "learn") }}
+    <div class="content">
+      <div class="picker">
+        <label for="place-picker">AI events in the next 30 days near</label>
+        <select id="place-picker">
+          <option value="">Choose your state or city</option>
+          <optgroup label="United States">
+            {%- for code, name in places.us %}<option value="{{ code }}">{{ name }}</option>{% endfor %}
+          </optgroup>
+          <optgroup label="India">
+            {%- for name in places.india %}<option value="{{ name }}">{{ name }}</option>{% endfor %}
+          </optgroup>
+        </select>
+      </div>
+      <p class="events-note" id="events-note" hidden></p>
+      <ul class="list events" id="events-list"></ul>
+      <p class="events-empty" id="events-empty">Pick a place to see upcoming AI meetups, hackathons, and talks. Listings come from Luma.</p>
+    </div>
+  </section>
+
   {%- if issue.quick_sips %}
   <section class="section" id="quick-sips">
     {{ rail("Quick Sips", "More AI news, one line each.", "quick_sips") }}

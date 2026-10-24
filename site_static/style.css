@@ -182,3 +182,15 @@ footer { padding-top: 32px; display: flex; flex-wrap: wrap; gap: 8px 24px; justi
   .masthead { grid-template-columns: 1fr; }
   .stamp { text-align: left; }
 }
+
+/* Near You */
+.picker { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.picker label { font-weight: 600; }
+.picker select {
+  font: 500 0.95rem var(--body); padding: 10px 36px 10px 14px; border: 1px solid var(--cobalt); border-radius: 999px;
+  background: var(--cup); color: var(--ink); max-width: 100%;
+}
+.events-note { padding: 10px 14px; background: var(--cobalt-wash); border-left: 3px solid var(--cobalt); border-radius: 0 4px 4px 0; font-size: 0.9rem; }
+.events-empty { color: var(--ink-faint); }
+.event-title { display: block; font-weight: 600; color: var(--ink); text-decoration: none; }
+.event-title:hover { color: var(--cobalt); text-decoration: underline; }

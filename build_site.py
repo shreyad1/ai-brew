@@ -4,6 +4,7 @@ import json
 import shutil
 from pathlib import Path
 
+import events
 from render import env, prepare
 
 ROOT = Path(__file__).parent
@@ -18,6 +19,12 @@ def load_issues() -> list[dict]:
     issues = [json.loads(p.read_text()) for p in paths]
     return sorted(issues, key=lambda issue: issue["date_iso"], reverse=True)
 
+
+# Choices for the "Near you" picker: every US state, then the Indian cities Luma covers.
+PLACES = {
+    "us": sorted(((code, name) for code, (name, _, _) in events.US_STATES.items()), key=lambda p: p[1]),
+    "india": [c["city"] for c in events.LUMA_CITIES if c["region"] == "India"],
+}
 
 WORDS_PER_MINUTE = 230  # average adult reading speed
 
@@ -58,8 +65,17 @@ def build() -> Path:
     issues = load_issues()
     page = env.get_template("web.html.j2")
     for issue in issues:
-        html = page.render(issue=prepare(issue), times=brew_times(issue), root="../")
+        html = page.render(issue=prepare(issue), times=brew_times(issue), root="../", places=PLACES)
         (SITE_DIR / "issues" / f"{issue['date_iso']}.html").write_text(html)
+
+    try:
+        data = events.collect_all()
+        payload = {"generated": data["generated"], "picks": events.picks_for_web(data)}
+        print(f"Events: {sum(len(c['events']) for c in data['cities'])} across {len(data['cities'])} cities")
+    except Exception as error:  # events are a bonus; never block the site on them
+        print(f"Events skipped: {error}")
+        payload = {"generated": None, "picks": {}}
+    (SITE_DIR / "events.json").write_text(json.dumps(payload))
 
     archive = env.get_template("archive.html.j2").render(issues=issues)
     (SITE_DIR / "index.html").write_text(archive)

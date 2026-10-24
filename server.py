@@ -267,5 +267,34 @@ def get_long_reads(days: int = 14, limit: int = 10) -> dict:
     return {"stories": stories[:limit], "failed_feeds": failed_feeds}
 
 
+@mcp.tool()
+def get_ai_events(place: str, days_ahead: int = 30) -> dict:
+    """Find upcoming in-person and online AI events (meetups, hackathons, talks) near a place.
+
+    Data comes from Luma's public city calendars. Supported: any US state (name or code,
+    e.g. "Texas" or "TX") and the Indian cities New Delhi, Mumbai, and Bengaluru.
+
+    Args:
+        place: A US state or one of the supported Indian cities.
+        days_ahead: How many days ahead to look (1-60).
+    """
+    from events import LUMA_CITIES, US_STATES, fetch_city_events  # local import: events imports this module
+
+    days_ahead = max(1, min(days_ahead, 60))
+    wanted = place.strip().lower()
+    codes = [code for code, (name, _, _) in US_STATES.items() if wanted in (code.lower(), name.lower())]
+    cities = [c for c in LUMA_CITIES if (codes and c["region"] == codes[0]) or c["city"].lower() == wanted]
+    if not cities:
+        return {"events": [], "note": f"No Luma city calendar for {place!r}. Try a US state or New Delhi, Mumbai, Bengaluru."}
+
+    events, failed = [], []
+    for city in cities:
+        try:
+            events += fetch_city_events(city, days_ahead)
+        except Exception as error:
+            failed.append(f"{city['city']}: {error}")
+    return {"events": sorted(events, key=lambda e: e["start"]), "failed_feeds": failed}
+
+
 if __name__ == "__main__":
     mcp.run()
