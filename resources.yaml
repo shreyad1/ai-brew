@@ -1,0 +1,22 @@
+# Keep Brewing. One way to stay up to date on AI. Links checked Oct 24, 2026.
+resources:
+  - name: Elements of AI
+    description: A free beginner course, no coding or maths needed. One short chapter with your morning coffee.
+    link: https://www.elementsofai.com/
+  - name: AI For Everyone
+    description: Andrew Ng's short, non-technical course on what AI can and can't do at work.
+    link: https://www.coursera.org/learn/ai-for-everyone
+  - name: One Useful Thing
+    description: Ethan Mollick's newsletter on using AI at work, written for non-engineers.
+    link: https://www.oneusefulthing.org/
+  - name: Neural networks, visually
+    description: 3Blue1Brown's animated lessons that show how neural networks learn.
+    link: https://www.3blue1brown.com/topics/neural-networks
+  - name: Hugging Face LLM Course
+    description: A free hands-on course for engineers who want to build with language models.
+    link: https://huggingface.co/learn/llm-course
+  - name: Simon Willison's blog
+    description: Practical, hype-free notes on new AI tools from a respected engineer.
+    link: https://simonwillison.net/
+
+used: []

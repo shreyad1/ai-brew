@@ -1,0 +1,39 @@
+name: Daily issue
+
+on:
+  schedule:
+    # 12:00 UTC on weekdays = 7:00 AM Central in summer (CDT), 6:00 AM in winter (CST).
+    # GitHub can start scheduled runs 5-30 minutes late, so this leaves room before 7 AM.
+    - cron: "0 12 * * 1-5"
+  workflow_dispatch: # adds a "Run workflow" button for manual runs
+
+permissions:
+  contents: write # lets the job commit the new issue back to the repo
+
+concurrency:
+  group: daily-issue # never run two issues at once
+
+jobs:
+  build-issue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Write today's issue
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: uv run digest.py
+
+      - name: Save the issue to the repo
+        run: |
+          git config user.name "ai-brew-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add issues/ learning_path.yaml resources.yaml polls.yaml
+          git commit -m "Issue for $(date -u +%F)" || echo "Nothing new to commit"
+          git push

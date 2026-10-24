@@ -17,7 +17,7 @@ I'm Shreya, a software engineer moving into AI engineering. I'm building this pr
 
 ## Progress
 
-- **Milestone 1: done (Oct 24, 2026).** `server.py` has `fetch_feed()` and the `get_ai_news` tool. Repo: https://github.com/Shre100696/ai-brew
+- **Milestone 1: done (Oct 24, 2026).** `server.py` has `fetch_feed()` and the `get_ai_news` tool. Repo: https://github.com/shreyad1/ai-brew
 - **Milestone 2: done (Oct 24, 2026).** `sources.yaml` with sections `news`, `work`, `builder`, `longread`; sponsored filter (title, summary, categories); regex AI filter; headline dedupe (Jaccard 0.3); HTML-cleaned summaries capped at 500 chars. Tools: `get_ai_news`, `get_company_ai_updates`, `get_upcoming`, `get_dev_updates`, `get_long_reads`. Connected to Claude Desktop.
 - **Design decided (Oct 24):** "The AI Brew", a newspaper + coffee-shop theme, quiet-luxury palette (ivory `#FBF8F3`, espresso `#2E2620`, muted gold `#B39060`, champagne `#F5EFE6`, sage `#EEF0EA`, blush `#F3E9E4`). Sections: Today's menu, The Big Pour (top news), Office Blend (AI at work), Still Roasting (coming up), Quick Sips (one-liners), The Builder's Bar (dark card for engineers: new tool, benchmark, trending concept picked from the week's news), Long Read (weekly Substack essay), Word of the Day, Keep Brewing (one resource to stay current), Tip Jar Poll. Plain-English subtitles for non-tech readers. Barista's Tip was dropped.
 - **Next order:** email template (Jinja2) from the v4 design with one-click mailto poll buttons → Gemini writer with fact checks → interactive web edition on GitHub Pages → Buttondown sending → GitHub Actions.

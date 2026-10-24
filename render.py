@@ -20,9 +20,9 @@ def build_menu(issue: dict) -> list[tuple[str, str]]:
     """Table of contents: one line per section that has content today."""
     menu = []
     if issue.get("big_pour"):
-        menu.append(("The Big Pour", issue["big_pour"][0]["teaser"]))
+        menu.append(("The Big Pour", issue["big_pour"][0].get("teaser", "")))
     if issue.get("office_blend"):
-        menu.append(("Office Blend", issue["office_blend"][0]["teaser"]))
+        menu.append(("Office Blend", issue["office_blend"][0].get("teaser", "")))
     if issue.get("still_roasting"):
         menu.append(("Still Roasting", "launching soon"))
     if issue.get("quick_sips"):
