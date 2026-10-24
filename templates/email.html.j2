@@ -186,6 +186,7 @@
           <div style="font-family:{{ serif }};font-size:30px;margin-top:8px;">{{ w.term }}</div>
           <div style="font-family:{{ serif }};font-style:italic;font-size:12px;color:{{ muted }};">{{ w.theme }}, {{ w.day }} of 5</div>
           <div style="width:30px;border-top:1px solid {{ gold }};margin:12px auto;"></div>
+          {%- if w.heard is defined and w.heard %}<p style="margin:0 0 8px;font-size:13px;font-style:italic;color:{{ soft }};">{{ w.heard }}</p>{% endif %}
           <p style="margin:0;font-size:14px;">{{ w.definition }}</p>
           <p style="margin:8px 0 0;font-size:14px;font-family:{{ serif }};font-style:italic;color:{{ soft }};">{{ w.analogy }}</p>
         </td>

@@ -144,11 +144,12 @@
   "unsubscribe_url": "#",
   "sign_off": "That's the last sip. See you next morning.",
   "word": {
-    "term": "LLM",
-    "definition": "A large language model, an AI trained on huge amounts of text to predict and write words.",
-    "analogy": "Like a barista who has read every coffee menu in the world and can describe any drink you name.",
+    "term": "Evals",
+    "definition": "Automated tests for AI output. A fixed set of inputs, plus checks or graders that score whether the answers are correct, safe, and in the right format.",
+    "heard": "\"Did the new prompt regress the evals?\"",
+    "analogy": "Like a barista's tasting checklist run on every new recipe before it goes on the menu.",
     "reviewed": false,
-    "theme": "How AI works",
+    "theme": "Shipping LLM features",
     "day": 1
   },
   "keep_brewing": {

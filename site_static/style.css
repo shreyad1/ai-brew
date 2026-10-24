@@ -365,3 +365,5 @@ footer { padding-top: 32px; display: flex; flex-wrap: wrap; gap: 8px 24px; justi
 .explainer .latte { fill: var(--latte); }
 .explainer .latte-text { fill: var(--latte); }
 .explainer .on-glaze { fill: #FFFFFF; }
+.heard { margin: 0; padding: 10px 12px; border-left: 3px solid var(--latte); background: var(--ceramic); border-radius: 0 6px 6px 0; font-style: italic; color: var(--ink-soft); font-size: 0.95rem; }
+.heard span { display: block; font: normal 500 0.6875rem var(--mono); color: var(--latte); margin-bottom: 2px; letter-spacing: 0.04em; text-transform: uppercase; }
