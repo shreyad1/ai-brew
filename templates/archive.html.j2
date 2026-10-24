@@ -2,51 +2,51 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The AI Brew — every issue</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The AI Brew</title>
 <meta name="description" content="A 3-minute AI briefing every weekday morning, written by an AI agent and checked against its sources.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Hanken+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main class="paper">
-  <header class="nameplate">
-    <div class="monogram">AB</div>
-    <p class="kicker">The Morning Edition</p>
-    <h1>The AI Brew</h1>
-    <p class="tagline">AI news, slow-poured and easy to sip</p>
-    <div class="dateline"><span>{{ issues | length }} issue{{ "" if issues | length == 1 else "s" }}</span><span>Every weekday</span><span>3 min read</span></div>
+<div class="wrap">
+  <header>
+    <div class="masthead">
+      <h1 class="wordmark">The AI <em>Brew</em></h1>
+      <div class="stamp"><b>{{ "%03d" | format(issues | length) }}</b>issues poured<br>every weekday, 7 AM Central</div>
+    </div>
+    <p class="lede">A 3-minute AI briefing in plain English: the biggest stories, how companies use AI at work, and new tools for engineers. Every story links to its source.</p>
   </header>
 
-  <section class="subscribe">
-    <h2 class="label">Get your own cup</h2>
-    <p>Top AI news, how companies use AI at work, and new tools for engineers, in plain English. Every story links to its source.</p>
-    <form action="https://buttondown.com/api/emails/embed-subscribe/aibrew" method="post" target="_blank">
-      <label for="email" class="visually-hidden">Email address</label>
-      <input id="email" type="email" name="email" placeholder="you@example.com" required>
-      <button type="submit">Subscribe</button>
-    </form>
+  <section class="section" id="subscribe">
+    <div class="rail"><h2>Get your own cup</h2><p>Free. Unsubscribe anytime.</p></div>
+    <div class="content">
+      <form class="signup" action="https://buttondown.com/api/emails/embed-subscribe/aibrew" method="post" target="_blank">
+        <label for="email" class="visually-hidden">Email address</label>
+        <input id="email" type="email" name="email" placeholder="you@example.com" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
   </section>
 
-  <section>
-    <h2 class="label">The archive</h2><p class="sub">every cup so far, newest first</p>
-    <ul class="archive">
+  <section style="padding-block: 36px 0">
+    <ul class="issues">
       {%- for issue in issues %}
       <li><a href="issues/{{ issue.date_iso }}.html">
-        <span class="date">No. {{ issue.number }} &middot; {{ issue.date_long }}</span>
-        <h4>{{ issue.big_pour[0].headline if issue.big_pour else "The AI Brew" }}</h4>
-        <p class="tease">{{ issue.big_pour[0].summary if issue.big_pour else "" }}</p>
+        <span class="mono">No. {{ "%03d" | format(issue.number) }}<br>{{ issue.date_long }}</span>
+        <div><h3>{{ issue.big_pour[0].headline if issue.big_pour else "The AI Brew" }}</h3>
+        <p>{{ issue.big_pour[0].summary if issue.big_pour else "" }}</p></div>
       </a></li>
       {%- endfor %}
     </ul>
   </section>
 
   <footer>
-    <p class="ornament">&#10022; &#10022; &#10022;</p>
-    <p class="fine">Brewed by an AI agent from trusted news sites. <a href="https://github.com/shreyad1/ai-brew">How it's made</a></p>
+    <span>Written by an AI agent, checked against its sources.</span>
+    <a href="https://github.com/shreyad1/ai-brew">How it's made</a>
   </footer>
-</main>
+</div>
 </body>
 </html>

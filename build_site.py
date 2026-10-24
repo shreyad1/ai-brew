@@ -19,6 +19,35 @@ def load_issues() -> list[dict]:
     return sorted(issues, key=lambda issue: issue["date_iso"], reverse=True)
 
 
+WORDS_PER_MINUTE = 230  # average adult reading speed
+
+
+def words_in(value: object) -> int:
+    """Count words in every string inside a section, however deeply nested."""
+    if isinstance(value, str):
+        return len(value.split())
+    if isinstance(value, dict):
+        return sum(words_in(v) for k, v in value.items() if k not in ("link", "id", "source"))
+    if isinstance(value, list):
+        return sum(words_in(v) for v in value)
+    return 0
+
+
+def as_clock(words: int) -> str:
+    seconds = max(10, round(words / WORDS_PER_MINUTE * 60 / 5) * 5)
+    return f"{seconds // 60}:{seconds % 60:02d}"
+
+
+def brew_times(issue: dict) -> dict[str, str]:
+    """Real reading time per section, shown like a pour timer."""
+    counts = {key: words_in(issue.get(key)) for key in
+              ("big_pour", "builder", "office_blend", "still_roasting", "quick_sips", "long_read", "poll")}
+    counts["learn"] = words_in(issue.get("word")) + words_in(issue.get("keep_brewing"))
+    times = {key: as_clock(n) for key, n in counts.items()}
+    times["total"] = as_clock(sum(counts.values()))
+    return times
+
+
 def build() -> Path:
     if SITE_DIR.exists():
         shutil.rmtree(SITE_DIR)
@@ -29,7 +58,7 @@ def build() -> Path:
     issues = load_issues()
     page = env.get_template("web.html.j2")
     for issue in issues:
-        html = page.render(issue=prepare(issue), root="../")
+        html = page.render(issue=prepare(issue), times=brew_times(issue), root="../")
         (SITE_DIR / "issues" / f"{issue['date_iso']}.html").write_text(html)
 
     archive = env.get_template("archive.html.j2").render(issues=issues)

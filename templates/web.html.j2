@@ -1,20 +1,30 @@
 {#- The AI Brew web edition. Unlike the email, a web page can use real CSS and JavaScript. -#}
+{%- macro rail(name, plain, key) -%}
+<div class="rail">
+  <h2>{{ name }}</h2>
+  <p>{{ plain }}</p>
+  <span class="mono">brew time {{ times[key] }}</span>
+</div>
+{%- endmacro -%}
+{%- macro meta(story) -%}
+<div class="meta"><a href="{{ story.link }}">Read at {{ story.source }} &rarr;</a></div>
+{%- endmacro -%}
 <!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The AI Brew — {{ issue.date_long }}</title>
-<meta name="description" content="{{ issue.big_pour[0].headline if issue.big_pour else 'AI news, slow-poured and easy to sip' }}">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The AI Brew No. {{ issue.number }}</title>
+<meta name="description" content="{{ issue.big_pour[0].headline if issue.big_pour else 'A 3-minute AI briefing every weekday morning.' }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Hanken+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ root }}style.css">
 </head>
-<body>
-<main class="paper">
+<body data-audience="everyone">
+<div class="wrap">
 
-  <nav class="topbar">
+  <nav class="bar">
     <a href="{{ root }}index.html">&larr; All issues</a>
     <div class="audience" role="group" aria-label="Show stories for">
       <button type="button" data-audience="everyone" aria-pressed="true">Everyone</button>
@@ -22,82 +32,81 @@
     </div>
   </nav>
 
-  <header class="nameplate">
-    <div class="monogram">AB</div>
-    <p class="kicker">The Morning Edition</p>
-    <h1>The AI Brew</h1>
-    <p class="tagline">AI news, slow-poured and easy to sip</p>
-    <div class="dateline"><span>No. {{ issue.number }}</span><span>{{ issue.date_long }}</span><span>{{ issue.read_minutes }} min read</span></div>
-  </header>
-
-  <section class="menu">
-    <p class="menu-title">~ Today's menu ~</p>
-    <ul>
+  <header>
+    <div class="masthead">
+      <h1 class="wordmark">The AI <em>Brew</em></h1>
+      <div class="stamp"><b>No. {{ "%03d" | format(issue.number) }}</b>{{ issue.date_long }}<br>total brew time {{ times.total }}</div>
+    </div>
+    {%- if issue.big_pour %}
+    <p class="lede">Good morning. {{ issue.big_pour[0].headline }}, plus {{ (issue.office_blend or []) | length + (issue.quick_sips or []) | length + 2 }} more stories, in about {{ issue.read_minutes }} minutes.</p>
+    {%- endif %}
+    <nav class="ticket" aria-label="In this issue">
       {%- for name, teaser in issue.menu %}
-      <li{% if name == "The Builder's Bar" %} class="eng-only"{% endif %}><span class="star">&#10022;</span><b>{{ name }}</b><span>{{ teaser }}</span></li>
+      <a href="#{{ name | lower | replace(' ', '-') | replace("'", '') }}"{% if name == "The Builder's Bar" %} class="eng-only"{% endif %}><b>{{ name }}</b><span>{{ teaser }}</span></a>
       {%- endfor %}
-    </ul>
-  </section>
+    </nav>
+  </header>
 
   {%- if issue.big_pour %}
   {%- set lead = issue.big_pour[0] %}
-  <section id="big-pour">
-    <h2 class="label">The Big Pour</h2><p class="sub">today's biggest AI news</p>
-    <article class="lead">
-      <h3>{{ lead.headline }}</h3>
-      <p class="dropcap">{{ lead.summary }}</p>
-      {%- if lead.why %}<blockquote>Why you should care: {{ lead.why }}</blockquote>{% endif %}
-      <a class="more" href="{{ lead.link }}">Read the full story</a> <span class="src">{{ lead.source }}</span>
-    </article>
-    <div class="columns">
-      {%- for story in issue.big_pour[1:3] %}
-      <article>
-        <h4>{{ story.headline }}</h4>
-        <p>{{ story.summary }}</p>
-        <a class="more" href="{{ story.link }}">Read more</a> <span class="src">{{ story.source }}</span>
+  <section class="section" id="the-big-pour">
+    {{ rail("The Big Pour", "Today's biggest AI news.", "big_pour") }}
+    <div class="content">
+      <article class="story lead">
+        <h3>{{ lead.headline }}</h3>
+        <p>{{ lead.summary }}</p>
+        {%- if lead.why %}<div class="why"><b>Why you should care</b>{{ lead.why }}</div>{% endif %}
+        {{ meta(lead) }}
       </article>
-      {%- endfor %}
-    </div>
-  </section>
-  <p class="ornament">&#10022; &#10022; &#10022;</p>
-  {%- endif %}
-
-  {#- Engineers see the Builder's Bar right after the top stories #}
-  {%- macro builders_bar() %}
-  {%- if issue.builder and (issue.builder.stories or issue.builder.concept) %}
-  <section id="builders-bar" class="eng-only">
-    <h2 class="label">The Builder's Bar</h2><p class="sub">new AI tools &amp; ideas for engineers</p>
-    <div class="dark-card">
-      {%- for story in issue.builder.stories %}
-      <article>
-        <p class="tag">{{ story.label }}</p>
-        <h4>{{ story.headline }}</h4>
-        <p>{{ story.summary }}</p>
-        <a class="more" href="{{ story.link }}">Read more</a> <span class="src">{{ story.source }}</span>
-      </article>
-      {%- endfor %}
-      {%- if issue.builder.concept %}
-      {%- set c = issue.builder.concept %}
-      <button type="button" class="flip concept" aria-label="Flip to see what {{ c.term }} means">
-        <span class="face front"><span class="tag">Concept to know</span><span class="term">{{ c.term }}</span><span class="hint">tap to reveal</span></span>
-        <span class="face back"><span class="tag">{{ c.term }}</span><span>{{ c.explanation }}</span></span>
-      </button>
+      {%- if issue.big_pour | length > 1 %}
+      <div class="pair-stories">
+        {%- for story in issue.big_pour[1:3] %}
+        <article class="story">
+          <h3>{{ story.headline }}</h3>
+          <p>{{ story.summary }}</p>
+          {{ meta(story) }}
+        </article>
+        {%- endfor %}
+      </div>
       {%- endif %}
     </div>
   </section>
   {%- endif %}
-  {%- endmacro %}
-  {{ builders_bar() }}
+
+  {%- if issue.builder and (issue.builder.stories or issue.builder.concept) %}
+  <section class="section night eng-only" id="the-builders-bar">
+    {{ rail("The Builder's Bar", "New AI tools and ideas for engineers.", "builder") }}
+    <div class="content">
+      {%- for story in issue.builder.stories %}
+      <article class="story">
+        <span class="label">{{ story.label }}</span>
+        <h3>{{ story.headline }}</h3>
+        <p>{{ story.summary }}</p>
+        {{ meta(story) }}
+      </article>
+      {%- endfor %}
+      {%- if issue.builder.concept %}
+      {%- set c = issue.builder.concept %}
+      <div class="card" data-open="false">
+        <span class="label">Concept to know</span>
+        <span class="term">{{ c.term }}</span>
+        <button type="button" class="reveal" aria-expanded="false">What does it mean?</button>
+        <div class="hidden-part"><p class="def">{{ c.explanation }}</p></div>
+      </div>
+      {%- endif %}
+    </div>
+  </section>
+  {%- endif %}
 
   {%- if issue.office_blend %}
-  <section id="office-blend">
-    <h2 class="label">Office Blend</h2><p class="sub">how real companies use AI at work</p>
-    <div class="panel sage">
+  <section class="section" id="office-blend">
+    {{ rail("Office Blend", "How real companies use AI at work.", "office_blend") }}
+    <div class="content">
       {%- for story in issue.office_blend %}
-      <article>
-        <h4>{{ story.headline }}</h4>
+      <article class="story">
+        <h3>{{ story.headline }}</h3>
         <p>{{ story.summary }}</p>
-        <a class="more" href="{{ story.link }}">Read more</a> <span class="src">{{ story.source }}</span>
+        {{ meta(story) }}
       </article>
       {%- endfor %}
     </div>
@@ -105,89 +114,106 @@
   {%- endif %}
 
   {%- if issue.still_roasting %}
-  <section id="still-roasting">
-    <h2 class="label">Still Roasting</h2><p class="sub">coming soon, worth watching</p>
-    <ol class="roman">
-      {%- for item in issue.still_roasting %}
-      <li>{{ item.summary }} <i>{{ item.date_mentioned or "Date not announced." }}</i> <a href="{{ item.link }}">Link</a></li>
-      {%- endfor %}
-    </ol>
+  <section class="section" id="still-roasting">
+    {{ rail("Still Roasting", "Coming soon. Worth watching.", "still_roasting") }}
+    <div class="content">
+      <ul class="list">
+        {%- for item in issue.still_roasting %}
+        <li><span class="n">{{ "%02d" | format(loop.index) }}</span><div><p>{{ item.summary }}</p><span class="when">{{ item.date_mentioned or "Date not announced" }} &middot; <a href="{{ item.link }}">{{ item.source }}</a></span></div></li>
+        {%- endfor %}
+      </ul>
+    </div>
   </section>
   {%- endif %}
 
   {%- if issue.quick_sips %}
-  <section id="quick-sips">
-    <h2 class="label">Quick Sips</h2><p class="sub">more AI news, one line each</p>
-    <ul class="panel blush sips">
-      {%- for sip in issue.quick_sips %}
-      <li><span class="star">&#10022;</span> {{ sip.summary }} <a href="{{ sip.link }}">{{ sip.source }}</a></li>
-      {%- endfor %}
-    </ul>
+  <section class="section" id="quick-sips">
+    {{ rail("Quick Sips", "More AI news, one line each.", "quick_sips") }}
+    <div class="content">
+      <ul class="list">
+        {%- for sip in issue.quick_sips %}
+        <li><span class="n">&mdash;</span><div><p>{{ sip.summary }}</p><span class="when"><a href="{{ sip.link }}">{{ sip.source }}</a></span></div></li>
+        {%- endfor %}
+      </ul>
+    </div>
   </section>
   {%- endif %}
 
   {%- if issue.long_read %}
   {%- set lr = issue.long_read %}
-  <section id="long-read">
-    <h2 class="label">The Long Read</h2><p class="sub">one essay worth your second cup</p>
-    <article class="bordered center">
-      <h4>{{ lr.headline }}</h4>
-      <p class="tag">from {{ lr.source }}</p>
-      <p class="italic">{{ lr.summary }}</p>
-      <a class="more" href="{{ lr.link }}">Read the essay</a>
-    </article>
+  <section class="section" id="the-long-read">
+    {{ rail("The Long Read", "One essay for your second cup.", "long_read") }}
+    <div class="content">
+      <article class="story">
+        <span class="label">from {{ lr.source }}</span>
+        <h3>{{ lr.headline }}</h3>
+        <p>{{ lr.summary }}</p>
+        {{ meta(lr) }}
+      </article>
+    </div>
   </section>
   {%- endif %}
 
-  <section class="pair">
-    {%- if issue.word %}
-    {%- set w = issue.word %}
-    <button type="button" class="flip word" aria-label="Flip to see what {{ w.term }} means">
-      <span class="face front"><span class="tag">Word of the Day</span><span class="term">{{ w.term }}</span><span class="hint">{{ w.theme }}, {{ w.day }} of 5 &middot; tap to reveal</span></span>
-      <span class="face back"><span>{{ w.definition }}</span><span class="italic">{{ w.analogy }}</span></span>
-    </button>
-    {%- endif %}
-    {%- if issue.keep_brewing %}
-    {%- set kb = issue.keep_brewing %}
-    <div class="panel champagne center">
-      <p class="tag">Keep Brewing</p>
-      <h4>{{ kb.name }}</h4>
-      <p>{{ kb.description }}</p>
-      <a class="more" href="{{ kb.link }}">Start here</a>
+  {%- if issue.word or issue.keep_brewing %}
+  <section class="section" id="word-of-the-day">
+    {{ rail("Learn a little", "One AI word and one way to keep up.", "learn") }}
+    <div class="content">
+      <div class="cards">
+        {%- if issue.word %}
+        {%- set w = issue.word %}
+        <div class="card" data-open="false">
+          <span class="label">Word of the day &middot; {{ w.theme }}, {{ w.day }} of 5</span>
+          <span class="term">{{ w.term }}</span>
+          <button type="button" class="reveal" aria-expanded="false">Reveal the meaning</button>
+          <div class="hidden-part"><p>{{ w.definition }}</p><p class="def">{{ w.analogy }}</p></div>
+        </div>
+        {%- endif %}
+        {%- if issue.keep_brewing %}
+        {%- set kb = issue.keep_brewing %}
+        <div class="card">
+          <span class="label">Keep brewing</span>
+          <span class="term" style="font-size: var(--step-2)">{{ kb.name }}</span>
+          <p class="def">{{ kb.description }}</p>
+          <a href="{{ kb.link }}">Start here &rarr;</a>
+        </div>
+        {%- endif %}
+      </div>
     </div>
-    {%- endif %}
   </section>
+  {%- endif %}
 
   {%- if issue.poll %}
-  <section class="poll">
-    <h2 class="label">The Tip Jar Poll</h2>
-    {%- if issue.poll.last_results %}<p class="italic">Last time: {{ issue.poll.last_results }}</p>{% endif %}
-    <p class="question">{{ issue.poll.question }}</p>
-    <div class="vote">
-      {%- for answer in ["YES", "NO"] %}
-      <a href="mailto:{{ issue.reply_to }}?subject={{ ('Poll ' ~ issue.date_iso ~ ': ' ~ answer) | urlencode }}">{{ answer }}</a>
-      {%- endfor %}
+  <section class="section" id="poll">
+    {{ rail("Tip Jar Poll", "Reply with one word. Results next issue.", "poll") }}
+    <div class="content">
+      {%- if issue.poll.last_results %}<p class="mono">Last time: {{ issue.poll.last_results }}</p>{% endif %}
+      <p class="question">{{ issue.poll.question }}</p>
+      <div class="vote">
+        {%- for answer in ["YES", "NO"] %}
+        <a href="mailto:{{ issue.reply_to }}?subject={{ ('Poll ' ~ issue.date_iso ~ ': ' ~ answer) | urlencode }}">{{ answer }}</a>
+        {%- endfor %}
+      </div>
     </div>
-    <p class="sub">opens a pre-filled email &middot; results in the next cup</p>
   </section>
   {%- endif %}
 
-  <section class="subscribe">
-    <h2 class="label">Get your own cup</h2>
-    <p>A 3-minute AI briefing in your inbox every weekday morning. Free.</p>
-    <form action="https://buttondown.com/api/emails/embed-subscribe/aibrew" method="post" target="_blank">
-      <label for="email" class="visually-hidden">Email address</label>
-      <input id="email" type="email" name="email" placeholder="you@example.com" required>
-      <button type="submit">Subscribe</button>
-    </form>
+  <section class="section" id="subscribe">
+    <div class="rail"><h2>Get your own cup</h2><p>Free, every weekday morning.</p></div>
+    <div class="content">
+      <p>A 3-minute AI briefing in plain English. Every story links to its source.</p>
+      <form class="signup" action="https://buttondown.com/api/emails/embed-subscribe/aibrew" method="post" target="_blank">
+        <label for="email" class="visually-hidden">Email address</label>
+        <input id="email" type="email" name="email" placeholder="you@example.com" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
   </section>
 
   <footer>
-    <p class="italic">{{ issue.sign_off }}</p>
-    <p class="ornament">&#10022; &#10022; &#10022;</p>
-    <p class="fine">Brewed by an AI agent from trusted news sites. Every story links to its source. <a href="https://github.com/shreyad1/ai-brew">How it's made</a></p>
+    <span>{{ issue.sign_off }}</span>
+    <span>Written by an AI agent, checked against its sources. <a href="https://github.com/shreyad1/ai-brew">How it's made</a></span>
   </footer>
-</main>
+</div>
 <script src="{{ root }}app.js"></script>
 </body>
 </html>
