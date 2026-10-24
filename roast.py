@@ -24,7 +24,9 @@ def roast(news: list[dict]) -> dict:
     # A story every outlet covers matters most; volume of launches, money, and policy adds up.
     score = 3 * max(widest - 1, 0) + launches + funding + policy + len(news) // 5
     level = LEVELS[sum(score >= cutoff for cutoff in CUTOFFS)]
-    reasons = [f"{len(news)} AI stories", f"{launches} launches", f"{funding} money moves", f"{policy} policy stories"]
+    count = lambda n, one, many: f"{n} {one if n == 1 else many}"
+    reasons = [count(len(news), "AI story", "AI stories"), count(launches, "launch", "launches"),
+               count(funding, "money move", "money moves"), count(policy, "policy story", "policy stories")]
     if widest > 1:
         reasons.insert(0, f"top story covered by {widest} outlets")
     return {"level": level, "score": score, "reasons": reasons, "position": LEVELS.index(level)}
