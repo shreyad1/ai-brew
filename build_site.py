@@ -10,7 +10,7 @@ from render import env, prepare
 ROOT = Path(__file__).parent
 ISSUES_DIR = ROOT / "issues"
 SITE_DIR = ROOT / "site"
-SITE_URL = "https://shreyad1.github.io/ai-brew/"
+SITE_URL = "https://theaibrew.pages.dev/"
 
 
 def load_issues() -> list[dict]:
