@@ -62,12 +62,6 @@ def build() -> Path:
     for asset in (ROOT / "site_static").iterdir():
         shutil.copy(asset, SITE_DIR / asset.name)
 
-    issues = load_issues()
-    page = env.get_template("web.html.j2")
-    for issue in issues:
-        html = page.render(issue=prepare(issue), times=brew_times(issue), root="../", places=PLACES)
-        (SITE_DIR / "issues" / f"{issue['date_iso']}.html").write_text(html)
-
     try:
         data = events.collect_all()
         payload = {"generated": data["generated"], "picks": events.picks_for_web(data)}
@@ -76,6 +70,14 @@ def build() -> Path:
         print(f"Events skipped: {error}")
         payload = {"generated": None, "picks": {}}
     (SITE_DIR / "events.json").write_text(json.dumps(payload))
+    # Embedded in each page too, so Near You works even when a page is opened straight from disk.
+    events_json = json.dumps(payload).replace("</", "<\\/")
+
+    issues = load_issues()
+    page = env.get_template("web.html.j2")
+    for issue in issues:
+        html = page.render(issue=prepare(issue), times=brew_times(issue), root="../", places=PLACES, events_json=events_json)
+        (SITE_DIR / "issues" / f"{issue['date_iso']}.html").write_text(html)
 
     archive = env.get_template("archive.html.j2").render(issues=issues)
     (SITE_DIR / "index.html").write_text(archive)

@@ -65,10 +65,16 @@ if (picker) {
     });
   }
 
-  fetch(eventsUrl)
-    .then((response) => response.json())
-    .then((data) => { picks = data.picks; render(picker.value); })
-    .catch(() => { picks = {}; render(picker.value); });
+  const embedded = document.getElementById("events-data");
+  try {
+    picks = JSON.parse(embedded.textContent).picks;
+    render(picker.value);
+  } catch {
+    fetch(eventsUrl)
+      .then((response) => response.json())
+      .then((data) => { picks = data.picks; render(picker.value); })
+      .catch(() => { picks = {}; render(picker.value); });
+  }
 
   try { picker.value = localStorage.getItem(PLACE_KEY) || ""; } catch { /* storage blocked */ }
   picker.addEventListener("change", () => {
