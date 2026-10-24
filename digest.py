@@ -248,7 +248,9 @@ def build_issue(dry_run: bool = False) -> Path | None:
     draft = attach_sources(draft, pool)
 
     word, resource, poll = pick_owned_content(log)
-    past = [p for p in ISSUES_DIR.glob("2*.json") if not p.name.endswith(".sources.json")]
+    # Earlier issues only: a re-run on the same day must keep the same number.
+    past = [p for p in ISSUES_DIR.glob("2*.json")
+            if not p.name.endswith(".sources.json") and p.stem < now.date().isoformat()]
     issue = draft | {
         "number": len(past) + 1,
         "date_iso": now.date().isoformat(),
