@@ -273,3 +273,8 @@ footer { padding-top: 32px; display: flex; flex-wrap: wrap; gap: 8px 24px; justi
 .when .save { width: 26px; height: 26px; font-size: 0.85rem; margin-left: 6px; vertical-align: middle; }
 .night .save { background: transparent; border-color: #2B3F80; }
 
+
+/* Byline next to the brand */
+.brand-group { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.byline { font-family: var(--mono); font-size: 0.6875rem; color: var(--ink-faint); text-decoration: none; letter-spacing: 0.02em; }
+.byline:hover { color: var(--cobalt); text-decoration: underline; }
