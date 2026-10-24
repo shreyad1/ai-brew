@@ -100,9 +100,16 @@ function renderIssue(issue) {
     </div>
   </header>`);
 
-  if ((issue.glance || []).length) parts.push(`<section class="glance" id="at-a-glance" aria-label="At a glance">
-    <h2>At a glance</h2>
-    <ul>${issue.glance.map((g) => `<li><span>${esc(g.summary)}</span> <a href="${esc(g.link)}">${esc(g.source)}</a></li>`).join("")}</ul>
+  if ((issue.glance || []).length) parts.push(`<section class="glance" id="at-a-glance" data-open="false">
+    <button type="button" class="glance-toggle" aria-expanded="false" aria-controls="glance-body-${esc(issue.date_iso)}">
+      <span class="glance-cup" aria-hidden="true">&#9749;</span>
+      <span class="glance-title">At a glance</span>
+      <span class="glance-meta">${issue.glance.length} stories &middot; 30-second read</span>
+      <span class="glance-chevron" aria-hidden="true"></span>
+    </button>
+    <div class="glance-body" id="glance-body-${esc(issue.date_iso)}"><div class="glance-inner">
+      <ul>${issue.glance.map((g, i) => `<li style="--i:${i}"><span>${esc(g.summary)}</span> <a href="${esc(g.link)}">${esc(g.source)}</a></li>`).join("")}</ul>
+    </div></div>
   </section>`);
 
   const pour = issue.big_pour || [];
@@ -307,6 +314,14 @@ view.addEventListener("click", (event) => {
     const box = tab.closest(".explain");
     box.querySelectorAll(".explain-tabs button").forEach((t) => t.setAttribute("aria-selected", String(t === tab)));
     box.querySelectorAll("p[data-version]").forEach((p) => { p.hidden = p.dataset.version !== tab.dataset.version; });
+    return;
+  }
+  const glance = event.target.closest(".glance-toggle");
+  if (glance) {
+    const box = glance.closest(".glance");
+    const open = box.dataset.open !== "true";
+    box.dataset.open = String(open);
+    glance.setAttribute("aria-expanded", String(open));
     return;
   }
   const reveal = event.target.closest(".card .reveal");
