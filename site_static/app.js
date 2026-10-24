@@ -76,3 +76,26 @@ if (picker) {
     render(picker.value);
   });
 }
+
+// Light / dark toggle. With no saved choice, the page follows the device setting.
+const themeButton = document.getElementById("theme-toggle");
+if (themeButton) {
+  const isDark = () => (document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")) === "dark";
+  const label = () => themeButton.setAttribute("aria-label", isDark() ? "Switch to light theme" : "Switch to dark theme");
+  label();
+  themeButton.addEventListener("click", () => {
+    const next = isDark() ? "light" : "dark";
+    document.documentElement.dataset.theme = next;
+    try { localStorage.setItem("aibrew-theme", next); } catch { /* storage blocked */ }
+    label();
+  });
+}
+
+// Explain it like…: switch between versions of the lead story.
+document.querySelectorAll(".explain").forEach((box) => {
+  const tabs = box.querySelectorAll("button[data-version]");
+  tabs.forEach((tab) => tab.addEventListener("click", () => {
+    tabs.forEach((t) => t.setAttribute("aria-selected", String(t === tab)));
+    box.querySelectorAll("p[data-version]").forEach((p) => { p.hidden = p.dataset.version !== tab.dataset.version; });
+  }));
+});

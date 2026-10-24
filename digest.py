@@ -35,7 +35,10 @@ Return JSON with exactly this shape:
     {"id": "...", "headline": "max 9 words, plain, may be playful",
      "teaser": "max 6 words for the table of contents",
      "summary": "1-2 sentences, max 35 words",
-     "why": "lead story only: max 18 words on why a normal reader should care, no new facts"}
+     "why": "lead story only: max 18 words on why a normal reader should care, no new facts",
+     "explain": "lead story only: {\"kid\": ..., \"pm\": ..., \"engineer\": ...}, the same facts retold
+                 for a 10-year-old, a product manager, and a software engineer. Max 40 words each.
+                 Same facts only: change the words and the angle, never add information."}
   ],
   "office_blend": [        // 2 items from ids starting with "w": real companies using AI. Prefer customer stories over product tutorials.
     {"id": "...", "headline": "max 9 words", "teaser": "max 6 words", "summary": "1-2 sentences, max 35 words"}
@@ -149,6 +152,30 @@ def fix_or_drop(draft: dict, pool: dict[str, dict], log: dict) -> dict:
     return draft
 
 
+EXPLAIN_AUDIENCES = {"kid": "a 10-year-old", "pm": "a product manager", "engineer": "a software engineer"}
+EXPLAIN_SYSTEM = ("You retell news for different readers. Use ONLY facts in the source text. "
+                  "Never add facts, numbers, names, or quotes. Reply in JSON.")
+
+
+def check_explainers(draft: dict, pool: dict[str, dict], log: dict) -> None:
+    """The lead story's three retellings get the same fact checks. One rewrite, then drop what fails."""
+    lead = (draft.get("big_pour") or [None])[0]
+    if not lead or not isinstance(lead.get("explain"), dict):
+        return
+    source = source_text(pool[lead["id"]])
+    explain = {k: v for k, v in lead["explain"].items() if k in EXPLAIN_AUDIENCES and isinstance(v, str)}
+    failing = {k: check_text(v, source) for k, v in explain.items() if check_text(v, source)}
+    if failing:
+        request = {
+            "instructions": "Rewrite each retelling using ONLY the source text. Return {\"explain\": {audience: text}}.",
+            "source": source,
+            "retellings": {k: {"for": EXPLAIN_AUDIENCES[k], "text": explain[k], "problems": p} for k, p in failing.items()},
+        }
+        explain |= ask_json(EXPLAIN_SYSTEM, json.dumps(request)).get("explain", {})
+    lead["explain"] = {k: v for k, v in explain.items() if not check_text(v, source)} or None
+    log["explain_dropped"] = sorted(set(EXPLAIN_AUDIENCES) - set(lead["explain"] or {}))
+
+
 def attach_sources(draft: dict, pool: dict[str, dict]) -> dict:
     """The code, not the LLM, adds every link, source name, and stated date."""
     for entry in all_entries(draft):
@@ -161,6 +188,7 @@ def attach_sources(draft: dict, pool: dict[str, dict]) -> dict:
     # Optional fields the LLM may leave out; the strict template needs them present.
     for entry in draft.get("big_pour") or []:
         entry.setdefault("why", None)
+        entry.setdefault("explain", None)
     if draft.get("builder"):
         draft["builder"].setdefault("stories", [])
         draft["builder"].setdefault("concept", None)
@@ -216,6 +244,7 @@ def build_issue(dry_run: bool = False) -> Path | None:
     draft = ask_json(SYSTEM_PROMPT, prompt_for(pool))
     log["llm_draft"] = json.loads(json.dumps(draft))
     draft = fix_or_drop(draft, pool, log)
+    check_explainers(draft, pool, log)
     draft = attach_sources(draft, pool)
 
     word, resource, poll = pick_owned_content(log)

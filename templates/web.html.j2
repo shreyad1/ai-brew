@@ -21,15 +21,23 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Hanken+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ root }}style.css">
+<script>
+  // Apply the saved theme before the page paints, so it never flashes the wrong colours.
+  try { const t = localStorage.getItem("aibrew-theme"); if (t) document.documentElement.dataset.theme = t; } catch {}
+</script>
+
 </head>
 <body data-audience="everyone">
 <div class="wrap">
 
   <nav class="bar">
     <a href="{{ root }}index.html">&larr; All issues</a>
+    <div class="controls">
     <div class="audience" role="group" aria-label="Show stories for">
       <button type="button" data-audience="everyone" aria-pressed="true">Everyone</button>
       <button type="button" data-audience="engineers" aria-pressed="false">Engineers</button>
+    </div>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to dark theme"><span class="sun" aria-hidden="true">&#9728;</span><span class="moon" aria-hidden="true">&#9790;</span></button>
     </div>
   </nav>
 
@@ -53,7 +61,22 @@
       <article class="story lead">
         {{ figure(lead) }}
         <h3>{{ lead.headline }}</h3>
+        {%- if lead.explain %}
+        <div class="explain">
+          <div class="explain-tabs" role="tablist" aria-label="Explain it like">
+            <button type="button" role="tab" aria-selected="true" data-version="standard">The short version</button>
+            {%- for key, label in [("kid", "Like I'm 10"), ("pm", "Like a PM"), ("engineer", "Like an engineer")] if lead.explain[key] is defined %}
+            <button type="button" role="tab" aria-selected="false" data-version="{{ key }}">{{ label }}</button>
+            {%- endfor %}
+          </div>
+          <p data-version="standard">{{ lead.summary }}</p>
+          {%- for key in ["kid", "pm", "engineer"] if lead.explain[key] is defined %}
+          <p data-version="{{ key }}" hidden>{{ lead.explain[key] }}</p>
+          {%- endfor %}
+        </div>
+        {%- else %}
         <p>{{ lead.summary }}</p>
+        {%- endif %}
         {%- if lead.why %}<div class="why"><b>Why you should care</b>{{ lead.why }}</div>{% endif %}
         {{ meta(lead) }}
       </article>
