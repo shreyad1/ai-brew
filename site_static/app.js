@@ -36,6 +36,25 @@ function toggleSave(story, issue) {
 
 const saveButton = (story) => `<button type="button" class="save" data-save="${esc(story.link)}" aria-pressed="${Boolean(saved[story.link])}" aria-label="${saved[story.link] ? "Remove from saved" : "Save story"}">${saved[story.link] ? "&#9733;" : "&#9734;"}</button>`;
 
+// ---------- the cup ----------
+// A blue-and-white ceramic cup on a saucer, drawn from simple shapes. Colours come from CSS tokens.
+const CUP = `<svg class="cup" viewBox="0 0 160 150" role="img" aria-label="A cup of coffee">
+  <g class="steam" fill="none" stroke-linecap="round" stroke-width="3">
+    <path d="M62 42 C 54 32, 70 26, 62 14" />
+    <path d="M80 40 C 72 28, 90 22, 80 6" />
+    <path d="M98 42 C 90 32, 106 26, 98 14" />
+  </g>
+  <ellipse class="saucer" cx="80" cy="132" rx="66" ry="12" />
+  <ellipse class="saucer-well" cx="80" cy="129" rx="40" ry="6" />
+  <path class="handle" d="M122 72 C 146 72, 146 108, 118 106" fill="none" stroke-width="9" stroke-linecap="round" />
+  <path class="body" d="M34 58 H126 L120 112 C 118 122, 108 128, 96 128 H64 C 52 128, 42 122, 40 112 Z" />
+  <path class="band" d="M36.6 76 H123.4 L122.3 86 H37.7 Z" />
+  <g class="dots"><circle cx="56" cy="100" r="3" /><circle cx="72" cy="104" r="3" /><circle cx="88" cy="104" r="3" /><circle cx="104" cy="100" r="3" /></g>
+  <ellipse class="rim" cx="80" cy="58" rx="46" ry="9" />
+  <ellipse class="coffee" cx="80" cy="59" rx="40" ry="6.5" />
+  <path class="crema" d="M66 59 C 72 55, 88 55, 94 59 C 88 62, 72 62, 66 59 Z" />
+</svg>`;
+
 // ---------- pieces of an issue ----------
 
 const photo = (story) => story.image
@@ -76,6 +95,7 @@ function renderIssue(issue) {
   parts.push(`<header class="issue-head">
     <div class="masthead">
       <h1 class="wordmark">The AI <em>Brew</em></h1>
+      ${CUP}
       <div class="stamp"><b>No. ${issueNo(issue.number)}</b>${esc(issue.date_long)}</div>
     </div>
   </header>`);

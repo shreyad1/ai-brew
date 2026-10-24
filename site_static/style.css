@@ -289,3 +289,30 @@ footer { padding-top: 32px; display: flex; flex-wrap: wrap; gap: 8px 24px; justi
 .content:has(> .scores) { overflow-x: auto; }
 .list .tag-unsupported { color: #C2410C; }
 .list .tag-partial { color: var(--latte); }
+
+/* The cup in the masthead */
+.issue-head .masthead { grid-template-columns: 1fr auto auto; align-items: end; }
+.cup { width: clamp(72px, 11vw, 120px); height: auto; margin-bottom: -6px; }
+.cup .body { fill: var(--cup); stroke: var(--cobalt); stroke-width: 3; }
+.cup .band { fill: var(--cobalt); }
+.cup .dots circle { fill: var(--cobalt); }
+.cup .handle { stroke: var(--cobalt); }
+.cup .rim { fill: var(--cup); stroke: var(--cobalt); stroke-width: 3; }
+.cup .coffee { fill: #6B3F1D; }
+.cup .crema { fill: #C9925A; opacity: 0.85; }
+.cup .saucer { fill: var(--cup); stroke: var(--cobalt); stroke-width: 3; }
+.cup .saucer-well { fill: none; stroke: var(--cobalt-wash); stroke-width: 2; }
+.cup .steam path { stroke: var(--ink-faint); opacity: 0.55; animation: steam 3.6s ease-in-out infinite; }
+.cup .steam path:nth-child(2) { animation-delay: 1.2s; }
+.cup .steam path:nth-child(3) { animation-delay: 2.4s; }
+@keyframes steam {
+  0% { opacity: 0; transform: translateY(6px); }
+  40% { opacity: 0.6; }
+  100% { opacity: 0; transform: translateY(-8px); }
+}
+@media (prefers-reduced-motion: reduce) { .cup .steam path { animation: none; opacity: 0.45; } }
+@media (max-width: 720px) {
+  .issue-head .masthead { grid-template-columns: 1fr auto; }
+  .issue-head .masthead .stamp { grid-column: 1 / -1; }
+  .issue-head .masthead .cup { grid-row: 1; grid-column: 2; align-self: end; }
+}
