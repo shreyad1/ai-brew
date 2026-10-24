@@ -6,7 +6,8 @@ from datetime import datetime, timedelta, timezone
 
 import httpx
 
-from server import AI_PATTERN, HEADERS
+from feeds import HEADERS
+from filters import AI_PATTERN
 
 LUMA_ICS = "https://api.lu.ma/ics/get?entity=discover&id={place_id}"
 

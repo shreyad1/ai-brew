@@ -28,6 +28,9 @@ Rules you must follow:
 - Never write links or source names. Refer to items only by their id.
 - Each id may be used once in the whole issue.
 - If an item's text is too thin to summarize, skip it.
+- Keep every qualifier and scope from the source: "AI-generated ads" must not become "ads",
+  "for Pro and Max users" must not become "for everyone". Simplify words, never the meaning.
+- Name things the way the source does. Don't rename them (e.g. "AI models" must not become "political models").
 
 Return JSON with exactly this shape:
 {
@@ -38,7 +41,8 @@ Return JSON with exactly this shape:
      "why": "lead story only: max 18 words on why a normal reader should care, no new facts",
      "explain": "lead story only: {\"kid\": ..., \"pm\": ..., \"engineer\": ...}, the same facts retold
                  for a 10-year-old, a product manager, and a software engineer. Max 40 words each.
-                 Same facts only: change the words and the angle, never add information."}
+                 Same facts only: change the words and the angle, never add information, and keep every
+                 qualifier (e.g. "AI-generated", "for paid users")."}
   ],
   "office_blend": [        // 2 items from ids starting with "w": real companies using AI. Prefer customer stories over product tutorials.
     {"id": "...", "headline": "max 9 words", "teaser": "max 6 words", "summary": "1-2 sentences, max 35 words"}
@@ -53,7 +57,9 @@ Return JSON with exactly this shape:
     "stories": [{"id": "...", "label": "2-3 words like New tool, Benchmark, Open standard",
                  "headline": "max 9 words", "summary": "1-2 sentences, max 35 words"}],   // 2 items
     "concept": {"id": "the d-item that mentions it", "term": "a technical term appearing in this week's d-items",
-                "explanation": "max 40 words: what it means in simple words, and where it showed up in the news"}
+                "explanation": "max 40 words, using ONLY what the d-item's text says about the term and where it
+                                showed up in the news. If the text doesn't explain the term, don't define it from
+                                your own knowledge: pick a different term, or omit concept entirely"}
   },
   "long_read": {"id": "one id starting with l",
                 "headline": "the essay's title, lightly shortened if needed",
@@ -154,7 +160,8 @@ def fix_or_drop(draft: dict, pool: dict[str, dict], log: dict) -> dict:
 
 EXPLAIN_AUDIENCES = {"kid": "a 10-year-old", "pm": "a product manager", "engineer": "a software engineer"}
 EXPLAIN_SYSTEM = ("You retell news for different readers. Use ONLY facts in the source text. "
-                  "Never add facts, numbers, names, or quotes. Reply in JSON.")
+                  "Never add facts, numbers, names, or quotes. Keep every qualifier and scope from the source "
+                  "(e.g. 'AI-generated', 'for paid users'): simplify the words, never the meaning. Reply in JSON.")
 
 
 def check_explainers(draft: dict, pool: dict[str, dict], log: dict) -> None:

@@ -2,8 +2,10 @@
 
 from conftest import item, rss
 
-import server
-from server import clean_text, collect_stories, dedupe, fetch_feed, find_image, is_same_story, is_sponsored, mentions_ai
+import feeds
+import filters
+from feeds import collect_stories, fetch_feed, find_image
+from filters import clean_text, dedupe, is_same_story, is_sponsored, mentions_ai
 
 FEED = "https://example.com/feed"
 
@@ -20,7 +22,7 @@ def test_clean_text_strips_html_entities_and_wordpress_footer():
 
 
 def test_clean_text_caps_summary_length():
-    assert len(clean_text("word " * 500)) == server.MAX_SUMMARY_CHARS
+    assert len(clean_text("word " * 500)) == filters.MAX_SUMMARY_CHARS
 
 
 def test_sponsored_post_caught_by_category_alone():
@@ -105,7 +107,7 @@ def test_fetch_feed_skips_items_without_a_date(fake_http):
 
 
 def test_collect_stories_reports_broken_feeds_and_keeps_going(fake_http, monkeypatch):
-    monkeypatch.setattr(server, "load_feeds", lambda section: [
+    monkeypatch.setattr(feeds, "load_feeds", lambda section: [
         {"name": "Good", "url": FEED, "section": "news"},
         {"name": "Broken", "url": "https://broken.example/feed", "section": "news"},
     ])
@@ -116,7 +118,7 @@ def test_collect_stories_reports_broken_feeds_and_keeps_going(fake_http, monkeyp
 
 
 def test_collect_stories_filters_by_age_sorts_newest_first_and_applies_feed_flags(fake_http, monkeypatch):
-    monkeypatch.setattr(server, "load_feeds", lambda section: [
+    monkeypatch.setattr(feeds, "load_feeds", lambda section: [
         {"name": "Mixed", "url": FEED, "section": "work", "ai_filter": True, "images": False},
     ])
     fake_http({FEED: rss(

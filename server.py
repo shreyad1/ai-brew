@@ -1,164 +1,16 @@
-import html
-import re
-from datetime import datetime, timedelta, timezone
-from pathlib import Path
+"""AI Brew MCP server: tools that give Claude (or any MCP client) fresh AI news and events.
 
-import feedparser
-import httpx
-import yaml
+The logic lives in feeds.py, filters.py, and events.py; each tool here clamps its inputs
+and shapes the result.
+"""
+
 from mcp.server.mcpserver import MCPServer
 
+from events import LUMA_CITIES, US_STATES, fetch_city_events
+from feeds import collect_stories
+from filters import DATE_PATTERN, UPCOMING_PATTERN
+
 mcp = MCPServer("AI Brew")
-
-SOURCES_FILE = Path(__file__).parent / "sources.yaml"
-
-
-def load_feeds(section: str) -> list[dict]:
-    """Return the feeds from sources.yaml that belong to one newsletter section."""
-    config = yaml.safe_load(SOURCES_FILE.read_text())
-    return [feed for feed in config["feeds"] if feed["section"] == section]
-
-
-SPONSORED_MARKERS = ["presented by", "sponsored", "partner content", "insights"]
-
-
-def is_sponsored(item: dict) -> bool:
-    """True if the item looks like paid content rather than journalism."""
-    text = " ".join([item["title"], item["summary"], *item["categories"]]).lower()
-    return any(marker in text for marker in SPONSORED_MARKERS)
-
-
-AI_PATTERN = re.compile(
-    r"\b(AI|artificial intelligence|machine learning|LLMs?|GenAI|generative|agents?|agentic|chatbots?)\b",
-    re.IGNORECASE,
-)
-
-
-def mentions_ai(item: dict) -> bool:
-    """True if the item's title, summary, or categories mention AI."""
-    text = " ".join([item["title"], item["summary"], *item["categories"]])
-    return bool(AI_PATTERN.search(text))
-
-
-UPCOMING_PATTERN = re.compile(
-    r"\b(upcoming|coming soon|coming (?:next|this|later)|will (?:launch|release|roll out|ship|debut|arrive)"
-    r"|preview|beta|waitlist|conference|summit|keynote|later this (?:week|month|year)|next (?:week|month))\b",
-    re.IGNORECASE,
-)
-DATE_PATTERN = re.compile(
-    r"\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?"
-    r"|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.? \d{1,2}(?:, \d{4})?\b"
-)
-
-STOP_WORDS = {
-    "the", "a", "an", "and", "or", "of", "to", "in", "on", "for", "with", "its", "is",
-    "at", "by", "from", "as", "that", "this", "it", "new", "says", "after", "how",
-    "why", "what", "your", "you", "are", "be", "will", "can", "now",
-}
-SAME_STORY_THRESHOLD = 0.3  # tuned on real headlines, Oct 24 2026
-
-
-def headline_words(title: str) -> set[str]:
-    """Meaningful lowercase words in a headline, without stop words."""
-    words = re.findall(r"[a-z0-9]+", title.lower())
-    return {w for w in words if w not in STOP_WORDS and len(w) > 1}
-
-
-def is_same_story(title_a: str, title_b: str) -> bool:
-    """True if two headlines share enough words to be the same news."""
-    a, b = headline_words(title_a), headline_words(title_b)
-    if not a or not b:
-        return False
-    return len(a & b) / len(a | b) >= SAME_STORY_THRESHOLD
-
-
-def dedupe(stories: list[dict]) -> list[dict]:
-    """Keep the first story of each group of duplicates (input is newest first)."""
-    kept: list[dict] = []
-    for story in stories:
-        if not any(is_same_story(story["title"], k["title"]) for k in kept):
-            kept.append(story)
-    return kept
-
-
-# Some sites (e.g. Substack) refuse requests that don't say who's asking.
-HEADERS = {"User-Agent": "AI-Brew/1.0 (+https://github.com/shreyad1/ai-brew; RSS reader)"}
-
-MAX_SUMMARY_CHARS = 500  # we only ever use a short summary, never the full article
-
-
-def clean_text(raw: str) -> str:
-    """Strip HTML tags, entities, and WordPress 'The post ... appeared first' footers."""
-    text = html.unescape(re.sub(r"<[^>]+>", " ", raw))
-    text = re.sub(r"\s*The post .* appeared first on .*$", "", text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text[:MAX_SUMMARY_CHARS]
-
-
-IMG_TAG = re.compile(r"<img[^>]+src=[\"']([^\"']+)[\"']")
-
-
-def find_image(entry: dict) -> str | None:
-    """The image the publisher attached to this feed item, if any. Checked before HTML is stripped."""
-    for key in ("media_content", "media_thumbnail"):
-        for media in entry.get(key) or []:
-            if media.get("url") and media.get("medium", "image") == "image":
-                return media["url"]
-    for link in entry.get("links") or []:
-        if link.get("type", "").startswith("image/"):
-            return link.get("href")
-    html_parts = [entry.get("summary", "")] + [c.get("value", "") for c in entry.get("content") or []]
-    match = IMG_TAG.search(" ".join(html_parts))
-    return match.group(1) if match else None
-
-
-def fetch_feed(url: str, name: str) -> list[dict]:
-    """Download one RSS feed and return its items as clean dicts."""
-    response = httpx.get(url, timeout=10, follow_redirects=True, headers=HEADERS)
-    response.raise_for_status()
-    feed = feedparser.parse(response.text)
-
-    items = []
-    for entry in feed.entries:
-        if not entry.get("published_parsed"):
-            continue  # no date means we can't tell if it's recent
-        published = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
-        item = {
-            "title": clean_text(entry.get("title", "")),
-            "link": entry.get("link", ""),
-            "source": name,
-            "published": published,
-            "summary": clean_text(entry.get("summary", "")),
-            "categories": [tag.get("term", "") for tag in entry.get("tags", [])],
-            "image": find_image(entry),
-        }
-        if not is_sponsored(item):
-            items.append(item)
-    return items
-
-
-def collect_stories(section: str, days: int) -> tuple[list[dict], list[str]]:
-    """Fetch every feed in a section and return (recent stories newest first, failed feeds)."""
-    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
-    stories = []
-    failed_feeds = []
-    for feed in load_feeds(section):
-        try:
-            items = fetch_feed(feed["url"], feed["name"])
-        except Exception as error:
-            failed_feeds.append(f"{feed['name']}: {error}")
-            continue
-        if feed.get("ai_filter"):
-            items = [item for item in items if mentions_ai(item)]
-        if feed.get("images") is False:
-            for item in items:
-                item["image"] = None
-        stories.extend(item for item in items if item["published"] >= cutoff)
-
-    stories.sort(key=lambda s: s["published"], reverse=True)
-    for story in stories:
-        story["published"] = story["published"].isoformat()
-    return dedupe(stories), failed_feeds
 
 
 @mcp.tool()
@@ -278,8 +130,6 @@ def get_ai_events(place: str, days_ahead: int = 30) -> dict:
         place: A US state or one of the supported Indian cities.
         days_ahead: How many days ahead to look (1-60).
     """
-    from events import LUMA_CITIES, US_STATES, fetch_city_events  # local import: events imports this module
-
     days_ahead = max(1, min(days_ahead, 60))
     wanted = place.strip().lower()
     codes = [code for code, (name, _, _) in US_STATES.items() if wanted in (code.lower(), name.lower())]

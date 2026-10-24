@@ -54,6 +54,8 @@ Every weekday at 7 AM Central, with no human in the loop until review:
 
 Every tool clamps its inputs, times out after 10 seconds per feed, skips feeds that fail and reports which ones, and never crashes the server.
 
+**More detail:** decisions, trade-offs, failure modes, and what changes at scale are in [docs/DESIGN.md](docs/DESIGN.md).
+
 ## Tech stack
 
 Python 3.10 · [uv](https://docs.astral.sh/uv/) · MCP Python SDK · Gemini API · httpx · feedparser · Jinja2 · vanilla JavaScript · GitHub Actions · Cloudflare Pages
@@ -67,7 +69,8 @@ echo "GEMINI_API_KEY=your-key" > .env    # free key from aistudio.google.com
 uv run mcp dev server.py                 # try the tools in MCP Inspector
 uv run digest.py --dry-run               # write today's issue into issues/
 uv run build_site.py                     # build the web app into site/
-uv run pytest                            # 44 tests, no network needed
+uv run pytest                            # 50 tests, no network needed
+uv run evals.py                          # fact-check the newest issue with the LLM judge
 ```
 
 Use the tools in Claude Desktop with `uv run mcp install server.py --name "AI Brew" --with feedparser --with httpx --with pyyaml`.
@@ -76,7 +79,10 @@ Use the tools in Claude Desktop with `uv run mcp install server.py --name "AI Br
 
 | File | Job |
 | --- | --- |
-| `server.py` | MCP server and feed fetching, cleaning, filtering, dedupe |
+| `server.py` | MCP server: the 6 tools, each a thin wrapper |
+| `feeds.py` | Reading `sources.yaml` and fetching feeds |
+| `filters.py` | Text rules: cleaning, sponsored and AI detection, dates, dedupe |
+| `evals.py` | LLM-judge faithfulness scores, plus judge calibration |
 | `digest.py` | The agent: gather, write with Gemini, check, render |
 | `checks.py` | Guardrails for numbers, names, and quotes |
 | `llm.py` | The one place that talks to the LLM, with fallback models |
