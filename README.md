@@ -1,5 +1,7 @@
 # The AI Brew ☕
 
+[![Tests](https://github.com/shreyad1/ai-brew/actions/workflows/tests.yml/badge.svg)](https://github.com/shreyad1/ai-brew/actions/workflows/tests.yml)
+
 **A 3-minute AI briefing, written every weekday morning by an AI agent, with every fact checked against its source.**
 
 **[theaibrew.pages.dev](https://theaibrew.pages.dev)** · Built by [Shreya Deshpande](https://www.linkedin.com/in/shreya-deshpande-data-business-analyst/)
@@ -65,6 +67,7 @@ echo "GEMINI_API_KEY=your-key" > .env    # free key from aistudio.google.com
 uv run mcp dev server.py                 # try the tools in MCP Inspector
 uv run digest.py --dry-run               # write today's issue into issues/
 uv run build_site.py                     # build the web app into site/
+uv run pytest                            # 44 tests, no network needed
 ```
 
 Use the tools in Claude Desktop with `uv run mcp install server.py --name "AI Brew" --with feedparser --with httpx --with pyyaml`.
@@ -79,5 +82,6 @@ Use the tools in Claude Desktop with `uv run mcp install server.py --name "AI Br
 | `llm.py` | The one place that talks to the LLM, with fallback models |
 | `events.py` | AI events from Luma city calendars |
 | `build_site.py`, `templates/`, `site_static/` | The web app |
+| `tests/` | pytest suite: guardrails, filters, dedupe, feeds, tools, events, agent steps (HTTP mocked) |
 | `sources.yaml` | Every feed, by section |
 | `learning_path.yaml`, `resources.yaml`, `polls.yaml` | Human-reviewed content the agent may copy but never invent |
