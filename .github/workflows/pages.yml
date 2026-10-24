@@ -1,0 +1,44 @@
+name: Publish web edition
+
+on:
+  push:
+    branches: [main]
+  # The daily job commits with GITHUB_TOKEN, which doesn't trigger "push" workflows,
+  # so also rebuild whenever the daily issue run finishes.
+  workflow_run:
+    workflows: ["Daily issue"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main # pick up the issue the daily job just committed
+
+      - uses: astral-sh/setup-uv@v6
+
+      - name: Build the site
+        run: uv sync --frozen && uv run build_site.py
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

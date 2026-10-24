@@ -224,6 +224,7 @@ def build_issue(dry_run: bool = False) -> Path | None:
         "date_iso": now.date().isoformat(),
         "date_long": now.strftime("%A · %-d %B %Y"),
         "read_minutes": 3,
+        "web_url": f"https://shreyad1.github.io/ai-brew/issues/{now.date().isoformat()}.html",
         "reply_to": "you@example.com",
         "subscribe_url": "#",
         "unsubscribe_url": "#",

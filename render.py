@@ -36,13 +36,18 @@ def build_menu(issue: dict) -> list[tuple[str, str]]:
     return menu
 
 
-def render_email(issue: dict) -> str:
-    """Fill the email template with one issue's content."""
+def prepare(issue: dict) -> dict:
+    """Fill in missing sections and the menu, so the strict templates never hit a missing key."""
     sections = ["big_pour", "office_blend", "still_roasting", "quick_sips",
                 "builder", "long_read", "word", "keep_brewing", "poll"]
     issue = {key: None for key in sections} | {"web_url": None} | issue
     issue["menu"] = build_menu(issue)
-    return env.get_template("email.html.j2").render(issue=issue)
+    return issue
+
+
+def render_email(issue: dict) -> str:
+    """Fill the email template with one issue's content."""
+    return env.get_template("email.html.j2").render(issue=prepare(issue))
 
 
 if __name__ == "__main__":
