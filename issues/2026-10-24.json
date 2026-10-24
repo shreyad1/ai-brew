@@ -154,18 +154,5 @@
   "poll": {
     "question": "Would you let an AI book your next trip?",
     "last_results": null
-  },
-  "roast": {
-    "level": "Medium",
-    "score": 6,
-    "reasons": [
-      "top story covered by 2 outlets",
-      "8 AI stories",
-      "1 launches",
-      "0 money moves",
-      "1 policy stories"
-    ],
-    "position": 1
-  },
-  "subject": "\u2615 Medium roast: Pennsylvania will require labels on AI ads"
+  }
 }

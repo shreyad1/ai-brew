@@ -11,7 +11,6 @@ import yaml
 from checks import check_text
 from llm import ask_json
 from render import render_email
-from roast import roast
 from server import get_ai_news, get_company_ai_updates, get_dev_updates, get_long_reads, get_upcoming
 
 ROOT = Path(__file__).parent
@@ -219,10 +218,6 @@ def build_issue(dry_run: bool = False) -> Path | None:
     draft = fix_or_drop(draft, pool, log)
     draft = attach_sources(draft, pool)
 
-    meter = roast([s for item_id, s in pool.items() if item_id.startswith("n")])
-    log["roast"] = meter
-    lead = (draft.get("big_pour") or [{}])[0].get("headline", "Today's AI news")
-
     word, resource, poll = pick_owned_content(log)
     past = [p for p in ISSUES_DIR.glob("2*.json") if not p.name.endswith(".sources.json")]
     issue = draft | {
@@ -230,8 +225,6 @@ def build_issue(dry_run: bool = False) -> Path | None:
         "date_iso": now.date().isoformat(),
         "date_long": now.strftime("%A · %-d %B %Y"),
         "read_minutes": 3,
-        "roast": meter,
-        "subject": f"☕ {meter['level']} roast: {lead}",
         "web_url": f"https://shreyad1.github.io/ai-brew/issues/{now.date().isoformat()}.html",
         "reply_to": "you@example.com",
         "subscribe_url": "#",

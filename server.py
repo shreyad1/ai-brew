@@ -73,17 +73,11 @@ def is_same_story(title_a: str, title_b: str) -> bool:
 
 
 def dedupe(stories: list[dict]) -> list[dict]:
-    """Keep the first story of each group of duplicates (input is newest first).
-
-    Each kept story records which outlets covered it, a signal of how big the news is.
-    """
+    """Keep the first story of each group of duplicates (input is newest first)."""
     kept: list[dict] = []
     for story in stories:
-        match = next((k for k in kept if is_same_story(story["title"], k["title"])), None)
-        if match is None:
-            kept.append(story | {"covered_by": [story["source"]]})
-        elif story["source"] not in match["covered_by"]:
-            match["covered_by"].append(story["source"])
+        if not any(is_same_story(story["title"], k["title"]) for k in kept):
+            kept.append(story)
     return kept
 
 

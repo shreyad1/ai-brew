@@ -21,7 +21,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ issue.subject or ("The AI Brew — " ~ issue.date_long) }}</title>
+<title>The AI Brew — {{ issue.date_long }}</title>
 </head>
 <body style="margin:0;padding:0;background:#EDE6DC;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#EDE6DC;">
@@ -37,9 +37,6 @@
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:20px;border-top:1px solid {{ gold }};border-bottom:1px solid {{ gold }};font-size:11px;letter-spacing:2px;text-transform:uppercase;color:{{ taupe }};">
       <tr><td style="padding:8px 0;" align="left">No. {{ issue.number }}</td><td align="center">{{ issue.date_long }}</td><td align="right">{{ issue.read_minutes }} min read</td></tr>
     </table>
-    {%- if issue.roast %}
-    <div style="margin-top:12px;font-size:13px;color:{{ soft }};">Today's roast: <b style="color:{{ ink }};">{{ issue.roast.level }}</b>{% for lvl in ["Light", "Medium", "Dark", "Espresso"] %} <span style="color:{{ gold if loop.index0 <= issue.roast.position else line }};">&#9679;</span>{% endfor %}</div>
-    {%- endif %}
     {%- if issue.web_url %}
     <div style="margin-top:10px;font-size:12px;"><a href="{{ issue.web_url }}" style="color:{{ taupe }};">Read the interactive edition online</a></div>
     {%- endif %}
