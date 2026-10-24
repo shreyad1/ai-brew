@@ -339,3 +339,29 @@ footer { padding-top: 32px; display: flex; flex-wrap: wrap; gap: 8px 24px; justi
 @media (prefers-reduced-motion: reduce) {
   .glance-body, .glance li, .glance-chevron, .glance-cup { transition: none; }
 }
+
+/* Explainer drawings (Word of the Day) */
+.explainer { margin: 4px 0 2px; padding: 12px; background: var(--ceramic); border-radius: 8px; }
+.explainer svg { display: block; width: 100%; height: auto; max-width: 420px; margin: 0 auto; }
+.explainer text { font-family: var(--body); }
+.explainer .mono { font-family: var(--mono); letter-spacing: 0.04em; }
+.explainer .t10 { font-size: 10px; } .explainer .t11 { font-size: 11px; } .explainer .t12 { font-size: 12px; }
+.explainer .t13 { font-size: 13px; } .explainer .t14 { font-size: 14px; } .explainer .t15 { font-size: 15px; } .explainer .t16 { font-size: 16px; }
+.explainer .b { font-weight: 600; }
+.explainer .ink { fill: var(--ink); }
+.explainer .soft { fill: var(--ink-faint); }
+.explainer .soft-fill { fill: var(--ink-faint); }
+.explainer .fill { fill: var(--cup); }
+.explainer .stroke { stroke: var(--rule); stroke-width: 1.5; }
+.explainer .stroke-glaze { stroke: var(--cobalt); stroke-width: 2; }
+.explainer .stroke-glaze.thick { stroke-width: 2.5; }
+.explainer .stroke-soft { stroke: var(--ink-faint); stroke-width: 1.5; }
+.explainer .stroke-latte { stroke: var(--latte); stroke-width: 2; }
+.explainer .stroke-white { stroke: #FFFFFF; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.explainer .dash { stroke-dasharray: 4 4; }
+.explainer .glaze { fill: var(--cobalt); }
+.explainer .glaze-soft { fill: var(--cobalt-wash); }
+.explainer .glaze-text { fill: var(--cobalt); }
+.explainer .latte { fill: var(--latte); }
+.explainer .latte-text { fill: var(--latte); }
+.explainer .on-glaze { fill: #FFFFFF; }

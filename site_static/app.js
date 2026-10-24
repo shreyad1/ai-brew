@@ -145,6 +145,7 @@ function renderIssue(issue) {
   if (issue.word) cards.push(`<div class="card" data-open="false">
     <span class="label">Word of the day &middot; ${esc(issue.word.theme)}, ${esc(issue.word.day)} of 5</span>
     <span class="term">${esc(issue.word.term)}</span>
+    ${(window.ILLUSTRATIONS || {})[issue.word.term.toLowerCase()] ? `<figure class="explainer">${window.ILLUSTRATIONS[issue.word.term.toLowerCase()]}</figure>` : ""}
     <button type="button" class="reveal" aria-expanded="false">Reveal the meaning</button>
     <div class="hidden-part"><p>${esc(issue.word.definition)}</p><p class="def">${esc(issue.word.analogy)}</p></div></div>`);
   if (issue.keep_brewing) cards.push(`<div class="card"><span class="label">Keep brewing</span>
