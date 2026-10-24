@@ -6,6 +6,11 @@
   <span class="mono">brew time {{ times[key] }}</span>
 </div>
 {%- endmacro -%}
+{%- macro figure(story) -%}
+{%- if story.image %}
+<figure class="photo"><a href="{{ story.link }}" tabindex="-1"><img src="{{ story.image }}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()"></a><figcaption>Image: {{ story.source }}</figcaption></figure>
+{%- endif %}
+{%- endmacro -%}
 {%- macro meta(story) -%}
 <div class="meta"><a href="{{ story.link }}">Read at {{ story.source }} &rarr;</a></div>
 {%- endmacro -%}
@@ -53,6 +58,7 @@
     {{ rail("The Big Pour", "Today's biggest AI news.", "big_pour") }}
     <div class="content">
       <article class="story lead">
+        {{ figure(lead) }}
         <h3>{{ lead.headline }}</h3>
         <p>{{ lead.summary }}</p>
         {%- if lead.why %}<div class="why"><b>Why you should care</b>{{ lead.why }}</div>{% endif %}
@@ -60,8 +66,11 @@
       </article>
       {%- if issue.big_pour | length > 1 %}
       <div class="pair-stories">
-        {%- for story in issue.big_pour[1:3] %}
+        {%- set pair = issue.big_pour[1:3] %}
+        {%- set pair_has_images = pair | selectattr("image") | list | length == pair | length %}
+        {%- for story in pair %}
         <article class="story">
+          {%- if pair_has_images %}{{ figure(story) }}{% endif %}
           <h3>{{ story.headline }}</h3>
           <p>{{ story.summary }}</p>
           {{ meta(story) }}
@@ -79,6 +88,7 @@
     <div class="content">
       {%- for story in issue.builder.stories %}
       <article class="story">
+        {{ figure(story) }}
         <span class="label">{{ story.label }}</span>
         <h3>{{ story.headline }}</h3>
         <p>{{ story.summary }}</p>
@@ -104,6 +114,7 @@
     <div class="content">
       {%- for story in issue.office_blend %}
       <article class="story">
+        {{ figure(story) }}
         <h3>{{ story.headline }}</h3>
         <p>{{ story.summary }}</p>
         {{ meta(story) }}
@@ -145,6 +156,7 @@
     {{ rail("The Long Read", "One essay for your second cup.", "long_read") }}
     <div class="content">
       <article class="story">
+        {{ figure(lr) }}
         <span class="label">from {{ lr.source }}</span>
         <h3>{{ lr.headline }}</h3>
         <p>{{ lr.summary }}</p>

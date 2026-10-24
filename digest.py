@@ -155,6 +155,7 @@ def attach_sources(draft: dict, pool: dict[str, dict]) -> dict:
         story = pool[entry["id"]]
         entry["link"] = story["link"]
         entry["source"] = story["source"]
+        entry["image"] = story.get("image")
         if entry["id"].startswith("u"):
             entry["date_mentioned"] = story.get("date_mentioned")
     # Optional fields the LLM may leave out; the strict template needs them present.

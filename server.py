@@ -95,6 +95,23 @@ def clean_text(raw: str) -> str:
     return text[:MAX_SUMMARY_CHARS]
 
 
+IMG_TAG = re.compile(r"<img[^>]+src=[\"']([^\"']+)[\"']")
+
+
+def find_image(entry: dict) -> str | None:
+    """The image the publisher attached to this feed item, if any. Checked before HTML is stripped."""
+    for key in ("media_content", "media_thumbnail"):
+        for media in entry.get(key) or []:
+            if media.get("url") and media.get("medium", "image") == "image":
+                return media["url"]
+    for link in entry.get("links") or []:
+        if link.get("type", "").startswith("image/"):
+            return link.get("href")
+    html_parts = [entry.get("summary", "")] + [c.get("value", "") for c in entry.get("content") or []]
+    match = IMG_TAG.search(" ".join(html_parts))
+    return match.group(1) if match else None
+
+
 def fetch_feed(url: str, name: str) -> list[dict]:
     """Download one RSS feed and return its items as clean dicts."""
     response = httpx.get(url, timeout=10, follow_redirects=True, headers=HEADERS)
@@ -113,6 +130,7 @@ def fetch_feed(url: str, name: str) -> list[dict]:
             "published": published,
             "summary": clean_text(entry.get("summary", "")),
             "categories": [tag.get("term", "") for tag in entry.get("tags", [])],
+            "image": find_image(entry),
         }
         if not is_sponsored(item):
             items.append(item)
