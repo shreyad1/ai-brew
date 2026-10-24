@@ -33,7 +33,7 @@
   try { const t = localStorage.getItem("aibrew-theme"); if (t) document.documentElement.dataset.theme = t; } catch {}
 </script>
 </head>
-<body data-audience="everyone">
+<body>
 <div class="shell">
 
   <header class="appbar">
@@ -42,10 +42,6 @@
       <a class="byline" href="https://github.com/shreyad1" target="_blank" rel="noopener">by Shreya Deshpande</a>
     </div>
     <div class="controls">
-      <div class="audience" role="group" aria-label="Show stories for">
-        <button type="button" data-audience="everyone" aria-pressed="true">Everyone</button>
-        <button type="button" data-audience="engineers" aria-pressed="false">Engineers</button>
-      </div>
       <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to dark theme"><span class="sun" aria-hidden="true">&#9728;</span><span class="moon" aria-hidden="true">&#9790;</span></button>
     </div>
   </header>

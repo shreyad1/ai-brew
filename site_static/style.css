@@ -69,12 +69,6 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 }
 .bar a { font-family: var(--mono); font-size: 0.75rem; color: var(--ink-soft); text-decoration: none; }
 .bar a:hover { color: var(--cobalt); }
-.audience { display: inline-flex; border: 1px solid var(--ink); border-radius: 999px; padding: 3px; gap: 2px; }
-.audience button {
-  font: 500 0.75rem var(--mono); letter-spacing: 0.04em; padding: 6px 14px; border: 0; border-radius: 999px;
-  background: transparent; color: var(--ink); cursor: pointer;
-}
-.audience button[aria-pressed="true"] { background: var(--ink); color: var(--ceramic); }
 
 /* Masthead: big left-aligned wordmark, ticket stamp on the right */
 .masthead {
@@ -165,7 +159,6 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .signup input { flex: 1 1 240px; padding: 12px 14px; border: 1px solid var(--rule); border-radius: 4px; background: var(--cup); color: var(--ink); font: inherit; }
 .signup button { padding: 12px 22px; border: 0; border-radius: 4px; background: var(--cobalt); color: #FFFFFF; font: 600 0.9rem var(--body); cursor: pointer; }
 
-body[data-audience="everyone"] .eng-only { display: none; }
 
 footer { padding-top: 32px; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; color: var(--ink-faint); font-size: 0.875rem; }
 
@@ -316,3 +309,12 @@ footer { padding-top: 32px; display: flex; flex-wrap: wrap; gap: 8px 24px; justi
   .issue-head .masthead .stamp { grid-column: 1 / -1; }
   .issue-head .masthead .cup { grid-row: 1; grid-column: 2; align-self: end; }
 }
+
+/* At a glance: four lines for readers in a hurry */
+.glance { margin-top: 24px; padding: 20px 22px; background: var(--cup); border: 1px solid var(--rule); border-left: 4px solid var(--cobalt); border-radius: 0 6px 6px 0; }
+.glance h2 { font-family: var(--display); font-size: var(--step-2); color: var(--cobalt); margin-bottom: 10px; }
+.glance ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.glance li { display: grid; grid-template-columns: 14px 1fr; column-gap: 10px; font-size: 1.05rem; line-height: 1.5; }
+.glance li::before { content: ""; width: 7px; height: 7px; margin-top: 0.6em; border-radius: 50%; background: var(--latte); }
+.glance li a { grid-column: 2; font: 500 0.75rem var(--mono); text-decoration: none; }
+.glance li a:hover { text-decoration: underline; }

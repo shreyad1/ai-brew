@@ -51,7 +51,7 @@ def split_sentences(text: str) -> list[str]:
 def collect_claims(issue: dict, sources: dict[str, dict]) -> list[dict]:
     """Every sentence the agent wrote, paired with the source text of its story."""
     entries = []
-    for key in ("big_pour", "office_blend", "still_roasting", "quick_sips"):
+    for key in ("glance", "big_pour", "office_blend", "still_roasting", "quick_sips"):
         entries += [(key, e) for e in issue.get(key) or []]
     builder = issue.get("builder") or {}
     entries += [("builder", e) for e in builder.get("stories") or []]

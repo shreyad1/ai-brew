@@ -54,6 +54,18 @@
     </div>
   </td></tr>
 
+  {#- At a glance: four lines for readers in a hurry #}
+  {%- if issue.glance %}
+  <tr><td style="padding:26px 34px 0;">
+    {{ section_title("At a Glance", "today in 30 seconds") }}
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:14px;font-size:15px;">
+      {%- for g in issue.glance %}
+      <tr><td valign="top" style="padding:6px 10px 6px 0;color:{{ gold }};">&#10022;</td><td style="padding:6px 0;">{{ g.summary }} <a href="{{ g.link }}" style="color:{{ taupe }};">{{ g.source }}</a></td></tr>
+      {%- endfor %}
+    </table>
+  </td></tr>
+  {%- endif %}
+
   {#- The Big Pour: one lead story + up to two side-by-side #}
   {%- if issue.big_pour %}
   {%- set lead = issue.big_pour[0] %}

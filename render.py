@@ -38,7 +38,7 @@ def build_menu(issue: dict) -> list[tuple[str, str]]:
 
 def prepare(issue: dict) -> dict:
     """Fill in missing sections and the menu, so the strict templates never hit a missing key."""
-    sections = ["big_pour", "office_blend", "still_roasting", "quick_sips",
+    sections = ["glance", "big_pour", "office_blend", "still_roasting", "quick_sips",
                 "builder", "long_read", "word", "keep_brewing", "poll"]
     issue = {key: None for key in sections} | {"web_url": None} | issue
     issue["menu"] = build_menu(issue)

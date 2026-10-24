@@ -69,3 +69,13 @@ def test_email_renders_the_sample_issue_and_escapes_html():
     assert "<script>alert(1)</script>" not in html
     assert "&lt;script&gt;" in html
     assert "The Big Pour" in html
+
+
+def test_glance_bullets_get_real_links_and_go_through_the_checks(monkeypatch):
+    monkeypatch.setattr(digest, "ask_json", lambda s, p: {"fixed": []})
+    draft = {"glance": [{"id": "n1", "summary": "OpenAI is raising $30B at a $1.25T valuation."},
+                        {"id": "n2", "summary": "Canva raised $90M for its model."}]}
+    draft = digest.fix_or_drop(draft, POOL, {})
+    draft = digest.attach_sources(draft, POOL)
+    assert [g["id"] for g in draft["glance"]] == ["n1"]          # the invented $90M bullet is dropped
+    assert draft["glance"][0]["link"] == "https://tc.com/openai"  # link from the feed, not the model

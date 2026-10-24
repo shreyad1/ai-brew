@@ -100,6 +100,11 @@ function renderIssue(issue) {
     </div>
   </header>`);
 
+  if ((issue.glance || []).length) parts.push(`<section class="glance" id="at-a-glance" aria-label="At a glance">
+    <h2>At a glance</h2>
+    <ul>${issue.glance.map((g) => `<li><span>${esc(g.summary)}</span> <a href="${esc(g.link)}">${esc(g.source)}</a></li>`).join("")}</ul>
+  </section>`);
+
   const pour = issue.big_pour || [];
   if (pour.length) {
     const pair = pour.slice(1, 3);
@@ -115,7 +120,7 @@ function renderIssue(issue) {
         <span class="label">Concept to know</span><span class="term">${esc(builder.concept.term)}</span>
         <button type="button" class="reveal" aria-expanded="false">What does it mean?</button>
         <div class="hidden-part"><p class="def">${esc(builder.concept.explanation)}</p></div></div>` : "";
-    parts.push(section("the-builders-bar", "The Builder's Bar", (builder.stories || []).map((s) => storyBlock(s, { label: s.label })).join("") + concept, "night eng-only"));
+    parts.push(section("the-builders-bar", "The Builder's Bar", (builder.stories || []).map((s) => storyBlock(s, { label: s.label })).join("") + concept, "night"));
   }
 
   if ((issue.office_blend || []).length) parts.push(section("office-blend", "Office Blend", issue.office_blend.map((s) => storyBlock(s)).join("")));
@@ -315,15 +320,7 @@ view.addEventListener("click", (event) => {
   }
 });
 
-// ---------- audience + theme ----------
-
-function setAudience(audience) {
-  document.body.dataset.audience = audience;
-  document.querySelectorAll("button[data-audience]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.audience === audience)));
-  store.set("aibrew-audience", audience);
-}
-document.querySelectorAll("button[data-audience]").forEach((b) => b.addEventListener("click", () => setAudience(b.dataset.audience)));
-setAudience(store.get("aibrew-audience", "everyone"));
+// ---------- theme ----------
 
 const themeButton = document.getElementById("theme-toggle");
 const isDark = () => (document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")) === "dark";

@@ -26,7 +26,7 @@ Rules you must follow:
 - Only put words in quotation marks if they are copied exactly from the item.
 - Plain English. Explain jargon in simple words. No hype words (revolutionary, game-changing, etc.).
 - Never write links or source names. Refer to items only by their id.
-- Each id may be used once in the whole issue.
+- Each id may be used once in the whole issue (except in "glance", which summarizes the top stories).
 - If an item's text is too thin to summarize, skip it.
 - Keep every qualifier and scope from the source: "AI-generated ads" must not become "ads",
   "for Pro and Max users" must not become "for everyone". Simplify words, never the meaning.
@@ -34,6 +34,9 @@ Rules you must follow:
 
 Return JSON with exactly this shape:
 {
+  "glance": [              // 4 bullets: the day's most important AI industry news for someone with 30 seconds.
+    {"id": "...", "summary": "one plain sentence, max 18 words, starting with the company or subject"}
+  ],                       // Use n or w ids. These may repeat ids used in other sections.
   "big_pour": [            // 3 items from ids starting with "n". The first is the lead story.
     {"id": "...", "headline": "max 9 words, plain, may be playful",
      "teaser": "max 6 words for the table of contents",
@@ -111,7 +114,7 @@ def entry_problems(entry: dict, pool: dict[str, dict]) -> list[str]:
 def all_entries(draft: dict) -> list[dict]:
     """Every story entry in the draft, wherever it sits."""
     entries = []
-    for key in ("big_pour", "office_blend", "still_roasting", "quick_sips"):
+    for key in ("glance", "big_pour", "office_blend", "still_roasting", "quick_sips"):
         entries += draft.get(key) or []
     builder = draft.get("builder") or {}
     entries += builder.get("stories") or []
@@ -134,7 +137,7 @@ def fix_or_drop(draft: dict, pool: dict[str, dict], log: dict) -> dict:
         }
         fixed = {e["id"]: e for e in ask_json(SYSTEM_PROMPT, json.dumps(request)).get("fixed", [])}
         replace = lambda e: fixed.get(e.get("id"), e)
-        for key in ("big_pour", "office_blend", "still_roasting", "quick_sips"):
+        for key in ("glance", "big_pour", "office_blend", "still_roasting", "quick_sips"):
             draft[key] = [replace(e) for e in draft.get(key) or []]
         if draft.get("builder"):
             draft["builder"]["stories"] = [replace(e) for e in draft["builder"].get("stories") or []]
@@ -145,7 +148,7 @@ def fix_or_drop(draft: dict, pool: dict[str, dict], log: dict) -> dict:
 
     dropped = []
     keep = lambda e: not entry_problems(e, pool) or dropped.append({"id": e.get("id"), "problems": entry_problems(e, pool)})
-    for key in ("big_pour", "office_blend", "still_roasting", "quick_sips"):
+    for key in ("glance", "big_pour", "office_blend", "still_roasting", "quick_sips"):
         draft[key] = [e for e in draft.get(key) or [] if keep(e)]
     if draft.get("builder"):
         draft["builder"]["stories"] = [e for e in draft["builder"].get("stories") or [] if keep(e)]
