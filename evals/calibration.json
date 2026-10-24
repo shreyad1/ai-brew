@@ -1,0 +1,8 @@
+{
+  "cases": 14,
+  "exact_agreement": 1.0,
+  "errors_caught": "8 of 8",
+  "false_alarms": "0 of 6",
+  "disagreements": [],
+  "judge_model": "gemini-flash-latest"
+}

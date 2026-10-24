@@ -29,16 +29,19 @@ def get_client() -> genai.Client:
     return genai.Client(api_key=key)
 
 
-def ask_json(system: str, prompt: str) -> dict:
-    """Send a prompt and get back parsed JSON. Low temperature keeps it factual."""
+def ask_json(system: str, prompt: str, models: list[str] | None = None, temperature: float = 0.3) -> dict:
+    """Send a prompt and get back parsed JSON. Low temperature keeps it factual.
+
+    `models` overrides which models to try, in order (the eval judge uses a different one).
+    """
     config = types.GenerateContentConfig(
         system_instruction=system,
         response_mime_type="application/json",
-        temperature=0.3,
+        temperature=temperature,
         http_options=types.HttpOptions(timeout=180_000),  # ms; don't hang forever
     )
     last_error: Exception | None = None
-    for model in [MODEL, *FALLBACK_MODELS]:
+    for model in models or [MODEL, *FALLBACK_MODELS]:
         try:
             response = get_client().models.generate_content(model=model, contents=prompt, config=config)
             print(f"  (written by {model})")

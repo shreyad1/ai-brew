@@ -78,6 +78,8 @@ function renderIssue(issue) {
       <h1 class="wordmark">The AI <em>Brew</em></h1>
       <div class="stamp"><b>No. ${issueNo(issue.number)}</b>${esc(issue.date_long)}</div>
     </div>
+    ${issue.eval && issue.eval.faithfulness != null ? `<a class="factcheck" href="#/trust">
+      <b>${Math.round(issue.eval.faithfulness * 100)}%</b> fact-checked against sources &middot; ${issue.eval.claims} sentences, ${issue.eval.unsupported + issue.eval.partial} flagged &rarr;</a>` : ""}
   </header>`);
 
   const pour = issue.big_pour || [];
@@ -209,11 +211,41 @@ function viewSaved() {
       : `<p class="empty">Nothing saved yet. Tap &#9734; next to any story to keep it here.</p>`}`;
 }
 
+function viewTrust() {
+  const trust = DATA.trust || {};
+  const history = [...(trust.history || [])].reverse();
+  const cal = trust.calibration;
+  const latest = ISSUES.find((i) => i.eval);
+  const pct = (x) => (x == null ? "–" : `${Math.round(x * 100)}%`);
+  return `<div class="page-head"><h1 class="page-title">How we fact-check</h1>
+    <p class="page-sub">Every sentence the AI writes is checked twice: by code, then by a second AI acting as a strict fact-checker.</p></div>
+    <section class="section"><div class="rail"><h2>The checks</h2></div><div class="content">
+      <ul class="list">
+        <li><span class="n">01</span><div><p><b>Code checks.</b> Every number, name, and quote must appear in the story's source. Failing lines get one rewrite, then they're dropped.</p></div></li>
+        <li><span class="n">02</span><div><p><b>AI judge.</b> A separate, stronger model reads each sentence next to its source and labels it supported, partly supported, or unsupported.</p></div></li>
+        <li><span class="n">03</span><div><p><b>The links are never written by the AI.</b> Code attaches every link and source name from the original feed.</p></div></li>
+      </ul></div></section>
+    <section class="section"><div class="rail"><h2>Scores</h2></div><div class="content">
+      ${history.length ? `<table class="scores"><thead><tr><th>Issue</th><th>Sentences</th><th>Supported</th><th>Partly</th><th>Unsupported</th><th>Score</th></tr></thead><tbody>
+        ${history.map((h) => `<tr><td><a href="#/issue/${esc(h.date)}">${esc(h.date)}</a></td><td>${h.claims}</td><td>${h.supported}</td><td>${h.partial}</td><td>${h.unsupported}</td><td><b>${pct(h.faithfulness)}</b></td></tr>`).join("")}
+      </tbody></table>` : `<p class="empty">No scores yet.</p>`}
+    </div></section>
+    ${latest && latest.eval.flagged.length ? `<section class="section"><div class="rail"><h2>Flagged in the latest issue</h2></div><div class="content"><ul class="list">
+      ${latest.eval.flagged.map((f) => `<li><span class="n tag-${esc(f.verdict)}">${f.verdict === "partial" ? "partly" : "no"}</span><div><p>&ldquo;${esc(f.claim)}&rdquo;</p><span class="when">${esc(f.reason)}</span></div></li>`).join("")}
+    </ul></div></section>` : ""}
+    ${cal ? `<section class="section"><div class="rail"><h2>Checking the checker</h2></div><div class="content">
+      <p>We tested the AI judge on ${cal.cases} sentences a person had already labelled, including planted mistakes.</p>
+      <ul class="list"><li><span class="n">&#10003;</span><div><p>Caught <b>${esc(cal.errors_caught)}</b> planted or partial errors</p></div></li>
+      <li><span class="n">!</span><div><p>False alarms on correct sentences: <b>${esc(cal.false_alarms)}</b></p></div></li>
+      <li><span class="n">=</span><div><p>Exact agreement with the human label: <b>${pct(cal.exact_agreement)}</b></p></div></li></ul>
+    </div></section>` : ""}`;
+}
+
 // ---------- router ----------
 
 function route() {
   const [, tab = "today", arg] = location.hash.split("/");
-  const views = { today: viewToday, events: viewEvents, archive: viewArchive, saved: viewSaved, issue: () => viewIssue(arg) };
+  const views = { today: viewToday, events: viewEvents, archive: viewArchive, saved: viewSaved, trust: viewTrust, issue: () => viewIssue(arg) };
   view.innerHTML = (views[tab] || viewToday)();
   document.querySelectorAll(".tabs a").forEach((a) => a.setAttribute("aria-current", String(a.dataset.tab === (tab === "issue" ? "archive" : tab))));
 

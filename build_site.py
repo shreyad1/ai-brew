@@ -9,6 +9,7 @@ from render import env, prepare
 
 ROOT = Path(__file__).parent
 ISSUES_DIR = ROOT / "issues"
+EVALS_DIR = ROOT / "evals"
 SITE_DIR = ROOT / "site"
 SITE_URL = "https://theaibrew.pages.dev/"
 
@@ -43,7 +44,16 @@ def build() -> Path:
 
     # The app is one page with every issue and the events built in, so it works offline too.
     issues = [prepare(issue) for issue in load_issues()]
-    app_data = json.dumps({"issues": issues, "events": payload}).replace("</", "<\\/")
+    for issue in issues:
+        result = EVALS_DIR / f"{issue['date_iso']}.json"
+        if result.exists():
+            e = json.loads(result.read_text())
+            issue["eval"] = {k: e[k] for k in ("faithfulness", "claims", "supported", "partial", "unsupported", "flagged")}
+    trust = {
+        "history": json.loads((EVALS_DIR / "summary.json").read_text()) if (EVALS_DIR / "summary.json").exists() else [],
+        "calibration": json.loads((EVALS_DIR / "calibration.json").read_text()) if (EVALS_DIR / "calibration.json").exists() else None,
+    }
+    app_data = json.dumps({"issues": issues, "events": payload, "trust": trust}).replace("</", "<\\/")
     (SITE_DIR / "index.html").write_text(env.get_template("app.html.j2").render(places=PLACES, data_json=app_data))
 
     # Old per-issue links (and email links) forward into the app.

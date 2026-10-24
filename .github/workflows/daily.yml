@@ -30,10 +30,16 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: uv run digest.py
 
+      - name: Fact-check today's issue (LLM judge)
+        continue-on-error: true # a busy judge model must never block the newsletter
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: uv run evals.py
+
       - name: Save the issue to the repo
         run: |
           git config user.name "ai-brew-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add issues/ learning_path.yaml resources.yaml polls.yaml
+          git add issues/ evals/ learning_path.yaml resources.yaml polls.yaml
           git commit -m "Issue for $(date -u +%F)" || echo "Nothing new to commit"
           git push

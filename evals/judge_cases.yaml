@@ -1,0 +1,50 @@
+# Hand-labelled cases for measuring the judge. Sources are real feed text from Oct 2026.
+# Labels: supported / partial (adds a detail or scope the source lacks) / unsupported (wrong or invented).
+cases:
+  - source: "Pennsylvania will require labels on AI-generated ads. On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads."
+    claim: "Pennsylvania's governor signed a law requiring labels on AI-generated ads."
+    label: supported
+  - source: "Pennsylvania will require labels on AI-generated ads. On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads."
+    claim: "You will soon see clear labels on political advertisements that use AI."
+    label: partial
+  - source: "Pennsylvania will require labels on AI-generated ads. On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads."
+    claim: "Pennsylvania banned AI-generated ads."
+    label: unsupported
+
+  - source: "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO. Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever."
+    claim: "OpenAI is working on a $30B raise at a $1.25T valuation."
+    label: supported
+  - source: "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO. Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever."
+    claim: "OpenAI has closed a $30B round, making it the most valuable private company ever."
+    label: unsupported
+  - source: "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO. Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever."
+    claim: "OpenAI's raise comes ahead of a planned IPO next spring."
+    label: partial
+
+  - source: "Nirva raises $33M for a pendant that only listens to you. Nirva will ship its $249 ambient AI pendant by the end of the year."
+    claim: "Nirva's $249 AI pendant is expected to ship by the end of the year."
+    label: supported
+  - source: "Nirva raises $33M for a pendant that only listens to you. Nirva will ship its $249 ambient AI pendant by the end of the year."
+    claim: "Nirva's pendant costs $199 and is already on sale."
+    label: unsupported
+
+  - source: "SAP lets AI play key role in its certification renewal process. SAP professionals can now renew their certifications through AI-based roleplays."
+    claim: "SAP professionals can renew certifications through AI roleplays."
+    label: supported
+  - source: "SAP lets AI play key role in its certification renewal process. SAP professionals can now renew their certifications through AI-based roleplays."
+    claim: "SAP replaced all of its certification exams with AI roleplays."
+    label: unsupported
+
+  - source: "Claude Duet app is Anthropic's bet on agents. Claude Duet is available through waitlist for Pro and Max plan users."
+    claim: "Paid Claude users can join a waitlist for Claude Duet."
+    label: supported
+  - source: "Claude Duet app is Anthropic's bet on agents. Claude Duet is available through waitlist for Pro and Max plan users."
+    claim: "Claude Duet is free for everyone starting today."
+    label: unsupported
+
+  - source: "Canva's first AI image model plans designs before generating them. Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google."
+    claim: "Canva launched its first AI image model, which plans a design before generating it."
+    label: supported
+  - source: "Canva's first AI image model plans designs before generating them. Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google."
+    claim: "Canva's new model beats OpenAI's on quality benchmarks."
+    label: unsupported

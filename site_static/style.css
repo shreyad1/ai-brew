@@ -278,3 +278,14 @@ footer { padding-top: 32px; display: flex; flex-wrap: wrap; gap: 8px 24px; justi
 .brand-group { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
 .byline { font-family: var(--mono); font-size: 0.6875rem; color: var(--ink-faint); text-decoration: none; letter-spacing: 0.02em; }
 .byline:hover { color: var(--cobalt); text-decoration: underline; }
+
+/* Fact-check line and Trust page */
+.factcheck { display: inline-flex; gap: 6px; align-items: baseline; margin-top: 14px; padding: 6px 12px; border-radius: 999px; background: var(--cobalt-wash); color: var(--ink); text-decoration: none; font-size: 0.85rem; }
+.factcheck b { color: var(--cobalt); font-variant-numeric: tabular-nums; }
+.factcheck:hover { text-decoration: underline; }
+.scores { width: 100%; border-collapse: collapse; font-size: 0.9rem; font-variant-numeric: tabular-nums; }
+.scores th { text-align: left; font: 500 0.75rem var(--mono); color: var(--ink-faint); padding: 6px 8px; border-bottom: 1px solid var(--rule); }
+.scores td { padding: 8px; border-bottom: 1px solid var(--rule); }
+.content:has(> .scores) { overflow-x: auto; }
+.list .tag-unsupported { color: #C2410C; }
+.list .tag-partial { color: var(--latte); }
