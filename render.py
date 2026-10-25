@@ -16,24 +16,23 @@ env = Environment(
 )
 
 
+def first(items: list | None, key: str) -> str:
+    return (items or [{}])[0].get(key, "")
+
+
 def build_menu(issue: dict) -> list[tuple[str, str]]:
-    """Table of contents: one line per section that has content today."""
-    menu = []
-    if issue.get("big_pour"):
-        menu.append(("Top Stories", issue["big_pour"][0].get("teaser", "")))
-    if issue.get("office_blend"):
-        menu.append(("AI at Work", issue["office_blend"][0].get("teaser", "")))
-    if issue.get("still_roasting"):
-        menu.append(("Coming Up", "launching soon"))
-    if issue.get("quick_sips"):
-        menu.append(("In Brief", f"{len(issue['quick_sips'])} one-liners"))
-    if issue.get("builder"):
-        menu.append(("For Engineers", "for engineers"))
-    if issue.get("long_read"):
-        menu.append(("The Long Read", f"from {issue['long_read']['source']}"))
-    if issue.get("word"):
-        menu.append(("Word of the Day", issue["word"]["term"]))
-    return menu
+    """"In today's issue": each section that has content, with its first real headline."""
+    builder = issue.get("builder") or {}
+    rows = [
+        ("Top Stories", first(issue.get("big_pour"), "headline")),
+        ("AI at Work", first(issue.get("office_blend"), "headline")),
+        ("Coming Up", f"{len(issue['still_roasting'])} things to watch" if issue.get("still_roasting") else ""),
+        ("In Brief", f"{len(issue['quick_sips'])} quick headlines" if issue.get("quick_sips") else ""),
+        ("For Engineers", first(builder.get("stories"), "headline") or (builder.get("concept") or {}).get("term", "")),
+        ("The Long Read", (issue.get("long_read") or {}).get("headline", "")),
+        ("Word of the Day", (issue.get("word") or {}).get("term", "")),
+    ]
+    return [(name, line) for name, line in rows if line]
 
 
 def prepare(issue: dict) -> dict:
