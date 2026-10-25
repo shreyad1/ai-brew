@@ -66,11 +66,11 @@
   </td></tr>
   {%- endif %}
 
-  {#- The Big Pour: one lead story + up to two side-by-side #}
+  {#- Top Stories: one lead story + up to two side-by-side #}
   {%- if issue.big_pour %}
   {%- set lead = issue.big_pour[0] %}
   <tr><td style="padding:34px 34px 0;">
-    {{ section_title("The Big Pour", "today's biggest AI news") }}
+    {{ section_title("Top Stories", "today's biggest AI news") }}
     <div style="font-family:{{ serif }};font-size:30px;line-height:1.2;margin-top:18px;text-align:center;">{{ lead.headline }}</div>
     <div style="width:40px;border-top:1px solid {{ gold }};margin:16px auto;"></div>
     <p style="margin:0;"><span style="font-family:{{ serif }};font-size:44px;line-height:0.9;float:left;padding:4px 8px 0 0;color:{{ gold }};">{{ lead.summary[0] }}</span>{{ lead.summary[1:] }}</p>
@@ -96,10 +96,10 @@
   <tr><td style="padding:30px 34px 0;text-align:center;color:{{ gold }};font-size:14px;letter-spacing:10px;">&#10022; &#10022; &#10022;</td></tr>
   {%- endif %}
 
-  {#- Office Blend #}
+  {#- AI at Work #}
   {%- if issue.office_blend %}
   <tr><td style="padding:24px 34px 0;">
-    {{ section_title("Office Blend", "how real companies use AI at work") }}
+    {{ section_title("AI at Work", "how real companies use AI at work") }}
     <div style="background:#EEF0EA;padding:22px 24px;margin-top:18px;">
       {%- for story in issue.office_blend %}
       {%- if not loop.first %}<div style="border-top:1px solid #D5DACD;margin:18px 0;"></div>{% endif %}
@@ -111,10 +111,10 @@
   </td></tr>
   {%- endif %}
 
-  {#- Still Roasting: date shown only if the source stated one #}
+  {#- Coming Up: date shown only if the source stated one #}
   {%- if issue.still_roasting %}
   <tr><td style="padding:34px 34px 0;">
-    {{ section_title("Still Roasting", "coming soon, worth watching") }}
+    {{ section_title("Coming Up", "coming soon, worth watching") }}
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:16px;font-size:15px;">
       {%- for item in issue.still_roasting %}
       <tr><td valign="top" style="padding:10px 12px 10px 0;color:{{ gold }};font-family:{{ serif }};font-size:20px;">{{ ["i.", "ii.", "iii.", "iv."][loop.index0] }}</td>
@@ -124,10 +124,10 @@
   </td></tr>
   {%- endif %}
 
-  {#- Quick Sips #}
+  {#- In Brief #}
   {%- if issue.quick_sips %}
   <tr><td style="padding:34px 34px 0;">
-    {{ section_title("Quick Sips", "more AI news, one line each") }}
+    {{ section_title("In Brief", "more AI news, one line each") }}
     <div style="background:#F3E9E4;padding:16px 22px;margin-top:16px;font-size:15px;">
       {%- for sip in issue.quick_sips %}
       <p style="margin:8px 0;"><span style="color:{{ gold }};">&#10022;</span>&nbsp; {{ sip.summary }} <a href="{{ sip.link }}" style="color:{{ taupe }};">{{ sip.source }}</a></p>
@@ -136,10 +136,10 @@
   </td></tr>
   {%- endif %}
 
-  {#- The Builder's Bar: the one dark card, for engineers #}
+  {#- For Engineers: the one dark card, for engineers #}
   {%- if issue.builder %}
   <tr><td style="padding:34px 34px 0;">
-    {{ section_title("The Builder's Bar", "new AI tools & ideas for engineers") }}
+    {{ section_title("For Engineers", "new AI tools & ideas for engineers") }}
     <div style="background:{{ ink }};color:#F5EFE6;padding:24px 24px 22px;margin-top:16px;">
       {%- for story in issue.builder.stories %}
       {%- if not loop.first %}<div style="border-top:1px solid {{ soft }};margin:18px 0;"></div>{% endif %}
@@ -174,7 +174,7 @@
   </td></tr>
   {%- endif %}
 
-  {#- Word of the Day + Keep Brewing #}
+  {#- Word of the Day + Keep Learning #}
   {%- if issue.word or issue.keep_brewing %}
   <tr><td style="padding:34px 34px 0;">
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
@@ -195,7 +195,7 @@
         {%- if issue.keep_brewing %}
         {%- set kb = issue.keep_brewing %}
         <td valign="top" width="50%" style="background:#F5EFE6;padding:20px 18px;text-align:center;">
-          <div style="font-size:11px;letter-spacing:3px;text-transform:uppercase;color:{{ gold }};">Keep Brewing</div>
+          <div style="font-size:11px;letter-spacing:3px;text-transform:uppercase;color:{{ gold }};">Keep Learning</div>
           <div style="font-family:{{ serif }};font-style:italic;font-size:12px;color:{{ muted }};margin-top:4px;">one way to stay up to date</div>
           <div style="font-family:{{ serif }};font-size:20px;margin-top:10px;">{{ kb.name }}</div>
           <p style="margin:8px 0 0;font-size:14px;">{{ kb.description }}</p>
@@ -207,12 +207,12 @@
   </td></tr>
   {%- endif %}
 
-  {#- Tip Jar Poll: buttons open a reply that is already filled in #}
+  {#- Quick Poll: buttons open a reply that is already filled in #}
   {%- if issue.poll %}
   {%- set p = issue.poll %}
   <tr><td style="padding:34px 34px 0;">
     <div style="border-top:1px solid {{ gold }};border-bottom:1px solid {{ gold }};padding:22px 10px;text-align:center;">
-      <div style="font-size:11px;letter-spacing:4px;text-transform:uppercase;color:{{ gold }};">The Tip Jar Poll</div>
+      <div style="font-size:11px;letter-spacing:4px;text-transform:uppercase;color:{{ gold }};">Quick Poll</div>
       {%- if p.last_results %}
       <div style="font-family:{{ serif }};font-style:italic;font-size:14px;color:{{ soft }};margin-top:8px;">Last time: {{ p.last_results }}</div>
       {%- endif %}

@@ -116,7 +116,7 @@ function renderIssue(issue) {
   if (pour.length) {
     const pair = pour.slice(1, 3);
     const pairPhotos = pair.every((s) => s.image);
-    parts.push(section("the-big-pour", "The Big Pour", `
+    parts.push(section("the-big-pour", "Top Stories", `
       ${storyBlock(pour[0], { lead: true })}
       ${pair.length ? `<div class="pair-stories">${pair.map((s) => storyBlock(s, { withPhoto: pairPhotos })).join("")}</div>` : ""}`));
   }
@@ -127,16 +127,16 @@ function renderIssue(issue) {
         <span class="label">Concept to know</span><span class="term">${esc(builder.concept.term)}</span>
         <button type="button" class="reveal" aria-expanded="false">What does it mean?</button>
         <div class="hidden-part"><p class="def">${esc(builder.concept.explanation)}</p></div></div>` : "";
-    parts.push(section("the-builders-bar", "The Builder's Bar", (builder.stories || []).map((s) => storyBlock(s, { label: s.label })).join("") + concept, "night"));
+    parts.push(section("the-builders-bar", "For Engineers", (builder.stories || []).map((s) => storyBlock(s, { label: s.label })).join("") + concept, "night"));
   }
 
-  if ((issue.office_blend || []).length) parts.push(section("office-blend", "Office Blend", issue.office_blend.map((s) => storyBlock(s)).join("")));
+  if ((issue.office_blend || []).length) parts.push(section("office-blend", "AI at Work", issue.office_blend.map((s) => storyBlock(s)).join("")));
 
-  if ((issue.still_roasting || []).length) parts.push(section("still-roasting", "Still Roasting", `<ul class="list">${issue.still_roasting.map((item, i) => `
+  if ((issue.still_roasting || []).length) parts.push(section("still-roasting", "Coming Up", `<ul class="list">${issue.still_roasting.map((item, i) => `
     <li><span class="n">${String(i + 1).padStart(2, "0")}</span><div><p>${esc(item.summary)}</p>
     <span class="when">${esc(item.date_mentioned || "Date not announced")} &middot; <a href="${esc(item.link)}">${esc(item.source)}</a></span></div></li>`).join("")}</ul>`));
 
-  if ((issue.quick_sips || []).length) parts.push(section("quick-sips", "Quick Sips", `<ul class="list">${issue.quick_sips.map((sip) => `
+  if ((issue.quick_sips || []).length) parts.push(section("quick-sips", "In Brief", `<ul class="list">${issue.quick_sips.map((sip) => `
     <li><span class="n">&mdash;</span><div><p>${esc(sip.summary)}</p><span class="when"><a href="${esc(sip.link)}">${esc(sip.source)}</a> ${saveButton(sip)}</span></div></li>`).join("")}</ul>`));
 
   if (issue.long_read) parts.push(section("the-long-read", "The Long Read", storyBlock(issue.long_read, { withPhoto: false, label: `from ${issue.long_read.source}` })));
@@ -154,7 +154,7 @@ function renderIssue(issue) {
     <a href="${esc(issue.keep_brewing.link)}">Start here &rarr;</a></div>`);
   if (cards.length) parts.push(section("learn", "Learn", `<div class="cards">${cards.join("")}</div>`));
 
-  if (issue.poll) parts.push(section("poll", "Tip Jar Poll", `
+  if (issue.poll) parts.push(section("poll", "Quick Poll", `
     ${issue.poll.last_results ? `<p class="mono">Last time: ${esc(issue.poll.last_results)}</p>` : ""}
     <p class="question">${esc(issue.poll.question)}</p>
     <div class="vote">${["YES", "NO"].map((a) => `<a href="mailto:${esc(issue.reply_to)}?subject=${encodeURIComponent(`Poll ${issue.date_iso}: ${a}`)}">${a}</a>`).join("")}</div>`));

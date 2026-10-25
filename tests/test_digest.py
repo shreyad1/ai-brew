@@ -68,7 +68,7 @@ def test_email_renders_the_sample_issue_and_escapes_html():
     html = render_email(issue)
     assert "<script>alert(1)</script>" not in html
     assert "&lt;script&gt;" in html
-    assert "The Big Pour" in html
+    assert "Top Stories" in html
 
 
 def test_glance_bullets_get_real_links_and_go_through_the_checks(monkeypatch):

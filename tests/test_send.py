@@ -31,7 +31,7 @@ def test_create_draft_always_asks_for_a_draft(monkeypatch):
     assert result["id"] == "em_1"
     assert sent["body"]["status"] == "draft"
     assert sent["headers"]["Authorization"] == "Token secret-key"
-    assert "<body" not in sent["body"]["body"] and "The Big Pour" in sent["body"]["body"]
+    assert "<body" not in sent["body"]["body"] and "Top Stories" in sent["body"]["body"]
 
 
 def test_api_errors_are_reported_with_the_reason(monkeypatch):
