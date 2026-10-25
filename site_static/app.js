@@ -194,7 +194,7 @@ function renderIssue(issue) {
     <div class="rail"><h2>Get it by email</h2></div>
     <div class="content">
       <p>The Daily AI Cup in your inbox every morning. Free, and you can unsubscribe anytime.</p>
-      <form class="signup" action="https://buttondown.com/api/emails/embed-subscribe/deshpande" method="post" target="_blank">
+      <form class="signup" action="https://buttondown.com/api/emails/embed-subscribe/dailyaicup" method="post" target="_blank">
         <label for="email-${esc(issue.date_iso)}" class="visually-hidden">Email address</label>
         <input id="email-${esc(issue.date_iso)}" type="email" name="email" placeholder="you@example.com" required>
         <button type="submit">Subscribe</button>
