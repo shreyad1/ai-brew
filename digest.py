@@ -267,7 +267,7 @@ def build_issue(dry_run: bool = False) -> Path | None:
         "date_long": now.strftime("%A · %-d %B %Y"),
         "read_minutes": 3,
         "web_url": f"https://theaibrew.pages.dev/#/issue/{now.date().isoformat()}",
-        "reply_to": "you@example.com",
+        "reply_to": "shreyadeshpande119@gmail.com",
         "subscribe_url": "#",
         "unsubscribe_url": "#",
         "sign_off": "That's the last sip. See you next morning.",

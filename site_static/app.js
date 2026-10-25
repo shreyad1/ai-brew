@@ -73,6 +73,7 @@ const SECTION_INFO = {
   "the-long-read": "One essay worth your time this week",
   "learn": "One AI term explained, and one way to keep learning",
   "poll": "Tap to vote; results in the next issue",
+  "feedback": "Tell me what you think",
 };
 
 const section = (id, name, body, extraClass = "") => `
@@ -200,6 +201,9 @@ function renderIssue(issue) {
       </form>
     </div>
   </section>`);
+  parts.push(section("feedback", "Feedback", `
+      <p>Something confusing, missing, or great? I read every message and use it to make the next issue better.</p>
+      <a class="feedback-button" href="mailto:${esc(issue.reply_to)}?subject=${encodeURIComponent(`Feedback on The AI Brew, ${issue.date_long}`)}">Send feedback</a>`));
   parts.push(`<p class="quiet-link"><a href="#/trust">How we fact-check</a></p>`);
   return parts.join("");
 }

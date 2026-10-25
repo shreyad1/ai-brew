@@ -381,3 +381,5 @@ footer { padding-top: 32px; display: flex; flex-wrap: wrap; gap: 8px 24px; justi
 .rail-note { margin: 6px 0 0; font-size: 0.9rem; line-height: 1.4; color: var(--ink-faint); }
 .night .rail-note { color: inherit; opacity: 0.75; }
 @media (max-width: 560px) { .contents a { grid-template-columns: 1fr; gap: 2px; } }
+.feedback-button { display: inline-block; margin-top: 4px; padding: 10px 22px; border-radius: 6px; background: var(--cobalt); color: var(--cup); font-weight: 600; text-decoration: none; }
+.feedback-button:hover { filter: brightness(1.1); }
