@@ -63,9 +63,21 @@ const photo = (story) => story.image
 
 const meta = (story) => `<div class="meta"><a href="${esc(story.link)}">Read at ${esc(story.source)} &rarr;</a>${saveButton(story)}</div>`;
 
+// One plain line under each heading, so a first-time reader knows what the section is.
+const SECTION_INFO = {
+  "the-big-pour": "The biggest AI news of the day",
+  "the-builders-bar": "New tools, models and ideas for people who build with AI",
+  "office-blend": "How real companies are using AI at work",
+  "still-roasting": "Launches and events worth watching",
+  "quick-sips": "More AI news, one line each",
+  "the-long-read": "One essay worth your time this week",
+  "learn": "One AI term explained, and one way to keep learning",
+  "poll": "Tap to vote; results in the next issue",
+};
+
 const section = (id, name, body, extraClass = "") => `
   <section class="section ${extraClass}" id="${id}">
-    <div class="rail"><h2>${esc(name)}</h2></div>
+    <div class="rail"><h2>${esc(name)}</h2>${SECTION_INFO[id] ? `<p class="rail-note">${esc(SECTION_INFO[id])}</p>` : ""}</div>
     <div class="content">${body}</div>
   </section>`;
 
@@ -90,6 +102,22 @@ function storyBlock(story, { lead = false, withPhoto = true, label = "" } = {}) 
   </article>`;
 }
 
+// "In today's issue": every section with its first headline, linked to the section.
+function contents(issue) {
+  const rows = [
+    ["the-big-pour", "Top Stories", (issue.big_pour || [])[0]?.headline],
+    ["the-builders-bar", "For Engineers", ((issue.builder || {}).stories || [])[0]?.headline || (issue.builder || {}).concept?.term],
+    ["office-blend", "AI at Work", (issue.office_blend || [])[0]?.headline],
+    ["still-roasting", "Coming Up", (issue.still_roasting || []).length && `${issue.still_roasting.length} things to watch`],
+    ["quick-sips", "In Brief", (issue.quick_sips || []).length && `${issue.quick_sips.length} quick headlines`],
+    ["the-long-read", "The Long Read", issue.long_read?.headline],
+    ["learn", "Word of the Day", issue.word?.term],
+    ["poll", "Quick Poll", issue.poll?.question],
+  ].filter((r) => r[2]);
+  return `<nav class="contents" aria-label="In today's issue"><h2>In today's issue</h2><ol>${rows.map(([id, name, line]) =>
+    `<li><a href="#${id}" data-jump="${id}"><span class="c-name">${esc(name)}</span><span class="c-line">${esc(line)}</span></a></li>`).join("")}</ol></nav>`;
+}
+
 function renderIssue(issue) {
   const parts = [];
   parts.push(`<header class="issue-head">
@@ -98,7 +126,9 @@ function renderIssue(issue) {
       ${CUP}
       <div class="stamp"><b>No. ${issueNo(issue.number)}</b>${esc(issue.date_long)}</div>
     </div>
+    <p class="tagline">The day's AI news in five minutes: what happened, how companies are using it, and what's coming next.</p>
   </header>`);
+  parts.push(contents(issue));
 
   if ((issue.glance || []).length) parts.push(`<section class="glance" id="at-a-glance" data-open="false">
     <button type="button" class="glance-toggle" aria-expanded="false" aria-controls="glance-body-${esc(issue.date_iso)}">
@@ -309,6 +339,13 @@ function route() {
 
 // One click handler for everything inside the view.
 view.addEventListener("click", (event) => {
+  // Contents links scroll within the page; letting the hash change would re-route.
+  const jump = event.target.closest("a[data-jump]");
+  if (jump) {
+    event.preventDefault();
+    document.getElementById(jump.dataset.jump)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    return;
+  }
   const save = event.target.closest("button.save");
   if (save) {
     const story = ALL_STORIES.find((s) => s.link === save.dataset.save) || saved[save.dataset.save];
