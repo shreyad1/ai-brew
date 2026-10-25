@@ -159,6 +159,17 @@ function renderIssue(issue) {
     <p class="question">${esc(issue.poll.question)}</p>
     <div class="vote">${["YES", "NO"].map((a) => `<a href="mailto:${esc(issue.reply_to)}?subject=${encodeURIComponent(`Poll ${issue.date_iso}: ${a}`)}">${a}</a>`).join("")}</div>`));
 
+  parts.push(`<section class="section" id="subscribe">
+    <div class="rail"><h2>Get it by email</h2></div>
+    <div class="content">
+      <p>The AI Brew in your inbox every morning. Free, and you can unsubscribe anytime.</p>
+      <form class="signup" action="https://buttondown.com/api/emails/embed-subscribe/deshpande" method="post" target="_blank">
+        <label for="email-${esc(issue.date_iso)}" class="visually-hidden">Email address</label>
+        <input id="email-${esc(issue.date_iso)}" type="email" name="email" placeholder="you@example.com" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>`);
   parts.push(`<p class="quiet-link"><a href="#/trust">How we fact-check</a></p>`);
   return parts.join("");
 }
