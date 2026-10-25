@@ -136,7 +136,7 @@
       {%- for story in issue.builder.stories %}
       <div style="border-top:1px solid #2A3866;margin-top:16px;padding-top:14px;">
         <div style="font-family:{{ mono }};font-size:10px;letter-spacing:2px;text-transform:uppercase;color:{{ night_soft }};">{{ story.label }}</div>
-        <div style="font-family:{{ serif }};font-size:19px;margin-top:4px;">{{ story.headline }}</div>
+        <div style="font-family:{{ serif }};font-size:19px;margin-top:4px;color:{{ night_text }};">{{ story.headline }}</div>
         <p style="margin:6px 0 0;font-size:15px;color:{{ night_soft }};">{{ story.summary }}</p>
         {{ read_more(story, color="#7D9BFF") }}
       </div>
@@ -145,7 +145,7 @@
       {%- set c = issue.builder.concept %}
       <div style="border:1px solid #7D9BFF;border-radius:6px;padding:12px 14px;margin-top:18px;">
         <div style="font-family:{{ mono }};font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#7D9BFF;">Concept to know</div>
-        <div style="font-family:{{ serif }};font-size:18px;margin-top:4px;">{{ c.term }}</div>
+        <div style="font-family:{{ serif }};font-size:18px;margin-top:4px;color:{{ night_text }};">{{ c.term }}</div>
         <p style="margin:4px 0 0;font-size:14px;color:{{ night_soft }};">{{ c.explanation }}{% if c.link %} <a href="{{ c.link }}" style="color:#7D9BFF;">Source</a>{% endif %}</p>
       </div>
       {%- endif %}
