@@ -36,6 +36,17 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: uv run evals.py
 
+      - name: Draft the email in Buttondown (review mode)
+        continue-on-error: true # the site still publishes even if Buttondown is unreachable
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: |
+          if [ -z "$BUTTONDOWN_API_KEY" ]; then
+            echo "::warning::BUTTONDOWN_API_KEY secret is missing, so no email draft was created."
+          else
+            uv run send.py
+          fi
+
       - name: Save the issue to the repo
         run: |
           git config user.name "ai-brew-bot"
