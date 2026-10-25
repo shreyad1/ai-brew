@@ -11,7 +11,7 @@ ROOT = Path(__file__).parent
 ISSUES_DIR = ROOT / "issues"
 EVALS_DIR = ROOT / "evals"
 SITE_DIR = ROOT / "site"
-SITE_URL = "https://theaibrew.pages.dev/"
+SITE_URL = "https://thedailyaicup.pages.dev/"
 
 
 def load_issues() -> list[dict]:

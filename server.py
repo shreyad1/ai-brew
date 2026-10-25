@@ -1,4 +1,4 @@
-"""AI Brew MCP server: tools that give Claude (or any MCP client) fresh AI news and events.
+"""The Daily AI Cup MCP server: tools that give Claude (or any MCP client) fresh AI news and events.
 
 The logic lives in feeds.py, filters.py, and events.py; each tool here clamps its inputs
 and shapes the result.
@@ -10,7 +10,7 @@ from events import LUMA_CITIES, US_STATES, fetch_city_events
 from feeds import collect_stories
 from filters import DATE_PATTERN, UPCOMING_PATTERN
 
-mcp = MCPServer("AI Brew")
+mcp = MCPServer("Daily AI Cup")
 
 
 @mcp.tool()

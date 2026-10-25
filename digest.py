@@ -18,7 +18,7 @@ ISSUES_DIR = ROOT / "issues"
 TIMEZONE = ZoneInfo("America/Chicago")
 MIN_TOP_STORIES = 3  # fail safe: fewer good stories than this and we don't publish
 
-SYSTEM_PROMPT = """You are the editor of The AI Brew, a short, warm morning newsletter about AI
+SYSTEM_PROMPT = """You are the editor of The Daily AI Cup, a short, warm morning newsletter about AI
 for busy people, many of them not technical. You get a list of real news items, each with an id.
 
 Rules you must follow:
@@ -266,7 +266,7 @@ def build_issue(dry_run: bool = False) -> Path | None:
         "date_iso": now.date().isoformat(),
         "date_long": now.strftime("%A · %-d %B %Y"),
         "read_minutes": 3,
-        "web_url": f"https://theaibrew.pages.dev/#/issue/{now.date().isoformat()}",
+        "web_url": f"https://thedailyaicup.pages.dev/#/issue/{now.date().isoformat()}",
         "reply_to": "shreyadeshpande119@gmail.com",
         "subscribe_url": "#",
         "unsubscribe_url": "#",

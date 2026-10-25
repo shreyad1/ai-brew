@@ -1,4 +1,4 @@
-// The AI Brew web app: one page, four tabs (Today, Events, Archive, Saved), hash-based routing.
+// The Daily AI Cup web app: one page, four tabs (Today, Events, Archive, Saved), hash-based routing.
 // All data ships inside the page (#app-data), so it works offline and when opened from disk.
 
 const DATA = JSON.parse(document.getElementById("app-data").textContent);
@@ -123,7 +123,7 @@ function renderIssue(issue) {
   const parts = [];
   parts.push(`<header class="issue-head">
     <div class="masthead">
-      <h1 class="wordmark">The AI <em>Brew</em></h1>
+      <h1 class="wordmark">The Daily <em>AI Cup</em></h1>
       ${CUP}
       <div class="stamp"><b>No. ${issueNo(issue.number)}</b>${esc(issue.date_long)}</div>
     </div>
@@ -193,7 +193,7 @@ function renderIssue(issue) {
   parts.push(`<section class="section" id="subscribe">
     <div class="rail"><h2>Get it by email</h2></div>
     <div class="content">
-      <p>The AI Brew in your inbox every morning. Free, and you can unsubscribe anytime.</p>
+      <p>The Daily AI Cup in your inbox every morning. Free, and you can unsubscribe anytime.</p>
       <form class="signup" action="https://buttondown.com/api/emails/embed-subscribe/deshpande" method="post" target="_blank">
         <label for="email-${esc(issue.date_iso)}" class="visually-hidden">Email address</label>
         <input id="email-${esc(issue.date_iso)}" type="email" name="email" placeholder="you@example.com" required>
@@ -203,7 +203,7 @@ function renderIssue(issue) {
   </section>`);
   parts.push(section("feedback", "Feedback", `
       <p>Something confusing, missing, or great? I read every message and use it to make the next issue better.</p>
-      <a class="feedback-button" href="mailto:${esc(issue.reply_to)}?subject=${encodeURIComponent(`Feedback on The AI Brew, ${issue.date_long}`)}">Send feedback</a>`));
+      <a class="feedback-button" href="mailto:${esc(issue.reply_to)}?subject=${encodeURIComponent(`Feedback on The Daily AI Cup, ${issue.date_long}`)}">Send feedback</a>`));
   parts.push(`<p class="quiet-link"><a href="#/trust">How we fact-check</a></p>`);
   return parts.join("");
 }
@@ -267,7 +267,7 @@ function renderArchive(query) {
   if (!q) {
     results.innerHTML = `<ul class="issues">${ISSUES.map((i) => `<li><a href="#/issue/${esc(i.date_iso)}">
       <span class="mono">No. ${issueNo(i.number)}<br>${esc(i.date_long)}</span>
-      <div><h3>${esc(i.big_pour?.[0]?.headline || "The AI Brew")}</h3><p>${esc(i.big_pour?.[0]?.summary || "")}</p></div></a></li>`).join("")}</ul>`;
+      <div><h3>${esc(i.big_pour?.[0]?.headline || "The Daily AI Cup")}</h3><p>${esc(i.big_pour?.[0]?.summary || "")}</p></div></a></li>`).join("")}</ul>`;
     return;
   }
   const hits = ALL_STORIES.filter((s) => `${s.headline || ""} ${s.summary} ${s.source}`.toLowerCase().includes(q));

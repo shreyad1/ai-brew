@@ -34,7 +34,7 @@ def email_body(html: str) -> str:
 
 def subject_for(issue: dict) -> str:
     lead = (issue.get("big_pour") or [{}])[0].get("headline")
-    return f"☕ {lead}" if lead else f"The AI Brew · {issue['date_long']}"
+    return f"☕ {lead}" if lead else f"The Daily AI Cup · {issue['date_long']}"
 
 
 def create_draft(issue: dict, api_key: str) -> dict:

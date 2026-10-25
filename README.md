@@ -1,12 +1,12 @@
-# The AI Brew ☕
+# The Daily AI Cup ☕
 
 [![Tests](https://github.com/shreyad1/ai-brew/actions/workflows/tests.yml/badge.svg)](https://github.com/shreyad1/ai-brew/actions/workflows/tests.yml)
 
 **A 3-minute AI briefing, written every morning by an AI agent, with every fact checked against its source.**
 
-**[theaibrew.pages.dev](https://theaibrew.pages.dev)** · Built by [Shreya Deshpande](https://www.linkedin.com/in/shreya-deshpande-data-business-analyst/)
+**[thedailyaicup.pages.dev](https://thedailyaicup.pages.dev)** · Built by [Shreya Deshpande](https://www.linkedin.com/in/shreya-deshpande-data-business-analyst/)
 
-![The AI Brew web app](docs/app-desktop.png)
+![The Daily AI Cup web app](docs/app-desktop.png)
 
 ## What it does
 
@@ -73,7 +73,7 @@ uv run pytest                            # 50 tests, no network needed
 uv run evals.py                          # fact-check the newest issue with the LLM judge
 ```
 
-Use the tools in Claude Desktop with `uv run mcp install server.py --name "AI Brew" --with feedparser --with httpx --with pyyaml`.
+Use the tools in Claude Desktop with `uv run mcp install server.py --name "Daily AI Cup" --with feedparser --with httpx --with pyyaml`.
 
 ## Project layout
 

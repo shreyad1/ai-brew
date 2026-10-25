@@ -1,4 +1,4 @@
-# The AI Brew: design notes
+# The Daily AI Cup: design notes
 
 A daily AI news briefing written by an LLM agent. This document covers how it works, the decisions behind it, how it fails, and what would change at larger scale.
 

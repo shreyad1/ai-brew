@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: https://theaibrew.pages.dev
+      url: https://thedailyaicup.pages.dev
     steps:
       - uses: actions/checkout@v4
         with:
@@ -36,16 +36,21 @@ jobs:
       - name: Build the app
         run: uv sync --frozen && uv run build_site.py
 
-      # The app lives at theaibrew.pages.dev (Cloudflare Pages, free plan).
+      # The app lives at thedailyaicup.pages.dev (Cloudflare Pages, free plan).
       - name: Deploy to Cloudflare Pages
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
-            echo "::warning::CLOUDFLARE_API_TOKEN secret is missing, so theaibrew.pages.dev was not updated."
+            echo "::warning::CLOUDFLARE_API_TOKEN secret is missing, so thedailyaicup.pages.dev was not updated."
           else
-            npx -y wrangler@4.40.0 pages deploy site --project-name theaibrew --branch main
+            # Creating an existing project fails harmlessly, so this is safe on every run.
+            npx -y wrangler@4.40.0 pages project create thedailyaicup --production-branch main || true
+            npx -y wrangler@4.40.0 pages deploy site --project-name thedailyaicup --branch main
+            # The old name's site forwards every path (and the #/issue/... part) to the new one.
+            mkdir -p old-name && echo "/* https://thedailyaicup.pages.dev/:splat 301" > old-name/_redirects
+            npx -y wrangler@4.40.0 pages deploy old-name --project-name theaibrew --branch main
           fi
 
       # The old GitHub Pages address now just forwards there, keeping the #/issue/... part.
@@ -53,15 +58,15 @@ jobs:
         run: |
           mkdir -p forward
           cat > forward/index.html <<'EOF'
-          <!doctype html><meta charset="utf-8"><title>The AI Brew has moved</title>
-          <link rel="canonical" href="https://theaibrew.pages.dev/">
-          <script>location.replace("https://theaibrew.pages.dev/" + location.hash);</script>
-          <p>The AI Brew has moved to <a href="https://theaibrew.pages.dev/">theaibrew.pages.dev</a>.</p>
+          <!doctype html><meta charset="utf-8"><title>The Daily AI Cup has moved</title>
+          <link rel="canonical" href="https://thedailyaicup.pages.dev/">
+          <script>location.replace("https://thedailyaicup.pages.dev/" + location.hash);</script>
+          <p>The Daily AI Cup has moved to <a href="https://thedailyaicup.pages.dev/">thedailyaicup.pages.dev</a>.</p>
           EOF
           mkdir -p forward/issues
           for f in site/issues/*.html; do
             d=$(basename "$f" .html)
-            printf '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=https://theaibrew.pages.dev/#/issue/%s">' "$d" > "forward/issues/$d.html"
+            printf '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=https://thedailyaicup.pages.dev/#/issue/%s">' "$d" > "forward/issues/$d.html"
           done
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

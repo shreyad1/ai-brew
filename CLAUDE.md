@@ -1,4 +1,4 @@
-# Project: AI Brew — a daily AI newsletter written by an agent
+# Project: The Daily AI Cup — a daily AI newsletter written by an agent
 
 ## Who I am and how to work with me
 
@@ -19,8 +19,8 @@ I'm Shreya, a software engineer moving into AI engineering. I'm building this pr
 
 - **Milestone 1: done (Oct 24, 2026).** `server.py` has `fetch_feed()` and the `get_ai_news` tool. Repo: https://github.com/shreyad1/ai-brew
 - **Milestone 2: done (Oct 24, 2026).** `sources.yaml` with sections `news`, `work`, `builder`, `longread`; sponsored filter (title, summary, categories); regex AI filter; headline dedupe (Jaccard 0.3); HTML-cleaned summaries capped at 500 chars. Tools: `get_ai_news`, `get_company_ai_updates`, `get_upcoming`, `get_dev_updates`, `get_long_reads`. Connected to Claude Desktop.
-- **Design decided (Oct 24):** "The AI Brew", a newspaper + coffee-shop theme, quiet-luxury palette (ivory `#FBF8F3`, espresso `#2E2620`, muted gold `#B39060`, champagne `#F5EFE6`, sage `#EEF0EA`, blush `#F3E9E4`). Sections: Today's menu, The Big Pour (top news), Office Blend (AI at work), Still Roasting (coming up), Quick Sips (one-liners), The Builder's Bar (dark card for engineers: new tool, benchmark, trending concept picked from the week's news), Long Read (weekly Substack essay), Word of the Day, Keep Brewing (one resource to stay current), Tip Jar Poll. Plain-English subtitles for non-tech readers. Barista's Tip was dropped.
-- **Shipped by Oct 24, 2026:** digest agent (Gemini + checks.py guardrails + one rewrite, then drop), daily GitHub Actions run, faithfulness evals (evals.py, LLM judge calibrated 14/14 on evals/judge_cases.yaml), 50 pytest tests + CI, interactive web app (Today / Events / Archive / Saved / #/trust) on **https://theaibrew.pages.dev** (Cloudflare Pages, deployed by pages.yml; old shreyad1.github.io/ai-brew forwards). Repo: https://github.com/shreyad1/ai-brew. Buttondown account `aibrew` awaiting review.
+- **Design decided (Oct 24):** "The Daily AI Cup", a newspaper + coffee-shop theme, quiet-luxury palette (ivory `#FBF8F3`, espresso `#2E2620`, muted gold `#B39060`, champagne `#F5EFE6`, sage `#EEF0EA`, blush `#F3E9E4`). Sections: Today's menu, The Big Pour (top news), Office Blend (AI at work), Still Roasting (coming up), Quick Sips (one-liners), The Builder's Bar (dark card for engineers: new tool, benchmark, trending concept picked from the week's news), Long Read (weekly Substack essay), Word of the Day, Keep Brewing (one resource to stay current), Tip Jar Poll. Plain-English subtitles for non-tech readers. Barista's Tip was dropped.
+- **Shipped by Oct 24, 2026:** digest agent (Gemini + checks.py guardrails + one rewrite, then drop), daily GitHub Actions run, faithfulness evals (evals.py, LLM judge calibrated 14/14 on evals/judge_cases.yaml), 50 pytest tests + CI, interactive web app (Today / Events / Archive / Saved / #/trust) on **https://thedailyaicup.pages.dev** (Cloudflare Pages, deployed by pages.yml; old shreyad1.github.io/ai-brew forwards). Repo: https://github.com/shreyad1/ai-brew. Buttondown account `aibrew` awaiting review.
 - **Open next:** prompt fixes from evals (concept definitions must come from the source; explainers keep qualifiers), refactor server.py into modules, docs/DESIGN.md, Buttondown sending once approved.
 - **Next order:** email template (Jinja2) from the v4 design with one-click mailto poll buttons → Gemini writer with fact checks → interactive web edition on GitHub Pages → Buttondown sending → GitHub Actions.
 
@@ -32,7 +32,7 @@ I'm Shreya, a software engineer moving into AI engineering. I'm building this pr
 
 ## What we're building
 
-**AI Brew**: a free daily email newsletter, in the style of IT Brew, written by an AI agent I build. Anyone (for example, my colleagues) can subscribe with their email.
+**The Daily AI Cup**: a free daily email newsletter written by an AI agent I build. Anyone (for example, my colleagues) can subscribe with their email.
 
 Each issue covers:
 
@@ -72,7 +72,6 @@ Use **RSS feeds** only. Verify feed URLs before coding against them.
 | In use (Milestone 1) | TechCrunch AI `https://techcrunch.com/category/artificial-intelligence/feed/`, Ars Technica AI `https://arstechnica.com/ai/feed/`, The Verge AI `https://www.theverge.com/rss/ai-artificial-intelligence/index.xml` |
 | Working, add in Milestone 2 | MIT Tech Review AI `https://www.technologyreview.com/topic/artificial-intelligence/feed` (needs sponsored filter), ZDNet AI `https://www.zdnet.com/topic/artificial-intelligence/rss.xml`, Wired AI `https://www.wired.com/feed/tag/ai/latest/rss`, CIO.com `https://www.cio.com/feed/` (filter for AI), AWS ML blog `https://aws.amazon.com/blogs/machine-learning/feed/`, OpenAI News `https://openai.com/news/rss.xml`, Hugging Face `https://huggingface.co/blog/feed.xml`, Salesforce News `https://www.salesforce.com/news/feed/` |
 | Not working | VentureBeat (429, stale, sponsored), Microsoft AI blog (403), Reuters (401), Anthropic `/rss.xml` (404), artificialintelligence-news.com (no items), Google AI blog (newest item Oct 13, stale) |
-| Not available | IT Brew has no RSS feed (it does original reporting; AI Brew is a curator) |
 | Later | Hacker News search API (`https://hn.algolia.com/api/v1/search`), only as a ranking signal, never as a source of facts |
 
 - Drop **sponsored posts**: check title, summary, and categories for "Presented by", "Sponsored", "Partner content", "Insights", `sponsored`.
@@ -81,7 +80,7 @@ Use **RSS feeds** only. Verify feed URLs before coding against them.
 
 ## Zero made-up content: the most important rule
 
-AI Brew must never contain invented facts, numbers, quotes, dates, companies, or links. Every factual sentence must trace back to a real source item.
+The Daily AI Cup must never contain invented facts, numbers, quotes, dates, companies, or links. Every factual sentence must trace back to a real source item.
 
 | Section | Source of truth | What the LLM may do |
 | --- | --- | --- |
@@ -129,7 +128,7 @@ Rules for every tool: clear docstring; clamp inputs (e.g. `limit` 1–30); 10-se
 ### Issue format (readable in 3 minutes)
 
 ```markdown
-# AI Brew — Oct 24, 2026
+# The Daily AI Cup — Oct 24, 2026
 **Subject: <a catchy one-liner about today's biggest story>**
 
 Good morning! Here's what's brewing in AI today.
@@ -173,7 +172,7 @@ Good morning! Here's what's brewing in AI today.
 <A light, fun closing line.>
 
 ---
-You're receiving AI Brew because you subscribed. Unsubscribe anytime.
+You're receiving The Daily AI Cup because you subscribed. Unsubscribe anytime.
 ```
 
 **Writing rules:** conversational but accurate; no hype words; every claim from the source text; if unsure, say so. "Try it today" tips must be safe and free, and never ask readers to paste private or work-confidential data into AI tools.
