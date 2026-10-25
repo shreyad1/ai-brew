@@ -135,7 +135,14 @@ def fix_or_drop(draft: dict, pool: dict[str, dict], log: dict) -> dict:
                 for e in all_entries(draft) if e.get("id") in failing and e["id"] in pool
             ],
         }
-        fixed = {e["id"]: e for e in ask_json(SYSTEM_PROMPT, json.dumps(request)).get("fixed", [])}
+        try:
+            fixed = {e["id"]: e for e in ask_json(SYSTEM_PROMPT, json.dumps(request)).get("fixed", [])}
+        except RuntimeError as error:
+            # Gemini stayed busy: skip the rewrite. The failing entries are dropped below,
+            # so the issue still ships with only checked content.
+            print(f"  rewrite skipped ({error}); failing entries will be dropped")
+            log["rewrite_skipped"] = str(error)
+            fixed = {}
         replace = lambda e: fixed.get(e.get("id"), e)
         for key in ("glance", "big_pour", "office_blend", "still_roasting", "quick_sips"):
             draft[key] = [replace(e) for e in draft.get(key) or []]

@@ -79,3 +79,17 @@ def test_glance_bullets_get_real_links_and_go_through_the_checks(monkeypatch):
     draft = digest.attach_sources(draft, POOL)
     assert [g["id"] for g in draft["glance"]] == ["n1"]          # the invented $90M bullet is dropped
     assert draft["glance"][0]["link"] == "https://tc.com/openai"  # link from the feed, not the model
+
+
+def test_busy_llm_during_rewrite_drops_entries_instead_of_crashing(monkeypatch):
+    pool = {"n1": {"id": "n1", "title": "OpenAI raises $30B", "summary": "OpenAI is raising $30B.", "link": "https://tc.com/openai", "source": "TechCrunch"}}
+    draft = {"glance": [{"id": "n1", "summary": "OpenAI is raising $90M."}]}
+
+    def busy(*args, **kwargs):
+        raise RuntimeError("Every Gemini model is busy right now. Try again later.")
+
+    monkeypatch.setattr(digest, "ask_json", busy)
+    log = {}
+    draft = digest.fix_or_drop(draft, pool, log)
+    assert draft["glance"] == []            # the unchecked $90M bullet never ships
+    assert "rewrite_skipped" in log
