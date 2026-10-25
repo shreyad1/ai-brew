@@ -32,13 +32,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The AI Brew — {{ issue.date_long }}</title>
 </head>
-<body style="margin:0;padding:0;background:{{ page }};">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:{{ page }};">
-<tr><td align="center" style="padding:24px 10px;">
-<table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:100%;max-width:600px;background:{{ card }};border:1px solid {{ rule }};border-radius:10px;font-family:-apple-system,'Segoe UI',Roboto,Arial,sans-serif;font-size:16px;line-height:1.6;color:{{ ink }};">
+<body style="margin:0;padding:0;background:{{ card }};">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:{{ card }};">
+<tr><td align="center" style="padding:0;">
+<table role="presentation" cellpadding="0" cellspacing="0" style="width:100%;max-width:600px;background:{{ card }};font-family:-apple-system,'Segoe UI',Roboto,Arial,sans-serif;font-size:16px;line-height:1.6;color:{{ ink }};">
 
   {#- Masthead #}
-  <tr><td style="padding:32px 32px 0;text-align:center;">
+  <tr><td style="padding:26px 20px 0;text-align:center;">
     <div style="font-family:{{ serif }};font-size:46px;line-height:1.1;">The AI <i style="color:{{ cobalt }};">Brew</i></div>
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:16px;border-top:2px solid {{ ink }};border-bottom:1px solid {{ rule }};font-family:{{ mono }};font-size:11px;letter-spacing:1px;text-transform:uppercase;color:{{ faint }};">
       <tr><td style="padding:8px 0;" align="left">No. {{ issue.number }}</td><td align="center">{{ issue.date_long }}</td><td align="right">{{ issue.read_minutes }} min read</td></tr>
@@ -51,13 +51,12 @@
 
   {#- In today's issue: every section with its first headline #}
   {%- if issue.menu %}
-  <tr><td style="padding:24px 32px 0;">
-    <div style="background:{{ page }};border-radius:8px;padding:16px 20px 8px;">
+  <tr><td style="padding:22px 20px 0;">
+    <div style="background:{{ page }};border-radius:8px;padding:14px 16px 6px;">
       <div style="font-family:{{ mono }};font-size:11px;letter-spacing:2px;text-transform:uppercase;color:{{ faint }};">In today's issue</div>
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:6px;font-size:14px;line-height:1.4;">
         {%- for name, line in issue.menu %}
-        <tr><td valign="top" width="130" style="padding:8px 10px 8px 0;font-weight:700;color:{{ cobalt }};{{ '' if loop.first else 'border-top:1px dashed ' ~ rule ~ ';' }}">{{ name }}</td>
-          <td valign="top" style="padding:8px 0;{{ '' if loop.first else 'border-top:1px dashed ' ~ rule ~ ';' }}">{{ line }}</td></tr>
+        <tr><td style="padding:8px 0;{{ '' if loop.first else 'border-top:1px dashed ' ~ rule ~ ';' }}"><div style="font-size:12px;font-weight:700;color:{{ cobalt }};">{{ name }}</div>{{ line }}</td></tr>
         {%- endfor %}
       </table>
     </div>
@@ -67,7 +66,7 @@
   {#- Top Stories: one lead story + up to two side-by-side #}
   {%- if issue.big_pour %}
   {%- set lead = issue.big_pour[0] %}
-  <tr><td style="padding:34px 32px 0;">
+  <tr><td style="padding:30px 20px 0;">
     {{ section_title("Top Stories", "The biggest AI news of the day") }}
     <div style="font-family:{{ serif }};font-size:28px;line-height:1.2;margin-top:14px;">{{ lead.headline }}</div>
     <p style="margin:10px 0 0;">{{ lead.summary }}</p>
@@ -77,27 +76,23 @@
     {{ read_more(lead, "Read the full story") }}
 
     {%- if issue.big_pour | length > 1 %}
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:24px;border-top:1px solid {{ rule }};">
-      <tr>
-        {%- for story in issue.big_pour[1:3] %}
-        <td valign="top" width="50%" style="padding:16px {{ '14px 0 0' if loop.first else '0 0 14px' }};{{ '' if loop.first else 'border-left:1px solid ' ~ rule ~ ';' }}">
-          <div style="font-family:{{ serif }};font-size:19px;line-height:1.25;">{{ story.headline }}</div>
-          <p style="margin:6px 0 0;font-size:15px;color:{{ soft }};">{{ story.summary }}</p>
-          {{ read_more(story) }}
-        </td>
-        {%- endfor %}
-      </tr>
-    </table>
+    {%- for story in issue.big_pour[1:3] %}
+    <div style="border-top:1px solid {{ rule }};margin-top:20px;padding-top:16px;">
+      <div style="font-family:{{ serif }};font-size:20px;line-height:1.25;">{{ story.headline }}</div>
+      <p style="margin:6px 0 0;font-size:15px;color:{{ soft }};">{{ story.summary }}</p>
+      {{ read_more(story) }}
+    </div>
+    {%- endfor %}
     {%- endif %}
   </td></tr>
   {%- endif %}
 
   {#- AI at Work #}
   {%- if issue.office_blend %}
-  <tr><td style="padding:34px 32px 0;">
+  <tr><td style="padding:30px 20px 0;">
     {{ section_title("AI at Work", "How real companies are using AI at work") }}
     {%- for story in issue.office_blend %}
-    <div style="border:1px solid {{ rule }};border-radius:8px;padding:16px 18px;margin-top:14px;">
+    <div style="border:1px solid {{ rule }};border-radius:8px;padding:14px 16px;margin-top:14px;">
       <div style="font-family:{{ serif }};font-size:20px;line-height:1.25;">{{ story.headline }}</div>
       <p style="margin:6px 0 0;font-size:15px;color:{{ soft }};">{{ story.summary }}</p>
       {{ read_more(story) }}
@@ -108,7 +103,7 @@
 
   {#- Coming Up: date shown only if the source stated one #}
   {%- if issue.still_roasting %}
-  <tr><td style="padding:34px 32px 0;">
+  <tr><td style="padding:30px 20px 0;">
     {{ section_title("Coming Up", "Launches and events worth watching") }}
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:10px;font-size:15px;">
       {%- for item in issue.still_roasting %}
@@ -122,7 +117,7 @@
 
   {#- In Brief #}
   {%- if issue.quick_sips %}
-  <tr><td style="padding:34px 32px 0;">
+  <tr><td style="padding:30px 20px 0;">
     {{ section_title("In Brief", "More AI news, one line each") }}
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:10px;font-size:15px;">
       {%- for sip in issue.quick_sips %}
@@ -135,8 +130,8 @@
 
   {#- For Engineers: the one dark card #}
   {%- if issue.builder %}
-  <tr><td style="padding:34px 32px 0;">
-    <div style="background:{{ night }};color:{{ night_text }};border-radius:8px;padding:22px 22px 20px;">
+  <tr><td style="padding:30px 20px 0;">
+    <div style="background:{{ night }};color:{{ night_text }};border-radius:8px;padding:18px 16px;">
       {{ section_title("For Engineers", "New tools, models and ideas for people who build with AI", dark=true) }}
       {%- for story in issue.builder.stories %}
       <div style="border-top:1px solid #2A3866;margin-top:16px;padding-top:14px;">
@@ -161,7 +156,7 @@
   {#- Long Read: an opinion piece, so the author is named #}
   {%- if issue.long_read %}
   {%- set lr = issue.long_read %}
-  <tr><td style="padding:34px 32px 0;">
+  <tr><td style="padding:30px 20px 0;">
     {{ section_title("The Long Read", "One essay worth your time this week") }}
     <div style="border-left:3px solid {{ latte }};padding:2px 0 2px 16px;margin-top:14px;">
       <div style="font-family:{{ serif }};font-size:21px;line-height:1.3;">{{ lr.headline }}</div>
@@ -174,40 +169,35 @@
 
   {#- Word of the Day + Keep Learning #}
   {%- if issue.word or issue.keep_brewing %}
-  <tr><td style="padding:34px 32px 0;">
+  <tr><td style="padding:30px 20px 0;">
     {{ section_title("Learn", "One AI term explained, and one way to keep learning") }}
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:14px;">
-      <tr>
-        {%- if issue.word %}
+    {%- if issue.word %}
         {%- set w = issue.word %}
-        <td valign="top" width="50%" style="background:{{ wash }};border-radius:8px;padding:18px 16px;">
+    <div style="background:{{ wash }};border-radius:8px;padding:16px;margin-top:14px;">
           <div style="font-family:{{ mono }};font-size:10px;letter-spacing:2px;text-transform:uppercase;color:{{ cobalt }};">Word of the Day</div>
           <div style="font-family:{{ serif }};font-size:26px;margin-top:6px;">{{ w.term }}</div>
           <div style="font-size:12px;color:{{ faint }};">{{ w.theme }}, {{ w.day }} of 5</div>
           {%- if w.heard is defined and w.heard %}<p style="margin:10px 0 0;font-size:13px;font-style:italic;color:{{ soft }};">{{ w.heard }}</p>{% endif %}
           <p style="margin:8px 0 0;font-size:14px;">{{ w.definition }}</p>
           <p style="margin:8px 0 0;font-size:14px;font-style:italic;color:{{ soft }};">{{ w.analogy }}</p>
-        </td>
-        {%- endif %}
-        {%- if issue.word and issue.keep_brewing %}<td width="12"></td>{% endif %}
-        {%- if issue.keep_brewing %}
+    </div>
+    {%- endif %}
+    {%- if issue.keep_brewing %}
         {%- set kb = issue.keep_brewing %}
-        <td valign="top" width="50%" style="border:1px solid {{ rule }};border-radius:8px;padding:18px 16px;">
+    <div style="border:1px solid {{ rule }};border-radius:8px;padding:16px;margin-top:12px;">
           <div style="font-family:{{ mono }};font-size:10px;letter-spacing:2px;text-transform:uppercase;color:{{ cobalt }};">Keep Learning</div>
           <div style="font-family:{{ serif }};font-size:20px;margin-top:6px;">{{ kb.name }}</div>
           <p style="margin:8px 0 0;font-size:14px;">{{ kb.description }}</p>
           <div style="margin-top:8px;font-size:13px;"><a href="{{ kb.link }}" style="color:{{ cobalt }};font-weight:600;text-decoration:none;">Start here &rarr;</a></div>
-        </td>
-        {%- endif %}
-      </tr>
-    </table>
+    </div>
+    {%- endif %}
   </td></tr>
   {%- endif %}
 
   {#- Quick Poll: buttons open a reply that is already filled in #}
   {%- if issue.poll %}
   {%- set p = issue.poll %}
-  <tr><td style="padding:34px 32px 0;">
+  <tr><td style="padding:30px 20px 0;">
     {{ section_title("Quick Poll", "Tap to vote; results in the next issue") }}
     {%- if p.last_results %}
     <div style="font-size:14px;color:{{ soft }};margin-top:10px;">Last time: {{ p.last_results }}</div>
@@ -222,7 +212,7 @@
   {%- endif %}
 
   {#- Feedback: replies go to the sender's inbox, so no address is printed #}
-  <tr><td style="padding:30px 32px 0;">
+  <tr><td style="padding:28px 20px 0;">
     <div style="background:{{ page }};border-radius:8px;padding:16px 20px;">
       <div style="font-family:{{ mono }};font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:{{ cobalt }};">Tell me what you think</div>
       <p style="margin:6px 0 0;font-size:15px;color:{{ soft }};">Something confusing, missing, or great? Just hit reply. I read every message and use it to make the next issue better.</p>
@@ -230,7 +220,7 @@
   </td></tr>
 
   {#- Sign-off + footer #}
-  <tr><td style="padding:32px 32px 30px;">
+  <tr><td style="padding:28px 20px 26px;">
     <div style="border-top:1px solid {{ rule }};padding-top:18px;font-size:16px;font-style:italic;color:{{ soft }};">{{ issue.sign_off }}</div>
     <p style="margin:14px 0 0;font-size:12px;color:{{ faint }};line-height:1.6;">Built by Shreya Deshpande. Every story links to its source.<br>Forwarded to you? <a href="{{ issue.subscribe_url }}" style="color:{{ cobalt }};">Subscribe</a> &middot; <a href="{{ issue.unsubscribe_url }}" style="color:{{ faint }};">Unsubscribe</a></p>
   </td></tr>
