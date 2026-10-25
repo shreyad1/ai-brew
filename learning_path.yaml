@@ -1,147 +1,180 @@
-# Word of the Day: terms AI engineers hear in design reviews, standups, and Slack.
-# Reviewed by a human: the agent copies these, never invents them.
-# Set reviewed: true once you've checked a definition. Unreviewed words are flagged in the run log.
-# `heard` is a typical line where the word comes up at work.
 weeks:
-  - theme: Shipping LLM features
-    words:
-      - term: Evals
-        definition: "Automated tests for AI output. A fixed set of inputs, plus checks or graders that score whether the answers are correct, safe, and in the right format."
-        heard: "\"Did the new prompt regress the evals?\""
-        analogy: "Like a barista's tasting checklist run on every new recipe before it goes on the menu."
-        reviewed: false
-      - term: LLM-as-a-judge
-        definition: "Using one model to grade another model's output against a rubric, so quality can be scored at scale without a human reading every answer."
-        heard: "\"We use LLM-as-a-judge for faithfulness, calibrated against 50 human labels.\""
-        analogy: "Like a head barista taste-testing every cup, after you've checked their palate agrees with yours."
-        reviewed: false
-      - term: Grounding
-        definition: "Making a model answer from specific provided sources (documents, search results, database rows) rather than from what it memorised in training."
-        heard: "\"Is that answer grounded, or is the model guessing?\""
-        analogy: "Like making a drink from the recipe card in front of you instead of from memory."
-        reviewed: false
-      - term: Guardrails
-        definition: "Checks that run before or after a model call to block, fix, or flag unsafe, off-topic, or malformed input and output."
-        heard: "\"Add a guardrail so it never outputs a link that isn't in the source.\""
-        analogy: "Like the line on the cup that stops you overfilling it."
-        reviewed: false
-      - term: Prompt caching
-        definition: "Reusing the provider's already-processed version of a long, repeated prompt prefix, which makes later calls faster and cheaper."
-        heard: "\"Put the system prompt first so prompt caching kicks in.\""
-        analogy: "Like keeping a batch of cold brew ready instead of brewing from scratch for every order."
-        reviewed: false
-
-  - theme: Agents
-    words:
-      - term: Tool calling
-        definition: "A model's ability to request that your code run a named function with structured arguments, then use the result in its answer. Also called function calling."
-        heard: "\"The model should call the search tool instead of answering from memory.\""
-        analogy: "Like a barista who can ring the kitchen for a pastry instead of pretending to bake it."
-        reviewed: false
-      - term: MCP
-        definition: "Model Context Protocol, an open standard for connecting AI apps to tools and data sources, so one integration works across many AI clients."
-        heard: "\"Expose it as an MCP server and every team's assistant can use it.\""
-        analogy: "Like a standard cup size every coffee machine accepts."
-        reviewed: false
-      - term: Agent loop
-        definition: "The cycle an agent repeats until it is done. The model decides on an action, code runs it, and the result goes back to the model to decide the next step."
-        heard: "\"Cap the agent loop at 10 steps so it can't run forever.\""
-        analogy: "Like taste, adjust, taste again until the drink is right."
-        reviewed: false
-      - term: Orchestration
-        definition: "The code that coordinates models, tools, and steps in a workflow, deciding what runs, in what order, with what retries."
-        heard: "\"Keep the business logic in orchestration, not in the prompt.\""
-        analogy: "Like the shift lead who decides who makes which drink and in what order."
-        reviewed: false
-      - term: Human-in-the-loop
-        definition: "A design where a person reviews or approves certain AI actions before they take effect."
-        heard: "\"Refunds over $100 stay human-in-the-loop.\""
-        analogy: "Like the manager signing off before a new drink goes on the board."
-        reviewed: false
-
-  - theme: Retrieval and knowledge
-    words:
-      - term: Embeddings
-        definition: "Lists of numbers that represent the meaning of text, so texts with similar meaning end up close together and can be compared by distance."
-        heard: "\"Embed the tickets and find the five most similar ones.\""
-        analogy: "Like a flavour map where similar coffees sit near each other."
-        reviewed: false
-      - term: Vector database
-        definition: "A database built to store embeddings and quickly find the ones nearest to a query embedding."
-        heard: "\"Do we need a vector database, or will Postgres with pgvector do?\""
-        analogy: "Like a coffee shelf sorted by taste instead of alphabetically."
-        reviewed: false
-      - term: Chunking
-        definition: "Splitting long documents into smaller passages before embedding them, so retrieval returns the relevant part instead of a whole file."
-        heard: "\"The answers are bad because the chunks split tables in half.\""
-        analogy: "Like portioning beans into single shots so you grab just what one cup needs."
-        reviewed: false
-      - term: Reranking
-        definition: "A second pass that re-scores the top search results with a more accurate but slower model, so the best passages go to the LLM first."
-        heard: "\"Retrieve 50, rerank, send the top 5.\""
-        analogy: "Like a quick sniff of 50 bags, then properly cupping the best five."
-        reviewed: false
-      - term: Knowledge graph
-        definition: "Data stored as entities and the relationships between them (e.g. Customer → bought → Product), which can be queried by following those links."
-        heard: "\"Ground the agent on the knowledge graph so it knows which team owns which system.\""
-        analogy: "Like a map of which farm supplies which roaster, which supplies which café."
-        reviewed: false
-
-  - theme: Models, speed, and cost
-    words:
-      - term: Fine-tuning
-        definition: "Further training a pre-trained model on your own examples so it learns a specific task, format, or style."
-        heard: "\"Try better prompts and retrieval before we fine-tune.\""
-        analogy: "Like training a skilled barista on your café's signature drinks."
-        reviewed: false
-      - term: LoRA
-        definition: "Low-Rank Adaptation, a cheap way to fine-tune that trains a small set of extra weights instead of changing the whole model."
-        heard: "\"We shipped a LoRA adapter instead of a full fine-tune.\""
-        analogy: "Like teaching a new recipe card rather than retraining the barista from scratch."
-        reviewed: false
-      - term: Quantization
-        definition: "Storing a model's numbers at lower precision (e.g. 4-bit instead of 16-bit) so it uses less memory and runs faster, usually with a small quality cost."
-        heard: "\"The 4-bit quantized model fits on a single GPU.\""
-        analogy: "Like instant coffee: far lighter to carry, slightly less flavour."
-        reviewed: false
-      - term: Distillation
-        definition: "Training a smaller \"student\" model to imitate a larger \"teacher\" model's outputs, keeping much of the quality at lower cost."
-        heard: "\"Distill the big model into something we can afford to run on every request.\""
-        analogy: "Like an apprentice learning by copying the head barista's drinks."
-        reviewed: false
-      - term: Latency (TTFT)
-        definition: "How long a user waits for a response. Time to first token (TTFT) measures how soon the first word of a streamed answer appears."
-        heard: "\"Total time is fine, but TTFT is three seconds and it feels broken.\""
-        analogy: "Like how long until the barista starts your drink, not just when it's done."
-        reviewed: false
-
-  - theme: Safety and operations
-    words:
-      - term: Prompt injection
-        definition: "An attack where text the model reads (an email, web page, or document) contains instructions that try to override what the app told the model to do."
-        heard: "\"The summariser followed instructions hidden in the email. Classic prompt injection.\""
-        analogy: "Like a note slipped into an order that says 'make every drink free'."
-        reviewed: false
-      - term: Red teaming
-        definition: "Deliberately attacking your own AI system to find failures, unsafe outputs, and exploits before real users do."
-        heard: "\"Red-team the agent before it gets write access.\""
-        analogy: "Like a mystery shopper trying to break your café's rules on purpose."
-        reviewed: false
-      - term: Observability
-        definition: "Logging and tracing each model call, tool call, input, output, cost, and latency so you can debug and measure an AI system in production."
-        heard: "\"Pull the trace: which tool call returned the bad data?\""
-        analogy: "Like a receipt for every drink, showing every step that went into it."
-        reviewed: false
-      - term: Model drift
-        definition: "When a system's quality changes over time because the model, the data, or the users' requests change, even though your code didn't."
-        heard: "\"Evals dropped 6 points after the provider updated the model. Drift.\""
-        analogy: "Like the same recipe tasting different when the bean supplier changes."
-        reviewed: false
-      - term: Context engineering
-        definition: "Deciding exactly what goes into a model's limited input on each call (instructions, examples, retrieved data, tool results, history) to get reliable output."
-        heard: "\"It's not a prompt problem, it's a context engineering problem.\""
-        analogy: "Like deciding exactly what goes into the cup, and what stays out."
-        reviewed: false
-
-used:   # the agent appends each term here after it appears in an issue
-  - Evals
+- theme: Shipping LLM features
+  words:
+  - term: Evals
+    definition: Automated tests for AI output. A fixed set of inputs, plus checks
+      or graders that score whether the answers are correct, safe, and in the right
+      format.
+    heard: '"Did the new prompt regress the evals?"'
+    analogy: Like a barista's tasting checklist run on every new recipe before it
+      goes on the menu.
+    reviewed: false
+  - term: LLM-as-a-judge
+    definition: Using one model to grade another model's output against a rubric,
+      so quality can be scored at scale without a human reading every answer.
+    heard: '"We use LLM-as-a-judge for faithfulness, calibrated against 50 human labels."'
+    analogy: Like a head barista taste-testing every cup, after you've checked their
+      palate agrees with yours.
+    reviewed: false
+  - term: Grounding
+    definition: Making a model answer from specific provided sources (documents, search
+      results, database rows) rather than from what it memorised in training.
+    heard: '"Is that answer grounded, or is the model guessing?"'
+    analogy: Like making a drink from the recipe card in front of you instead of from
+      memory.
+    reviewed: false
+  - term: Guardrails
+    definition: Checks that run before or after a model call to block, fix, or flag
+      unsafe, off-topic, or malformed input and output.
+    heard: '"Add a guardrail so it never outputs a link that isn''t in the source."'
+    analogy: Like the line on the cup that stops you overfilling it.
+    reviewed: false
+  - term: Prompt caching
+    definition: Reusing the provider's already-processed version of a long, repeated
+      prompt prefix, which makes later calls faster and cheaper.
+    heard: '"Put the system prompt first so prompt caching kicks in."'
+    analogy: Like keeping a batch of cold brew ready instead of brewing from scratch
+      for every order.
+    reviewed: false
+- theme: Agents
+  words:
+  - term: Tool calling
+    definition: A model's ability to request that your code run a named function with
+      structured arguments, then use the result in its answer. Also called function
+      calling.
+    heard: '"The model should call the search tool instead of answering from memory."'
+    analogy: Like a barista who can ring the kitchen for a pastry instead of pretending
+      to bake it.
+    reviewed: false
+  - term: MCP
+    definition: Model Context Protocol, an open standard for connecting AI apps to
+      tools and data sources, so one integration works across many AI clients.
+    heard: '"Expose it as an MCP server and every team''s assistant can use it."'
+    analogy: Like a standard cup size every coffee machine accepts.
+    reviewed: false
+  - term: Agent loop
+    definition: The cycle an agent repeats until it is done. The model decides on
+      an action, code runs it, and the result goes back to the model to decide the
+      next step.
+    heard: '"Cap the agent loop at 10 steps so it can''t run forever."'
+    analogy: Like taste, adjust, taste again until the drink is right.
+    reviewed: false
+  - term: Orchestration
+    definition: The code that coordinates models, tools, and steps in a workflow,
+      deciding what runs, in what order, with what retries.
+    heard: '"Keep the business logic in orchestration, not in the prompt."'
+    analogy: Like the shift lead who decides who makes which drink and in what order.
+    reviewed: false
+  - term: Human-in-the-loop
+    definition: A design where a person reviews or approves certain AI actions before
+      they take effect.
+    heard: '"Refunds over $100 stay human-in-the-loop."'
+    analogy: Like the manager signing off before a new drink goes on the board.
+    reviewed: false
+- theme: Retrieval and knowledge
+  words:
+  - term: Embeddings
+    definition: Lists of numbers that represent the meaning of text, so texts with
+      similar meaning end up close together and can be compared by distance.
+    heard: '"Embed the tickets and find the five most similar ones."'
+    analogy: Like a flavour map where similar coffees sit near each other.
+    reviewed: false
+  - term: Vector database
+    definition: A database built to store embeddings and quickly find the ones nearest
+      to a query embedding.
+    heard: '"Do we need a vector database, or will Postgres with pgvector do?"'
+    analogy: Like a coffee shelf sorted by taste instead of alphabetically.
+    reviewed: false
+  - term: Chunking
+    definition: Splitting long documents into smaller passages before embedding them,
+      so retrieval returns the relevant part instead of a whole file.
+    heard: '"The answers are bad because the chunks split tables in half."'
+    analogy: Like portioning beans into single shots so you grab just what one cup
+      needs.
+    reviewed: false
+  - term: Reranking
+    definition: A second pass that re-scores the top search results with a more accurate
+      but slower model, so the best passages go to the LLM first.
+    heard: '"Retrieve 50, rerank, send the top 5."'
+    analogy: Like a quick sniff of 50 bags, then properly cupping the best five.
+    reviewed: false
+  - term: Knowledge graph
+    definition: Data stored as entities and the relationships between them (e.g. Customer
+      → bought → Product), which can be queried by following those links.
+    heard: '"Ground the agent on the knowledge graph so it knows which team owns which
+      system."'
+    analogy: Like a map of which farm supplies which roaster, which supplies which
+      café.
+    reviewed: false
+- theme: Models, speed, and cost
+  words:
+  - term: Fine-tuning
+    definition: Further training a pre-trained model on your own examples so it learns
+      a specific task, format, or style.
+    heard: '"Try better prompts and retrieval before we fine-tune."'
+    analogy: Like training a skilled barista on your café's signature drinks.
+    reviewed: false
+  - term: LoRA
+    definition: Low-Rank Adaptation, a cheap way to fine-tune that trains a small
+      set of extra weights instead of changing the whole model.
+    heard: '"We shipped a LoRA adapter instead of a full fine-tune."'
+    analogy: Like teaching a new recipe card rather than retraining the barista from
+      scratch.
+    reviewed: false
+  - term: Quantization
+    definition: Storing a model's numbers at lower precision (e.g. 4-bit instead of
+      16-bit) so it uses less memory and runs faster, usually with a small quality
+      cost.
+    heard: '"The 4-bit quantized model fits on a single GPU."'
+    analogy: 'Like instant coffee: far lighter to carry, slightly less flavour.'
+    reviewed: false
+  - term: Distillation
+    definition: Training a smaller "student" model to imitate a larger "teacher" model's
+      outputs, keeping much of the quality at lower cost.
+    heard: '"Distill the big model into something we can afford to run on every request."'
+    analogy: Like an apprentice learning by copying the head barista's drinks.
+    reviewed: false
+  - term: Latency (TTFT)
+    definition: How long a user waits for a response. Time to first token (TTFT) measures
+      how soon the first word of a streamed answer appears.
+    heard: '"Total time is fine, but TTFT is three seconds and it feels broken."'
+    analogy: Like how long until the barista starts your drink, not just when it's
+      done.
+    reviewed: false
+- theme: Safety and operations
+  words:
+  - term: Prompt injection
+    definition: An attack where text the model reads (an email, web page, or document)
+      contains instructions that try to override what the app told the model to do.
+    heard: '"The summariser followed instructions hidden in the email. Classic prompt
+      injection."'
+    analogy: Like a note slipped into an order that says 'make every drink free'.
+    reviewed: false
+  - term: Red teaming
+    definition: Deliberately attacking your own AI system to find failures, unsafe
+      outputs, and exploits before real users do.
+    heard: '"Red-team the agent before it gets write access."'
+    analogy: Like a mystery shopper trying to break your café's rules on purpose.
+    reviewed: false
+  - term: Observability
+    definition: Logging and tracing each model call, tool call, input, output, cost,
+      and latency so you can debug and measure an AI system in production.
+    heard: '"Pull the trace: which tool call returned the bad data?"'
+    analogy: Like a receipt for every drink, showing every step that went into it.
+    reviewed: false
+  - term: Model drift
+    definition: When a system's quality changes over time because the model, the data,
+      or the users' requests change, even though your code didn't.
+    heard: '"Evals dropped 6 points after the provider updated the model. Drift."'
+    analogy: Like the same recipe tasting different when the bean supplier changes.
+    reviewed: false
+  - term: Context engineering
+    definition: Deciding exactly what goes into a model's limited input on each call
+      (instructions, examples, retrieved data, tool results, history) to get reliable
+      output.
+    heard: '"It''s not a prompt problem, it''s a context engineering problem."'
+    analogy: Like deciding exactly what goes into the cup, and what stays out.
+    reviewed: false
+used:
+- Evals
+- LLM-as-a-judge

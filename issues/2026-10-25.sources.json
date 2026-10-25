@@ -1,0 +1,664 @@
+{
+  "generated_at": "2026-10-25T13:00:45.438500-05:00",
+  "warnings": [
+    "Word of the Day 'LLM-as-a-judge' is not marked reviewed in learning_path.yaml"
+  ],
+  "failed_feeds": [
+    "Import AI: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+  ],
+  "sources": {
+    "n1": {
+      "title": "AI delivers \u2018zero financial payoff\u2019 to most companies, Apollo economist says",
+      "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "source": "TechCrunch",
+      "published": "2026-10-25T16:57:32+00:00",
+      "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+      "categories": [
+        "AI",
+        "Apollo Global Management"
+      ],
+      "image": null
+    },
+    "n2": {
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "link": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "source": "TechCrunch",
+      "published": "2026-10-25T14:10:00+00:00",
+      "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+      "categories": [
+        "Hardware",
+        "AI",
+        "Gadgets",
+        "wearables",
+        "evergreens",
+        "AI wearables"
+      ],
+      "image": null
+    },
+    "n3": {
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "source": "The Verge",
+      "published": "2026-10-25T13:25:32+00:00",
+      "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source [\u2026]",
+      "categories": [
+        "AI",
+        "News",
+        "Reddit",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK115_Reddit_01.jpg.webp?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n4": {
+      "title": "Google\u2019s AI search changes upended online publishing",
+      "link": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+      "source": "The Verge",
+      "published": "2026-10-25T12:00:00+00:00",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry has relied on [\u2026]",
+      "categories": [
+        "AI",
+        "Column",
+        "The Stepback"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK414_STK480_AI_DIS_MISINFO_CVIRGINIA_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n5": {
+      "title": "Blue Planet III is keeping the rough edges in the age of AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+      "source": "The Verge",
+      "published": "2026-10-24T21:29:12+00:00",
+      "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished and seamless. To counter that, Blue [\u2026]",
+      "categories": [
+        "AI",
+        "Entertainment",
+        "News",
+        "Science",
+        "TV Shows"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/blue_planet_iii_episode_03_051_screengrab.avif?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n6": {
+      "title": "The AI graveyard: a running list of projects and startups that didn\u2019t make it",
+      "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source": "TechCrunch",
+      "published": "2026-10-24T19:00:00+00:00",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "categories": [
+        "AI",
+        "evergreens",
+        "Microsoft",
+        "OpenAI",
+        "siri ai"
+      ],
+      "image": null
+    },
+    "n7": {
+      "title": "Pennsylvania will require labels on AI-generated ads",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "source": "The Verge",
+      "published": "2026-10-24T18:32:21+00:00",
+      "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artificial intelligence\" to include a label in the same format as [\u2026]",
+      "categories": [
+        "AI",
+        "Law",
+        "News",
+        "Policy"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK445_ADVERTISING_STK093_GOOGLE_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "w1": {
+      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+      "link": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-23T17:48:54+00:00",
+      "summary": "Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at serving settings.",
+      "categories": [
+        "Amazon SageMaker AI",
+        "Expert (400)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w2": {
+      "title": "Orchestrating SageMaker AI endpoint auto scaling with AWS CDK",
+      "link": "https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-23T16:30:10+00:00",
+      "summary": "Updating a SageMaker AI endpoint that has Application Auto Scaling registered makes AWS CloudFormation and AWS CDK deployments fail. This post shows how to build a reusable AWS CDK construct with CloudFormation custom resources that deregisters and re-registers auto scaling automatically, so you can update the endpoint and its scaling in a single deployment.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon SageMaker AI",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w3": {
+      "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps",
+      "link": "https://aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-23T16:24:55+00:00",
+      "summary": "Amazon Quick Sight layer maps now support Point and LineString geometry from the same GeoJSON workflow, so you can plot store locations and the routes between them. This post covers the dataset and GeoJSON structure layer maps require, when to choose points or lines, and techniques for viewport control, layering geometries, and dynamic GeoJSON updates.",
+      "categories": [
+        "Amazon Quick Sight",
+        "Intermediate (200)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w4": {
+      "title": "How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-23T16:21:36+00:00",
+      "summary": "Bayer Crop Science built the Agentic Decision Engine (ADE), a multi-agent platform on Amazon Bedrock AgentCore that lets breeders, analysts, and researchers ask natural language questions about their analytics platform. This post covers the ADE architecture, five design decisions, and how the team prepared it for production with AWS Unified Operations.",
+      "categories": [
+        "Amazon Bedrock AgentCore",
+        "Customer Solutions",
+        "Intermediate (200)"
+      ],
+      "image": null
+    },
+    "w5": {
+      "title": "Stop the insider threat lurking in AI agents",
+      "link": "https://www.cio.com/article/4239743/stop-the-insider-threat-lurking-in-ai-agents.html",
+      "source": "CIO.com",
+      "published": "2026-10-23T14:36:05+00:00",
+      "summary": "The insider threat model rests on a simple premise: legitimate access to business systems is used in ways you didn\u2019t intend. When an employee is onboarded, there is typically an access review, a background check, and least-privilege provisioning. Trust is extended, and occasionally that trust can create risk to business systems and data. This process does not apply to AI agents. Across enterprises deploying AI, powerful endpoint agents that execute code, call tools, access credentials, move data",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4239743-0-51493900-1792766184-shutterstock_4214764821.jpg?quality=50&strip=all"
+    },
+    "w6": {
+      "title": "SAP lets AI play key role in its certification renewal process",
+      "link": "https://www.cio.com/article/4239657/sap-lets-ai-play-key-role-in-its-certification-renewal-process.html",
+      "source": "CIO.com",
+      "published": "2026-10-23T11:38:20+00:00",
+      "summary": "SAP professionals can now renew their certifications through AI-based roleplays. The new service builds on SAP\u2019s revamp of its certification program last year, shifting the focus from rote learning of facts towards real-world use cases. \u201cThe evolution of Stay Certified reflects a broader shift already taking place across SAP Certification: moving beyond assessing what someone knows toward validating how they can apply that knowledge. AI-powered roleplays bring that principle into the annual cert",
+      "categories": [
+        "Artificial Intelligence, Careers, Certifications, SAP, Vendors and Providers"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4239657-0-44049400-1792755521-shutterstock_editorial_1347234716.jpg?quality=50&strip=all"
+    },
+    "w7": {
+      "title": "AI \u2018Tokenomics\u2019 is a trap. CIOs should avoid it at all costs.",
+      "link": "https://www.cio.com/article/4238094/ai-tokenomics-is-a-trap-cios-should-avoid-it-at-all-costs.html",
+      "source": "CIO.com",
+      "published": "2026-10-23T10:01:00+00:00",
+      "summary": "According to a quartet of Accenture intellectual heavyweights, what CIOs need now to account for and control AI costs is tokenomics, sweet tokenomics . The idea of linking AI spend to business outcomes may be a noble one, but \u201cTokenomics\u201d only pretends to do so, unless you think tallying costs and measuring business outcomes are one and the same thing. But before we get to Tokenomics we need to set the stage. Start with Function Point Analysis (FPA), a venerable and mostly forgotten discipline, ",
+      "categories": [
+        "Artificial Intelligence, Budgeting, Business IT Alignment, IT Leadership, IT Management, ROI and Metrics"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4238094-0-57897300-1792749968-AI-tokens-igor-omilaev-tmMKQ9oTcvc-unsplash.jpg?quality=50&strip=all"
+    },
+    "w8": {
+      "title": "Open-weight AI models are changing the equation. Here\u2019s what CIOs should experiment with next",
+      "link": "https://www.cio.com/article/4239186/open-weight-ai-models-are-changing-the-equation-heres-what-cios-should-experiment-with-next.html",
+      "source": "CIO.com",
+      "published": "2026-10-23T10:00:00+00:00",
+      "summary": "For years, enterprise AI strategy has been dependent on a small set of proprietary, closed model providers, a limitation that has carried cost, lock-in and opacity. Now, open-weight models from Meta, Google and other global competitors are challenging that default. As of July 2026, open-weight models accounted for 36% of Vercel\u2019s AI Gateway token volume, up from 11% in April, while share of spend more than doubled to 8.6%. Floyd DCosta and Allan Dabre have made compelling cases for greater enter",
+      "categories": [
+        "Artificial Intelligence, Generative AI, IT Leadership, IT Strategy"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4239186-0-76511000-1792749809-llm-models-100941413-orig.jpg?quality=50&strip=all"
+    },
+    "w9": {
+      "title": "Are polymath profiles the key to AI success?",
+      "link": "https://www.cio.com/article/4238319/the-key-to-success-in-the-age-of-ai-will-lie-in-polymath-profiles.html",
+      "source": "CIO.com",
+      "published": "2026-10-23T10:00:00+00:00",
+      "summary": "AI has a cross-cutting impact on businesses. It\u2019s changing operations, management, and even decision-making processes. But it\u2019s also modifying what they expect from their teams and how they\u2019re organized. This has a direct impact on the decisions of both HR departments and CIOs, who must now consider issues that, until now, have flown somewhat under the radar. In fact, the desired professional profile is pivoting. Research from Spain\u2019s Open University of Catalonia (UOC) has found that polymath pr",
+      "categories": [
+        "Artificial Intelligence, Careers, Emerging Technology, Generative AI, IT Leadership, IT Strategy"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4238319-0-40656700-1792749791-lysander-yuen-wk833OrQLJE-unsplash.jpg?quality=50&strip=all"
+    },
+    "w10": {
+      "title": "Your AI is only as good as the network underneath it",
+      "link": "https://www.cio.com/article/4239179/your-ai-is-only-as-good-as-the-network-underneath-it.html",
+      "source": "CIO.com",
+      "published": "2026-10-23T09:00:00+00:00",
+      "summary": "When an AI workload is not performing as expected, the obvious place to look is the GPU. Do we have enough compute capacity? Would adding more GPUs solve the problem? Not necessarily. The GPUs may be perfectly capable of handling the workload, but if the network is not able to move data quickly and consistently, adding more compute could result in more expense without addressing the real bottleneck. This is something I think we risk losing sight of in the rush to invest in AI. GPUs cannot do the",
+      "categories": [
+        "Artificial Intelligence, Enterprise Architecture, Networking"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4239179-0-64242600-1792746300-shutterstock_2734974029.jpg?quality=50&strip=all"
+    },
+    "w11": {
+      "title": "Amazon Polly delivers a major upgrade to its Generative engine",
+      "link": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-22T18:06:35+00:00",
+      "summary": "The Amazon Polly Generative engine gets a major upgrade: more expressive, more accurate speech with low latency, plus 14 new voices across 9 locales and general availability of Hindi and Finnish. This drop-in upgrade requires no code changes and is now generally available in production.",
+      "categories": [
+        "Amazon Polly",
+        "Announcements",
+        "Foundational (100)"
+      ],
+      "image": null
+    },
+    "w12": {
+      "title": "How IskayPet unified corporate knowledge with Amazon Bedrock Managed Knowledge Bases",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-iskaypet-unified-corporate-knowledge-with-amazon-bedrock-managed-knowledge-bases/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-22T18:01:53+00:00",
+      "summary": "Learn how IskayPet, a leading pet care company in Iberia, built a multilingual corporate knowledge assistant on Amazon Bedrock Managed Knowledge Bases. The assistant answers employee questions across retail, veterinary, onboarding, and procurement in four languages and three countries, with no RAG infrastructure to manage.",
+      "categories": [
+        "Amazon Bedrock",
+        "Amazon Bedrock Knowledge Bases",
+        "Customer Solutions",
+        "Intermediate (200)"
+      ],
+      "image": null
+    },
+    "w13": {
+      "title": "Announcing new ways to customize models with SageMaker AI, without managing GPUs",
+      "link": "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-22T18:00:04+00:00",
+      "summary": "Amazon SageMaker AI serverless model customization now includes training sessions, generally available today. You write and coordinate your own post-training loop (custom loss functions, reward signals, or multi-turn reinforcement learning) while SageMaker AI handles GPU allocation, distributed execution, fault recovery, and checkpoint storage.",
+      "categories": [
+        "Amazon SageMaker AI",
+        "Announcements",
+        "Intermediate (200)"
+      ],
+      "image": null
+    },
+    "w14": {
+      "title": "Write your own training loop \u2014 without managing GPUs \u2014 with Amazon SageMaker training session APIs",
+      "link": "https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-22T18:00:01+00:00",
+      "summary": "Amazon SageMaker AI training session APIs let you write your own LLM training loop (SFT, RL, or custom objectives) in a Python script while the service runs the GPUs. This post introduces the programming model and three SDK clients, then walks through a GRPO loop on GSM8K and a reinforcement learning workload on competitive programming.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon SageMaker AI",
+        "Announcements"
+      ],
+      "image": null
+    },
+    "w15": {
+      "title": "Deploy AI in a HIPAA-eligible environment with Amazon Quick",
+      "link": "https://aws.amazon.com/blogs/machine-learning/deploy-ai-in-a-hipaa-eligible-environment-with-amazon-quick/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-22T17:48:22+00:00",
+      "summary": "Amazon Quick is a HIPAA-eligible service, but eligibility is not the same as compliance. This post explains who HIPAA applies to, how PHI flows through Amazon Quick, what the platform provides for regulated environments, and a step-by-step guide to deploying compliant AI agents in a healthcare environment.",
+      "categories": [
+        "Amazon Quick Suite",
+        "Intermediate (200)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "u1": {
+      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "link": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "source": "TechCrunch",
+      "published": "2026-10-23T19:06:23+00:00",
+      "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs.",
+      "categories": [
+        "Startups",
+        "AI",
+        "Fundraising",
+        "TechCrunch Founder Summit"
+      ],
+      "image": null,
+      "date_mentioned": null
+    },
+    "u2": {
+      "title": "Claude Duet app is Anthropic\u2019s bet on agents",
+      "link": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+      "source": "TechCrunch",
+      "published": "2026-10-22T13:53:26+00:00",
+      "summary": "Claude Duet is available through waitlist for Pro and Max plan users.",
+      "categories": [
+        "AI",
+        "Apps",
+        "ai agent",
+        "Anthropic",
+        "Claude"
+      ],
+      "image": null,
+      "date_mentioned": null
+    },
+    "d1": {
+      "title": "AWS says its AI security agent fixes 89% of bugs \u2014 but there\u2019s a catch",
+      "link": "https://thenewstack.io/aws-says-its-ai-security-agent-fixes-89-of-bugs-but-theres-a-catch/",
+      "source": "The New Stack",
+      "published": "2026-10-24T14:30:00+00:00",
+      "summary": "AWS made Continuum for code vulnerabilities generally available on Thursday. The service finds and validates bugs in your repositories, checks",
+      "categories": [
+        "AI Agents",
+        "Developer tools",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/e3fae552-getty-images-f0awab_rn2c-unsplash-1024x660.jpg"
+    },
+    "d2": {
+      "title": "A few engineers asked IT for Linux. Then it spread to 200 machines.",
+      "link": "https://thenewstack.io/linux-developer-device-management/",
+      "source": "The New Stack",
+      "published": "2026-10-23T14:00:00+00:00",
+      "summary": "Linux is already part of the AI developer\u2019s desktop toolkit. Nvidia\u2019s DGX Spark, which became available to order on October",
+      "categories": [
+        "AI",
+        "Compliance",
+        "Linux",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/60d245a1-curated-lifestyle-tkuj9o0ieyi-unsplash-1024x762.jpg"
+    },
+    "d3": {
+      "title": "Microsoft\u2019s new voice AI can start working out what you want before you finish speaking",
+      "link": "https://thenewstack.io/microsoft-streaming-speech-models/",
+      "source": "The New Stack",
+      "published": "2026-10-23T12:00:00+00:00",
+      "summary": "\u201cI think you said, \u2018representative.\u2019\u201d It\u2019s the fastest way to bypass automated speech recognition chatbots that fail to route human",
+      "categories": [
+        "AI Agents",
+        "AI Engineering",
+        "AI Models"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/da376638-yugudesign-fhlhdmrz3wi-unsplash-1024x683.jpg"
+    },
+    "d4": {
+      "title": "Five AI agent harnesses took the same memory test. The results weren\u2019t even close.",
+      "link": "https://thenewstack.io/letta-frontiermemory-agent-harness-benchmark/",
+      "source": "The New Stack",
+      "published": "2026-10-22T18:34:32+00:00",
+      "summary": "AI agents are getting better at remembering past conversations and earlier tasks but remembering something doesn\u2019t guarantee an agent can",
+      "categories": [
+        "AI Agents",
+        "AI Engineering",
+        "AI Infrastructure"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/beaf3dcb-getty-images-de9f7lcsapw-unsplash-1024x518.jpg"
+    },
+    "d5": {
+      "title": "Ramp built an AI agent harness in six weeks \u2014 and LangChain\u2019s CEO says it\u2019s part of a bigger shift",
+      "link": "https://thenewstack.io/ramp-laminar-agent-harness/",
+      "source": "The New Stack",
+      "published": "2026-10-22T16:31:15+00:00",
+      "summary": "Ramp spent months testing managed agent APIs, open-source frameworks, and third-party platforms before concluding it would be better off building",
+      "categories": [
+        "AI Agents",
+        "AI Engineering",
+        "AI Infrastructure"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/27f1c110-getty-images-3mvk4jafxbu-unsplash-1024x576.jpg"
+    },
+    "d6": {
+      "title": "OpenAI donates Open Responses, its spec for a common LLM API, to the Agentic AI Foundation",
+      "link": "https://thenewstack.io/openai-donates-open-responses/",
+      "source": "The New Stack",
+      "published": "2026-10-22T16:01:00+00:00",
+      "summary": "OpenAI on Thursday announced that it is donating the Open Responses API specification to the open source Agentic AI Foundation",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Large Language Models",
+        "Open Source"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/816bc777-img_5845-1024x768.jpg"
+    },
+    "d7": {
+      "title": "OpenAI\u2019s COBOL migration score has made a striking leap",
+      "link": "https://thenewstack.io/penai-cobol-migration-benchmark/",
+      "source": "The New Stack",
+      "published": "2026-10-22T15:34:58+00:00",
+      "summary": "This week, OpenAI put COBOL in the spotlight. It announced benchmark results suggesting its latest models are getting much better",
+      "categories": [
+        "AI Engineering",
+        "Software Development",
+        "Software Testing"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/ebce92d2-getty-images-zxyruqtmwhu-unsplash-1024x663.png"
+    },
+    "d8": {
+      "title": "Google and AWS open new paths for PyTorch beyond Nvidia",
+      "link": "https://thenewstack.io/pytorch-tpu-trainium-migration/",
+      "source": "The New Stack",
+      "published": "2026-10-22T15:23:23+00:00",
+      "summary": "At PyTorch Conference North America 2026 this week, Google open-sourced TorchTPU, a native PyTorch stack for Google TPUs, now available",
+      "categories": [
+        "AI Infrastructure",
+        "Developer tools",
+        "Hardware"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/08d7a19b-maxim-berg-tba7ds4af_k-unsplash-1024x704.jpg"
+    },
+    "d9": {
+      "title": "AI found a critical PHP flaw. The bigger failure began in 2024.",
+      "link": "https://thenewstack.io/php2shell-chainguard-embargo-dispute/",
+      "source": "The New Stack",
+      "published": "2026-10-22T15:01:54+00:00",
+      "summary": "Did one of your favorite websites go dark on Wednesday? Some did, as operators took services offline while they waited",
+      "categories": [
+        "AI",
+        "Open Source",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/07/851e8d95-egor-komarov-9kndef3kkbm-unsplash-1024x556.jpg"
+    },
+    "d10": {
+      "title": "PHP\u2019s security scramble is just a preview: AI is digging up flaws faster than maintainers can fix them",
+      "link": "https://thenewstack.io/php2shell-ai-vulnerabilities-maintainers/",
+      "source": "The New Stack",
+      "published": "2026-10-22T14:35:13+00:00",
+      "summary": "One of the biggest security scares to hit the web is causing widespread disruption, prompting businesses, hospitals, schools, and government",
+      "categories": [
+        "AI",
+        "Open Source",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/0e0382d7-ben-griffiths-gae1phgc6ms-unsplash-1024x683.jpg"
+    },
+    "d11": {
+      "title": "DeepSeek V4.1-Flash-1017 vs. Claude Haiku 5.5: More accurate at a fraction of the price",
+      "link": "https://thenewstack.io/deepseek-flash-haiku-test/",
+      "source": "The New Stack",
+      "published": "2026-10-22T14:22:50+00:00",
+      "summary": "DeepSeek released V4.1-Flash-1017 on October 17 as an update to its Flash model. Its change log says the update cuts",
+      "categories": [
+        "AI Models",
+        "Large Language Models",
+        "Software Testing"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/ba937bbc-steve-a-johnson-miepaesl3qo-unsplash-1024x576.jpg"
+    },
+    "d12": {
+      "title": "Google turns the infrastructure behind Gemini\u2019s agents into a cloud service",
+      "link": "https://thenewstack.io/google-agent-compute-engine/",
+      "source": "The New Stack",
+      "published": "2026-10-22T13:00:00+00:00",
+      "summary": "Google will soon make the infrastructure that powers its Gemini agents available to Google Cloud users in preview. Announced on",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "AI Infrastructure"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/30d2e7d0-google_logo-1024x768.jpg"
+    },
+    "l1": {
+      "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+      "link": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+      "source": "Interconnects",
+      "published": "2026-10-25T11:49:00+00:00",
+      "summary": "#20",
+      "categories": [],
+      "image": null
+    },
+    "l2": {
+      "title": "Building Reasoning Models from the Ground Up: A Full Video Course",
+      "link": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "source": "Ahead of AI",
+      "published": "2026-10-24T11:14:32+00:00",
+      "summary": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
+      "categories": [],
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/519db120-1320-411b-adec-a88865345f2c_4083x2916.jpeg"
+    },
+    "l3": {
+      "title": "The Pulse: Time to rethink software security because of AI?",
+      "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-do-we-need-to-rethink-software",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-10-22T14:08:21+00:00",
+      "summary": "A month\u2019s worth of security breaches in a single day \u2013 will things get worse before they improve? Also: Anthropic accused of version control \u201crip off\u201d, and more",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!8eqB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c999ba8-0113-4a00-9290-f982c315a286_1246x1254.png"
+    },
+    "l4": {
+      "title": "Claude\u2019s personal agent",
+      "link": "https://www.bensbites.com/p/claudes-personal-agent",
+      "source": "Ben's Bites",
+      "published": "2026-10-22T13:01:21+00:00",
+      "summary": "And how I run the newsletter with agents",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!VCXD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2112586659976105984.jpg"
+    },
+    "l5": {
+      "title": "Put Some Brain in Your Thinking",
+      "link": "https://www.thealgorithmicbridge.com/p/put-some-brain-in-your-thinking",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-10-21T20:40:57+00:00",
+      "summary": "Life advice from a 7-year-old",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!SsPz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbbd67610-f34e-4972-a245-ca2fe82ba8cf_1280x863.jpeg"
+    },
+    "l6": {
+      "title": "The revised rules of engineering management with Will Larson",
+      "link": "https://newsletter.pragmaticengineer.com/p/the-revised-rules-of-engineering",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-10-21T16:58:21+00:00",
+      "summary": "Will Larson, CTO of Imprint, explores how AI and shifting industry expectations are changing engineering management, career ladders, and the path from engineer to CTO.",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!aK1D!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee01f02b-a319-48e2-9687-2a6dc0dc9fe2_2400x2400.png"
+    },
+    "l7": {
+      "title": "MOFCOM's New Rules and the Future of Chinese AI",
+      "link": "https://www.chinatalk.media/p/mofcoms-new-ai-rules",
+      "source": "ChinaTalk",
+      "published": "2026-10-21T13:43:39+00:00",
+      "summary": "a big deal",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!RyL6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F46954a22-3909-48b4-9d3f-4a3fe0d901e1_2400x1500.png"
+    },
+    "l8": {
+      "title": "What\u2019s the ROI of software engineers\u2019 spending on AI?",
+      "link": "https://newsletter.pragmaticengineer.com/p/whats-the-roi-of-software-engineers",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-10-20T17:34:18+00:00",
+      "summary": "AI spending has greatly increased at most companies this year, but has it actually changed shipping velocity and PR output? We analyse data from 27 companies \u2013 with some interesting findings",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!hu5Y!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F10fd6c73-8cd3-4d75-8cd1-07df134a9b78_1600x1040.png"
+    }
+  },
+  "llm_draft": {
+    "glance": [
+      {
+        "id": "n7",
+        "summary": "Pennsylvania signed a law requiring labels on advertisements significantly modified or generated by artificial intelligence."
+      },
+      {
+        "id": "n1",
+        "summary": "Apollo economist reported artificial intelligence has delivered zero financial payoff to corporate America outside of tech."
+      },
+      {
+        "id": "w4",
+        "summary": "Bayer Crop Science launched a multi-agent decision engine allowing researchers to query their analytics platform."
+      },
+      {
+        "id": "n3",
+        "summary": "r/opensource banned projects that use AI, are made by AI, or are intended for AI."
+      }
+    ],
+    "big_pour": [
+      {
+        "id": "n7",
+        "headline": "Pennsylvania requires labels on AI-generated advertisements",
+        "teaser": "New disclosure rules for ads",
+        "summary": "Pennsylvania passed a law requiring disclosures on still image, video, audio, or text ads that have been significantly modified or generated by artificial intelligence.",
+        "why": "You will know when advertisements you see, hear, or read were made or modified by artificial intelligence.",
+        "explain": {
+          "kid": "If someone makes an ad using artificial intelligence to create or change pictures, sounds, or words, a new rule says they must clearly put a label on it.",
+          "pm": "Pennsylvania now mandates standardized disclosure labels on any advertising text, image, audio, or video that has been significantly modified or generated by artificial intelligence.",
+          "engineer": "A new Pennsylvania law mandates that any text, audio, video, or image ad significantly modified or generated by artificial intelligence must include a disclosure label in a matching format."
+        }
+      },
+      {
+        "id": "n1",
+        "headline": "Apollo economist reports zero financial payoff from AI",
+        "teaser": "No corporate returns outside tech",
+        "summary": "Despite massive investments and widespread hype, artificial intelligence has delivered zero financial payoff to corporate America outside of tech, according to an Apollo economist."
+      },
+      {
+        "id": "n5",
+        "headline": "Blue Planet III leaves rough edges against AI",
+        "teaser": "Keeping nature footage authentic",
+        "summary": "BBC's Blue Planet III is keeping less-than-perfect shots to prove authenticity, avoiding the overly polished look typical of artificial intelligence."
+      }
+    ],
+    "office_blend": [
+      {
+        "id": "w4",
+        "headline": "Bayer Crop Science builds agentic analytics platform",
+        "teaser": "Natural language queries for researchers",
+        "summary": "Bayer Crop Science built the Agentic Decision Engine on Amazon Bedrock AgentCore, allowing researchers, breeders, and analysts to ask natural language questions about their analytics platform."
+      },
+      {
+        "id": "w12",
+        "headline": "IskayPet unifies corporate knowledge with Amazon Bedrock",
+        "teaser": "Multilingual assistant across three countries",
+        "summary": "Pet care company IskayPet built a multilingual assistant answering employee questions across four languages and three countries without managing retrieval infrastructure."
+      }
+    ],
+    "still_roasting": [
+      {
+        "id": "u2",
+        "summary": "Anthropic is offering its Claude Duet agent app through a waitlist for Pro and Max plan users."
+      }
+    ],
+    "quick_sips": [
+      {
+        "id": "n3",
+        "summary": "r/opensource banned submissions that use AI, are made by AI, or are intended for AI."
+      },
+      {
+        "id": "w6",
+        "summary": "SAP added AI-powered roleplays to its annual certification renewal process to evaluate how professionals apply their knowledge."
+      },
+      {
+        "id": "w11",
+        "summary": "Amazon Polly upgraded its Generative engine with lower latency, more expressive speech, and 14 new voices across 9 locales."
+      }
+    ],
+    "builder": {
+      "stories": [
+        {
+          "id": "d6",
+          "label": "Open standard",
+          "headline": "OpenAI donates Open Responses specification to foundation",
+          "summary": "OpenAI announced it is donating the Open Responses API specification for common language model APIs to the open source Agentic AI Foundation."
+        },
+        {
+          "id": "d8",
+          "label": "New tool",
+          "headline": "Google open-sources native PyTorch stack for TPUs",
+          "summary": "Google open-sourced TorchTPU at PyTorch Conference North America 2026, offering a native PyTorch stack for Google TPUs."
+        }
+      ],
+      "concept": {
+        "id": "d8",
+        "term": "TorchTPU",
+        "explanation": "TorchTPU is a native PyTorch stack for Google TPUs that Google open-sourced at PyTorch Conference North America 2026 to open paths beyond Nvidia."
+      }
+    },
+    "long_read": {
+      "id": "l8",
+      "headline": "What\u2019s the ROI of software engineers\u2019 spending on AI?",
+      "summary": "The newsletter analyzes data from 27 companies to investigate whether increased spending on AI by software engineers has actually improved shipping velocity and pull request output."
+    }
+  },
+  "first_check": {},
+  "dropped": [],
+  "explain_dropped": []
+}
