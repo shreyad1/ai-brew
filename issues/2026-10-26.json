@@ -1,0 +1,190 @@
+{
+  "glance": [
+    {
+      "id": "n13",
+      "summary": "Anthropic has filed for an IPO, revealing growing revenue, rising losses, and heavy enterprise adoption.",
+      "link": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n12",
+      "summary": "Microsoft is offering voluntary buyouts to up to 60,000 employees across four countries.",
+      "link": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25832915/STK095_MICROSOFT_2_CVirginia_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n2",
+      "summary": "OpenAI announced three science discoveries in math, computer science, and physics with academic guides.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS537_AI_MATH_2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "w14",
+      "summary": "SAP is letting professionals renew their certifications using AI-based roleplays.",
+      "link": "https://www.cio.com/article/4239657/sap-lets-ai-play-key-role-in-its-certification-renewal-process.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4239657-0-44049400-1792755521-shutterstock_editorial_1347234716.jpg?quality=50&strip=all"
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n13",
+      "headline": "Anthropic officially files for an IPO",
+      "teaser": "Anthropic files for IPO",
+      "summary": "Anthropic officially filed for an IPO, revealing soaring revenue alongside mounting losses. The filing also showed major enterprise adoption and an unusual governance structure built to preserve founder control and AI safety.",
+      "why": "It shows how an AI company balances rapid corporate growth, heavy financial losses, and safety missions.",
+      "explain": {
+        "kid": "A big AI company called Anthropic is getting ready to sell stock to the public. It is making much more money, but also losing more, while keeping special rules so its founders stay in control of safety.",
+        "pm": "Anthropic filed for an IPO, showing strong enterprise adoption and soaring revenue offset by mounting losses. Their unusual governance model aims to balance founder control with their AI safety mission as they scale.",
+        "engineer": "Anthropic\u2019s IPO filing reveals soaring revenue and major enterprise adoption paired with mounting losses. The company is using an unusual governance structure to protect founder control and its core AI safety mission."
+      },
+      "link": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n12",
+      "headline": "Microsoft offers buyouts to 60,000 employees",
+      "teaser": "Microsoft offers voluntary buyouts",
+      "summary": "Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. The program gives staff financial support and career planning resources as the company trims staff.",
+      "link": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25832915/STK095_MICROSOFT_2_CVirginia_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n2",
+      "headline": "OpenAI announces three major science discoveries",
+      "teaser": "OpenAI details science discoveries",
+      "summary": "OpenAI announced three major discoveries in math, computer science, and physics. The work relied on external academic experts, described as \"shepherds\", who guided the results.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS537_AI_MATH_2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w12",
+      "headline": "Bayer Crop Science builds AI decision engine",
+      "teaser": "Bayer builds decision engine",
+      "summary": "Bayer Crop Science built a multi-agent platform on Amazon Bedrock AgentCore. It allows breeders, analysts, and researchers to ask natural language questions about their analytics platform.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "w14",
+      "headline": "SAP updates certification renewal with AI roleplays",
+      "teaser": "SAP adds AI roleplays",
+      "summary": "SAP professionals can now renew their certifications through AI-based roleplays. The service shifts focus from learning facts toward evaluating how people apply knowledge in real-world use cases.",
+      "link": "https://www.cio.com/article/4239657/sap-lets-ai-play-key-role-in-its-certification-renewal-process.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4239657-0-44049400-1792755521-shutterstock_editorial_1347234716.jpg?quality=50&strip=all"
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u1",
+      "summary": "TechCrunch Founder Summit 2026 will explore customer acquisition, team building, pitch sharpening, founder leadership, and scaling companies inside and outside startup hubs.",
+      "link": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "source": "TechCrunch",
+      "image": null,
+      "date_mentioned": null
+    },
+    {
+      "id": "u2",
+      "summary": "NetSuite is launching SuiteExpress to connect into Customer Success services for ERP implementation and optimization.",
+      "link": "https://www.cio.com/article/4239667/netsuite-launches-suiteexpress-to-expedite-implementation-and-optimization-of-erp.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4239667-0-18357200-1793016217-Oracle-NetSuite.jpeg?quality=50&strip=all",
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n4",
+      "summary": "Apple released iOS and macOS 27.2 with new Siri AI features and options to limit direct application access.",
+      "link": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Siri-AI-1152x648.png"
+    },
+    {
+      "id": "n7",
+      "summary": "The RealReal updated its bot defense system to make it harder for AI agents to shop on its website.",
+      "link": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_E.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "w8",
+      "summary": "AI assistants answering junior engineers' foundational questions reduce Slack interruptions but risk eroding senior engineers' architectural fluency.",
+      "link": "https://www.cio.com/article/4239726/your-senior-engineers-need-junior-questions-more-than-juniors-need-answers.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4239726-0-79684300-1793005418-shutterstock_2546315779.jpg?quality=50&strip=all"
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d1",
+        "label": "New launch",
+        "headline": "OpenAI launches GPT-6.1 Terra",
+        "summary": "OpenAI launched GPT-6.1 Terra, cutting API prices in half and delivering major gains in coding and computer-use benchmarks. However, its safety report flagged a catch.",
+        "link": "https://thenewstack.io/openai-terra-bypassed-restrictions/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/10/8a7afbe2-igor-omilaev-ewz3vuln8gw-unsplash-1-1024x576.jpg"
+      },
+      {
+        "id": "d3",
+        "label": "New tool",
+        "headline": "Ex-GitHub CEO launches GitHub alternative",
+        "summary": "Thomas Dohmke, former GitHub CEO, launched Entire, a GitHub alternative that replaces traditional pull requests.",
+        "link": "https://thenewstack.io/entire-trails-agentic-code-review/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/10/7485531e-img_5891-1024x664.jpg"
+      }
+    ],
+    "concept": null
+  },
+  "long_read": {
+    "id": "l8",
+    "headline": "What\u2019s the ROI of software engineers\u2019 spending on AI?",
+    "summary": "The newsletter analyses data from 27 companies to see whether increased AI spending has changed shipping velocity and PR output for software engineers.",
+    "link": "https://newsletter.pragmaticengineer.com/p/whats-the-roi-of-software-engineers",
+    "source": "The Pragmatic Engineer",
+    "image": "https://substackcdn.com/image/fetch/$s_!hu5Y!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F10fd6c73-8cd3-4d75-8cd1-07df134a9b78_1600x1040.png"
+  },
+  "number": 3,
+  "date_iso": "2026-10-26",
+  "date_long": "Monday \u00b7 26 October 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-10-26",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": {
+    "term": "Grounding",
+    "definition": "Making a model answer from specific provided sources (documents, search results, database rows) rather than from what it memorised in training.",
+    "heard": "\"Is that answer grounded, or is the model guessing?\"",
+    "analogy": "Like making a drink from the recipe card in front of you instead of from memory.",
+    "reviewed": false,
+    "theme": "Shipping LLM features",
+    "day": 3
+  },
+  "keep_brewing": {
+    "name": "One Useful Thing",
+    "description": "Ethan Mollick's newsletter on using AI at work, written for non-engineers.",
+    "link": "https://www.oneusefulthing.org/"
+  },
+  "poll": {
+    "question": "Would you read a news story written entirely by AI?",
+    "last_results": null
+  }
+}

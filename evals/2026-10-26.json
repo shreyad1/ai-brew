@@ -1,0 +1,315 @@
+{
+  "date": "2026-10-26",
+  "claims": 38,
+  "supported": 38,
+  "partial": 0,
+  "unsupported": 0,
+  "faithfulness": 1.0,
+  "flagged": [],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n13",
+      "claim": "Anthropic has filed for an IPO, revealing growing revenue, rising losses, and heavy enterprise adoption.",
+      "source": "Anthropic officially files for its public debut. Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "verdict": "supported",
+      "reason": "The source directly states that Anthropic filed for an IPO, revealing soaring revenue, mounting losses, and major enterprise adoption."
+    },
+    {
+      "section": "glance",
+      "id": "n12",
+      "claim": "Microsoft is offering voluntary buyouts to up to 60,000 employees across four countries.",
+      "source": "Microsoft offers buyouts to 60,000 employees. Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. In a message to employees, Microsoft chief people officer Amy Coleman writes that this gives staff members \"the opportunity to leave Microsoft with financial support and career planning resources\" as the company looks to trim staff without another [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states Microsoft is offering voluntary buyouts to up to 60,000 employees across four named countries (US, UK, Canada, and India)."
+    },
+    {
+      "section": "glance",
+      "id": "n2",
+      "claim": "OpenAI announced three science discoveries in math, computer science, and physics with academic guides.",
+      "source": "OpenAI announces three big science discoveries and a new way to work with academics. Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts that OpenAI describes as \"shepherds\" guiding the results in [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states OpenAI announced three major discoveries in math, computer science, and physics with external academic 'shepherds' guiding the results."
+    },
+    {
+      "section": "glance",
+      "id": "w14",
+      "claim": "SAP is letting professionals renew their certifications using AI-based roleplays.",
+      "source": "SAP lets AI play key role in its certification renewal process. SAP professionals can now renew their certifications through AI-based roleplays. The new service builds on SAP\u2019s revamp of its certification program last year, shifting the focus from rote learning of facts towards real-world use cases. \u201cThe evolution of Stay Certified reflects a broader shift already taking place across SAP Certification: moving beyond assessing what someone knows toward validating how they can apply that knowledge. AI-powered roleplays bring that principle into the annual cert",
+      "verdict": "supported",
+      "reason": "The source states that SAP professionals can now renew their certifications through AI-based roleplays."
+    },
+    {
+      "section": "big_pour",
+      "id": "n13",
+      "claim": "Anthropic officially files for an IPO",
+      "source": "Anthropic officially files for its public debut. Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "verdict": "supported",
+      "reason": "The source explicitly confirms that Anthropic has officially filed for an IPO."
+    },
+    {
+      "section": "big_pour",
+      "id": "n13",
+      "claim": "Anthropic officially filed for an IPO, revealing soaring revenue alongside mounting losses.",
+      "source": "Anthropic officially files for its public debut. Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "verdict": "supported",
+      "reason": "The source directly notes that Anthropic's IPO filing revealed soaring revenue alongside mounting losses."
+    },
+    {
+      "section": "big_pour",
+      "id": "n13",
+      "claim": "The filing also showed major enterprise adoption and an unusual governance structure built to preserve founder control and AI safety.",
+      "source": "Anthropic officially files for its public debut. Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "verdict": "supported",
+      "reason": "The source states the filing revealed major enterprise adoption and an unusual governance structure designed to preserve founder control and its AI safety mission."
+    },
+    {
+      "section": "big_pour",
+      "id": "n13",
+      "claim": "It shows how an AI company balances rapid corporate growth, heavy financial losses, and safety missions.",
+      "source": "Anthropic officially files for its public debut. Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "verdict": "supported",
+      "reason": "The claim accurately reflects the source's details on growth, losses, and safety governance framing."
+    },
+    {
+      "section": "big_pour",
+      "id": "n13",
+      "claim": "A big AI company called Anthropic is getting ready to sell stock to the public.",
+      "source": "Anthropic officially files for its public debut. Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "verdict": "supported",
+      "reason": "Filing for an IPO means preparing to sell stock to the public, directly matching the source."
+    },
+    {
+      "section": "big_pour",
+      "id": "n13",
+      "claim": "It is making much more money, but also losing more, while keeping special rules so its founders stay in control of safety.",
+      "source": "Anthropic officially files for its public debut. Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "verdict": "supported",
+      "reason": "The claim plain-language summarizes the source's points on soaring revenue, mounting losses, and governance for founder control over safety."
+    },
+    {
+      "section": "big_pour",
+      "id": "n13",
+      "claim": "Anthropic filed for an IPO, showing strong enterprise adoption and soaring revenue offset by mounting losses.",
+      "source": "Anthropic officially files for its public debut. Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "verdict": "supported",
+      "reason": "The source supports all stated facts regarding the IPO filing, enterprise adoption, revenue, and losses."
+    },
+    {
+      "section": "big_pour",
+      "id": "n13",
+      "claim": "Their unusual governance model aims to balance founder control with their AI safety mission as they scale.",
+      "source": "Anthropic officially files for its public debut. Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "verdict": "supported",
+      "reason": "The source states their governance structure is designed to preserve founder control and its AI safety mission."
+    },
+    {
+      "section": "big_pour",
+      "id": "n13",
+      "claim": "Anthropic\u2019s IPO filing reveals soaring revenue and major enterprise adoption paired with mounting losses.",
+      "source": "Anthropic officially files for its public debut. Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that the IPO filing reveals soaring revenue, mounting losses, and major enterprise adoption."
+    },
+    {
+      "section": "big_pour",
+      "id": "n13",
+      "claim": "The company is using an unusual governance structure to protect founder control and its core AI safety mission.",
+      "source": "Anthropic officially files for its public debut. Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "verdict": "supported",
+      "reason": "The source confirms an unusual governance structure was designed to preserve founder control and the AI safety mission."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "Microsoft offers buyouts to 60,000 employees",
+      "source": "Microsoft offers buyouts to 60,000 employees. Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. In a message to employees, Microsoft chief people officer Amy Coleman writes that this gives staff members \"the opportunity to leave Microsoft with financial support and career planning resources\" as the company looks to trim staff without another [\u2026]",
+      "verdict": "supported",
+      "reason": "The headline of the source directly matches the claim."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India.",
+      "source": "Microsoft offers buyouts to 60,000 employees. Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. In a message to employees, Microsoft chief people officer Amy Coleman writes that this gives staff members \"the opportunity to leave Microsoft with financial support and career planning resources\" as the company looks to trim staff without another [\u2026]",
+      "verdict": "supported",
+      "reason": "The source directly states that Microsoft is offering voluntary buyouts to up to 60,000 employees across these specific countries."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "The program gives staff financial support and career planning resources as the company trims staff.",
+      "source": "Microsoft offers buyouts to 60,000 employees. Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. In a message to employees, Microsoft chief people officer Amy Coleman writes that this gives staff members \"the opportunity to leave Microsoft with financial support and career planning resources\" as the company looks to trim staff without another [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly mentions giving staff members the opportunity to leave with financial support and career planning resources as the company trims staff."
+    },
+    {
+      "section": "big_pour",
+      "id": "n2",
+      "claim": "OpenAI announces three major science discoveries",
+      "source": "OpenAI announces three big science discoveries and a new way to work with academics. Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts that OpenAI describes as \"shepherds\" guiding the results in [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states that OpenAI announces three big/major science discoveries."
+    },
+    {
+      "section": "big_pour",
+      "id": "n2",
+      "claim": "OpenAI announced three major discoveries in math, computer science, and physics.",
+      "source": "OpenAI announces three big science discoveries and a new way to work with academics. Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts that OpenAI describes as \"shepherds\" guiding the results in [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly lists the three major discoveries as being in math, computer science, and physics."
+    },
+    {
+      "section": "big_pour",
+      "id": "n2",
+      "claim": "The work relied on external academic experts, described as \"shepherds\", who guided the results.",
+      "source": "OpenAI announces three big science discoveries and a new way to work with academics. Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts that OpenAI describes as \"shepherds\" guiding the results in [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states that OpenAI is working with academics and using external experts described as 'shepherds' to guide the results."
+    },
+    {
+      "section": "office_blend",
+      "id": "w12",
+      "claim": "Bayer Crop Science builds AI decision engine",
+      "source": "How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations. Bayer Crop Science built the Agentic Decision Engine (ADE), a multi-agent platform on Amazon Bedrock AgentCore that lets breeders, analysts, and researchers ask natural language questions about their analytics platform. This post covers the ADE architecture, five design decisions, and how the team prepared it for production with AWS Unified Operations.",
+      "verdict": "supported",
+      "reason": "The source confirms that Bayer Crop Science built an agentic decision engine."
+    },
+    {
+      "section": "office_blend",
+      "id": "w12",
+      "claim": "Bayer Crop Science built a multi-agent platform on Amazon Bedrock AgentCore.",
+      "source": "How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations. Bayer Crop Science built the Agentic Decision Engine (ADE), a multi-agent platform on Amazon Bedrock AgentCore that lets breeders, analysts, and researchers ask natural language questions about their analytics platform. This post covers the ADE architecture, five design decisions, and how the team prepared it for production with AWS Unified Operations.",
+      "verdict": "supported",
+      "reason": "The source directly states that Bayer Crop Science built a multi-agent platform on Amazon Bedrock AgentCore."
+    },
+    {
+      "section": "office_blend",
+      "id": "w12",
+      "claim": "It allows breeders, analysts, and researchers to ask natural language questions about their analytics platform.",
+      "source": "How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations. Bayer Crop Science built the Agentic Decision Engine (ADE), a multi-agent platform on Amazon Bedrock AgentCore that lets breeders, analysts, and researchers ask natural language questions about their analytics platform. This post covers the ADE architecture, five design decisions, and how the team prepared it for production with AWS Unified Operations.",
+      "verdict": "supported",
+      "reason": "The source explicitly mentions that the platform lets breeders, analysts, and researchers ask natural language questions about their analytics platform."
+    },
+    {
+      "section": "office_blend",
+      "id": "w14",
+      "claim": "SAP updates certification renewal with AI roleplays",
+      "source": "SAP lets AI play key role in its certification renewal process. SAP professionals can now renew their certifications through AI-based roleplays. The new service builds on SAP\u2019s revamp of its certification program last year, shifting the focus from rote learning of facts towards real-world use cases. \u201cThe evolution of Stay Certified reflects a broader shift already taking place across SAP Certification: moving beyond assessing what someone knows toward validating how they can apply that knowledge. AI-powered roleplays bring that principle into the annual cert",
+      "verdict": "supported",
+      "reason": "The source details how SAP is allowing professionals to renew certifications through AI-based roleplays."
+    },
+    {
+      "section": "office_blend",
+      "id": "w14",
+      "claim": "SAP professionals can now renew their certifications through AI-based roleplays.",
+      "source": "SAP lets AI play key role in its certification renewal process. SAP professionals can now renew their certifications through AI-based roleplays. The new service builds on SAP\u2019s revamp of its certification program last year, shifting the focus from rote learning of facts towards real-world use cases. \u201cThe evolution of Stay Certified reflects a broader shift already taking place across SAP Certification: moving beyond assessing what someone knows toward validating how they can apply that knowledge. AI-powered roleplays bring that principle into the annual cert",
+      "verdict": "supported",
+      "reason": "The source explicitly states that SAP professionals can now renew their certifications through AI-based roleplays."
+    },
+    {
+      "section": "office_blend",
+      "id": "w14",
+      "claim": "The service shifts focus from learning facts toward evaluating how people apply knowledge in real-world use cases.",
+      "source": "SAP lets AI play key role in its certification renewal process. SAP professionals can now renew their certifications through AI-based roleplays. The new service builds on SAP\u2019s revamp of its certification program last year, shifting the focus from rote learning of facts towards real-world use cases. \u201cThe evolution of Stay Certified reflects a broader shift already taking place across SAP Certification: moving beyond assessing what someone knows toward validating how they can apply that knowledge. AI-powered roleplays bring that principle into the annual cert",
+      "verdict": "supported",
+      "reason": "The source confirms the focus is shifting away from learning facts toward real-world use cases and validating how knowledge is applied."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u1",
+      "claim": "TechCrunch Founder Summit 2026 will explore customer acquisition, team building, pitch sharpening, founder leadership, and scaling companies inside and outside startup hubs.",
+      "source": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026. Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs.",
+      "verdict": "supported",
+      "reason": "The source lists all these topics as areas the TechCrunch Founder Summit 2026 will explore."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u2",
+      "claim": "NetSuite is launching SuiteExpress to connect into Customer Success services for ERP implementation and optimization.",
+      "source": "NetSuite launches SuiteExpress to expedite implementation and optimization of ERP. Agentic AI is the main topic at most industry events this year, with vendors adding agents to their products with gleeful abandon. NetSuite is no different; at its SuiteWorld conference this week, it is unveiling agents and AI workspaces designed to do everything from autonomous financial closing to AI-based supply chain management. SuiteExpress, announced today, however, is something different. Rather than automating processes within the ERP suite, it is tied into Customer Success services, usi",
+      "verdict": "supported",
+      "reason": "The source states NetSuite launched SuiteExpress for ERP implementation and optimization, connecting it into Customer Success services."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n4",
+      "claim": "Apple released iOS and macOS 27.2 with new Siri AI features and options to limit direct application access.",
+      "source": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo. Included is the ability to limit which applications Siri can directly access.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Apple released iOS and macOS 27.2 with new Siri AI features and the ability to limit Siri's direct access to applications."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n7",
+      "claim": "The RealReal updated its bot defense system to make it harder for AI agents to shop on its website.",
+      "source": "The RealReal won\u2019t let AI agents hog designer clothing. The RealReal, a secondhand luxury fashion consignment retailer, said it's updating its bot defense system, effectively making it harder for AI agents to shop on its site. The change comes days after The Verge reported that an AI agent could be used to take advantage of The RealReal's item reserve system. On the retailer's website, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly notes that updating the bot defense system makes it harder for AI agents to shop on the site."
+    },
+    {
+      "section": "quick_sips",
+      "id": "w8",
+      "claim": "AI assistants answering junior engineers' foundational questions reduce Slack interruptions but risk eroding senior engineers' architectural fluency.",
+      "source": "Your senior engineers need junior questions more than juniors need answers. When juniors take naive questions to an AI assistant instead of a colleague, dashboards record fewer interruptions and higher velocity. What they miss is the erosion of senior engineers\u2019 architectural fluency, and the single point of failure that hardens until an outage forces someone to explain the system out loud. Over the past year, I watched engineering teams celebrate a quiet drop in Slack interruptions. A junior used to ask a foundational question in a channel: why does this service retry ",
+      "verdict": "supported",
+      "reason": "The source states that taking questions to AI reduces interruptions while eroding senior engineers' architectural fluency."
+    },
+    {
+      "section": "builder",
+      "id": "d1",
+      "claim": "OpenAI launches GPT-6.1 Terra",
+      "source": "OpenAI halved its agent\u2019s price. Its own safety report flagged a catch.. OpenAI launched GPT-6.1 Terra on Monday, cutting API prices in half and delivering major gains in coding and computer-use benchmarks.",
+      "verdict": "supported",
+      "reason": "The source directly states that OpenAI launched GPT-6.1 Terra."
+    },
+    {
+      "section": "builder",
+      "id": "d1",
+      "claim": "OpenAI launched GPT-6.1 Terra, cutting API prices in half and delivering major gains in coding and computer-use benchmarks.",
+      "source": "OpenAI halved its agent\u2019s price. Its own safety report flagged a catch.. OpenAI launched GPT-6.1 Terra on Monday, cutting API prices in half and delivering major gains in coding and computer-use benchmarks.",
+      "verdict": "supported",
+      "reason": "The claim directly matches the information provided in the source text."
+    },
+    {
+      "section": "builder",
+      "id": "d1",
+      "claim": "However, its safety report flagged a catch.",
+      "source": "OpenAI halved its agent\u2019s price. Its own safety report flagged a catch.. OpenAI launched GPT-6.1 Terra on Monday, cutting API prices in half and delivering major gains in coding and computer-use benchmarks.",
+      "verdict": "supported",
+      "reason": "The source title directly mentions that its own safety report flagged a catch."
+    },
+    {
+      "section": "builder",
+      "id": "d3",
+      "claim": "Ex-GitHub CEO launches GitHub alternative",
+      "source": "Ex-GitHub CEO launches a GitHub rival that reinvents the pull request. Entire, the startup founded by former GitHub CEO Thomas Dohmke, on Monday launched its GitHub alternative that replaces the traditional",
+      "verdict": "supported",
+      "reason": "The source text directly states that the former GitHub CEO launched a GitHub alternative."
+    },
+    {
+      "section": "builder",
+      "id": "d3",
+      "claim": "Thomas Dohmke, former GitHub CEO, launched Entire, a GitHub alternative that replaces traditional pull requests.",
+      "source": "Ex-GitHub CEO launches a GitHub rival that reinvents the pull request. Entire, the startup founded by former GitHub CEO Thomas Dohmke, on Monday launched its GitHub alternative that replaces the traditional",
+      "verdict": "supported",
+      "reason": "The source states that former GitHub CEO Thomas Dohmke launched Entire, a GitHub alternative replacing traditional pull requests."
+    },
+    {
+      "section": "long_read",
+      "id": "l8",
+      "claim": "What\u2019s the ROI of software engineers\u2019 spending on AI?",
+      "source": "What\u2019s the ROI of software engineers\u2019 spending on AI?. AI spending has greatly increased at most companies this year, but has it actually changed shipping velocity and PR output? We analyse data from 27 companies \u2013 with some interesting findings",
+      "verdict": "supported",
+      "reason": "The claim is identical to the title of the source text."
+    },
+    {
+      "section": "long_read",
+      "id": "l8",
+      "claim": "The newsletter analyses data from 27 companies to see whether increased AI spending has changed shipping velocity and PR output for software engineers.",
+      "source": "What\u2019s the ROI of software engineers\u2019 spending on AI?. AI spending has greatly increased at most companies this year, but has it actually changed shipping velocity and PR output? We analyse data from 27 companies \u2013 with some interesting findings",
+      "verdict": "supported",
+      "reason": "The source explicitly states that data from 27 companies was analyzed to see if increased AI spending affected shipping velocity and PR output."
+    }
+  ]
+}
