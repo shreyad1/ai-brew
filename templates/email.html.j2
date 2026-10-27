@@ -109,7 +109,7 @@
       {%- for item in issue.still_roasting %}
       <tr><td valign="top" width="34" style="padding:10px 0;font-family:{{ mono }};font-size:13px;font-weight:700;color:{{ cobalt }};{{ '' if loop.first else 'border-top:1px solid ' ~ rule ~ ';' }}">{{ "%02d" | format(loop.index) }}</td>
         <td style="padding:10px 0;{{ '' if loop.first else 'border-top:1px solid ' ~ rule ~ ';' }}">{{ item.summary }}
-          <div style="font-family:{{ mono }};font-size:11px;color:{{ faint }};margin-top:4px;">{{ item.date_mentioned or "Date not announced" }} &middot; <a href="{{ item.link }}" style="color:{{ cobalt }};">{{ item.get("source") or "Source" }}</a></div></td></tr>
+          <div style="font-family:{{ mono }};font-size:11px;color:{{ faint }};margin-top:4px;">{{ item.get("date_mentioned") or "Date not announced" }} &middot; <a href="{{ item.link }}" style="color:{{ cobalt }};">{{ item.get("source") or "Source" }}</a></div></td></tr>
       {%- endfor %}
     </table>
   </td></tr>
