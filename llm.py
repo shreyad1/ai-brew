@@ -16,7 +16,7 @@ MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 # Tried in order when a model is overloaded (503) or out of free quota (429).
 FALLBACK_MODELS = ["gemini-flash-latest", "gemini-3.5-flash", "gemini-3.1-flash-lite"]
 # "Busy" usually clears within minutes, so wait and go round the models again before giving up.
-RETRY_WAITS = [30, 90]  # seconds before the 2nd and 3rd rounds
+RETRY_WAITS = [60, 180, 420]  # seconds; outages often last several minutes
 
 
 @lru_cache

@@ -5,6 +5,8 @@ on:
     # 12:00 UTC every day = 7:00 AM Central in summer (CDT), 6:00 AM in winter (CST).
     # GitHub can start scheduled runs 5-30 minutes late, so this leaves room before 7 AM.
     - cron: "0 12 * * *"
+    # Backup run: if Gemini was down at 12:00, try again. It skips if today's issue already exists.
+    - cron: "0 15 * * *"
   workflow_dispatch: # adds a "Run workflow" button for manual runs
 
 permissions:
@@ -16,27 +18,37 @@ concurrency:
 jobs:
   build-issue:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
+      - name: Skip if today's issue already exists
+        id: done
+        run: |
+          if [ -f "issues/$(date -u +%F).json" ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; echo "Today's issue already exists."; fi
+
       - uses: astral-sh/setup-uv@v6
+        if: steps.done.outputs.skip != 'true'
 
       - name: Install dependencies
+        if: steps.done.outputs.skip != 'true'
         run: uv sync --frozen
 
       - name: Write today's issue
+        if: steps.done.outputs.skip != 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: uv run digest.py
 
       - name: Fact-check today's issue (LLM judge)
+        if: steps.done.outputs.skip != 'true'
         continue-on-error: true # a busy judge model must never block the newsletter
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: uv run evals.py
 
       - name: Draft the email in Buttondown (review mode)
+        if: steps.done.outputs.skip != 'true'
         continue-on-error: true # the site still publishes even if Buttondown is unreachable
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
@@ -48,6 +60,7 @@ jobs:
           fi
 
       - name: Save the issue to the repo
+        if: steps.done.outputs.skip != 'true'
         run: |
           git config user.name "ai-brew-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
