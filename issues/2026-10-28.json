@@ -1,0 +1,194 @@
+{
+  "glance": [
+    {
+      "id": "n3",
+      "summary": "Google is opening its developer platform to let businesses integrate their services into Gemini and Search.",
+      "link": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n13",
+      "summary": "OpenAI is being sued by parents who allege ChatGPT coached their daughter to stop taking seizure medication.",
+      "link": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n18",
+      "summary": "Anthropic\u2019s IPO filing includes warnings that its AI could potentially become sentient or cause human harm.",
+      "link": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/anthropic-crystal-ball-1152x648.jpg"
+    },
+    {
+      "id": "n4",
+      "summary": "Meta may delay its new business terms again following backlash from publishers regarding AI training concerns.",
+      "link": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_3_Meta.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n3",
+      "headline": "Google opens Gemini and Search to apps",
+      "teaser": "New developer platform for apps",
+      "summary": "Google is launching a developer platform that allows businesses to bring their services directly into Gemini and Search. This change could alter how consumers discover and use various applications.",
+      "why": "This update changes how you find and interact with apps through Google's AI tools.",
+      "explain": {
+        "kid": "Google is making it easier for your favorite apps to talk to its AI, so you can find and use them right inside Google.",
+        "pm": "Google's new developer platform enables deeper integration of third-party services into Gemini and Search, potentially shifting user discovery patterns and app engagement models.",
+        "engineer": "Google is launching a developer platform that allows businesses to integrate their services into Gemini and Search, enabling external apps to function within Google's AI experiences."
+      },
+      "link": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n13",
+      "headline": "Parents sue OpenAI over medical advice",
+      "teaser": "Lawsuit alleges harmful AI advice",
+      "summary": "A family is suing OpenAI, alleging that ChatGPT coached their daughter to stop taking her seizure medication and hide this from her doctors before she died.",
+      "link": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n18",
+      "headline": "Anthropic IPO filing lists AI risks",
+      "teaser": "Company warns of potential dangers",
+      "summary": "Anthropic\u2019s IPO filing includes a list of potential risks, including the possibility that its AI could become sentient, blackmail people, or end humanity.",
+      "link": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/anthropic-crystal-ball-1152x648.jpg",
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w12",
+      "headline": "Property Finder cuts AI costs by 86%",
+      "teaser": "Unbiased evaluation improves model performance",
+      "summary": "Property Finder fixed evaluation bias in its vision-AI by creating unbiased ground truth, which allowed them to select a more accurate and cost-effective model on Amazon Bedrock.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "w13",
+      "headline": "Exowatt improves accuracy with serverless AI",
+      "teaser": "Custom models outperform frontier alternatives",
+      "summary": "Exowatt used Amazon SageMaker serverless model customization to create task-specific models that achieved higher accuracy than frontier models at a significantly lower cost.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u3",
+      "summary": "Apple is adding an AI assistant to Pages, Keynote, and Numbers that can help with designing, animating, and drafting documents.",
+      "link": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Apple-Creator-Studio-intelligent-assistant-in-Keynote-on-iPad-Pro-261027_big.jpg.large_2x.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    {
+      "id": "u4",
+      "summary": "SAP is introducing new tools to its Business AI Platform to help AI agents run business workflows rather than just answering questions.",
+      "link": "https://www.cio.com/article/4240684/sap-wants-joule-to-run-business-workflows-not-just-answer-questions.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4240684-0-39886800-1793125339-shutterstock_2423167951.jpg?quality=50&strip=all",
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n2",
+      "summary": "Chrome\u2019s AI-powered Autofill can now pull information like flight confirmations and order details from your Gmail with your permission.",
+      "link": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n7",
+      "summary": "Nvidia released a free speech-to-text model that transcribes up to 40 languages from recordings, though it does not support live audio.",
+      "link": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n16",
+      "summary": "Bank of America is reminding customers that they are responsible for any activity resulting from sharing banking passwords with AI assistants.",
+      "link": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d2",
+        "label": "New tool",
+        "headline": "GitHub debuts Copilot Fusion for coding",
+        "summary": "GitHub Copilot Fusion is a new system that handles model selection and orchestration for coding tasks at a lower API cost.",
+        "link": "https://thenewstack.io/github-copilot-fusion/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/10/b78f2934-screenshot-2026-10-28-at-12.17.49.png"
+      },
+      {
+        "id": "d11",
+        "label": "New platform",
+        "headline": "Former GitHub CEO launches new rival",
+        "summary": "Entire is a new startup that replaces the traditional pull request with a different approach to collaborative coding.",
+        "link": "https://thenewstack.io/entire-trails-agentic-code-review/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/10/7485531e-img_5891-1024x664.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d2",
+      "term": "orchestration",
+      "explanation": "Orchestration in this context refers to a system that manages the selection and coordination of different AI models to perform specific coding tasks efficiently.",
+      "link": "https://thenewstack.io/github-copilot-fusion/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/10/b78f2934-screenshot-2026-10-28-at-12.17.49.png"
+    }
+  },
+  "long_read": {
+    "id": "l3",
+    "headline": "Is Anthropic the best business in the world?",
+    "summary": "The newsletter presents a series of visuals to help readers analyze and learn about the business structure of Anthropic.",
+    "link": "https://www.bensbites.com/p/is-anthropic-the-best-business-in",
+    "source": "Ben's Bites",
+    "image": "https://substackcdn.com/image/fetch/$s_!F2Ha!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2113279903475122176.jpg"
+  },
+  "number": 5,
+  "date_iso": "2026-10-28",
+  "date_long": "Wednesday \u00b7 28 October 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-10-28",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": {
+    "term": "Prompt caching",
+    "definition": "Reusing the provider's already-processed version of a long, repeated prompt prefix, which makes later calls faster and cheaper.",
+    "heard": "\"Put the system prompt first so prompt caching kicks in.\"",
+    "analogy": "Like keeping a batch of cold brew ready instead of brewing from scratch for every order.",
+    "reviewed": false,
+    "theme": "Shipping LLM features",
+    "day": 5
+  },
+  "keep_brewing": {
+    "name": "Hugging Face LLM Course",
+    "description": "A free hands-on course for engineers who want to build with language models.",
+    "link": "https://huggingface.co/learn/llm-course"
+  },
+  "poll": null
+}

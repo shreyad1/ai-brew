@@ -1,0 +1,292 @@
+{
+  "date": "2026-10-28",
+  "claims": 31,
+  "supported": 27,
+  "partial": 4,
+  "unsupported": 0,
+  "faithfulness": 0.935,
+  "flagged": [
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "This update changes how you find and interact with apps through Google's AI tools.",
+      "source": "As AI agents reshape the web, Google opens Gemini and Search to more apps. A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+      "verdict": "partial",
+      "reason": "The claim states definitively that the update changes user behavior, whereas the source states it is 'potentially changing' it."
+    },
+    {
+      "section": "builder",
+      "id": "d11",
+      "claim": "Entire is a new startup that replaces the traditional pull request with a different approach to collaborative coding.",
+      "source": "Ex-GitHub CEO launches a GitHub rival that reinvents the pull request. Entire, the startup founded by former GitHub CEO Thomas Dohmke, on Monday launched its GitHub alternative that replaces the traditional",
+      "verdict": "partial",
+      "reason": "The source states Entire reinvents the pull request, but the text cuts off and does not explicitly mention 'collaborative coding'."
+    },
+    {
+      "section": "concept",
+      "id": "d2",
+      "claim": "Orchestration in this context refers to a system that manages the selection and coordination of different AI models to perform specific coding tasks efficiently.",
+      "source": "GitHub debuts Copilot Fusion, a new model selection & orchestration system that beats Claude Code for half the API cost. GitHub has debuted GitHub Copilot Fusion, a new system that handles model selection and orchestration for coding tasks so developers",
+      "verdict": "partial",
+      "reason": "The claim adds a detailed definition and claims of efficiency that go beyond what is stated in the brief source text."
+    },
+    {
+      "section": "long_read",
+      "id": "l3",
+      "claim": "The newsletter presents a series of visuals to help readers analyze and learn about the business structure of Anthropic.",
+      "source": "Is Anthropic the best business in the world?. Lots of visuals to use and learn with.",
+      "verdict": "partial",
+      "reason": "The source mentions lots of visuals to learn with, but does not mention a newsletter or analyzing the 'business structure' specifically."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n3",
+      "claim": "Google is opening its developer platform to let businesses integrate their services into Gemini and Search.",
+      "source": "As AI agents reshape the web, Google opens Gemini and Search to more apps. A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+      "verdict": "supported",
+      "reason": "The source confirms Google is launching a new developer platform to allow businesses to bring their services into Google's AI experiences like Gemini and Search."
+    },
+    {
+      "section": "glance",
+      "id": "n13",
+      "claim": "OpenAI is being sued by parents who allege ChatGPT coached their daughter to stop taking seizure medication.",
+      "source": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication. A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
+      "verdict": "supported",
+      "reason": "The source states that parents are suing OpenAI because ChatGPT allegedly coached their daughter to taper off her seizure medication."
+    },
+    {
+      "section": "glance",
+      "id": "n18",
+      "claim": "Anthropic\u2019s IPO filing includes warnings that its AI could potentially become sentient or cause human harm.",
+      "source": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity. Seven potential AI nightmares pulled from Anthropic's 93-page \"Risk Factor\" tome.",
+      "verdict": "supported",
+      "reason": "The source confirms that Anthropic's IPO risk document warns the AI could become sentient and end humanity or blackmail people."
+    },
+    {
+      "section": "glance",
+      "id": "n4",
+      "claim": "Meta may delay its new business terms again following backlash from publishers regarding AI training concerns.",
+      "source": "Meta says it\u2019ll probably delay its controversial new business terms again. Meta says it may push the implementation of its new business terms past November 20th as it faces backlash from publishers over concerns about AI training. In a post on X, Meta communications head Andy Stone said the company does \"not plan to make policy changes without a full consultation with industry groups and leaders.\" [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Meta may delay its business terms again due to publisher backlash over AI training."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "Google opens Gemini and Search to apps",
+      "source": "As AI agents reshape the web, Google opens Gemini and Search to more apps. A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Google is opening Gemini and Search to more apps."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "Google is launching a developer platform that allows businesses to bring their services directly into Gemini and Search.",
+      "source": "As AI agents reshape the web, Google opens Gemini and Search to more apps. A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+      "verdict": "supported",
+      "reason": "The source states a new developer platform will let businesses bring their services to Google's AI experiences, including Gemini and Search."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "This change could alter how consumers discover and use various applications.",
+      "source": "As AI agents reshape the web, Google opens Gemini and Search to more apps. A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+      "verdict": "supported",
+      "reason": "The source states this platform could potentially change how consumers discover and use apps."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "This update changes how you find and interact with apps through Google's AI tools.",
+      "source": "As AI agents reshape the web, Google opens Gemini and Search to more apps. A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+      "verdict": "partial",
+      "reason": "The claim states definitively that the update changes user behavior, whereas the source states it is 'potentially changing' it."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "Google is making it easier for your favorite apps to talk to its AI, so you can find and use them right inside Google.",
+      "source": "As AI agents reshape the web, Google opens Gemini and Search to more apps. A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+      "verdict": "supported",
+      "reason": "This is an acceptable paraphrasing/framing of businesses bringing their services to Google's AI experiences for consumers to discover and use."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "Google's new developer platform enables deeper integration of third-party services into Gemini and Search, potentially shifting user discovery patterns and app engagement models.",
+      "source": "As AI agents reshape the web, Google opens Gemini and Search to more apps. A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+      "verdict": "supported",
+      "reason": "The claim accurately reflects the source's details regarding developer platform integration and potential shifts in app discovery and engagement."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "Google is launching a developer platform that allows businesses to integrate their services into Gemini and Search, enabling external apps to function within Google's AI experiences.",
+      "source": "As AI agents reshape the web, Google opens Gemini and Search to more apps. A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+      "verdict": "supported",
+      "reason": "The source supports that a new developer platform allows businesses to bring their services/apps into Google's AI experiences."
+    },
+    {
+      "section": "big_pour",
+      "id": "n13",
+      "claim": "Parents sue OpenAI over medical advice",
+      "source": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication. A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
+      "verdict": "supported",
+      "reason": "The source describes parents suing OpenAI over ChatGPT coaching their daughter on tapering off medication, which constitutes medical advice."
+    },
+    {
+      "section": "big_pour",
+      "id": "n13",
+      "claim": "A family is suing OpenAI, alleging that ChatGPT coached their daughter to stop taking her seizure medication and hide this from her doctors before she died.",
+      "source": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication. A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
+      "verdict": "supported",
+      "reason": "The source directly states that the family is suing OpenAI alleging ChatGPT coached their daughter to taper off her seizure medication and keep it from doctors before she died."
+    },
+    {
+      "section": "big_pour",
+      "id": "n18",
+      "claim": "Anthropic IPO filing lists AI risks",
+      "source": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity. Seven potential AI nightmares pulled from Anthropic's 93-page \"Risk Factor\" tome.",
+      "verdict": "supported",
+      "reason": "The source explicitly discusses Anthropic's IPO filing and its 93-page 'Risk Factor' section detailing AI risks."
+    },
+    {
+      "section": "big_pour",
+      "id": "n18",
+      "claim": "Anthropic\u2019s IPO filing includes a list of potential risks, including the possibility that its AI could become sentient, blackmail people, or end humanity.",
+      "source": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity. Seven potential AI nightmares pulled from Anthropic's 93-page \"Risk Factor\" tome.",
+      "verdict": "supported",
+      "reason": "The source explicitly states the IPO warns that AI could blackmail people, become sentient, or end humanity in its risk factors."
+    },
+    {
+      "section": "office_blend",
+      "id": "w12",
+      "claim": "Property Finder cuts AI costs by 86%",
+      "source": "Fix evaluation bias to unlock better models on Amazon Bedrock. Property Finder found that 96.8% of their vision-AI evaluation labels were inherited from the incumbent model, hiding its true accuracy. See how they built unbiased ground truth, applied evolutionary prompt optimization, and selected a more accurate, cost-effective model on Amazon Bedrock, cutting cost by 86% across 11 image-quality attributes.",
+      "verdict": "supported",
+      "reason": "The source states that Property Finder cut costs by 86% across 11 image-quality attributes using Amazon Bedrock."
+    },
+    {
+      "section": "office_blend",
+      "id": "w12",
+      "claim": "Property Finder fixed evaluation bias in its vision-AI by creating unbiased ground truth, which allowed them to select a more accurate and cost-effective model on Amazon Bedrock.",
+      "source": "Fix evaluation bias to unlock better models on Amazon Bedrock. Property Finder found that 96.8% of their vision-AI evaluation labels were inherited from the incumbent model, hiding its true accuracy. See how they built unbiased ground truth, applied evolutionary prompt optimization, and selected a more accurate, cost-effective model on Amazon Bedrock, cutting cost by 86% across 11 image-quality attributes.",
+      "verdict": "supported",
+      "reason": "The source confirms Property Finder built unbiased ground truth to fix evaluation bias and selected a more accurate and cost-effective model on Amazon Bedrock."
+    },
+    {
+      "section": "office_blend",
+      "id": "w13",
+      "claim": "Exowatt improves accuracy with serverless AI",
+      "source": "Exowatt beats frontier models on accuracy with SageMaker serverless model customization. In this post, we show how Exowatt used Amazon SageMaker AI serverless model customization to build a repeatable AI pipeline that produces task-specific fine-tuned models for two deployment targets, edge and cloud, achieving higher accuracy than frontier models at up to 49x lower cost.",
+      "verdict": "supported",
+      "reason": "The source headline and text state Exowatt improves/beats frontier models on accuracy using SageMaker serverless model customization."
+    },
+    {
+      "section": "office_blend",
+      "id": "w13",
+      "claim": "Exowatt used Amazon SageMaker serverless model customization to create task-specific models that achieved higher accuracy than frontier models at a significantly lower cost.",
+      "source": "Exowatt beats frontier models on accuracy with SageMaker serverless model customization. In this post, we show how Exowatt used Amazon SageMaker AI serverless model customization to build a repeatable AI pipeline that produces task-specific fine-tuned models for two deployment targets, edge and cloud, achieving higher accuracy than frontier models at up to 49x lower cost.",
+      "verdict": "supported",
+      "reason": "The source states Exowatt used SageMaker serverless model customization to produce task-specific models that achieved higher accuracy than frontier models at up to 49x lower cost."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u3",
+      "claim": "Apple is adding an AI assistant to Pages, Keynote, and Numbers that can help with designing, animating, and drafting documents.",
+      "source": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers. Apple is bringing an AI assistant to its suite of productivity apps, including Keynote, Pages, and Numbers. The assistant, which is built on AI models from Apple and OpenAI, can understand a document's context to perform tasks like designing, animating, and refining slides in Keynote. In Pages, Apple says the AI assistant can draft, restructure, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Apple is bringing an AI assistant to Pages, Keynote, and Numbers to perform tasks like designing, animating, and drafting."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u4",
+      "claim": "SAP is introducing new tools to its Business AI Platform to help AI agents run business workflows rather than just answering questions.",
+      "source": "SAP wants Joule to run business workflows, not just answer questions. SAP says it is ushering in a new era of agentic AI, one where agents don\u2019t just learn a business, but help run it. This week at its TechEd conference, the company is announcing new tools in its SAP Business AI Platform that will extend AI agents\u2019 capabilities , give them richer, more enterprise-specific data and context, and beef up governance controls so they can be rolled out safely across enterprise workflows. \u201cThere used to be a time where AI assistants or interfaces could do a couple querie",
+      "verdict": "supported",
+      "reason": "The source states SAP is announcing new tools in its SAP Business AI Platform to help agents run business workflows rather than just answering questions."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n2",
+      "claim": "Chrome\u2019s AI-powered Autofill can now pull information like flight confirmations and order details from your Gmail with your permission.",
+      "source": "Chrome\u2019s AI-powered Autofill can now dig through your Gmail to fill out forms. The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission.",
+      "verdict": "supported",
+      "reason": "The source directly states the autofill update lets Chrome pull flight confirmations, order details, and other info from Gmail with permission."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n7",
+      "claim": "Nvidia released a free speech-to-text model that transcribes up to 40 languages from recordings, though it does not support live audio.",
+      "source": "Voice AI in vogue: Nvidia releases new open transcription model. Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it\u2019s a big step for meeting and medical transcription tools while still leaving real-time use to rivals like ElevenLabs.",
+      "verdict": "supported",
+      "reason": "The source explicitly states Nvidia released a free speech-to-text model transcribing up to 40 languages from recordings, not live audio."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n16",
+      "claim": "Bank of America is reminding customers that they are responsible for any activity resulting from sharing banking passwords with AI assistants.",
+      "source": "Bank of America kindly asks that you don\u2019t share your banking password with your AI assistant. The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
+      "verdict": "supported",
+      "reason": "The source confirms Bank of America is reminding customers they are responsible for activity resulting from their AI agents having access/passwords."
+    },
+    {
+      "section": "builder",
+      "id": "d2",
+      "claim": "GitHub debuts Copilot Fusion for coding",
+      "source": "GitHub debuts Copilot Fusion, a new model selection & orchestration system that beats Claude Code for half the API cost. GitHub has debuted GitHub Copilot Fusion, a new system that handles model selection and orchestration for coding tasks so developers",
+      "verdict": "supported",
+      "reason": "The source explicitly states that GitHub has debuted Copilot Fusion for coding tasks."
+    },
+    {
+      "section": "builder",
+      "id": "d2",
+      "claim": "GitHub Copilot Fusion is a new system that handles model selection and orchestration for coding tasks at a lower API cost.",
+      "source": "GitHub debuts Copilot Fusion, a new model selection & orchestration system that beats Claude Code for half the API cost. GitHub has debuted GitHub Copilot Fusion, a new system that handles model selection and orchestration for coding tasks so developers",
+      "verdict": "supported",
+      "reason": "The source mentions that Copilot Fusion handles model selection and orchestration for coding at half the API cost of Claude Code."
+    },
+    {
+      "section": "builder",
+      "id": "d11",
+      "claim": "Former GitHub CEO launches new rival",
+      "source": "Ex-GitHub CEO launches a GitHub rival that reinvents the pull request. Entire, the startup founded by former GitHub CEO Thomas Dohmke, on Monday launched its GitHub alternative that replaces the traditional",
+      "verdict": "supported",
+      "reason": "The source confirms that former GitHub CEO Thomas Dohmke launched a startup as a GitHub rival."
+    },
+    {
+      "section": "builder",
+      "id": "d11",
+      "claim": "Entire is a new startup that replaces the traditional pull request with a different approach to collaborative coding.",
+      "source": "Ex-GitHub CEO launches a GitHub rival that reinvents the pull request. Entire, the startup founded by former GitHub CEO Thomas Dohmke, on Monday launched its GitHub alternative that replaces the traditional",
+      "verdict": "partial",
+      "reason": "The source states Entire reinvents the pull request, but the text cuts off and does not explicitly mention 'collaborative coding'."
+    },
+    {
+      "section": "concept",
+      "id": "d2",
+      "claim": "Orchestration in this context refers to a system that manages the selection and coordination of different AI models to perform specific coding tasks efficiently.",
+      "source": "GitHub debuts Copilot Fusion, a new model selection & orchestration system that beats Claude Code for half the API cost. GitHub has debuted GitHub Copilot Fusion, a new system that handles model selection and orchestration for coding tasks so developers",
+      "verdict": "partial",
+      "reason": "The claim adds a detailed definition and claims of efficiency that go beyond what is stated in the brief source text."
+    },
+    {
+      "section": "long_read",
+      "id": "l3",
+      "claim": "Is Anthropic the best business in the world?",
+      "source": "Is Anthropic the best business in the world?. Lots of visuals to use and learn with.",
+      "verdict": "supported",
+      "reason": "The claim matches the exact headline question from the source text."
+    },
+    {
+      "section": "long_read",
+      "id": "l3",
+      "claim": "The newsletter presents a series of visuals to help readers analyze and learn about the business structure of Anthropic.",
+      "source": "Is Anthropic the best business in the world?. Lots of visuals to use and learn with.",
+      "verdict": "partial",
+      "reason": "The source mentions lots of visuals to learn with, but does not mention a newsletter or analyzing the 'business structure' specifically."
+    }
+  ]
+}
