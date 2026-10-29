@@ -1,0 +1,194 @@
+{
+  "glance": [
+    {
+      "id": "n3",
+      "summary": "Google reports negative cash flow and plans to increase ads to offset AI search costs.",
+      "link": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-1152x648.jpg"
+    },
+    {
+      "id": "n5",
+      "summary": "Microsoft is offering voluntary buyouts to 60,000 employees as AI changes its workforce needs.",
+      "link": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25832912/STK095_MICROSOFT_2_CVirginia_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n8",
+      "summary": "Mistral released a trillion-parameter AI model designed to help organizations improve their cybersecurity defenses.",
+      "link": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n4",
+      "summary": "Dream raised $17 million to build AI world models for the construction industry using building data.",
+      "link": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n5",
+      "headline": "Microsoft offers buyouts as AI changes jobs",
+      "teaser": "Buyouts for 60,000 employees",
+      "summary": "Microsoft is offering voluntary buyouts to approximately 60,000 employees across the US, UK, and Canada. This move follows signals that AI is fundamentally changing the size of the company's workforce.",
+      "why": "It shows how AI adoption is leading to significant shifts in employment at major tech companies.",
+      "explain": {
+        "kid": "Microsoft is paying some workers to leave their jobs because they are using AI to do work instead.",
+        "pm": "Microsoft is rightsizing its workforce through voluntary buyouts, signaling a strategic shift in headcount requirements driven by AI integration.",
+        "engineer": "Microsoft is offering voluntary buyouts to around 60,000 employees across the US, UK, and Canada. This is the clearest sign yet that AI is about to fundamentally change the size of Microsoft's workforce, aligning with what CEO Satya Nadella has been saying over the past couple of years."
+      },
+      "link": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25832912/STK095_MICROSOFT_2_CVirginia_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n3",
+      "headline": "Google adds more ads to fix AI costs",
+      "teaser": "AI search costs impact earnings",
+      "summary": "Google reported negative cash flow of -$9.06 billion and a stock price drop following its third-quarter earnings. The company plans to increase advertising to offset the costs of its AI search features.",
+      "link": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-1152x648.jpg",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n8",
+      "headline": "Mistral releases massive new cybersecurity model",
+      "teaser": "Trillion-parameter model for cyber defense",
+      "summary": "Mistral has released weights for a trillion-parameter AI model. The company claims this model provides organizations with more control over their cyber defenses than closed models.",
+      "link": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w2",
+      "headline": "MoEngage turns APIs into agent tools",
+      "teaser": "Scaling APIs with AgentCore",
+      "summary": "MoEngage used Amazon Bedrock AgentCore Gateway to turn 400 private APIs into permission-scoped agent tools, avoiding the need for public endpoints or extra servers.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "w6",
+      "headline": "Cadence uses AI agents for chip design",
+      "teaser": "AI agents optimize chip workflows",
+      "summary": "Cadence Design Systems is integrating AI agents into chip design workflows with its new Maestro AI Model Portfolio, which helps engineers optimize chip architectures.",
+      "link": "https://www.cio.com/article/4241825/cadence-maestro-puts-domain-trained-ai-agents-to-work-for-chip-design.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4241825-0-85736100-1793268214-cadence-ceo-anirudh-devgan.jpg?quality=50&strip=all"
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u2",
+      "summary": "DeepMind is preparing to release Genie 4, a world model that promises more realistic physics and human movement.",
+      "link": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/vlcsnap-2026-10-27-10h06m52s461-1152x648.png",
+      "date_mentioned": null
+    },
+    {
+      "id": "u3",
+      "summary": "SAP is developing new tools for its Business AI Platform to help AI agents run business workflows rather than just answering questions.",
+      "link": "https://www.cio.com/article/4240684/sap-wants-joule-to-run-business-workflows-not-just-answer-questions.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4240684-0-39886800-1793125339-shutterstock_2423167951.jpg?quality=50&strip=all",
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n1",
+      "summary": "Granola is adding a dictation feature to its meeting notetaker to compete with Wispr.",
+      "link": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n6",
+      "summary": "The New York Times Cooking app is testing an AI feature that allows users to modify recipes and ingredient substitutions.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/NYT-Cooking-AI-recipe-modification-feature-hero.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n12",
+      "summary": "Amazon updated Alexa to allow users to manage shopping lists, subscriptions, and delivery instructions.",
+      "link": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d5",
+        "label": "New tool",
+        "headline": "GitHub debuts Copilot Fusion for coding tasks",
+        "summary": "GitHub Copilot Fusion is a new orchestration system that handles model selection for coding tasks, aiming to beat Claude Code at half the API cost.",
+        "link": "https://thenewstack.io/github-copilot-fusion/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/10/b78f2934-screenshot-2026-10-28-at-12.17.49.png"
+      },
+      {
+        "id": "d7",
+        "label": "New model",
+        "headline": "Nvidia launches promptable transcription model",
+        "summary": "Nvidia released Nemotron 3.5 Transcribe, a new open-weight multilingual model designed for transcription tasks.",
+        "link": "https://thenewstack.io/nvidia-nemotron-promptable-transcription/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/10/3f644518-img_5875-edit-1024x768.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d5",
+      "term": "Orchestration",
+      "explanation": "In the context of GitHub Copilot Fusion, orchestration refers to a system that manages the selection and coordination of different AI models to perform specific coding tasks efficiently.",
+      "link": "https://thenewstack.io/github-copilot-fusion/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/10/b78f2934-screenshot-2026-10-28-at-12.17.49.png"
+    }
+  },
+  "long_read": {
+    "id": "l1",
+    "headline": "AI is overwhelming and I\u2019m doing it wrong",
+    "summary": "The newsletter reflects on the feeling of being overwhelmed by the current state of AI and questions the current approach to managing it.",
+    "link": "https://www.bensbites.com/p/ai-is-overwhelming-and-im-doing-it",
+    "source": "Ben's Bites",
+    "image": "https://substackcdn.com/image/fetch/$s_!AM0R!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2115535996909490176.jpg"
+  },
+  "number": 6,
+  "date_iso": "2026-10-29",
+  "date_long": "Thursday \u00b7 29 October 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-10-29",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": {
+    "term": "Tool calling",
+    "definition": "A model's ability to request that your code run a named function with structured arguments, then use the result in its answer. Also called function calling.",
+    "heard": "\"The model should call the search tool instead of answering from memory.\"",
+    "analogy": "Like a barista who can ring the kitchen for a pastry instead of pretending to bake it.",
+    "reviewed": false,
+    "theme": "Agents",
+    "day": 1
+  },
+  "keep_brewing": {
+    "name": "Simon Willison's blog",
+    "description": "Practical, hype-free notes on new AI tools from a respected engineer.",
+    "link": "https://simonwillison.net/"
+  },
+  "poll": null
+}
