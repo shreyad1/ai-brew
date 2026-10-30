@@ -1,0 +1,193 @@
+{
+  "glance": [
+    {
+      "id": "n15",
+      "headline": "AWS will be a $1T business",
+      "teaser": "Amazon capex spending spree",
+      "summary": "Amazon wants to be the king of AI cloud computing and reach $1 trillion in revenue. To do that, it must continue its capex spending spree, its CEO Jassy said Thursday.",
+      "why": "Amazon is spending heavily to become the king of AI cloud computing and reach $1 trillion in revenue.",
+      "explain": {
+        "kid": "Amazon wants to make a trillion dollars in revenue. To do that, it has to spend lots of money on AI cloud computing.",
+        "pm": "Amazon aims to reach $1 trillion in revenue and lead AI cloud computing by continuing its capex spending spree.",
+        "engineer": "Amazon must continue its capex spending spree to dominate AI cloud computing and become a $1 trillion revenue business."
+      },
+      "link": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n3",
+      "headline": "DOJ cracks down on AI \u201cghost student\u201d fraud",
+      "teaser": "AI student loan fraud crackdown",
+      "summary": "DOJ says thousands of \u201cghost students\u201d use AI to steal millions in student loans. Applying for FAFSA may get messy as the DOJ crackdown ramps up.",
+      "link": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1425343562-1152x648.jpg",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n18",
+      "summary": "Thrive Holdings is buying ADT to integrate AI into home security systems.",
+      "link": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n21",
+      "summary": "Google Gemini now allows users to generate and edit various file types directly in chats.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK255_Google_Gemini_B_474198.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n15",
+      "headline": "AWS will be a $1T business",
+      "teaser": "Amazon capex spending spree",
+      "summary": "Amazon wants to be the king of AI cloud computing and reach $1 trillion in revenue. To do that, it must continue its capex spending spree, its CEO Jassy said Thursday.",
+      "why": "Amazon is spending heavily to become the king of AI cloud computing and reach $1 trillion in revenue.",
+      "explain": {
+        "kid": "Amazon wants to make a trillion dollars in revenue. To do that, it has to spend lots of money on AI cloud computing.",
+        "pm": "Amazon aims to reach $1 trillion in revenue and lead AI cloud computing by continuing its capex spending spree.",
+        "engineer": "Amazon must continue its capex spending spree to dominate AI cloud computing and become a $1 trillion revenue business."
+      },
+      "link": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n3",
+      "headline": "DOJ cracks down on AI \u201cghost student\u201d fraud",
+      "teaser": "AI student loan fraud crackdown",
+      "summary": "DOJ says thousands of \u201cghost students\u201d use AI to steal millions in student loans. Applying for FAFSA may get messy as the DOJ crackdown ramps up.",
+      "link": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1425343562-1152x648.jpg",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n18",
+      "headline": "Thrive Holdings acquires ADT for AI security",
+      "teaser": "AI coming to home security",
+      "summary": "OpenAI-backed Thrive Holdings is purchasing ADT in a deal worth 15.3 billion dollars. The company plans to bring AI technology into the home security business.",
+      "link": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w3",
+      "headline": "Worldwide Express automates freight billing",
+      "teaser": "Freight billing automated with AI",
+      "summary": "Worldwide Express used Amazon Bedrock to build a multi-agent system for freight billing. The company cut active exceptions by 75% and improved cash flow by 10 million dollars.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "w15",
+      "headline": "MoEngage turns APIs into agent tools",
+      "summary": "MoEngage converted 400 private APIs into secure agent tools using Amazon Bedrock AgentCore Gateway. This approach avoids public endpoints and reduces technical complexity.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u5",
+      "summary": "DeepMind is preparing to release Genie 4, a world model that features more realistic physics and human movement.",
+      "link": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/vlcsnap-2026-10-27-10h06m52s461-1152x648.png",
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n1",
+      "summary": "Fujifilm is increasing magnetic tape production fivefold to meet rising demand for offline AI data archiving.",
+      "link": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg"
+    },
+    {
+      "id": "n19",
+      "summary": "Meta launched Style Sketch, an AI fashion app that creates a virtual closet from Instagram photos.",
+      "link": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n22",
+      "summary": "Granola added a dictation feature to its meeting notetaker to compete with other voice AI apps.",
+      "link": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d8",
+        "label": "New orchestration system",
+        "headline": "GitHub debuts Copilot Fusion for coding",
+        "summary": "GitHub released Copilot Fusion, a system that manages model selection and orchestration for coding tasks to reduce API costs.",
+        "link": "https://thenewstack.io/github-copilot-fusion/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/10/b78f2934-screenshot-2026-10-28-at-12.17.49.png"
+      },
+      {
+        "id": "d12",
+        "label": "Agentic workflows",
+        "headline": "Replit CEO eyes new organizational structures",
+        "summary": "Replit CEO Amjad Masad suggests that AI agents performing routine execution could eventually make traditional organizational charts obsolete.",
+        "link": "https://thenewstack.io/replit-self-driving-company/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/10/8ccdb4f6-getty-images-249nw4uky0k-unsplash-1024x627.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d8",
+      "term": "orchestration",
+      "explanation": "Orchestration refers to a system that handles model selection and task management. In the case of GitHub Copilot Fusion, it automates the process of choosing the right model for specific coding tasks.",
+      "link": "https://thenewstack.io/github-copilot-fusion/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/10/b78f2934-screenshot-2026-10-28-at-12.17.49.png"
+    }
+  },
+  "long_read": {
+    "id": "l4",
+    "headline": "AI is overwhelming and I\u2019m doing it wrong",
+    "summary": "This newsletter reflects on the feeling of being overwhelmed by the rapid pace of AI development and questions the current approach to keeping up.",
+    "link": "https://www.bensbites.com/p/ai-is-overwhelming-and-im-doing-it",
+    "source": "Ben's Bites",
+    "image": "https://substackcdn.com/image/fetch/$s_!AM0R!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2115535996909490176.jpg"
+  },
+  "number": 7,
+  "date_iso": "2026-10-30",
+  "date_long": "Friday \u00b7 30 October 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-10-30",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": {
+    "term": "MCP",
+    "definition": "Model Context Protocol, an open standard for connecting AI apps to tools and data sources, so one integration works across many AI clients.",
+    "heard": "\"Expose it as an MCP server and every team's assistant can use it.\"",
+    "analogy": "Like a standard cup size every coffee machine accepts.",
+    "reviewed": false,
+    "theme": "Agents",
+    "day": 2
+  },
+  "keep_brewing": null,
+  "poll": null
+}

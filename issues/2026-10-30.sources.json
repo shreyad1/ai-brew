@@ -1,0 +1,954 @@
+{
+  "generated_at": "2026-10-30T12:44:43.668671-05:00",
+  "warnings": [
+    "Word of the Day 'MCP' is not marked reviewed in learning_path.yaml"
+  ],
+  "failed_feeds": [
+    "Import AI: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+  ],
+  "sources": {
+    "n1": {
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "link": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "source": "Ars Technica",
+      "published": "2026-10-30T17:38:19+00:00",
+      "summary": "Low costs and offline security mean magnetic tape still has a job.",
+      "categories": [
+        "AI",
+        "Tech",
+        "Fujifilm",
+        "Kanagawa",
+        "LTO",
+        "Magnetic tape storage"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg"
+    },
+    "n2": {
+      "title": "Google\u2019s first data center satellite is online and writing poetry",
+      "link": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "source": "TechCrunch",
+      "published": "2026-10-30T17:00:00+00:00",
+      "summary": "The first TPU in space is a running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
+      "categories": [
+        "AI",
+        "Space"
+      ],
+      "image": null
+    },
+    "n3": {
+      "title": "Thousands of \u201cghost students\u201d use AI to steal millions in student loans, DOJ says",
+      "link": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
+      "source": "Ars Technica",
+      "published": "2026-10-30T16:53:49+00:00",
+      "summary": "Applying for FAFSA may get messy as DOJ \u201cghost student\u201d crackdown ramps up.",
+      "categories": [
+        "AI",
+        "Policy",
+        "AI fraud",
+        "department of education",
+        "DoJ",
+        "higher ed",
+        "higher education"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1425343562-1152x648.jpg"
+    },
+    "n4": {
+      "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is \u2018a great opportunity to go deceive people\u2019",
+      "link": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
+      "source": "TechCrunch",
+      "published": "2026-10-30T16:03:45+00:00",
+      "summary": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
+      "categories": [
+        "AI",
+        "elizabeth holmes",
+        "Theranos"
+      ],
+      "image": null
+    },
+    "n5": {
+      "title": "Pope Leo calls for the disarmament of AI: \u2018Machines are tools, not persons\u2019",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+      "source": "The Verge",
+      "published": "2026-10-30T14:58:06+00:00",
+      "summary": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\" during their meeting in Geneva next month. The address reflects many [\u2026]",
+      "categories": [
+        "AI",
+        "News",
+        "Policy"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2226124908.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n6": {
+      "title": "Skip the small talk: Make game-changing connections at TechCrunch Founder Summit with Braindate",
+      "link": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/",
+      "source": "TechCrunch",
+      "published": "2026-10-30T14:00:00+00:00",
+      "summary": "At TechCrunch Founder Summit 2026, happening November 4 at SoWa Power Station in Boston, networking powered by Braindate is designed to make those conversations easier to find, whether they are in 1:1 or small-group on-site meetings. Register before the event starts to save up to $100 on your pass, plus get a second for free.",
+      "categories": [
+        "TC",
+        "Startups",
+        "Crypto",
+        "Climate",
+        "Fintech",
+        "Biotech & Health",
+        "Venture",
+        "Media & Entertainment",
+        "AI",
+        "Robotics",
+        "Fundraising",
+        "TechCrunch Founder Summit 2026"
+      ],
+      "image": null
+    },
+    "n7": {
+      "title": "DoorDash said it\u2019s only received \u2018several hundred\u2019 orders from AI agents",
+      "link": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+      "source": "TechCrunch",
+      "published": "2026-10-30T13:54:25+00:00",
+      "summary": "DoorDash said that it is open to working with third-party agent makers.",
+      "categories": [
+        "AI",
+        "Commerce",
+        "AI agents",
+        "DoorDash",
+        "muse"
+      ],
+      "image": null
+    },
+    "n8": {
+      "title": "Silicon Valley wants you to invest in miracles",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+      "source": "The Verge",
+      "published": "2026-10-30T13:11:05+00:00",
+      "summary": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring forth an age of miracles\"? To some extent, [\u2026]",
+      "categories": [
+        "AI",
+        "Analysis",
+        "Anthropic",
+        "Business",
+        "Report"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Anthropic_miracles_K_Radtke_b5ca50.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n9": {
+      "title": "Sam Altman sympathizes with mathematicians, but says OpenAI\u2019s math onslaught won\u2019t stop",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+      "source": "The Verge",
+      "published": "2026-10-30T13:01:14+00:00",
+      "summary": "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the company's stockpile of discoveries. \"I think, on net, [\u2026]",
+      "categories": [
+        "AI",
+        "News",
+        "OpenAI",
+        "Science"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Vrg_illo_Sam_Altman_stock_trial.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n10": {
+      "title": "5 days left: Your last chance to connect, scale, and save at TechCrunch Founder Summit 2026",
+      "link": "https://techcrunch.com/2026/10/30/5-days-left-your-last-chance-to-connect-scale-and-save-at-techcrunch-founder-summit-2026/",
+      "source": "TechCrunch",
+      "published": "2026-10-30T13:00:00+00:00",
+      "summary": "5 days to save up to $100, plus a second pass for free to TechCrunch Founder Summit 2026 in Boston on November 4. Register now.",
+      "categories": [
+        "TC",
+        "Startups",
+        "Fintech",
+        "Biotech & Health",
+        "Venture",
+        "AI",
+        "Fundraising",
+        "TechCrunch Founder Summit 2026"
+      ],
+      "image": null
+    },
+    "n11": {
+      "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+      "link": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+      "source": "TechCrunch",
+      "published": "2026-10-30T13:00:00+00:00",
+      "summary": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
+      "categories": [
+        "AI",
+        "Startups",
+        "data centers",
+        "Runware"
+      ],
+      "image": null
+    },
+    "n12": {
+      "title": "Maine\u2019s data center revolt will decide who controls the Senate",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+      "source": "The Verge",
+      "published": "2026-10-30T11:00:00+00:00",
+      "summary": "Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short. \"I'm terrified,\" a man shouted. \"AI data centers are destroying our climate. They are poisoning our water.\" Collins brushed off the outburst, tying the man to her Democratic challenger, [\u2026]",
+      "categories": [
+        "AI",
+        "Policy",
+        "Politics",
+        "Report",
+        "Science"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268813_MAINE_DATA_CENTERS_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n13": {
+      "title": "Wikipedia\u2019s operator says a bad AI copyright ruling could threaten the open web",
+      "link": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "source": "The Verge",
+      "published": "2026-10-30T09:00:00+00:00",
+      "summary": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, it says, could either deprive Wikipedians of useful AI-based tools or endanger [\u2026]",
+      "categories": [
+        "AI",
+        "Copyright",
+        "Law",
+        "Microsoft",
+        "OpenAI",
+        "Policy",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK037_WIKIPEDIA_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n14": {
+      "title": "You don\u2019t need to believe in a god to get a religious exemption from using AI at work",
+      "link": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "source": "TechCrunch",
+      "published": "2026-10-30T01:20:48+00:00",
+      "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+      "categories": [
+        "AI"
+      ],
+      "image": null
+    },
+    "n15": {
+      "title": "AWS will be a $1T business, Jassy says \u2014 but first, it will spend big",
+      "link": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "source": "TechCrunch",
+      "published": "2026-10-29T23:42:22+00:00",
+      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+      "categories": [
+        "AI",
+        "Enterprise",
+        "Amazon",
+        "AWS"
+      ],
+      "image": null
+    },
+    "n16": {
+      "title": "As search traffic dries up, Reddit announces it\u2019s shifting to a logged-in experience",
+      "link": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+      "source": "TechCrunch",
+      "published": "2026-10-29T20:08:31+00:00",
+      "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+      "categories": [
+        "AI",
+        "Apps",
+        "Media & Entertainment",
+        "Social",
+        "Reddit",
+        "Search"
+      ],
+      "image": null
+    },
+    "n17": {
+      "title": "Rivian expands joint venture with VW to include AI assistant",
+      "link": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+      "source": "TechCrunch",
+      "published": "2026-10-29T20:05:47+00:00",
+      "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
+      "categories": [
+        "AI",
+        "Transportation",
+        "Rivian",
+        "Volkswagen Group"
+      ],
+      "image": null
+    },
+    "n18": {
+      "title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "link": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "source": "TechCrunch",
+      "published": "2026-10-29T19:56:19+00:00",
+      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
+      "categories": [
+        "AI",
+        "Venture",
+        "ADT",
+        "In Brief",
+        "M&A",
+        "thrive holdings"
+      ],
+      "image": null
+    },
+    "n19": {
+      "title": "Meta quietly launches an AI fashion app called Style Sketch",
+      "link": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "source": "TechCrunch",
+      "published": "2026-10-29T19:14:36+00:00",
+      "summary": "The app connects to Instagram to build a virtual closet from photos you\u2019ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
+      "categories": [
+        "AI",
+        "Apps",
+        "Meta"
+      ],
+      "image": null
+    },
+    "n20": {
+      "title": "Trump declares robot imports a national security threat",
+      "link": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/",
+      "source": "Ars Technica",
+      "published": "2026-10-29T19:07:53+00:00",
+      "summary": "President orders trade talks on foreign-made factory robots, threatens tariffs.",
+      "categories": [
+        "AI",
+        "Tech",
+        "imports",
+        "Industrial robots",
+        "physical AI",
+        "Robotics",
+        "robots",
+        "trump tariffs",
+        "US manufacturing"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/6k_quick_delivery_robots-1152x648.jpg"
+    },
+    "n21": {
+      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+      "source": "The Verge",
+      "published": "2026-10-29T18:45:31+00:00",
+      "summary": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in [\u2026]",
+      "categories": [
+        "AI",
+        "Google",
+        "News",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK255_Google_Gemini_B_474198.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n22": {
+      "title": "Granola crunches up a dictation feature to compete with Wispr",
+      "link": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+      "source": "TechCrunch",
+      "published": "2026-10-29T17:54:38+00:00",
+      "summary": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
+      "categories": [
+        "AI",
+        "Apps",
+        "ai dictation",
+        "granola",
+        "In Brief",
+        "Wispr flow"
+      ],
+      "image": null
+    },
+    "w1": {
+      "title": "Why CIOs must prepare for hybrid quantum computing",
+      "link": "https://www.cio.com/article/4242872/why-cios-must-prepare-for-hybrid-quantum-computing.html",
+      "source": "CIO.com",
+      "published": "2026-10-30T17:38:58+00:00",
+      "summary": "For IT leaders mapping out the next five to ten years of computational strategy, the true business value of quantum will not be unlocked by independent quantum processors operating in a vacuum. Instead, the future lies in the seamless orchestration of hybrid cyberinfrastructure\u2014where quantum processing units (QPUs), graphics processing units (GPUs), and classical high-performance computing (HPC) environments operate in tandem. This paradigm shift is exactly what is driving the latest strategic i",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4242872-0-92852300-1793381956-shutterstock_2615909529.jpg?quality=50&strip=all"
+    },
+    "w2": {
+      "title": "The new geopolitics of IT: Why sovereign AI is the next boardroom mandate",
+      "link": "https://www.cio.com/article/4242869/the-new-geopolitics-of-it-why-sovereign-ai-is-the-next-boardroom-mandate.html",
+      "source": "CIO.com",
+      "published": "2026-10-30T17:34:32+00:00",
+      "summary": "Artificial intelligence has transitioned into a major instrument of corporate strategy and national competitiveness. Driven by a post-pandemic push for digital independence, escalating national security concerns, and multi-billion-dollar government subsidies globally, organizations are rewriting their infrastructure playbooks. For CIOs and enterprise technology leaders, this \u201cde-globalization\u201d of IT is not just an abstract political trend. It is an immediate operational reality that directly dic",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4242869-0-28192500-1793381690-shutterstock_2724717273_bd155b.jpg?quality=50&strip=all"
+    },
+    "w3": {
+      "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-30T17:32:20+00:00",
+      "summary": "Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash flow.",
+      "categories": [
+        "Amazon Bedrock",
+        "Customer Solutions"
+      ],
+      "image": null
+    },
+    "w4": {
+      "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-30T17:27:45+00:00",
+      "summary": "The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US). This post walks through a controlled local deployment that routes model inference to Amazon Bedrock in AWS GovCloud (US-West) using API-mode sign-in, a managed device policy, a named AWS profile, and network restrictions, so a security team can validate it before broader use.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock",
+        "AWS GovCloud (US)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w5": {
+      "title": "How CIOs can overcome the AI trust gap",
+      "link": "https://www.cio.com/article/4242239/how-cios-can-overcome-the-ai-trust-gap.html",
+      "source": "CIO.com",
+      "published": "2026-10-30T10:01:00+00:00",
+      "summary": "If you\u2019re like most CIOs, your CEO\u2019s viewpoint of and strategic outlook for AI has likely shifted several times over the past two-plus short years, perhaps even in contradictory ways. Initial doubts or disregard may have given way to full-out FOMO . Demands for copilots everywhere in everyone\u2019s hands may have experienced pullback as the bills and questions of value mounted . Rampant experimentation turned to targeted use cases. Pressure for widespread AI adoption narrowing as \u201c tokenmaxxing \u201d an",
+      "categories": [
+        "Artificial Intelligence, IT Leadership"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4242239-0-93400100-1793354626-shutterstock_2117160308.jpg?quality=50&strip=all"
+    },
+    "w6": {
+      "title": "State of IT jobs: AI boosts salaries but also burnout and the gender gap",
+      "link": "https://www.cio.com/article/4242019/state-of-it-jobs-ai-boosts-salaries-but-also-burnout-and-the-gender-gap.html",
+      "source": "CIO.com",
+      "published": "2026-10-30T10:00:00+00:00",
+      "summary": "Following the IT and tech hiring boom during the Covid-19 pandemic, companies made space for AI initiatives that resulted in increased layoffs . But new data reveals that some IT hiring trends are starting to turn around. Pay in the most AI-exposed occupations grew around 46% since 2021, compared to only 25% for jobs in the least-exposed category, according to the Dice Tech Sentiment report . The data reveals this gap began to grow in 2024 and continues to grow as job postings rebound after seve",
+      "categories": [
+        "Artificial Intelligence, Careers, Emerging Technology, IT Jobs, Roles, Salaries"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4242019-0-23182300-1793354530-6-data-risks-shutterstock_2650527631.jpg?quality=50&strip=all"
+    },
+    "w7": {
+      "title": "Scaling agentic AI with confidence",
+      "link": "https://www.cio.com/article/4242545/scaling-agentic-ai-with-confidence.html",
+      "source": "CIO.com",
+      "published": "2026-10-30T02:41:32+00:00",
+      "summary": "Your AI agents are making decisions faster than your teams can review them. Governance requires the same speed. In order to accomplish their given tasks, agents gain access to new applications and business data around the clock. But every autonomous decision raises a question you\u2019ll eventually have to answer: Can you prove the agent acted within policy? More than half of enterprises are already deploying agentic AI, according to research by Omdia. This growing reliance on AI agents is creating a",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4242545-0-59467700-1793328128-SailPoint-Technologies-BP-V2-2091601-1200x800-2.jpg?quality=50&strip=all"
+    },
+    "w8": {
+      "title": "The AI trust deficit: Why explainability, not more automation, is the CIO\u2019s next priority",
+      "link": "https://www.cio.com/article/4242542/the-ai-trust-deficit-why-explainability-not-more-automation-is-the-cios-next-priority.html",
+      "source": "CIO.com",
+      "published": "2026-10-30T02:29:57+00:00",
+      "summary": "An AI trust deficit occurs when an organization deploys autonomous AI agents faster than it can prove those agents are acting within policy. It\u2019s the gap between what AI agents are doing and what CIOs can clearly explain to a board, auditor, or regulator. Closing that gap requires audit-ready context: evidence showing who owns an agent, what it can access, and which policies governed its decisions. This gap is widening quickly. More than half of enterprises are already deploying agentic AI, acco",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4242542-0-58442600-1793327480-SailPoint-Foundry-AI-Trust-Deficit-Article.png"
+    },
+    "w9": {
+      "title": "How the UK Amazon Quick User Group grew in 2026",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-29T20:16:40+00:00",
+      "summary": "The UK Amazon Quick User Group's 2026 roundup: three quarterly meetups, 150+ attendees, and customer stories from Arriva, Carsa, and Propulse Lab on using agentic AI and Amazon Quick to turn data into faster decisions, higher satisfaction, and scalable growth.",
+      "categories": [
+        "Amazon Quick Suite",
+        "Intermediate (200)",
+        "Uncategorized"
+      ],
+      "image": null
+    },
+    "w10": {
+      "title": "Salesforce Signs Definitive Agreement to Acquire Rune Technologies",
+      "link": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-rune-technologies/",
+      "source": "Salesforce News",
+      "published": "2026-10-29T20:00:00+00:00",
+      "summary": "Salesforce, the #1 AI CRM, today announced it has signed a definitive agreement to acquire Rune Technologies, a leading edge-native technology provider building solutions to enable critical logistics and sustainment operations for the U.S. military and allied nations. Rune Technologies\u2019s technology helps frontline teams forecast supply needs, optimize resources, and make mission-critical decisions \u2013 including [\u2026]",
+      "categories": [
+        "Uncategorized"
+      ],
+      "image": null
+    },
+    "w11": {
+      "title": "Governing the agent workforce: New data on the next frontier of AI risk",
+      "link": "https://www.cio.com/article/4242383/governing-the-agent-workforce-new-data-on-the-next-frontier-of-ai-risk.html",
+      "source": "CIO.com",
+      "published": "2026-10-29T18:26:16+00:00",
+      "summary": "In the fast-paced world of agentic AI, building agents and defending ROI is yesterday\u2019s news. Today, the more pressing challenge is managing and governing the exploding workforce of agents to mitigate growing enterprise risk. The problem intensifies as AI agents move from advisory to more active roles. According to a survey of 200 IT and AI decision makers conducted by Foundry and Rubrik, most agents are allowed to act with full (26%) or limited (35%) autonomy. With access to enterprise systems ",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4242383-0-75729500-1793298466-Rubrik-BP-1671115-1200x800-2.jpg?quality=50&strip=all"
+    },
+    "w12": {
+      "title": "Building intent-driven UI testing with Amazon Nova Act",
+      "link": "https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-29T18:20:27+00:00",
+      "summary": "Epsilon's Agentic Platform team delivers UI testing as a managed, multi-tenant service built on Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool. Tests are written in plain English and run on browsers managed by AWS, giving every product team resilient, intent-driven testing with zero per-team infrastructure overhead.",
+      "categories": [
+        "Amazon Nova",
+        "Customer Solutions"
+      ],
+      "image": null
+    },
+    "w13": {
+      "title": "Build a repeatable PHP-to-Java migration engine with Kiro",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-29T18:14:17+00:00",
+      "summary": "Turn a PHP-to-Java migration from a one-time leap of faith into a measurable, repeatable process with Kiro. This post walks through a reusable engine: a mechanical discovery scanner and an eight-phase, parity-first workflow that treats the original PHP application as the specification and verifies the Java port with a parity harness.",
+      "categories": [
+        "Advanced (300)",
+        "AWS Transform",
+        "Kiro",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w14": {
+      "title": "Lend and borrow resources across teams with AWS Batch\u2019s quota management for SageMaker Training jobs",
+      "link": "https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-29T16:58:57+00:00",
+      "summary": "AWS Batch quota management is a new scheduling capability you can use to divide GPU capacity into quota shares per team or project, automatically lend idle capacity across shares, and use preemption to run your highest-priority SageMaker Training jobs first, all without manual coordination.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon SageMaker AI",
+        "AWS Batch",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w15": {
+      "title": "How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-29T16:54:52+00:00",
+      "summary": "MoEngage turned roughly 400 private REST APIs across 7 AWS Regions into permission-scoped agent tools with Amazon Bedrock AgentCore Gateway. No per-service MCP servers, no public endpoints, and no 400-tool context bloat. See how OpenAPI specs, Cedar policies, and managed Amazon VPC Lattice egress made it work.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock AgentCore",
+        "Customer Solutions"
+      ],
+      "image": null
+    },
+    "u1": {
+      "title": "Pope Leo calls for the disarmament of AI: \u2018Machines are tools, not persons\u2019",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+      "source": "The Verge",
+      "published": "2026-10-30T14:58:06+00:00",
+      "summary": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\" during their meeting in Geneva next month. The address reflects many [\u2026]",
+      "categories": [
+        "AI",
+        "News",
+        "Policy"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2226124908.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    "u2": {
+      "title": "Skip the small talk: Make game-changing connections at TechCrunch Founder Summit with Braindate",
+      "link": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/",
+      "source": "TechCrunch",
+      "published": "2026-10-30T14:00:00+00:00",
+      "summary": "At TechCrunch Founder Summit 2026, happening November 4 at SoWa Power Station in Boston, networking powered by Braindate is designed to make those conversations easier to find, whether they are in 1:1 or small-group on-site meetings. Register before the event starts to save up to $100 on your pass, plus get a second for free.",
+      "categories": [
+        "TC",
+        "Startups",
+        "Crypto",
+        "Climate",
+        "Fintech",
+        "Biotech & Health",
+        "Venture",
+        "Media & Entertainment",
+        "AI",
+        "Robotics",
+        "Fundraising",
+        "TechCrunch Founder Summit 2026"
+      ],
+      "image": null,
+      "date_mentioned": "November 4"
+    },
+    "u3": {
+      "title": "5 days left: Your last chance to connect, scale, and save at TechCrunch Founder Summit 2026",
+      "link": "https://techcrunch.com/2026/10/30/5-days-left-your-last-chance-to-connect-scale-and-save-at-techcrunch-founder-summit-2026/",
+      "source": "TechCrunch",
+      "published": "2026-10-30T13:00:00+00:00",
+      "summary": "5 days to save up to $100, plus a second pass for free to TechCrunch Founder Summit 2026 in Boston on November 4. Register now.",
+      "categories": [
+        "TC",
+        "Startups",
+        "Fintech",
+        "Biotech & Health",
+        "Venture",
+        "AI",
+        "Fundraising",
+        "TechCrunch Founder Summit 2026"
+      ],
+      "image": null,
+      "date_mentioned": "November 4"
+    },
+    "u4": {
+      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+      "source": "The Verge",
+      "published": "2026-10-29T18:45:31+00:00",
+      "summary": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in [\u2026]",
+      "categories": [
+        "AI",
+        "Google",
+        "News",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK255_Google_Gemini_B_474198.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    "u5": {
+      "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+      "link": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+      "source": "Ars Technica",
+      "published": "2026-10-27T16:00:22+00:00",
+      "summary": "Genie 4 will roll out to developers and Google AI Ultra subscribers soon.",
+      "categories": [
+        "AI",
+        "Google",
+        "Artificial Intelligence",
+        "deepmind",
+        "google",
+        "world models"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/vlcsnap-2026-10-27-10h06m52s461-1152x648.png",
+      "date_mentioned": null
+    },
+    "d1": {
+      "title": "GPT-6.1 Terra vs. GPT-6 Astra: One sacrifices accuracy for lower cost and higher speed at high effort",
+      "link": "https://thenewstack.io/gpt-6-1-terra-vs-gpt-6-astra/",
+      "source": "The New Stack",
+      "published": "2026-10-30T14:59:35+00:00",
+      "summary": "OpenAI released GPT-6.1 Terra on October 26, marketing it as a cheap, fast model for high-volume everyday work, priced at",
+      "categories": [
+        "AI",
+        "AI Models",
+        "Large Language Models",
+        "Software Testing"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/c6fb79bf-neeqolah-creative-works-tn5gnxgi3hi-unsplash-1024x717.jpg"
+    },
+    "d2": {
+      "title": "Sam Altman almost scrapped token pricing. Here\u2019s why he backed off.",
+      "link": "https://thenewstack.io/openai-token-pricing-reversal/",
+      "source": "The New Stack",
+      "published": "2026-10-29T22:19:18+00:00",
+      "summary": "OpenAI considered dropping token-based pricing for its next model, letting developers submit a prompt and receive a price for the",
+      "categories": [
+        "AI Models",
+        "AI Strategy",
+        "FinOps"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/03/f7a6563d-screenshot-2026-03-04-at-14.29.48-1024x585.png"
+    },
+    "d3": {
+      "title": "Microsoft\u2019s new Copilot harness makes agents easy \u2014 until you want to switch",
+      "link": "https://thenewstack.io/microsoft-copilot-harness-foundry/",
+      "source": "The New Stack",
+      "published": "2026-10-29T20:54:15+00:00",
+      "summary": "Microsoft is opening up the GitHub Copilot agent harness to outside developers through Microsoft Foundry, bringing the same orchestration infrastructure",
+      "categories": [
+        "AI Agents",
+        "AI Infrastructure",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/1d1484de-ian-taylor-h7b1suempis-unsplash-1024x679.jpg"
+    },
+    "d4": {
+      "title": "Mistral\u2019s Large 4 open weights arrive with a 1-point coding lead over GLM-5.3: \u201cThere\u2019s nothing you can\u2019t do with this model that you can do with competitors.\u201d",
+      "link": "https://thenewstack.io/mistral-chonk-coding-model/",
+      "source": "The New Stack",
+      "published": "2026-10-29T14:49:44+00:00",
+      "summary": "On Thursday, Mistral released the weights for its frontier open model, Mistral Large 4 (ML4), on Hugging Face. Made available",
+      "categories": [
+        "AI Agents",
+        "AI Models",
+        "Open Source"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/c4e85706-resource-database-8y0cqyxbfce-unsplash-1024x819.jpg"
+    },
+    "d5": {
+      "title": "\u201cI don\u2019t think the world needs a new GitHub\u201d: What GitHub\u2019s leaders really think about their new rivals",
+      "link": "https://thenewstack.io/github-agentic-infrastructure-rebuild/",
+      "source": "The New Stack",
+      "published": "2026-10-29T13:30:00+00:00",
+      "summary": "At its annual Universe \u201926 conference in San Francisco this week, GitHub took to the question of the platform\u2019s stability",
+      "categories": [
+        "AI",
+        "AI Infrastructure",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/4b27efd0-daigle-parikh-github-26-1024x498.jpg"
+    },
+    "d6": {
+      "title": "\u201cUrgency is an inherently subjective call\u201d: Anthropic tells TNS how it grades Claude Duet",
+      "link": "https://thenewstack.io/claude-duet-agent-judgment/",
+      "source": "The New Stack",
+      "published": "2026-10-29T11:00:00+00:00",
+      "summary": "Anthropic built Claude Duet, an AI assistant that monitors your connected apps and works on tasks in the background, to",
+      "categories": [
+        "AI Agents",
+        "Operations",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/38fadf75-getty-images-2e66tpvgzn8-unsplash-1024x601.jpg"
+    },
+    "d7": {
+      "title": "Google just handed its rivals the keys to Android",
+      "link": "https://thenewstack.io/android-agents-build-debug/",
+      "source": "The New Stack",
+      "published": "2026-10-28T17:43:09+00:00",
+      "summary": "Google is giving coding agents like Anthropic\u2019s Claude Code and OpenAI\u2019s Codex deeper access to its Android development tools, including",
+      "categories": [
+        "AI"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/fe17422f-mohamed-nohassi-bpvdngbw1c-unsplash-1024x576.jpg"
+    },
+    "d8": {
+      "title": "GitHub debuts Copilot Fusion, a new model selection & orchestration system that beats Claude Code for half the API cost",
+      "link": "https://thenewstack.io/github-copilot-fusion/",
+      "source": "The New Stack",
+      "published": "2026-10-28T16:19:31+00:00",
+      "summary": "GitHub has debuted GitHub Copilot Fusion, a new system that handles model selection and orchestration for coding tasks so developers",
+      "categories": [
+        "AI Models",
+        "Developer tools",
+        "Software Development"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/b78f2934-screenshot-2026-10-28-at-12.17.49.png"
+    },
+    "d9": {
+      "title": "GitHub saw 7.4B commits in September, adding 4M CPU cores and 160 PB of storage to keep up",
+      "link": "https://thenewstack.io/github-7-4b-commits-september/",
+      "source": "The New Stack",
+      "published": "2026-10-28T16:10:00+00:00",
+      "summary": "GitHub is seeing unprecedented demand and is updating its core infrastructure to keep pace. In August, GitHub said it was",
+      "categories": [
+        "AI"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/9b7c9d43-img_5916-1024x768.jpg"
+    },
+    "d10": {
+      "title": "Nvidia launches a promptable transcription model",
+      "link": "https://thenewstack.io/nvidia-nemotron-promptable-transcription/",
+      "source": "The New Stack",
+      "published": "2026-10-28T15:00:00+00:00",
+      "summary": "Nvidia on Wednesday launched Nemotron 3.5 Transcribe, its latest multilingual transcription model. The new open-weight model, the company says, ranks",
+      "categories": [
+        "AI",
+        "AI Models",
+        "Open Source"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/3f644518-img_5875-edit-1024x768.jpg"
+    },
+    "d11": {
+      "title": "Google built AI agents a world to practice in. The physics still aren\u2019t quite right.",
+      "link": "https://thenewstack.io/genie-4-world-model/",
+      "source": "The New Stack",
+      "published": "2026-10-27T22:33:51+00:00",
+      "summary": "Google DeepMind introduced Genie 4 on Tuesday, a world model that renders interactive environments in real time with simulated physics,",
+      "categories": [
+        "AI Agents",
+        "AI Models",
+        "Emerging technologies"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/fd3dbae0-hj-project-_bjujbyoacs-unsplash-1024x666.jpg"
+    },
+    "d12": {
+      "title": "Replit\u2019s CEO says an idea from 1937 could make the org chart obsolete",
+      "link": "https://thenewstack.io/replit-self-driving-company/",
+      "source": "The New Stack",
+      "published": "2026-10-27T21:16:40+00:00",
+      "summary": "Replit CEO and co-founder Amjad Masad has spent the past year watching AI agents absorb the routine execution inside his",
+      "categories": [
+        "AI Agents",
+        "AI Strategy",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/8ccdb4f6-getty-images-249nw4uky0k-unsplash-1024x627.jpg"
+    },
+    "l1": {
+      "title": "Was I wrong about open models & cyber risks?",
+      "link": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+      "source": "Interconnects",
+      "published": "2026-10-30T17:36:56+00:00",
+      "summary": "Last week coined the term \u201cBlack October\u201c after an onslaught of critical vulnerability disclosures, including PHP2Shell and GitLab, signified the moment when the cyber risks of AI models started to materialize.",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!NQ70!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff51bb5d0-4390-4676-af4a-6bc8199412d5_2006x1362.png"
+    },
+    "l2": {
+      "title": "The Pulse: Anthropic kills the coding interview",
+      "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-anthropic-kills-the-coding",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-10-30T16:37:51+00:00",
+      "summary": "AI is rendering the Leetcode-style interview pointless and now Anthropic has deleted it from its interview loop. Also: details of incident.io\u2019s AI spend, Microsoft\u2019s exit offer to engineers, and more",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!LqGQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc10d7a14-d196-4d3e-89f4-51d28a0ce45a_2042x1006.png"
+    },
+    "l3": {
+      "title": "Is Half of China\u2019s AI Making Slop?",
+      "link": "https://www.chinatalk.media/p/is-half-of-chinas-ai-making-slop",
+      "source": "ChinaTalk",
+      "published": "2026-10-30T10:04:01+00:00",
+      "summary": "The 55% token myth, and China\u2019s guilty pleasure",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!flLK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb8f2106-e1db-4fd2-bf05-c2e1532b8a14_1920x1080.png"
+    },
+    "l4": {
+      "title": "AI is overwhelming and I\u2019m doing it wrong",
+      "link": "https://www.bensbites.com/p/ai-is-overwhelming-and-im-doing-it",
+      "source": "Ben's Bites",
+      "published": "2026-10-29T14:03:54+00:00",
+      "summary": "Let\u2019s think about what we\u2019re doing here",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!AM0R!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2115535996909490176.jpg"
+    },
+    "l5": {
+      "title": "Software engineering at Google & CS education with Titus Winters",
+      "link": "https://newsletter.pragmaticengineer.com/p/software-engineering-at-google-and",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-10-29T13:37:13+00:00",
+      "summary": "Titus Winters shares lessons from engineering at Google\u2019s scale and explores how AI is reshaping developer productivity and computer science education.",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!Qhi0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1228ff6a-514b-4643-9360-02cda14dc5ac_800x70.png"
+    },
+    "l6": {
+      "title": "New Study: Anthropic Just Gave You a Reason to Stop Working With AI",
+      "link": "https://www.thealgorithmicbridge.com/p/new-study-anthropic-just-gave-you",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-10-29T13:20:35+00:00",
+      "summary": "The machine is secretly making up your mind",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!kGSx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e489782-1e99-48b1-81e0-75ea86d7b651_1200x923.jpeg"
+    },
+    "l7": {
+      "title": "Roasting China\u2019s AI Industry",
+      "link": "https://www.chinatalk.media/p/how-to-make-fun-of-chinese-ai",
+      "source": "ChinaTalk",
+      "published": "2026-10-29T10:03:53+00:00",
+      "summary": "\u201cAI is full of scammers, narcissists, and people whose activities are incomprehensible \u2014 and somehow they get funding.\u201c",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!yjRK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2965527b-2f84-4184-b9ba-ad86eb998ddd_1458x857.png"
+    },
+    "l8": {
+      "title": "Artificial Analysis v5 and the benchmarker's dilemma",
+      "link": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+      "source": "Interconnects",
+      "published": "2026-10-28T12:58:39+00:00",
+      "summary": "A sort of review of the benchmarking industry and what's missing.",
+      "categories": [],
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/6a847075-78be-45e9-b554-ae9abc6f9296_3182x1790.png"
+    }
+  },
+  "llm_draft": {
+    "glance": [
+      {
+        "id": "n15",
+        "summary": "Amazon says it will spend heavily on infrastructure to reach one trillion dollars in revenue."
+      },
+      {
+        "id": "n3",
+        "summary": "Department of Justice officials are cracking down on thousands of students using AI for fraud."
+      },
+      {
+        "id": "n18",
+        "summary": "Thrive Holdings is buying ADT to integrate AI into home security systems."
+      },
+      {
+        "id": "n21",
+        "summary": "Google Gemini now allows users to generate and edit various file types directly in chats."
+      }
+    ],
+    "big_pour": [
+      {
+        "id": "n15",
+        "headline": "Amazon aims for one trillion in revenue",
+        "teaser": "Amazon's massive AI spending spree",
+        "summary": "Amazon CEO Andy Jassy says the company plans to become a one trillion dollar business. To reach this goal, the company must continue its heavy spending on cloud computing infrastructure.",
+        "why": "Amazon's massive investment signals how much money companies are betting on the future of AI.",
+        "explain": {
+          "kid": "Amazon wants to be a huge company that makes a trillion dollars. To do this, they are spending a lot of money to build big computer centers for AI.",
+          "pm": "Amazon is prioritizing long-term revenue growth by aggressively increasing capital expenditure on cloud infrastructure to maintain its lead in the AI market.",
+          "engineer": "Amazon is scaling its data center footprint and compute capacity to support AI workloads, treating high capital expenditure as a necessary cost for future market dominance."
+        }
+      },
+      {
+        "id": "n3",
+        "headline": "DOJ cracks down on AI student loan fraud",
+        "teaser": "AI used for loan fraud",
+        "summary": "The Department of Justice is investigating thousands of \"ghost students\" using AI to steal millions in student loans. The agency is currently ramping up efforts to stop this activity."
+      },
+      {
+        "id": "n18",
+        "headline": "Thrive Holdings acquires ADT for AI security",
+        "teaser": "AI coming to home security",
+        "summary": "OpenAI-backed Thrive Holdings is purchasing ADT in a deal worth 15.3 billion dollars. The company plans to bring AI technology into the home security business."
+      }
+    ],
+    "office_blend": [
+      {
+        "id": "w3",
+        "headline": "Worldwide Express automates freight billing",
+        "teaser": "Freight billing automated with AI",
+        "summary": "Worldwide Express used Amazon Bedrock to build a multi-agent system for freight billing. The company cut active exceptions by 75% and improved cash flow by 10 million dollars."
+      },
+      {
+        "id": "w15",
+        "headline": "MoEngage turns APIs into agent tools",
+        "summary": "MoEngage converted 400 private APIs into secure agent tools using Amazon Bedrock AgentCore Gateway. This approach avoids public endpoints and reduces technical complexity."
+      }
+    ],
+    "still_roasting": [
+      {
+        "id": "u5",
+        "summary": "DeepMind is preparing to release Genie 4, a world model that features more realistic physics and human movement."
+      }
+    ],
+    "quick_sips": [
+      {
+        "id": "n1",
+        "summary": "Fujifilm is increasing magnetic tape production fivefold to meet rising demand for offline AI data archiving."
+      },
+      {
+        "id": "n19",
+        "summary": "Meta launched Style Sketch, an AI fashion app that creates a virtual closet from Instagram photos."
+      },
+      {
+        "id": "n22",
+        "summary": "Granola added a dictation feature to its meeting notetaker to compete with other voice AI apps."
+      }
+    ],
+    "builder": {
+      "stories": [
+        {
+          "id": "d8",
+          "label": "New orchestration system",
+          "headline": "GitHub debuts Copilot Fusion for coding",
+          "summary": "GitHub released Copilot Fusion, a system that manages model selection and orchestration for coding tasks to reduce API costs."
+        },
+        {
+          "id": "d12",
+          "label": "Agentic workflows",
+          "headline": "Replit CEO eyes new organizational structures",
+          "summary": "Replit CEO Amjad Masad suggests that AI agents performing routine execution could eventually make traditional organizational charts obsolete."
+        }
+      ],
+      "concept": {
+        "id": "d8",
+        "term": "orchestration",
+        "explanation": "Orchestration refers to a system that handles model selection and task management. In the case of GitHub Copilot Fusion, it automates the process of choosing the right model for specific coding tasks."
+      }
+    },
+    "long_read": {
+      "id": "l4",
+      "headline": "AI is overwhelming and I\u2019m doing it wrong",
+      "summary": "This newsletter reflects on the feeling of being overwhelmed by the rapid pace of AI development and questions the current approach to keeping up."
+    }
+  },
+  "first_check": {
+    "n3": [
+      "name 'Department' is not in the source",
+      "name 'Justice' is not in the source"
+    ],
+    "n15": [
+      "name 'Andy' is not in the source"
+    ]
+  },
+  "dropped": [],
+  "explain_dropped": []
+}
