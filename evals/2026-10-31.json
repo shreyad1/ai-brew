@@ -1,0 +1,276 @@
+{
+  "date": "2026-10-31",
+  "claims": 32,
+  "supported": 31,
+  "partial": 1,
+  "unsupported": 0,
+  "faithfulness": 0.984,
+  "flagged": [
+    {
+      "section": "builder",
+      "id": "d4",
+      "claim": "Anthropic removes five-hour limit on Claude Code",
+      "source": "Anthropic just removed one of Claude\u2019s biggest usage limits \u2014 but not for everyone. Claude Code users on Anthropic\u2019s $200 plan will no longer face a rolling five-hour usage cap, provided their accounts are",
+      "verdict": "partial",
+      "reason": "The claim omits that the cap removal applies only to qualified users on the $200 plan."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n14",
+      "claim": "OpenAI, Google, Microsoft, and Anthropic agreed to support a shared standard for publisher scraping opt-outs.",
+      "source": "The biggest names in AI are backing a new way to opt out of scraping. OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms OpenAI, Google, Microsoft, and Anthropic say they will adopt a shared standard for publisher scraping opt-outs."
+    },
+    {
+      "section": "glance",
+      "id": "n10",
+      "claim": "Big Tech faces mounting debt and investor skepticism over massive spending on AI infrastructure.",
+      "source": "Cracks are emerging in the AI spending boom. Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
+      "verdict": "supported",
+      "reason": "The source directly states that mounting debt, spending on AI infrastructure, and growing investor skepticism are raising questions for Big Tech."
+    },
+    {
+      "section": "glance",
+      "id": "n19",
+      "claim": "Starbucks wants AI menus at the drive-thru",
+      "source": "Starbucks wants to use AI to show you a \u2018personalized digital menu\u2019 at the drive-thru. Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital menus, and make payment more effortless,\" as spotted earlier by More [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states that Starbucks wants to use AI to show a personalized digital menu at the drive-thru."
+    },
+    {
+      "section": "glance",
+      "id": "n19",
+      "claim": "Starbucks is exploring drive-thru experiences that recognize participating customers when they arrive, present personalized digital menus, and make payment more effortless.",
+      "source": "Starbucks wants to use AI to show you a \u2018personalized digital menu\u2019 at the drive-thru. Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital menus, and make payment more effortless,\" as spotted earlier by More [\u2026]",
+      "verdict": "supported",
+      "reason": "The source quotes the CEO stating the company is going to explore those exact experiences."
+    },
+    {
+      "section": "glance",
+      "id": "w5",
+      "claim": "Worldwide Express cut freight billing exceptions by 75% using a multi-agent solution on Amazon Bedrock.",
+      "source": "How Worldwide Express automated freight exceptions with Amazon Bedrock. Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash flow.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Worldwide Express cut active exceptions by 75% using a multi-agent solution built on Amazon Bedrock."
+    },
+    {
+      "section": "big_pour",
+      "id": "n14",
+      "claim": "Major AI companies back shared scraping opt-out standard",
+      "source": "The biggest names in AI are backing a new way to opt out of scraping. OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal [\u2026]",
+      "verdict": "supported",
+      "reason": "The headline is directly supported by the source stating major AI names are backing a new standard to opt out of scraping."
+    },
+    {
+      "section": "big_pour",
+      "id": "n14",
+      "claim": "OpenAI, Google, Microsoft, and Anthropic will adopt a shared standard letting publishers set AI training preferences across multiple AI firms at once using a \"policy token\" signal.",
+      "source": "The biggest names in AI are backing a new way to opt out of scraping. OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal [\u2026]",
+      "verdict": "supported",
+      "reason": "All listed details regarding the four companies, the shared standard, and the policy token signal match the source text."
+    },
+    {
+      "section": "big_pour",
+      "id": "n14",
+      "claim": "It gives publishers a single tool to decide whether AI companies can scrape their content.",
+      "source": "The biggest names in AI are backing a new way to opt out of scraping. OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms this control lets publishers apply AI training preferences across multiple AI companies instead of setting them individually."
+    },
+    {
+      "section": "big_pour",
+      "id": "n14",
+      "claim": "Big AI companies agreed on a single stop sign that websites can show when they do not want their words taken.",
+      "source": "The biggest names in AI are backing a new way to opt out of scraping. OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal [\u2026]",
+      "verdict": "supported",
+      "reason": "This is a direct, accessible paraphrasing of the companies agreeing on a shared opt-out standard for publisher content."
+    },
+    {
+      "section": "big_pour",
+      "id": "n14",
+      "claim": "Instead of configuring individual opt-outs per AI vendor, publishers can now use a single shared policy token to set training data permissions across major providers simultaneously.",
+      "source": "The biggest names in AI are backing a new way to opt out of scraping. OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal [\u2026]",
+      "verdict": "supported",
+      "reason": "The text confirms publishers can apply preferences across multiple AI companies simultaneously using the shared policy token rather than setting them individually."
+    },
+    {
+      "section": "big_pour",
+      "id": "n14",
+      "claim": "OpenAI, Google, Microsoft, and Anthropic are standardizing on a shared \"policy token\" signal, enabling publishers to declare AI training scraping preferences across multiple providers rather than managing individual crawler controls.",
+      "source": "The biggest names in AI are backing a new way to opt out of scraping. OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal [\u2026]",
+      "verdict": "supported",
+      "reason": "The source supports that the four companies will adopt the shared policy token signal to let publishers declare preferences across multiple providers."
+    },
+    {
+      "section": "big_pour",
+      "id": "n19",
+      "claim": "Starbucks wants AI menus at the drive-thru",
+      "source": "Starbucks wants to use AI to show you a \u2018personalized digital menu\u2019 at the drive-thru. Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital menus, and make payment more effortless,\" as spotted earlier by More [\u2026]",
+      "verdict": "supported",
+      "reason": "The text directly states that Starbucks wants to use AI to show a personalized digital menu at the drive-thru."
+    },
+    {
+      "section": "big_pour",
+      "id": "n19",
+      "claim": "Starbucks is exploring drive-thru experiences that recognize participating customers when they arrive, present personalized digital menus, and make payment more effortless.",
+      "source": "Starbucks wants to use AI to show you a \u2018personalized digital menu\u2019 at the drive-thru. Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital menus, and make payment more effortless,\" as spotted earlier by More [\u2026]",
+      "verdict": "supported",
+      "reason": "The source quotes the CEO stating the company will explore these exact drive-thru experiences."
+    },
+    {
+      "section": "big_pour",
+      "id": "n10",
+      "claim": "Cracks emerge in big tech AI spending",
+      "source": "Cracks are emerging in the AI spending boom. Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
+      "verdict": "supported",
+      "reason": "The claim directly reflects the source stating cracks are emerging in the AI spending boom by Big Tech."
+    },
+    {
+      "section": "big_pour",
+      "id": "n10",
+      "claim": "Big Tech is investing billions in AI infrastructure, but rising debt, negative cash flow, and growing investor skepticism raise questions about whether the spending boom is sustainable.",
+      "source": "Cracks are emerging in the AI spending boom. Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
+      "verdict": "supported",
+      "reason": "All facts stated are directly taken from the provided source text."
+    },
+    {
+      "section": "office_blend",
+      "id": "w5",
+      "claim": "Worldwide Express automates freight billing with Amazon Bedrock",
+      "source": "How Worldwide Express automated freight exceptions with Amazon Bedrock. Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash flow.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Worldwide Express automated freight exceptions/billing with Amazon Bedrock."
+    },
+    {
+      "section": "office_blend",
+      "id": "w5",
+      "claim": "Worldwide Express used an Amazon Bedrock multi-agent system to cut active billing exceptions by 75%, improve time-to-cash by four weeks, and unlock $10 million in free cash flow.",
+      "source": "How Worldwide Express automated freight exceptions with Amazon Bedrock. Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash flow.",
+      "verdict": "supported",
+      "reason": "All metrics and details are directly confirmed by the source text."
+    },
+    {
+      "section": "office_blend",
+      "id": "w14",
+      "claim": "Epsilon builds managed UI testing using Amazon Nova",
+      "source": "Building intent-driven UI testing with Amazon Nova Act. Epsilon's Agentic Platform team delivers UI testing as a managed, multi-tenant service built on Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool. Tests are written in plain English and run on browsers managed by AWS, giving every product team resilient, intent-driven testing with zero per-team infrastructure overhead.",
+      "verdict": "supported",
+      "reason": "The source mentions Epsilon delivers managed UI testing built on Amazon Nova Act."
+    },
+    {
+      "section": "office_blend",
+      "id": "w14",
+      "claim": "Epsilon's platform team delivers UI testing using Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool, running plain-English tests on browsers managed by AWS with zero per-team infrastructure overhead.",
+      "source": "Building intent-driven UI testing with Amazon Nova Act. Epsilon's Agentic Platform team delivers UI testing as a managed, multi-tenant service built on Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool. Tests are written in plain English and run on browsers managed by AWS, giving every product team resilient, intent-driven testing with zero per-team infrastructure overhead.",
+      "verdict": "supported",
+      "reason": "Every detail in the claim is explicitly supported by the source text."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u1",
+      "claim": "Apple Intelligence will launch in China with an iOS 27.3 beta on November 4th ahead of a December release.",
+      "source": "Apple Intelligence is finally coming to China with iOS 27.3. Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This launch doesn't bring [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Apple Intelligence will launch in China via an iOS 27.3 beta on November 4th before a December release."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u2",
+      "claim": "Pope Leo XIV called on United Nations members to take steps toward banning lethal autonomous weapons next month.",
+      "source": "Pope Leo calls for the disarmament of AI: \u2018Machines are tools, not persons\u2019. Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\" during their meeting in Geneva next month. The address reflects many [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states that Pope Leo XIV encouraged UN member states to take concrete steps toward banning lethal autonomous weapons during their meeting next month."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u5",
+      "claim": "DeepMind unveiled Genie 4, a world model promising more realistic physics and humans, coming soon to select users.",
+      "source": "DeepMind unveils Genie 4 world model promising more realistic physics and humans. Genie 4 will roll out to developers and Google AI Ultra subscribers soon.",
+      "verdict": "supported",
+      "reason": "The source confirms DeepMind unveiled Genie 4 with these capabilities and that it will roll out to developers and Google AI Ultra subscribers soon."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n16",
+      "claim": "Google's satellite AI server booted up its TPUs in space and generated its first response, composing a haiku.",
+      "source": "Google\u2019s satellite AI server transmits its first response to Earth. Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below Data streams in [\u2026]",
+      "verdict": "supported",
+      "reason": "The source describes Google booting up the satellite's TPUs in space and generating a haiku as its response."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n4",
+      "claim": "Ollie, an AI assistant focused on protecting user privacy, announced it will shut down in one week.",
+      "source": "Ollie, a privacy-focused AI assistant, is shutting down. As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "verdict": "supported",
+      "reason": "The source confirms Ollie is a privacy-focused AI assistant shutting down in a week."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n18",
+      "claim": "Fujifilm plans to boost magnetic tape production fivefold to keep up with growing demand for AI data archiving.",
+      "source": "Fujifilm to boost tape production 5x as AI fuels archiving demand. Low costs and offline security mean magnetic tape still has a job.",
+      "verdict": "supported",
+      "reason": "The source directly states Fujifilm is boosting tape production 5x due to AI archiving demand."
+    },
+    {
+      "section": "builder",
+      "id": "d4",
+      "claim": "Anthropic removes five-hour limit on Claude Code",
+      "source": "Anthropic just removed one of Claude\u2019s biggest usage limits \u2014 but not for everyone. Claude Code users on Anthropic\u2019s $200 plan will no longer face a rolling five-hour usage cap, provided their accounts are",
+      "verdict": "partial",
+      "reason": "The claim omits that the cap removal applies only to qualified users on the $200 plan."
+    },
+    {
+      "section": "builder",
+      "id": "d4",
+      "claim": "Anthropic lifted its rolling five-hour usage cap for Claude Code users on its $200 plan, provided their accounts qualify.",
+      "source": "Anthropic just removed one of Claude\u2019s biggest usage limits \u2014 but not for everyone. Claude Code users on Anthropic\u2019s $200 plan will no longer face a rolling five-hour usage cap, provided their accounts are",
+      "verdict": "supported",
+      "reason": "The source explicitly states the limit is removed for qualifying users on the $200 plan."
+    },
+    {
+      "section": "builder",
+      "id": "d12",
+      "claim": "Google opens Android tools to rival coding agents",
+      "source": "Google just handed its rivals the keys to Android. Google is giving coding agents like Anthropic\u2019s Claude Code and OpenAI\u2019s Codex deeper access to its Android development tools, including",
+      "verdict": "supported",
+      "reason": "The source directly supports that Google is opening deeper access to its Android tools for rival coding agents."
+    },
+    {
+      "section": "builder",
+      "id": "d12",
+      "claim": "Google is giving coding agents, including Anthropic's Claude Code and OpenAI's Codex, deeper access to its Android development tools.",
+      "source": "Google just handed its rivals the keys to Android. Google is giving coding agents like Anthropic\u2019s Claude Code and OpenAI\u2019s Codex deeper access to its Android development tools, including",
+      "verdict": "supported",
+      "reason": "The source confirms Google is giving Claude Code and Codex deeper access to Android development tools."
+    },
+    {
+      "section": "concept",
+      "id": "d11",
+      "claim": "Anthropic built Claude Duet as an AI assistant designed to monitor connected applications and handle tasks in the background.",
+      "source": "\u201cUrgency is an inherently subjective call\u201d: Anthropic tells TNS how it grades Claude Duet. Anthropic built Claude Duet, an AI assistant that monitors your connected apps and works on tasks in the background, to",
+      "verdict": "supported",
+      "reason": "The source confirms Anthropic built Claude Duet to monitor connected apps and work on tasks in the background."
+    },
+    {
+      "section": "long_read",
+      "id": "l2",
+      "claim": "The Pulse: Anthropic kills the coding interview",
+      "source": "The Pulse: Anthropic kills the coding interview. AI is rendering the Leetcode-style interview pointless and now Anthropic has deleted it from its interview loop. Also: details of incident.io\u2019s AI spend, Microsoft\u2019s exit offer to engineers, and more",
+      "verdict": "supported",
+      "reason": "The claim matches the title and content provided in the source."
+    },
+    {
+      "section": "long_read",
+      "id": "l2",
+      "claim": "The newsletter reports that Anthropic dropped Leetcode-style coding interviews from its hiring process, arguing AI has rendered the format pointless.",
+      "source": "The Pulse: Anthropic kills the coding interview. AI is rendering the Leetcode-style interview pointless and now Anthropic has deleted it from its interview loop. Also: details of incident.io\u2019s AI spend, Microsoft\u2019s exit offer to engineers, and more",
+      "verdict": "supported",
+      "reason": "The source confirms Anthropic removed Leetcode-style interviews because AI renders them pointless."
+    }
+  ]
+}

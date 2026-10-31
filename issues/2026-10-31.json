@@ -1,0 +1,202 @@
+{
+  "glance": [
+    {
+      "id": "n14",
+      "summary": "OpenAI, Google, Microsoft, and Anthropic agreed to support a shared standard for publisher scraping opt-outs.",
+      "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25330660/STK414_AI_CHATBOT_H.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n10",
+      "summary": "Big Tech faces mounting debt and investor skepticism over massive spending on AI infrastructure.",
+      "link": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n19",
+      "headline": "Starbucks wants AI menus at the drive-thru",
+      "teaser": "Personalized menus at the drive-thru",
+      "summary": "Starbucks is exploring drive-thru experiences that recognize participating customers when they arrive, present personalized digital menus, and make payment more effortless.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2268681559.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "w5",
+      "summary": "Worldwide Express cut freight billing exceptions by 75% using a multi-agent solution on Amazon Bedrock.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n14",
+      "headline": "Major AI companies back shared scraping opt-out standard",
+      "teaser": "New standard blocks AI scrapers",
+      "summary": "OpenAI, Google, Microsoft, and Anthropic will adopt a shared standard letting publishers set AI training preferences across multiple AI firms at once using a \"policy token\" signal.",
+      "why": "It gives publishers a single tool to decide whether AI companies can scrape their content.",
+      "explain": {
+        "kid": "Big AI companies agreed on a single stop sign that websites can show when they do not want their words taken.",
+        "pm": "Instead of configuring individual opt-outs per AI vendor, publishers can now use a single shared policy token to set training data permissions across major providers simultaneously.",
+        "engineer": "OpenAI, Google, Microsoft, and Anthropic are standardizing on a shared \"policy token\" signal, enabling publishers to declare AI training scraping preferences across multiple providers rather than managing individual crawler controls."
+      },
+      "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25330660/STK414_AI_CHATBOT_H.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n19",
+      "headline": "Starbucks wants AI menus at the drive-thru",
+      "teaser": "Personalized menus at the drive-thru",
+      "summary": "Starbucks is exploring drive-thru experiences that recognize participating customers when they arrive, present personalized digital menus, and make payment more effortless.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2268681559.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n10",
+      "headline": "Cracks emerge in big tech AI spending",
+      "teaser": "Mounting debt and investor doubts",
+      "summary": "Big Tech is investing billions in AI infrastructure, but rising debt, negative cash flow, and growing investor skepticism raise questions about whether the spending boom is sustainable.",
+      "link": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w5",
+      "headline": "Worldwide Express automates freight billing with Amazon Bedrock",
+      "teaser": "Multi-agent system cuts freight exceptions",
+      "summary": "Worldwide Express used an Amazon Bedrock multi-agent system to cut active billing exceptions by 75%, improve time-to-cash by four weeks, and unlock $10 million in free cash flow.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "w14",
+      "headline": "Epsilon builds managed UI testing using Amazon Nova",
+      "teaser": "English-driven UI browser testing",
+      "summary": "Epsilon's platform team delivers UI testing using Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool, running plain-English tests on browsers managed by AWS with zero per-team infrastructure overhead.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u1",
+      "summary": "Apple Intelligence will launch in China with an iOS 27.3 beta on November 4th ahead of a December release.",
+      "link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25699392/DSC08596_processed.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    {
+      "id": "u2",
+      "summary": "Pope Leo XIV called on United Nations members to take steps toward banning lethal autonomous weapons next month.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2226124908.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    {
+      "id": "u5",
+      "summary": "DeepMind unveiled Genie 4, a world model promising more realistic physics and humans, coming soon to select users.",
+      "link": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/vlcsnap-2026-10-27-10h06m52s461-1152x648.png",
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n16",
+      "summary": "Google's satellite AI server booted up its TPUs in space and generated its first response, composing a haiku.",
+      "link": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/project-suncatcher-google.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n4",
+      "summary": "Ollie, an AI assistant focused on protecting user privacy, announced it will shut down in one week.",
+      "link": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n18",
+      "summary": "Fujifilm plans to boost magnetic tape production fivefold to keep up with growing demand for AI data archiving.",
+      "link": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg"
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d4",
+        "label": "Usage update",
+        "headline": "Anthropic removes five-hour limit on Claude Code",
+        "summary": "Anthropic lifted its rolling five-hour usage cap for Claude Code users on its $200 plan, provided their accounts qualify.",
+        "link": "https://thenewstack.io/claude-ultra-session-limit/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/10/7d64b952-adriandra-karuniawan-1kvwsbza_ba-unsplash-1024x731.jpg"
+      },
+      {
+        "id": "d12",
+        "label": "Tool access",
+        "headline": "Google opens Android tools to rival coding agents",
+        "summary": "Google is giving coding agents, including Anthropic's Claude Code and OpenAI's Codex, deeper access to its Android development tools.",
+        "link": "https://thenewstack.io/android-agents-build-debug/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/10/fe17422f-mohamed-nohassi-bpvdngbw1c-unsplash-1024x576.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d11",
+      "term": "Claude Duet",
+      "explanation": "Anthropic built Claude Duet as an AI assistant designed to monitor connected applications and handle tasks in the background.",
+      "link": "https://thenewstack.io/claude-duet-agent-judgment/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/10/38fadf75-getty-images-2e66tpvgzn8-unsplash-1024x601.jpg"
+    }
+  },
+  "long_read": {
+    "id": "l2",
+    "headline": "The Pulse: Anthropic kills the coding interview",
+    "summary": "The newsletter reports that Anthropic dropped Leetcode-style coding interviews from its hiring process, arguing AI has rendered the format pointless.",
+    "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-anthropic-kills-the-coding",
+    "source": "The Pragmatic Engineer",
+    "image": "https://substackcdn.com/image/fetch/$s_!LqGQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc10d7a14-d196-4d3e-89f4-51d28a0ce45a_2042x1006.png"
+  },
+  "number": 8,
+  "date_iso": "2026-10-31",
+  "date_long": "Saturday \u00b7 31 October 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-10-31",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": {
+    "term": "Agent loop",
+    "definition": "The cycle an agent repeats until it is done. The model decides on an action, code runs it, and the result goes back to the model to decide the next step.",
+    "heard": "\"Cap the agent loop at 10 steps so it can't run forever.\"",
+    "analogy": "Like taste, adjust, taste again until the drink is right.",
+    "reviewed": false,
+    "theme": "Agents",
+    "day": 3
+  },
+  "keep_brewing": null,
+  "poll": null
+}

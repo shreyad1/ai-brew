@@ -183,3 +183,4 @@ used:
 - Prompt caching
 - Tool calling
 - MCP
+- Agent loop
