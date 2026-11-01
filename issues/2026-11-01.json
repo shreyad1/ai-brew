@@ -1,0 +1,198 @@
+{
+  "glance": [
+    {
+      "id": "n16",
+      "summary": "OpenAI, Google, Microsoft, and Anthropic adopt a shared policy token standard for publisher scraping opt-outs.",
+      "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25330660/STK414_AI_CHATBOT_H.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n18",
+      "summary": "Google transmitted its first space-generated response using an on-board AI model on an orbiting satellite.",
+      "link": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/project-suncatcher-google.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "w5",
+      "summary": "Worldwide Express automated freight billing exceptions using a multi-agent Amazon Bedrock solution, cutting exceptions 75 percent.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "n2",
+      "summary": "xAI faces a lawsuit over Clean Air Act violations after a judge allowed the case to proceed.",
+      "link": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n16",
+      "headline": "Tech giants join shared standard for web scraping opt-outs",
+      "teaser": "Publishers get scraping opt-out standard",
+      "summary": "OpenAI, Google, Microsoft, and Anthropic will adopt a shared standard letting publishers set AI training preferences across multiple companies at once. The system uses a policy token signal.",
+      "why": "It gives website creators an easier way to control how AI models use their online content.",
+      "explain": {
+        "kid": "Big AI companies agreed on a new rule that lets people who make websites tell AI bots to stop copying their work.",
+        "pm": "Four major AI vendors are adopting a single policy token standard, simplifying scraping opt-outs for publishers across platforms.",
+        "engineer": "OpenAI, Google, Microsoft, and Anthropic will support a shared policy token standard that lets publishers declare AI training opt-out preferences across multiple AI crawlers at once."
+      },
+      "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25330660/STK414_AI_CHATBOT_H.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n18",
+      "headline": "Google satellite AI model sends first response from space",
+      "teaser": "Google satellite AI responds from space",
+      "summary": "Google booted up Tensor Processing Units on an orbiting satellite to run its Gemma 4 model. The system generated its first response, creating a space haiku.",
+      "link": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/project-suncatcher-google.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n2",
+      "headline": "NAACP lawsuit against xAI data center proceeds",
+      "teaser": "xAI pollution lawsuit moves forward",
+      "summary": "A judge allowed an NAACP lawsuit against xAI to move forward. The lawsuit accuses the SpaceX-owned company of violating the Clean Air Act at its data center.",
+      "link": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w5",
+      "headline": "Worldwide Express cuts freight billing exceptions with Amazon Bedrock",
+      "teaser": "Worldwide Express automates freight exceptions",
+      "summary": "Worldwide Express built a multi-agent AI solution on Amazon Bedrock to automate freight billing exceptions. The system cut active exceptions by 75% and unlocked $10 million in free cash flow.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "w14",
+      "headline": "Epsilon automates user interface testing with Amazon Nova Act",
+      "teaser": "Epsilon automates web UI tests",
+      "summary": "Epsilon built a UI testing service using Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool. Tests written in plain English run on browsers managed by AWS with zero per-team infrastructure overhead.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u2",
+      "summary": "Pope Leo called for a ban on lethal autonomous weapons during an upcoming UN meeting in Geneva.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2226124908.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    {
+      "id": "u5",
+      "summary": "Google DeepMind unveiled its Genie 4 world model, which will roll out soon to developers and Google AI Ultra subscribers.",
+      "link": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/vlcsnap-2026-10-27-10h06m52s461-1152x648.png",
+      "date_mentioned": null
+    },
+    {
+      "id": "u1",
+      "summary": "Apple announced it will launch Apple Intelligence in China starting with an iOS 27.3 beta on November 4th.",
+      "link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25699392/DSC08596_processed.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n6",
+      "summary": "Ollie, a privacy-focused AI assistant, will shut down in one week as the AI assistant market grows crowded.",
+      "link": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "w8",
+      "summary": "Pay for AI-exposed IT jobs grew 46% since 2021, but tech workers face rising burnout and a widening gender gap.",
+      "link": "https://www.cio.com/article/4242019/state-of-it-jobs-ai-boosts-salaries-but-also-burnout-and-the-gender-gap.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4242019-0-23182300-1793354530-6-data-risks-shutterstock_2650527631.jpg?quality=50&strip=all"
+    },
+    {
+      "id": "n19",
+      "summary": "Zest launched an AI agent that gathers dining preferences over text, votes on options, and books restaurant reservations.",
+      "link": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d9",
+        "label": "Open model",
+        "headline": "Mistral releases open weights for Mistral Large 4",
+        "summary": "Mistral released the weights for Mistral Large 4 on Hugging Face. The frontier open model holds a 1-point coding lead over GLM-5.3.",
+        "link": "https://thenewstack.io/mistral-chonk-coding-model/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/10/c4e85706-resource-database-8y0cqyxbfce-unsplash-1024x819.jpg"
+      },
+      {
+        "id": "d4",
+        "label": "Usage limits",
+        "headline": "Anthropic removes Claude Code five-hour rolling cap",
+        "summary": "Anthropic eliminated the rolling five-hour usage limit for Claude Code users on its $200 plan, provided their accounts stay in good standing.",
+        "link": "https://thenewstack.io/claude-ultra-session-limit/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/10/7d64b952-adriandra-karuniawan-1kvwsbza_ba-unsplash-1024x731.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d7",
+      "term": "token-based pricing",
+      "explanation": "A pricing model where AI usage is billed per token. OpenAI considered dropping token-based pricing for its next model to charge per prompt instead, but backed off.",
+      "link": "https://thenewstack.io/openai-token-pricing-reversal/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/03/f7a6563d-screenshot-2026-03-04-at-14.29.48-1024x585.png"
+    }
+  },
+  "long_read": {
+    "id": "l3",
+    "headline": "The Pulse: Anthropic kills the coding interview",
+    "summary": "The newsletter reports that Anthropic has removed Leetcode-style coding interviews from its hiring process because AI makes them pointless.",
+    "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-anthropic-kills-the-coding",
+    "source": "The Pragmatic Engineer",
+    "image": "https://substackcdn.com/image/fetch/$s_!LqGQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc10d7a14-d196-4d3e-89f4-51d28a0ce45a_2042x1006.png"
+  },
+  "number": 9,
+  "date_iso": "2026-11-01",
+  "date_long": "Sunday \u00b7 1 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-01",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": {
+    "term": "Orchestration",
+    "definition": "The code that coordinates models, tools, and steps in a workflow, deciding what runs, in what order, with what retries.",
+    "heard": "\"Keep the business logic in orchestration, not in the prompt.\"",
+    "analogy": "Like the shift lead who decides who makes which drink and in what order.",
+    "reviewed": false,
+    "theme": "Agents",
+    "day": 4
+  },
+  "keep_brewing": null,
+  "poll": null
+}

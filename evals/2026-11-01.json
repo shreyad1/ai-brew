@@ -1,0 +1,340 @@
+{
+  "date": "2026-11-01",
+  "claims": 38,
+  "supported": 35,
+  "partial": 3,
+  "unsupported": 0,
+  "faithfulness": 0.961,
+  "flagged": [
+    {
+      "section": "builder",
+      "id": "d4",
+      "claim": "Anthropic removes Claude Code five-hour rolling cap",
+      "source": "Anthropic just removed one of Claude\u2019s biggest usage limits \u2014 but not for everyone. Claude Code users on Anthropic\u2019s $200 plan will no longer face a rolling five-hour usage cap, provided their accounts are",
+      "verdict": "partial",
+      "reason": "The claim presents a blanket removal of the limit, omitting the source's specification that this change is only for $200 plan users."
+    },
+    {
+      "section": "builder",
+      "id": "d4",
+      "claim": "Anthropic eliminated the rolling five-hour usage limit for Claude Code users on its $200 plan, provided their accounts stay in good standing.",
+      "source": "Anthropic just removed one of Claude\u2019s biggest usage limits \u2014 but not for everyone. Claude Code users on Anthropic\u2019s $200 plan will no longer face a rolling five-hour usage cap, provided their accounts are",
+      "verdict": "partial",
+      "reason": "The core fact is supported, but the specific detail 'stay in good standing' goes beyond the truncated source text."
+    },
+    {
+      "section": "concept",
+      "id": "d7",
+      "claim": "A pricing model where AI usage is billed per token.",
+      "source": "Sam Altman almost scrapped token pricing. Here\u2019s why he backed off.. OpenAI considered dropping token-based pricing for its next model, letting developers submit a prompt and receive a price for the",
+      "verdict": "partial",
+      "reason": "The source mentions token-based pricing, but it does not explicitly define it as a pricing model billed per token."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n16",
+      "claim": "OpenAI, Google, Microsoft, and Anthropic adopt a shared policy token standard for publisher scraping opt-outs.",
+      "source": "The biggest names in AI are backing a new way to opt out of scraping. OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms that OpenAI, Google, Microsoft, and Anthropic say they will adopt this shared 'policy token' standard to opt out of scraping."
+    },
+    {
+      "section": "glance",
+      "id": "n18",
+      "claim": "Google transmitted its first space-generated response using an on-board AI model on an orbiting satellite.",
+      "source": "Google\u2019s satellite AI server transmits its first response to Earth. Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below Data streams in [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states that Google's AI chip-equipped satellite generated its first response from space using an on-board model (Gemma 4)."
+    },
+    {
+      "section": "glance",
+      "id": "w5",
+      "claim": "Worldwide Express automated freight billing exceptions using a multi-agent Amazon Bedrock solution, cutting exceptions 75 percent.",
+      "source": "How Worldwide Express automated freight exceptions with Amazon Bedrock. Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash flow.",
+      "verdict": "supported",
+      "reason": "The source directly confirms Worldwide Express automated its freight billing-exception process using an Amazon Bedrock multi-agent solution and cut active exceptions by 75%."
+    },
+    {
+      "section": "glance",
+      "id": "n2",
+      "claim": "xAI faces a lawsuit over Clean Air Act violations after a judge allowed the case to proceed.",
+      "source": "Judge allows NAACP lawsuit over xAI data center pollution to move forward. An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "verdict": "supported",
+      "reason": "The source mentions a judge allowed the NAACP lawsuit accusing xAI of Clean Air Act violations to move forward."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "Tech giants join shared standard for web scraping opt-outs",
+      "source": "The biggest names in AI are backing a new way to opt out of scraping. OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states that the biggest names in AI are backing and adopting a new shared standard to opt out of scraping."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "OpenAI, Google, Microsoft, and Anthropic will adopt a shared standard letting publishers set AI training preferences across multiple companies at once.",
+      "source": "The biggest names in AI are backing a new way to opt out of scraping. OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states these four companies will adopt a new standard letting publishers apply AI training preferences across multiple AI companies instead of setting them individually."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "The system uses a policy token signal.",
+      "source": "The biggest names in AI are backing a new way to opt out of scraping. OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly references 'The shared \"policy token\" signal'."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "It gives website creators an easier way to control how AI models use their online content.",
+      "source": "The biggest names in AI are backing a new way to opt out of scraping. OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states this control provides a new way for publishers to apply their AI training preferences across multiple AI companies rather than individually."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "Big AI companies agreed on a new rule that lets people who make websites tell AI bots to stop copying their work.",
+      "source": "The biggest names in AI are backing a new way to opt out of scraping. OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms that major AI companies will adopt a standard for publishers to opt out of being scraped for AI training."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "Four major AI vendors are adopting a single policy token standard, simplifying scraping opt-outs for publishers across platforms.",
+      "source": "The biggest names in AI are backing a new way to opt out of scraping. OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms OpenAI, Google, Microsoft, and Anthropic will adopt the shared policy token standard to streamline scraping opt-outs across multiple AI companies."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "OpenAI, Google, Microsoft, and Anthropic will support a shared policy token standard that lets publishers declare AI training opt-out preferences across multiple AI crawlers at once.",
+      "source": "The biggest names in AI are backing a new way to opt out of scraping. OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms that OpenAI, Google, Microsoft, and Anthropic will adopt the policy token standard allowing publishers to apply opt-out preferences across multiple AI companies at once."
+    },
+    {
+      "section": "big_pour",
+      "id": "n18",
+      "claim": "Google satellite AI model sends first response from space",
+      "source": "Google\u2019s satellite AI server transmits its first response to Earth. Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below Data streams in [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states that Google's satellite AI server generated and transmitted its first response from space."
+    },
+    {
+      "section": "big_pour",
+      "id": "n18",
+      "claim": "Google booted up Tensor Processing Units on an orbiting satellite to run its Gemma 4 model.",
+      "source": "Google\u2019s satellite AI server transmits its first response to Earth. Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below Data streams in [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Google booted up the satellite's TPUs to allow the Gemma 4 model to run."
+    },
+    {
+      "section": "big_pour",
+      "id": "n18",
+      "claim": "The system generated its first response, creating a space haiku.",
+      "source": "Google\u2019s satellite AI server transmits its first response to Earth. Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below Data streams in [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms the satellite generated its first response by responding to a prompt for a space haiku."
+    },
+    {
+      "section": "big_pour",
+      "id": "n2",
+      "claim": "NAACP lawsuit against xAI data center proceeds",
+      "source": "Judge allows NAACP lawsuit over xAI data center pollution to move forward. An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "verdict": "supported",
+      "reason": "The source states that a judge is allowing the NAACP lawsuit regarding xAI data center pollution to move forward."
+    },
+    {
+      "section": "big_pour",
+      "id": "n2",
+      "claim": "A judge allowed an NAACP lawsuit against xAI to move forward.",
+      "source": "Judge allows NAACP lawsuit over xAI data center pollution to move forward. An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "verdict": "supported",
+      "reason": "The source explicitly confirms that a judge allowed the NAACP lawsuit against xAI to move forward."
+    },
+    {
+      "section": "big_pour",
+      "id": "n2",
+      "claim": "The lawsuit accuses the SpaceX-owned company of violating the Clean Air Act at its data center.",
+      "source": "Judge allows NAACP lawsuit over xAI data center pollution to move forward. An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "verdict": "supported",
+      "reason": "The source confirms the lawsuit concerns data center pollution and accuses the SpaceX-owned company of Clean Air Act violations."
+    },
+    {
+      "section": "office_blend",
+      "id": "w5",
+      "claim": "Worldwide Express cuts freight billing exceptions with Amazon Bedrock",
+      "source": "How Worldwide Express automated freight exceptions with Amazon Bedrock. Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash flow.",
+      "verdict": "supported",
+      "reason": "The source headline and text state that Worldwide Express reduced freight billing exceptions using Amazon Bedrock."
+    },
+    {
+      "section": "office_blend",
+      "id": "w5",
+      "claim": "Worldwide Express built a multi-agent AI solution on Amazon Bedrock to automate freight billing exceptions.",
+      "source": "How Worldwide Express automated freight exceptions with Amazon Bedrock. Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash flow.",
+      "verdict": "supported",
+      "reason": "The source directly states Worldwide Express automated its freight billing-exception process using a multi-agent solution built on Amazon Bedrock."
+    },
+    {
+      "section": "office_blend",
+      "id": "w5",
+      "claim": "The system cut active exceptions by 75% and unlocked $10 million in free cash flow.",
+      "source": "How Worldwide Express automated freight exceptions with Amazon Bedrock. Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash flow.",
+      "verdict": "supported",
+      "reason": "The source specifies that the company cut active exceptions by 75% and unlocked $10 million in free cash flow."
+    },
+    {
+      "section": "office_blend",
+      "id": "w14",
+      "claim": "Epsilon automates user interface testing with Amazon Nova Act",
+      "source": "Building intent-driven UI testing with Amazon Nova Act. Epsilon's Agentic Platform team delivers UI testing as a managed, multi-tenant service built on Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool. Tests are written in plain English and run on browsers managed by AWS, giving every product team resilient, intent-driven testing with zero per-team infrastructure overhead.",
+      "verdict": "supported",
+      "reason": "The source confirms Epsilon delivers UI testing using Amazon Nova Act."
+    },
+    {
+      "section": "office_blend",
+      "id": "w14",
+      "claim": "Epsilon built a UI testing service using Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool.",
+      "source": "Building intent-driven UI testing with Amazon Nova Act. Epsilon's Agentic Platform team delivers UI testing as a managed, multi-tenant service built on Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool. Tests are written in plain English and run on browsers managed by AWS, giving every product team resilient, intent-driven testing with zero per-team infrastructure overhead.",
+      "verdict": "supported",
+      "reason": "The source states that Epsilon's UI testing service is built on Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool."
+    },
+    {
+      "section": "office_blend",
+      "id": "w14",
+      "claim": "Tests written in plain English run on browsers managed by AWS with zero per-team infrastructure overhead.",
+      "source": "Building intent-driven UI testing with Amazon Nova Act. Epsilon's Agentic Platform team delivers UI testing as a managed, multi-tenant service built on Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool. Tests are written in plain English and run on browsers managed by AWS, giving every product team resilient, intent-driven testing with zero per-team infrastructure overhead.",
+      "verdict": "supported",
+      "reason": "The source directly verifies that tests are written in plain English, run on AWS-managed browsers, and carry zero per-team infrastructure overhead."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u2",
+      "claim": "Pope Leo called for a ban on lethal autonomous weapons during an upcoming UN meeting in Geneva.",
+      "source": "Pope Leo calls for the disarmament of AI: \u2018Machines are tools, not persons\u2019. Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\" during their meeting in Geneva next month. The address reflects many [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states that Pope Leo encouraged UN member states to take steps toward banning lethal autonomous weapons at their meeting in Geneva next month."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u5",
+      "claim": "Google DeepMind unveiled its Genie 4 world model, which will roll out soon to developers and Google AI Ultra subscribers.",
+      "source": "DeepMind unveils Genie 4 world model promising more realistic physics and humans. Genie 4 will roll out to developers and Google AI Ultra subscribers soon.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that DeepMind unveiled Genie 4 and will roll it out soon to developers and Google AI Ultra subscribers."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u1",
+      "claim": "Apple announced it will launch Apple Intelligence in China starting with an iOS 27.3 beta on November 4th.",
+      "source": "Apple Intelligence is finally coming to China with iOS 27.3. Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This launch doesn't bring [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Apple's announcement to launch Apple Intelligence in China starting with an iOS 27.3 beta on November 4th."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n6",
+      "claim": "Ollie, a privacy-focused AI assistant, will shut down in one week as the AI assistant market grows crowded.",
+      "source": "Ollie, a privacy-focused AI assistant, is shutting down. As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "verdict": "supported",
+      "reason": "The source states that Ollie, a privacy-focused AI assistant, is shutting down in a week as AI assistants flood the market."
+    },
+    {
+      "section": "quick_sips",
+      "id": "w8",
+      "claim": "Pay for AI-exposed IT jobs grew 46% since 2021, but tech workers face rising burnout and a widening gender gap.",
+      "source": "State of IT jobs: AI boosts salaries but also burnout and the gender gap. Following the IT and tech hiring boom during the Covid-19 pandemic, companies made space for AI initiatives that resulted in increased layoffs . But new data reveals that some IT hiring trends are starting to turn around. Pay in the most AI-exposed occupations grew around 46% since 2021, compared to only 25% for jobs in the least-exposed category, according to the Dice Tech Sentiment report . The data reveals this gap began to grow in 2024 and continues to grow as job postings rebound after seve",
+      "verdict": "supported",
+      "reason": "The source confirms that pay for AI-exposed IT jobs grew 46% since 2021 alongside rising burnout and a widening gender gap."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n19",
+      "claim": "Zest launched an AI agent that gathers dining preferences over text, votes on options, and books restaurant reservations.",
+      "source": "Zest\u2019s new AI agent finds restaurants and books reservations over text. Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+      "verdict": "supported",
+      "reason": "The source supports that Zest's AI agent combines tastes over text, puts restaurant options to a vote, and makes reservations."
+    },
+    {
+      "section": "builder",
+      "id": "d9",
+      "claim": "Mistral releases open weights for Mistral Large 4",
+      "source": "Mistral\u2019s Large 4 open weights arrive with a 1-point coding lead over GLM-5.3: \u201cThere\u2019s nothing you can\u2019t do with this model that you can do with competitors.\u201d. On Thursday, Mistral released the weights for its frontier open model, Mistral Large 4 (ML4), on Hugging Face. Made available",
+      "verdict": "supported",
+      "reason": "The source directly states that Mistral released the weights for its frontier model, Mistral Large 4."
+    },
+    {
+      "section": "builder",
+      "id": "d9",
+      "claim": "Mistral released the weights for Mistral Large 4 on Hugging Face.",
+      "source": "Mistral\u2019s Large 4 open weights arrive with a 1-point coding lead over GLM-5.3: \u201cThere\u2019s nothing you can\u2019t do with this model that you can do with competitors.\u201d. On Thursday, Mistral released the weights for its frontier open model, Mistral Large 4 (ML4), on Hugging Face. Made available",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Mistral released the weights for Mistral Large 4 on Hugging Face."
+    },
+    {
+      "section": "builder",
+      "id": "d9",
+      "claim": "The frontier open model holds a 1-point coding lead over GLM-5.3.",
+      "source": "Mistral\u2019s Large 4 open weights arrive with a 1-point coding lead over GLM-5.3: \u201cThere\u2019s nothing you can\u2019t do with this model that you can do with competitors.\u201d. On Thursday, Mistral released the weights for its frontier open model, Mistral Large 4 (ML4), on Hugging Face. Made available",
+      "verdict": "supported",
+      "reason": "The source title confirms that Mistral Large 4 open weights arrive with a 1-point coding lead over GLM-5.3."
+    },
+    {
+      "section": "builder",
+      "id": "d4",
+      "claim": "Anthropic removes Claude Code five-hour rolling cap",
+      "source": "Anthropic just removed one of Claude\u2019s biggest usage limits \u2014 but not for everyone. Claude Code users on Anthropic\u2019s $200 plan will no longer face a rolling five-hour usage cap, provided their accounts are",
+      "verdict": "partial",
+      "reason": "The claim presents a blanket removal of the limit, omitting the source's specification that this change is only for $200 plan users."
+    },
+    {
+      "section": "builder",
+      "id": "d4",
+      "claim": "Anthropic eliminated the rolling five-hour usage limit for Claude Code users on its $200 plan, provided their accounts stay in good standing.",
+      "source": "Anthropic just removed one of Claude\u2019s biggest usage limits \u2014 but not for everyone. Claude Code users on Anthropic\u2019s $200 plan will no longer face a rolling five-hour usage cap, provided their accounts are",
+      "verdict": "partial",
+      "reason": "The core fact is supported, but the specific detail 'stay in good standing' goes beyond the truncated source text."
+    },
+    {
+      "section": "concept",
+      "id": "d7",
+      "claim": "A pricing model where AI usage is billed per token.",
+      "source": "Sam Altman almost scrapped token pricing. Here\u2019s why he backed off.. OpenAI considered dropping token-based pricing for its next model, letting developers submit a prompt and receive a price for the",
+      "verdict": "partial",
+      "reason": "The source mentions token-based pricing, but it does not explicitly define it as a pricing model billed per token."
+    },
+    {
+      "section": "concept",
+      "id": "d7",
+      "claim": "OpenAI considered dropping token-based pricing for its next model to charge per prompt instead, but backed off.",
+      "source": "Sam Altman almost scrapped token pricing. Here\u2019s why he backed off.. OpenAI considered dropping token-based pricing for its next model, letting developers submit a prompt and receive a price for the",
+      "verdict": "supported",
+      "reason": "The source states OpenAI considered dropping token pricing to price submitted prompts, and that Sam Altman backed off."
+    },
+    {
+      "section": "long_read",
+      "id": "l3",
+      "claim": "The Pulse: Anthropic kills the coding interview",
+      "source": "The Pulse: Anthropic kills the coding interview. AI is rendering the Leetcode-style interview pointless and now Anthropic has deleted it from its interview loop. Also: details of incident.io\u2019s AI spend, Microsoft\u2019s exit offer to engineers, and more",
+      "verdict": "supported",
+      "reason": "The claim is an exact quote of the headline in the source text."
+    },
+    {
+      "section": "long_read",
+      "id": "l3",
+      "claim": "The newsletter reports that Anthropic has removed Leetcode-style coding interviews from its hiring process because AI makes them pointless.",
+      "source": "The Pulse: Anthropic kills the coding interview. AI is rendering the Leetcode-style interview pointless and now Anthropic has deleted it from its interview loop. Also: details of incident.io\u2019s AI spend, Microsoft\u2019s exit offer to engineers, and more",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Anthropic deleted the Leetcode-style interview from its loop because AI is rendering it pointless."
+    }
+  ]
+}
