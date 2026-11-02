@@ -1,0 +1,805 @@
+{
+  "generated_at": "2026-11-02T15:25:21.934072-06:00",
+  "warnings": [
+    "Word of the Day 'Human-in-the-loop' is not marked reviewed in learning_path.yaml"
+  ],
+  "failed_feeds": [
+    "Import AI: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+  ],
+  "sources": {
+    "n1": {
+      "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "link": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "source": "TechCrunch",
+      "published": "2026-11-02T19:19:17+00:00",
+      "summary": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet\u2019s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+      "categories": [
+        "AI",
+        "Brave",
+        "In Brief",
+        "new york times"
+      ],
+      "image": null
+    },
+    "n2": {
+      "title": "Anthropic clamps down on Claude\u2019s AI video game clones",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "source": "The Verge",
+      "published": "2026-11-02T18:56:02+00:00",
+      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to recreate existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to [\u2026]",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Entertainment",
+        "Gaming",
+        "News"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n3": {
+      "title": "Coming in 2027: Apple\u2019s $1,000 home robot for FaceTime and switching on lights",
+      "link": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
+      "source": "Ars Technica",
+      "published": "2026-11-02T18:32:21+00:00",
+      "summary": "Apple robot backed by CEO John Ternus may have hefty price tag and limited uses.",
+      "categories": [
+        "AI",
+        "Apple",
+        "apple",
+        "John Ternus",
+        "physical AI",
+        "Robotics",
+        "robots"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Apple-CEO-John-Ternus-1152x648.jpg"
+    },
+    "n4": {
+      "title": "Claude\u2019s new rules against game cloning won\u2019t stop the AI copying boom",
+      "link": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
+      "source": "Ars Technica",
+      "published": "2026-11-02T18:05:31+00:00",
+      "summary": "The tsunami of imitators is way bigger than any one model maker can stem.",
+      "categories": [
+        "AI",
+        "Gaming",
+        "Anthropic",
+        "Claude",
+        "clones",
+        "copying",
+        "decompilation",
+        "prompts"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1180626096-1152x648.jpg"
+    },
+    "n5": {
+      "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "source": "The Verge",
+      "published": "2026-11-02T18:01:30+00:00",
+      "summary": "In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to [\u2026]",
+      "categories": [
+        "AI",
+        "Energy",
+        "News",
+        "OpenAI",
+        "Science"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_A.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n6": {
+      "title": "42AI comes out of stealth with $62.5M and a world model that can \u2018predict human behavior\u2019",
+      "link": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "source": "TechCrunch",
+      "published": "2026-11-02T16:30:00+00:00",
+      "summary": "Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?",
+      "categories": [
+        "AI",
+        "Startups",
+        "behavioral analysis",
+        "Exclusive",
+        "predictive analytics",
+        "world models"
+      ],
+      "image": null
+    },
+    "n7": {
+      "title": "Elon Musk throttles Grok Bot limits due to \u2018unsustainably high\u2019 costs",
+      "link": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "source": "TechCrunch",
+      "published": "2026-11-02T16:23:21+00:00",
+      "summary": "Musk recently referred to Grok Bot as having \"the fastest growth of a product that I've ever seen in my life.\"",
+      "categories": [
+        "AI",
+        "Elon Musk",
+        "Grok",
+        "In Brief"
+      ],
+      "image": null
+    },
+    "n8": {
+      "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+      "link": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+      "source": "TechCrunch",
+      "published": "2026-11-02T15:00:00+00:00",
+      "summary": "Two startups tackling the data center water problem are joining forces in a $16 million deal.",
+      "categories": [
+        "AI",
+        "Startups",
+        "data centers",
+        "Exclusive",
+        "infrastructure",
+        "Mergers and Acquisitions",
+        "omen ai"
+      ],
+      "image": null
+    },
+    "n9": {
+      "title": "2 days till TechCrunch Founder Summit: Boston founders don\u2019t need a Silicon Valley address to build something big",
+      "link": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/",
+      "source": "TechCrunch",
+      "published": "2026-11-02T14:00:00+00:00",
+      "summary": "TechCrunch Founder Summit happens on November 4 in Boston for a founder-focused agenda and impactful connections. Save up to $100 or get discounts with group passes.",
+      "categories": [
+        "TC",
+        "Startups",
+        "Climate",
+        "Fintech",
+        "Biotech & Health",
+        "Venture",
+        "AI",
+        "Robotics",
+        "TechCrunch Founder Summit 2026"
+      ],
+      "image": null
+    },
+    "n10": {
+      "title": "OpenAI is finally merging ChatGPT\u2019s Chat and Work tabs",
+      "link": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "source": "TechCrunch",
+      "published": "2026-11-02T13:57:53+00:00",
+      "summary": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
+      "categories": [
+        "AI",
+        "Apps",
+        "ChatGPT",
+        "In Brief",
+        "OpenAI"
+      ],
+      "image": null
+    },
+    "n11": {
+      "title": "The agentic web is here",
+      "link": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+      "source": "MIT Technology Review",
+      "published": "2026-11-02T09:35:19+00:00",
+      "summary": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the \u201cSemantic Web\u201d: an internet designed to be navigated by autonomous software agents that could address our every\u2026",
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence"
+      ],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/spot1.jpg"
+    },
+    "n12": {
+      "title": "OpenAI might rebrand its data centers as \u2018AI compute campuses\u2019",
+      "link": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "source": "TechCrunch",
+      "published": "2026-11-01T21:55:23+00:00",
+      "summary": "Data centers are deeply unpopular. But what if we called them something else?",
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "Chris Lehane",
+        "In Brief",
+        "OpenAI"
+      ],
+      "image": null
+    },
+    "w1": {
+      "title": "Salesforce Signs Definitive Agreement to Acquire Cresta",
+      "link": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/",
+      "source": "Salesforce News",
+      "published": "2026-11-02T21:00:00+00:00",
+      "summary": "Combination unites advanced voice agents with the world\u2019s #1 CRM, bringing together the customer, the conversation and the outcome",
+      "categories": [
+        "Uncategorized"
+      ],
+      "image": null
+    },
+    "w2": {
+      "title": "Prepare web content for Amazon Bedrock Knowledge Bases with Crawl4AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-02T17:11:21+00:00",
+      "summary": "This post shows how to use Crawl4AI, an open source web crawler, as a content preparation layer for Amazon Bedrock Knowledge Bases, handling JavaScript rendering, selective extraction, and custom metadata enrichment before web content reaches an Amazon S3 data source.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock Knowledge Bases",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w3": {
+      "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-02T17:01:31+00:00",
+      "summary": "Agentic assistants built on frontier models run a multi-step tool loop, and paying frontier prices on every step is hard to sustain at production scale. This post shows how to use sequence-level knowledge distillation (SeqKD) to transfer a frontier teacher's agentic behavior into a small, lower-cost student on Amazon SageMaker AI.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon SageMaker AI",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w4": {
+      "title": "Agentic engineering intelligence with Amazon Nova Multimodal Embeddings and Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-02T17:01:16+00:00",
+      "summary": "Learn how to build a multi-agent engineering assistant that compresses aerospace component substitution evaluation from days to minutes, using Amazon Nova Multimodal Embeddings, Amazon Bedrock AgentCore, and the Strands Agents SDK to assemble substitution evidence while keeping the engineer as the decision-maker.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock AgentCore",
+        "Amazon Nova",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w5": {
+      "title": "How Circle K accelerated DevOps incident triage to under 15 minutes with Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-02T17:00:58+00:00",
+      "summary": "Circle K's DevOps team cut incident triage from 45-60 minutes to under 15 by building an agentic triage system on Amazon Bedrock. This post walks through the architecture, the initial Amazon Bedrock Flows implementation, the migration to Amazon Bedrock AgentCore, and the lessons learned from scaling it.",
+      "categories": [
+        "Amazon Bedrock",
+        "Customer Solutions"
+      ],
+      "image": null
+    },
+    "w6": {
+      "title": "13 key questions shaping CIOs\u2019 2027 IT agendas",
+      "link": "https://www.cio.com/article/4238115/13-key-questions-shaping-cios-2027-it-agendas.html",
+      "source": "CIO.com",
+      "published": "2026-11-02T10:01:00+00:00",
+      "summary": "With 2027 quickly looming, IT leaders should soon be finalizing their objectives for the new year, one certain to be rife with many unknowns if 2026 is any indication. This year began with the call for a pivot from AI pilots to AI ROI , but questions around AI governance and accountability quickly took center stage as agentic AI made further inroads in the enterprise and high-profile incidents showed the risks of AI gone awry and the value of security-first approaches to AI agents . Now, CIOs mu",
+      "categories": [
+        "Budgeting, Business IT Alignment, IT Leadership, IT Management, IT Strategy"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4238115-0-08618700-1793613922-IT-agendas-in-2027-shutterstock_4222623365.jpg?quality=50&strip=all"
+    },
+    "w7": {
+      "title": "The middle layer will make or break enterprise AI agents",
+      "link": "https://www.cio.com/article/4242744/the-middle-layer-will-make-or-break-enterprise-ai-agents.html",
+      "source": "CIO.com",
+      "published": "2026-11-02T09:00:00+00:00",
+      "summary": "The hype around AI agents and the models that power them is warranted. But while they can give organizations a real competitive advantage, in reality, how much value they deliver ultimately depends on something much less glamorous: the middleware and integrations that connect agents to systems across enterprise workflows. Enterprises have used AI in various forms for decades, but agents represent a significant shift in how we put AI to work and what we ask it to do. The first phase of AI largely",
+      "categories": [
+        "Artificial Intelligence, Enterprise Architecture"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4242744-0-62858100-1793610228-nick-fewings-9t_v5yHAW-o-unsplash.jpg?quality=50&strip=all"
+    },
+    "w8": {
+      "title": "Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams",
+      "link": "https://aws.amazon.com/blogs/machine-learning/managing-amazon-bedrock-costs-end-to-end-a-playbook-for-finops-and-platform-teams/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-30T22:42:24+00:00",
+      "summary": "This post presents a five-stage operating model for managing Amazon Bedrock cost: attribute every dollar to an owner, make every request observable, enforce budgets, optimize platform defaults, and operate a review cadence. Written for FinOps and platform engineering teams.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w9": {
+      "title": "Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime",
+      "link": "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-30T21:40:03+00:00",
+      "summary": "Amazon Bedrock AgentCore Session endpoints give each runtime session an authenticated URL that forwards any HTTP method, path, and WebSocket connection to the ports you allow. In this post, you deploy a coding agent that keeps a Vite website running in its session, then watch the live site update in your browser as the agent edits files.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock AgentCore",
+        "Announcements"
+      ],
+      "image": null
+    },
+    "w10": {
+      "title": "Why CIOs must prepare for hybrid quantum computing",
+      "link": "https://www.cio.com/article/4242872/why-cios-must-prepare-for-hybrid-quantum-computing.html",
+      "source": "CIO.com",
+      "published": "2026-10-30T17:38:58+00:00",
+      "summary": "For IT leaders mapping out the next five to ten years of computational strategy, the true business value of quantum will not be unlocked by independent quantum processors operating in a vacuum. Instead, the future lies in the seamless orchestration of hybrid cyberinfrastructure\u2014where quantum processing units (QPUs), graphics processing units (GPUs), and classical high-performance computing (HPC) environments operate in tandem. This paradigm shift is exactly what is driving the latest strategic i",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4242872-0-92852300-1793381956-shutterstock_2615909529.jpg?quality=50&strip=all"
+    },
+    "w11": {
+      "title": "The new geopolitics of IT: Why sovereign AI is the next boardroom mandate",
+      "link": "https://www.cio.com/article/4242869/the-new-geopolitics-of-it-why-sovereign-ai-is-the-next-boardroom-mandate.html",
+      "source": "CIO.com",
+      "published": "2026-10-30T17:34:32+00:00",
+      "summary": "Artificial intelligence has transitioned into a major instrument of corporate strategy and national competitiveness. Driven by a post-pandemic push for digital independence, escalating national security concerns, and multi-billion-dollar government subsidies globally, organizations are rewriting their infrastructure playbooks. For CIOs and enterprise technology leaders, this \u201cde-globalization\u201d of IT is not just an abstract political trend. It is an immediate operational reality that directly dic",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4242869-0-28192500-1793381690-shutterstock_2724717273_bd155b.jpg?quality=50&strip=all"
+    },
+    "w12": {
+      "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-30T17:32:20+00:00",
+      "summary": "Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash flow.",
+      "categories": [
+        "Amazon Bedrock",
+        "Customer Solutions"
+      ],
+      "image": null
+    },
+    "w13": {
+      "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-30T17:27:45+00:00",
+      "summary": "The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US). This post walks through a controlled local deployment that routes model inference to Amazon Bedrock in AWS GovCloud (US-West) using API-mode sign-in, a managed device policy, a named AWS profile, and network restrictions, so a security team can validate it before broader use.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock",
+        "AWS GovCloud (US)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w14": {
+      "title": "How CIOs can overcome the AI trust gap",
+      "link": "https://www.cio.com/article/4242239/how-cios-can-overcome-the-ai-trust-gap.html",
+      "source": "CIO.com",
+      "published": "2026-10-30T10:01:00+00:00",
+      "summary": "If you\u2019re like most CIOs, your CEO\u2019s viewpoint of and strategic outlook for AI has likely shifted several times over the past two-plus short years, perhaps even in contradictory ways. Initial doubts or disregard may have given way to full-out FOMO . Demands for copilots everywhere in everyone\u2019s hands may have experienced pullback as the bills and questions of value mounted . Rampant experimentation turned to targeted use cases. Pressure for widespread AI adoption narrowing as \u201c tokenmaxxing \u201d an",
+      "categories": [
+        "Artificial Intelligence, IT Leadership"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4242239-0-93400100-1793354626-shutterstock_2117160308.jpg?quality=50&strip=all"
+    },
+    "w15": {
+      "title": "State of IT jobs: AI boosts salaries but also burnout and the gender gap",
+      "link": "https://www.cio.com/article/4242019/state-of-it-jobs-ai-boosts-salaries-but-also-burnout-and-the-gender-gap.html",
+      "source": "CIO.com",
+      "published": "2026-10-30T10:00:00+00:00",
+      "summary": "Following the IT and tech hiring boom during the Covid-19 pandemic, companies made space for AI initiatives that resulted in increased layoffs . But new data reveals that some IT hiring trends are starting to turn around. Pay in the most AI-exposed occupations grew around 46% since 2021, compared to only 25% for jobs in the least-exposed category, according to the Dice Tech Sentiment report . The data reveals this gap began to grow in 2024 and continues to grow as job postings rebound after seve",
+      "categories": [
+        "Artificial Intelligence, Careers, Emerging Technology, IT Jobs, Roles, Salaries"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4242019-0-23182300-1793354530-6-data-risks-shutterstock_2650527631.jpg?quality=50&strip=all"
+    },
+    "u1": {
+      "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "source": "The Verge",
+      "published": "2026-11-02T18:01:30+00:00",
+      "summary": "In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to [\u2026]",
+      "categories": [
+        "AI",
+        "Energy",
+        "News",
+        "OpenAI",
+        "Science"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_A.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    "u2": {
+      "title": "2 days till TechCrunch Founder Summit: Boston founders don\u2019t need a Silicon Valley address to build something big",
+      "link": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/",
+      "source": "TechCrunch",
+      "published": "2026-11-02T14:00:00+00:00",
+      "summary": "TechCrunch Founder Summit happens on November 4 in Boston for a founder-focused agenda and impactful connections. Save up to $100 or get discounts with group passes.",
+      "categories": [
+        "TC",
+        "Startups",
+        "Climate",
+        "Fintech",
+        "Biotech & Health",
+        "Venture",
+        "AI",
+        "Robotics",
+        "TechCrunch Founder Summit 2026"
+      ],
+      "image": null,
+      "date_mentioned": "November 4"
+    },
+    "u3": {
+      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "source": "The Verge",
+      "published": "2026-10-30T22:32:53+00:00",
+      "summary": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This launch doesn't bring [\u2026]",
+      "categories": [
+        "AI",
+        "Apple",
+        "iOS",
+        "News",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25699392/DSC08596_processed.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    "u4": {
+      "title": "Pope Leo calls for the disarmament of AI: \u2018Machines are tools, not persons\u2019",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+      "source": "The Verge",
+      "published": "2026-10-30T14:58:06+00:00",
+      "summary": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\" during their meeting in Geneva next month. The address reflects many [\u2026]",
+      "categories": [
+        "AI",
+        "News",
+        "Policy"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2226124908.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    "u5": {
+      "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+      "link": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+      "source": "Ars Technica",
+      "published": "2026-10-27T16:00:22+00:00",
+      "summary": "Genie 4 will roll out to developers and Google AI Ultra subscribers soon.",
+      "categories": [
+        "AI",
+        "Google",
+        "Artificial Intelligence",
+        "deepmind",
+        "google",
+        "world models"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/vlcsnap-2026-10-27-10h06m52s461-1152x648.png",
+      "date_mentioned": null
+    },
+    "u6": {
+      "title": "Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime",
+      "link": "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-30T21:40:03+00:00",
+      "summary": "Amazon Bedrock AgentCore Session endpoints give each runtime session an authenticated URL that forwards any HTTP method, path, and WebSocket connection to the ports you allow. In this post, you deploy a coding agent that keeps a Vite website running in its session, then watch the live site update in your browser as the agent edits files.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock AgentCore",
+        "Announcements"
+      ],
+      "image": null,
+      "date_mentioned": null
+    },
+    "d1": {
+      "title": "Developers are downgrading their AI on purpose \u2014 and it\u2019s working",
+      "link": "https://thenewstack.io/claude-code-developer-refusals/",
+      "source": "The New Stack",
+      "published": "2026-11-02T21:03:31+00:00",
+      "summary": "Anthropic has confirmed that it added new restrictions to Claude Code to prevent users from recreating existing video games. But",
+      "categories": [
+        "AI Models",
+        "Developer tools",
+        "Software Development"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/2b66602e-risky-ming-2k9rzbhzaem-unsplash-1024x698.jpg"
+    },
+    "d2": {
+      "title": "Your AI coding agent now runs on a budget \u2014 and it can cut you off mid-task",
+      "link": "https://thenewstack.io/22842541cognition-devin-hierarchical-budgets/",
+      "source": "The New Stack",
+      "published": "2026-11-02T19:03:38+00:00",
+      "summary": "The days of pointing an AI agent at a backlog and letting it burn through compute without much oversight may",
+      "categories": [
+        "AI Agents",
+        "FinOps",
+        "Operations"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/349bc6a4-getty-images-um5wntq2sf0-unsplash-1024x675.jpg"
+    },
+    "d3": {
+      "title": "Canva\u2019s new design model doesn\u2019t generate images. It writes code to edit them.",
+      "link": "https://thenewstack.io/canva-brush-design-editing/",
+      "source": "The New Stack",
+      "published": "2026-11-02T18:06:26+00:00",
+      "summary": "Australian graphic design software company Canva took the wraps off Canva Brush last week, its new vision-language model for designers.",
+      "categories": [
+        "AI Agents",
+        "AI Models",
+        "Emerging technologies"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/dd3198a3-handonmouse-1024x614.png"
+    },
+    "d4": {
+      "title": "OpenAI\u2019s new shared usage limit pits ChatGPT against Codex",
+      "link": "https://thenewstack.io/openai-chatgpt-codex-shared-limits/",
+      "source": "The New Stack",
+      "published": "2026-11-02T16:45:19+00:00",
+      "summary": "OpenAI has revealed plans to combine usage allowances across ChatGPT and Codex, as part of a broader effort to integrate",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "AI Strategy",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/0293c587-codexgpt-1024x576.jpg"
+    },
+    "d5": {
+      "title": "Five years after the fork, OpenSearch is slowly stepping out of AWS\u2019s shadow",
+      "link": "https://thenewstack.io/opensearch-foundation-aws-elasticsearch/",
+      "source": "The New Stack",
+      "published": "2026-10-31T16:02:34+00:00",
+      "summary": "OpenSearch has come a long way since Amazon Web Services first announced the project back in January 2021, in response",
+      "categories": [
+        "AI",
+        "AI Infrastructure",
+        "Data",
+        "Open Source"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/e88d1014-aws-hero-1024x576.jpg"
+    },
+    "d6": {
+      "title": "Amazon CEO predicts 6 to 8 AI models will be \u2018good enough\u2019 for almost everything",
+      "link": "https://thenewstack.io/jassy-bedrock-multimodel-prediction/",
+      "source": "The New Stack",
+      "published": "2026-10-31T14:30:00+00:00",
+      "summary": "Amazon CEO Andy Jassy expects the frontier AI model race to produce several competitive models rather than a single winner,",
+      "categories": [
+        "AI Models",
+        "AI Strategy",
+        "Cloud Services"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/e12596ac-adriandra-karuniawan-p6azjkuq_ge-unsplash-1024x731.jpg"
+    },
+    "d7": {
+      "title": "GPT-6.1 Terra vs. Claude Opus 5.5: Cheaper and faster in three tests at max effort",
+      "link": "https://thenewstack.io/gpt-6-1-terra-vs-claude-opus-5-5/",
+      "source": "The New Stack",
+      "published": "2026-10-31T14:00:00+00:00",
+      "summary": "OpenAI launched GPT-6.1 Terra on October 26, and included two direct comparisons with Opus 5.5 in its marketing materials. It",
+      "categories": [
+        "AI Models",
+        "Anthropic",
+        "Large Language Models",
+        "Software Testing"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/374e8f01-getty-images-z8rxuuw3s8y-unsplash-1024x768.jpg"
+    },
+    "d8": {
+      "title": "Anthropic just removed one of Claude\u2019s biggest usage limits \u2014 but not for everyone",
+      "link": "https://thenewstack.io/claude-ultra-session-limit/",
+      "source": "The New Stack",
+      "published": "2026-10-30T20:14:04+00:00",
+      "summary": "Claude Code users on Anthropic\u2019s $200 plan will no longer face a rolling five-hour usage cap, provided their accounts are",
+      "categories": [
+        "AI Strategy",
+        "Developer tools",
+        "FinOps"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/7d64b952-adriandra-karuniawan-1kvwsbza_ba-unsplash-1024x731.jpg"
+    },
+    "d9": {
+      "title": "What worries Entire co-founder Thomas Dohmke about the future of tech?",
+      "link": "https://thenewstack.io/we-are-developers-tech-predictions/",
+      "source": "The New Stack",
+      "published": "2026-10-30T19:37:46+00:00",
+      "summary": "Former GitHub CEO Thomas Dohmke is taking on his old company. His startup, Entire, launched a GitHub alternative this week,",
+      "categories": [
+        "AI",
+        "Software Development",
+        "Tech Culture",
+        "WeAreDevelopers"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/ca419ed8-screenshot-2026-10-30-at-15.31.44-1024x595.png"
+    },
+    "d10": {
+      "title": "GPT-6.1 Terra vs. GPT-6 Astra: One sacrifices accuracy for lower cost and higher speed at high effort",
+      "link": "https://thenewstack.io/gpt-6-1-terra-vs-gpt-6-astra/",
+      "source": "The New Stack",
+      "published": "2026-10-30T14:59:35+00:00",
+      "summary": "OpenAI released GPT-6.1 Terra on October 26, marketing it as a cheap, fast model for high-volume everyday work, priced at",
+      "categories": [
+        "AI",
+        "AI Models",
+        "Large Language Models",
+        "Software Testing"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/10/c6fb79bf-neeqolah-creative-works-tn5gnxgi3hi-unsplash-1024x717.jpg"
+    },
+    "d11": {
+      "title": "Sam Altman almost scrapped token pricing. Here\u2019s why he backed off.",
+      "link": "https://thenewstack.io/openai-token-pricing-reversal/",
+      "source": "The New Stack",
+      "published": "2026-10-29T22:19:18+00:00",
+      "summary": "OpenAI considered dropping token-based pricing for its next model, letting developers submit a prompt and receive a price for the",
+      "categories": [
+        "AI Models",
+        "AI Strategy",
+        "FinOps"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/03/f7a6563d-screenshot-2026-03-04-at-14.29.48-1024x585.png"
+    },
+    "l1": {
+      "title": "New Survey: Math Students Are Giving Up",
+      "link": "https://www.thealgorithmicbridge.com/p/new-survey-math-students-are-giving",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-02T18:42:07+00:00",
+      "summary": "This is what a dying field looks like",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!zLz8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F79b78c94-b2a8-4004-ad73-ff3dcdba3c4d_726x394.png"
+    },
+    "l2": {
+      "title": "Korea\u2019s Stock Market Crashed $1 Trillion. What Does That Mean for the Global AI Race?",
+      "link": "https://www.chinatalk.media/p/koreas-stock-market-crashed-1-trillion",
+      "source": "ChinaTalk",
+      "published": "2026-11-01T13:33:33+00:00",
+      "summary": "Richard Gray is an analyst who works for a foreign policy think tank in Washington, D.C.",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!B-Fs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0fdcbd7-1627-4632-8192-0a27d060c84d_936x637.png"
+    },
+    "l3": {
+      "title": "Was I wrong about open models & cyber risks?",
+      "link": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+      "source": "Interconnects",
+      "published": "2026-10-30T17:36:56+00:00",
+      "summary": "Last week coined the term \u201cBlack October\u201c after an onslaught of critical vulnerability disclosures, including PHP2Shell and a long-standing GitLab bug, signified the moment when the cyber risks of AI models started to materialize.",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!NQ70!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff51bb5d0-4390-4676-af4a-6bc8199412d5_2006x1362.png"
+    },
+    "l4": {
+      "title": "The Pulse: Anthropic kills the coding interview",
+      "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-anthropic-kills-the-coding",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-10-30T16:37:51+00:00",
+      "summary": "AI is rendering the Leetcode-style interview pointless and now Anthropic has deleted it from its interview loop. Also: details of incident.io\u2019s AI spend, Microsoft\u2019s exit offer to engineers, and more",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!LqGQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc10d7a14-d196-4d3e-89f4-51d28a0ce45a_2042x1006.png"
+    },
+    "l5": {
+      "title": "Is Half of China\u2019s AI Making Slop?",
+      "link": "https://www.chinatalk.media/p/is-half-of-chinas-ai-making-slop",
+      "source": "ChinaTalk",
+      "published": "2026-10-30T10:04:01+00:00",
+      "summary": "The 55% token myth, and China\u2019s guilty pleasure",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!flLK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb8f2106-e1db-4fd2-bf05-c2e1532b8a14_1920x1080.png"
+    },
+    "l6": {
+      "title": "AI is overwhelming and I\u2019m doing it wrong",
+      "link": "https://www.bensbites.com/p/ai-is-overwhelming-and-im-doing-it",
+      "source": "Ben's Bites",
+      "published": "2026-10-29T14:03:54+00:00",
+      "summary": "Let\u2019s think about what we\u2019re doing here",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!AM0R!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2115535996909490176.jpg"
+    },
+    "l7": {
+      "title": "Software engineering at Google & CS education with Titus Winters",
+      "link": "https://newsletter.pragmaticengineer.com/p/software-engineering-at-google-and",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-10-29T13:37:13+00:00",
+      "summary": "Titus Winters shares lessons from engineering at Google\u2019s scale and explores how AI is reshaping developer productivity and computer science education.",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!Qhi0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1228ff6a-514b-4643-9360-02cda14dc5ac_800x70.png"
+    },
+    "l8": {
+      "title": "New Study: Anthropic Just Gave You a Reason to Stop Working With AI",
+      "link": "https://www.thealgorithmicbridge.com/p/new-study-anthropic-just-gave-you",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-10-29T13:20:35+00:00",
+      "summary": "The machine is secretly making up your mind",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!kGSx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e489782-1e99-48b1-81e0-75ea86d7b651_1200x923.jpeg"
+    }
+  },
+  "llm_draft": {
+    "glance": [
+      {
+        "id": "n5",
+        "summary": "OpenAI will test sharing up to 1,000 megawatts of data center power during local emergencies."
+      },
+      {
+        "id": "n1",
+        "summary": "The New York Times is suing web browser Brave for allegedly scraping and distributing copyrighted news content."
+      },
+      {
+        "id": "n2",
+        "summary": "Anthropic updated Claude Code to block developers from using the AI tool to copy existing video games."
+      },
+      {
+        "id": "w1",
+        "summary": "Salesforce agreed to acquire Cresta to bring advanced AI voice agents into its customer management software."
+      }
+    ],
+    "big_pour": [
+      {
+        "id": "n5",
+        "headline": "OpenAI plans data center power relief during emergencies",
+        "teaser": "Emergency power for local grids",
+        "summary": "OpenAI announced it will pilot its \"Grid Protectors Program\" at an upcoming Georgia data center, pledging up to 1,000 megawatts of power during emergencies or extreme weather.",
+        "why": "Nearby residents could receive extra electricity during extreme weather to keep air conditioners running.",
+        "explain": {
+          "kid": "OpenAI is making an upcoming computer data center in Georgia that can free up power for nearby homes during bad weather.",
+          "pm": "OpenAI will pilot its \"Grid Protectors Program\" in Georgia, freeing up 1,000 megawatts of data center power during extreme weather or emergencies.",
+          "engineer": "OpenAI's upcoming Effingham County data center will pilot freeing up 1,000 megawatts of power during emergencies, releasing capacity to local electrical grids."
+        }
+      },
+      {
+        "id": "n2",
+        "headline": "Anthropic blocks Claude from cloning existing video games",
+        "teaser": "Limits on game cloning",
+        "summary": "Anthropic updated Claude Code's system prompt to stop the tool from recreating existing video games, though users may still use it to make original games."
+      },
+      {
+        "id": "n1",
+        "headline": "New York Times sues Brave over content scraping",
+        "teaser": "Lawsuit over content scraping",
+        "summary": "The New York Times is suing browser company Brave for allegedly scraping copyrighted material and distributing it to customers like Anthropic and Perplexity."
+      }
+    ],
+    "office_blend": [
+      {
+        "id": "w5",
+        "headline": "Circle K speeds up DevOps incident triage",
+        "teaser": "Faster incident triage",
+        "summary": "Circle K built an automated triage system on Amazon Bedrock, cutting incident response times from up to an hour to under 15 minutes."
+      },
+      {
+        "id": "w12",
+        "headline": "Worldwide Express automates freight billing exceptions",
+        "teaser": "Automating freight billing",
+        "summary": "Worldwide Express built a multi-agent solution on Amazon Bedrock, cutting active billing exceptions by 75% and unlocking $10 million in free cash flow."
+      }
+    ],
+    "still_roasting": [
+      {
+        "id": "u3",
+        "summary": "Apple will release Apple Intelligence in China with an iOS 27.3 beta in November, followed by a full December rollout."
+      },
+      {
+        "id": "u5",
+        "summary": "DeepMind unveiled its Genie 4 world model, which will roll out soon to developers and Google AI Ultra subscribers."
+      }
+    ],
+    "quick_sips": [
+      {
+        "id": "n7",
+        "summary": "Grok Bot usage limits were cut back by Elon Musk due to unsustainably high costs."
+      },
+      {
+        "id": "n10",
+        "summary": "OpenAI is combining ChatGPT's Chat and Work tabs to share usage allowances with Codex."
+      },
+      {
+        "id": "w1",
+        "summary": "Salesforce agreed to acquire Cresta to bring advanced voice agents into its customer management software."
+      }
+    ],
+    "builder": {
+      "stories": [
+        {
+          "id": "d3",
+          "label": "New tool",
+          "headline": "Canva Brush edits images by writing code",
+          "summary": "Canva launched Canva Brush, a vision-language model for designers that writes code to edit images rather than generating graphics directly."
+        },
+        {
+          "id": "d8",
+          "label": "Policy update",
+          "headline": "Anthropic lifts five-hour cap on Claude Code",
+          "summary": "Anthropic removed the rolling five-hour usage cap on Claude Code for users subscribed to its $200 plan."
+        }
+      ]
+    },
+    "long_read": {
+      "id": "l4",
+      "headline": "Anthropic kills the coding interview",
+      "summary": "The newsletter reports that Anthropic deleted coding interviews from its hiring process, arguing that AI has made traditional programming tests obsolete."
+    }
+  },
+  "first_check": {},
+  "dropped": [],
+  "explain_dropped": []
+}

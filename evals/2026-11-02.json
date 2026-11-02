@@ -1,0 +1,268 @@
+{
+  "date": "2026-11-02",
+  "claims": 29,
+  "supported": 26,
+  "partial": 3,
+  "unsupported": 0,
+  "faithfulness": 0.948,
+  "flagged": [
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "OpenAI will pilot its \"Grid Protectors Program\" in Georgia, freeing up 1,000 megawatts of data center power during extreme weather or emergencies.",
+      "source": "OpenAI pitches data center power plants as a way to protect nearby areas. In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to [\u2026]",
+      "verdict": "partial",
+      "reason": "The source specifies 'up to 1,000 megawatts', whereas the claim presents 1,000 megawatts as a fixed amount."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "OpenAI's upcoming Effingham County data center will pilot freeing up 1,000 megawatts of power during emergencies, releasing capacity to local electrical grids.",
+      "source": "OpenAI pitches data center power plants as a way to protect nearby areas. In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to [\u2026]",
+      "verdict": "partial",
+      "reason": "The source states the company promises to free 'up to' 1,000 megawatts, adding a limit that the claim omits."
+    },
+    {
+      "section": "builder",
+      "id": "d8",
+      "claim": "Anthropic lifts five-hour cap on Claude Code",
+      "source": "Anthropic just removed one of Claude\u2019s biggest usage limits \u2014 but not for everyone. Claude Code users on Anthropic\u2019s $200 plan will no longer face a rolling five-hour usage cap, provided their accounts are",
+      "verdict": "partial",
+      "reason": "The claim omits the crucial qualification that the cap is only lifted for users on the $200 plan under certain conditions."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n5",
+      "claim": "OpenAI will test sharing up to 1,000 megawatts of data center power during local emergencies.",
+      "source": "OpenAI pitches data center power plants as a way to protect nearby areas. In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states OpenAI promises to free up to 1,000 megawatts of power during emergencies at a pilot data center."
+    },
+    {
+      "section": "glance",
+      "id": "n1",
+      "claim": "The New York Times is suing web browser Brave for allegedly scraping and distributing copyrighted news content.",
+      "source": "New York Times and other outlets sue web browser Brave over alleged content scraping. The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet\u2019s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that The New York Times is suing web browser Brave over content scraping and distribution."
+    },
+    {
+      "section": "glance",
+      "id": "n2",
+      "claim": "Anthropic updated Claude Code to block developers from using the AI tool to copy existing video games.",
+      "source": "Anthropic clamps down on Claude\u2019s AI video game clones. Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to recreate existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Anthropic updated Claude Code's system prompt to prevent recreating existing video games."
+    },
+    {
+      "section": "glance",
+      "id": "w1",
+      "claim": "Salesforce agreed to acquire Cresta to bring advanced AI voice agents into its customer management software.",
+      "source": "Salesforce Signs Definitive Agreement to Acquire Cresta. Combination unites advanced voice agents with the world\u2019s #1 CRM, bringing together the customer, the conversation and the outcome",
+      "verdict": "supported",
+      "reason": "The source states Salesforce signed a definitive agreement to acquire Cresta, combining voice agents with its CRM software."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "OpenAI plans data center power relief during emergencies",
+      "source": "OpenAI pitches data center power plants as a way to protect nearby areas. In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states OpenAI promises to free up power from its data center during extreme weather or emergencies."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "OpenAI announced it will pilot its \"Grid Protectors Program\" at an upcoming Georgia data center, pledging up to 1,000 megawatts of power during emergencies or extreme weather.",
+      "source": "OpenAI pitches data center power plants as a way to protect nearby areas. In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to [\u2026]",
+      "verdict": "supported",
+      "reason": "The source supports all details, including the pilot program name, location, and power pledge."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "Nearby residents could receive extra electricity during extreme weather to keep air conditioners running.",
+      "source": "OpenAI pitches data center power plants as a way to protect nearby areas. In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to [\u2026]",
+      "verdict": "supported",
+      "reason": "The source notes the freed power would be enough to power air conditioners in around 700,000 homes during extreme weather."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "OpenAI is making an upcoming computer data center in Georgia that can free up power for nearby homes during bad weather.",
+      "source": "OpenAI pitches data center power plants as a way to protect nearby areas. In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states OpenAI will pilot freeing up power at an upcoming Georgia data center during extreme weather or emergencies."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "OpenAI will pilot its \"Grid Protectors Program\" in Georgia, freeing up 1,000 megawatts of data center power during extreme weather or emergencies.",
+      "source": "OpenAI pitches data center power plants as a way to protect nearby areas. In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to [\u2026]",
+      "verdict": "partial",
+      "reason": "The source specifies 'up to 1,000 megawatts', whereas the claim presents 1,000 megawatts as a fixed amount."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "OpenAI's upcoming Effingham County data center will pilot freeing up 1,000 megawatts of power during emergencies, releasing capacity to local electrical grids.",
+      "source": "OpenAI pitches data center power plants as a way to protect nearby areas. In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to [\u2026]",
+      "verdict": "partial",
+      "reason": "The source states the company promises to free 'up to' 1,000 megawatts, adding a limit that the claim omits."
+    },
+    {
+      "section": "big_pour",
+      "id": "n2",
+      "claim": "Anthropic blocks Claude from cloning existing video games",
+      "source": "Anthropic clamps down on Claude\u2019s AI video game clones. Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to recreate existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Anthropic updated system prompts to prevent Claude from recreating existing video games."
+    },
+    {
+      "section": "big_pour",
+      "id": "n2",
+      "claim": "Anthropic updated Claude Code's system prompt to stop the tool from recreating existing video games, though users may still use it to make original games.",
+      "source": "Anthropic clamps down on Claude\u2019s AI video game clones. Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to recreate existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states Anthropic updated the system prompt to stop recreating existing games while still allowing people to use Claude Code to make games."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "New York Times sues Brave over content scraping",
+      "source": "New York Times and other outlets sue web browser Brave over alleged content scraping. The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet\u2019s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that The New York Times is suing browser company Brave over content scraping."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "The New York Times is suing browser company Brave for allegedly scraping copyrighted material and distributing it to customers like Anthropic and Perplexity.",
+      "source": "New York Times and other outlets sue web browser Brave over alleged content scraping. The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet\u2019s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+      "verdict": "supported",
+      "reason": "The source directly confirms the lawsuit details, including the scraping of copyrighted material and distribution to Anthropic and Perplexity."
+    },
+    {
+      "section": "office_blend",
+      "id": "w5",
+      "claim": "Circle K speeds up DevOps incident triage",
+      "source": "How Circle K accelerated DevOps incident triage to under 15 minutes with Amazon Bedrock. Circle K's DevOps team cut incident triage from 45-60 minutes to under 15 by building an agentic triage system on Amazon Bedrock. This post walks through the architecture, the initial Amazon Bedrock Flows implementation, the migration to Amazon Bedrock AgentCore, and the lessons learned from scaling it.",
+      "verdict": "supported",
+      "reason": "The source directly states that Circle K accelerated DevOps incident triage."
+    },
+    {
+      "section": "office_blend",
+      "id": "w5",
+      "claim": "Circle K built an automated triage system on Amazon Bedrock, cutting incident response times from up to an hour to under 15 minutes.",
+      "source": "How Circle K accelerated DevOps incident triage to under 15 minutes with Amazon Bedrock. Circle K's DevOps team cut incident triage from 45-60 minutes to under 15 by building an agentic triage system on Amazon Bedrock. This post walks through the architecture, the initial Amazon Bedrock Flows implementation, the migration to Amazon Bedrock AgentCore, and the lessons learned from scaling it.",
+      "verdict": "supported",
+      "reason": "The source confirms Circle K built a triage system on Bedrock that reduced triage time from 45-60 minutes to under 15 minutes."
+    },
+    {
+      "section": "office_blend",
+      "id": "w12",
+      "claim": "Worldwide Express automates freight billing exceptions",
+      "source": "How Worldwide Express automated freight exceptions with Amazon Bedrock. Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash flow.",
+      "verdict": "supported",
+      "reason": "The source explicitly notes that Worldwide Express automated its freight billing-exception process."
+    },
+    {
+      "section": "office_blend",
+      "id": "w12",
+      "claim": "Worldwide Express built a multi-agent solution on Amazon Bedrock, cutting active billing exceptions by 75% and unlocking $10 million in free cash flow.",
+      "source": "How Worldwide Express automated freight exceptions with Amazon Bedrock. Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash flow.",
+      "verdict": "supported",
+      "reason": "The source supports all stated details, including the multi-agent Bedrock solution, 75% exception reduction, and $10 million in cash flow."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u3",
+      "claim": "Apple will release Apple Intelligence in China with an iOS 27.3 beta in November, followed by a full December rollout.",
+      "source": "Apple Intelligence is finally coming to China with iOS 27.3. Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This launch doesn't bring [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states Apple Intelligence will launch in China with an iOS 27.3 beta on November 4th and a full release in December."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u5",
+      "claim": "DeepMind unveiled its Genie 4 world model, which will roll out soon to developers and Google AI Ultra subscribers.",
+      "source": "DeepMind unveils Genie 4 world model promising more realistic physics and humans. Genie 4 will roll out to developers and Google AI Ultra subscribers soon.",
+      "verdict": "supported",
+      "reason": "The source confirms DeepMind unveiled Genie 4 and that it will soon roll out to developers and Google AI Ultra subscribers."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n7",
+      "claim": "Grok Bot usage limits were cut back by Elon Musk due to unsustainably high costs.",
+      "source": "Elon Musk throttles Grok Bot limits due to \u2018unsustainably high\u2019 costs. Musk recently referred to Grok Bot as having \"the fastest growth of a product that I've ever seen in my life.\"",
+      "verdict": "supported",
+      "reason": "The source states that Elon Musk throttled Grok Bot limits because of unsustainably high costs."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n10",
+      "claim": "OpenAI is combining ChatGPT's Chat and Work tabs to share usage allowances with Codex.",
+      "source": "OpenAI is finally merging ChatGPT\u2019s Chat and Work tabs. OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
+      "verdict": "supported",
+      "reason": "The source notes the merging of the Chat and Work tabs and that ChatGPT and Codex will share the same usage allocation pool."
+    },
+    {
+      "section": "quick_sips",
+      "id": "w1",
+      "claim": "Salesforce agreed to acquire Cresta to bring advanced voice agents into its customer management software.",
+      "source": "Salesforce Signs Definitive Agreement to Acquire Cresta. Combination unites advanced voice agents with the world\u2019s #1 CRM, bringing together the customer, the conversation and the outcome",
+      "verdict": "supported",
+      "reason": "The source confirms a definitive agreement to acquire Cresta, combining advanced voice agents with CRM software."
+    },
+    {
+      "section": "builder",
+      "id": "d3",
+      "claim": "Canva Brush edits images by writing code",
+      "source": "Canva\u2019s new design model doesn\u2019t generate images. It writes code to edit them.. Australian graphic design software company Canva took the wraps off Canva Brush last week, its new vision-language model for designers.",
+      "verdict": "supported",
+      "reason": "The source confirms Canva Brush is a design model that writes code to edit images."
+    },
+    {
+      "section": "builder",
+      "id": "d3",
+      "claim": "Canva launched Canva Brush, a vision-language model for designers that writes code to edit images rather than generating graphics directly.",
+      "source": "Canva\u2019s new design model doesn\u2019t generate images. It writes code to edit them.. Australian graphic design software company Canva took the wraps off Canva Brush last week, its new vision-language model for designers.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Canva unveiled Canva Brush, a vision-language model for designers that writes code to edit images instead of generating them."
+    },
+    {
+      "section": "builder",
+      "id": "d8",
+      "claim": "Anthropic lifts five-hour cap on Claude Code",
+      "source": "Anthropic just removed one of Claude\u2019s biggest usage limits \u2014 but not for everyone. Claude Code users on Anthropic\u2019s $200 plan will no longer face a rolling five-hour usage cap, provided their accounts are",
+      "verdict": "partial",
+      "reason": "The claim omits the crucial qualification that the cap is only lifted for users on the $200 plan under certain conditions."
+    },
+    {
+      "section": "builder",
+      "id": "d8",
+      "claim": "Anthropic removed the rolling five-hour usage cap on Claude Code for users subscribed to its $200 plan.",
+      "source": "Anthropic just removed one of Claude\u2019s biggest usage limits \u2014 but not for everyone. Claude Code users on Anthropic\u2019s $200 plan will no longer face a rolling five-hour usage cap, provided their accounts are",
+      "verdict": "supported",
+      "reason": "The source confirms that Claude Code users on the $200 plan will no longer face the rolling five-hour usage cap."
+    },
+    {
+      "section": "long_read",
+      "id": "l4",
+      "claim": "Anthropic kills the coding interview",
+      "source": "The Pulse: Anthropic kills the coding interview. AI is rendering the Leetcode-style interview pointless and now Anthropic has deleted it from its interview loop. Also: details of incident.io\u2019s AI spend, Microsoft\u2019s exit offer to engineers, and more",
+      "verdict": "supported",
+      "reason": "The headline and text directly state that Anthropic has deleted the Leetcode-style coding interview from its loop."
+    },
+    {
+      "section": "long_read",
+      "id": "l4",
+      "claim": "The newsletter reports that Anthropic deleted coding interviews from its hiring process, arguing that AI has made traditional programming tests obsolete.",
+      "source": "The Pulse: Anthropic kills the coding interview. AI is rendering the Leetcode-style interview pointless and now Anthropic has deleted it from its interview loop. Also: details of incident.io\u2019s AI spend, Microsoft\u2019s exit offer to engineers, and more",
+      "verdict": "supported",
+      "reason": "The newsletter explicitly notes that Anthropic removed coding interviews because AI is making Leetcode-style tests pointless."
+    }
+  ]
+}

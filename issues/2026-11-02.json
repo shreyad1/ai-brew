@@ -1,0 +1,183 @@
+{
+  "glance": [
+    {
+      "id": "n5",
+      "summary": "OpenAI will test sharing up to 1,000 megawatts of data center power during local emergencies.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_A.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n1",
+      "summary": "The New York Times is suing web browser Brave for allegedly scraping and distributing copyrighted news content.",
+      "link": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n2",
+      "summary": "Anthropic updated Claude Code to block developers from using the AI tool to copy existing video games.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "w1",
+      "summary": "Salesforce agreed to acquire Cresta to bring advanced AI voice agents into its customer management software.",
+      "link": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/",
+      "source": "Salesforce News",
+      "image": null
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n5",
+      "headline": "OpenAI plans data center power relief during emergencies",
+      "teaser": "Emergency power for local grids",
+      "summary": "OpenAI announced it will pilot its \"Grid Protectors Program\" at an upcoming Georgia data center, pledging up to 1,000 megawatts of power during emergencies or extreme weather.",
+      "why": "Nearby residents could receive extra electricity during extreme weather to keep air conditioners running.",
+      "explain": {
+        "kid": "OpenAI is making an upcoming computer data center in Georgia that can free up power for nearby homes during bad weather.",
+        "pm": "OpenAI will pilot its \"Grid Protectors Program\" in Georgia, freeing up 1,000 megawatts of data center power during extreme weather or emergencies.",
+        "engineer": "OpenAI's upcoming Effingham County data center will pilot freeing up 1,000 megawatts of power during emergencies, releasing capacity to local electrical grids."
+      },
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_A.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n2",
+      "headline": "Anthropic blocks Claude from cloning existing video games",
+      "teaser": "Limits on game cloning",
+      "summary": "Anthropic updated Claude Code's system prompt to stop the tool from recreating existing video games, though users may still use it to make original games.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n1",
+      "headline": "New York Times sues Brave over content scraping",
+      "teaser": "Lawsuit over content scraping",
+      "summary": "The New York Times is suing browser company Brave for allegedly scraping copyrighted material and distributing it to customers like Anthropic and Perplexity.",
+      "link": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w5",
+      "headline": "Circle K speeds up DevOps incident triage",
+      "teaser": "Faster incident triage",
+      "summary": "Circle K built an automated triage system on Amazon Bedrock, cutting incident response times from up to an hour to under 15 minutes.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "w12",
+      "headline": "Worldwide Express automates freight billing exceptions",
+      "teaser": "Automating freight billing",
+      "summary": "Worldwide Express built a multi-agent solution on Amazon Bedrock, cutting active billing exceptions by 75% and unlocking $10 million in free cash flow.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u3",
+      "summary": "Apple will release Apple Intelligence in China with an iOS 27.3 beta in November, followed by a full December rollout.",
+      "link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25699392/DSC08596_processed.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    {
+      "id": "u5",
+      "summary": "DeepMind unveiled its Genie 4 world model, which will roll out soon to developers and Google AI Ultra subscribers.",
+      "link": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/vlcsnap-2026-10-27-10h06m52s461-1152x648.png",
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n7",
+      "summary": "Grok Bot usage limits were cut back by Elon Musk due to unsustainably high costs.",
+      "link": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n10",
+      "summary": "OpenAI is combining ChatGPT's Chat and Work tabs to share usage allowances with Codex.",
+      "link": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "w1",
+      "summary": "Salesforce agreed to acquire Cresta to bring advanced voice agents into its customer management software.",
+      "link": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/",
+      "source": "Salesforce News",
+      "image": null
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d3",
+        "label": "New tool",
+        "headline": "Canva Brush edits images by writing code",
+        "summary": "Canva launched Canva Brush, a vision-language model for designers that writes code to edit images rather than generating graphics directly.",
+        "link": "https://thenewstack.io/canva-brush-design-editing/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/dd3198a3-handonmouse-1024x614.png"
+      },
+      {
+        "id": "d8",
+        "label": "Policy update",
+        "headline": "Anthropic lifts five-hour cap on Claude Code",
+        "summary": "Anthropic removed the rolling five-hour usage cap on Claude Code for users subscribed to its $200 plan.",
+        "link": "https://thenewstack.io/claude-ultra-session-limit/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/10/7d64b952-adriandra-karuniawan-1kvwsbza_ba-unsplash-1024x731.jpg"
+      }
+    ],
+    "concept": null
+  },
+  "long_read": {
+    "id": "l4",
+    "headline": "Anthropic kills the coding interview",
+    "summary": "The newsletter reports that Anthropic deleted coding interviews from its hiring process, arguing that AI has made traditional programming tests obsolete.",
+    "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-anthropic-kills-the-coding",
+    "source": "The Pragmatic Engineer",
+    "image": "https://substackcdn.com/image/fetch/$s_!LqGQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc10d7a14-d196-4d3e-89f4-51d28a0ce45a_2042x1006.png"
+  },
+  "number": 10,
+  "date_iso": "2026-11-02",
+  "date_long": "Monday \u00b7 2 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-02",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": {
+    "term": "Human-in-the-loop",
+    "definition": "A design where a person reviews or approves certain AI actions before they take effect.",
+    "heard": "\"Refunds over $100 stay human-in-the-loop.\"",
+    "analogy": "Like the manager signing off before a new drink goes on the board.",
+    "reviewed": false,
+    "theme": "Agents",
+    "day": 5
+  },
+  "keep_brewing": null,
+  "poll": null
+}
