@@ -1,0 +1,202 @@
+{
+  "glance": [
+    {
+      "id": "n8",
+      "headline": "Google turns off Search for schools skipping AI",
+      "teaser": "Schools rejecting AI lose Search access",
+      "summary": "Google is completely turning off Google Search, Gemini, Gemini Notebook, and Gemini in Classroom for K-12 student accounts in schools that reject its AI features.",
+      "why": "Schools rejecting AI features will lose access to Google Search for K-12 student accounts.",
+      "explain": {
+        "kid": "Google is turning off Google Search and Gemini for student accounts if their school decides not to use Google AI tools.",
+        "pm": "Google is revoking Google Search access for K-12 student accounts in schools that reject Gemini, Gemini Notebook, and Gemini in Classroom features.",
+        "engineer": "Schools opting out of Gemini, Gemini Notebook, and Gemini in Classroom will have Google Search access entirely disabled across all K-12 student accounts."
+      },
+      "link": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK093_GOOGLE_A-1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n3",
+      "headline": "ChatGPT search volume reaches 20 percent of Google",
+      "teaser": "ChatGPT search queries grow rapidly",
+      "summary": "OpenAI announced that the volume of search queries run through ChatGPT now equals 20 percent of the volume run through Google.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK155_OPEN_AI_CVirginia_C-1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n10",
+      "summary": "Apple requires an 18+ rating for dating apps and AI companions with romantic or sexual content.",
+      "link": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "w13",
+      "summary": "Circle K cut its DevOps incident triage time to under 15 minutes using Amazon Bedrock.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n8",
+      "headline": "Google turns off Search for schools skipping AI",
+      "teaser": "Schools rejecting AI lose Search access",
+      "summary": "Google is completely turning off Google Search, Gemini, Gemini Notebook, and Gemini in Classroom for K-12 student accounts in schools that reject its AI features.",
+      "why": "Schools rejecting AI features will lose access to Google Search for K-12 student accounts.",
+      "explain": {
+        "kid": "Google is turning off Google Search and Gemini for student accounts if their school decides not to use Google AI tools.",
+        "pm": "Google is revoking Google Search access for K-12 student accounts in schools that reject Gemini, Gemini Notebook, and Gemini in Classroom features.",
+        "engineer": "Schools opting out of Gemini, Gemini Notebook, and Gemini in Classroom will have Google Search access entirely disabled across all K-12 student accounts."
+      },
+      "link": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK093_GOOGLE_A-1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n3",
+      "headline": "ChatGPT search volume reaches 20 percent of Google",
+      "teaser": "ChatGPT search queries grow rapidly",
+      "summary": "OpenAI announced that the volume of search queries run through ChatGPT now equals 20 percent of the volume run through Google.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK155_OPEN_AI_CVirginia_C-1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n10",
+      "headline": "Apple mandates 18+ ratings for romantic AI",
+      "teaser": "Adult ratings for AI companions",
+      "summary": "Apple updated its App Store rules to require 18+ age ratings for dating apps and AI companions that offer sexual or romantic content.",
+      "link": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w13",
+      "headline": "Circle K speeds up incident triage using Bedrock",
+      "teaser": "Faster DevOps triage with AI",
+      "summary": "Circle K's DevOps team reduced incident triage times from 45-60 minutes down to under 15 minutes by building an agentic triage system on Amazon Bedrock.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "w3",
+      "headline": "Gen Digital creates AI news engine for Norton",
+      "teaser": "AI curated news for reputation",
+      "summary": "Gen Digital built Norton Revamp's AI-curated News Engine using Web Search on Amazon Bedrock AgentCore to deliver real-time content suggestions with zero data egress.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u5",
+      "summary": "OpenAI plans to pilot its \"Grid Protectors Program\" at an upcoming Georgia data center to free up power during emergencies.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_A.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    {
+      "id": "u1",
+      "summary": "Apple is testing Siri Recap and Live Rewind audio features in its new watchOS 27.3 developer beta.",
+      "link": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Siri-Recap-example.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n1",
+      "summary": "Netflix is testing an \"AI Discover\" tab to give recommendations based on what users are currently in the mood for.",
+      "link": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n17",
+      "summary": "Google expanded its Dreambeans AI experiment to support 13 Indian languages for personal story generation.",
+      "link": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n12",
+      "summary": "OpenAI is quietly renaming its data centers as \"compute campuses\" to help defuse public opposition.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2236733575.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d5",
+        "label": "New model",
+        "headline": "Canva Brush writes code to edit design files",
+        "summary": "Canva introduced Canva Brush, a vision-language model that edits graphic design files by writing code rather than generating images.",
+        "link": "https://thenewstack.io/canva-brush-design-editing/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/dd3198a3-handonmouse-1024x614.png"
+      },
+      {
+        "id": "d2",
+        "label": "Infrastructure update",
+        "headline": "OpenAI builds custom Git backend for monorepo",
+        "summary": "OpenAI detailed how it developed a custom Git backend for its monorepo to support its growing developer base.",
+        "link": "https://thenewstack.io/openai-pando-git-backend/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/02/33c02ff1-img_2596-scaled-1024x768.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d5",
+      "term": "vision-language model",
+      "explanation": "A type of AI model, such as Canva Brush, designed for visual tasks that writes code to edit graphic designs instead of generating images directly.",
+      "link": "https://thenewstack.io/canva-brush-design-editing/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/11/dd3198a3-handonmouse-1024x614.png"
+    }
+  },
+  "long_read": {
+    "id": "l5",
+    "headline": "The Pulse: Anthropic kills the coding interview",
+    "summary": "The newsletter reports that AI has rendered Leetcode-style coding interviews pointless, prompting Anthropic to remove them from its developer hiring loop.",
+    "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-anthropic-kills-the-coding",
+    "source": "The Pragmatic Engineer",
+    "image": "https://substackcdn.com/image/fetch/$s_!LqGQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc10d7a14-d196-4d3e-89f4-51d28a0ce45a_2042x1006.png"
+  },
+  "number": 11,
+  "date_iso": "2026-11-03",
+  "date_long": "Tuesday \u00b7 3 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-03",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": {
+    "term": "Embeddings",
+    "definition": "Lists of numbers that represent the meaning of text, so texts with similar meaning end up close together and can be compared by distance.",
+    "heard": "\"Embed the tickets and find the five most similar ones.\"",
+    "analogy": "Like a flavour map where similar coffees sit near each other.",
+    "reviewed": false,
+    "theme": "Retrieval and knowledge",
+    "day": 1
+  },
+  "keep_brewing": null,
+  "poll": null
+}
