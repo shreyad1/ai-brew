@@ -1,0 +1,316 @@
+{
+  "date": "2026-11-04",
+  "claims": 36,
+  "supported": 34,
+  "partial": 1,
+  "unsupported": 1,
+  "faithfulness": 0.958,
+  "flagged": [
+    {
+      "section": "big_pour",
+      "id": "n8",
+      "claim": "People who live near big computer buildings voted to stop companies from building more of them.",
+      "source": "Data centers lost the midterms. Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI industry. Of voters polled by NBC News on Election Day, 76 [\u2026]",
+      "verdict": "partial",
+      "reason": "The source mentions voters across the country limiting expansion, but does not state they specifically live near data centers."
+    },
+    {
+      "section": "concept",
+      "id": "d6",
+      "claim": "A monorepo is a single software repository that holds many projects, which OpenAI uses to manage its growing codebase.",
+      "source": "OpenAI built itself a new Git backend, too. OpenAI on Monday detailed how it built a new Git backend for its monorepo to power the ever-increasing number of",
+      "verdict": "unsupported",
+      "reason": "The source mentions 'monorepo' but does not define what a monorepo is."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n8",
+      "claim": "Data center developers face new obstacles as voters elect candidates favoring restrictive building moratoriums.",
+      "source": "Data centers lost the midterms. Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI industry. Of voters polled by NBC News on Election Day, 76 [\u2026]",
+      "verdict": "supported",
+      "reason": "The source directly states that voters elected candidates favoring building moratoriums and ballot measures that hinder data center expansion."
+    },
+    {
+      "section": "glance",
+      "id": "n5",
+      "claim": "ChatGPT now allows users to create, edit, and share animated GIFs using prompts or photos.",
+      "source": "ChatGPT will now make you animated GIFs. ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual frames, and share it with others. Before this change, ChatGPT couldn't natively generate GIFs in a single [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states ChatGPT can create GIFs from prompts or photos, edit frames/speed, and share them."
+    },
+    {
+      "section": "glance",
+      "id": "n16",
+      "claim": "Data center builders are using discarded jet engines to generate power due to long grid wait-times.",
+      "source": "Data centers are turning to old jet engines as the wait for power grows. The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.",
+      "verdict": "supported",
+      "reason": "The source confirms data center builders are using once-discarded jet engines due to long wait times for grid access."
+    },
+    {
+      "section": "glance",
+      "id": "n9",
+      "claim": "Uber reported that third-party AI agents fulfilled only four rides during the third quarter of 2026.",
+      "source": "Uber only fulfilled 4 rides from AI agents last quarter. AI agents won't be stealing Uber's lunch any time soon. Only four rides were arranged by third-party AI agents during the third quarter of 2026, Uber executives disclosed during an earnings call this morning. The volume of Uber Eats orders fulfilled by AI agents was a little higher, with the company recording \"around 500\" during [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Uber executives disclosed that only four rides were arranged/fulfilled by third-party AI agents in Q3 2026."
+    },
+    {
+      "section": "big_pour",
+      "id": "n8",
+      "claim": "Data center expansion hits a local wall",
+      "source": "Data centers lost the midterms. Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI industry. Of voters polled by NBC News on Election Day, 76 [\u2026]",
+      "verdict": "supported",
+      "reason": "The source supports this summary statement by detailing local voting results that restrict data center expansion."
+    },
+    {
+      "section": "big_pour",
+      "id": "n8",
+      "claim": "Data center developers are facing a more restrictive building environment after voters elected candidates who support moratoriums and ballot measures that create obstacles for expansion.",
+      "source": "Data centers lost the midterms. Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI industry. Of voters polled by NBC News on Election Day, 76 [\u2026]",
+      "verdict": "supported",
+      "reason": "The sentence is almost a direct quotation from the provided source text."
+    },
+    {
+      "section": "big_pour",
+      "id": "n8",
+      "claim": "This trend marks a significant challenge for the AI industry.",
+      "source": "Data centers lost the midterms. Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI industry. Of voters polled by NBC News on Election Day, 76 [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states that these voter choices deliver a stinging blow to a central pillar of the AI industry."
+    },
+    {
+      "section": "big_pour",
+      "id": "n8",
+      "claim": "Local voting results now directly impact the physical infrastructure required to power the AI industry.",
+      "source": "Data centers lost the midterms. Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI industry. Of voters polled by NBC News on Election Day, 76 [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explains how voter support for moratoriums directly impacts data centers, which are a central pillar of the AI industry."
+    },
+    {
+      "section": "big_pour",
+      "id": "n8",
+      "claim": "People who live near big computer buildings voted to stop companies from building more of them.",
+      "source": "Data centers lost the midterms. Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI industry. Of voters polled by NBC News on Election Day, 76 [\u2026]",
+      "verdict": "partial",
+      "reason": "The source mentions voters across the country limiting expansion, but does not state they specifically live near data centers."
+    },
+    {
+      "section": "big_pour",
+      "id": "n8",
+      "claim": "New local regulations and ballot measures are creating significant friction for data center site selection and expansion plans.",
+      "source": "Data centers lost the midterms. Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI industry. Of voters polled by NBC News on Election Day, 76 [\u2026]",
+      "verdict": "supported",
+      "reason": "The source describes how candidates favoring moratoriums and ballot measures are creating obstacles for data center expansion."
+    },
+    {
+      "section": "big_pour",
+      "id": "n8",
+      "claim": "Increased regulatory overhead and restrictive zoning policies are creating deployment bottlenecks for the physical infrastructure supporting AI workloads.",
+      "source": "Data centers lost the midterms. Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI industry. Of voters polled by NBC News on Election Day, 76 [\u2026]",
+      "verdict": "supported",
+      "reason": "The source corroborates that voter-approved moratoriums and measures create obstacles for data center expansion supporting AI."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "ChatGPT can now animate your images",
+      "source": "ChatGPT will now make you animated GIFs. ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual frames, and share it with others. Before this change, ChatGPT couldn't natively generate GIFs in a single [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states that ChatGPT can now create animated GIFs using an uploaded photo."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "ChatGPT can now generate animated GIFs from user prompts or uploaded photos.",
+      "source": "ChatGPT will now make you animated GIFs. ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual frames, and share it with others. Before this change, ChatGPT couldn't natively generate GIFs in a single [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states that ChatGPT can create GIFs using a prompt or an uploaded photo."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "The update allows users to edit individual frames and adjust animation speeds.",
+      "source": "ChatGPT will now make you animated GIFs. ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual frames, and share it with others. Before this change, ChatGPT couldn't natively generate GIFs in a single [\u2026]",
+      "verdict": "supported",
+      "reason": "The source mentions that the update allows users to adjust animation speed and edit individual frames."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "Data centers turn to old jet engines",
+      "source": "Data centers are turning to old jet engines as the wait for power grows. The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.",
+      "verdict": "supported",
+      "reason": "The source directly states that data centers are turning to old jet engines."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "Data center builders are using old, discarded jet engines to generate electricity.",
+      "source": "Data centers are turning to old jet engines as the wait for power grows. The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.",
+      "verdict": "supported",
+      "reason": "The source confirms data center builders are using once-discarded jet engines to address growing power needs."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "This solution is less efficient and less environmentally friendly than standard options, but is being used to bypass long waits for grid access.",
+      "source": "Data centers are turning to old jet engines as the wait for power grows. The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.",
+      "verdict": "supported",
+      "reason": "The source explicitly describes the solution as less efficient and less environmentally friendly, adopted due to years-long grid wait times."
+    },
+    {
+      "section": "office_blend",
+      "id": "w6",
+      "claim": "U Mobile uses AI for telco operations",
+      "source": "How U Mobile built agentic telco operations with Amazon Bedrock AgentCore. U Mobile, Malaysia's newest 5G network provider, built AiDaH, an agentic AI operations platform on Amazon Bedrock AgentCore that moves beyond AI assistance to autonomous action across telco operations. Nine months after production launch, AiDaH handles over 150 operational scenarios across six divisions, cutting trouble tickets by up to 84.5%.",
+      "verdict": "supported",
+      "reason": "The source confirms U Mobile built an AI operations platform for telco operations."
+    },
+    {
+      "section": "office_blend",
+      "id": "w6",
+      "claim": "U Mobile built an agentic AI platform that handles over 150 operational scenarios.",
+      "source": "How U Mobile built agentic telco operations with Amazon Bedrock AgentCore. U Mobile, Malaysia's newest 5G network provider, built AiDaH, an agentic AI operations platform on Amazon Bedrock AgentCore that moves beyond AI assistance to autonomous action across telco operations. Nine months after production launch, AiDaH handles over 150 operational scenarios across six divisions, cutting trouble tickets by up to 84.5%.",
+      "verdict": "supported",
+      "reason": "The source directly states that U Mobile built an agentic AI platform (AiDaH) handling over 150 operational scenarios."
+    },
+    {
+      "section": "office_blend",
+      "id": "w6",
+      "claim": "The system has reduced trouble tickets by up to 84.5%.",
+      "source": "How U Mobile built agentic telco operations with Amazon Bedrock AgentCore. U Mobile, Malaysia's newest 5G network provider, built AiDaH, an agentic AI operations platform on Amazon Bedrock AgentCore that moves beyond AI assistance to autonomous action across telco operations. Nine months after production launch, AiDaH handles over 150 operational scenarios across six divisions, cutting trouble tickets by up to 84.5%.",
+      "verdict": "supported",
+      "reason": "The source explicitly mentions that the system cuts trouble tickets by up to 84.5%."
+    },
+    {
+      "section": "office_blend",
+      "id": "w7",
+      "claim": "Salesforce sees surge in Agentforce adoption",
+      "source": "Salesforce\u2019s Agentforce Coworker Usage Soars 21x in Three Months as Enterprises Delegate Real Work to AI. More than 185,000 users are putting Coworker to work, with companies including The Adecco Group, Fulton Bank, and BACA Systems expanding adoption across their businesses. New capabilities make Coworker smarter, more proactive, and available wherever employees work \u2014 from Microsoft Teams to mobile and desktop. Salesforce (NYSE: CRM), the world\u2019s #1 AI CRM, today announced [\u2026]",
+      "verdict": "supported",
+      "reason": "The source headline directly notes that Agentforce Coworker usage soared 21x in three months."
+    },
+    {
+      "section": "office_blend",
+      "id": "w7",
+      "claim": "Salesforce reported that Agentforce Coworker usage grew 21 times in three months.",
+      "source": "Salesforce\u2019s Agentforce Coworker Usage Soars 21x in Three Months as Enterprises Delegate Real Work to AI. More than 185,000 users are putting Coworker to work, with companies including The Adecco Group, Fulton Bank, and BACA Systems expanding adoption across their businesses. New capabilities make Coworker smarter, more proactive, and available wherever employees work \u2014 from Microsoft Teams to mobile and desktop. Salesforce (NYSE: CRM), the world\u2019s #1 AI CRM, today announced [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Salesforce announced that Agentforce Coworker usage grew 21x over three months."
+    },
+    {
+      "section": "office_blend",
+      "id": "w7",
+      "claim": "Over 185,000 users are now using the tool to delegate tasks across various business applications.",
+      "source": "Salesforce\u2019s Agentforce Coworker Usage Soars 21x in Three Months as Enterprises Delegate Real Work to AI. More than 185,000 users are putting Coworker to work, with companies including The Adecco Group, Fulton Bank, and BACA Systems expanding adoption across their businesses. New capabilities make Coworker smarter, more proactive, and available wherever employees work \u2014 from Microsoft Teams to mobile and desktop. Salesforce (NYSE: CRM), the world\u2019s #1 AI CRM, today announced [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states over 185,000 users are putting Coworker to work to delegate tasks across applications like Microsoft Teams, mobile, and desktop."
+    },
+    {
+      "section": "still_roasting",
+      "id": "n3",
+      "claim": "Nothing plans to launch its first AI-native device in December, over a year after announcing its operating system plans.",
+      "source": "Nothing teases a screen-free AI device ahead of launch next month. Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced plans for \"AI-native\" devices and an AI operating system. He didn't give away much about what exactly the new device is, only that one feature [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Nothing is launching its first AI device in December, a little over a year after announcing AI-native device and OS plans."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u4",
+      "claim": "Apple is beta testing new audio intelligence features for the Apple Watch that help users recap and remember conversations.",
+      "source": "Apple Watch\u2019s AI features for rewinding and recapping conversations begin beta testing. Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations.",
+      "verdict": "supported",
+      "reason": "The source confirms Apple is beta testing Audio Intelligence features for Apple Watch to recap and remember conversations."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n10",
+      "claim": "OpenAI CEO Sam Altman stated that people should be able to put as much memory as they want in computers.",
+      "source": "Sam Altman addresses RAM comments: People should \u2018put as much as they want in their computers\u2019. OpenAI CEO Sam Altman spent election night defending his position on PC RAM purchases. He changed his name on X to \"Ram Altman\" in response to another user's comment, saying, \"i actually do want the world to have tons of memory and people to put as much as they want in their computers, and it [\u2026]",
+      "verdict": "supported",
+      "reason": "The source quotes Sam Altman stating he wants people to put as much memory as they want in their computers."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n13",
+      "claim": "Nexus Mods now requires mod authors to disclose if AI was used in their work.",
+      "source": "The biggest modding site in PC gaming is taking a stance on AI. The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the platform. \"One of the most consistent [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Nexus Mods is making disclosures mandatory regarding whether AI was used in uploaded work."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n15",
+      "claim": "Anthropic is developing a system called FlashProve to verify that AI responses come from the claimed model.",
+      "source": "Anthropic is working on a system to prove AI models\u2019 identity. Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+      "verdict": "supported",
+      "reason": "The source states Anthropic is developing FlashProve to verify if an AI response came from the claimed model."
+    },
+    {
+      "section": "builder",
+      "id": "d1",
+      "claim": "Render removes AI sandbox time limits",
+      "source": "Render just removed its AI sandbox time limit \u2014 and Vercel still has a 24-hour cap. Render is taking on Vercel with AI sandboxes that can run indefinitely, along with new tools for managing long-running agent",
+      "verdict": "supported",
+      "reason": "The source explicitly states Render removed its AI sandbox time limit."
+    },
+    {
+      "section": "builder",
+      "id": "d1",
+      "claim": "Render removed its AI sandbox time limit so sandboxes can run indefinitely, while Vercel still has a 24-hour cap.",
+      "source": "Render just removed its AI sandbox time limit \u2014 and Vercel still has a 24-hour cap. Render is taking on Vercel with AI sandboxes that can run indefinitely, along with new tools for managing long-running agent",
+      "verdict": "supported",
+      "reason": "The source confirms Render removed its AI sandbox time limit for indefinite runs while Vercel maintains a 24-hour cap."
+    },
+    {
+      "section": "builder",
+      "id": "d1",
+      "claim": "Render also added tools for managing long-running agents.",
+      "source": "Render just removed its AI sandbox time limit \u2014 and Vercel still has a 24-hour cap. Render is taking on Vercel with AI sandboxes that can run indefinitely, along with new tools for managing long-running agent",
+      "verdict": "supported",
+      "reason": "The source mentions Render introduced new tools for managing long-running agents."
+    },
+    {
+      "section": "builder",
+      "id": "d6",
+      "claim": "OpenAI builds new Git backend",
+      "source": "OpenAI built itself a new Git backend, too. OpenAI on Monday detailed how it built a new Git backend for its monorepo to power the ever-increasing number of",
+      "verdict": "supported",
+      "reason": "The source states OpenAI built a new Git backend."
+    },
+    {
+      "section": "builder",
+      "id": "d6",
+      "claim": "OpenAI detailed the construction of a new Git backend designed to support its monorepo and increasing development needs.",
+      "source": "OpenAI built itself a new Git backend, too. OpenAI on Monday detailed how it built a new Git backend for its monorepo to power the ever-increasing number of",
+      "verdict": "supported",
+      "reason": "The source confirms OpenAI detailed building a new Git backend for its monorepo to power ever-increasing demands."
+    },
+    {
+      "section": "concept",
+      "id": "d6",
+      "claim": "A monorepo is a single software repository that holds many projects, which OpenAI uses to manage its growing codebase.",
+      "source": "OpenAI built itself a new Git backend, too. OpenAI on Monday detailed how it built a new Git backend for its monorepo to power the ever-increasing number of",
+      "verdict": "unsupported",
+      "reason": "The source mentions 'monorepo' but does not define what a monorepo is."
+    },
+    {
+      "section": "long_read",
+      "id": "l6",
+      "claim": "Was I wrong about open models & cyber risks?",
+      "source": "Was I wrong about open models & cyber risks?. Last week coined the term \u201cBlack October\u201c after an onslaught of critical vulnerability disclosures, including PHP2Shell and a long-standing GitLab bug, signified the moment when the cyber risks of AI models started to materialize.",
+      "verdict": "supported",
+      "reason": "The claim matches the exact title/headline in the source text."
+    },
+    {
+      "section": "long_read",
+      "id": "l6",
+      "claim": "The newsletter examines whether the recent surge in critical vulnerability disclosures marks a turning point for the security risks associated with open AI models.",
+      "source": "Was I wrong about open models & cyber risks?. Last week coined the term \u201cBlack October\u201c after an onslaught of critical vulnerability disclosures, including PHP2Shell and a long-standing GitLab bug, signified the moment when the cyber risks of AI models started to materialize.",
+      "verdict": "supported",
+      "reason": "The text explicitly links the question about cyber risks of open models to the surge in critical vulnerability disclosures."
+    }
+  ]
+}

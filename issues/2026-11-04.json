@@ -1,0 +1,189 @@
+{
+  "glance": [
+    {
+      "id": "n8",
+      "summary": "Data center developers face new obstacles as voters elect candidates favoring restrictive building moratoriums.",
+      "link": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n5",
+      "summary": "ChatGPT now allows users to create, edit, and share animated GIFs using prompts or photos.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK155_OPEN_AI_CVirginia__C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n16",
+      "summary": "Data center builders are using discarded jet engines to generate power due to long grid wait-times.",
+      "link": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n9",
+      "summary": "Uber reported that third-party AI agents fulfilled only four rides during the third quarter of 2026.",
+      "link": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n8",
+      "headline": "Data center expansion hits a local wall",
+      "teaser": "Voters block data centers",
+      "summary": "Data center developers are facing a more restrictive building environment after voters elected candidates who support moratoriums and ballot measures that create obstacles for expansion. This trend marks a significant challenge for the AI industry.",
+      "why": "Local voting results now directly impact the physical infrastructure required to power the AI industry.",
+      "explain": {
+        "kid": "People who live near big computer buildings voted to stop companies from building more of them.",
+        "pm": "New local regulations and ballot measures are creating significant friction for data center site selection and expansion plans.",
+        "engineer": "Increased regulatory overhead and restrictive zoning policies are creating deployment bottlenecks for the physical infrastructure supporting AI workloads."
+      },
+      "link": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n5",
+      "headline": "ChatGPT can now animate your images",
+      "teaser": "ChatGPT adds GIF creation",
+      "summary": "ChatGPT can now generate animated GIFs from user prompts or uploaded photos. The update allows users to edit individual frames and adjust animation speeds.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK155_OPEN_AI_CVirginia__C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n16",
+      "headline": "Data centers turn to old jet engines",
+      "teaser": "Jet engines power data centers",
+      "summary": "Data center builders are using old, discarded jet engines to generate electricity. This solution is less efficient and less environmentally friendly than standard options, but is being used to bypass long waits for grid access.",
+      "link": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w6",
+      "headline": "U Mobile uses AI for telco operations",
+      "teaser": "U Mobile automates operations",
+      "summary": "U Mobile built an agentic AI platform that handles over 150 operational scenarios. The system has reduced trouble tickets by up to 84.5%.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-u-mobile-built-agentic-telco-operations-with-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "w7",
+      "headline": "Salesforce sees surge in Agentforce adoption",
+      "teaser": "Agentforce usage grows 21x",
+      "summary": "Salesforce reported that Agentforce Coworker usage grew 21 times in three months. Over 185,000 users are now using the tool to delegate tasks across various business applications.",
+      "link": "https://www.salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users/",
+      "source": "Salesforce News",
+      "image": "https://play.vidyard.com/FGEmowkr3LCzH5sfv7eb2j.jpg"
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "n3",
+      "summary": "Nothing plans to launch its first AI-native device in December, over a year after announcing its operating system plans.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/nothing-phone-4a-2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "u4",
+      "summary": "Apple is beta testing new audio intelligence features for the Apple Watch that help users recap and remember conversations.",
+      "link": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+      "source": "TechCrunch",
+      "image": null,
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n10",
+      "summary": "OpenAI CEO Sam Altman stated that people should be able to put as much memory as they want in computers.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/gettyimages-2236544097.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n13",
+      "summary": "Nexus Mods now requires mod authors to disclose if AI was used in their work.",
+      "link": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK414_AI_CVIRGINIA_2_C-2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n15",
+      "summary": "Anthropic is developing a system called FlashProve to verify that AI responses come from the claimed model.",
+      "link": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d1",
+        "label": "New tool",
+        "headline": "Render removes AI sandbox time limits",
+        "summary": "Render removed its AI sandbox time limit so sandboxes can run indefinitely, while Vercel still has a 24-hour cap. Render also added tools for managing long-running agents.",
+        "link": "https://thenewstack.io/render-vercel-ai-sandboxes/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/88af2b32-getty-images-1rdhxhol-xu-unsplash-1024x607.jpg"
+      },
+      {
+        "id": "d6",
+        "label": "Engineering update",
+        "headline": "OpenAI builds new Git backend",
+        "summary": "OpenAI detailed the construction of a new Git backend designed to support its monorepo and increasing development needs.",
+        "link": "https://thenewstack.io/openai-pando-git-backend/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/02/33c02ff1-img_2596-scaled-1024x768.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d6",
+      "term": "monorepo",
+      "explanation": "A monorepo is a single software repository that holds many projects, which OpenAI uses to manage its growing codebase.",
+      "link": "https://thenewstack.io/openai-pando-git-backend/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/02/33c02ff1-img_2596-scaled-1024x768.jpg"
+    }
+  },
+  "long_read": {
+    "id": "l6",
+    "headline": "Was I wrong about open models & cyber risks?",
+    "summary": "The newsletter examines whether the recent surge in critical vulnerability disclosures marks a turning point for the security risks associated with open AI models.",
+    "link": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+    "source": "Interconnects",
+    "image": "https://substackcdn.com/image/fetch/$s_!NQ70!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff51bb5d0-4390-4676-af4a-6bc8199412d5_2006x1362.png"
+  },
+  "number": 12,
+  "date_iso": "2026-11-04",
+  "date_long": "Wednesday \u00b7 4 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-04",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": {
+    "term": "Vector database",
+    "definition": "A database built to store embeddings and quickly find the ones nearest to a query embedding.",
+    "heard": "\"Do we need a vector database, or will Postgres with pgvector do?\"",
+    "analogy": "Like a coffee shelf sorted by taste instead of alphabetically.",
+    "reviewed": false,
+    "theme": "Retrieval and knowledge",
+    "day": 2
+  },
+  "keep_brewing": null,
+  "poll": null
+}

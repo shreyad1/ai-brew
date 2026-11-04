@@ -1,0 +1,930 @@
+{
+  "generated_at": "2026-11-04T13:24:20.205009-06:00",
+  "warnings": [
+    "Word of the Day 'Vector database' is not marked reviewed in learning_path.yaml"
+  ],
+  "failed_feeds": [
+    "Import AI: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+  ],
+  "sources": {
+    "n1": {
+      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+      "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+      "source": "MIT Technology Review",
+      "published": "2026-11-04T18:50:55+00:00",
+      "summary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech\u2019s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor against the Republican incumbent,\u2026",
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence"
+      ],
+      "image": null
+    },
+    "n2": {
+      "title": "Building on open source AI? Hugging Face\u2019s policy chief on the costs, risks, and trade-offs",
+      "link": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+      "source": "TechCrunch",
+      "published": "2026-11-04T18:44:57+00:00",
+      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up? On this episode of [\u2026]",
+      "categories": [
+        "AI",
+        "Security",
+        "Startups",
+        "Equity podcast",
+        "Hugging Face",
+        "open source"
+      ],
+      "image": null
+    },
+    "n3": {
+      "title": "Nothing teases a screen-free AI device ahead of launch next month",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+      "source": "The Verge",
+      "published": "2026-11-04T18:26:07+00:00",
+      "summary": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced plans for \"AI-native\" devices and an AI operating system. He didn't give away much about what exactly the new device is, only that one feature [\u2026]",
+      "categories": [
+        "AI",
+        "Gadgets",
+        "News",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/nothing-phone-4a-2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n4": {
+      "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
+      "link": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
+      "source": "The Verge",
+      "published": "2026-11-04T18:00:00+00:00",
+      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. \"How does that make you feel?\" I get asked this a lot in therapy. Plenty of life events, big and [\u2026]",
+      "categories": [
+        "AI",
+        "Amazon",
+        "Column",
+        "Gadgets",
+        "Optimizer",
+        "Tech",
+        "Wearable"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268817_Bee_Frontier_AKrales_0098.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n5": {
+      "title": "ChatGPT will now make you animated GIFs",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+      "source": "The Verge",
+      "published": "2026-11-04T18:00:00+00:00",
+      "summary": "ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual frames, and share it with others. Before this change, ChatGPT couldn't natively generate GIFs in a single [\u2026]",
+      "categories": [
+        "AI",
+        "Apps",
+        "News",
+        "OpenAI",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK155_OPEN_AI_CVirginia__C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n6": {
+      "title": "I tried Apple\u2019s Siri Recaps. They\u2019re surprisingly useful \u2014 and a little unsettling",
+      "link": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
+      "source": "TechCrunch",
+      "published": "2026-11-04T16:51:35+00:00",
+      "summary": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement.",
+      "categories": [
+        "AI",
+        "Apps",
+        "Hardware",
+        "Apple",
+        "Apple Intelligence",
+        "Apple Watch",
+        "audio",
+        "iPhone",
+        "siri",
+        "siri ai"
+      ],
+      "image": null
+    },
+    "n7": {
+      "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+      "link": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+      "source": "TechCrunch",
+      "published": "2026-11-04T16:17:22+00:00",
+      "summary": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.",
+      "categories": [
+        "AI",
+        "Google",
+        "Google Search"
+      ],
+      "image": null
+    },
+    "n8": {
+      "title": "Data centers lost the midterms",
+      "link": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
+      "source": "The Verge",
+      "published": "2026-11-04T16:05:39+00:00",
+      "summary": "Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI industry. Of voters polled by NBC News on Election Day, 76 [\u2026]",
+      "categories": [
+        "AI",
+        "Analysis",
+        "Policy",
+        "Politics",
+        "Report",
+        "US Elections"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n9": {
+      "title": "Uber only fulfilled 4 rides from AI agents last quarter",
+      "link": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
+      "source": "The Verge",
+      "published": "2026-11-04T15:58:45+00:00",
+      "summary": "AI agents won't be stealing Uber's lunch any time soon. Only four rides were arranged by third-party AI agents during the third quarter of 2026, Uber executives disclosed during an earnings call this morning. The volume of Uber Eats orders fulfilled by AI agents was a little higher, with the company recording \"around 500\" during [\u2026]",
+      "categories": [
+        "AI",
+        "News",
+        "Ride-sharing",
+        "Transportation",
+        "Uber"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n10": {
+      "title": "Sam Altman addresses RAM comments: People should \u2018put as much as they want in their computers\u2019",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments",
+      "source": "The Verge",
+      "published": "2026-11-04T14:46:01+00:00",
+      "summary": "OpenAI CEO Sam Altman spent election night defending his position on PC RAM purchases. He changed his name on X to \"Ram Altman\" in response to another user's comment, saying, \"i actually do want the world to have tons of memory and people to put as much as they want in their computers, and it [\u2026]",
+      "categories": [
+        "AI",
+        "News",
+        "OpenAI",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/gettyimages-2236544097.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n11": {
+      "title": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
+      "link": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
+      "source": "TechCrunch",
+      "published": "2026-11-04T13:00:00+00:00",
+      "summary": "Today is the day to join TechCrunch Founder Summit 2026 in Boston's SoWa Power Station. Register now to join this founder-focused conference today.",
+      "categories": [
+        "TC",
+        "Startups",
+        "Climate",
+        "Fintech",
+        "Biotech & Health",
+        "Venture",
+        "AI",
+        "Robotics",
+        "Fundraising",
+        "TechCrunch Founder Summit 2026"
+      ],
+      "image": null
+    },
+    "n12": {
+      "title": "Google hasn\u2019t figured out how to make AI pay like its search engine",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
+      "source": "The Verge",
+      "published": "2026-11-04T12:00:00+00:00",
+      "summary": "Search queries are growing at their fastest rate in five years, Google parent Alphabet said in its earnings report last week. However, Google's Search revenue growth slowed to 12 percent year over year in the third quarter, down from roughly 17 percent in the previous quarter. Meanwhile, growth in paid clicks - clicks on ads [\u2026]",
+      "categories": [
+        "AI",
+        "Google",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-106058340.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n13": {
+      "title": "The biggest modding site in PC gaming is taking a stance on AI",
+      "link": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+      "source": "The Verge",
+      "published": "2026-11-04T00:42:10+00:00",
+      "summary": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the platform. \"One of the most consistent [\u2026]",
+      "categories": [
+        "AI",
+        "Gaming",
+        "News",
+        "PC Gaming"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK414_AI_CVIRGINIA_2_C-2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n14": {
+      "title": "Please stop asking me when the AI bubble will pop",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+      "source": "The Verge",
+      "published": "2026-11-03T23:37:45+00:00",
+      "summary": "People, including on this staff, keep asking me with varying degrees of excitement or trepidation when the AI bubble will burst. I'll tell you what I tell them: If I knew that, I would make a life-changing bet on the market, levered up as far as I could, and then, after I made my money, [\u2026]",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Business",
+        "Google",
+        "Meta",
+        "Microsoft",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2302813651.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n15": {
+      "title": "Anthropic is working on a system to prove AI models\u2019 identity",
+      "link": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "source": "TechCrunch",
+      "published": "2026-11-03T22:41:03+00:00",
+      "summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "cryptography",
+        "inference"
+      ],
+      "image": null
+    },
+    "n16": {
+      "title": "Data centers are turning to old jet engines as the wait for power grows",
+      "link": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+      "source": "TechCrunch",
+      "published": "2026-11-03T22:19:53+00:00",
+      "summary": "The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.",
+      "categories": [
+        "AI",
+        "data centers"
+      ],
+      "image": null
+    },
+    "n17": {
+      "title": "Ted Schlein\u2019s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+      "link": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+      "source": "TechCrunch",
+      "published": "2026-11-03T21:43:08+00:00",
+      "summary": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.",
+      "categories": [
+        "AI",
+        "Security",
+        "Venture",
+        "Ballistic Ventures",
+        "Exclusive"
+      ],
+      "image": null
+    },
+    "n18": {
+      "title": "Hiding inside Palantir\u2019s skyrocketing quarter is a foreboding signal",
+      "link": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+      "source": "TechCrunch",
+      "published": "2026-11-03T21:05:55+00:00",
+      "summary": "Palantir's U.S. commercial revenue surpassed U.S. government revenue for the first time ever.",
+      "categories": [
+        "AI",
+        "Enterprise",
+        "TC",
+        "Palantir"
+      ],
+      "image": null
+    },
+    "n19": {
+      "title": "Those Jeff Bezos hair transplant photos are very fake",
+      "link": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
+      "source": "The Verge",
+      "published": "2026-11-03T21:01:07+00:00",
+      "summary": "Amazon founder Jeff Bezos and actor Jason Statham have a distinctive feature in common: They're both famously bald, and that definitely hasn't changed in the last few days. However, there are some images of the two men circulating around X, Threads, and Bluesky in which they both have substantially more hair than their usual shaved [\u2026]",
+      "categories": [
+        "AI",
+        "News",
+        "Tech",
+        "Web"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Fake-Jeff-Bezos-Jason-Statham-hair-photo-edits.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n20": {
+      "title": "Ukraine\u2019s drone strikes spur hasty Russian plans for underground data centers",
+      "link": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
+      "source": "Ars Technica",
+      "published": "2026-11-03T20:39:55+00:00",
+      "summary": "Russia tries to fix exposed digital infrastructure as data center war backfires.",
+      "categories": [
+        "AI",
+        "ai data centers",
+        "data centers",
+        "Drone strikes",
+        "russia",
+        "Russia invasion of Ukraine",
+        "Russia war on Ukraine",
+        "Russian invasion of Ukraine",
+        "Russian war on Ukraine",
+        "Ukraine",
+        "Ukraine war"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Russia-Borodinsky-coal-mine-1152x648.jpg"
+    },
+    "n21": {
+      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+      "link": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "source": "TechCrunch",
+      "published": "2026-11-03T19:34:43+00:00",
+      "summary": "The five-year-old startup raised a $1.3 billion round led by Bessemer.",
+      "categories": [
+        "AI",
+        "Startups",
+        "Bessemer Venture Partners",
+        "In Brief",
+        "inference",
+        "infrastructure"
+      ],
+      "image": null
+    },
+    "w1": {
+      "title": "Use decision models with Amazon Bedrock AgentCore Evaluations",
+      "link": "https://aws.amazon.com/blogs/machine-learning/use-decision-models-with-amazon-bedrock-agentcore-evaluations/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-04T18:46:36+00:00",
+      "summary": "Some agent-evaluation questions are narrow and repeatable, and decision models answer exactly that kind of question. This post shows how to connect two decision models, Jev and Strands Decider, to Amazon Bedrock AgentCore Evaluations through code-based evaluators, and how to validate a decision-model check before you gate a release on it.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock AgentCore",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w2": {
+      "title": "Your AI Agents Are Fast. Your Process Isn\u2019t. Here\u2019s How to Fix It.",
+      "link": "https://www.salesforce.com/news/stories/ai-agents-fast-how-to-fix-process/",
+      "source": "Salesforce News",
+      "published": "2026-11-04T17:00:00+00:00",
+      "summary": "Picture a race car flying down a country highway, only to find itself stuck behind a tractor. The car\u2019s engine is spectacular. But it can\u2019t go any faster than the tractor. That\u2019s what many companies encounter, often without realizing it, when they build with AI. They drop an agent into one step of a workflow, [\u2026]",
+      "categories": [
+        "Uncategorized"
+      ],
+      "image": "https://www.salesforce.com/news/wp-content/uploads/sites/3/2026/11/789_1026_T20_Salesforce-Introduces-Agentforce-Coworker_a_v1_102926.jpg?w=1024"
+    },
+    "w3": {
+      "title": "Smart Approvals in Amazon Quick: Human oversight where it matters",
+      "link": "https://aws.amazon.com/blogs/machine-learning/smart-approvals-in-amazon-quick-human-oversight-where-it-matters/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-04T16:33:03+00:00",
+      "summary": "Smart Approvals in Amazon Quick reviews eligible agent actions within your existing controls, reducing unnecessary approval prompts while keeping consequential decisions with a person. See how policy sets the boundary, how a classifier reviews actions, and how AWS CloudTrail and Amazon CloudWatch Logs support audit.",
+      "categories": [
+        "Amazon Quick Suite",
+        "Intermediate (200)",
+        "Thought Leadership"
+      ],
+      "image": null
+    },
+    "w4": {
+      "title": "Four layers of context engineering for production AI agents: How Deep Insight applies them in working code",
+      "link": "https://aws.amazon.com/blogs/machine-learning/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working-code/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-04T16:30:40+00:00",
+      "summary": "In production AI agents, context management is the real bottleneck. This post presents a four-layer context engineering framework (architecture, prompts, file-based tools, and verification agents), implemented in working code from Deep Insight, an open source multi-agent data analysis solution on the Strands Agents SDK and Amazon Bedrock AgentCore.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock AgentCore",
+        "Strands Agents",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w5": {
+      "title": "How Indegene is modernizing and scaling enterprise data quality in life sciences",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-indegene-is-modernizing-and-scaling-enterprise-data-quality-in-life-sciences/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-04T16:25:57+00:00",
+      "summary": "This post explores how Indegene built a production-grade, LLM-powered Data Quality Agent in its NEXT Unified Data Platform on AWS. The agent generates context-aware data quality rules, validates them, and produces ready-to-run SQL and Python under human-in-the-loop governance, helping life sciences organizations scale enterprise data quality.",
+      "categories": [
+        "Advanced (300)",
+        "Customer Solutions"
+      ],
+      "image": null
+    },
+    "w6": {
+      "title": "How U Mobile built agentic telco operations with Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-u-mobile-built-agentic-telco-operations-with-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-04T16:23:33+00:00",
+      "summary": "U Mobile, Malaysia's newest 5G network provider, built AiDaH, an agentic AI operations platform on Amazon Bedrock AgentCore that moves beyond AI assistance to autonomous action across telco operations. Nine months after production launch, AiDaH handles over 150 operational scenarios across six divisions, cutting trouble tickets by up to 84.5%.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock",
+        "Amazon Bedrock AgentCore",
+        "Customer Solutions"
+      ],
+      "image": null
+    },
+    "w7": {
+      "title": "Salesforce\u2019s Agentforce Coworker Usage Soars 21x in Three Months as Enterprises Delegate Real Work to AI",
+      "link": "https://www.salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users/",
+      "source": "Salesforce News",
+      "published": "2026-11-04T14:00:00+00:00",
+      "summary": "More than 185,000 users are putting Coworker to work, with companies including The Adecco Group, Fulton Bank, and BACA Systems expanding adoption across their businesses. New capabilities make Coworker smarter, more proactive, and available wherever employees work \u2014 from Microsoft Teams to mobile and desktop. Salesforce (NYSE: CRM), the world\u2019s #1 AI CRM, today announced [\u2026]",
+      "categories": [
+        "Uncategorized"
+      ],
+      "image": "https://play.vidyard.com/FGEmowkr3LCzH5sfv7eb2j.jpg"
+    },
+    "w8": {
+      "title": "How CIOs can retain control as AI writes more code",
+      "link": "https://www.cio.com/article/4239680/how-cios-can-retain-control-as-ai-writes-more-code.html",
+      "source": "CIO.com",
+      "published": "2026-11-04T10:00:00+00:00",
+      "summary": "AI is writing more code than ever. Software specialist Sonar\u2019s 2026 State of Code Developer Survey , based on more than 1,100 professional developers, found that 72% of those who\u2019ve tried AI coding tools now use them every day, and that today, AI now accounts for 42% of committed code, a number that\u2019s expected to reach 65% by next year. But while developers embrace AI-enabled coding services, many professionals are uncertain about how their businesses will cope with this influx of AI-generated c",
+      "categories": [
+        "Artificial Intelligence, C-Suite, Careers, CIO, Code Editors, Developer, Development Tools, Emerging Technology, IT Leadership, IT Management, IT Strategy, Roles, Software Development"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4239680-0-91675300-1793786585-shutterstock_1368896930.jpg?quality=50&strip=all"
+    },
+    "w9": {
+      "title": "Planning for the long game when technology has a shorter shelf life",
+      "link": "https://www.cio.com/article/4243928/planning-for-the-long-game-when-technology-has-a-shorter-shelf-life.html",
+      "source": "CIO.com",
+      "published": "2026-11-04T09:00:00+00:00",
+      "summary": "Over many years of working through successive waves of enterprise technology and IT architecture, including fast-moving AI, I\u2019ve heard the same question in different forms: \u201cHow can I build my business with AI while avoiding lock-in and tech debt?\u201d It came up again during a recent conversation about a major technology investment, when a CIO asked, \u201cShould we really be making this commitment if the technology is changing constantly?\u201d That resonated with me because it reflects a pattern I have see",
+      "categories": [
+        "Enterprise Architecture, Industry, IT Leadership, IT Strategy, Markets, Technology Industry"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4243928-0-64664500-1793783025-joshua-hoehne-FFn2-TW8pxk-unsplash.jpg?quality=50&strip=all"
+    },
+    "w10": {
+      "title": "Journify Raises $12M Series A Amid 5x Growth",
+      "link": "https://www.cio.com/article/4244315/journify-raises-12m-series-a-amid-5x-growth.html",
+      "source": "CIO.com",
+      "published": "2026-11-04T03:24:17+00:00",
+      "summary": "Investors back Journify\u2019s push into the US and Europe Journify , the ad signal infrastructure company, today announced a $12 million Series A at four times its previous valuation. Al Mada Ventures led the round, co-led by returning investor Silicon Badia, with Shorooq and Bunat Ventures increasing their investment and Du Ventures and Oraseya Capital joining as new investors. The funding will take Journify into the US and Europe and expand the AI behind its platform. Global ad spend will exceed $",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4244315-0-40930500-1793762673-journify.png"
+    },
+    "w11": {
+      "title": "Half of Slack Messages Are No Longer From People. Here\u2019s Slack by the Numbers.",
+      "link": "https://www.salesforce.com/news/stories/slack-stats/",
+      "source": "Salesforce News",
+      "published": "2026-11-03T22:30:00+00:00",
+      "summary": "More than a decade ago an engineering team built Slack because they needed a way to coordinate code, log alerts, and talk to each other all in one place. Now, as AI agents move from pilots into live business production, they\u2019ve entered the channels where people already collaborate: Through open standards like MCP, agents can [\u2026]",
+      "categories": [
+        "Uncategorized"
+      ],
+      "image": "https://www.salesforce.com/news/wp-content/uploads/sites/3/2026/11/Copy-of-Scale-Momentum_2.jpg?w=1024"
+    },
+    "w12": {
+      "title": "Bring structured and unstructured data together with Amazon Quick",
+      "link": "https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-03T16:49:29+00:00",
+      "summary": "Amazon Quick brings structured and unstructured data together in one experience. In this post, you connect Amazon S3 as a knowledge base, enrich a dataset, build a Space, and create a custom chat agent that answers business questions across both data types through a single conversational interface.",
+      "categories": [
+        "Amazon Quick Suite",
+        "Intermediate (200)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w13": {
+      "title": "ServiceNow on-behalf-of token exchange with Bedrock AgentCore Gateway",
+      "link": "https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-03T16:47:40+00:00",
+      "summary": "Learn how to configure Amazon Bedrock AgentCore Gateway for an on-behalf-of (OBO) token exchange with Microsoft Entra ID, so an AI agent can call the ServiceNow REST API while preserving the calling user's identity. AgentCore Gateway performs the exchange natively, with no interceptor Lambda or custom code.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock AgentCore",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w14": {
+      "title": "How Gen Digital built Norton Revamp\u2019s AI-curated News Engine with Amazon Bedrock AgentCore Web Search",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-03T16:43:20+00:00",
+      "summary": "Gen Digital built Norton Revamp, a generative AI-powered professional reputation management platform, with an AI-curated News Engine grounded by Web Search on Amazon Bedrock AgentCore. See how the Gen team delivers real-time, cited content suggestions, goal setting, and news feeds with zero data egress and Norton-grade privacy.",
+      "categories": [
+        "Amazon Bedrock",
+        "Amazon Bedrock AgentCore",
+        "Customer Solutions",
+        "Expert (400)"
+      ],
+      "image": null
+    },
+    "w15": {
+      "title": "Build a semantic layer for agentic AI with EDB Postgres AI and Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-with-edb-postgres-ai-and-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-03T16:41:13+00:00",
+      "summary": "Learn how to build a governed semantic layer for agentic AI inside EDB Postgres AI and query it from a Strands Agents agent on Amazon Bedrock AgentCore. Business meaning, join paths, and access control all live in Postgres, with GRANT and row-level security enforcing what each agent can read.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock AgentCore",
+        "Customer Solutions"
+      ],
+      "image": null
+    },
+    "u1": {
+      "title": "Nothing teases a screen-free AI device ahead of launch next month",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+      "source": "The Verge",
+      "published": "2026-11-04T18:26:07+00:00",
+      "summary": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced plans for \"AI-native\" devices and an AI operating system. He didn't give away much about what exactly the new device is, only that one feature [\u2026]",
+      "categories": [
+        "AI",
+        "Gadgets",
+        "News",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/nothing-phone-4a-2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    "u2": {
+      "title": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
+      "link": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
+      "source": "TechCrunch",
+      "published": "2026-11-04T13:00:00+00:00",
+      "summary": "Today is the day to join TechCrunch Founder Summit 2026 in Boston's SoWa Power Station. Register now to join this founder-focused conference today.",
+      "categories": [
+        "TC",
+        "Startups",
+        "Climate",
+        "Fintech",
+        "Biotech & Health",
+        "Venture",
+        "AI",
+        "Robotics",
+        "Fundraising",
+        "TechCrunch Founder Summit 2026"
+      ],
+      "image": null,
+      "date_mentioned": null
+    },
+    "u3": {
+      "title": "Tomorrow: TechCrunch Founder Summit takes over Boston and when pass rates increase",
+      "link": "https://techcrunch.com/2026/11/03/tomorrow-techcrunch-founder-summit-takes-over-boston-and-when-pass-rates-increase/",
+      "source": "TechCrunch",
+      "published": "2026-11-03T14:00:00+00:00",
+      "summary": "Secure your TechCrunch Founder Summit pass savings before prices increase tomorrow at 9 a.m. ET. Save up to $100 on your pass, and get a second for free.",
+      "categories": [
+        "TC",
+        "Startups",
+        "Climate",
+        "Fintech",
+        "Biotech & Health",
+        "Venture",
+        "AI",
+        "Fundraising"
+      ],
+      "image": null,
+      "date_mentioned": null
+    },
+    "u4": {
+      "title": "Apple Watch\u2019s AI features for rewinding and recapping conversations begin beta testing",
+      "link": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+      "source": "TechCrunch",
+      "published": "2026-11-03T07:20:00+00:00",
+      "summary": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations.",
+      "categories": [
+        "AI",
+        "Apps",
+        "Hardware",
+        "Apple",
+        "Apple Intelligence",
+        "Apple Watch",
+        "audio",
+        "iOS"
+      ],
+      "image": null,
+      "date_mentioned": null
+    },
+    "u5": {
+      "title": "Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime",
+      "link": "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-10-30T21:40:03+00:00",
+      "summary": "Amazon Bedrock AgentCore Session endpoints give each runtime session an authenticated URL that forwards any HTTP method, path, and WebSocket connection to the ports you allow. In this post, you deploy a coding agent that keeps a Vite website running in its session, then watch the live site update in your browser as the agent edits files.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock AgentCore",
+        "Announcements"
+      ],
+      "image": null,
+      "date_mentioned": null
+    },
+    "d1": {
+      "title": "Render just removed its AI sandbox time limit \u2014 and Vercel still has a 24-hour cap",
+      "link": "https://thenewstack.io/render-vercel-ai-sandboxes/",
+      "source": "The New Stack",
+      "published": "2026-11-04T18:04:17+00:00",
+      "summary": "Render is taking on Vercel with AI sandboxes that can run indefinitely, along with new tools for managing long-running agent",
+      "categories": [
+        "AI Agents",
+        "AI Infrastructure",
+        "Cloud Services"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/88af2b32-getty-images-1rdhxhol-xu-unsplash-1024x607.jpg"
+    },
+    "d2": {
+      "title": "\u201cSigning in to your company\u2019s plugins one by one is annoying\u201d: Anthropic\u2019s fix puts Claude in the identity business",
+      "link": "https://thenewstack.io/claude-plugin-identity-issuer/",
+      "source": "The New Stack",
+      "published": "2026-11-04T16:59:22+00:00",
+      "summary": "Anthropic is now letting businesses automatically connect employees to approved Claude plugins, saving staff from having to sign in to",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Model Context Protocol (MCP)",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/74ad82db-a-c-wqzc_ohsrwo-unsplash-2-1024x589.jpg"
+    },
+    "d3": {
+      "title": "A developer opened Postman. Then two AI coding agents changed without their permission.",
+      "link": "https://thenewstack.io/postman-plugin-coding-agents/",
+      "source": "The New Stack",
+      "published": "2026-11-03T23:17:04+00:00",
+      "summary": "A developer says Postman\u2019s desktop app installed plugins into Claude Code and OpenAI Codex without their permission. The app also",
+      "categories": [
+        "AI Agents",
+        "Developer tools",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/436954c5-gustopo-gqirstz41ky-unsplash-1024x616.jpg"
+    },
+    "d4": {
+      "title": "Goldman Sachs restricted Claude Code for bankers \u2014 but made one surprising exception",
+      "link": "https://thenewstack.io/ai-coding-agents-security/",
+      "source": "The New Stack",
+      "published": "2026-11-03T19:18:34+00:00",
+      "summary": "Replit CEO Amjad Masad is warning that AI coding agents running on employee devices are becoming a security risk for",
+      "categories": [
+        "AI Agents",
+        "Developer tools",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/17533fd2-supradoc-s5m88l_ts_0-unsplash-1024x683.jpg"
+    },
+    "d5": {
+      "title": "Anthropic speeds up Claude Code with message threads. But your token bill stays the same.",
+      "link": "https://thenewstack.io/anthropic-claude-message-threads/",
+      "source": "The New Stack",
+      "published": "2026-11-03T13:46:14+00:00",
+      "summary": "Anthropic has announced a new feature that aims to speed up long-running Claude Code sessions by reducing the amount of",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "AI Engineering",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/4a4a1bb5-prakasit-khuansuwan-h_keeku145y-unsplash-1024x768.jpg"
+    },
+    "d6": {
+      "title": "OpenAI built itself a new Git backend, too",
+      "link": "https://thenewstack.io/openai-pando-git-backend/",
+      "source": "The New Stack",
+      "published": "2026-11-03T00:00:00+00:00",
+      "summary": "OpenAI on Monday detailed how it built a new Git backend for its monorepo to power the ever-increasing number of",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Developer tools",
+        "Open Source"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/02/33c02ff1-img_2596-scaled-1024x768.jpg"
+    },
+    "d7": {
+      "title": "Developers are downgrading their AI on purpose \u2014 and it\u2019s working",
+      "link": "https://thenewstack.io/claude-code-developer-refusals/",
+      "source": "The New Stack",
+      "published": "2026-11-02T21:03:31+00:00",
+      "summary": "Anthropic has confirmed that it added new restrictions to Claude Code to prevent users from recreating existing video games. But",
+      "categories": [
+        "AI Models",
+        "Developer tools",
+        "Software Development"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/2b66602e-risky-ming-2k9rzbhzaem-unsplash-1024x698.jpg"
+    },
+    "d8": {
+      "title": "Your AI coding agent now runs on a budget \u2014 and it can cut you off mid-task",
+      "link": "https://thenewstack.io/22842541cognition-devin-hierarchical-budgets/",
+      "source": "The New Stack",
+      "published": "2026-11-02T19:03:38+00:00",
+      "summary": "The days of pointing an AI agent at a backlog and letting it burn through compute without much oversight may",
+      "categories": [
+        "AI Agents",
+        "FinOps",
+        "Operations"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/349bc6a4-getty-images-um5wntq2sf0-unsplash-1024x675.jpg"
+    },
+    "d9": {
+      "title": "Canva\u2019s new design model doesn\u2019t generate images. It writes code to edit them.",
+      "link": "https://thenewstack.io/canva-brush-design-editing/",
+      "source": "The New Stack",
+      "published": "2026-11-02T18:06:26+00:00",
+      "summary": "Australian graphic design software company Canva took the wraps off Canva Brush last week, its new vision-language model for designers.",
+      "categories": [
+        "AI Agents",
+        "AI Models",
+        "Emerging technologies"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/dd3198a3-handonmouse-1024x614.png"
+    },
+    "d10": {
+      "title": "OpenAI\u2019s new shared usage limit pits ChatGPT against Codex",
+      "link": "https://thenewstack.io/openai-chatgpt-codex-shared-limits/",
+      "source": "The New Stack",
+      "published": "2026-11-02T16:45:19+00:00",
+      "summary": "OpenAI has revealed plans to combine usage allowances across ChatGPT and Codex, as part of a broader effort to integrate",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "AI Strategy",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/0293c587-codexgpt-1024x576.jpg"
+    },
+    "l1": {
+      "title": "How big is the open model economy today?",
+      "link": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+      "source": "Interconnects",
+      "published": "2026-11-04T16:35:44+00:00",
+      "summary": "Our first open model economy research note for paid subscribers.",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!hFZ7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c5f2798-10bc-487a-8932-5f851ad61b24_1600x840.svg"
+    },
+    "l2": {
+      "title": "The Dawn of a New AI Paradigm: Weight-Space Programming",
+      "link": "https://www.thealgorithmicbridge.com/p/the-dawn-of-a-new-ai-paradigm-weight",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-03T19:14:37+00:00",
+      "summary": "Why do AI research like a human when you\u2019re a machine?",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!FVp_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9d6edec-1ab3-4fc7-b623-8e8f867258cd_2047x1064.jpeg"
+    },
+    "l3": {
+      "title": "Finding my thing",
+      "link": "https://www.bensbites.com/p/if-you-feel-behind-right-now-dont",
+      "source": "Ben's Bites",
+      "published": "2026-11-03T14:03:32+00:00",
+      "summary": "Nobody knows anything",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!z_aZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5c9cb41-d8fc-4ccc-885c-3d6333cf3864_1600x900.png"
+    },
+    "l4": {
+      "title": "AI Won't Kill Math But Empty Classrooms Will",
+      "link": "https://www.thealgorithmicbridge.com/p/new-survey-math-students-are-giving",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-02T18:42:07+00:00",
+      "summary": "This is what a dying field looks like",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!zLz8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F79b78c94-b2a8-4004-ad73-ff3dcdba3c4d_726x394.png"
+    },
+    "l5": {
+      "title": "Korea\u2019s Stock Market Crashed $1 Trillion. What Does That Mean for the Global AI Race?",
+      "link": "https://www.chinatalk.media/p/koreas-stock-market-crashed-1-trillion",
+      "source": "ChinaTalk",
+      "published": "2026-11-01T13:33:33+00:00",
+      "summary": "Richard Gray is an analyst who works for a foreign policy think tank in Washington, D.C.",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!B-Fs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0fdcbd7-1627-4632-8192-0a27d060c84d_936x637.png"
+    },
+    "l6": {
+      "title": "Was I wrong about open models & cyber risks?",
+      "link": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+      "source": "Interconnects",
+      "published": "2026-10-30T17:36:56+00:00",
+      "summary": "Last week coined the term \u201cBlack October\u201c after an onslaught of critical vulnerability disclosures, including PHP2Shell and a long-standing GitLab bug, signified the moment when the cyber risks of AI models started to materialize.",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!NQ70!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff51bb5d0-4390-4676-af4a-6bc8199412d5_2006x1362.png"
+    },
+    "l7": {
+      "title": "The Pulse: Anthropic kills the coding interview",
+      "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-anthropic-kills-the-coding",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-10-30T16:37:51+00:00",
+      "summary": "AI is rendering the Leetcode-style interview pointless and now Anthropic has deleted it from its interview loop. Also: details of incident.io\u2019s AI spend, Microsoft\u2019s exit offer to engineers, and more",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!LqGQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc10d7a14-d196-4d3e-89f4-51d28a0ce45a_2042x1006.png"
+    },
+    "l8": {
+      "title": "Is Half of China\u2019s AI Making Slop?",
+      "link": "https://www.chinatalk.media/p/is-half-of-chinas-ai-making-slop",
+      "source": "ChinaTalk",
+      "published": "2026-10-30T10:04:01+00:00",
+      "summary": "The 55% token myth, and China\u2019s guilty pleasure",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!flLK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb8f2106-e1db-4fd2-bf05-c2e1532b8a14_1920x1080.png"
+    }
+  },
+  "llm_draft": {
+    "glance": [
+      {
+        "id": "n8",
+        "summary": "Data center developers face new obstacles as voters elect candidates favoring restrictive building moratoriums."
+      },
+      {
+        "id": "n5",
+        "summary": "ChatGPT now allows users to create, edit, and share animated GIFs using prompts or photos."
+      },
+      {
+        "id": "n16",
+        "summary": "Data center builders are using discarded jet engines to generate power due to long grid wait-times."
+      },
+      {
+        "id": "n9",
+        "summary": "Uber reported that third-party AI agents fulfilled only four rides during the third quarter of 2026."
+      }
+    ],
+    "big_pour": [
+      {
+        "id": "n8",
+        "headline": "Data center expansion hits a local wall",
+        "teaser": "Voters block data centers",
+        "summary": "Data center developers are facing a more restrictive building environment after voters elected candidates who support moratoriums and ballot measures that create obstacles for expansion. This trend marks a significant challenge for the AI industry.",
+        "why": "Local voting results now directly impact the physical infrastructure required to power the AI industry.",
+        "explain": {
+          "kid": "People who live near big computer buildings voted to stop companies from building more of them.",
+          "pm": "New local regulations and ballot measures are creating significant friction for data center site selection and expansion plans.",
+          "engineer": "Increased regulatory overhead and restrictive zoning policies are creating deployment bottlenecks for the physical infrastructure supporting AI workloads."
+        }
+      },
+      {
+        "id": "n5",
+        "headline": "ChatGPT can now animate your images",
+        "teaser": "ChatGPT adds GIF creation",
+        "summary": "ChatGPT can now generate animated GIFs from user prompts or uploaded photos. The update allows users to edit individual frames and adjust animation speeds."
+      },
+      {
+        "id": "n16",
+        "headline": "Data centers turn to old jet engines",
+        "teaser": "Jet engines power data centers",
+        "summary": "Data center builders are using old, discarded jet engines to generate electricity. This solution is less efficient and less environmentally friendly than standard options, but is being used to bypass long waits for grid access."
+      }
+    ],
+    "office_blend": [
+      {
+        "id": "w6",
+        "headline": "U Mobile uses AI for telco operations",
+        "teaser": "U Mobile automates operations",
+        "summary": "U Mobile built an agentic AI platform that handles over 150 operational scenarios. The system has reduced trouble tickets by up to 84.5%."
+      },
+      {
+        "id": "w7",
+        "headline": "Salesforce sees surge in Agentforce adoption",
+        "teaser": "Agentforce usage grows 21x",
+        "summary": "Salesforce reported that Agentforce Coworker usage grew 21 times in three months. Over 185,000 users are now using the tool to delegate tasks across various business applications."
+      }
+    ],
+    "still_roasting": [
+      {
+        "id": "n3",
+        "summary": "Nothing plans to launch its first AI-native device in December, over a year after announcing its operating system plans."
+      },
+      {
+        "id": "u4",
+        "summary": "Apple is beta testing new audio intelligence features for the Apple Watch that help users recap and remember conversations."
+      }
+    ],
+    "quick_sips": [
+      {
+        "id": "n10",
+        "summary": "OpenAI CEO Sam Altman stated that people should be able to put as much memory as they want in computers."
+      },
+      {
+        "id": "n13",
+        "summary": "Nexus Mods now requires mod authors to disclose if AI was used in their work."
+      },
+      {
+        "id": "n15",
+        "summary": "Anthropic is developing a system called FlashProve to verify that AI responses come from the claimed model."
+      }
+    ],
+    "builder": {
+      "stories": [
+        {
+          "id": "d1",
+          "label": "New tool",
+          "headline": "Render removes AI sandbox time limits",
+          "summary": "Render now offers AI sandboxes that run indefinitely, providing an alternative to Vercel's 24-hour usage cap."
+        },
+        {
+          "id": "d6",
+          "label": "Engineering update",
+          "headline": "OpenAI builds new Git backend",
+          "summary": "OpenAI detailed the construction of a new Git backend designed to support its monorepo and increasing development needs."
+        }
+      ],
+      "concept": {
+        "id": "d6",
+        "term": "monorepo",
+        "explanation": "A monorepo is a single software repository that holds many projects, which OpenAI uses to manage its growing codebase."
+      }
+    },
+    "long_read": {
+      "id": "l6",
+      "headline": "Was I wrong about open models & cyber risks?",
+      "summary": "The newsletter examines whether the recent surge in critical vulnerability disclosures marks a turning point for the security risks associated with open AI models."
+    }
+  },
+  "first_check": {
+    "d1": [
+      "name 'Vercel's' is not in the source"
+    ]
+  },
+  "dropped": [],
+  "explain_dropped": []
+}
