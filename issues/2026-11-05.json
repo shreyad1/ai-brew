@@ -1,0 +1,185 @@
+{
+  "glance": [
+    {
+      "id": "n4",
+      "summary": "OpenAI president Greg Brockman says the company could be ready for an IPO by 2027.",
+      "link": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n10",
+      "summary": "Dropbox is acquiring Tigris Data for $350 million to support its new AI storage platform.",
+      "link": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n16",
+      "headline": "Agility Robotics goes public on the Nasdaq",
+      "teaser": "Agility Robotics Nasdaq debut",
+      "summary": "Agility Robotics has debuted on the Nasdaq stock exchange. The company is a leader in deploying humanoid robots.",
+      "link": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Agility-Digit-5-humanoid-robots-at-work-1152x648.jpg",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n19",
+      "summary": "Apple is reportedly reducing its internal budgets for AI usage to manage rising costs.",
+      "link": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n4",
+      "headline": "OpenAI eyes public stock market by 2027",
+      "teaser": "OpenAI IPO target",
+      "summary": "OpenAI president Greg Brockman stated the company could be ready for an IPO in 2027. This follows a turnaround in business performance and accelerating enterprise revenue.",
+      "why": "A public OpenAI would change how the most influential AI company is governed and funded.",
+      "explain": {
+        "kid": "The leader of OpenAI says his company might be ready to sell shares to the public in 2027 because they are making more money from businesses.",
+        "pm": "OpenAI is signaling a shift toward public market readiness by 2027, driven by revenue growth and improved business operations.",
+        "engineer": "OpenAI is targeting a 2027 IPO, citing improved enterprise revenue metrics and a successful business model pivot."
+      },
+      "link": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n10",
+      "headline": "Dropbox buys Tigris Data for AI infrastructure",
+      "teaser": "Dropbox acquires Tigris",
+      "summary": "Dropbox is acquiring Tigris Data for $350 million. The deal aims to support the development of DBX Agent Cloud, a storage platform for developers building AI models and agents.",
+      "link": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n16",
+      "headline": "Agility Robotics goes public on the Nasdaq",
+      "teaser": "Agility Robotics Nasdaq debut",
+      "summary": "Agility Robotics has debuted on the Nasdaq stock exchange. The company is a leader in deploying humanoid robots.",
+      "link": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Agility-Digit-5-humanoid-robots-at-work-1152x648.jpg",
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w14",
+      "headline": "U Mobile automates telco operations with AI",
+      "teaser": "U Mobile AI operations",
+      "summary": "U Mobile built an agentic platform on Amazon Bedrock AgentCore that handles over 150 operational scenarios. The system has cut trouble tickets by up to 84.5%.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-u-mobile-built-agentic-telco-operations-with-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "w15",
+      "headline": "Salesforce sees surge in Agentforce adoption",
+      "teaser": "Agentforce usage grows",
+      "summary": "Salesforce reported a 21x increase in Agentforce Coworker usage over three months. More than 185,000 users are now delegating tasks to the AI across various business platforms.",
+      "link": "https://www.salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users/",
+      "source": "Salesforce News",
+      "image": "https://play.vidyard.com/FGEmowkr3LCzH5sfv7eb2j.jpg"
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "n23",
+      "summary": "Nothing CEO announced that a new AI-first device designed for productivity gains is launching next month.",
+      "link": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n3",
+      "summary": "Meta now allows users to have real-time voice conversations with their Muse AI agent.",
+      "link": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n5",
+      "summary": "Claude has introduced a Personal Finance tool that connects to bank and card accounts via Plaid.",
+      "link": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n12",
+      "summary": "SoundCloud now allows users to publish AI music directly from ElevenLabs.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-1083228772.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d1",
+        "label": "New model",
+        "headline": "OpenAI launches GPT-6 Cyber model",
+        "summary": "OpenAI has released GPT-6 Cyber, a new model focused on cybersecurity tasks.",
+        "link": "https://thenewstack.io/openai-gpt6-cyber-exploits/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/ecaa359f-gpt-6-cyber-screen-2-1024x518.jpeg"
+      },
+      {
+        "id": "d11",
+        "label": "Infrastructure update",
+        "headline": "OpenAI builds new Git backend",
+        "summary": "OpenAI has developed a new Git backend for its monorepo to manage its increasing number of projects.",
+        "link": "https://thenewstack.io/openai-pando-git-backend/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/02/33c02ff1-img_2596-scaled-1024x768.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d11",
+      "term": "monorepo",
+      "explanation": "A monorepo is a single software repository that holds many projects, which OpenAI is now supporting with a new Git backend to handle its growing codebase.",
+      "link": "https://thenewstack.io/openai-pando-git-backend/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/02/33c02ff1-img_2596-scaled-1024x768.jpg"
+    }
+  },
+  "long_read": {
+    "id": "l3",
+    "headline": "The AI Industry Thinks It Has a PR Problem",
+    "summary": "The newsletter suggests that the political impact of the recent midterms may pose a more significant challenge to the AI industry than its current public relations struggles.",
+    "link": "https://www.thealgorithmicbridge.com/p/the-ai-industry-thinks-it-has-a-pr",
+    "source": "The Algorithmic Bridge",
+    "image": "https://substackcdn.com/image/fetch/$s_!tu1P!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30dd0a4c-8ff1-45d8-b7bb-f664101502b4_2216x1327.jpeg"
+  },
+  "number": 13,
+  "date_iso": "2026-11-05",
+  "date_long": "Thursday \u00b7 5 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-05",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": {
+    "term": "Chunking",
+    "definition": "Splitting long documents into smaller passages before embedding them, so retrieval returns the relevant part instead of a whole file.",
+    "heard": "\"The answers are bad because the chunks split tables in half.\"",
+    "analogy": "Like portioning beans into single shots so you grab just what one cup needs.",
+    "reviewed": false,
+    "theme": "Retrieval and knowledge",
+    "day": 3
+  },
+  "keep_brewing": null,
+  "poll": null
+}

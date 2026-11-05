@@ -78,5 +78,13 @@
     "partial": 1,
     "unsupported": 1,
     "faithfulness": 0.958
+  },
+  {
+    "date": "2026-11-05",
+    "claims": 36,
+    "supported": 32,
+    "partial": 3,
+    "unsupported": 1,
+    "faithfulness": 0.931
   }
 ]

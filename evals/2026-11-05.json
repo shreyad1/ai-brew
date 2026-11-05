@@ -1,0 +1,332 @@
+{
+  "date": "2026-11-05",
+  "claims": 36,
+  "supported": 32,
+  "partial": 3,
+  "unsupported": 1,
+  "faithfulness": 0.931,
+  "flagged": [
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "A public OpenAI would change how the most influential AI company is governed and funded.",
+      "source": "OpenAI president Greg Brockman says company could be IPO ready in 2027. OpenAI president Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business.",
+      "verdict": "unsupported",
+      "reason": " The source contains no information about changes to governance, funding, or calling OpenAI the most influential AI company."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "OpenAI is targeting a 2027 IPO, citing improved enterprise revenue metrics and a successful business model pivot.",
+      "source": "OpenAI president Greg Brockman says company could be IPO ready in 2027. OpenAI president Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business.",
+      "verdict": "partial",
+      "reason": "The source states OpenAI could be ready for an IPO in 2027, not that it is actively targeting a 2027 IPO date."
+    },
+    {
+      "section": "builder",
+      "id": "d11",
+      "claim": "OpenAI has developed a new Git backend for its monorepo to manage its increasing number of projects.",
+      "source": "OpenAI built itself a new Git backend, too. OpenAI on Monday detailed how it built a new Git backend for its monorepo to power the ever-increasing number of",
+      "verdict": "partial",
+      "reason": "The source text cuts off at 'ever-increasing number of' and does not explicitly state 'projects'."
+    },
+    {
+      "section": "concept",
+      "id": "d11",
+      "claim": "A monorepo is a single software repository that holds many projects, which OpenAI is now supporting with a new Git backend to handle its growing codebase.",
+      "source": "OpenAI built itself a new Git backend, too. OpenAI on Monday detailed how it built a new Git backend for its monorepo to power the ever-increasing number of",
+      "verdict": "partial",
+      "reason": "The core fact about OpenAI building a Git backend is supported, but the source does not provide the definition of a monorepo."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n4",
+      "claim": "OpenAI president Greg Brockman says the company could be ready for an IPO by 2027.",
+      "source": "OpenAI president Greg Brockman says company could be IPO ready in 2027. OpenAI president Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that OpenAI president Greg Brockman said the company could be IPO ready in 2027."
+    },
+    {
+      "section": "glance",
+      "id": "n10",
+      "claim": "Dropbox is acquiring Tigris Data for $350 million to support its new AI storage platform.",
+      "source": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure. The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
+      "verdict": "supported",
+      "reason": "The source confirms Dropbox is acquiring Tigris Data for $350M to support its new AI storage platform, DBX Agent Cloud."
+    },
+    {
+      "section": "glance",
+      "id": "n16",
+      "claim": "Agility Robotics goes public on the Nasdaq",
+      "source": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market. US leader in deploying humanoid robots goes public on the Nasdaq stock exchange.",
+      "verdict": "supported",
+      "reason": "The source confirms that Agility Robotics goes public on the Nasdaq stock exchange."
+    },
+    {
+      "section": "glance",
+      "id": "n16",
+      "claim": "Agility Robotics has debuted on the Nasdaq stock exchange.",
+      "source": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market. US leader in deploying humanoid robots goes public on the Nasdaq stock exchange.",
+      "verdict": "supported",
+      "reason": "The source directly mentions Agility Robotics' Nasdaq debut."
+    },
+    {
+      "section": "glance",
+      "id": "n16",
+      "claim": "The company is a leader in deploying humanoid robots.",
+      "source": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market. US leader in deploying humanoid robots goes public on the Nasdaq stock exchange.",
+      "verdict": "supported",
+      "reason": "The source describes the company as the US leader in deploying humanoid robots."
+    },
+    {
+      "section": "glance",
+      "id": "n19",
+      "claim": "Apple is reportedly reducing its internal budgets for AI usage to manage rising costs.",
+      "source": "Apple is reportedly cutting budgets for its internal AI usage. The tokenmaxxing frenzy has been short-lived as bills for said tokens came due, and companies decided that token rationing might be a more fiscally sensible approach.",
+      "verdict": "supported",
+      "reason": "The source confirms Apple is cutting budgets for internal AI usage due to rising token bills."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "OpenAI eyes public stock market by 2027",
+      "source": "OpenAI president Greg Brockman says company could be IPO ready in 2027. OpenAI president Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business.",
+      "verdict": "supported",
+      "reason": "The source states that OpenAI could be ready to go public/IPO in 2027."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "OpenAI president Greg Brockman stated the company could be ready for an IPO in 2027.",
+      "source": "OpenAI president Greg Brockman says company could be IPO ready in 2027. OpenAI president Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business.",
+      "verdict": "supported",
+      "reason": "The source directly attributes the statement regarding a 2027 IPO readiness to OpenAI president Greg Brockman."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "This follows a turnaround in business performance and accelerating enterprise revenue.",
+      "source": "OpenAI president Greg Brockman says company could be IPO ready in 2027. OpenAI president Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business.",
+      "verdict": "supported",
+      "reason": "The source points to accelerating enterprise revenue and a turnaround in business as reasons for being IPO ready."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "A public OpenAI would change how the most influential AI company is governed and funded.",
+      "source": "OpenAI president Greg Brockman says company could be IPO ready in 2027. OpenAI president Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business.",
+      "verdict": "unsupported",
+      "reason": " The source contains no information about changes to governance, funding, or calling OpenAI the most influential AI company."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "The leader of OpenAI says his company might be ready to sell shares to the public in 2027 because they are making more money from businesses.",
+      "source": "OpenAI president Greg Brockman says company could be IPO ready in 2027. OpenAI president Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business.",
+      "verdict": "supported",
+      "reason": "The source confirms the president of OpenAI stated they could go public in 2027 due to accelerating enterprise revenue."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "OpenAI is signaling a shift toward public market readiness by 2027, driven by revenue growth and improved business operations.",
+      "source": "OpenAI president Greg Brockman says company could be IPO ready in 2027. OpenAI president Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business.",
+      "verdict": "supported",
+      "reason": "The source directly links public market readiness in 2027 to revenue growth and business turnaround."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "OpenAI is targeting a 2027 IPO, citing improved enterprise revenue metrics and a successful business model pivot.",
+      "source": "OpenAI president Greg Brockman says company could be IPO ready in 2027. OpenAI president Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business.",
+      "verdict": "partial",
+      "reason": "The source states OpenAI could be ready for an IPO in 2027, not that it is actively targeting a 2027 IPO date."
+    },
+    {
+      "section": "big_pour",
+      "id": "n10",
+      "claim": "Dropbox buys Tigris Data for AI infrastructure",
+      "source": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure. The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
+      "verdict": "supported",
+      "reason": "The source confirms Dropbox is acquiring Tigris Data to bolster its AI infrastructure."
+    },
+    {
+      "section": "big_pour",
+      "id": "n10",
+      "claim": "Dropbox is acquiring Tigris Data for $350 million.",
+      "source": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure. The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
+      "verdict": "supported",
+      "reason": "The source states that Dropbox is acquiring Tigris Data for $350 million."
+    },
+    {
+      "section": "big_pour",
+      "id": "n10",
+      "claim": "The deal aims to support the development of DBX Agent Cloud, a storage platform for developers building AI models and agents.",
+      "source": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure. The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
+      "verdict": "supported",
+      "reason": "The source explicitly states the deal is expected to support the development of DBX Agent Cloud for developers building AI models and agents."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "Agility Robotics goes public on the Nasdaq",
+      "source": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market. US leader in deploying humanoid robots goes public on the Nasdaq stock exchange.",
+      "verdict": "supported",
+      "reason": "The source confirms Agility Robotics went public on the Nasdaq stock exchange."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "Agility Robotics has debuted on the Nasdaq stock exchange.",
+      "source": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market. US leader in deploying humanoid robots goes public on the Nasdaq stock exchange.",
+      "verdict": "supported",
+      "reason": "The source mentions Agility Robotics' debut and public offering on the Nasdaq stock exchange."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "The company is a leader in deploying humanoid robots.",
+      "source": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market. US leader in deploying humanoid robots goes public on the Nasdaq stock exchange.",
+      "verdict": "supported",
+      "reason": "The source identifies Agility Robotics as a US leader in deploying humanoid robots."
+    },
+    {
+      "section": "office_blend",
+      "id": "w14",
+      "claim": "U Mobile automates telco operations with AI",
+      "source": "How U Mobile built agentic telco operations with Amazon Bedrock AgentCore. U Mobile, Malaysia's newest 5G network provider, built AiDaH, an agentic AI operations platform on Amazon Bedrock AgentCore that moves beyond AI assistance to autonomous action across telco operations. Nine months after production launch, AiDaH handles over 150 operational scenarios across six divisions, cutting trouble tickets by up to 84.5%.",
+      "verdict": "supported",
+      "reason": "The source states U Mobile built an autonomous AI platform to automate telco operations."
+    },
+    {
+      "section": "office_blend",
+      "id": "w14",
+      "claim": "U Mobile built an agentic platform on Amazon Bedrock AgentCore that handles over 150 operational scenarios.",
+      "source": "How U Mobile built agentic telco operations with Amazon Bedrock AgentCore. U Mobile, Malaysia's newest 5G network provider, built AiDaH, an agentic AI operations platform on Amazon Bedrock AgentCore that moves beyond AI assistance to autonomous action across telco operations. Nine months after production launch, AiDaH handles over 150 operational scenarios across six divisions, cutting trouble tickets by up to 84.5%.",
+      "verdict": "supported",
+      "reason": "The source confirms U Mobile built an agentic platform on Amazon Bedrock AgentCore that handles over 150 operational scenarios."
+    },
+    {
+      "section": "office_blend",
+      "id": "w14",
+      "claim": "The system has cut trouble tickets by up to 84.5%.",
+      "source": "How U Mobile built agentic telco operations with Amazon Bedrock AgentCore. U Mobile, Malaysia's newest 5G network provider, built AiDaH, an agentic AI operations platform on Amazon Bedrock AgentCore that moves beyond AI assistance to autonomous action across telco operations. Nine months after production launch, AiDaH handles over 150 operational scenarios across six divisions, cutting trouble tickets by up to 84.5%.",
+      "verdict": "supported",
+      "reason": "The source explicitly mentions that the platform cuts trouble tickets by up to 84.5%."
+    },
+    {
+      "section": "office_blend",
+      "id": "w15",
+      "claim": "Salesforce sees surge in Agentforce adoption",
+      "source": "Salesforce\u2019s Agentforce Coworker Usage Soars 21x in Three Months as Enterprises Delegate Real Work to AI. More than 185,000 users are putting Coworker to work, with companies including The Adecco Group, Fulton Bank, and BACA Systems expanding adoption across their businesses. New capabilities make Coworker smarter, more proactive, and available wherever employees work \u2014 from Microsoft Teams to mobile and desktop. Salesforce (NYSE: CRM), the world\u2019s #1 AI CRM, today announced [\u2026]",
+      "verdict": "supported",
+      "reason": "The source highlights a 21x surge in Agentforce Coworker usage as adoption expands."
+    },
+    {
+      "section": "office_blend",
+      "id": "w15",
+      "claim": "Salesforce reported a 21x increase in Agentforce Coworker usage over three months.",
+      "source": "Salesforce\u2019s Agentforce Coworker Usage Soars 21x in Three Months as Enterprises Delegate Real Work to AI. More than 185,000 users are putting Coworker to work, with companies including The Adecco Group, Fulton Bank, and BACA Systems expanding adoption across their businesses. New capabilities make Coworker smarter, more proactive, and available wherever employees work \u2014 from Microsoft Teams to mobile and desktop. Salesforce (NYSE: CRM), the world\u2019s #1 AI CRM, today announced [\u2026]",
+      "verdict": "supported",
+      "reason": "The source directly states that Agentforce Coworker usage soared 21x in three months."
+    },
+    {
+      "section": "office_blend",
+      "id": "w15",
+      "claim": "More than 185,000 users are now delegating tasks to the AI across various business platforms.",
+      "source": "Salesforce\u2019s Agentforce Coworker Usage Soars 21x in Three Months as Enterprises Delegate Real Work to AI. More than 185,000 users are putting Coworker to work, with companies including The Adecco Group, Fulton Bank, and BACA Systems expanding adoption across their businesses. New capabilities make Coworker smarter, more proactive, and available wherever employees work \u2014 from Microsoft Teams to mobile and desktop. Salesforce (NYSE: CRM), the world\u2019s #1 AI CRM, today announced [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states that more than 185,000 users are putting Coworker to work across their businesses and platforms."
+    },
+    {
+      "section": "still_roasting",
+      "id": "n23",
+      "claim": "Nothing CEO announced that a new AI-first device designed for productivity gains is launching next month.",
+      "source": "Nothing CEO says company\u2019s mysterious AI-first device is dropping next month. While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
+      "verdict": "supported",
+      "reason": "The source confirms that Nothing's CEO announced an AI-first device aimed at productivity gains is dropping next month."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n3",
+      "claim": "Meta now allows users to have real-time voice conversations with their Muse AI agent.",
+      "source": "Muse has a voice mode now. Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the avatar at the top of [\u2026]",
+      "verdict": "supported",
+      "reason": "The source directly states that Meta now allows users to have real-time voice conversations with their Muse AI agent."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n5",
+      "claim": "Claude has introduced a Personal Finance tool that connects to bank and card accounts via Plaid.",
+      "source": "Claude can now analyze your spending with its new Personal Finance tool. With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances.",
+      "verdict": "supported",
+      "reason": "The source states that Claude introduced a Personal Finance tool that connects bank and card accounts using Plaid."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n12",
+      "claim": "SoundCloud now allows users to publish AI music directly from ElevenLabs.",
+      "source": "You can post AI music straight to SoundCloud from ElevenLabs. After partnering with Moises earlier this year, SoundCloud is now adding integration with another AI music platform, ElevenLabs. Now, rather than having to export and download your outputs from ElevenLabs and then upload them to SoundCloud, you can publish them directly. As part of the partnership, SoundCloud Artist Pro subscribers are also getting three months [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states SoundCloud now allows direct publishing of AI music outputs from ElevenLabs."
+    },
+    {
+      "section": "builder",
+      "id": "d1",
+      "claim": "OpenAI launches GPT-6 Cyber model",
+      "source": "OpenAI\u2019s new GPT-6 Cyber is better at hacking and better at staying in its lane. OpenAI on Thursday launched GPT-6 Cyber, the latest release in its series of cybersecurity-focused models. The company ranks GPT-6 Cyber\u2019s ability",
+      "verdict": "supported",
+      "reason": "The source confirms OpenAI launched its GPT-6 Cyber model."
+    },
+    {
+      "section": "builder",
+      "id": "d1",
+      "claim": "OpenAI has released GPT-6 Cyber, a new model focused on cybersecurity tasks.",
+      "source": "OpenAI\u2019s new GPT-6 Cyber is better at hacking and better at staying in its lane. OpenAI on Thursday launched GPT-6 Cyber, the latest release in its series of cybersecurity-focused models. The company ranks GPT-6 Cyber\u2019s ability",
+      "verdict": "supported",
+      "reason": "The source confirms OpenAI launched GPT-6 Cyber as part of its cybersecurity-focused models."
+    },
+    {
+      "section": "builder",
+      "id": "d11",
+      "claim": "OpenAI builds new Git backend",
+      "source": "OpenAI built itself a new Git backend, too. OpenAI on Monday detailed how it built a new Git backend for its monorepo to power the ever-increasing number of",
+      "verdict": "supported",
+      "reason": "The source explicitly states OpenAI built a new Git backend for its monorepo."
+    },
+    {
+      "section": "builder",
+      "id": "d11",
+      "claim": "OpenAI has developed a new Git backend for its monorepo to manage its increasing number of projects.",
+      "source": "OpenAI built itself a new Git backend, too. OpenAI on Monday detailed how it built a new Git backend for its monorepo to power the ever-increasing number of",
+      "verdict": "partial",
+      "reason": "The source text cuts off at 'ever-increasing number of' and does not explicitly state 'projects'."
+    },
+    {
+      "section": "concept",
+      "id": "d11",
+      "claim": "A monorepo is a single software repository that holds many projects, which OpenAI is now supporting with a new Git backend to handle its growing codebase.",
+      "source": "OpenAI built itself a new Git backend, too. OpenAI on Monday detailed how it built a new Git backend for its monorepo to power the ever-increasing number of",
+      "verdict": "partial",
+      "reason": "The core fact about OpenAI building a Git backend is supported, but the source does not provide the definition of a monorepo."
+    },
+    {
+      "section": "long_read",
+      "id": "l3",
+      "claim": "The AI Industry Thinks It Has a PR Problem",
+      "source": "The AI Industry Thinks It Has a PR Problem. The Actual Problem Is Much Worse. The Democrats swept the midterms and owe their victory to the AI industry",
+      "verdict": "supported",
+      "reason": "The claim matches the exact title sentence present in the source."
+    },
+    {
+      "section": "long_read",
+      "id": "l3",
+      "claim": "The newsletter suggests that the political impact of the recent midterms may pose a more significant challenge to the AI industry than its current public relations struggles.",
+      "source": "The AI Industry Thinks It Has a PR Problem. The Actual Problem Is Much Worse. The Democrats swept the midterms and owe their victory to the AI industry",
+      "verdict": "supported",
+      "reason": "The source directly links the midterm results to the 'much worse' problem facing the AI industry beyond PR."
+    }
+  ]
+}
