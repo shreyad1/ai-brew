@@ -1,0 +1,198 @@
+{
+  "glance": [
+    {
+      "id": "n6",
+      "summary": "OpenAI raised $11 billion in funding at a $1.25 trillion valuation.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK155_OPEN_AI_CVirginia_2_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n4",
+      "summary": "Anthropic is using AI models to automate AI development, doubling model improvement speed.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2280291125.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "w8",
+      "summary": "Meta abandoned updated business terms that allowed collecting website content for AI training.",
+      "link": "https://www.cio.com/article/4245781/meta-does-a-u-turn-on-controversial-new-ai-terms-for-businesses.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4245781-0-34388300-1793976702-shutterstock_2298419527.jpg?quality=50&strip=all"
+    },
+    {
+      "id": "n13",
+      "summary": "U.S. voters voted to impose more restrictions on data center development in all but one of 41 midterm ballot measures.",
+      "link": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n4",
+      "headline": "Anthropic uses AI to speed up AI building",
+      "teaser": "AI building AI gets faster",
+      "summary": "Anthropic is using AI to build more powerful models, with development speed doubling compared to last year according to a report by METR.",
+      "why": "When AI accelerates its own development, AI capabilities could advance faster with less human effort.",
+      "explain": {
+        "kid": "Anthropic is using smart AI computers to help build even smarter AI computers, and it is working twice as fast as last year.",
+        "pm": "Anthropic is using its AI models to automate AI development, doubling the rate of model improvement over the past year.",
+        "engineer": "Anthropic leverages its existing AI models to automate AI development workflows, accelerating model iteration speed to roughly double its rate from a year ago."
+      },
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2280291125.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n6",
+      "headline": "OpenAI raises $11 billion at $1.25 trillion valuation",
+      "teaser": "OpenAI valuation reaches $1.25 trillion",
+      "summary": "OpenAI has reportedly raised an additional $11 billion in new funding, bringing the company's valuation to $1.25 trillion.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK155_OPEN_AI_CVirginia_2_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n14",
+      "headline": "Meta drops plan to train AI on business content",
+      "teaser": "Meta reverses AI training terms",
+      "summary": "Meta abandoned proposed commercial terms that would have required Facebook page owners to allow AI training on their linked website content.",
+      "link": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1363244761-1152x648.jpg",
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w6",
+      "headline": "Greenlight Financial uses AI agents for security cases",
+      "teaser": "AI resolves financial risk cases",
+      "summary": "Greenlight Financial resolves over 90% of up to 4,000 monthly security and risk cases without human intervention using Luna, a multi-agent system built on Amazon Bedrock AgentCore.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "w12",
+      "headline": "National Museum of Korea uses AI for cultural preservation",
+      "teaser": "Museum uses AI for artifacts",
+      "summary": "The National Museum of Korea uses AI initiatives and a dedicated digital division to preserve cultural heritage, expand artifact displays, and improve visitor experiences.",
+      "link": "https://www.cio.com/article/4242091/interview-2-53-million-artifacts-turned-into-data-how-the-national-museum-of-korea-is-preparing-for-the-ai-era.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4242091-0-42658900-1793959343-choi_museum.jpg?quality=50&strip=all"
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u1",
+      "summary": "Amazon plans to roll out a feature in coming weeks allowing users to text Alexa for shopping help.",
+      "link": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "source": "TechCrunch",
+      "image": null,
+      "date_mentioned": null
+    },
+    {
+      "id": "u2",
+      "summary": "Airbnb plans to launch an AI travel agent in the first half of 2027 to help travelers plan and manage trips.",
+      "link": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "source": "TechCrunch",
+      "image": null,
+      "date_mentioned": null
+    },
+    {
+      "id": "u3",
+      "summary": "OpenAI president Greg Brockman stated the company could be ready for an initial public offering in 2027.",
+      "link": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "source": "TechCrunch",
+      "image": null,
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n2",
+      "summary": "New Matrix was approved for Nvidia H200 AI chips despite having empty offices in China.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n7",
+      "summary": "China recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang regarding American AI chips.",
+      "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "w9",
+      "summary": "UK digital watchdogs warned enterprise companies that they cannot blame AI agents for legal errors.",
+      "link": "https://www.cio.com/article/4245762/enterprises-must-take-blame-for-their-ai-agents-mistakes-say-regulators.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4245762-0-99818300-1793974939-shutterstock_2285547995.jpg?quality=50&strip=all"
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d9",
+        "label": "Security model",
+        "headline": "OpenAI launches GPT-6 Cyber for cybersecurity tasks",
+        "summary": "OpenAI launched GPT-6 Cyber, its latest model focused on cybersecurity, designed to improve hacking capabilities while enforcing system safety boundaries.",
+        "link": "https://thenewstack.io/openai-gpt6-cyber-exploits/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/ecaa359f-gpt-6-cyber-screen-2-1024x518.jpeg"
+      },
+      {
+        "id": "d12",
+        "label": "Storage acquisition",
+        "headline": "Dropbox acquiring Tigris for AI developer storage",
+        "summary": "Dropbox announced plans to acquire Tigris to sell S3-compatible storage targeted at AI developers.",
+        "link": "https://thenewstack.io/dropbox-acquires-tigris-s3-alternative/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/89299b13-tri-wiranto-dlfzo0l9r74-unsplash-1024x731.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d6",
+      "term": "gVisor",
+      "explanation": "gVisor is a code sandbox infrastructure project used by Anthropic and OpenAI that Google is donating as an open-source project.",
+      "link": "https://thenewstack.io/gvisor-cncf-kubernetes-open-source/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/11/9b88fd32-doodler-collective-0jfo6w9u_zi-unsplash-1024x745.jpg"
+    }
+  },
+  "long_read": {
+    "id": "l1",
+    "headline": "Scaling Slack and GitHub with Maude Lemaire",
+    "summary": "The newsletter highlights insights from Maude Lemaire on scaling Slack and GitHub, optimizing Cursor performance, and keeping human judgment central when using AI.",
+    "link": "https://newsletter.pragmaticengineer.com/p/scaling-slack-and-github-with-maude",
+    "source": "The Pragmatic Engineer",
+    "image": "https://substackcdn.com/image/fetch/$s_!AlJu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e3d3c6f-6a37-411e-aa1a-dfcefc979af3_1600x140.png"
+  },
+  "number": 15,
+  "date_iso": "2026-11-07",
+  "date_long": "Saturday \u00b7 7 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-07",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": {
+    "term": "Knowledge graph",
+    "definition": "Data stored as entities and the relationships between them (e.g. Customer \u2192 bought \u2192 Product), which can be queried by following those links.",
+    "heard": "\"Ground the agent on the knowledge graph so it knows which team owns which system.\"",
+    "analogy": "Like a map of which farm supplies which roaster, which supplies which caf\u00e9.",
+    "reviewed": false,
+    "theme": "Retrieval and knowledge",
+    "day": 5
+  },
+  "keep_brewing": null,
+  "poll": null
+}

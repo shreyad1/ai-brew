@@ -1,0 +1,276 @@
+{
+  "date": "2026-11-07",
+  "claims": 31,
+  "supported": 29,
+  "partial": 2,
+  "unsupported": 0,
+  "faithfulness": 0.968,
+  "flagged": [
+    {
+      "section": "glance",
+      "id": "w8",
+      "claim": "Meta abandoned updated business terms that allowed collecting website content for AI training.",
+      "source": "Meta does a U-turn on controversial new AI terms for businesses. Meta has hit pause on new terms of service for its business customers that would have granted it the right to grab any content from their websites. Not only that, but it would also have shifted the blame for every error produced through faulty AI to its customers. The new terms of service were revealed on October 19 and initially due to take effect on October 30, though Meta later pushed the start date back to November 20. But that small delay wasn\u2019t enough to calm customer pushback, and now Met",
+      "verdict": "partial",
+      "reason": "The source states Meta has 'hit pause' on the new business terms, not that it completely abandoned them."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "When AI accelerates its own development, AI capabilities could advance faster with less human effort.",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "partial",
+      "reason": "While the source mentions AI accelerating AI development, it does not explicitly mention advancing 'with less human effort'."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n6",
+      "claim": "OpenAI raised $11 billion in funding at a $1.25 trillion valuation.",
+      "source": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO. OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states that OpenAI raised another $11 billion in funding at a $1.25 trillion valuation."
+    },
+    {
+      "section": "glance",
+      "id": "n4",
+      "claim": "Anthropic is using AI models to automate AI development, doubling model improvement speed.",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Anthropic automates AI development using AI, leading to models improving roughly twice as fast as a year ago."
+    },
+    {
+      "section": "glance",
+      "id": "w8",
+      "claim": "Meta abandoned updated business terms that allowed collecting website content for AI training.",
+      "source": "Meta does a U-turn on controversial new AI terms for businesses. Meta has hit pause on new terms of service for its business customers that would have granted it the right to grab any content from their websites. Not only that, but it would also have shifted the blame for every error produced through faulty AI to its customers. The new terms of service were revealed on October 19 and initially due to take effect on October 30, though Meta later pushed the start date back to November 20. But that small delay wasn\u2019t enough to calm customer pushback, and now Met",
+      "verdict": "partial",
+      "reason": "The source states Meta has 'hit pause' on the new business terms, not that it completely abandoned them."
+    },
+    {
+      "section": "glance",
+      "id": "n13",
+      "claim": "U.S. voters voted to impose more restrictions on data center development in all but one of 41 midterm ballot measures.",
+      "source": "How a Blue Wave midterm might reshape the AI industry. Democrats\u2019 historic victories in this week\u2019s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday \u2014 in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren\u2019t on the ballot directly, they were a [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms voters chose to impose more restrictions on data center development in 40 of the 41 ballot measures."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Anthropic uses AI to speed up AI building",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states Anthropic is using AI to build more powerful AI, which is improving models roughly twice as quickly."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Anthropic is using AI to build more powerful models, with development speed doubling compared to last year according to a report by METR.",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "supported",
+      "reason": "The source directly supports all elements of this claim, citing the report published by METR."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "When AI accelerates its own development, AI capabilities could advance faster with less human effort.",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "partial",
+      "reason": "While the source mentions AI accelerating AI development, it does not explicitly mention advancing 'with less human effort'."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Anthropic is using smart AI computers to help build even smarter AI computers, and it is working twice as fast as last year.",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "supported",
+      "reason": "The source supports that Anthropic uses AI to build more powerful AI and that models are improving roughly twice as fast as a year ago."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Anthropic is using its AI models to automate AI development, doubling the rate of model improvement over the past year.",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Anthropic automates AI development with AI, doubling model improvement speed compared to a year ago."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Anthropic leverages its existing AI models to automate AI development workflows, accelerating model iteration speed to roughly double its rate from a year ago.",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "supported",
+      "reason": "The source supports that Anthropic uses AI to automate AI development and accelerate model improvement speed to roughly double its rate from a year ago."
+    },
+    {
+      "section": "big_pour",
+      "id": "n6",
+      "claim": "OpenAI raises $11 billion at $1.25 trillion valuation",
+      "source": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO. OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states that OpenAI raised $11 billion at a $1.25 trillion valuation."
+    },
+    {
+      "section": "big_pour",
+      "id": "n6",
+      "claim": "OpenAI has reportedly raised an additional $11 billion in new funding, bringing the company's valuation to $1.25 trillion.",
+      "source": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO. OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states according to Bloomberg that OpenAI raised an additional $11 billion, resulting in a $1.25 trillion valuation."
+    },
+    {
+      "section": "big_pour",
+      "id": "n14",
+      "claim": "Meta drops plan to train AI on business content",
+      "source": "\u201cDoes Meta think we can\u2019t read?\u201d Meta abandons sketchy commercial terms update.. Meta won't force Facebook page owners to allow AI training on linked content.",
+      "verdict": "supported",
+      "reason": "The source confirms Meta abandoned the commercial terms update and will not force Facebook page owners to allow AI training on linked content."
+    },
+    {
+      "section": "big_pour",
+      "id": "n14",
+      "claim": "Meta abandoned proposed commercial terms that would have required Facebook page owners to allow AI training on their linked website content.",
+      "source": "\u201cDoes Meta think we can\u2019t read?\u201d Meta abandons sketchy commercial terms update.. Meta won't force Facebook page owners to allow AI training on linked content.",
+      "verdict": "supported",
+      "reason": "The source states Meta abandoned a sketchy commercial terms update that would have forced Facebook page owners to allow AI training on linked content."
+    },
+    {
+      "section": "office_blend",
+      "id": "w6",
+      "claim": "Greenlight Financial uses AI agents for security cases",
+      "source": "How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore. Greenlight Financial resolves more than 90% of up to 4,000 monthly security and risk cases without human intervention using Luna, a tiered multi-agent system on Amazon Bedrock AgentCore. This post covers the architecture, episodic memory for continuous learning, and the expansion from SOC operations into financial risk triage.",
+      "verdict": "supported",
+      "reason": "The source explains that Greenlight Financial uses a multi-agent system (Luna) to resolve security and risk cases."
+    },
+    {
+      "section": "office_blend",
+      "id": "w6",
+      "claim": "Greenlight Financial resolves over 90% of up to 4,000 monthly security and risk cases without human intervention using Luna, a multi-agent system built on Amazon Bedrock AgentCore.",
+      "source": "How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore. Greenlight Financial resolves more than 90% of up to 4,000 monthly security and risk cases without human intervention using Luna, a tiered multi-agent system on Amazon Bedrock AgentCore. This post covers the architecture, episodic memory for continuous learning, and the expansion from SOC operations into financial risk triage.",
+      "verdict": "supported",
+      "reason": "Every detail matches the text stating Greenlight Financial resolves over 90% of up to 4,000 monthly cases without human intervention using Luna on Amazon Bedrock AgentCore."
+    },
+    {
+      "section": "office_blend",
+      "id": "w12",
+      "claim": "National Museum of Korea uses AI for cultural preservation",
+      "source": "How the National Museum of Korea curates its AI strategy. Museum IT departments have traditionally served as support functions to manage security and systems. But the National Museum of Korea goes further, identifying and pursuing AI initiatives to preserve cultural heritage, broaden its use, and improve the visitor experience. The National Museum of Korea uses technology to expand the possibilities to preserve and display physical artifacts, and its digital museum division (DMD) plans and oversees that transformation. A dedicated team responsible for ",
+      "verdict": "supported",
+      "reason": "The source explicitly states the museum pursues AI initiatives to preserve cultural heritage."
+    },
+    {
+      "section": "office_blend",
+      "id": "w12",
+      "claim": "The National Museum of Korea uses AI initiatives and a dedicated digital division to preserve cultural heritage, expand artifact displays, and improve visitor experiences.",
+      "source": "How the National Museum of Korea curates its AI strategy. Museum IT departments have traditionally served as support functions to manage security and systems. But the National Museum of Korea goes further, identifying and pursuing AI initiatives to preserve cultural heritage, broaden its use, and improve the visitor experience. The National Museum of Korea uses technology to expand the possibilities to preserve and display physical artifacts, and its digital museum division (DMD) plans and oversees that transformation. A dedicated team responsible for ",
+      "verdict": "supported",
+      "reason": "The source mentions pursuing AI initiatives to preserve cultural heritage, improve the visitor experience, and having a digital museum division overseeing artifact preservation and display."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u1",
+      "claim": "Amazon plans to roll out a feature in coming weeks allowing users to text Alexa for shopping help.",
+      "source": "After blocking Muse, Amazon now lets users text Alexa to help them shop. Amazon said that the feature will roll out to millions of users in coming weeks.",
+      "verdict": "supported",
+      "reason": "The source verifies that Amazon lets users text Alexa to help them shop, rolling out to millions in coming weeks."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u2",
+      "claim": "Airbnb plans to launch an AI travel agent in the first half of 2027 to help travelers plan and manage trips.",
+      "source": "Airbnb says it\u2019s launching an AI travel agent in the first half of 2027. Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
+      "verdict": "supported",
+      "reason": "The source states Airbnb is launching an AI travel agent in the first half of 2027 to help plan trips and manage bookings."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u3",
+      "claim": "OpenAI president Greg Brockman stated the company could be ready for an initial public offering in 2027.",
+      "source": "OpenAI president Greg Brockman says company could be IPO ready in 2027. Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
+      "verdict": "supported",
+      "reason": "The source states OpenAI president Greg Brockman says the company could be IPO ready in 2027."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n2",
+      "claim": "New Matrix was approved for Nvidia H200 AI chips despite having empty offices in China.",
+      "source": "The US let Nvidia sell chips to an empty office in China. Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms New Matrix is on the list of approved firms for Nvidia's H200 AI chips despite having empty offices in China."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n7",
+      "claim": "China recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang regarding American AI chips.",
+      "source": "China reportedly recruited AI exec to spy on Jensen Huang. China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed [\u2026]",
+      "verdict": "supported",
+      "reason": "The source reports that China's MSS recruited Alice Huang to spy on Jensen Huang regarding American AI chips."
+    },
+    {
+      "section": "quick_sips",
+      "id": "w9",
+      "claim": "UK digital watchdogs warned enterprise companies that they cannot blame AI agents for legal errors.",
+      "source": "Enterprises must take blame for their AI agents\u2019 mistakes, say regulators. The UK\u2019s digital watchdogs have warned enterprises that they can\u2019t evade their legal responsibilities by blaming errors on AI agents that they have deployed. \u201cBy taking action on behalf of users, such as making purchases and communicating with businesses, these agents could transform how people use digital services, engage with markets and unlock wider innovation,\u201d said the Digital Regulation Cooperation Forum (DRCF), a body comprising the UK\u2019s Competition and Markets Authority (CMA), Financial ",
+      "verdict": "supported",
+      "reason": "The source notes UK digital watchdogs warned enterprises they cannot evade legal responsibilities by blaming errors on deployed AI agents."
+    },
+    {
+      "section": "builder",
+      "id": "d9",
+      "claim": "OpenAI launches GPT-6 Cyber for cybersecurity tasks",
+      "source": "OpenAI\u2019s new GPT-6 Cyber is better at hacking and better at staying in its lane. OpenAI on Thursday launched GPT-6 Cyber, the latest release in its series of cybersecurity-focused models. The company ranks GPT-6 Cyber\u2019s ability",
+      "verdict": "supported",
+      "reason": "The source explicitly states OpenAI launched GPT-6 Cyber, a cybersecurity-focused model."
+    },
+    {
+      "section": "builder",
+      "id": "d9",
+      "claim": "OpenAI launched GPT-6 Cyber, its latest model focused on cybersecurity, designed to improve hacking capabilities while enforcing system safety boundaries.",
+      "source": "OpenAI\u2019s new GPT-6 Cyber is better at hacking and better at staying in its lane. OpenAI on Thursday launched GPT-6 Cyber, the latest release in its series of cybersecurity-focused models. The company ranks GPT-6 Cyber\u2019s ability",
+      "verdict": "supported",
+      "reason": "The text directly states it was launched, focuses on cybersecurity, is better at hacking, and stays in its lane."
+    },
+    {
+      "section": "builder",
+      "id": "d12",
+      "claim": "Dropbox acquiring Tigris for AI developer storage",
+      "source": "Dropbox ditched AWS S3 for its own in-house system. Now it\u2019s buying Tigris to sell S3-compatible storage to AI developers.. Dropbox is entering the AI infrastructure space in a big way, announcing plans on Thursday to acquire Tigris, a startup",
+      "verdict": "supported",
+      "reason": "The source states Dropbox announced plans to buy Tigris to sell storage to AI developers."
+    },
+    {
+      "section": "builder",
+      "id": "d12",
+      "claim": "Dropbox announced plans to acquire Tigris to sell S3-compatible storage targeted at AI developers.",
+      "source": "Dropbox ditched AWS S3 for its own in-house system. Now it\u2019s buying Tigris to sell S3-compatible storage to AI developers.. Dropbox is entering the AI infrastructure space in a big way, announcing plans on Thursday to acquire Tigris, a startup",
+      "verdict": "supported",
+      "reason": "The source directly states Dropbox announced plans to acquire Tigris to sell S3-compatible storage to AI developers."
+    },
+    {
+      "section": "concept",
+      "id": "d6",
+      "claim": "gVisor is a code sandbox infrastructure project used by Anthropic and OpenAI that Google is donating as an open-source project.",
+      "source": "Kubernetes, mark II? Why Google\u2019s giving away gVisor, a code sandbox used by Anthropic and OpenAI. Google wants to emulate one of its biggest ever open-source success stories, donating three core AI agent infrastructure projects to",
+      "verdict": "supported",
+      "reason": "The headline and text confirm gVisor is a code sandbox used by Anthropic and OpenAI that Google is donating as an open-source project."
+    },
+    {
+      "section": "long_read",
+      "id": "l1",
+      "claim": "Scaling Slack and GitHub with Maude Lemaire",
+      "source": "Scaling Slack and GitHub with Maude Lemaire. Maude Lemaire shares lessons from scaling Slack and GitHub, improving performance at Cursor, and using AI while keeping engineering judgment in human hands.",
+      "verdict": "supported",
+      "reason": "The claim verbatim matches the title provided in the source."
+    },
+    {
+      "section": "long_read",
+      "id": "l1",
+      "claim": "The newsletter highlights insights from Maude Lemaire on scaling Slack and GitHub, optimizing Cursor performance, and keeping human judgment central when using AI.",
+      "source": "Scaling Slack and GitHub with Maude Lemaire. Maude Lemaire shares lessons from scaling Slack and GitHub, improving performance at Cursor, and using AI while keeping engineering judgment in human hands.",
+      "verdict": "supported",
+      "reason": "The text explicitly states Maude Lemaire shares lessons on these exact topics."
+    }
+  ]
+}
