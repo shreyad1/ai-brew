@@ -1,0 +1,202 @@
+{
+  "glance": [
+    {
+      "id": "n7",
+      "summary": "Anthropic is using AI to build more powerful AI models twice as fast as last year.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2280291125.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n9",
+      "summary": "OpenAI reached a $1.25 trillion valuation after raising another $11 billion in new funding.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK155_OPEN_AI_CVirginia_2_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n1",
+      "headline": "Elvis and Eminem rights holders sue Suno",
+      "teaser": "Suno faces new lawsuits",
+      "summary": "Rights holders for Elvis Presley and Eminem are suing Suno. They claim the AI music company illegally generates music and lyrics that mimic those artists.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22202367/517216004.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "w9",
+      "summary": "The Digital Regulation Cooperation Forum warned enterprises they cannot escape legal liability for AI agent errors.",
+      "link": "https://www.cio.com/article/4245762/enterprises-must-take-blame-for-their-ai-agents-mistakes-say-regulators.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4245762-0-99818300-1793974939-shutterstock_2285547995.jpg?quality=50&strip=all"
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n7",
+      "headline": "Anthropic uses AI to build faster AI",
+      "teaser": "AI builds faster AI",
+      "summary": "Anthropic is using AI to build more powerful AI. An investigation reports the company's models are improving roughly twice as fast as a year ago, with little sign of slowing down.",
+      "why": "Models could improve twice as fast without slowing down, changing how quickly AI capabilities advance.",
+      "explain": {
+        "kid": "Imagine a computer that learns how to make smarter computers twice as fast as last year, and it keeps getting faster.",
+        "pm": "Anthropic is automating model development with AI, doubling improvement velocity compared to last year with no signs of deceleration.",
+        "engineer": "Anthropic uses AI to build more powerful models, doubling its improvement rate over last year according to an eleven-week safety investigation."
+      },
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2280291125.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n9",
+      "headline": "OpenAI valued at 1.25 trillion dollars",
+      "teaser": "OpenAI raises new funds",
+      "summary": "OpenAI is now valued at $1.25 trillion after raising another $11 billion in funding. This follows an earlier round raising $122 billion at an $852 billion valuation.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK155_OPEN_AI_CVirginia_2_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n1",
+      "headline": "Elvis and Eminem rights holders sue Suno",
+      "teaser": "Suno faces new lawsuits",
+      "summary": "Rights holders for Elvis Presley and Eminem are suing Suno. They claim the AI music company illegally generates music and lyrics that mimic those artists.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22202367/517216004.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w6",
+      "headline": "Greenlight Financial automates security triage with AI",
+      "teaser": "Automated security triage",
+      "summary": "Greenlight Financial resolves over 90% of up to 4,000 monthly security and risk cases without human intervention using a multi-agent system on Amazon Bedrock AgentCore.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "w12",
+      "headline": "National Museum of Korea adopts AI",
+      "teaser": "Preserving cultural heritage",
+      "summary": "The National Museum of Korea uses AI to help preserve physical artifacts, broaden their display use, and improve the visitor experience.",
+      "link": "https://www.cio.com/article/4242091/interview-2-53-million-artifacts-turned-into-data-how-the-national-museum-of-korea-is-preparing-for-the-ai-era.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4242091-0-42658900-1793959343-choi_museum.jpg?quality=50&strip=all"
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u1",
+      "summary": "Amazon will let millions of users text Alexa to help them shop in the coming weeks.",
+      "link": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "source": "TechCrunch",
+      "image": null,
+      "date_mentioned": null
+    },
+    {
+      "id": "u2",
+      "summary": "Airbnb plans to launch an AI travel agent in the first half of 2027 to assist travelers with bookings and planning.",
+      "link": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "source": "TechCrunch",
+      "image": null,
+      "date_mentioned": null
+    },
+    {
+      "id": "u3",
+      "summary": "OpenAI could be ready for an initial public offering in 2027, according to company president Greg Brockman.",
+      "link": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "source": "TechCrunch",
+      "image": null,
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n15",
+      "summary": "Meta added custom spaces to its Muse AI assistant, letting users build app-like tools such as dashboards and games.",
+      "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/meta-muse-spaces.png?quality=90&#038;strip=all&#038;crop=8.0752843063528,0,91.924715693647,74.471659887186"
+    },
+    {
+      "id": "w9",
+      "summary": "The Digital Regulation Cooperation Forum warned that companies cannot evade legal responsibility by blaming errors on deployed AI agents.",
+      "link": "https://www.cio.com/article/4245762/enterprises-must-take-blame-for-their-ai-agents-mistakes-say-regulators.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4245762-0-99818300-1793974939-shutterstock_2285547995.jpg?quality=50&strip=all"
+    },
+    {
+      "id": "n10",
+      "summary": "China's Ministry of State Security reportedly recruited an executive to spy on Nvidia CEO Jensen Huang regarding advanced AI chips.",
+      "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d10",
+        "label": "New model",
+        "headline": "OpenAI releases GPT-6 Cyber security model",
+        "summary": "OpenAI launched GPT-6 Cyber, the latest release in its series of cybersecurity-focused models.",
+        "link": "https://thenewstack.io/openai-gpt6-cyber-exploits/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/ecaa359f-gpt-6-cyber-screen-2-1024x518.jpeg"
+      },
+      {
+        "id": "d8",
+        "label": "New architecture",
+        "headline": "GitHub unveils new Git storage architecture",
+        "summary": "GitHub built a new Git storage architecture designed so thousands of agents can push code to a single repository at once.",
+        "link": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+        "source": "GitHub Blog",
+        "image": "https://github.blog/wp-content/uploads/2026/11/customer-growth.png?resize=1024%2C483"
+      }
+    ],
+    "concept": {
+      "id": "d8",
+      "term": "Git storage architecture",
+      "explanation": "A storage structure built by GitHub so thousands of AI agents can push code to a single repository at the same time.",
+      "link": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "source": "GitHub Blog",
+      "image": "https://github.blog/wp-content/uploads/2026/11/customer-growth.png?resize=1024%2C483"
+    }
+  },
+  "long_read": {
+    "id": "l1",
+    "headline": "Scaling Slack and GitHub with Maude Lemaire",
+    "summary": "The newsletter shares lessons from Maude Lemaire on scaling Slack and GitHub, improving performance at Cursor, and using AI while keeping engineering judgment in human hands.",
+    "link": "https://newsletter.pragmaticengineer.com/p/scaling-slack-and-github-with-maude",
+    "source": "The Pragmatic Engineer",
+    "image": "https://substackcdn.com/image/fetch/$s_!AlJu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e3d3c6f-6a37-411e-aa1a-dfcefc979af3_1600x140.png"
+  },
+  "number": 16,
+  "date_iso": "2026-11-08",
+  "date_long": "Sunday \u00b7 8 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-08",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": {
+    "term": "Fine-tuning",
+    "definition": "Further training a pre-trained model on your own examples so it learns a specific task, format, or style.",
+    "heard": "\"Try better prompts and retrieval before we fine-tune.\"",
+    "analogy": "Like training a skilled barista on your caf\u00e9's signature drinks.",
+    "reviewed": false,
+    "theme": "Models, speed, and cost",
+    "day": 1
+  },
+  "keep_brewing": null,
+  "poll": null
+}

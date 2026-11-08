@@ -1,0 +1,340 @@
+{
+  "date": "2026-11-08",
+  "claims": 36,
+  "supported": 31,
+  "partial": 5,
+  "unsupported": 0,
+  "faithfulness": 0.931,
+  "flagged": [
+    {
+      "section": "big_pour",
+      "id": "n7",
+      "claim": "Anthropic uses AI to build faster AI",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "partial",
+      "reason": "The source specifies building 'more powerful AI', not necessarily 'faster AI'."
+    },
+    {
+      "section": "big_pour",
+      "id": "n7",
+      "claim": "Models could improve twice as fast without slowing down, changing how quickly AI capabilities advance.",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "partial",
+      "reason": "The source reports models are currently improving twice as fast, rather than posing it as a hypothetical possibility ('could improve')."
+    },
+    {
+      "section": "big_pour",
+      "id": "n7",
+      "claim": "Imagine a computer that learns how to make smarter computers twice as fast as last year, and it keeps getting faster.",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "partial",
+      "reason": "The claim adds that it 'keeps getting faster' (accelerating velocity), whereas the source only notes 'little indication of slowing down'."
+    },
+    {
+      "section": "concept",
+      "id": "d8",
+      "claim": "A storage structure built by GitHub so thousands of AI agents can push code to a single repository at the same time.",
+      "source": "Inside GitHub\u2019s new Git storage architecture. GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.",
+      "verdict": "partial",
+      "reason": "The source only mentions 'agents', whereas the claim specifies 'AI agents'."
+    },
+    {
+      "section": "long_read",
+      "id": "l1",
+      "claim": "The newsletter shares lessons from Maude Lemaire on scaling Slack and GitHub, improving performance at Cursor, and using AI while keeping engineering judgment in human hands.",
+      "source": "Scaling Slack and GitHub with Maude Lemaire. Maude Lemaire shares lessons from scaling Slack and GitHub, improving performance at Cursor, and using AI while keeping engineering judgment in human hands.",
+      "verdict": "partial",
+      "reason": "The source details the content of Maude Lemaire's shared lessons, but does not mention that it is a 'newsletter'."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n7",
+      "claim": "Anthropic is using AI to build more powerful AI models twice as fast as last year.",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states Anthropic uses AI to build more powerful AI and its models are improving roughly twice as quickly as a year ago."
+    },
+    {
+      "section": "glance",
+      "id": "n9",
+      "claim": "OpenAI reached a $1.25 trillion valuation after raising another $11 billion in new funding.",
+      "source": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO. OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms OpenAI is valued at $1.25 trillion following an $11 billion funding round."
+    },
+    {
+      "section": "glance",
+      "id": "n1",
+      "claim": "Elvis and Eminem rights holders sue Suno",
+      "source": "Elvis and Eminem rights holders are suing Suno. Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's [\u2026]",
+      "verdict": "supported",
+      "reason": "The text explicitly states that rights holders for Elvis and Eminem are suing Suno."
+    },
+    {
+      "section": "glance",
+      "id": "n1",
+      "claim": "Rights holders for Elvis Presley and Eminem are suing Suno.",
+      "source": "Elvis and Eminem rights holders are suing Suno. Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's [\u2026]",
+      "verdict": "supported",
+      "reason": "The source directly states that rights holders of Elvis Presley's music and Eminem's publisher are suing Suno."
+    },
+    {
+      "section": "glance",
+      "id": "n1",
+      "claim": "They claim the AI music company illegally generates music and lyrics that mimic those artists.",
+      "source": "Elvis and Eminem rights holders are suing Suno. Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms they claim Suno illegally generates music and lyrics mimicking those artists."
+    },
+    {
+      "section": "glance",
+      "id": "w9",
+      "claim": "The Digital Regulation Cooperation Forum warned enterprises they cannot escape legal liability for AI agent errors.",
+      "source": "Enterprises must take blame for their AI agents\u2019 mistakes, say regulators. The UK\u2019s digital watchdogs have warned enterprises that they can\u2019t evade their legal responsibilities by blaming errors on AI agents that they have deployed. \u201cBy taking action on behalf of users, such as making purchases and communicating with businesses, these agents could transform how people use digital services, engage with markets and unlock wider innovation,\u201d said the Digital Regulation Cooperation Forum (DRCF), a body comprising the UK\u2019s Competition and Markets Authority (CMA), Financial ",
+      "verdict": "supported",
+      "reason": "The source states the Digital Regulation Cooperation Forum warned enterprises that they cannot evade legal responsibilities for AI agent errors."
+    },
+    {
+      "section": "big_pour",
+      "id": "n7",
+      "claim": "Anthropic uses AI to build faster AI",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "partial",
+      "reason": "The source specifies building 'more powerful AI', not necessarily 'faster AI'."
+    },
+    {
+      "section": "big_pour",
+      "id": "n7",
+      "claim": "Anthropic is using AI to build more powerful AI.",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "supported",
+      "reason": "This is a direct verbatim statement supported by the source text."
+    },
+    {
+      "section": "big_pour",
+      "id": "n7",
+      "claim": "An investigation reports the company's models are improving roughly twice as fast as a year ago, with little sign of slowing down.",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "supported",
+      "reason": "The source mentions an investigation by METR reporting models improve twice as fast with little indication of slowing down."
+    },
+    {
+      "section": "big_pour",
+      "id": "n7",
+      "claim": "Models could improve twice as fast without slowing down, changing how quickly AI capabilities advance.",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "partial",
+      "reason": "The source reports models are currently improving twice as fast, rather than posing it as a hypothetical possibility ('could improve')."
+    },
+    {
+      "section": "big_pour",
+      "id": "n7",
+      "claim": "Imagine a computer that learns how to make smarter computers twice as fast as last year, and it keeps getting faster.",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "partial",
+      "reason": "The claim adds that it 'keeps getting faster' (accelerating velocity), whereas the source only notes 'little indication of slowing down'."
+    },
+    {
+      "section": "big_pour",
+      "id": "n7",
+      "claim": "Anthropic is automating model development with AI, doubling improvement velocity compared to last year with no signs of deceleration.",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Anthropic is automating AI development, doubling improvement speed compared to last year without signs of slowing down."
+    },
+    {
+      "section": "big_pour",
+      "id": "n7",
+      "claim": "Anthropic uses AI to build more powerful models, doubling its improvement rate over last year according to an eleven-week safety investigation.",
+      "source": "Why a new report on Anthropic automating AI development is alarming researchers. Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "verdict": "supported",
+      "reason": "The source supports that Anthropic uses AI to build more powerful models, doubling its improvement rate compared to a year ago based on an 11-week safety investigation."
+    },
+    {
+      "section": "big_pour",
+      "id": "n9",
+      "claim": "OpenAI valued at 1.25 trillion dollars",
+      "source": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO. OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal [\u2026]",
+      "verdict": "supported",
+      "reason": "The source directly states that OpenAI is valued at $1.25 trillion."
+    },
+    {
+      "section": "big_pour",
+      "id": "n9",
+      "claim": "OpenAI is now valued at $1.25 trillion after raising another $11 billion in funding.",
+      "source": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO. OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states OpenAI is now valued at $1.25 trillion in a funding round that raised another $11 billion."
+    },
+    {
+      "section": "big_pour",
+      "id": "n9",
+      "claim": "This follows an earlier round raising $122 billion at an $852 billion valuation.",
+      "source": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO. OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms an earlier round raised $122 billion at an $852 billion valuation in March."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "Elvis and Eminem rights holders sue Suno",
+      "source": "Elvis and Eminem rights holders are suing Suno. Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's [\u2026]",
+      "verdict": "supported",
+      "reason": "The headline and text explicitly state that Elvis and Eminem rights holders are suing Suno."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "Rights holders for Elvis Presley and Eminem are suing Suno.",
+      "source": "Elvis and Eminem rights holders are suing Suno. Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms that rights holders of Elvis Presley's music and a publisher of Eminem's records are suing Suno."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "They claim the AI music company illegally generates music and lyrics that mimic those artists.",
+      "source": "Elvis and Eminem rights holders are suing Suno. Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states verbatim that they claim it illegally generates music and lyrics that mimic those artists."
+    },
+    {
+      "section": "office_blend",
+      "id": "w6",
+      "claim": "Greenlight Financial automates security triage with AI",
+      "source": "How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore. Greenlight Financial resolves more than 90% of up to 4,000 monthly security and risk cases without human intervention using Luna, a tiered multi-agent system on Amazon Bedrock AgentCore. This post covers the architecture, episodic memory for continuous learning, and the expansion from SOC operations into financial risk triage.",
+      "verdict": "supported",
+      "reason": "The source describes how Greenlight Financial built an autonomous SOC solution and resolved security cases without human intervention using AI."
+    },
+    {
+      "section": "office_blend",
+      "id": "w6",
+      "claim": "Greenlight Financial resolves over 90% of up to 4,000 monthly security and risk cases without human intervention using a multi-agent system on Amazon Bedrock AgentCore.",
+      "source": "How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore. Greenlight Financial resolves more than 90% of up to 4,000 monthly security and risk cases without human intervention using Luna, a tiered multi-agent system on Amazon Bedrock AgentCore. This post covers the architecture, episodic memory for continuous learning, and the expansion from SOC operations into financial risk triage.",
+      "verdict": "supported",
+      "reason": "The source directly states that Greenlight Financial resolves over 90% of up to 4,000 monthly cases without human intervention using a multi-agent system on Amazon Bedrock AgentCore."
+    },
+    {
+      "section": "office_blend",
+      "id": "w12",
+      "claim": "National Museum of Korea adopts AI",
+      "source": "How the National Museum of Korea curates its AI strategy. Museum IT departments have traditionally served as support functions to manage security and systems. But the National Museum of Korea goes further, identifying and pursuing AI initiatives to preserve cultural heritage, broaden its use, and improve the visitor experience. The National Museum of Korea uses technology to expand the possibilities to preserve and display physical artifacts, and its digital museum division (DMD) plans and oversees that transformation. A dedicated team responsible for ",
+      "verdict": "supported",
+      "reason": "The source discusses how the National Museum of Korea pursues and curates its AI strategy."
+    },
+    {
+      "section": "office_blend",
+      "id": "w12",
+      "claim": "The National Museum of Korea uses AI to help preserve physical artifacts, broaden their display use, and improve the visitor experience.",
+      "source": "How the National Museum of Korea curates its AI strategy. Museum IT departments have traditionally served as support functions to manage security and systems. But the National Museum of Korea goes further, identifying and pursuing AI initiatives to preserve cultural heritage, broaden its use, and improve the visitor experience. The National Museum of Korea uses technology to expand the possibilities to preserve and display physical artifacts, and its digital museum division (DMD) plans and oversees that transformation. A dedicated team responsible for ",
+      "verdict": "supported",
+      "reason": "The source states the museum identifies and pursues AI initiatives to preserve cultural heritage, broaden its use, and improve the visitor experience."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u1",
+      "claim": "Amazon will let millions of users text Alexa to help them shop in the coming weeks.",
+      "source": "After blocking Muse, Amazon now lets users text Alexa to help them shop. Amazon said that the feature will roll out to millions of users in coming weeks.",
+      "verdict": "supported",
+      "reason": "The source confirms that Amazon lets users text Alexa to shop and that the feature will roll out to millions of users in the coming weeks."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u2",
+      "claim": "Airbnb plans to launch an AI travel agent in the first half of 2027 to assist travelers with bookings and planning.",
+      "source": "Airbnb says it\u2019s launching an AI travel agent in the first half of 2027. Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
+      "verdict": "supported",
+      "reason": "The source directly states that Airbnb plans to launch an AI travel agent in H1 2027 to assist with planning and bookings."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u3",
+      "claim": "OpenAI could be ready for an initial public offering in 2027, according to company president Greg Brockman.",
+      "source": "OpenAI president Greg Brockman says company could be IPO ready in 2027. Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
+      "verdict": "supported",
+      "reason": "The source confirms that Greg Brockman stated OpenAI could be ready for an IPO in 2027."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n15",
+      "claim": "Meta added custom spaces to its Muse AI assistant, letting users build app-like tools such as dashboards and games.",
+      "source": "Meta\u2019s Muse AI can create custom \u2018spaces\u2019 for the version of the app you need right now. Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by [\u2026]",
+      "verdict": "supported",
+      "reason": "The source supports that Meta's Muse AI added custom spaces for app-like experiences such as dashboards and games."
+    },
+    {
+      "section": "quick_sips",
+      "id": "w9",
+      "claim": "The Digital Regulation Cooperation Forum warned that companies cannot evade legal responsibility by blaming errors on deployed AI agents.",
+      "source": "Enterprises must take blame for their AI agents\u2019 mistakes, say regulators. The UK\u2019s digital watchdogs have warned enterprises that they can\u2019t evade their legal responsibilities by blaming errors on AI agents that they have deployed. \u201cBy taking action on behalf of users, such as making purchases and communicating with businesses, these agents could transform how people use digital services, engage with markets and unlock wider innovation,\u201d said the Digital Regulation Cooperation Forum (DRCF), a body comprising the UK\u2019s Competition and Markets Authority (CMA), Financial ",
+      "verdict": "supported",
+      "reason": "The source states that the DRCF and UK digital watchdogs warned enterprises they cannot evade legal responsibilities for their deployed AI agents' mistakes."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n10",
+      "claim": "China's Ministry of State Security reportedly recruited an executive to spy on Nvidia CEO Jensen Huang regarding advanced AI chips.",
+      "source": "China reportedly recruited AI exec to spy on Jensen Huang. China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states that China's Ministry of State Security recruited an executive to spy on Jensen Huang about advanced AI chips."
+    },
+    {
+      "section": "builder",
+      "id": "d10",
+      "claim": "OpenAI releases GPT-6 Cyber security model",
+      "source": "OpenAI\u2019s new GPT-6 Cyber is better at hacking and better at staying in its lane. OpenAI on Thursday launched GPT-6 Cyber, the latest release in its series of cybersecurity-focused models. The company ranks GPT-6 Cyber\u2019s ability",
+      "verdict": "supported",
+      "reason": "The source confirms OpenAI launched GPT-6 Cyber, a cybersecurity-focused model."
+    },
+    {
+      "section": "builder",
+      "id": "d10",
+      "claim": "OpenAI launched GPT-6 Cyber, the latest release in its series of cybersecurity-focused models.",
+      "source": "OpenAI\u2019s new GPT-6 Cyber is better at hacking and better at staying in its lane. OpenAI on Thursday launched GPT-6 Cyber, the latest release in its series of cybersecurity-focused models. The company ranks GPT-6 Cyber\u2019s ability",
+      "verdict": "supported",
+      "reason": "The source confirms OpenAI launched GPT-6 Cyber, the latest in its series of cybersecurity-focused models."
+    },
+    {
+      "section": "builder",
+      "id": "d8",
+      "claim": "GitHub unveils new Git storage architecture",
+      "source": "Inside GitHub\u2019s new Git storage architecture. GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.",
+      "verdict": "supported",
+      "reason": "The source describes GitHub's new Git storage architecture."
+    },
+    {
+      "section": "builder",
+      "id": "d8",
+      "claim": "GitHub built a new Git storage architecture designed so thousands of agents can push code to a single repository at once.",
+      "source": "Inside GitHub\u2019s new Git storage architecture. GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.",
+      "verdict": "supported",
+      "reason": "The source specifies that GitHub's new Git storage architecture allows thousands of agents to push to a single repository at once."
+    },
+    {
+      "section": "concept",
+      "id": "d8",
+      "claim": "A storage structure built by GitHub so thousands of AI agents can push code to a single repository at the same time.",
+      "source": "Inside GitHub\u2019s new Git storage architecture. GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.",
+      "verdict": "partial",
+      "reason": "The source only mentions 'agents', whereas the claim specifies 'AI agents'."
+    },
+    {
+      "section": "long_read",
+      "id": "l1",
+      "claim": "Scaling Slack and GitHub with Maude Lemaire",
+      "source": "Scaling Slack and GitHub with Maude Lemaire. Maude Lemaire shares lessons from scaling Slack and GitHub, improving performance at Cursor, and using AI while keeping engineering judgment in human hands.",
+      "verdict": "supported",
+      "reason": "The claim matches the title and topic of the source text."
+    },
+    {
+      "section": "long_read",
+      "id": "l1",
+      "claim": "The newsletter shares lessons from Maude Lemaire on scaling Slack and GitHub, improving performance at Cursor, and using AI while keeping engineering judgment in human hands.",
+      "source": "Scaling Slack and GitHub with Maude Lemaire. Maude Lemaire shares lessons from scaling Slack and GitHub, improving performance at Cursor, and using AI while keeping engineering judgment in human hands.",
+      "verdict": "partial",
+      "reason": "The source details the content of Maude Lemaire's shared lessons, but does not mention that it is a 'newsletter'."
+    }
+  ]
+}

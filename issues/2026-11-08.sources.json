@@ -1,0 +1,841 @@
+{
+  "generated_at": "2026-11-08T11:38:17.935875-06:00",
+  "warnings": [
+    "Word of the Day 'Fine-tuning' is not marked reviewed in learning_path.yaml"
+  ],
+  "failed_feeds": [
+    "Import AI: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+  ],
+  "sources": {
+    "n1": {
+      "title": "Elvis and Eminem rights holders are suing Suno",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "source": "The Verge",
+      "published": "2026-11-08T17:23:19+00:00",
+      "summary": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's [\u2026]",
+      "categories": [
+        "AI",
+        "Entertainment",
+        "Music",
+        "News"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22202367/517216004.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n2": {
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "link": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "source": "TechCrunch",
+      "published": "2026-11-07T22:07:22+00:00",
+      "summary": "On Equity, we unpacked what the midterms mean for the tech industry.",
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "Elon Musk",
+        "OpenAI"
+      ],
+      "image": null
+    },
+    "n3": {
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "source": "TechCrunch",
+      "published": "2026-11-07T21:17:08+00:00",
+      "summary": "A memo circulated earlier this year reportedly claimed that China\u2019s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+      "categories": [
+        "AI",
+        "Government & Policy"
+      ],
+      "image": null
+    },
+    "n4": {
+      "title": "NYT Cooking\u2019s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "source": "The Verge",
+      "published": "2026-11-07T15:50:00+00:00",
+      "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best [\u2026]",
+      "categories": [
+        "AI",
+        "Reviews",
+        "Smart Home Reviews",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268844_NY_Times_Cooking_App_JTuohy_0006.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n5": {
+      "title": "The US let Nvidia sell chips to an empty office in China",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "source": "The Verge",
+      "published": "2026-11-07T15:43:45+00:00",
+      "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell [\u2026]",
+      "categories": [
+        "AI",
+        "News",
+        "Nvidia",
+        "Policy",
+        "Politics",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n6": {
+      "title": "AI broke the cybersecurity world. What\u2019s next?",
+      "link": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "source": "The Verge",
+      "published": "2026-11-07T15:00:00+00:00",
+      "summary": "Today, I\u2019m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I\u2019ve always enjoyed talking to Alex because he\u2019s so direct, and you\u2019re going to hear him say [\u2026]",
+      "categories": [
+        "AI",
+        "Decoder",
+        "Linux",
+        "Podcasts",
+        "Security",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_DCD_110726.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n7": {
+      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "source": "The Verge",
+      "published": "2026-11-07T12:30:00+00:00",
+      "summary": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "categories": [
+        "AI",
+        "Anthropic"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2280291125.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n8": {
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "source": "TechCrunch",
+      "published": "2026-11-07T01:40:28+00:00",
+      "summary": "The deal highlights the challenges of developing massive AI data centers.",
+      "categories": [
+        "AI",
+        "ai infrastructure",
+        "crusoe",
+        "datacenter",
+        "Google"
+      ],
+      "image": null
+    },
+    "n9": {
+      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "source": "The Verge",
+      "published": "2026-11-06T23:46:18+00:00",
+      "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal [\u2026]",
+      "categories": [
+        "AI",
+        "Business",
+        "News",
+        "OpenAI"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK155_OPEN_AI_CVirginia_2_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n10": {
+      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+      "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "source": "The Verge",
+      "published": "2026-11-06T23:00:44+00:00",
+      "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed [\u2026]",
+      "categories": [
+        "AI",
+        "News",
+        "Nvidia",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n11": {
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "source": "TechCrunch",
+      "published": "2026-11-06T22:53:46+00:00",
+      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "fundraising",
+        "In Brief",
+        "OpenAI"
+      ],
+      "image": null
+    },
+    "n12": {
+      "title": "All the latest updates on AI data centers",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "source": "The Verge",
+      "published": "2026-11-06T20:02:22+00:00",
+      "summary": "Massive new data centers are the physical foundation for tech companies\u2019 hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data centers were a major bipartisan issue ahead [\u2026]",
+      "categories": [
+        "AI",
+        "Energy",
+        "Environment",
+        "News",
+        "Science"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n13": {
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "source": "TechCrunch",
+      "published": "2026-11-06T18:44:38+00:00",
+      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+      "categories": [
+        "AI",
+        "Security",
+        "cybersecurity",
+        "cyberattack",
+        "artex"
+      ],
+      "image": null
+    },
+    "n14": {
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "source": "TechCrunch",
+      "published": "2026-11-06T18:44:20+00:00",
+      "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
+      "categories": [
+        "AI",
+        "agents",
+        "Mark Zuckerberg",
+        "Meta",
+        "muse"
+      ],
+      "image": null
+    },
+    "n15": {
+      "title": "Meta\u2019s Muse AI can create custom \u2018spaces\u2019 for the version of the app you need right now",
+      "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "source": "The Verge",
+      "published": "2026-11-06T18:10:10+00:00",
+      "summary": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by [\u2026]",
+      "categories": [
+        "AI",
+        "Apps",
+        "Meta",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/meta-muse-spaces.png?quality=90&#038;strip=all&#038;crop=8.0752843063528,0,91.924715693647,74.471659887186"
+    },
+    "n16": {
+      "title": "How a Blue Wave midterm might reshape the AI industry",
+      "link": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+      "source": "TechCrunch",
+      "published": "2026-11-06T18:00:00+00:00",
+      "summary": "Democrats\u2019 historic victories in this week\u2019s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday \u2014 in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren\u2019t on the ballot directly, they were a [\u2026]",
+      "categories": [
+        "Startups",
+        "AI",
+        "marvell",
+        "CrowdStrike",
+        "OpenAI",
+        "Equity podcast",
+        "midterms"
+      ],
+      "image": null
+    },
+    "n17": {
+      "title": "\u201cDoes Meta think we can\u2019t read?\u201d Meta abandons sketchy commercial terms update.",
+      "link": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+      "source": "Ars Technica",
+      "published": "2026-11-06T17:43:02+00:00",
+      "summary": "Meta won't force Facebook page owners to allow AI training on linked content.",
+      "categories": [
+        "AI",
+        "Policy",
+        "ai crawling",
+        "ai scraping",
+        "AI training",
+        "Facebook",
+        "Mark Zuckerberg",
+        "meta"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1363244761-1152x648.jpg"
+    },
+    "w1": {
+      "title": "5 things CIOs must understand to govern Claude Code",
+      "link": "https://www.cio.com/article/4245334/5-things-cios-must-understand-to-govern-claude-code.html",
+      "source": "CIO.com",
+      "published": "2026-11-06T20:05:10+00:00",
+      "summary": "Claude Code has quickly become one of the most widely adopted AI agents in the enterprise. Developers use it to write and refactor code, troubleshoot builds, run tests, and manage infrastructure, often by describing an objective and letting the agent determine the steps required to accomplish it. That autonomy is the point. It is also why Claude Code is a governance decision for CIOs, not just a developer tooling choice. Claude Code runs locally on employee workstations, executes commands with t",
+      "categories": [
+        "Artificial Intelligence, Generative AI"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4245334-0-04599400-1793995527-shutterstock_4229756021.png"
+    },
+    "w2": {
+      "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+      "link": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-06T18:01:00+00:00",
+      "summary": "Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you can run a different model in each or take a right-sized fraction of a newer accelerator. This post shows how two optional API fields place one model per partition, and what we measured against a whole older GPU.",
+      "categories": [
+        "Amazon SageMaker AI",
+        "Announcements",
+        "Intermediate (200)"
+      ],
+      "image": null
+    },
+    "w3": {
+      "title": "Taxonomy of agentic primitives in Amazon Quick",
+      "link": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-06T17:34:45+00:00",
+      "summary": "As we built Amazon Quick, its agents grew from answering questions to taking actions, and the same primitives kept getting rebuilt under different names. This post shares the taxonomy we converged on \u2014 triggers, agents, capabilities, and learned context \u2014 found by decomposing agentic work into four plain questions: When, What, Who, and How.",
+      "categories": [
+        "Amazon Quick Suite",
+        "Intermediate (200)",
+        "Thought Leadership"
+      ],
+      "image": null
+    },
+    "w4": {
+      "title": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
+      "link": "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-06T17:13:13+00:00",
+      "summary": "Learn how to build a serverless Model Context Protocol (MCP) server on Amazon ECS with AWS Fargate that gives AI agents secure, metadata-driven access to an enterprise data lake. Exposing a new dataset requires only a JSON file, with no per-dataset integration code.",
+      "categories": [
+        "Amazon Elastic Container Service",
+        "AWS Fargate",
+        "Intermediate (200)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w5": {
+      "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore \u2013 Part 2",
+      "link": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-06T17:09:23+00:00",
+      "summary": "In Part 1 you built one governed agent. Part 2 scales the pattern to an enterprise: Amazon Bedrock AgentCore Gateway becomes the single front door and redeems Okta's grant, Cedar policies bind each tool to the agent, a second agent runs on Amazon EKS, and AgentCore Observability traces every allow and deny beside Okta's log in Amazon CloudWatch.",
+      "categories": [
+        "Amazon Bedrock AgentCore",
+        "Expert (400)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w6": {
+      "title": "How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-06T16:55:05+00:00",
+      "summary": "Greenlight Financial resolves more than 90% of up to 4,000 monthly security and risk cases without human intervention using Luna, a tiered multi-agent system on Amazon Bedrock AgentCore. This post covers the architecture, episodic memory for continuous learning, and the expansion from SOC operations into financial risk triage.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock AgentCore",
+        "Customer Solutions"
+      ],
+      "image": null
+    },
+    "w7": {
+      "title": "Extend Claude Code to remote sessions on Amazon Bedrock AgentCore with security controls",
+      "link": "https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-06T16:45:58+00:00",
+      "summary": "Run Claude Code as a remote agent on Amazon Bedrock AgentCore. Each coding task runs in its own isolated session in your AWS account, every model call goes through Amazon Bedrock, and the result comes back as a GitHub pull request you review and merge.",
+      "categories": [
+        "Amazon Bedrock",
+        "Amazon Bedrock AgentCore",
+        "Expert (400)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w8": {
+      "title": "Meta does a U-turn on controversial new AI terms for businesses",
+      "link": "https://www.cio.com/article/4245781/meta-does-a-u-turn-on-controversial-new-ai-terms-for-businesses.html",
+      "source": "CIO.com",
+      "published": "2026-11-06T14:51:18+00:00",
+      "summary": "Meta has hit pause on new terms of service for its business customers that would have granted it the right to grab any content from their websites. Not only that, but it would also have shifted the blame for every error produced through faulty AI to its customers. The new terms of service were revealed on October 19 and initially due to take effect on October 30, though Meta later pushed the start date back to November 20. But that small delay wasn\u2019t enough to calm customer pushback, and now Met",
+      "categories": [
+        "Artificial Intelligence, Business Operations, Intellectual Property, Legal"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4245781-0-34388300-1793976702-shutterstock_2298419527.jpg?quality=50&strip=all"
+    },
+    "w9": {
+      "title": "Enterprises must take blame for their AI agents\u2019 mistakes, say regulators",
+      "link": "https://www.cio.com/article/4245762/enterprises-must-take-blame-for-their-ai-agents-mistakes-say-regulators.html",
+      "source": "CIO.com",
+      "published": "2026-11-06T14:18:29+00:00",
+      "summary": "The UK\u2019s digital watchdogs have warned enterprises that they can\u2019t evade their legal responsibilities by blaming errors on AI agents that they have deployed. \u201cBy taking action on behalf of users, such as making purchases and communicating with businesses, these agents could transform how people use digital services, engage with markets and unlock wider innovation,\u201d said the Digital Regulation Cooperation Forum (DRCF), a body comprising the UK\u2019s Competition and Markets Authority (CMA), Financial ",
+      "categories": [
+        "Artificial Intelligence, Government, Industry, Laws and Regulations, Markets"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4245762-0-99818300-1793974939-shutterstock_2285547995.jpg?quality=50&strip=all"
+    },
+    "w10": {
+      "title": "OpenAI buys tiny software developer to improve Codex",
+      "link": "https://www.cio.com/article/4245726/openai-buys-tiny-software-developer-to-improve-codex-2.html",
+      "source": "CIO.com",
+      "published": "2026-11-06T13:42:57+00:00",
+      "summary": "OpenAI is buying Pierre Computer Company in order to incorporate the San Francisco-based software developer\u2019s Code.Storage infrastructure layer for Git into its Codex AI-powered programming tool. Pierre Computer, whose employees number just barely in the double digits, has got plenty of clout for its small size. It\u2019s well-known for Code.Storage offering, as well as for its open-source software libraries, Trees and Diffs, which OpenAI already uses in Codex. OpenAI has experienced some of the limi",
+      "categories": [
+        "Artificial Intelligence, Development Tools, Open Source, Software Development"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4245726-0-60428000-1793972720-shutterstock_2525341257.jpg?quality=50&strip=all"
+    },
+    "w11": {
+      "title": "The CIO\u2019s trust paradox: Your team may be more honest with AI than with you",
+      "link": "https://www.cio.com/article/4245419/the-cios-trust-paradox-your-team-may-be-more-honest-with-ai-than-with-you.html",
+      "source": "CIO.com",
+      "published": "2026-11-06T10:01:00+00:00",
+      "summary": "As a leader, you\u2019ve probably spent years nudging your managers to create psychological safety. After all, organizations benefit greatly when it feels safe to challenge the boss, surface bad news early, and say the uncomfortable thing before it becomes the expensive thing. The Space Shuttle Challenger disaster of 1986 has become the canonical warning. Engineers raised concerns about the O-rings used in the solid rocket booster before launch. Their warnings were overruled by managers under schedul",
+      "categories": [
+        "Artificial Intelligence, IT Leadership, IT Management, Staff Management"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4245419-0-09675200-1793959466-yumu-HQH-GOZ6K2c-unsplash.jpg?quality=50&strip=all"
+    },
+    "w12": {
+      "title": "How the National Museum of Korea curates its AI strategy",
+      "link": "https://www.cio.com/article/4242091/interview-2-53-million-artifacts-turned-into-data-how-the-national-museum-of-korea-is-preparing-for-the-ai-era.html",
+      "source": "CIO.com",
+      "published": "2026-11-06T10:00:00+00:00",
+      "summary": "Museum IT departments have traditionally served as support functions to manage security and systems. But the National Museum of Korea goes further, identifying and pursuing AI initiatives to preserve cultural heritage, broaden its use, and improve the visitor experience. The National Museum of Korea uses technology to expand the possibilities to preserve and display physical artifacts, and its digital museum division (DMD) plans and oversees that transformation. A dedicated team responsible for ",
+      "categories": [
+        "Artificial Intelligence, Data Management, Digital Transformation, Emerging Technology, IT Leadership, IT Strategy"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4242091-0-42658900-1793959343-choi_museum.jpg?quality=50&strip=all"
+    },
+    "w13": {
+      "title": "The frontier AI shift will redefine the enterprise",
+      "link": "https://www.cio.com/article/4245178/the-frontier-ai-shift-will-redefine-the-enterprise.html",
+      "source": "CIO.com",
+      "published": "2026-11-06T10:00:00+00:00",
+      "summary": "By 2027, competitive advantage may depend less on which AI model a company uses and more on how effectively it redesigns its business around AI agents. The software engineer starts his day by going through the changes made by a team of agents for coding using AI. The finance executive gets a report that contains exceptions in different financial systems and supporting information along with corrective suggestions. The procurement manager reviews supplier risks and recommendations regarding contr",
+      "categories": [
+        "Artificial Intelligence, IT Leadership, IT Strategy"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4245178-0-94685800-1793959400-CIOs-business-AI-failures-shutterstock_2693235001.jpg?quality=50&strip=all"
+    },
+    "w14": {
+      "title": "In the era of AI, we are all buying technology wrong",
+      "link": "https://www.cio.com/article/4245173/in-the-era-of-ai-we-are-all-buying-technology-wrong.html",
+      "source": "CIO.com",
+      "published": "2026-11-06T09:00:00+00:00",
+      "summary": "Every year, thousands of enterprise organizations walk into technology negotiations trapped by the same fundamental mistake: they negotiate a product instead of solving a problem. Having advised over 2,000 enterprise customers annually on technology acquisition over two decades, I see this pattern play out daily. Purchasing committees meticulously list the specific features, software modules and server specs they think they need, converting their organizational requirements into a static shoppin",
+      "categories": [
+        "Budgeting, IT Leadership, IT Management"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4245173-0-76764800-1793955804-shutterstock_2066581955.jpg?quality=50&strip=all"
+    },
+    "w15": {
+      "title": "Getting started with Web Answer on Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-05T21:04:24+00:00",
+      "summary": "Web Answer on Amazon Bedrock AgentCore returns a synthesized, source-cited answer to a natural-language question in a single tool call, with no search, retrieve, synthesize, and citation pipeline to build. Learn how it works and how to add it to an AgentCore Gateway and call it from an agent.",
+      "categories": [
+        "Amazon Bedrock",
+        "Amazon Bedrock AgentCore",
+        "Intermediate (200)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "u1": {
+      "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+      "link": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "source": "TechCrunch",
+      "published": "2026-11-06T14:10:00+00:00",
+      "summary": "Amazon said that the feature will roll out to millions of users in coming weeks.",
+      "categories": [
+        "AI",
+        "Commerce",
+        "AI agents",
+        "Amazon",
+        "eCommerce"
+      ],
+      "image": null,
+      "date_mentioned": null
+    },
+    "u2": {
+      "title": "Airbnb says it\u2019s launching an AI travel agent in the first half of 2027",
+      "link": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "source": "TechCrunch",
+      "published": "2026-11-05T22:40:55+00:00",
+      "summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
+      "categories": [
+        "AI",
+        "Commerce",
+        "AI agents",
+        "Airbnb",
+        "travel"
+      ],
+      "image": null,
+      "date_mentioned": null
+    },
+    "u3": {
+      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+      "link": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "source": "TechCrunch",
+      "published": "2026-11-05T18:02:27+00:00",
+      "summary": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
+      "categories": [
+        "AI",
+        "OpenAI"
+      ],
+      "image": null,
+      "date_mentioned": null
+    },
+    "d1": {
+      "title": "Perplexity\u2019s AI agents keep working after you close the tab",
+      "link": "https://thenewstack.io/perplexity-teammates-agent-orchestration/",
+      "source": "The New Stack",
+      "published": "2026-11-08T15:30:00+00:00",
+      "summary": "Perplexity\u2019s new Teammates can coordinate multiple agents, remember where previous sessions left off, and keep working without another prompt. The",
+      "categories": [
+        "AI Agents",
+        "AI Infrastructure",
+        "AI Operations"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/eb49a6c7-allison-saeng-p41rhm6ivjo-unsplash-1024x576.jpg"
+    },
+    "d2": {
+      "title": "Why AWS wants developers to stop babysitting their AI agents",
+      "link": "https://thenewstack.io/kiro-bots-agent-memory/",
+      "source": "The New Stack",
+      "published": "2026-11-07T15:30:00+00:00",
+      "summary": "AWS first introduced Kiro, its agentic, spec-driven development environment, in July 2025. It also introduced Kiro Crew in August of",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Developer tools",
+        "Software Development"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/5295f7a6-getty-images-scwdwfcr94i-unsplash-1024x576.jpg"
+    },
+    "d3": {
+      "title": "Beyond code generation: A developer\u2019s guide to agentic engineering",
+      "link": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+      "source": "GitHub Blog",
+      "published": "2026-11-06T22:15:59+00:00",
+      "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment.",
+      "categories": [
+        "AI & ML",
+        "GitHub Copilot",
+        "GitHub Universe"
+      ],
+      "image": null
+    },
+    "d4": {
+      "title": "Cognition turned an open model into a coding beast. But it won\u2019t release the weights.",
+      "link": "https://thenewstack.io/cognition-flash-private-weights/",
+      "source": "The New Stack",
+      "published": "2026-11-06T18:16:42+00:00",
+      "summary": "Cognition built its newest coding model on a foundation that anyone can download, yet the company is keeping its own",
+      "categories": [
+        "AI Models",
+        "Open Source",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/2cd94231-sara-oliveira-jgk_ssmgjci-unsplash-1024x682.jpg"
+    },
+    "d5": {
+      "title": "Meta\u2019s best AI model now trains the one most of its users get",
+      "link": "https://thenewstack.io/meta-muse-specialized-models/",
+      "source": "The New Stack",
+      "published": "2026-11-06T18:05:55+00:00",
+      "summary": "Starting on Friday, everyone using Meta\u2019s Muse agent and Meta AI gets new models the company trained using Muse Wonder,",
+      "categories": [
+        "AI"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/b692c1f9-blogheader_light-1024x576.png"
+    },
+    "d6": {
+      "title": "\u201cMost apps never make it off localhost\u201d: Cursor takes on Lovable and Replit with fully managed app deployment",
+      "link": "https://thenewstack.io/cursor-ai-app-deployment/",
+      "source": "The New Stack",
+      "published": "2026-11-06T15:15:21+00:00",
+      "summary": "AI coding agents have certainly made it easier to transform an idea into a working application. However, getting that application",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Developer tools",
+        "Vibe Coding"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/0daf82eb-philip-oroni-xv2kgdto9ii-unsplash-1024x683.jpg"
+    },
+    "d7": {
+      "title": "Kubernetes, mark II? Why Google\u2019s giving away gVisor, a code sandbox used by Anthropic and OpenAI",
+      "link": "https://thenewstack.io/gvisor-cncf-kubernetes-open-source/",
+      "source": "The New Stack",
+      "published": "2026-11-06T11:49:04+00:00",
+      "summary": "Google wants to emulate one of its biggest ever open-source success stories, donating three core AI agent infrastructure projects to",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Kubernetes",
+        "Open Source",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/9b88fd32-doodler-collective-0jfo6w9u_zi-unsplash-1024x745.jpg"
+    },
+    "d8": {
+      "title": "Inside GitHub\u2019s new Git storage architecture",
+      "link": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "source": "GitHub Blog",
+      "published": "2026-11-05T20:23:21+00:00",
+      "summary": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.",
+      "categories": [
+        "Architecture & optimization",
+        "Engineering",
+        "Git",
+        "Infrastructure",
+        "technical deep dive"
+      ],
+      "image": "https://github.blog/wp-content/uploads/2026/11/customer-growth.png?resize=1024%2C483"
+    },
+    "d9": {
+      "title": "HumanLayer just got acquired by Factory. But it gave users a way out first.",
+      "link": "https://thenewstack.io/factory-acquires-humanlayer-agents/",
+      "source": "The New Stack",
+      "published": "2026-11-05T20:02:19+00:00",
+      "summary": "Factory has acquired HumanLayer, its third AI coding startup in less than a month, as it works to fold more",
+      "categories": [
+        "AI Agents",
+        "Developer tools",
+        "Open Source"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/52bb4185-adri-ansyah-jxupbibs0cy-unsplash-1024x683.jpg"
+    },
+    "d10": {
+      "title": "OpenAI\u2019s new GPT-6 Cyber is better at hacking and better at staying in its lane",
+      "link": "https://thenewstack.io/openai-gpt6-cyber-exploits/",
+      "source": "The New Stack",
+      "published": "2026-11-05T19:01:03+00:00",
+      "summary": "OpenAI on Thursday launched GPT-6 Cyber, the latest release in its series of cybersecurity-focused models. The company ranks GPT-6 Cyber\u2019s ability",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/ecaa359f-gpt-6-cyber-screen-2-1024x518.jpeg"
+    },
+    "d11": {
+      "title": "Together AI let coding agents rewrite its GPU code. Then it kept humans on the deploy button.",
+      "link": "https://thenewstack.io/together-compiler-gpu-optimization/",
+      "source": "The New Stack",
+      "published": "2026-11-05T18:56:57+00:00",
+      "summary": "Together AI is putting AI coding agents to work on the GPU code that runs its inference infrastructure, automating performance",
+      "categories": [
+        "AI Agents",
+        "AI Infrastructure",
+        "Hardware"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/caaa144a-getty-images-ycmp1okhumk-unsplash-1024x642.jpg"
+    },
+    "d12": {
+      "title": "Raindrop simulates your agent\u2019s world to catch what your changes break",
+      "link": "https://thenewstack.io/raindrop-simulations-ai-agents/",
+      "source": "The New Stack",
+      "published": "2026-11-05T18:00:00+00:00",
+      "summary": "Raindrop wants developers to know what else will change when they edit an agent\u2019s prompt, swap its model, or give",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "AI Operations"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/6cf60c36-screenshot-2026-11-05-at-9.00.37-am-1024x568.png"
+    },
+    "l1": {
+      "title": "Scaling Slack and GitHub with Maude Lemaire",
+      "link": "https://newsletter.pragmaticengineer.com/p/scaling-slack-and-github-with-maude",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-11-05T15:58:00+00:00",
+      "summary": "Maude Lemaire shares lessons from scaling Slack and GitHub, improving performance at Cursor, and using AI while keeping engineering judgment in human hands.",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!AlJu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e3d3c6f-6a37-411e-aa1a-dfcefc979af3_1600x140.png"
+    },
+    "l2": {
+      "title": "Craft and taste",
+      "link": "https://www.bensbites.com/p/craft-and-taste",
+      "source": "Ben's Bites",
+      "published": "2026-11-05T14:02:12+00:00",
+      "summary": "What does old me think",
+      "categories": [],
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/bdbb418f-79c1-4ef4-82f1-64727ad91c8c_1616x978.png"
+    },
+    "l3": {
+      "title": "The AI Industry Thinks It Has a PR Problem. The Actual Problem Is Much Worse",
+      "link": "https://www.thealgorithmicbridge.com/p/the-ai-industry-thinks-it-has-a-pr",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-05T11:55:56+00:00",
+      "summary": "The Democrats swept the midterms and owe their victory to the AI industry",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!tu1P!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30dd0a4c-8ff1-45d8-b7bb-f664101502b4_2216x1327.jpeg"
+    },
+    "l4": {
+      "title": "How big is the open model economy today?",
+      "link": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+      "source": "Interconnects",
+      "published": "2026-11-04T16:35:44+00:00",
+      "summary": "Our first open model economy research note for paid subscribers.",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!hFZ7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c5f2798-10bc-487a-8932-5f851ad61b24_1600x840.svg"
+    },
+    "l5": {
+      "title": "The Dawn of a New AI Paradigm: Weight-Space Programming",
+      "link": "https://www.thealgorithmicbridge.com/p/the-dawn-of-a-new-ai-paradigm-weight",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-03T19:14:37+00:00",
+      "summary": "Why do AI research like a human when you\u2019re a machine?",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!FVp_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9d6edec-1ab3-4fc7-b623-8e8f867258cd_2047x1064.jpeg"
+    },
+    "l6": {
+      "title": "Finding my thing",
+      "link": "https://www.bensbites.com/p/if-you-feel-behind-right-now-dont",
+      "source": "Ben's Bites",
+      "published": "2026-11-03T14:03:32+00:00",
+      "summary": "Nobody knows anything",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!z_aZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5c9cb41-d8fc-4ccc-885c-3d6333cf3864_1600x900.png"
+    },
+    "l7": {
+      "title": "AI Won't Kill Math But Empty Classrooms Will",
+      "link": "https://www.thealgorithmicbridge.com/p/new-survey-math-students-are-giving",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-02T18:42:07+00:00",
+      "summary": "This is what a dying field looks like",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!zLz8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F79b78c94-b2a8-4004-ad73-ff3dcdba3c4d_726x394.png"
+    },
+    "l8": {
+      "title": "Korea\u2019s Stock Market Crashed $1 Trillion. What Does That Mean for the Global AI Race?",
+      "link": "https://www.chinatalk.media/p/koreas-stock-market-crashed-1-trillion",
+      "source": "ChinaTalk",
+      "published": "2026-11-01T13:33:33+00:00",
+      "summary": "Richard Gray is an analyst who works for a foreign policy think tank in Washington, D.C.",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!B-Fs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0fdcbd7-1627-4632-8192-0a27d060c84d_936x637.png"
+    }
+  },
+  "llm_draft": {
+    "glance": [
+      {
+        "id": "n7",
+        "summary": "Anthropic is using AI to build more powerful AI models twice as fast as last year."
+      },
+      {
+        "id": "n9",
+        "summary": "OpenAI reached a $1.25 trillion valuation after raising another $11 billion in new funding."
+      },
+      {
+        "id": "n1",
+        "summary": "Suno faces lawsuits from Elvis Presley and Eminem rights holders over AI-generated music mimicking the artists."
+      },
+      {
+        "id": "w9",
+        "summary": "The Digital Regulation Cooperation Forum warned enterprises they cannot escape legal liability for AI agent errors."
+      }
+    ],
+    "big_pour": [
+      {
+        "id": "n7",
+        "headline": "Anthropic uses AI to build faster AI",
+        "teaser": "AI builds faster AI",
+        "summary": "Anthropic is using AI to build more powerful AI. An investigation reports the company's models are improving roughly twice as fast as a year ago, with little sign of slowing down.",
+        "why": "Models could improve twice as fast without slowing down, changing how quickly AI capabilities advance.",
+        "explain": {
+          "kid": "Imagine a computer that learns how to make smarter computers twice as fast as last year, and it keeps getting faster.",
+          "pm": "Anthropic is automating model development with AI, doubling improvement velocity compared to last year with no signs of deceleration.",
+          "engineer": "Anthropic uses AI to build more powerful models, doubling its improvement rate over last year according to an eleven-week safety investigation."
+        }
+      },
+      {
+        "id": "n9",
+        "headline": "OpenAI valued at 1.25 trillion dollars",
+        "teaser": "OpenAI raises new funds",
+        "summary": "OpenAI is now valued at $1.25 trillion after raising another $11 billion in funding. This follows an earlier round raising $122 billion at an $852 billion valuation."
+      },
+      {
+        "id": "n1",
+        "headline": "Musicians sue Suno over AI songs",
+        "teaser": "Suno faces copyright suits",
+        "summary": "Rights holders for Elvis Presley and Eminem are suing Suno. They claim the AI music company illegally generates music and lyrics that mimic those artists."
+      }
+    ],
+    "office_blend": [
+      {
+        "id": "w6",
+        "headline": "Greenlight Financial automates security triage with AI",
+        "teaser": "Automated security triage",
+        "summary": "Greenlight Financial resolves over 90% of up to 4,000 monthly security and risk cases without human intervention using a multi-agent system on Amazon Bedrock AgentCore."
+      },
+      {
+        "id": "w12",
+        "headline": "National Museum of Korea adopts AI",
+        "teaser": "Preserving cultural heritage",
+        "summary": "The National Museum of Korea uses AI to help preserve physical artifacts, broaden their display use, and improve the visitor experience."
+      }
+    ],
+    "still_roasting": [
+      {
+        "id": "u1",
+        "summary": "Amazon will let millions of users text Alexa to help them shop in the coming weeks."
+      },
+      {
+        "id": "u2",
+        "summary": "Airbnb plans to launch an AI travel agent in the first half of 2027 to assist travelers with bookings and planning."
+      },
+      {
+        "id": "u3",
+        "summary": "OpenAI could be ready for an initial public offering in 2027, according to company president Greg Brockman."
+      }
+    ],
+    "quick_sips": [
+      {
+        "id": "n15",
+        "summary": "Meta added custom spaces to its Muse AI assistant, letting users build app-like tools such as dashboards and games."
+      },
+      {
+        "id": "w9",
+        "summary": "The Digital Regulation Cooperation Forum warned that companies cannot evade legal responsibility by blaming errors on deployed AI agents."
+      },
+      {
+        "id": "n10",
+        "summary": "China's Ministry of State Security reportedly recruited an executive to spy on Nvidia CEO Jensen Huang regarding advanced AI chips."
+      }
+    ],
+    "builder": {
+      "stories": [
+        {
+          "id": "d10",
+          "label": "New model",
+          "headline": "OpenAI releases GPT-6 Cyber security model",
+          "summary": "OpenAI launched GPT-6 Cyber, the latest release in its series of cybersecurity-focused models."
+        },
+        {
+          "id": "d8",
+          "label": "New architecture",
+          "headline": "GitHub unveils new Git storage architecture",
+          "summary": "GitHub built a new Git storage architecture designed so thousands of agents can push code to a single repository at once."
+        }
+      ],
+      "concept": {
+        "id": "d8",
+        "term": "Git storage architecture",
+        "explanation": "A storage structure built by GitHub so thousands of AI agents can push code to a single repository at the same time."
+      }
+    },
+    "long_read": {
+      "id": "l1",
+      "headline": "Scaling Slack and GitHub with Maude Lemaire",
+      "summary": "The newsletter shares lessons from Maude Lemaire on scaling Slack and GitHub, improving performance at Cursor, and using AI while keeping engineering judgment in human hands."
+    }
+  },
+  "first_check": {
+    "n1": [
+      "name 'AI-generated' is not in the source"
+    ]
+  },
+  "dropped": [],
+  "explain_dropped": []
+}
