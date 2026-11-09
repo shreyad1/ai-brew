@@ -1,0 +1,194 @@
+{
+  "glance": [
+    {
+      "id": "n16",
+      "summary": "Nvidia is investigating whether Chinese intelligence targeted its CEO through an alleged affair.",
+      "link": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/huang-1152x648.jpg"
+    },
+    {
+      "id": "n3",
+      "summary": "Anthropic released new Mythos and Fable models with improved coding, reasoning, and vision capabilities.",
+      "link": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n4",
+      "headline": "Apple adds paid AI usage packs",
+      "teaser": "Apple offers more AI access",
+      "summary": "Apple updated Logic Pro with an option to buy more usage for some Apple Intelligence features for a one-time purchase price of $49.99.",
+      "link": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/logicpro.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n14",
+      "summary": "Disney and Adobe are partnering to create proprietary generative AI models for production pipelines.",
+      "link": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Disney-Adobe-AI-partnership.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n16",
+      "headline": "Nvidia CEO under scrutiny for alleged affair",
+      "teaser": "Nvidia investigates CEO's alleged affair",
+      "summary": "Nvidia is investigating whether its CEO had an affair with a suspected Chinese spy. The company is looking into whether this relationship was a target for Chinese intelligence.",
+      "why": "This investigation could impact the leadership and strategic direction of a major global AI chip supplier.",
+      "explain": {
+        "kid": "The boss of a big computer chip company might be in trouble because he had a secret relationship with someone who might be a spy for another country.",
+        "product manager": "Nvidia is investigating if its CEO was targeted by intelligence from a foreign country through an affair, which is being treated as a national security issue.",
+        "software engineer": "Nvidia is running an internal probe to determine if its CEO was targeted by foreign intelligence through an affair, evaluating the situation as a national security concern."
+      },
+      "link": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/huang-1152x648.jpg"
+    },
+    {
+      "id": "n3",
+      "headline": "Anthropic releases new Mythos and Fable models",
+      "teaser": "Anthropic updates its AI models",
+      "summary": "Anthropic has released new Mythos and Fable models. The company states these models show improvements in coding, reasoning, vision, and user communication.",
+      "link": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n4",
+      "headline": "Apple adds paid AI usage packs",
+      "teaser": "Apple offers more AI access",
+      "summary": "Apple updated Logic Pro with an option to buy more usage for some Apple Intelligence features for a one-time purchase price of $49.99.",
+      "link": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/logicpro.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w5",
+      "headline": "CrossnoKaye uses AI for heavy industry",
+      "teaser": "AI grounds heavy industry data",
+      "summary": "CrossnoKaye uses Amazon Bedrock AgentCore to ground AI reasoning in live plant data. The system provides plant engineers with verifiable, math-backed answers.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-crossnokaye-grounds-physical-ai-with-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "w9",
+      "headline": "Northern Trust automates client onboarding",
+      "teaser": "Bank automates client onboarding",
+      "summary": "Northern Trust launched an AI-powered agent to streamline institutional client onboarding. The agent standardizes years of transaction history for reporting.",
+      "link": "https://www.cio.com/article/4245961/northern-trust-streamlines-client-onboarding-with-ai-agent.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4245961-0-27576300-1794240175-shutterstock_2059017617.jpg?quality=50&strip=all"
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u2",
+      "summary": "Disney and Adobe are developing proprietary artist-led generative AI models for Disney's production pipeline.",
+      "link": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Disney-Adobe-AI-partnership.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    {
+      "id": "u3",
+      "summary": "Amazon is rolling out a feature that allows users to text Alexa to help them shop.",
+      "link": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "source": "TechCrunch",
+      "image": null,
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n6",
+      "summary": "Instagram launched an Effect Builder that generates custom filters for Stories using AI prompts for US residents over 18.",
+      "link": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/instagram-effect-builder-launch-2.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n7",
+      "summary": "Meta released Muse Ember, a lightweight model for agent execution that is priced at 10 cents per million input tokens.",
+      "link": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n12",
+      "summary": "Medium launched a new writing app that integrates AI assistance directly into the writing process.",
+      "link": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d2",
+        "label": "New system",
+        "headline": "Google introduces open-source TPU Sync",
+        "summary": "Google released TPU Sync, an open-source system designed to speed up AI inference by over 90%.",
+        "link": "https://thenewstack.io/google-tpu-sync-inference/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/d5205145-winston-chen-ize21dzhnug-unsplash-1024x683.jpg"
+      },
+      {
+        "id": "d11",
+        "label": "Open source",
+        "headline": "Google donates AI infrastructure projects",
+        "summary": "Google is donating three core AI agent infrastructure projects, including the code sandbox gVisor, to open source.",
+        "link": "https://thenewstack.io/gvisor-cncf-kubernetes-open-source/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/9b88fd32-doodler-collective-0jfo6w9u_zi-unsplash-1024x745.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d11",
+      "term": "gVisor",
+      "explanation": "gVisor is a code sandbox used by Anthropic and OpenAI to provide secure environments for running code.",
+      "link": "https://thenewstack.io/gvisor-cncf-kubernetes-open-source/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/11/9b88fd32-doodler-collective-0jfo6w9u_zi-unsplash-1024x745.jpg"
+    }
+  },
+  "long_read": {
+    "id": "l4",
+    "headline": "The AI Industry Thinks It Has a PR Problem",
+    "summary": "The newsletter suggests that the political impact of the AI industry is more significant than its public relations challenges.",
+    "link": "https://www.thealgorithmicbridge.com/p/the-ai-industry-thinks-it-has-a-pr",
+    "source": "The Algorithmic Bridge",
+    "image": "https://substackcdn.com/image/fetch/$s_!tu1P!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30dd0a4c-8ff1-45d8-b7bb-f664101502b4_2216x1327.jpeg"
+  },
+  "number": 17,
+  "date_iso": "2026-11-09",
+  "date_long": "Monday \u00b7 9 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-09",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": {
+    "term": "LoRA",
+    "definition": "Low-Rank Adaptation, a cheap way to fine-tune that trains a small set of extra weights instead of changing the whole model.",
+    "heard": "\"We shipped a LoRA adapter instead of a full fine-tune.\"",
+    "analogy": "Like teaching a new recipe card rather than retraining the barista from scratch.",
+    "reviewed": false,
+    "theme": "Models, speed, and cost",
+    "day": 2
+  },
+  "keep_brewing": null,
+  "poll": null
+}

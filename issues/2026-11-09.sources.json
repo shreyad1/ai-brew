@@ -1,0 +1,874 @@
+{
+  "generated_at": "2026-11-09T15:57:11.501110-06:00",
+  "warnings": [
+    "Word of the Day 'LoRA' is not marked reviewed in learning_path.yaml"
+  ],
+  "failed_feeds": [
+    "Import AI: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+  ],
+  "sources": {
+    "n1": {
+      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+      "link": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+      "source": "TechCrunch",
+      "published": "2026-11-09T20:09:06+00:00",
+      "summary": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
+      "categories": [
+        "AI",
+        "ElevenLabs",
+        "In Brief",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "image": null
+    },
+    "n2": {
+      "title": "The backlash about data centers might really just be about electricity",
+      "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+      "source": "MIT Technology Review",
+      "published": "2026-11-09T19:35:33+00:00",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what\u2019s known as Data Center Alley\u2014the world\u2019s largest data center hub. It\u2019s also where\u2026",
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence",
+        "The Algorithm"
+      ],
+      "image": null
+    },
+    "n3": {
+      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "link": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "source": "TechCrunch",
+      "published": "2026-11-09T19:24:51+00:00",
+      "summary": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Claude"
+      ],
+      "image": null
+    },
+    "n4": {
+      "title": "Apple\u2019s $50 Intelligence Usage Packs extend access to some AI features",
+      "link": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "source": "The Verge",
+      "published": "2026-11-09T19:09:58+00:00",
+      "summary": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"start a new song, set [\u2026]",
+      "categories": [
+        "AI",
+        "Apple",
+        "News",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/logicpro.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n5": {
+      "title": "Jensen Huang\u2019s affair with alleged Chinese spy puts Nvidia\u2019s China ambitions under scrutiny",
+      "link": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+      "source": "TechCrunch",
+      "published": "2026-11-09T18:09:52+00:00",
+      "summary": "Jensen Huang\u2019s alleged affair with a suspected Chinese spy threatens to complicate Nvidia\u2019s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China\u2019s lucrative AI market.",
+      "categories": [
+        "AI",
+        "Enterprise",
+        "Government & Policy"
+      ],
+      "image": null
+    },
+    "n6": {
+      "title": "Instagram\u2019s Effect Builder makes new filters from AI prompts",
+      "link": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "source": "The Verge",
+      "published": "2026-11-09T18:07:23+00:00",
+      "summary": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the chatbot, with an option to attach style [\u2026]",
+      "categories": [
+        "AI",
+        "Creators",
+        "Instagram",
+        "Meta",
+        "News",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/instagram-effect-builder-launch-2.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n7": {
+      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+      "link": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "source": "TechCrunch",
+      "published": "2026-11-09T18:00:00+00:00",
+      "summary": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
+      "categories": [
+        "AI",
+        "TC",
+        "Meta",
+        "meta superintelligence lab",
+        "muse"
+      ],
+      "image": null
+    },
+    "n8": {
+      "title": "The future of AI hinges on\u2026 Jensen Huang\u2019s sex life?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+      "source": "The Verge",
+      "published": "2026-11-09T17:36:08+00:00",
+      "summary": "I would prefer that these people's sex lives were none of my business but I guess we have to talk about Jensen Huang and the National Security Incident. Who could have guessed that the guy who was out here signing titties might not have great judgment about how to behave around women? Alice Huang - [\u2026]",
+      "categories": [
+        "AI",
+        "Nvidia",
+        "Policy",
+        "Politics",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STKP210_JENSEN_HUANG_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n9": {
+      "title": "Claude Code is accidentally exposing secrets all over GitHub",
+      "link": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+      "source": "Ars Technica",
+      "published": "2026-11-09T17:24:26+00:00",
+      "summary": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
+      "categories": [
+        "AI",
+        "Security",
+        "AI agents",
+        "Anthropic",
+        "Claude Code",
+        "GitHub",
+        "setting"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/claude-github-leaks-1152x648.jpg"
+    },
+    "n10": {
+      "title": "Nancy Pelosi\u2019s replacement is ready to regulate AI",
+      "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "source": "MIT Technology Review",
+      "published": "2026-11-09T17:05:43+00:00",
+      "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi\u2019s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wiener on Friday, only a\u2026",
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence",
+        "Summary"
+      ],
+      "image": null
+    },
+    "n11": {
+      "title": "Anthropic joins AI\u2019s natural gas frenzy, buys $3.4B worth of turbines",
+      "link": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "source": "TechCrunch",
+      "published": "2026-11-09T16:56:54+00:00",
+      "summary": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
+      "categories": [
+        "AI",
+        "Climate",
+        "Anthropic",
+        "data centers",
+        "natural gas"
+      ],
+      "image": null
+    },
+    "n12": {
+      "title": "Medium\u2019s new TK app brings AI assistance directly into the writing process",
+      "link": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+      "source": "TechCrunch",
+      "published": "2026-11-09T16:12:28+00:00",
+      "summary": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
+      "categories": [
+        "AI",
+        "Apps",
+        "TC",
+        "Medium",
+        "Publishing"
+      ],
+      "image": null
+    },
+    "n13": {
+      "title": "Trump\u2019s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+      "source": "The Verge",
+      "published": "2026-11-09T15:50:38+00:00",
+      "summary": "Asked about AI executives' warnings about their models' safety on 60 Minutes, Trump said, \"I think that the risk is not nearly as real as it- as they talk, and I think the risk can be managed, and it's managed.\" He claimed the DOJ is managing that risk, saying, \"We had a situation where somebody [\u2026]",
+      "categories": [
+        "AI",
+        "News",
+        "Policy",
+        "Politics"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2296464785.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n14": {
+      "title": "Disney and Adobe are building generative AI tools together",
+      "link": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+      "source": "The Verge",
+      "published": "2026-11-09T15:38:56+00:00",
+      "summary": "The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" generative AI models to support Disney's production pipeline. The multiyear partnership was announced today at Adobe's MAX conference, and it will see Adobe providing Disney with early access to its latest technologies for everything from Disney's theme parks and cruise line to [\u2026]",
+      "categories": [
+        "Adobe",
+        "AI",
+        "Creators",
+        "Disney",
+        "Entertainment",
+        "News",
+        "Streaming",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Disney-Adobe-AI-partnership.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n15": {
+      "title": "Hold up \u2014 I had a great time talking to the RIAA guy",
+      "link": "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music",
+      "source": "The Verge",
+      "published": "2026-11-09T15:30:00+00:00",
+      "summary": "Today, I\u2019m talking with Mitch Glazier, who is CEO and chairman of the RIAA. This conversation was a real full-circle moment for me: I was in college when Napster hit, and the RIAA became everyone\u2019s villain for suing kids for downloading music. That was when I decided to go be a copyright lawyer, which set [\u2026]",
+      "categories": [
+        "AI",
+        "Decoder",
+        "Entertainment",
+        "Music",
+        "Podcasts"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD_20261109_Glazier.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n16": {
+      "title": "Nvidia CEO's affair becomes a national security problem",
+      "link": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+      "source": "Ars Technica",
+      "published": "2026-11-09T15:23:20+00:00",
+      "summary": "Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+      "categories": [
+        "AI",
+        "Policy",
+        "china",
+        "Chinese espionage",
+        "espionage",
+        "Jensen Huang",
+        "NVIDIA",
+        "syndication"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/huang-1152x648.jpg"
+    },
+    "n17": {
+      "title": "Jonathan Kanter is using AI to take on Big Tech",
+      "link": "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech",
+      "source": "The Verge",
+      "published": "2026-11-09T14:30:00+00:00",
+      "summary": "When Jonathan Kanter stepped down as head of the Justice Department's Antitrust Division in 2024, he set out to keep fighting to dismantle illegal monopolies. But this time, he's continuing the fight in the private sector, and with a perhaps unexpected tool: AI. Alongside former acting Antitrust Division chief Doha Mekki, Kanter recently launched a [\u2026]",
+      "categories": [
+        "AI",
+        "Antitrust",
+        "Policy",
+        "Report"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STKS487_ANTITRUST_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n18": {
+      "title": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
+      "link": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+      "source": "TechCrunch",
+      "published": "2026-11-09T14:00:00+00:00",
+      "summary": "Automattic aims to compete with the likes of Lovable with Spacefast.",
+      "categories": [
+        "AI",
+        "Apps",
+        "TC",
+        "Automattic",
+        "Lovable",
+        "WordPress"
+      ],
+      "image": null
+    },
+    "n19": {
+      "title": "Is Jensen Huang\u2019s job on the line? Yale\u2019s Jeffrey Sonnenfeld estimates it\u2019s \u2018about a 50-50\u2019",
+      "link": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+      "source": "TechCrunch",
+      "published": "2026-11-09T05:26:29+00:00",
+      "summary": "Nvidia\u2019s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale\u2019s Jeffrey Sonnenfeld thinks it\u2019s roughly a coin flip whether Huang stays on as CEO.",
+      "categories": [
+        "AI",
+        "TC",
+        "Jensen Huang"
+      ],
+      "image": null
+    },
+    "n20": {
+      "title": "Here\u2019s the full text of Jensen Huang\u2019s memo to Nvidia",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "source": "The Verge",
+      "published": "2026-11-08T22:54:50+00:00",
+      "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my [\u2026]",
+      "categories": [
+        "AI",
+        "News",
+        "Nvidia",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2285784039.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "w1": {
+      "title": "Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base",
+      "link": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-09T20:13:18+00:00",
+      "summary": "Amazon Bedrock Managed Knowledge Base now supports single-shot RAG and retrieval-only requests through AgenticRetrieveStream, alongside agentic retrieval. This post explains how the maxAgentIteration parameter matches retrieval effort to each request, using an illustrative internal banking policy assistant.",
+      "categories": [
+        "Amazon Bedrock",
+        "Amazon Bedrock Knowledge Bases",
+        "Expert (400)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w2": {
+      "title": "Introducing Claude Fable 5.2 on AWS",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-09T20:04:37+00:00",
+      "summary": "Claude Fable 5.2 and Claude Mythos 5.2 are now available on Amazon Bedrock and Claude Platform on AWS. Learn what's new in both models, why Fable 5.2 matters for your technical workloads, and how to get started building with it on Amazon Bedrock.",
+      "categories": [
+        "Amazon Bedrock",
+        "Announcements",
+        "Intermediate (200)"
+      ],
+      "image": null
+    },
+    "w3": {
+      "title": "NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-09T20:01:20+00:00",
+      "summary": "NVIDIA Nemotron 3.5 Super VL, a 120B-parameter multimodal vision-language model, is now available in Amazon SageMaker JumpStart. Deploy the NVFP4 or BF16 variant in a few steps, then run text, image, and video inference for document intelligence, computer-use agents, and multimodal agentic workloads.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon SageMaker JumpStart",
+        "Announcements"
+      ],
+      "image": null
+    },
+    "w4": {
+      "title": "Pluggable Agentic AI Framework: A seven-layer composable enterprise agentic AI reference architecture on Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/pluggable-agentic-ai-framework-a-seven-layer-composable-enterprise-agentic-ai-reference-architecture-on-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-09T19:05:54+00:00",
+      "summary": "A seven-layer composable reference architecture for taking enterprise agentic AI from prototype to production on Amazon Bedrock AgentCore. Each layer has a stable contract, so you can swap technologies at any layer without redesigning the rest of the stack.",
+      "categories": [
+        "Amazon Bedrock AgentCore",
+        "Expert (400)",
+        "Thought Leadership"
+      ],
+      "image": null
+    },
+    "w5": {
+      "title": "How CrossnoKaye grounds physical AI with Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-crossnokaye-grounds-physical-ai-with-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-09T18:55:43+00:00",
+      "summary": "CrossnoKaye brought physical AI to heavy industry with Amazon Bedrock AgentCore. Its ATLAS platform and AURA agentic system ground AI reasoning in live plant data and run verifiable Python in isolated AgentCore sandboxes, giving plant engineers checkable, math-backed answers instead of model guesses.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock AgentCore",
+        "Customer Solutions"
+      ],
+      "image": null
+    },
+    "w6": {
+      "title": "Professional work deserves professional tools. Meet AWS Quick.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/professional-work-deserves-professional-tools-meet-aws-quick/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-09T18:43:30+00:00",
+      "summary": "Introducing AWS Quick, formerly Amazon Quick, and the debut of our first brand campaign celebrating teams who keep business moving. AWS Quick is the AI workspace built only for work, where teams use AI agents to research, analyze, and act across the data and applications they already rely on.",
+      "categories": [
+        "Amazon Quick Suite",
+        "Announcements",
+        "Foundational (100)"
+      ],
+      "image": null
+    },
+    "w7": {
+      "title": "The industrialization of AI: 8 critical considerations for building an AI gigafactory",
+      "link": "https://www.cio.com/article/4246403/the-industrialization-of-ai-8-critical-considerations-for-building-an-ai-gigafactory.html",
+      "source": "CIO.com",
+      "published": "2026-11-09T16:30:42+00:00",
+      "summary": "The industrialization of AI: 8 critical considerations for building an AI gigafactory The rapid rise of artificial intelligence has transcended the boundaries of corporate software innovation, sparking a foundational transformation in global infrastructure. Across the globe, nations, research institutions, and large enterprises are shifting away from traditional data center models toward massive, centralized hubs designed explicitly to industrialize AI workloads at an unprecedented scale. As the",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4246403-0-76607100-1794241859-industrialization.jpg?quality=50&strip=all"
+    },
+    "w8": {
+      "title": "The rise of sovereign AI factories: Why the C-suite is rejecting cloud dependency",
+      "link": "https://www.cio.com/article/4246394/the-rise-of-sovereign-ai-factories-why-the-c-suite-is-rejecting-cloud-dependency.html",
+      "source": "CIO.com",
+      "published": "2026-11-09T16:06:52+00:00",
+      "summary": "Artificial intelligence has reached a critical strategic inflection point. For the past several years, the prevailing enterprise narrative dictated that cutting-edge AI belonged naturally in the public cloud. However, new data reveals a massive shift in how the world\u2019s most critical infrastructure sectors are approaching accelerated computing. The era of blind cloud dependency is giving way to a new paradigm: the sovereign AI factory. According to Intersect360 Research , national sovereign AI da",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4246394-0-26764400-1794240430-rise-of-sovereign.jpg?quality=50&strip=all"
+    },
+    "w9": {
+      "title": "Northern Trust streamlines client onboarding with AI agent",
+      "link": "https://www.cio.com/article/4245961/northern-trust-streamlines-client-onboarding-with-ai-agent.html",
+      "source": "CIO.com",
+      "published": "2026-11-09T16:00:00+00:00",
+      "summary": "Venerable Chicago-based banking institution Northern Trust today unveiled a new AI-powered client onboarding agent to streamline the process of bringing institutional clients onto Northern Trust Asset Servicing\u2019s Front Office Solutions platform. The agent, which transforms years of data and transaction history into a standardized format ready for use in the bank\u2019s reporting environment, is the result of an expanded collaboration with Microsoft. Developed jointly by Northern Trust and forward dep",
+      "categories": [
+        "Artificial Intelligence, Banking, Cloud Computing, Emerging Technology, Financial Services Industry, IaaS, ICT Partners, Industry, Markets, Microsoft Azure, Vendors and Providers"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4245961-0-27576300-1794240175-shutterstock_2059017617.jpg?quality=50&strip=all"
+    },
+    "w10": {
+      "title": "AI agents shouldn\u2019t grade their own work",
+      "link": "https://www.cio.com/article/4245900/ai-agents-shouldnt-grade-their-own-work.html",
+      "source": "CIO.com",
+      "published": "2026-11-09T11:00:00+00:00",
+      "summary": "On July 16, Hugging Face disclosed that an autonomous agent system had breached part of its production infrastructure. Five days later, OpenAI identified its own models as responsible. Its subsequent investigation described agents operating under reduced safeguards, exploiting flaws in shared infrastructure, and reaching the internet through a package-management service. They exchanged discoveries on an improvised message board and coordinated further attacks. Likewise, on July 30, Anthropic rep",
+      "categories": [
+        "Artificial Intelligence, Data Governance, Data Management, IT Governance, IT Leadership"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4245900-0-39104500-1794222151-nguyen-dang-hoang-nhu-cbEvoHbJnIE-unsplash.jpg?quality=50&strip=all"
+    },
+    "w11": {
+      "title": "Claude Code, Codex and Cursor have become part of your software supply chain \u2013 without approval",
+      "link": "https://www.cio.com/article/4245820/claude-code-codex-and-cursor-have-become-part-of-your-software-supply-chain-without-approval.html",
+      "source": "CIO.com",
+      "published": "2026-11-09T10:00:00+00:00",
+      "summary": "At a Fortune 100 bank, I watched a coding agent open a routine session on a payments service. Before the developer typed a word, the agent had read the repository, including the .env file. Production database credentials had entered the agent\u2019s working context, potentially exposing them to a model provider the bank had never assessed. Whether the credentials left the environment depended on controls nobody had verified. Nothing malicious happened. The agent did what it was built to do. That is t",
+      "categories": [
+        "Artificial Intelligence, IT Governance, IT Leadership, Software Development"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4245820-0-67409300-1794218589-bernd-dittrich-GPPbPWwTHdg-unsplash.jpg?quality=50&strip=all"
+    },
+    "w12": {
+      "title": "Grok Bot\u2019s usage limits: Why the fine print matters more than the price",
+      "link": "https://www.cio.com/article/4245794/grok-bots-usage-limits-why-the-fine-print-matters-more-than-the-price.html",
+      "source": "CIO.com",
+      "published": "2026-11-09T09:00:00+00:00",
+      "summary": "On November 1, 2026, Grok Bot users gave IT buyers a live example. Subscribers reported that their weekly usage allowance ran out sooner than expected, and Elon Musk wrote on X that the cost of serving Grok Bot was \u201cunsustainably high relative to revenue.\u201d He confirmed it was not a glitch, but he did not say how the limits would change. The cost of running the service is the seller\u2019s problem. The allowance that a buyer thinks they bought is the buyer\u2019s. Grok Bot is a consumer product, but any te",
+      "categories": [
+        "Artificial Intelligence, Budgeting, Generative AI, IT Management"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4245794-0-60915900-1794214946-X_AI_shutterstock_2384425907.jpg?quality=50&strip=all"
+    },
+    "w13": {
+      "title": "5 things CIOs must understand to govern Claude Code",
+      "link": "https://www.cio.com/article/4245334/5-things-cios-must-understand-to-govern-claude-code.html",
+      "source": "CIO.com",
+      "published": "2026-11-06T20:05:10+00:00",
+      "summary": "Claude Code has quickly become one of the most widely adopted AI agents in the enterprise. Developers use it to write and refactor code, troubleshoot builds, run tests, and manage infrastructure, often by describing an objective and letting the agent determine the steps required to accomplish it. That autonomy is the point. It is also why Claude Code is a governance decision for CIOs, not just a developer tooling choice. Claude Code runs locally on employee workstations, executes commands with t",
+      "categories": [
+        "Artificial Intelligence, Generative AI"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4245334-0-04599400-1793995527-shutterstock_4229756021.png"
+    },
+    "w14": {
+      "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+      "link": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-06T18:01:00+00:00",
+      "summary": "Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you can run a different model in each or take a right-sized fraction of a newer accelerator. This post shows how two optional API fields place one model per partition, and what we measured against a whole older GPU.",
+      "categories": [
+        "Amazon SageMaker AI",
+        "Announcements",
+        "Intermediate (200)"
+      ],
+      "image": null
+    },
+    "w15": {
+      "title": "Taxonomy of agentic primitives in AWS Quick",
+      "link": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-06T17:34:45+00:00",
+      "summary": "As we built Amazon Quick, its agents grew from answering questions to taking actions, and the same primitives kept getting rebuilt under different names. This post shares the taxonomy we converged on \u2014 triggers, agents, capabilities, and learned context \u2014 found by decomposing agentic work into four plain questions: When, What, Who, and How.",
+      "categories": [
+        "Amazon Quick Suite",
+        "Intermediate (200)",
+        "Thought Leadership"
+      ],
+      "image": null
+    },
+    "u1": {
+      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+      "link": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+      "source": "TechCrunch",
+      "published": "2026-11-09T20:09:06+00:00",
+      "summary": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
+      "categories": [
+        "AI",
+        "ElevenLabs",
+        "In Brief",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "image": null,
+      "date_mentioned": null
+    },
+    "u2": {
+      "title": "Disney and Adobe are building generative AI tools together",
+      "link": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+      "source": "The Verge",
+      "published": "2026-11-09T15:38:56+00:00",
+      "summary": "The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" generative AI models to support Disney's production pipeline. The multiyear partnership was announced today at Adobe's MAX conference, and it will see Adobe providing Disney with early access to its latest technologies for everything from Disney's theme parks and cruise line to [\u2026]",
+      "categories": [
+        "Adobe",
+        "AI",
+        "Creators",
+        "Disney",
+        "Entertainment",
+        "News",
+        "Streaming",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Disney-Adobe-AI-partnership.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    "u3": {
+      "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+      "link": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "source": "TechCrunch",
+      "published": "2026-11-06T14:10:00+00:00",
+      "summary": "Amazon said that the feature will roll out to millions of users in coming weeks.",
+      "categories": [
+        "AI",
+        "Commerce",
+        "AI agents",
+        "Amazon",
+        "eCommerce"
+      ],
+      "image": null,
+      "date_mentioned": null
+    },
+    "d1": {
+      "title": "Anthropic launches Fable 5.2 with a price cut and stronger coding scores",
+      "link": "https://thenewstack.io/anthropic-fable-coding-upgrade/",
+      "source": "The New Stack",
+      "published": "2026-11-09T19:08:20+00:00",
+      "summary": "On Monday, Anthropic launched Claude Fable 5.2 and Mythos 5.2, the latest versions of its duo of flagship models. Like before,",
+      "categories": [
+        "AI"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/75d15cd2-claude-fable-5.2-image-1024x492.jpg"
+    },
+    "d2": {
+      "title": "Google claims its new AI software cuts inference latency by over 90% \u2014 but there\u2019s a catch",
+      "link": "https://thenewstack.io/google-tpu-sync-inference/",
+      "source": "The New Stack",
+      "published": "2026-11-09T18:40:01+00:00",
+      "summary": "Google\u2019s eighth-generation TPU announcement on Monday included more than new chips, introducing TPU Sync, an open-source system designed to speed",
+      "categories": [
+        "AI"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/d5205145-winston-chen-ize21dzhnug-unsplash-1024x683.jpg"
+    },
+    "d3": {
+      "title": "Cursor and Google join OpenAI in giving coding agents a voice. Claude Code stays silent.",
+      "link": "https://thenewstack.io/cursor-antigravity-voice-agents/",
+      "source": "The New Stack",
+      "published": "2026-11-09T18:22:41+00:00",
+      "summary": "Two of the biggest players in the AI coding space are betting that developers want to talk to their agents",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "AI Engineering",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/b6289d67-ruliff-andrean-d42u7dk0m9w-unsplash-1024x576.jpg"
+    },
+    "d4": {
+      "title": "Meta launches Muse Ember to take on Claude Haiku and GPT-6 Luna",
+      "link": "https://thenewstack.io/meta-muse-ember-launch/",
+      "source": "The New Stack",
+      "published": "2026-11-09T18:00:00+00:00",
+      "summary": "Meta on Monday debuted Muse Ember, a smaller, more efficient multimodal member of its Muse model family. The company is",
+      "categories": [
+        "AI"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/5d1eee3e-blog-header-visual-1024x576.png"
+    },
+    "d5": {
+      "title": "Perplexity\u2019s AI agents keep working after you close the tab",
+      "link": "https://thenewstack.io/perplexity-teammates-agent-orchestration/",
+      "source": "The New Stack",
+      "published": "2026-11-08T15:30:00+00:00",
+      "summary": "Perplexity\u2019s new Teammates can coordinate multiple agents, remember where previous sessions left off, and keep working without another prompt. The",
+      "categories": [
+        "AI Agents",
+        "AI Infrastructure",
+        "AI Operations"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/eb49a6c7-allison-saeng-p41rhm6ivjo-unsplash-1024x576.jpg"
+    },
+    "d6": {
+      "title": "Why AWS wants developers to stop babysitting their AI agents",
+      "link": "https://thenewstack.io/kiro-bots-agent-memory/",
+      "source": "The New Stack",
+      "published": "2026-11-07T15:30:00+00:00",
+      "summary": "AWS first introduced Kiro, its agentic, spec-driven development environment, in July 2025. It also introduced Kiro Crew in August of",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Developer tools",
+        "Software Development"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/5295f7a6-getty-images-scwdwfcr94i-unsplash-1024x576.jpg"
+    },
+    "d7": {
+      "title": "Beyond code generation: A developer\u2019s guide to agentic engineering",
+      "link": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+      "source": "GitHub Blog",
+      "published": "2026-11-06T22:15:59+00:00",
+      "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment.",
+      "categories": [
+        "AI & ML",
+        "GitHub Copilot",
+        "GitHub Universe"
+      ],
+      "image": null
+    },
+    "d8": {
+      "title": "Cognition turned an open model into a coding beast. But it won\u2019t release the weights.",
+      "link": "https://thenewstack.io/cognition-flash-private-weights/",
+      "source": "The New Stack",
+      "published": "2026-11-06T18:16:42+00:00",
+      "summary": "Cognition built its newest coding model on a foundation that anyone can download, yet the company is keeping its own",
+      "categories": [
+        "AI Models",
+        "Open Source",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/2cd94231-sara-oliveira-jgk_ssmgjci-unsplash-1024x682.jpg"
+    },
+    "d9": {
+      "title": "Meta\u2019s best AI model now trains the one most of its users get",
+      "link": "https://thenewstack.io/meta-muse-specialized-models/",
+      "source": "The New Stack",
+      "published": "2026-11-06T18:05:55+00:00",
+      "summary": "Starting on Friday, everyone using Meta\u2019s Muse agent and Meta AI gets new models the company trained using Muse Wonder,",
+      "categories": [
+        "AI"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/b692c1f9-blogheader_light-1024x576.png"
+    },
+    "d10": {
+      "title": "\u201cMost apps never make it off localhost\u201d: Cursor takes on Lovable and Replit with fully managed app deployment",
+      "link": "https://thenewstack.io/cursor-ai-app-deployment/",
+      "source": "The New Stack",
+      "published": "2026-11-06T15:15:21+00:00",
+      "summary": "AI coding agents have certainly made it easier to transform an idea into a working application. However, getting that application",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Developer tools",
+        "Vibe Coding"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/0daf82eb-philip-oroni-xv2kgdto9ii-unsplash-1024x683.jpg"
+    },
+    "d11": {
+      "title": "Kubernetes, mark II? Why Google\u2019s giving away gVisor, a code sandbox used by Anthropic and OpenAI",
+      "link": "https://thenewstack.io/gvisor-cncf-kubernetes-open-source/",
+      "source": "The New Stack",
+      "published": "2026-11-06T11:49:04+00:00",
+      "summary": "Google wants to emulate one of its biggest ever open-source success stories, donating three core AI agent infrastructure projects to",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Kubernetes",
+        "Open Source",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/9b88fd32-doodler-collective-0jfo6w9u_zi-unsplash-1024x745.jpg"
+    },
+    "l1": {
+      "title": "Fable 5.2 and Jagged AGI",
+      "link": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+      "source": "One Useful Thing",
+      "published": "2026-11-09T19:04:26+00:00",
+      "summary": "General, often expert, and sometimes jagged",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!-MYM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4498fb7e-ff69-4b09-903a-f22ff7147e4b_2912x1632.png"
+    },
+    "l2": {
+      "title": "Scaling Slack and GitHub with Maude Lemaire",
+      "link": "https://newsletter.pragmaticengineer.com/p/scaling-slack-and-github-with-maude",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-11-05T15:58:00+00:00",
+      "summary": "Maude Lemaire shares lessons from scaling Slack and GitHub, improving performance at Cursor, and using AI while keeping engineering judgment in human hands.",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!AlJu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e3d3c6f-6a37-411e-aa1a-dfcefc979af3_1600x140.png"
+    },
+    "l3": {
+      "title": "Craft and taste",
+      "link": "https://www.bensbites.com/p/craft-and-taste",
+      "source": "Ben's Bites",
+      "published": "2026-11-05T14:02:12+00:00",
+      "summary": "What does old me think",
+      "categories": [],
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/bdbb418f-79c1-4ef4-82f1-64727ad91c8c_1616x978.png"
+    },
+    "l4": {
+      "title": "The AI Industry Thinks It Has a PR Problem. The Actual Problem Is Much Worse",
+      "link": "https://www.thealgorithmicbridge.com/p/the-ai-industry-thinks-it-has-a-pr",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-05T11:55:56+00:00",
+      "summary": "The Democrats swept the midterms and owe their victory to the AI industry",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!tu1P!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30dd0a4c-8ff1-45d8-b7bb-f664101502b4_2216x1327.jpeg"
+    },
+    "l5": {
+      "title": "How big is the open model economy today?",
+      "link": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+      "source": "Interconnects",
+      "published": "2026-11-04T16:35:44+00:00",
+      "summary": "Our first open model economy research note for paid subscribers.",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!hFZ7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c5f2798-10bc-487a-8932-5f851ad61b24_1600x840.svg"
+    },
+    "l6": {
+      "title": "The Dawn of a New AI Paradigm: Weight-Space Programming",
+      "link": "https://www.thealgorithmicbridge.com/p/the-dawn-of-a-new-ai-paradigm-weight",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-03T19:14:37+00:00",
+      "summary": "Why do AI research like a human when you\u2019re a machine?",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!FVp_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9d6edec-1ab3-4fc7-b623-8e8f867258cd_2047x1064.jpeg"
+    },
+    "l7": {
+      "title": "Finding my thing",
+      "link": "https://www.bensbites.com/p/if-you-feel-behind-right-now-dont",
+      "source": "Ben's Bites",
+      "published": "2026-11-03T14:03:32+00:00",
+      "summary": "Nobody knows anything",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!z_aZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5c9cb41-d8fc-4ccc-885c-3d6333cf3864_1600x900.png"
+    },
+    "l8": {
+      "title": "AI Won't Kill Math But Empty Classrooms Will",
+      "link": "https://www.thealgorithmicbridge.com/p/new-survey-math-students-are-giving",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-02T18:42:07+00:00",
+      "summary": "This is what a dying field looks like",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!zLz8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F79b78c94-b2a8-4004-ad73-ff3dcdba3c4d_726x394.png"
+    }
+  },
+  "llm_draft": {
+    "glance": [
+      {
+        "id": "n16",
+        "summary": "Nvidia is investigating whether Chinese intelligence targeted its CEO through an alleged affair."
+      },
+      {
+        "id": "n3",
+        "summary": "Anthropic released new Mythos and Fable models with improved coding, reasoning, and vision capabilities."
+      },
+      {
+        "id": "n4",
+        "summary": "Apple introduced a $50 usage pack for Pro and Max users to access more AI features."
+      },
+      {
+        "id": "n14",
+        "summary": "Disney and Adobe are partnering to create proprietary generative AI models for production pipelines."
+      }
+    ],
+    "big_pour": [
+      {
+        "id": "n16",
+        "headline": "Nvidia CEO under scrutiny for alleged affair",
+        "teaser": "Nvidia investigates CEO's alleged affair",
+        "summary": "Nvidia is investigating whether its CEO had an affair with a suspected Chinese spy. The company is looking into whether this relationship was a target for Chinese intelligence.",
+        "why": "This investigation could impact the leadership and strategic direction of a major global AI chip supplier.",
+        "explain": {
+          "kid": "The boss of a big computer chip company might be in trouble because he had a secret relationship with someone who might be a spy for another country.",
+          "pm": "Nvidia is investigating its CEO regarding an alleged affair with a suspected Chinese intelligence agent, which may complicate the company's lobbying and market access in China.",
+          "engineer": "Nvidia is conducting an internal probe into CEO Jensen Huang's relationship with an alleged Chinese intelligence asset to assess potential national security risks and impacts on export compliance."
+        }
+      },
+      {
+        "id": "n3",
+        "headline": "Anthropic releases new Mythos and Fable models",
+        "teaser": "Anthropic updates its AI models",
+        "summary": "Anthropic has released new Mythos and Fable models. The company states these models show improvements in coding, reasoning, vision, and user communication."
+      },
+      {
+        "id": "n4",
+        "headline": "Apple adds paid AI usage packs",
+        "teaser": "Apple offers more AI access",
+        "summary": "Apple has updated Logic Pro with an option to buy more usage for AI features. Users can purchase additional access for a one-time price of $49.99."
+      }
+    ],
+    "office_blend": [
+      {
+        "id": "w5",
+        "headline": "CrossnoKaye uses AI for heavy industry",
+        "teaser": "AI grounds heavy industry data",
+        "summary": "CrossnoKaye uses Amazon Bedrock AgentCore to ground AI reasoning in live plant data. The system provides plant engineers with verifiable, math-backed answers."
+      },
+      {
+        "id": "w9",
+        "headline": "Northern Trust automates client onboarding",
+        "teaser": "Bank automates client onboarding",
+        "summary": "Northern Trust launched an AI-powered agent to streamline institutional client onboarding. The agent standardizes years of transaction history for reporting."
+      }
+    ],
+    "still_roasting": [
+      {
+        "id": "u2",
+        "summary": "Disney and Adobe are developing proprietary artist-led generative AI models for Disney's production pipeline."
+      },
+      {
+        "id": "u3",
+        "summary": "Amazon is rolling out a feature that allows users to text Alexa to help them shop."
+      }
+    ],
+    "quick_sips": [
+      {
+        "id": "n6",
+        "summary": "Instagram launched an Effect Builder that generates custom filters for Stories using AI prompts for US residents over 18."
+      },
+      {
+        "id": "n7",
+        "summary": "Meta released Muse Ember, a lightweight model for agent execution that is priced at 10 cents per million input tokens."
+      },
+      {
+        "id": "n12",
+        "summary": "Medium launched a new writing app that integrates AI assistance directly into the writing process."
+      }
+    ],
+    "builder": {
+      "stories": [
+        {
+          "id": "d2",
+          "label": "New system",
+          "headline": "Google introduces open-source TPU Sync",
+          "summary": "Google released TPU Sync, an open-source system designed to speed up AI inference by over 90%."
+        },
+        {
+          "id": "d11",
+          "label": "Open source",
+          "headline": "Google donates AI infrastructure projects",
+          "summary": "Google is donating three core AI agent infrastructure projects, including the code sandbox gVisor, to open source."
+        }
+      ],
+      "concept": {
+        "id": "d11",
+        "term": "gVisor",
+        "explanation": "gVisor is a code sandbox used by Anthropic and OpenAI to provide secure environments for running code."
+      }
+    },
+    "long_read": {
+      "id": "l4",
+      "headline": "The AI Industry Thinks It Has a PR Problem",
+      "summary": "The newsletter suggests that the political impact of the AI industry is more significant than its public relations challenges."
+    }
+  },
+  "first_check": {
+    "n4": [
+      "name 'Max' is not in the source"
+    ]
+  },
+  "dropped": [],
+  "explain_dropped": [
+    "engineer",
+    "pm"
+  ]
+}

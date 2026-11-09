@@ -1,0 +1,340 @@
+{
+  "date": "2026-11-09",
+  "claims": 35,
+  "supported": 29,
+  "partial": 5,
+  "unsupported": 1,
+  "faithfulness": 0.9,
+  "flagged": [
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "Nvidia is investigating whether its CEO had an affair with a suspected Chinese spy.",
+      "source": "Nvidia CEO's affair becomes a national security problem. Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+      "verdict": "partial",
+      "reason": "The source states Chinese intelligence targeted the CEO through an affair, but does not explicitly state the affair partner was a suspected spy."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "This investigation could impact the leadership and strategic direction of a major global AI chip supplier.",
+      "source": "Nvidia CEO's affair becomes a national security problem. Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+      "verdict": "unsupported",
+      "reason": "The source does not mention potential impacts on leadership, strategic direction, or describe Nvidia as a major global AI chip supplier."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "The boss of a big computer chip company might be in trouble because he had a secret relationship with someone who might be a spy for another country.",
+      "source": "Nvidia CEO's affair becomes a national security problem. Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+      "verdict": "partial",
+      "reason": "The claim adds details not present in the source, such as the partner being a spy and the CEO being in trouble."
+    },
+    {
+      "section": "office_blend",
+      "id": "w9",
+      "claim": "Northern Trust automates client onboarding",
+      "source": "Northern Trust streamlines client onboarding with AI agent. Venerable Chicago-based banking institution Northern Trust today unveiled a new AI-powered client onboarding agent to streamline the process of bringing institutional clients onto Northern Trust Asset Servicing\u2019s Front Office Solutions platform. The agent, which transforms years of data and transaction history into a standardized format ready for use in the bank\u2019s reporting environment, is the result of an expanded collaboration with Microsoft. Developed jointly by Northern Trust and forward dep",
+      "verdict": "partial",
+      "reason": "The source states Northern Trust is streamlining client onboarding with an AI agent, not fully automating it."
+    },
+    {
+      "section": "builder",
+      "id": "d2",
+      "claim": "Google released TPU Sync, an open-source system designed to speed up AI inference by over 90%.",
+      "source": "Google claims its new AI software cuts inference latency by over 90% \u2014 but there\u2019s a catch. Google\u2019s eighth-generation TPU announcement on Monday included more than new chips, introducing TPU Sync, an open-source system designed to speed",
+      "verdict": "partial",
+      "reason": "The source attributes the 90% latency reduction to new AI software, but the sentence detailing TPU Sync cuts off without confirming it achieves the 90% figure."
+    },
+    {
+      "section": "concept",
+      "id": "d11",
+      "claim": "gVisor is a code sandbox used by Anthropic and OpenAI to provide secure environments for running code.",
+      "source": "Kubernetes, mark II? Why Google\u2019s giving away gVisor, a code sandbox used by Anthropic and OpenAI. Google wants to emulate one of its biggest ever open-source success stories, donating three core AI agent infrastructure projects to",
+      "verdict": "partial",
+      "reason": "The source states gVisor is a code sandbox used by Anthropic and OpenAI, but does not mention providing secure environments for running code."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n16",
+      "claim": "Nvidia is investigating whether Chinese intelligence targeted its CEO through an alleged affair.",
+      "source": "Nvidia CEO's affair becomes a national security problem. Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+      "verdict": "supported",
+      "reason": "The source directly states Nvidia is probing whether Chinese intelligence targeted its CEO through an affair."
+    },
+    {
+      "section": "glance",
+      "id": "n3",
+      "claim": "Anthropic released new Mythos and Fable models with improved coding, reasoning, and vision capabilities.",
+      "source": "Anthropic releases new Mythos and Fable models amid RSI concerns. Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+      "verdict": "supported",
+      "reason": "The source confirms Anthropic released Mythos and Fable models showing improvements in coding, reasoning, and vision."
+    },
+    {
+      "section": "glance",
+      "id": "n4",
+      "claim": "Apple adds paid AI usage packs",
+      "source": "Apple\u2019s $50 Intelligence Usage Packs extend access to some AI features. After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"start a new song, set [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states Apple introduced Intelligence Usage Packs to extend access to AI features."
+    },
+    {
+      "section": "glance",
+      "id": "n4",
+      "claim": "Apple updated Logic Pro with an option to buy more usage for some Apple Intelligence features for a one-time purchase price of $49.99.",
+      "source": "Apple\u2019s $50 Intelligence Usage Packs extend access to some AI features. After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"start a new song, set [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states Apple updated Logic Pro with a 'Buy More Usage' option for $49.99."
+    },
+    {
+      "section": "glance",
+      "id": "n14",
+      "claim": "Disney and Adobe are partnering to create proprietary generative AI models for production pipelines.",
+      "source": "Disney and Adobe are building generative AI tools together. The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" generative AI models to support Disney's production pipeline. The multiyear partnership was announced today at Adobe's MAX conference, and it will see Adobe providing Disney with early access to its latest technologies for everything from Disney's theme parks and cruise line to [\u2026]",
+      "verdict": "supported",
+      "reason": "The source directly states Disney teamed up with Adobe to develop proprietary generative AI models for Disney's production pipeline."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "Nvidia CEO under scrutiny for alleged affair",
+      "source": "Nvidia CEO's affair becomes a national security problem. Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+      "verdict": "supported",
+      "reason": "The source states the CEO's affair has become a national security problem under investigation."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "Nvidia is investigating whether its CEO had an affair with a suspected Chinese spy.",
+      "source": "Nvidia CEO's affair becomes a national security problem. Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+      "verdict": "partial",
+      "reason": "The source states Chinese intelligence targeted the CEO through an affair, but does not explicitly state the affair partner was a suspected spy."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "The company is looking into whether this relationship was a target for Chinese intelligence.",
+      "source": "Nvidia CEO's affair becomes a national security problem. Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+      "verdict": "supported",
+      "reason": "The source confirms Nvidia is probing if Chinese intelligence targeted the CEO through the affair."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "This investigation could impact the leadership and strategic direction of a major global AI chip supplier.",
+      "source": "Nvidia CEO's affair becomes a national security problem. Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+      "verdict": "unsupported",
+      "reason": "The source does not mention potential impacts on leadership, strategic direction, or describe Nvidia as a major global AI chip supplier."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "The boss of a big computer chip company might be in trouble because he had a secret relationship with someone who might be a spy for another country.",
+      "source": "Nvidia CEO's affair becomes a national security problem. Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+      "verdict": "partial",
+      "reason": "The claim adds details not present in the source, such as the partner being a spy and the CEO being in trouble."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "Nvidia is investigating if its CEO was targeted by intelligence from a foreign country through an affair, which is being treated as a national security issue.",
+      "source": "Nvidia CEO's affair becomes a national security problem. Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+      "verdict": "supported",
+      "reason": "The source confirms Nvidia is probing targeting by Chinese intelligence through an affair, treating it as a national security issue."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "Nvidia is running an internal probe to determine if its CEO was targeted by foreign intelligence through an affair, evaluating the situation as a national security concern.",
+      "source": "Nvidia CEO's affair becomes a national security problem. Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+      "verdict": "supported",
+      "reason": "The claim accurately reflects the source's statement that Nvidia is probing the affair as a national security problem involving foreign intelligence."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "Anthropic releases new Mythos and Fable models",
+      "source": "Anthropic releases new Mythos and Fable models amid RSI concerns. Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Anthropic released new Mythos and Fable models."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "Anthropic has released new Mythos and Fable models.",
+      "source": "Anthropic releases new Mythos and Fable models amid RSI concerns. Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+      "verdict": "supported",
+      "reason": "The source confirms that Anthropic has released new Mythos and Fable models."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "The company states these models show improvements in coding, reasoning, vision, and user communication.",
+      "source": "Anthropic releases new Mythos and Fable models amid RSI concerns. Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+      "verdict": "supported",
+      "reason": "The source directly states that the models show improvements in coding, reasoning, vision, and clearer user communication."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Apple adds paid AI usage packs",
+      "source": "Apple\u2019s $50 Intelligence Usage Packs extend access to some AI features. After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"start a new song, set [\u2026]",
+      "verdict": "supported",
+      "reason": "The source mentions Apple's $50 Intelligence Usage Packs that extend access to AI features."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Apple updated Logic Pro with an option to buy more usage for some Apple Intelligence features for a one-time purchase price of $49.99.",
+      "source": "Apple\u2019s $50 Intelligence Usage Packs extend access to some AI features. After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"start a new song, set [\u2026]",
+      "verdict": "supported",
+      "reason": "The source directly states that Apple updated Logic Pro with a $49.99 option to buy more usage for Apple Intelligence features."
+    },
+    {
+      "section": "office_blend",
+      "id": "w5",
+      "claim": "CrossnoKaye uses AI for heavy industry",
+      "source": "How CrossnoKaye grounds physical AI with Amazon Bedrock AgentCore. CrossnoKaye brought physical AI to heavy industry with Amazon Bedrock AgentCore. Its ATLAS platform and AURA agentic system ground AI reasoning in live plant data and run verifiable Python in isolated AgentCore sandboxes, giving plant engineers checkable, math-backed answers instead of model guesses.",
+      "verdict": "supported",
+      "reason": "The source confirms CrossnoKaye brought physical AI to heavy industry."
+    },
+    {
+      "section": "office_blend",
+      "id": "w5",
+      "claim": "CrossnoKaye uses Amazon Bedrock AgentCore to ground AI reasoning in live plant data.",
+      "source": "How CrossnoKaye grounds physical AI with Amazon Bedrock AgentCore. CrossnoKaye brought physical AI to heavy industry with Amazon Bedrock AgentCore. Its ATLAS platform and AURA agentic system ground AI reasoning in live plant data and run verifiable Python in isolated AgentCore sandboxes, giving plant engineers checkable, math-backed answers instead of model guesses.",
+      "verdict": "supported",
+      "reason": "The source states that CrossnoKaye uses Amazon Bedrock AgentCore and grounds AI reasoning in live plant data."
+    },
+    {
+      "section": "office_blend",
+      "id": "w5",
+      "claim": "The system provides plant engineers with verifiable, math-backed answers.",
+      "source": "How CrossnoKaye grounds physical AI with Amazon Bedrock AgentCore. CrossnoKaye brought physical AI to heavy industry with Amazon Bedrock AgentCore. Its ATLAS platform and AURA agentic system ground AI reasoning in live plant data and run verifiable Python in isolated AgentCore sandboxes, giving plant engineers checkable, math-backed answers instead of model guesses.",
+      "verdict": "supported",
+      "reason": "The source mentions that the system runs verifiable Python to give plant engineers checkable, math-backed answers."
+    },
+    {
+      "section": "office_blend",
+      "id": "w9",
+      "claim": "Northern Trust automates client onboarding",
+      "source": "Northern Trust streamlines client onboarding with AI agent. Venerable Chicago-based banking institution Northern Trust today unveiled a new AI-powered client onboarding agent to streamline the process of bringing institutional clients onto Northern Trust Asset Servicing\u2019s Front Office Solutions platform. The agent, which transforms years of data and transaction history into a standardized format ready for use in the bank\u2019s reporting environment, is the result of an expanded collaboration with Microsoft. Developed jointly by Northern Trust and forward dep",
+      "verdict": "partial",
+      "reason": "The source states Northern Trust is streamlining client onboarding with an AI agent, not fully automating it."
+    },
+    {
+      "section": "office_blend",
+      "id": "w9",
+      "claim": "Northern Trust launched an AI-powered agent to streamline institutional client onboarding.",
+      "source": "Northern Trust streamlines client onboarding with AI agent. Venerable Chicago-based banking institution Northern Trust today unveiled a new AI-powered client onboarding agent to streamline the process of bringing institutional clients onto Northern Trust Asset Servicing\u2019s Front Office Solutions platform. The agent, which transforms years of data and transaction history into a standardized format ready for use in the bank\u2019s reporting environment, is the result of an expanded collaboration with Microsoft. Developed jointly by Northern Trust and forward dep",
+      "verdict": "supported",
+      "reason": "The source explicitly states Northern Trust unveiled a new AI-powered agent to streamline institutional client onboarding."
+    },
+    {
+      "section": "office_blend",
+      "id": "w9",
+      "claim": "The agent standardizes years of transaction history for reporting.",
+      "source": "Northern Trust streamlines client onboarding with AI agent. Venerable Chicago-based banking institution Northern Trust today unveiled a new AI-powered client onboarding agent to streamline the process of bringing institutional clients onto Northern Trust Asset Servicing\u2019s Front Office Solutions platform. The agent, which transforms years of data and transaction history into a standardized format ready for use in the bank\u2019s reporting environment, is the result of an expanded collaboration with Microsoft. Developed jointly by Northern Trust and forward dep",
+      "verdict": "supported",
+      "reason": "The source states the agent transforms years of data and transaction history into a standardized format for the bank's reporting environment."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u2",
+      "claim": "Disney and Adobe are developing proprietary artist-led generative AI models for Disney's production pipeline.",
+      "source": "Disney and Adobe are building generative AI tools together. The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" generative AI models to support Disney's production pipeline. The multiyear partnership was announced today at Adobe's MAX conference, and it will see Adobe providing Disney with early access to its latest technologies for everything from Disney's theme parks and cruise line to [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly confirms Disney and Adobe are developing proprietary artist-led generative AI models for Disney's production pipeline."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u3",
+      "claim": "Amazon is rolling out a feature that allows users to text Alexa to help them shop.",
+      "source": "After blocking Muse, Amazon now lets users text Alexa to help them shop. Amazon said that the feature will roll out to millions of users in coming weeks.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Amazon is rolling out a feature letting users text Alexa to help them shop."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n6",
+      "claim": "Instagram launched an Effect Builder that generates custom filters for Stories using AI prompts for US residents over 18.",
+      "source": "Instagram\u2019s Effect Builder makes new filters from AI prompts. After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the chatbot, with an option to attach style [\u2026]",
+      "verdict": "supported",
+      "reason": " the source confirms Instagram launched Effect Builder to generate custom Stories filters via AI prompts for US residents over 18."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n7",
+      "claim": "Meta released Muse Ember, a lightweight model for agent execution that is priced at 10 cents per million input tokens.",
+      "source": "Meta releases Muse Ember, a new lightweight model for agent execution. At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
+      "verdict": "supported",
+      "reason": "The source states Meta released Muse Ember for agent execution at 10 cents per million input tokens."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n12",
+      "claim": "Medium launched a new writing app that integrates AI assistance directly into the writing process.",
+      "source": "Medium\u2019s new TK app brings AI assistance directly into the writing process. Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
+      "verdict": "supported",
+      "reason": "The source explicitly mentions Medium launched a new app (TK) that integrates AI-assisted writing into the process."
+    },
+    {
+      "section": "builder",
+      "id": "d2",
+      "claim": "Google introduces open-source TPU Sync",
+      "source": "Google claims its new AI software cuts inference latency by over 90% \u2014 but there\u2019s a catch. Google\u2019s eighth-generation TPU announcement on Monday included more than new chips, introducing TPU Sync, an open-source system designed to speed",
+      "verdict": "supported",
+      "reason": "The source mentions Google introduced TPU Sync as an open-source system."
+    },
+    {
+      "section": "builder",
+      "id": "d2",
+      "claim": "Google released TPU Sync, an open-source system designed to speed up AI inference by over 90%.",
+      "source": "Google claims its new AI software cuts inference latency by over 90% \u2014 but there\u2019s a catch. Google\u2019s eighth-generation TPU announcement on Monday included more than new chips, introducing TPU Sync, an open-source system designed to speed",
+      "verdict": "partial",
+      "reason": "The source attributes the 90% latency reduction to new AI software, but the sentence detailing TPU Sync cuts off without confirming it achieves the 90% figure."
+    },
+    {
+      "section": "builder",
+      "id": "d11",
+      "claim": "Google donates AI infrastructure projects",
+      "source": "Kubernetes, mark II? Why Google\u2019s giving away gVisor, a code sandbox used by Anthropic and OpenAI. Google wants to emulate one of its biggest ever open-source success stories, donating three core AI agent infrastructure projects to",
+      "verdict": "supported",
+      "reason": "The source confirms Google is donating three core AI agent infrastructure projects."
+    },
+    {
+      "section": "builder",
+      "id": "d11",
+      "claim": "Google is donating three core AI agent infrastructure projects, including the code sandbox gVisor, to open source.",
+      "source": "Kubernetes, mark II? Why Google\u2019s giving away gVisor, a code sandbox used by Anthropic and OpenAI. Google wants to emulate one of its biggest ever open-source success stories, donating three core AI agent infrastructure projects to",
+      "verdict": "supported",
+      "reason": "The source explicitly mentions Google giving away gVisor and donating three core AI agent infrastructure projects as an open-source initiative."
+    },
+    {
+      "section": "concept",
+      "id": "d11",
+      "claim": "gVisor is a code sandbox used by Anthropic and OpenAI to provide secure environments for running code.",
+      "source": "Kubernetes, mark II? Why Google\u2019s giving away gVisor, a code sandbox used by Anthropic and OpenAI. Google wants to emulate one of its biggest ever open-source success stories, donating three core AI agent infrastructure projects to",
+      "verdict": "partial",
+      "reason": "The source states gVisor is a code sandbox used by Anthropic and OpenAI, but does not mention providing secure environments for running code."
+    },
+    {
+      "section": "long_read",
+      "id": "l4",
+      "claim": "The AI Industry Thinks It Has a PR Problem",
+      "source": "The AI Industry Thinks It Has a PR Problem. The Actual Problem Is Much Worse. The Democrats swept the midterms and owe their victory to the AI industry",
+      "verdict": "supported",
+      "reason": "The headline in the source directly matches the claim."
+    },
+    {
+      "section": "long_read",
+      "id": "l4",
+      "claim": "The newsletter suggests that the political impact of the AI industry is more significant than its public relations challenges.",
+      "source": "The AI Industry Thinks It Has a PR Problem. The Actual Problem Is Much Worse. The Democrats swept the midterms and owe their victory to the AI industry",
+      "verdict": "supported",
+      "reason": "The source directly implies that political outcomes like midterm election victories represent the 'much worse' actual issue compared to a simple PR problem."
+    }
+  ]
+}
