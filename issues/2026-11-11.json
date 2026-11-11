@@ -1,0 +1,190 @@
+{
+  "glance": [
+    {
+      "id": "n10",
+      "summary": "OpenAI reportedly passed $10 billion in quarterly revenue, up almost 50% from the second quarter.",
+      "link": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n7",
+      "summary": "TSMC plans to invest $1 billion in Anthropic and OpenAI amid wobbles in AI trade.",
+      "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-1152x648.jpg"
+    },
+    {
+      "id": "n13",
+      "summary": "Google DeepMind unveiled AlphaGenome 2, an AI model that maps how DNA changes affect cells.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/alphagenome-atlas-cover__background.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n2",
+      "summary": "Meta infrastructure head Santosh Janardhan is stepping down from his role at the company.",
+      "link": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n13",
+      "headline": "Google DeepMind unveils AlphaGenome 2 for cell research",
+      "teaser": "AI maps cellular DNA effects",
+      "summary": "Google DeepMind unveiled AlphaGenome 2, an AI model that shows how DNA changes affect different cells. This detailed view could help scientists find disease causes and new treatments.",
+      "why": "It could help scientists better understand disease causes and discover new treatments.",
+      "explain": {
+        "kid": "Google DeepMind built a new AI tool named AlphaGenome 2 that helps scientists see how tiny changes in DNA affect different cells in our bodies.",
+        "pm": "Google DeepMind launched AlphaGenome 2, an AI model designed to analyze how DNA variations impact cellular function, helping researchers identify disease causes and discover new treatments.",
+        "engineer": "Google DeepMind introduced AlphaGenome 2, a specialized AI model that maps how genomic DNA changes affect cellular biology, helping scientists analyze complex cellular patterns and design disease treatments."
+      },
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/alphagenome-atlas-cover__background.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n10",
+      "headline": "OpenAI quarterly revenue reportedly passes $10 billion",
+      "teaser": "Revenue jumps nearly 50 percent",
+      "summary": "OpenAI's quarterly revenue reportedly crossed $10 billion for the first time. This represents an almost 50% jump from the $6.7 billion recorded in the second quarter.",
+      "link": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n7",
+      "headline": "TSMC to invest $1 billion in Anthropic and OpenAI",
+      "teaser": "TSMC invests in AI firms",
+      "summary": "Taiwan's chipmaking giant TSMC plans to invest $1 billion in Anthropic and OpenAI. The investment arrives as the AI trade experiences wobbles.",
+      "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-1152x648.jpg",
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w10",
+      "headline": "Fujifilm Biotechnologies prepares legal AI agent for production",
+      "teaser": "Legal agent reviews contract terms",
+      "summary": "An AI agent designed by the legal team at Fujifilm Biotechnologies is preparing to move from a sandbox to full production. The agent reviews contracts, checks standards, and proposes edits.",
+      "link": "https://www.cio.com/article/4246026/as-employees-build-ai-agents-cios-manage-the-lifecycle.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4246026-0-72412200-1794391399-AI-workflow-tools-shutterstock_2696163945_5a3adf.jpg?quality=50&strip=all"
+    },
+    {
+      "id": "w15",
+      "headline": "Trovata builds autonomous treasury agents on Amazon Bedrock",
+      "teaser": "AI agents handle corporate treasury",
+      "summary": "Trovata built autonomous corporate treasury agents using Amazon Bedrock and AgentCore. The architecture helps move corporate treasury operations from manual work to real-time decision-making.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u2",
+      "summary": "Amazon's roaming Ring Robotics security devices will debut in late 2026 and early 2027.",
+      "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ring-Drone-1152x648.jpeg",
+      "date_mentioned": null
+    },
+    {
+      "id": "u3",
+      "summary": "ChatGPT is launching verified Business Agents in beta to help US users chat with brands for comparison shopping.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Business-Agent-Customer-Conversation.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n2",
+      "summary": "Meta infrastructure head Santosh Janardhan is stepping down after joining the company in 2009.",
+      "link": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n4",
+      "summary": "CoreWeave is asking customers for upfront prepayments and shorter contracts to fund its AI growth.",
+      "link": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n11",
+      "summary": "Google is experimenting with Tabletop, an AI tool that generates customized collaboration apps from user descriptions.",
+      "link": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Google-Labs-Tabletop.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d2",
+        "label": "Open standard",
+        "headline": "Nvidia donates OpenShell runtime to the CNCF",
+        "summary": "Nvidia donated OpenShell to the Cloud Native Computing Foundation. OpenShell is an open-source runtime built for securing and governing AI agents.",
+        "link": "https://thenewstack.io/nvidia-donates-openshell-cncf/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/07/45a2a83b-img_0484-1024x768.jpg"
+      },
+      {
+        "id": "d11",
+        "label": "New tool",
+        "headline": "Google introduces TPU Sync to reduce inference latency",
+        "summary": "Google introduced TPU Sync, an open-source system designed to speed up inference latency by over 90 percent, alongside its eighth-generation hardware announcement.",
+        "link": "https://thenewstack.io/google-tpu-sync-inference/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/d5205145-winston-chen-ize21dzhnug-unsplash-1024x683.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d2",
+      "term": "OpenShell",
+      "explanation": "OpenShell is an open-source runtime created by Nvidia for securing and governing AI agents. Nvidia donated the technology to the Cloud Native Computing Foundation.",
+      "link": "https://thenewstack.io/nvidia-donates-openshell-cncf/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/07/45a2a83b-img_0484-1024x768.jpg"
+    }
+  },
+  "long_read": {
+    "id": "l5",
+    "headline": "Software correctness & supply chain security",
+    "summary": "The newsletter highlights a discussion on software development challenges with AI, focusing on the fundamental practices of correctness and supply chain security.",
+    "link": "https://newsletter.pragmaticengineer.com/p/software-correctness",
+    "source": "The Pragmatic Engineer",
+    "image": "https://substackcdn.com/image/youtube/w_728,c_limit/OrXKvOjR-vI"
+  },
+  "number": 18,
+  "date_iso": "2026-11-11",
+  "date_long": "Wednesday \u00b7 11 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-11",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": {
+    "term": "Quantization",
+    "definition": "Storing a model's numbers at lower precision (e.g. 4-bit instead of 16-bit) so it uses less memory and runs faster, usually with a small quality cost.",
+    "heard": "\"The 4-bit quantized model fits on a single GPU.\"",
+    "analogy": "Like instant coffee: far lighter to carry, slightly less flavour.",
+    "reviewed": false,
+    "theme": "Models, speed, and cost",
+    "day": 3
+  },
+  "keep_brewing": null,
+  "poll": null
+}

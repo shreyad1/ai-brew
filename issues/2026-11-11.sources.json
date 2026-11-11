@@ -1,0 +1,872 @@
+{
+  "generated_at": "2026-11-11T15:49:25.634474-06:00",
+  "warnings": [
+    "Word of the Day 'Quantization' is not marked reviewed in learning_path.yaml"
+  ],
+  "failed_feeds": [
+    "Import AI: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+  ],
+  "sources": {
+    "n1": {
+      "title": "Why the data center you dread might never even be built",
+      "link": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+      "source": "TechCrunch",
+      "published": "2026-11-11T20:15:15+00:00",
+      "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there\u2019s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure [\u2026]",
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "AI data center",
+        "data center"
+      ],
+      "image": null
+    },
+    "n2": {
+      "title": "Meta is losing its longtime head of infrastructure",
+      "link": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+      "source": "TechCrunch",
+      "published": "2026-11-11T20:12:01+00:00",
+      "summary": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
+      "categories": [
+        "AI",
+        "compute",
+        "infrastructure",
+        "Meta",
+        "social media"
+      ],
+      "image": null
+    },
+    "n3": {
+      "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
+      "link": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+      "source": "TechCrunch",
+      "published": "2026-11-11T20:02:14+00:00",
+      "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there\u2019s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure [\u2026]",
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "Hardware",
+        "AI data center",
+        "data center",
+        "Equity podcast"
+      ],
+      "image": null
+    },
+    "n4": {
+      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+      "link": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+      "source": "TechCrunch",
+      "published": "2026-11-11T19:54:00+00:00",
+      "summary": "CoreWeave is increasingly asking customers to pay upfront, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company\u2019s third-quarter earnings.",
+      "categories": [
+        "AI",
+        "ai infrastructure",
+        "Cloud Computing",
+        "CoreWeave"
+      ],
+      "image": null
+    },
+    "n5": {
+      "title": "With $720M round, Britain\u2019s Fractile gets a leg up in the race for AI chips",
+      "link": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+      "source": "TechCrunch",
+      "published": "2026-11-11T19:34:55+00:00",
+      "summary": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
+      "categories": [
+        "Startups",
+        "AI",
+        "Fundraising",
+        "semiconductor chips"
+      ],
+      "image": null
+    },
+    "n6": {
+      "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+      "link": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+      "source": "TechCrunch",
+      "published": "2026-11-11T19:22:22+00:00",
+      "summary": "Nvidia CEO Jensen Huang has until the end of the day Wednesday to answer a call from House Republicans for a closed-door briefing on his affair with alleged Chinese spy.",
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "nvidia",
+        "Jensen Huang"
+      ],
+      "image": null
+    },
+    "n7": {
+      "title": "Taiwan\u2019s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+      "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+      "source": "Ars Technica",
+      "published": "2026-11-11T18:16:40+00:00",
+      "summary": "Latest example of the AI boom\u2019s circular financing comes as AI trade wobbles.",
+      "categories": [
+        "AI",
+        "AI bubble",
+        "Anthropic",
+        "Chipmakers",
+        "chipmaking",
+        "openai",
+        "semiconductor manufacturing",
+        "Taiwan",
+        "Taiwan Semiconductor Manufacturing Company",
+        "TSMC"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-1152x648.jpg"
+    },
+    "n8": {
+      "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+      "link": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+      "source": "Ars Technica",
+      "published": "2026-11-11T17:37:32+00:00",
+      "summary": "Any amount of AI coding is too much for many Independent Games Festival judges.",
+      "categories": [
+        "AI",
+        "Features",
+        "Gaming",
+        "big walk",
+        "game development",
+        "house house",
+        "Indie gaming"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/bigwalkdebate-1152x648.png"
+    },
+    "n9": {
+      "title": "Is Jensen Huang\u2019s bad behavior more commonplace than it seems?",
+      "link": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
+      "source": "TechCrunch",
+      "published": "2026-11-11T16:16:07+00:00",
+      "summary": "\u201cThere are a lot of senior people in the industry that know this is happening, and are effectively condoning it,\u201d an investment intel consultant said.",
+      "categories": [
+        "AI",
+        "China",
+        "nvidia",
+        "Jensen Huang"
+      ],
+      "image": null
+    },
+    "n10": {
+      "title": "OpenAI\u2019s quarterly revenue reportedly crosses $10B for the first time",
+      "link": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+      "source": "TechCrunch",
+      "published": "2026-11-11T16:14:44+00:00",
+      "summary": "Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "OpenAI"
+      ],
+      "image": null
+    },
+    "n11": {
+      "title": "Google\u2019s Tabletop AI experiment lets you build custom collaboration apps",
+      "link": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+      "source": "The Verge",
+      "published": "2026-11-11T16:00:00+00:00",
+      "summary": "Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual similarities with workplace management apps like Asana and Monday, but with a built-in AI feature that allows you to vibecode personalized interactive tools by describing [\u2026]",
+      "categories": [
+        "AI",
+        "Google",
+        "News",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Google-Labs-Tabletop.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n12": {
+      "title": "Databricks\u2019 new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+      "link": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+      "source": "TechCrunch",
+      "published": "2026-11-11T15:00:00+00:00",
+      "summary": "With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that.",
+      "categories": [
+        "AI",
+        "Enterprise",
+        "ali ghodsi",
+        "Databricks"
+      ],
+      "image": null
+    },
+    "n13": {
+      "title": "Google\u2019s AlphaGenome 2 zooms in on the cellular roots of disease",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+      "source": "The Verge",
+      "published": "2026-11-11T15:00:00+00:00",
+      "summary": "Researchers at Google DeepMind have unveiled a new AI model designed to unravel how changes in our DNA affect different cells, giving scientists a more detailed view of a notoriously difficult problem that could hold important clues to the causes of disease - and point the way to new treatments. AlphaGenome 2 is the successor [\u2026]",
+      "categories": [
+        "AI",
+        "Google",
+        "Health",
+        "Science",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/alphagenome-atlas-cover__background.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n14": {
+      "title": "Google DeepMind just mathematically verified key parts of Signal",
+      "link": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+      "source": "Ars Technica",
+      "published": "2026-11-11T14:08:57+00:00",
+      "summary": "The four-week project hints that AI could make formal verification far more practical.",
+      "categories": [
+        "AI",
+        "Security",
+        "deepmind",
+        "encryption",
+        "signal"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/signal_icon-1024x648.jpg"
+    },
+    "n15": {
+      "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+      "link": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+      "source": "TechCrunch",
+      "published": "2026-11-11T14:00:00+00:00",
+      "summary": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
+      "categories": [
+        "AI",
+        "AI agents",
+        "Exclusive"
+      ],
+      "image": null
+    },
+    "n16": {
+      "title": "Adobe\u2019s AI experiments let you walk around in photos and interview your characters",
+      "link": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+      "source": "The Verge",
+      "published": "2026-11-11T14:00:00+00:00",
+      "summary": "Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing, and the latest of those tools are being announced today: they can transform images into explorable 3D scenes, design AI characters by talking to them, and turn photo editing into a copy/paste process. [\u2026]",
+      "categories": [
+        "Adobe",
+        "AI",
+        "Creators",
+        "News",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Adobe-Project-Screen-Test.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n17": {
+      "title": "Nvidia\u2019s crisis has corporate governance experts reaching for the popcorn",
+      "link": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+      "source": "TechCrunch",
+      "published": "2026-11-11T07:30:51+00:00",
+      "summary": "The governance experts we talked to say nobody has seen anything like what's unfolding right now.",
+      "categories": [
+        "AI",
+        "China",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "image": null
+    },
+    "n18": {
+      "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+      "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+      "source": "Ars Technica",
+      "published": "2026-11-10T22:35:01+00:00",
+      "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+      "categories": [
+        "AI",
+        "Tech",
+        "AI drones",
+        "Amazon",
+        "amazon drones",
+        "drones",
+        "physical AI",
+        "ring",
+        "ring doorbell camera",
+        "Robotics",
+        "robots"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ring-Drone-1152x648.jpeg"
+    },
+    "w1": {
+      "title": "The attendee\u2019s guide to the AWS re:Invent 2026 AI/ML track",
+      "link": "https://aws.amazon.com/blogs/machine-learning/the-attendees-guide-to-the-aws-reinvent-2026-ai-ml-track/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-11T21:05:59+00:00",
+      "summary": "AWS re:Invent 2026 includes more than 140 AI/ML track sessions. This attendee's guide helps you find the breakouts, chalk talks, workshops, and builders' sessions that fit your role and goals, spanning AI chips, models and inference, agents, agent trust, and sustainability, so you can build a smarter re:Invent schedule.",
+      "categories": [
+        "Foundational (100)",
+        "Uncategorized"
+      ],
+      "image": null
+    },
+    "w2": {
+      "title": "Automating AWS Agent Registry updates with push-based architecture",
+      "link": "https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-11T20:52:48+00:00",
+      "summary": "This post shows how to keep the AWS Agent Registry current automatically. Using AWS CloudTrail, Amazon EventBridge, AWS Lambda, and AgentCore Identity, an event-driven pipeline detects MCP server changes and pushes updated tool metadata to the registry with no stored secrets, across single- and multi-account environments.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock AgentCore",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w3": {
+      "title": "How DXC Technology built a multi-model AI substrate on Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-11T20:45:45+00:00",
+      "summary": "DXC Technology runs mission-critical managed IT services for regulated organizations across 70 countries. Learn how DXC built DCX OASIS, its Human+AI operating model, on a governed multi-model substrate in Amazon Bedrock, separating a resilient model substrate from a trusted harness that orchestrates, governs, and audits AI agents at scale.",
+      "categories": [
+        "Amazon Bedrock",
+        "Customer Solutions",
+        "Intermediate (200)"
+      ],
+      "image": null
+    },
+    "w4": {
+      "title": "Accelerating generative AI delivery with reusable assets",
+      "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-11T19:19:21+00:00",
+      "summary": "Every generative AI team keeps rebuilding the same components: RAG pipelines, document processors, and agent scaffolding. This post shows how to access a curated catalog of 23 production-ready, open source reusable assets from the AWS Generative AI Innovation Center, with real delivery results from DoorDash, Lyft, and Ricoh.",
+      "categories": [
+        "Amazon Bedrock",
+        "Generative AI",
+        "Intermediate (200)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w5": {
+      "title": "Accelerating product development with AI-driven lifecycle management (AI-PDLC) in AWS Quick",
+      "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-product-development-with-ai-driven-lifecycle-management-ai-pdlc-in-aws-quick/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-11T16:05:33+00:00",
+      "summary": "Learn how to build an AI-driven product development lifecycle (AI-PDLC) with a suite of six AWS Quick agents that take you from scattered customer signals to a validated prototype across Discover, Decide, Design, and Prototype, with human approval at every gate and a specification ready to hand to coding agents like Kiro.",
+      "categories": [
+        "Advanced (300)",
+        "AWS Quick",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w6": {
+      "title": "Salesforce Releases R&D Agents That Improve Its AI Models",
+      "link": "https://www.salesforce.com/news/stories/agents-that-improve-ai-models/",
+      "source": "Salesforce News",
+      "published": "2026-11-11T16:00:00+00:00",
+      "summary": "SFR-AutoR&D, a new self-improving system from Salesforce, trains and improves the embedding models in deployment-grade enterprise AI.",
+      "categories": [
+        "Uncategorized"
+      ],
+      "image": null
+    },
+    "w7": {
+      "title": "UAEF: A framework-agnostic system for closed-loop evaluation of AI agents",
+      "link": "https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-11T15:50:55+00:00",
+      "summary": "The Universal Agent Evaluation Framework (UAEF) is a framework-agnostic system for evaluating AI agents. UAEF converts each framework's traces into one canonical format, scores them with 36 built-in metrics across 7 dimensions, and stores results so teams can compare agent versions and catch regressions.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w8": {
+      "title": "Introducing usage-based pricing for Amazon SageMaker AI bidirectional streaming",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-11T15:10:23+00:00",
+      "summary": "AWS Marketplace now supports usage-based metering for Amazon SageMaker bidirectional streaming inference, so model providers can charge for what customers actually consume during a live stream. Deepgram is the launch partner, bringing usage-based speech-to-text and text-to-speech billing to AWS Marketplace.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon SageMaker AI",
+        "Customer Solutions"
+      ],
+      "image": null
+    },
+    "w9": {
+      "title": "Taking AI-based transformations to the next level with prompt markup languages",
+      "link": "https://www.cio.com/article/4246977/taking-ai-based-transformations-to-the-next-level-with-prompt-markup-languages.html",
+      "source": "CIO.com",
+      "published": "2026-11-11T10:00:00+00:00",
+      "summary": "For engineers, one of generative AI\u2019s chief selling points is its ability to write code using natural language. It may seem surprising, then, to learn that getting the most out of generative AI increasingly requires them to write code. Specifically, engineers can benefit from what\u2019s known as prompt markup languages , which provide the ability to control AI model behavior with greater precision, a key advantage for teams tasked with leveraging AI in contexts where reliability, accuracy and qualit",
+      "categories": [
+        "Artificial Intelligence, Development Approaches, Development Tools, Generative AI, Software Development"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4246977-0-77263800-1794391531-shutterstock_2486343345.jpg?quality=50&strip=all"
+    },
+    "w10": {
+      "title": "As employees build AI agents, CIOs manage the lifecycle",
+      "link": "https://www.cio.com/article/4246026/as-employees-build-ai-agents-cios-manage-the-lifecycle.html",
+      "source": "CIO.com",
+      "published": "2026-11-11T10:00:00+00:00",
+      "summary": "At Fujifilm Biotechnologies, an AI agent designed to help the legal department read contracts is gearing up to graduate from sandbox to full production in early December. Contracts are a large part of the business at the CDMO, which partners with pharmaceutical and biotech companies to develop vaccines and therapies. The company\u2019s legal team devised an agent to review contracts, check standards around terms and conditions, and propose edits for the legal team\u2019s review. \u201cThat\u2019s a perfect use for ",
+      "categories": [
+        "Artificial Intelligence, Business IT Alignment, C-Suite, Careers, CIO, Emerging Technology, IT Leadership, IT Management, IT Strategy"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4246026-0-72412200-1794391399-AI-workflow-tools-shutterstock_2696163945_5a3adf.jpg?quality=50&strip=all"
+    },
+    "w11": {
+      "title": "The AI prototype worked. Who promised the launch?",
+      "link": "https://www.cio.com/article/4246975/the-ai-prototype-worked-who-promised-the-launch.html",
+      "source": "CIO.com",
+      "published": "2026-11-11T09:00:00+00:00",
+      "summary": "\u201cSure, we can figure it out.\u201d Earlier in my career, I used those words to avoid an uncomfortable conversation. I meant I would assess the request and explore what was possible. The person asking could hear that I had accepted the work and would deliver what they wanted. I learned to be explicit, sometimes to the point of repeating myself. What felt redundant to me helped someone else understand what I was actually promising. Consider this scenario. Joe, a colleague in operations, builds an AI as",
+      "categories": [
+        "Artificial Intelligence, IT Leadership, IT Strategy"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4246975-0-86951300-1794387963-launch-button-keyboard.jpg?quality=50&strip=all"
+    },
+    "w12": {
+      "title": "Introducing Kimi K3.1 Pro on Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-11T01:07:19+00:00",
+      "summary": "Kimi K3.1 Pro from Moonshot AI is now available on Amazon Bedrock. Learn how to get started through the OpenAI-compatible Chat Completions, Responses, and Converse APIs, optimize inference with explicit prompt caching, and use the model as a coding assistant in OpenCode.",
+      "categories": [
+        "Amazon Bedrock",
+        "Announcements",
+        "Foundational (100)"
+      ],
+      "image": null
+    },
+    "w13": {
+      "title": "Build a daily dependency watcher with LangGraph and Amazon Bedrock AgentCore web search",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-10T23:34:05+00:00",
+      "summary": "The Web Search API in Amazon Bedrock AgentCore gives agents current, cited web results signed with the AWS credentials they already use. In this post, build a daily dependency watcher as a LangGraph graph that researches package ecosystems in parallel, keeps its rules in code, and checks every finding against its cited sources.",
+      "categories": [
+        "Amazon Bedrock AgentCore",
+        "Intermediate (200)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w14": {
+      "title": "The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations",
+      "link": "https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-10T22:35:03+00:00",
+      "summary": "When you deploy an agent, whether it is working is really several questions: did it finish the task, stay on topic, leak data, or skip steps? This post shows how to evaluate agents on Amazon Bedrock AgentCore with built-in, DeepEval, and AutoEval evaluators, and how to match each behavior that matters to the right evaluator at the right level.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock AgentCore",
+        "Announcements"
+      ],
+      "image": null
+    },
+    "w15": {
+      "title": "Autonomous treasury agents: How Trovata built an AI-native solution on Amazon Bedrock and AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-10T18:11:08+00:00",
+      "summary": "Learn how Trovata built autonomous treasury agents on Amazon Bedrock and Amazon Bedrock AgentCore, using an RBAC-secured architecture for bank-branded AI deployment and agentic workflows that move corporate treasury from manual operations to real-time decision-making at enterprise scale.",
+      "categories": [
+        "Amazon Bedrock",
+        "Amazon Bedrock AgentCore",
+        "Customer Solutions",
+        "Intermediate (200)"
+      ],
+      "image": null
+    },
+    "u1": {
+      "title": "Adobe\u2019s AI experiments let you walk around in photos and interview your characters",
+      "link": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+      "source": "The Verge",
+      "published": "2026-11-11T14:00:00+00:00",
+      "summary": "Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing, and the latest of those tools are being announced today: they can transform images into explorable 3D scenes, design AI characters by talking to them, and turn photo editing into a copy/paste process. [\u2026]",
+      "categories": [
+        "Adobe",
+        "AI",
+        "Creators",
+        "News",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Adobe-Project-Screen-Test.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    "u2": {
+      "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+      "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+      "source": "Ars Technica",
+      "published": "2026-11-10T22:35:01+00:00",
+      "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+      "categories": [
+        "AI",
+        "Tech",
+        "AI drones",
+        "Amazon",
+        "amazon drones",
+        "drones",
+        "physical AI",
+        "ring",
+        "ring doorbell camera",
+        "Robotics",
+        "robots"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ring-Drone-1152x648.jpeg",
+      "date_mentioned": null
+    },
+    "u3": {
+      "title": "ChatGPT is getting verified AI \u2018Business Agents\u2019",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+      "source": "The Verge",
+      "published": "2026-11-10T18:00:00+00:00",
+      "summary": "ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to help you with things like comparison shopping. The feature, available first to \"eligible\" e-commerce and online service businesses in the US, is launching as part of a suite of business-focused features in ChatGPT being announced today in beta. You [\u2026]",
+      "categories": [
+        "AI",
+        "News",
+        "OpenAI"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Business-Agent-Customer-Conversation.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    "d1": {
+      "title": "Anthropic built a model that beats Opus. It recommends Opus anyway.",
+      "link": "https://thenewstack.io/anthropic-fable-opus-cost/",
+      "source": "The New Stack",
+      "published": "2026-11-11T19:15:21+00:00",
+      "summary": "Anthropic just released a coding model that beats Opus 5.5 on two major benchmarks and can complete certain difficult tasks",
+      "categories": [
+        "AI Agents",
+        "AI Models",
+        "FinOps"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/9c59d8b3-imhaf-maulana-4r2mctrudkm-unsplash-1024x745.jpg"
+    },
+    "d2": {
+      "title": "Why Nvidia gave OpenShell to the CNCF",
+      "link": "https://thenewstack.io/nvidia-donates-openshell-cncf/",
+      "source": "The New Stack",
+      "published": "2026-11-11T19:13:54+00:00",
+      "summary": "Nvidia this week donated OpenShell, its open-source runtime for securing and governing AI agents, to the Cloud Native Computing Foundation.",
+      "categories": [
+        "AI Agents",
+        "Cloud Native Ecosystem",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/07/45a2a83b-img_0484-1024x768.jpg"
+    },
+    "d3": {
+      "title": "Anthropic\u2019s Claude Fable 5.2 built a shooter in 1 prompt \u2014 and it only took 8 hours and $550",
+      "link": "https://thenewstack.io/claude-fable-game-demos/",
+      "source": "The New Stack",
+      "published": "2026-11-11T17:52:06+00:00",
+      "summary": "An Anthropic engineer gave Claude Fable 5.2 one prompt to build a first-person shooter and let it run for eight",
+      "categories": [
+        "AI Agents",
+        "AI Models",
+        "Vibe Coding"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/0fa0b84a-risky-ming-6qywiwfpzmu-unsplash-1024x698.jpg"
+    },
+    "d4": {
+      "title": "AWS had its agents build a free and open emulator for AWS. They now maintain it, too.",
+      "link": "https://thenewstack.io/aws-emulator-ai-agents/",
+      "source": "The New Stack",
+      "published": "2026-11-11T17:30:00+00:00",
+      "summary": "AWS on Wednesday launched an emulator for AWS called AWS Emulator. That, by itself, is interesting and may raise some",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "AI Strategy",
+        "Open Source"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/ad6fe451-img_5814-1024x768.jpg"
+    },
+    "d5": {
+      "title": "Developers have been hacking around MCP\u2019s file-upload problem for two years. A fix is taking shape.",
+      "link": "https://thenewstack.io/mcp-file-upload-extension/",
+      "source": "The New Stack",
+      "published": "2026-11-11T17:11:55+00:00",
+      "summary": "The Model Context Protocol (MCP) has played an instrumental part in connecting AI assistants to external tools and data since",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Model Context Protocol",
+        "Model Context Protocol (MCP)",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/b857591d-alex-shuper-ehko-zsjnoi-unsplash-1024x576.jpg"
+    },
+    "d6": {
+      "title": "Anthropic wants Claude to be the front end for your entire enterprise app stack",
+      "link": "https://thenewstack.io/claude-enterprise-apps-connectors/",
+      "source": "The New Stack",
+      "published": "2026-11-10T20:00:58+00:00",
+      "summary": "Anthropic is expanding Claude\u2019s ability to work directly inside enterprise applications; it can now open full software interfaces, retrieve information,",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Model Context Protocol (MCP)"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/03/21bf8ca8-screenshot-2026-03-27-at-12.21.10-1024x670.png"
+    },
+    "d7": {
+      "title": "Google says Gemini 4 Carbon proved Signal\u2019s encryption in weeks",
+      "link": "https://thenewstack.io/gemini-4-carbon-swarm/",
+      "source": "The New Stack",
+      "published": "2026-11-10T16:17:22+00:00",
+      "summary": "Google released Gemini 4 Carbon to paying developers Tuesday, positioning its newest frontier model above Gemini 4 Argon for complex",
+      "categories": [
+        "AI Agents",
+        "AI Engineering",
+        "AI Models"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/94b532e0-getty-images-ngci-nquuq-unsplash-1024x677.jpg"
+    },
+    "d8": {
+      "title": "Grok API text watermarking was meant to be on by default from Nov. 7. Now, it\u2019s opt-in.",
+      "link": "https://thenewstack.io/grok-api-watermarking-default/",
+      "source": "The New Stack",
+      "published": "2026-11-10T15:58:44+00:00",
+      "summary": "The thorny issue of watermarking AI-generated text took an interesting turn this past week, with SpaceXSI seemingly U-turning on plans",
+      "categories": [
+        "AI",
+        "AI Engineering",
+        "AI Models",
+        "Compliance"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/082ecce8-allison-saeng-skfgtjrao0o-unsplash-1024x576.jpg"
+    },
+    "d9": {
+      "title": "A $60 billion fintech hired a 14-year-old. Its CEO explains why.",
+      "link": "https://thenewstack.io/ramp-hires-teen-intern/",
+      "source": "The New Stack",
+      "published": "2026-11-09T23:18:34+00:00",
+      "summary": "Ramp hired a 14-year-old intern after discovering an app he had built for fun that attracted attention from roughly a",
+      "categories": [
+        "AI Engineering",
+        "Tech Careers",
+        "Tech Culture"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/9af45641-jesus-alejandro-paramo-alvarado-ycgi7ajxlzu-unsplash-1024x584.jpg"
+    },
+    "d10": {
+      "title": "Anthropic launches Fable 5.2 with a price cut and stronger coding scores",
+      "link": "https://thenewstack.io/anthropic-fable-coding-upgrade/",
+      "source": "The New Stack",
+      "published": "2026-11-09T19:08:20+00:00",
+      "summary": "On Monday, Anthropic launched Claude Fable 5.2 and Mythos 5.2, the latest versions of its duo of flagship models. Like before,",
+      "categories": [
+        "AI"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/75d15cd2-claude-fable-5.2-image-1024x492.jpg"
+    },
+    "d11": {
+      "title": "Google claims its new AI software cuts inference latency by over 90% \u2014 but there\u2019s a catch",
+      "link": "https://thenewstack.io/google-tpu-sync-inference/",
+      "source": "The New Stack",
+      "published": "2026-11-09T18:40:01+00:00",
+      "summary": "Google\u2019s eighth-generation TPU announcement on Monday included more than new chips, introducing TPU Sync, an open-source system designed to speed",
+      "categories": [
+        "AI",
+        "AI Infrastructure",
+        "Hardware",
+        "Open Source"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/d5205145-winston-chen-ize21dzhnug-unsplash-1024x683.jpg"
+    },
+    "d12": {
+      "title": "Cursor and Google join OpenAI in giving coding agents a voice. Claude Code stays silent.",
+      "link": "https://thenewstack.io/cursor-antigravity-voice-agents/",
+      "source": "The New Stack",
+      "published": "2026-11-09T18:22:41+00:00",
+      "summary": "Two of the biggest players in the AI coding space are betting that developers want to talk to their agents",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "AI Engineering",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/b6289d67-ruliff-andrean-d42u7dk0m9w-unsplash-1024x576.jpg"
+    },
+    "l1": {
+      "title": "Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave",
+      "link": "https://lastweekin.ai/p/last-week-month-in-ai-347-nvidias",
+      "source": "Last Week in AI",
+      "published": "2026-11-11T14:21:42+00:00",
+      "summary": "Catching up on five weeks: Huang under investigation, Anthropic and OpenAI priced at $1.4T and $1.25T as spending stalls, Anthropic warns it may be nearing recursive self-improvement, Gemini 4 Carbon",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!N5MW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ea61f46-93d0-4d43-a74b-5751a649daba_1720x980.png"
+    },
+    "l2": {
+      "title": "Fable 5.2: Too Good",
+      "link": "https://www.thealgorithmicbridge.com/p/claude-fable-52-too-good",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-11T00:05:45+00:00",
+      "summary": "Reality is the only benchmark",
+      "categories": [],
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/e57670d6-8db0-46c4-86da-26eb45d071f3_1920x1080.png"
+    },
+    "l3": {
+      "title": "The missing quadrant in responses to AI",
+      "link": "https://www.normaltech.ai/p/the-missing-quadrant-in-responses",
+      "source": "AI as Normal Technology",
+      "published": "2026-11-10T18:37:42+00:00",
+      "summary": "Announcing STABL: Societal Transformation and AI Bottlenecks Lab",
+      "categories": [],
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/2095f300-0a39-4e16-a60f-6c8a94728bf9_1666x932.jpeg"
+    },
+    "l4": {
+      "title": "How I got seduced",
+      "link": "https://www.bensbites.com/p/how-i-got-seduced",
+      "source": "Ben's Bites",
+      "published": "2026-11-10T15:35:49+00:00",
+      "summary": "It took them 5 years",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!gYZ5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb343d48c-52e2-4566-a3e0-76fcc458bd90_1100x1120.gif"
+    },
+    "l5": {
+      "title": "Software correctness & supply chain security, with Sean Allen",
+      "link": "https://newsletter.pragmaticengineer.com/p/software-correctness",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-11-10T15:00:21+00:00",
+      "summary": "A deep conversation on the biggest challenges of developing with AI \u2013 while trying not to mention the phrase \u201cAI\u201d once. Why? To dig up the fundamentals that are as important as ever",
+      "categories": [],
+      "image": "https://substackcdn.com/image/youtube/w_728,c_limit/OrXKvOjR-vI"
+    },
+    "l6": {
+      "title": "Fable 5.2 and Jagged AGI",
+      "link": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+      "source": "One Useful Thing",
+      "published": "2026-11-09T19:04:26+00:00",
+      "summary": "General, often expert, and sometimes jagged",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!-MYM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4498fb7e-ff69-4b09-903a-f22ff7147e4b_2912x1632.png"
+    },
+    "l7": {
+      "title": "Scaling Slack and GitHub with Maude Lemaire",
+      "link": "https://newsletter.pragmaticengineer.com/p/scaling-slack-and-github-with-maude",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-11-05T15:58:00+00:00",
+      "summary": "Maude Lemaire shares lessons from scaling Slack and GitHub, improving performance at Cursor, and using AI while keeping engineering judgment in human hands.",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!AlJu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e3d3c6f-6a37-411e-aa1a-dfcefc979af3_1600x140.png"
+    },
+    "l8": {
+      "title": "Craft and taste",
+      "link": "https://www.bensbites.com/p/craft-and-taste",
+      "source": "Ben's Bites",
+      "published": "2026-11-05T14:02:12+00:00",
+      "summary": "What does old me think",
+      "categories": [],
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/bdbb418f-79c1-4ef4-82f1-64727ad91c8c_1616x978.png"
+    }
+  },
+  "llm_draft": {
+    "glance": [
+      {
+        "id": "n10",
+        "summary": "OpenAI reportedly passed $10 billion in quarterly revenue, up almost 50% from the second quarter."
+      },
+      {
+        "id": "n7",
+        "summary": "TSMC plans to invest $1 billion in Anthropic and OpenAI amid wobbles in AI trade."
+      },
+      {
+        "id": "n13",
+        "summary": "Google DeepMind unveiled AlphaGenome 2, an AI model that maps how DNA changes affect cells."
+      },
+      {
+        "id": "n2",
+        "summary": "Meta infrastructure head Santosh Janardhan is stepping down from his role at the company."
+      }
+    ],
+    "big_pour": [
+      {
+        "id": "n13",
+        "headline": "Google DeepMind unveils AlphaGenome 2 for cell research",
+        "teaser": "AI maps cellular DNA effects",
+        "summary": "Google DeepMind unveiled AlphaGenome 2, an AI model that shows how DNA changes affect different cells. This detailed view could help scientists find disease causes and new treatments.",
+        "why": "It could help scientists better understand disease causes and discover new treatments.",
+        "explain": {
+          "kid": "Google DeepMind built a new AI tool named AlphaGenome 2 that helps scientists see how tiny changes in DNA affect different cells in our bodies.",
+          "pm": "Google DeepMind launched AlphaGenome 2, an AI model designed to analyze how DNA variations impact cellular function, helping researchers identify disease causes and discover new treatments.",
+          "engineer": "Google DeepMind introduced AlphaGenome 2, a specialized AI model that maps how genomic DNA changes affect cellular biology, helping scientists analyze complex cellular patterns and design disease treatments."
+        }
+      },
+      {
+        "id": "n10",
+        "headline": "OpenAI quarterly revenue reportedly passes $10 billion",
+        "teaser": "Revenue jumps nearly 50 percent",
+        "summary": "OpenAI's quarterly revenue reportedly crossed $10 billion for the first time. This represents an almost 50% jump from the $6.7 billion recorded in the second quarter."
+      },
+      {
+        "id": "n7",
+        "headline": "TSMC to invest $1 billion in Anthropic and OpenAI",
+        "teaser": "TSMC invests in AI firms",
+        "summary": "Taiwan's chipmaking giant TSMC plans to invest $1 billion in Anthropic and OpenAI. The investment arrives as the AI trade experiences wobbles."
+      }
+    ],
+    "office_blend": [
+      {
+        "id": "w10",
+        "headline": "Fujifilm Biotechnologies prepares legal AI agent for production",
+        "teaser": "Legal agent reviews contract terms",
+        "summary": "An AI agent designed by the legal team at Fujifilm Biotechnologies is preparing to move from a sandbox to full production. The agent reviews contracts, checks standards, and proposes edits."
+      },
+      {
+        "id": "w15",
+        "headline": "Trovata builds autonomous treasury agents on Amazon Bedrock",
+        "teaser": "AI agents handle corporate treasury",
+        "summary": "Trovata built autonomous corporate treasury agents using Amazon Bedrock and AgentCore. The architecture helps move corporate treasury operations from manual work to real-time decision-making."
+      }
+    ],
+    "still_roasting": [
+      {
+        "id": "u2",
+        "summary": "Amazon's roaming Ring Robotics security devices will debut in late 2026 and early 2027."
+      },
+      {
+        "id": "u3",
+        "summary": "ChatGPT is launching verified Business Agents in beta to help US users chat with brands for comparison shopping."
+      }
+    ],
+    "quick_sips": [
+      {
+        "id": "n2",
+        "summary": "Meta infrastructure head Santosh Janardhan is stepping down after joining the company in 2009."
+      },
+      {
+        "id": "n4",
+        "summary": "CoreWeave is asking customers for upfront prepayments and shorter contracts to fund its AI growth."
+      },
+      {
+        "id": "n11",
+        "summary": "Google is experimenting with Tabletop, an AI tool that generates customized collaboration apps from user descriptions."
+      }
+    ],
+    "builder": {
+      "stories": [
+        {
+          "id": "d2",
+          "label": "Open standard",
+          "headline": "Nvidia donates OpenShell runtime to the CNCF",
+          "summary": "Nvidia donated OpenShell to the Cloud Native Computing Foundation. OpenShell is an open-source runtime built for securing and governing AI agents."
+        },
+        {
+          "id": "d11",
+          "label": "New tool",
+          "headline": "Google introduces TPU Sync to reduce inference latency",
+          "summary": "Google introduced TPU Sync alongside its eighth-generation TPUs. The open-source system is designed to speed up inference latency by over 90 percent."
+        }
+      ],
+      "concept": {
+        "id": "d2",
+        "term": "OpenShell",
+        "explanation": "OpenShell is an open-source runtime created by Nvidia for securing and governing AI agents. Nvidia donated the technology to the Cloud Native Computing Foundation."
+      }
+    },
+    "long_read": {
+      "id": "l5",
+      "headline": "Software correctness & supply chain security",
+      "summary": "The newsletter highlights a discussion on software development challenges with AI, focusing on the fundamental practices of correctness and supply chain security."
+    }
+  },
+  "first_check": {
+    "d11": [
+      "name 'TPUs' is not in the source"
+    ]
+  },
+  "dropped": [],
+  "explain_dropped": []
+}
