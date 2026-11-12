@@ -1,0 +1,967 @@
+{
+  "generated_at": "2026-11-12T13:34:14.176749-06:00",
+  "warnings": [
+    "Word of the Day 'Distillation' is not marked reviewed in learning_path.yaml"
+  ],
+  "failed_feeds": [
+    "Import AI: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+  ],
+  "sources": {
+    "n1": {
+      "title": "Google\u2019s latest Search upgrade promises better answers to your most complicated questions",
+      "link": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "source": "TechCrunch",
+      "published": "2026-11-12T19:27:45+00:00",
+      "summary": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
+      "categories": [
+        "AI",
+        "TC",
+        "gemini",
+        "Google",
+        "Google Search"
+      ],
+      "image": null
+    },
+    "n2": {
+      "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+      "link": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+      "source": "Ars Technica",
+      "published": "2026-11-12T19:23:03+00:00",
+      "summary": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
+      "categories": [
+        "AI",
+        "Google",
+        "Artificial Intelligence",
+        "gemini 4",
+        "google"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-1152x648.jpg"
+    },
+    "n3": {
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "link": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "source": "TechCrunch",
+      "published": "2026-11-12T19:11:00+00:00",
+      "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+      "categories": [
+        "Startups",
+        "AI",
+        "Marketing",
+        "AI agents",
+        "nectar social"
+      ],
+      "image": null
+    },
+    "n4": {
+      "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+      "link": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+      "source": "Ars Technica",
+      "published": "2026-11-12T18:57:45+00:00",
+      "summary": "Families confront Google after teen\u2019s lawsuit labels Gemini a \u201csuicide coach.\u201d",
+      "categories": [
+        "AI",
+        "Google",
+        "Policy",
+        "AI in education",
+        "AI psychosis",
+        "Artificial Intelligence",
+        "gemini",
+        "google",
+        "google workspace"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Win-win-1152x648.jpeg"
+    },
+    "n5": {
+      "title": "Jensen Huang\u2019s exit puts Nvidia\u2019s support for open source in question",
+      "link": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "source": "TechCrunch",
+      "published": "2026-11-12T18:39:23+00:00",
+      "summary": "Jensen Huang\u2019s resignation raises questions about Nvidia\u2019s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+      "categories": [
+        "AI",
+        "Jensen Huang",
+        "nvidia",
+        "Open AI",
+        "open source"
+      ],
+      "image": null
+    },
+    "n6": {
+      "title": "Oh, Palantir is \u2018progressive\u2019 now, is it?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
+      "source": "The Verge",
+      "published": "2026-11-12T18:06:54+00:00",
+      "summary": "I had other things to do today, but Alex Karp's pathetic attempt to pivot back to the left gave me no choice but to put them on hold. Last week's elections were a bloodbath for the right, a problem for all the wannabe fash founders who had tied their political fortunes to a \"vibe shift\" [\u2026]",
+      "categories": [
+        "AI",
+        "Policy",
+        "Politics",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/8407711/479950372.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n7": {
+      "title": "The Jensen Huang scandal is hardly over",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+      "source": "The Verge",
+      "published": "2026-11-12T17:44:33+00:00",
+      "summary": "I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletproof. After all, why wouldn't he be? He's placed himself indispensably at the center of the AI industry and famously had no succession plan at Nvidia. In fact, he's the only CEO Nvidia has ever had. L'\u00e9tat c'est moi. Then [\u2026]",
+      "categories": [
+        "AI",
+        "Analysis",
+        "Nvidia",
+        "Policy",
+        "Politics",
+        "Report",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_03.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n8": {
+      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "source": "TechCrunch",
+      "published": "2026-11-12T17:17:58+00:00",
+      "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+      "categories": [
+        "AI",
+        "Security",
+        "Transportation",
+        "AI assistants",
+        "Airlines",
+        "cybersecurity",
+        "In Brief",
+        "United Airlines"
+      ],
+      "image": null
+    },
+    "n9": {
+      "title": "SoftBank\u2019s billion-dollar loss may have put a cap on AI\u2019s natural gas ambitions",
+      "link": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+      "source": "TechCrunch",
+      "published": "2026-11-12T17:00:52+00:00",
+      "summary": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+      "categories": [
+        "AI",
+        "Climate",
+        "Analysis",
+        "natural gas",
+        "Softbank"
+      ],
+      "image": null
+    },
+    "n10": {
+      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+      "link": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+      "source": "TechCrunch",
+      "published": "2026-11-12T17:00:00+00:00",
+      "summary": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it\u2019s easier for anyone to turn everyday moments into better photos.",
+      "categories": [
+        "AI",
+        "Apps",
+        "Startups",
+        "ai apps",
+        "Photography"
+      ],
+      "image": null
+    },
+    "n11": {
+      "title": "AI chatbots are recommending fake retail websites, study finds",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "source": "The Verge",
+      "published": "2026-11-12T17:00:00+00:00",
+      "summary": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity with a handful of shopping-related questions involving a selection of [\u2026]",
+      "categories": [
+        "AI",
+        "Google",
+        "Online Shopping",
+        "OpenAI",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_E.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n12": {
+      "title": "More game developers are starting to use generative AI",
+      "link": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+      "source": "The Verge",
+      "published": "2026-11-12T17:00:00+00:00",
+      "summary": "More video game developers are using generative AI tools in their jobs compared to last year, according to the GDC Festival of Gaming's latest annual industry survey. Forty percent of developers surveyed say they use it \"as part of their job,\" an increase from 36 percent in 2025. Usage was higher with game developers that [\u2026]",
+      "categories": [
+        "AI",
+        "Entertainment",
+        "Gaming",
+        "News"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/55145037587_ac59503045_k.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n13": {
+      "title": "Jensen Huang agrees to testify before Congress",
+      "link": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+      "source": "TechCrunch",
+      "published": "2026-11-12T16:36:37+00:00",
+      "summary": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "In Brief",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "image": null
+    },
+    "n14": {
+      "title": "Five ways Jensen Huang\u2019s ouster from Nvidia could damage the AI industry",
+      "link": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+      "source": "TechCrunch",
+      "published": "2026-11-12T16:32:33+00:00",
+      "summary": "Nvidia's ousted CEO Jensen Huang's downfall isn\u2019t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
+      "categories": [
+        "AI",
+        "ai industry",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "image": null
+    },
+    "n15": {
+      "title": "Jensen Huang is out. What did China want from him?",
+      "link": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+      "source": "The Verge",
+      "published": "2026-11-12T16:30:00+00:00",
+      "summary": "Today, we\u2019re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his position as CEO of Nvidia as news of his affairs, including with an alleged Chinese spy, threatened to engulf [\u2026]",
+      "categories": [
+        "AI",
+        "Decoder",
+        "Nvidia",
+        "Podcasts",
+        "Policy",
+        "Politics",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD_1112_Site.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n16": {
+      "title": "Trump floats Apple chairman Tim Cook as Jensen Huang\u2019s successor",
+      "link": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+      "source": "TechCrunch",
+      "published": "2026-11-12T16:12:44+00:00",
+      "summary": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
+      "categories": [
+        "AI",
+        "Apple",
+        "In Brief",
+        "Jensen Huang",
+        "nvidia",
+        "Tim Cook",
+        "Trump"
+      ],
+      "image": null
+    },
+    "n17": {
+      "title": "Read Nvidia\u2019s internal emails about the \u2018extraordinarily difficult period\u2019 amid CEO shakeup",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
+      "source": "The Verge",
+      "published": "2026-11-12T15:48:12+00:00",
+      "summary": "Jensen Huang resigned as CEO of Nvidia this morning, a company he co-founded in 1993. The decision came following the company's board opening an investigation into multiple extramarital affairs Huang had with a direct report and an alleged Chinese spy. The new, and first, Chair of the Board, Harvey Jones, shared news of Huang's resignation [\u2026]",
+      "categories": [
+        "AI",
+        "News",
+        "Nvidia",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25343254/STK083_B_NVIDIA_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n18": {
+      "title": "Jensen Huang is out at Nvidia \u2014 who is Colette Kress, his interim replacement?",
+      "link": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+      "source": "TechCrunch",
+      "published": "2026-11-12T15:37:29+00:00",
+      "summary": "Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in scandal.",
+      "categories": [
+        "AI",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "image": null
+    },
+    "n19": {
+      "title": "Norwest pushes deeper into AI with new $4B fund",
+      "link": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
+      "source": "TechCrunch",
+      "published": "2026-11-12T15:18:14+00:00",
+      "summary": "This is the investment firm's largest fund to date.",
+      "categories": [
+        "AI",
+        "Fundraising",
+        "Venture",
+        "Norwest"
+      ],
+      "image": null
+    },
+    "n20": {
+      "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers\u2019 chat transcripts",
+      "link": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+      "source": "TechCrunch",
+      "published": "2026-11-12T15:02:28+00:00",
+      "summary": "This is Fireworks' second data breach in as many months.",
+      "categories": [
+        "AI",
+        "Security",
+        "cybersecurity",
+        "fireworks"
+      ],
+      "image": null
+    },
+    "n21": {
+      "title": "Nvidia CEO Jensen Huang has resigned. What happens next?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "source": "The Verge",
+      "published": "2026-11-12T15:01:31+00:00",
+      "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, The New York Times reported on Wednesday that there was evidence of another affair, this time with an Nvidia executive who reported directly to him. A board meeting that [\u2026]",
+      "categories": [
+        "AI",
+        "Business",
+        "News",
+        "Nvidia",
+        "Policy",
+        "Politics",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n22": {
+      "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+      "link": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+      "source": "Ars Technica",
+      "published": "2026-11-12T14:50:17+00:00",
+      "summary": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
+      "categories": [
+        "AI",
+        "Google",
+        "android xr",
+        "Artificial Intelligence",
+        "gemini",
+        "google",
+        "Smartglasses",
+        "wearables"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/WP_ALDEN-Carousel_Lifestyle-copy-1152x648.jpg"
+    },
+    "n23": {
+      "title": "I reviewed the Apple HomeView, ask me anything",
+      "link": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
+      "source": "The Verge",
+      "published": "2026-11-12T14:10:00+00:00",
+      "summary": "Hi! I'm Jen Tuohy, The Verge's senior smart home reviewer. I've tested every smart display Amazon and Google have ever made, and for the past week I've been testing Apple's first: The $299 HomeView. I put the tabletop and wall-mounted versions through their paces, on my kitchen counter, bedside table, in my office, and on [\u2026]",
+      "categories": [
+        "AI",
+        "Apple",
+        "Gadgets",
+        "Reviews",
+        "Smart Home Reviews",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268864_Smart_home_photos_HMCRAE102.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n24": {
+      "title": "Nine Korean startups vie for a spot in Disrupt 2027\u2019s Startup Battlefield 200 competition",
+      "link": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
+      "source": "TechCrunch",
+      "published": "2026-11-12T13:26:25+00:00",
+      "summary": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the U.S.",
+      "categories": [
+        "AI",
+        "Startups",
+        "south korea",
+        "South Korea startup",
+        "Startup Battlefield 200",
+        "TechCrunch Disrupt"
+      ],
+      "image": null
+    },
+    "n25": {
+      "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+      "link": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+      "source": "TechCrunch",
+      "published": "2026-11-12T03:13:10+00:00",
+      "summary": "Nvidia has no succession plan and a CEO in hot water, so we\u2019ve drafted a shortlist.",
+      "categories": [
+        "AI",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "image": null
+    },
+    "w1": {
+      "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
+      "link": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-12T19:29:55+00:00",
+      "summary": "Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when a threshold is crossed.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock",
+        "AWS Budgets",
+        "Customer Solutions"
+      ],
+      "image": null
+    },
+    "w2": {
+      "title": "Optimizing cost per task and proving agent ROI on Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-per-task-and-proving-agent-roi-on-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-12T18:43:19+00:00",
+      "summary": "Comparing per-token prices hides the real cost of running a model on Amazon Bedrock. This post shows how to calculate the true cost per task across four hidden cost drivers, reduce it with caching, routing, and output constraints, and prove agent ROI with human baselines, holdout experiments, and a five-dimension scorecard.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w3": {
+      "title": "Building a self-service LLM gateway with Amazon Bedrock and LiteLLM",
+      "link": "https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-12T18:41:12+00:00",
+      "summary": "Build a self-service LLM gateway with LiteLLM on AWS Fargate that puts Amazon Bedrock foundation models behind an OpenAI-compatible API. Developers get instant access through a single API key, while platform teams gain per-user cost controls, quota isolation, and observability.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w4": {
+      "title": "New Data: Holiday Shoppers Will Rely on Agents. Retailers Must Be Ready.",
+      "link": "https://www.salesforce.com/news/stories/ai-first-holiday/",
+      "source": "Salesforce News",
+      "published": "2026-11-12T18:00:00+00:00",
+      "summary": "A Salesforce survey shows that holiday shoppers are using AI agents for research and advice \u2014 almost 20% of shoppers now say that AI is their first stop on the way to the store \u2014 but most aren\u2019t ready to let AI click Buy Now.",
+      "categories": [
+        "Uncategorized"
+      ],
+      "image": "https://www.salesforce.com/news/wp-content/uploads/sites/3/2026/11/image_b49a8d.jpeg?w=1024"
+    },
+    "w5": {
+      "title": "Run agents securely and efficiently with the next generation AgentCore runtime",
+      "link": "https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-12T17:59:59+00:00",
+      "summary": "AI agents now run multi-step workloads for hours and act on behalf of users, raising the bar for secure, scalable agent compute. Learn how the next generation of Amazon Bedrock AgentCore runtime delivers hardware-isolated sessions with faster starts, more compute, usage-based billing, and isolation that now extends to your data.",
+      "categories": [
+        "Amazon Bedrock AgentCore",
+        "Announcements",
+        "Foundational (100)"
+      ],
+      "image": null
+    },
+    "w6": {
+      "title": "Migrate to Amazon Bedrock Managed Knowledge Base with your coding agent",
+      "link": "https://aws.amazon.com/blogs/machine-learning/migrate-to-amazon-bedrock-managed-knowledge-base-with-your-coding-agent/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-12T16:16:45+00:00",
+      "summary": "The migration guide in the amazon-bedrock skill helps you migrate a customer-managed Amazon Bedrock knowledge base to a Managed Knowledge Base. Your coding agent plans the move with read-only discovery, creates the new knowledge base or an infrastructure-as-code template alongside the original, and validates retrieval before you cut over.",
+      "categories": [
+        "Amazon Bedrock",
+        "Amazon Bedrock Knowledge Bases",
+        "Intermediate (200)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w7": {
+      "title": "For AI Advice to Be Any Good, It Has to Actually Change the Outcome",
+      "link": "https://www.salesforce.com/news/stories/visual-ai-assistants-ivg-lessons/",
+      "source": "Salesforce News",
+      "published": "2026-11-12T16:00:00+00:00",
+      "summary": "Real-time AI video assistants need a new kind of test. Here\u2019s how we built the necessary proving ground.",
+      "categories": [
+        "Uncategorized"
+      ],
+      "image": "https://play.vidyard.com/Ztu6HDz8b7WwNNcpuqLJXz.jpg"
+    },
+    "w8": {
+      "title": "Build composable, interoperable multi-agent systems with A2A on AWS",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-12T15:42:21+00:00",
+      "summary": "Build a composable, interoperable multi-agent system on AWS with the Agent-to-Agent (A2A) protocol. A LangChain orchestrator on Amazon ECS communicates with a Strands agent on Amazon Bedrock AgentCore across organizational boundaries, using bidirectional, OAuth-authenticated calls, with neither side depending on the other's framework or SDK.",
+      "categories": [
+        "Advanced (300)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w9": {
+      "title": "From prototype to production: Engineering agents with Agent DLC",
+      "link": "https://aws.amazon.com/blogs/machine-learning/from-prototype-to-production-engineering-agents-with-agent-dlc/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-12T15:38:47+00:00",
+      "summary": "Agents stall between demo and release when teams lack a repeatable way to measure how good an agent is and whether the last change helped. This post covers three agent properties that break traditional CI/CD, a measured case where an aggregate metric hides a coverage gap, and Agent DLC: one lifecycle, two loops, and one explicit standard for judging every change.",
+      "categories": [
+        "Amazon Bedrock AgentCore",
+        "Best Practices",
+        "Intermediate (200)"
+      ],
+      "image": null
+    },
+    "w10": {
+      "title": "Inside X-VPN\u2019s 200%+ Speed Upgrade: 25 Gbps Servers, AI Routing and Talaria Protocol",
+      "link": "https://www.cio.com/article/4247894/inside-x-vpns-200-speed-upgrade-25-gbps-servers-ai-routing-and-talaria-protocol.html",
+      "source": "CIO.com",
+      "published": "2026-11-12T13:37:56+00:00",
+      "summary": "Internal 10 Gbps tests showed over 200% aggregate improvement in download and upload speeds with Talaria. X-VPN has rolled out a speed upgrade spanning its network and new in-house Talaria protocol. In the company\u2019s internal 10 Gbps tests, Talaria delivered over 200% aggregate improvement in download and upload speeds compared with X-VPN\u2019s previous best-performing protocols. Alongside higher-bandwidth server infrastructure, X-VPN has improved route selection and how devices and servers process t",
+      "categories": [
+        "Artificial Intelligence, Network Security, Security, VPN"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4247894-0-25933700-1794490694-Talsaria.png"
+    },
+    "w11": {
+      "title": "CEOs have had enough of incremental AI",
+      "link": "https://www.cio.com/article/4245964/ceos-have-had-enough-of-incremental-ai.html",
+      "source": "CIO.com",
+      "published": "2026-11-12T10:01:00+00:00",
+      "summary": "Four years into the new AI era, and few business leaders appear happy with the results. At issue is growing impatience with IT leaders who have not moved their organizations beyond using AI for small tweaks to current business process. Seventy-seven percent of business decision-makers, including C-suite leaders, directors, and managers, believe their organizations are dedicating too much of their AI investments to incremental improvements, according to a survey commissioned by Microsoft-focused ",
+      "categories": [
+        "Artificial Intelligence, Digital Transformation, Innovation, IT Leadership, IT Strategy"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4245964-0-66158100-1794477830-crm-trends-agentic-ai-shutterstock_2816124497.jpg?quality=50&strip=all"
+    },
+    "w12": {
+      "title": "Jev and the era of model Tetris",
+      "link": "https://www.cio.com/article/4247450/jev-and-the-era-of-model-tetris.html",
+      "source": "CIO.com",
+      "published": "2026-11-12T09:00:00+00:00",
+      "summary": "This spring, in an interview after a keynote, I said we were all playing LLM Tetris now. The days of using the same LLM for every agent problem were over. Some decisions needed to come back in milliseconds, and some could take three minutes. Some needed generative output, and some needed logical decisions where an open-weight model might do. Fit the model to the use case. I still believe that. But I was only half right, because I was still picturing every piece as an LLM. Bigger or smaller, pric",
+      "categories": [
+        "Artificial Intelligence, IT Leadership, IT Strategy"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4247450-0-83495100-1794474146-patrick-kuo-e2jXOJdz5v8-unsplash.jpg?quality=50&strip=all"
+    },
+    "w13": {
+      "title": "Build autonomous AI agents with Amazon Bedrock and Spring AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-12T01:18:23+00:00",
+      "summary": "Learn how Java developers can build production-ready autonomous AI agents using Amazon Bedrock and Spring AI. This post walks through tool calling, conversation memory, resilience patterns, and multi-agent orchestration, then deploys the agent to AWS with Amazon Bedrock AgentCore.",
+      "categories": [
+        "Amazon Bedrock",
+        "Expert (400)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w14": {
+      "title": "OpenAI Codex on Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-11T23:35:47+00:00",
+      "summary": "A practical guide for enterprises rolling out OpenAI Codex to developers on AWS, with Amazon Bedrock as the model backend, covering the access, governance, and cost decisions that platform, security, and finance teams need to align on.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w15": {
+      "title": "Semantic diffing of formal policies with anti-unification",
+      "link": "https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-11T23:33:03+00:00",
+      "summary": "A textual diff of two formal policies flags every cosmetic change and hides the one that alters behavior. This post shows how to compute a symbolic, deterministic semantic diff with an open-source anti-unification engine, so reviewers see only the genuine disagreements between two candidate authorization policies.",
+      "categories": [
+        "Advanced (300)",
+        "Thought Leadership"
+      ],
+      "image": null
+    },
+    "u1": {
+      "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+      "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+      "source": "Ars Technica",
+      "published": "2026-11-10T22:35:01+00:00",
+      "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+      "categories": [
+        "AI",
+        "Tech",
+        "AI drones",
+        "Amazon",
+        "amazon drones",
+        "drones",
+        "physical AI",
+        "ring",
+        "ring doorbell camera",
+        "Robotics",
+        "robots"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ring-Drone-1152x648.jpeg",
+      "date_mentioned": null
+    },
+    "u2": {
+      "title": "Jev and the era of model Tetris",
+      "link": "https://www.cio.com/article/4247450/jev-and-the-era-of-model-tetris.html",
+      "source": "CIO.com",
+      "published": "2026-11-12T09:00:00+00:00",
+      "summary": "This spring, in an interview after a keynote, I said we were all playing LLM Tetris now. The days of using the same LLM for every agent problem were over. Some decisions needed to come back in milliseconds, and some could take three minutes. Some needed generative output, and some needed logical decisions where an open-weight model might do. Fit the model to the use case. I still believe that. But I was only half right, because I was still picturing every piece as an LLM. Bigger or smaller, pric",
+      "categories": [
+        "Artificial Intelligence, IT Leadership, IT Strategy"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4247450-0-83495100-1794474146-patrick-kuo-e2jXOJdz5v8-unsplash.jpg?quality=50&strip=all",
+      "date_mentioned": null
+    },
+    "d1": {
+      "title": "Google built an AI model that can\u2019t write a sentence \u2014 and that\u2019s the point",
+      "link": "https://thenewstack.io/google-gemini-decisions-api/",
+      "source": "The New Stack",
+      "published": "2026-11-12T17:02:36+00:00",
+      "summary": "Google\u2019s new Gemini Decisions API, introduced Wednesday, is designed to handle the routine decisions that AI applications make thousands of",
+      "categories": [
+        "AI Engineering",
+        "AI Models",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/74340249-graficon-stuff-zgtvz5tacc4-unsplash-1-1024x768.jpg"
+    },
+    "d2": {
+      "title": "Anthropic built a model that beats Opus. It recommends Opus anyway.",
+      "link": "https://thenewstack.io/anthropic-fable-opus-cost/",
+      "source": "The New Stack",
+      "published": "2026-11-11T19:15:21+00:00",
+      "summary": "Anthropic just released a coding model that beats Opus 5.5 on two major benchmarks and can complete certain difficult tasks",
+      "categories": [
+        "AI Agents",
+        "AI Models",
+        "FinOps"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/9c59d8b3-imhaf-maulana-4r2mctrudkm-unsplash-1024x745.jpg"
+    },
+    "d3": {
+      "title": "Why Nvidia gave OpenShell to the CNCF",
+      "link": "https://thenewstack.io/nvidia-donates-openshell-cncf/",
+      "source": "The New Stack",
+      "published": "2026-11-11T19:13:54+00:00",
+      "summary": "Nvidia this week donated OpenShell, its open-source runtime for securing and governing AI agents, to the Cloud Native Computing Foundation.",
+      "categories": [
+        "AI Agents",
+        "Cloud Native Ecosystem",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/07/45a2a83b-img_0484-1024x768.jpg"
+    },
+    "d4": {
+      "title": "Anthropic\u2019s Claude Fable 5.2 built a shooter in 1 prompt \u2014 and it only took 8 hours and $550",
+      "link": "https://thenewstack.io/claude-fable-game-demos/",
+      "source": "The New Stack",
+      "published": "2026-11-11T17:52:06+00:00",
+      "summary": "An Anthropic engineer gave Claude Fable 5.2 one prompt to build a first-person shooter and let it run for eight",
+      "categories": [
+        "AI Agents",
+        "AI Models",
+        "Vibe Coding"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/0fa0b84a-risky-ming-6qywiwfpzmu-unsplash-1024x698.jpg"
+    },
+    "d5": {
+      "title": "AWS had its agents build a free and open emulator for AWS. They now maintain it, too.",
+      "link": "https://thenewstack.io/aws-emulator-ai-agents/",
+      "source": "The New Stack",
+      "published": "2026-11-11T17:30:00+00:00",
+      "summary": "AWS on Wednesday launched an emulator for AWS called AWS Emulator. That, by itself, is interesting and may raise some",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "AI Strategy",
+        "Open Source"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/ad6fe451-img_5814-1024x768.jpg"
+    },
+    "d6": {
+      "title": "Developers have been hacking around MCP\u2019s file-upload problem for two years. A fix is taking shape.",
+      "link": "https://thenewstack.io/mcp-file-upload-extension/",
+      "source": "The New Stack",
+      "published": "2026-11-11T17:11:55+00:00",
+      "summary": "The Model Context Protocol (MCP) has played an instrumental part in connecting AI assistants to external tools and data since",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Model Context Protocol",
+        "Model Context Protocol (MCP)",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/b857591d-alex-shuper-ehko-zsjnoi-unsplash-1024x576.jpg"
+    },
+    "d7": {
+      "title": "Anthropic wants Claude to be the front end for your entire enterprise app stack",
+      "link": "https://thenewstack.io/claude-enterprise-apps-connectors/",
+      "source": "The New Stack",
+      "published": "2026-11-10T20:00:58+00:00",
+      "summary": "Anthropic is expanding Claude\u2019s ability to work directly inside enterprise applications; it can now open full software interfaces, retrieve information,",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Model Context Protocol (MCP)"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/03/21bf8ca8-screenshot-2026-03-27-at-12.21.10-1024x670.png"
+    },
+    "d8": {
+      "title": "Google says Gemini 4 Carbon proved Signal\u2019s encryption in weeks",
+      "link": "https://thenewstack.io/gemini-4-carbon-swarm/",
+      "source": "The New Stack",
+      "published": "2026-11-10T16:17:22+00:00",
+      "summary": "Google released Gemini 4 Carbon to paying developers Tuesday, positioning its newest frontier model above Gemini 4 Argon for complex",
+      "categories": [
+        "AI Agents",
+        "AI Engineering",
+        "AI Models"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/94b532e0-getty-images-ngci-nquuq-unsplash-1024x677.jpg"
+    },
+    "d9": {
+      "title": "Grok API text watermarking was meant to be on by default from Nov. 7. Now, it\u2019s opt-in.",
+      "link": "https://thenewstack.io/grok-api-watermarking-default/",
+      "source": "The New Stack",
+      "published": "2026-11-10T15:58:44+00:00",
+      "summary": "The thorny issue of watermarking AI-generated text took an interesting turn this past week, with SpaceXSI seemingly U-turning on plans",
+      "categories": [
+        "AI",
+        "AI Engineering",
+        "AI Models",
+        "Compliance"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/082ecce8-allison-saeng-skfgtjrao0o-unsplash-1024x576.jpg"
+    },
+    "d10": {
+      "title": "A $60 billion fintech hired a 14-year-old. Its CEO explains why.",
+      "link": "https://thenewstack.io/ramp-hires-teen-intern/",
+      "source": "The New Stack",
+      "published": "2026-11-09T23:18:34+00:00",
+      "summary": "Ramp hired a 14-year-old intern after discovering an app he had built for fun that attracted attention from roughly a",
+      "categories": [
+        "AI Engineering",
+        "Tech Careers",
+        "Tech Culture"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/9af45641-jesus-alejandro-paramo-alvarado-ycgi7ajxlzu-unsplash-1024x584.jpg"
+    },
+    "d11": {
+      "title": "Anthropic launches Fable 5.2 with a price cut and stronger coding scores",
+      "link": "https://thenewstack.io/anthropic-fable-coding-upgrade/",
+      "source": "The New Stack",
+      "published": "2026-11-09T19:08:20+00:00",
+      "summary": "On Monday, Anthropic launched Claude Fable 5.2 and Mythos 5.2, the latest versions of its duo of flagship models. Like before,",
+      "categories": [
+        "AI"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/75d15cd2-claude-fable-5.2-image-1024x492.jpg"
+    },
+    "d12": {
+      "title": "Google claims its new AI software cuts inference latency by over 90% \u2014 but there\u2019s a catch",
+      "link": "https://thenewstack.io/google-tpu-sync-inference/",
+      "source": "The New Stack",
+      "published": "2026-11-09T18:40:01+00:00",
+      "summary": "Google\u2019s eighth-generation TPU announcement on Monday included more than new chips, introducing TPU Sync, an open-source system designed to speed",
+      "categories": [
+        "AI",
+        "AI Infrastructure",
+        "Hardware",
+        "Open Source"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/d5205145-winston-chen-ize21dzhnug-unsplash-1024x683.jpg"
+    },
+    "l1": {
+      "title": "The Pulse: What can we learn from the Railway hack?",
+      "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from-114",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-11-12T18:53:19+00:00",
+      "summary": "Also: native mobile and frontend jobs are disappearing, how trust helps an \u201cAI-native\u201d engineering team to succeed, Carta starts selling a coding harness, and more",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!qBog!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7cde86f6-c46b-4000-9c17-7754eab47daa_1330x1418.png"
+    },
+    "l2": {
+      "title": "Who Stands to Benefit From Jensen Huang\u2019s Downfall?",
+      "link": "https://www.thealgorithmicbridge.com/p/who-stands-to-benefit-from-jensen",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-12T17:18:33+00:00",
+      "summary": "He has resigned from Nvidia this morning",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!dsol!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c035f6d-1a63-42f3-94a7-8c7ae6c422a4_1672x941.png"
+    },
+    "l3": {
+      "title": "To the man with AI, everything looks like a task",
+      "link": "https://www.bensbites.com/p/to-the-man-with-ai-everything-looks",
+      "source": "Ben's Bites",
+      "published": "2026-11-12T14:03:11+00:00",
+      "summary": "Real* quote from Charlie Munger - lightly modernised :)",
+      "categories": [],
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/3ab095b6-9930-4835-bb46-744b70bab239_1053x745.png"
+    },
+    "l4": {
+      "title": "Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave",
+      "link": "https://lastweekin.ai/p/last-week-month-in-ai-347-nvidias",
+      "source": "Last Week in AI",
+      "published": "2026-11-11T14:21:42+00:00",
+      "summary": "Catching up on five weeks: Huang under investigation, Anthropic and OpenAI priced at $1.4T and $1.25T as spending stalls, Anthropic warns it may be nearing recursive self-improvement, Gemini 4 Carbon",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!N5MW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ea61f46-93d0-4d43-a74b-5751a649daba_1720x980.png"
+    },
+    "l5": {
+      "title": "Fable 5.2: Too Good",
+      "link": "https://www.thealgorithmicbridge.com/p/claude-fable-52-too-good",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-11T00:05:45+00:00",
+      "summary": "Reality is the only benchmark",
+      "categories": [],
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/e57670d6-8db0-46c4-86da-26eb45d071f3_1920x1080.png"
+    },
+    "l6": {
+      "title": "The missing quadrant in responses to AI",
+      "link": "https://www.normaltech.ai/p/the-missing-quadrant-in-responses",
+      "source": "AI as Normal Technology",
+      "published": "2026-11-10T18:37:42+00:00",
+      "summary": "Announcing STABL: Societal Transformation and AI Bottlenecks Lab",
+      "categories": [],
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/2095f300-0a39-4e16-a60f-6c8a94728bf9_1666x932.jpeg"
+    },
+    "l7": {
+      "title": "How I got seduced",
+      "link": "https://www.bensbites.com/p/how-i-got-seduced",
+      "source": "Ben's Bites",
+      "published": "2026-11-10T15:35:49+00:00",
+      "summary": "It took them 5 years",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!gYZ5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb343d48c-52e2-4566-a3e0-76fcc458bd90_1100x1120.gif"
+    },
+    "l8": {
+      "title": "Software correctness & supply chain security, with Sean Allen",
+      "link": "https://newsletter.pragmaticengineer.com/p/software-correctness",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-11-10T15:00:21+00:00",
+      "summary": "A deep conversation on the biggest challenges of developing with AI \u2013 while trying not to mention the phrase \u201cAI\u201d once. Why? To dig up the fundamentals that are as important as ever",
+      "categories": [],
+      "image": "https://substackcdn.com/image/youtube/w_728,c_limit/OrXKvOjR-vI"
+    }
+  },
+  "llm_draft": {
+    "glance": [
+      {
+        "id": "n17",
+        "summary": "Nvidia CEO Jensen Huang has resigned following an investigation into multiple extramarital affairs."
+      },
+      {
+        "id": "n1",
+        "summary": "Google released Gemini 4 Hydrogen to improve search query understanding and visual responses."
+      },
+      {
+        "id": "n11",
+        "summary": "AI chatbots are increasingly recommending fake retail websites to shoppers, according to a new study."
+      },
+      {
+        "id": "n9",
+        "summary": "SoftBank lost over $3 billion on natural gas turbines intended to power AI data centers."
+      }
+    ],
+    "big_pour": [
+      {
+        "id": "n17",
+        "headline": "Jensen Huang resigns as Nvidia CEO",
+        "teaser": "Nvidia CEO steps down",
+        "summary": "Jensen Huang has resigned as CEO of Nvidia following a board investigation into multiple extramarital affairs, including one with an alleged Chinese spy. CFO Colette Kress will serve as the interim replacement.",
+        "why": "Nvidia is a central pillar of the AI industry, and its leadership transition carries significant uncertainty.",
+        "explain": {
+          "kid": "The boss of a big company that makes computer chips had to quit because he broke the rules and had secret relationships he wasn't supposed to have.",
+          "pm": "Nvidia's CEO resigned amid a scandal involving personal conduct and security concerns. The CFO is now interim CEO, creating a major leadership vacuum for the company.",
+          "engineer": "Nvidia's CEO resigned following an internal investigation into policy violations regarding personal relationships. CFO Colette Kress has assumed the interim CEO role during this leadership transition."
+        }
+      },
+      {
+        "id": "n1",
+        "headline": "Google upgrades Search with Gemini 4 Hydrogen",
+        "teaser": "Google Search gets smarter",
+        "summary": "Google's latest Search update uses Gemini 4 Hydrogen to better understand complex questions and provide more relevant links and visual responses."
+      },
+      {
+        "id": "n11",
+        "headline": "AI chatbots are directing users to fake sites",
+        "teaser": "Chatbots suggest risky websites",
+        "summary": "A new study found that AI chatbots, including ChatGPT, Gemini, and Perplexity, are recommending fake retail websites to shoppers looking for products."
+      }
+    ],
+    "office_blend": [
+      {
+        "id": "n3",
+        "headline": "Nectar launches AI for influencer marketing",
+        "teaser": "Automating influencer outreach",
+        "summary": "Nectar released an AI agent that helps brands find influencers, manage partnerships, and track the results of their marketing campaigns."
+      },
+      {
+        "id": "n10",
+        "headline": "Phota Labs uses AI for photo editing",
+        "teaser": "Easier professional photo editing",
+        "summary": "Phota Labs is using AI to automate photo editing, allowing users to turn everyday photos into professional-looking images more easily."
+      }
+    ],
+    "still_roasting": [
+      {
+        "id": "u1",
+        "summary": "Amazon plans to release roaming Ring Robotics security drones and robots in late 2026 and early 2027."
+      }
+    ],
+    "quick_sips": [
+      {
+        "id": "n8",
+        "summary": "United Airlines is blocking AI agents from booking flights and managing reservations due to cybersecurity risks."
+      },
+      {
+        "id": "n22",
+        "summary": "Google is debuting Gemini-powered smartglasses starting at $395 in collaboration with Samsung, Gentle Monster, and Warby Parker."
+      },
+      {
+        "id": "n12",
+        "summary": "Video game developers are increasingly using generative AI tools, with 40 percent reporting usage as part of their job."
+      }
+    ],
+    "builder": {
+      "stories": [
+        {
+          "id": "d3",
+          "label": "Open source",
+          "headline": "Nvidia donates OpenShell to CNCF",
+          "summary": "Nvidia donated OpenShell, its open-source runtime for securing and governing AI agents, to the Cloud Native Computing Foundation."
+        },
+        {
+          "id": "d12",
+          "label": "New system",
+          "headline": "Google introduces TPU Sync for faster inference",
+          "summary": "Google announced TPU Sync, an open-source system designed to speed up AI software by cutting inference latency by over 90 percent."
+        }
+      ],
+      "concept": {
+        "id": "d12",
+        "term": "inference latency",
+        "explanation": "Inference latency refers to the time it takes for an AI model to process a request and generate a response; Google's new TPU Sync system aims to reduce this time."
+      }
+    },
+    "long_read": {
+      "id": "l2",
+      "headline": "Who Stands to Benefit From Jensen Huang\u2019s Downfall?",
+      "summary": "This newsletter examines the potential industry-wide consequences following the sudden resignation of Nvidia's longtime CEO."
+    }
+  },
+  "first_check": {
+    "n17": [
+      "name 'Colette' is not in the source",
+      "name 'Kress' is not in the source"
+    ],
+    "n12": [
+      "number '40' is not in the source"
+    ],
+    "l2": [
+      "name 'Nvidia's' is not in the source",
+      "name 'CEO' is not in the source"
+    ]
+  },
+  "dropped": [],
+  "explain_dropped": []
+}

@@ -1,0 +1,190 @@
+{
+  "glance": [
+    {
+      "id": "n17",
+      "headline": "Jensen Huang resigns as Nvidia CEO",
+      "teaser": "Nvidia CEO steps down",
+      "summary": "Jensen Huang has resigned as CEO of Nvidia following a board investigation into multiple extramarital affairs with a direct report and an alleged Chinese spy.",
+      "why": "Jensen Huang co-founded Nvidia in 1993 and resigned as CEO following a board investigation.",
+      "explain": {
+        "kid": "The CEO of Nvidia resigned after the company board opened an investigation into multiple extramarital affairs.",
+        "pm": "Jensen Huang resigned as CEO of Nvidia following a board investigation into extramarital affairs with a direct report and an alleged Chinese spy.",
+        "engineer": "Nvidia CEO Jensen Huang resigned following a board investigation into extramarital affairs involving a direct report and an alleged Chinese spy."
+      },
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25343254/STK083_B_NVIDIA_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n1",
+      "summary": "Google released Gemini 4 Hydrogen to improve search query understanding and visual responses.",
+      "link": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n11",
+      "summary": "AI chatbots are increasingly recommending fake retail websites to shoppers, according to a new study.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_E.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n9",
+      "summary": "SoftBank lost over $3 billion on natural gas turbines intended to power AI data centers.",
+      "link": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n17",
+      "headline": "Jensen Huang resigns as Nvidia CEO",
+      "teaser": "Nvidia CEO steps down",
+      "summary": "Jensen Huang has resigned as CEO of Nvidia following a board investigation into multiple extramarital affairs with a direct report and an alleged Chinese spy.",
+      "why": "Jensen Huang co-founded Nvidia in 1993 and resigned as CEO following a board investigation.",
+      "explain": {
+        "kid": "The CEO of Nvidia resigned after the company board opened an investigation into multiple extramarital affairs.",
+        "pm": "Jensen Huang resigned as CEO of Nvidia following a board investigation into extramarital affairs with a direct report and an alleged Chinese spy.",
+        "engineer": "Nvidia CEO Jensen Huang resigned following a board investigation into extramarital affairs involving a direct report and an alleged Chinese spy."
+      },
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25343254/STK083_B_NVIDIA_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n1",
+      "headline": "Google upgrades Search with Gemini 4 Hydrogen",
+      "teaser": "Google Search gets smarter",
+      "summary": "Google's latest Search update uses Gemini 4 Hydrogen to better understand complex questions and provide more relevant links and visual responses.",
+      "link": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n11",
+      "headline": "AI chatbots are directing users to fake sites",
+      "teaser": "Chatbots suggest risky websites",
+      "summary": "A new study found that AI chatbots, including ChatGPT, Gemini, and Perplexity, are recommending fake retail websites to shoppers looking for products.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_E.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "n3",
+      "headline": "Nectar launches AI for influencer marketing",
+      "teaser": "Automating influencer outreach",
+      "summary": "Nectar released an AI agent that helps brands find influencers, manage partnerships, and track the results of their marketing campaigns.",
+      "link": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n10",
+      "headline": "Phota Labs uses AI for photo editing",
+      "teaser": "Easier professional photo editing",
+      "summary": "Phota Labs is using AI to automate photo editing, allowing users to turn everyday photos into professional-looking images more easily.",
+      "link": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u1",
+      "summary": "Amazon plans to release roaming Ring Robotics security drones and robots in late 2026 and early 2027.",
+      "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ring-Drone-1152x648.jpeg",
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n8",
+      "summary": "United Airlines is blocking AI agents from booking flights and managing reservations due to cybersecurity risks.",
+      "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n22",
+      "summary": "Google is debuting Gemini-powered smartglasses starting at $395 in collaboration with Samsung, Gentle Monster, and Warby Parker.",
+      "link": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/WP_ALDEN-Carousel_Lifestyle-copy-1152x648.jpg"
+    },
+    {
+      "id": "n12",
+      "summary": "More video game developers are using generative AI tools, with Forty percent of surveyed developers using them as part of their job.",
+      "link": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/55145037587_ac59503045_k.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d3",
+        "label": "Open source",
+        "headline": "Nvidia donates OpenShell to CNCF",
+        "summary": "Nvidia donated OpenShell, its open-source runtime for securing and governing AI agents, to the Cloud Native Computing Foundation.",
+        "link": "https://thenewstack.io/nvidia-donates-openshell-cncf/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/07/45a2a83b-img_0484-1024x768.jpg"
+      },
+      {
+        "id": "d12",
+        "label": "New system",
+        "headline": "Google introduces TPU Sync for faster inference",
+        "summary": "Google announced TPU Sync, an open-source system designed to speed up AI software by cutting inference latency by over 90 percent.",
+        "link": "https://thenewstack.io/google-tpu-sync-inference/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/d5205145-winston-chen-ize21dzhnug-unsplash-1024x683.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d12",
+      "term": "inference latency",
+      "explanation": "Inference latency refers to the time it takes for an AI model to process a request and generate a response; Google's new TPU Sync system aims to reduce this time.",
+      "link": "https://thenewstack.io/google-tpu-sync-inference/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/11/d5205145-winston-chen-ize21dzhnug-unsplash-1024x683.jpg"
+    }
+  },
+  "long_read": {
+    "id": "l2",
+    "headline": "Who Stands to Benefit From Jensen Huang\u2019s Downfall?",
+    "summary": "This newsletter covers Jensen Huang following his resignation from Nvidia.",
+    "link": "https://www.thealgorithmicbridge.com/p/who-stands-to-benefit-from-jensen",
+    "source": "The Algorithmic Bridge",
+    "image": "https://substackcdn.com/image/fetch/$s_!dsol!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c035f6d-1a63-42f3-94a7-8c7ae6c422a4_1672x941.png"
+  },
+  "number": 19,
+  "date_iso": "2026-11-12",
+  "date_long": "Thursday \u00b7 12 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-12",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": {
+    "term": "Distillation",
+    "definition": "Training a smaller \"student\" model to imitate a larger \"teacher\" model's outputs, keeping much of the quality at lower cost.",
+    "heard": "\"Distill the big model into something we can afford to run on every request.\"",
+    "analogy": "Like an apprentice learning by copying the head barista's drinks.",
+    "reviewed": false,
+    "theme": "Models, speed, and cost",
+    "day": 4
+  },
+  "keep_brewing": null,
+  "poll": null
+}
