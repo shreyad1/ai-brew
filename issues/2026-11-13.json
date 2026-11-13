@@ -1,0 +1,194 @@
+{
+  "glance": [
+    {
+      "id": "n4",
+      "headline": "Jensen Huang Has Resigned From Nvidia Following Affair",
+      "teaser": "Jensen Huang has resigned",
+      "summary": "Jensen Huang has resigned from Nvidia following an affair. This could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "why": "Leadership changes at Nvidia could impact national security as nations race to develop advanced AI infrastructure.",
+      "explain": {
+        "kid": "Jensen Huang has resigned from Nvidia following an affair. This could have ramifications for national security as the U.S. and China race to build advanced AI infrastructure.",
+        "pm": "Jensen Huang has resigned from Nvidia following an affair, creating potential national security ramifications while the U.S. and China race to develop the most advanced AI infrastructure.",
+        "engineer": "Jensen Huang has resigned from Nvidia after an affair, introducing national security ramifications as the U.S. and China compete to develop the most advanced AI infrastructure."
+      },
+      "link": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n3",
+      "summary": "ChatGPT Wallet lets AI agents shop and check out for U.S. Pro subscribers.",
+      "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n14",
+      "headline": "Google's New Gemini 4 Hydrogen Model Is Available",
+      "teaser": "Gemini handles complex questions",
+      "summary": "Google says its new Gemini 4 Hydrogen model gives more helpful answers to complex questions by breaking them down. It is available starting today in search and the Gemini app.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25290329/STK255_Google_Gemini_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "w8",
+      "summary": "United Airlines blocked customer AI bots due to data leakage and rule violation risks.",
+      "link": "https://www.cio.com/article/4248161/united-airlines-becomes-the-latest-enterprise-to-shut-its-door-to-customer-bots-2.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4248161-0-17678100-1794527830-happy-robots-chatting-by-juty_jang-via-shutterstock_2594534257.jpg?quality=50&strip=all"
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n4",
+      "headline": "Jensen Huang Has Resigned From Nvidia Following Affair",
+      "teaser": "Jensen Huang has resigned",
+      "summary": "Jensen Huang has resigned from Nvidia following an affair. This could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "why": "Leadership changes at Nvidia could impact national security as nations race to develop advanced AI infrastructure.",
+      "explain": {
+        "kid": "Jensen Huang has resigned from Nvidia following an affair. This could have ramifications for national security as the U.S. and China race to build advanced AI infrastructure.",
+        "pm": "Jensen Huang has resigned from Nvidia following an affair, creating potential national security ramifications while the U.S. and China race to develop the most advanced AI infrastructure.",
+        "engineer": "Jensen Huang has resigned from Nvidia after an affair, introducing national security ramifications as the U.S. and China compete to develop the most advanced AI infrastructure."
+      },
+      "link": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n3",
+      "headline": "ChatGPT Wallet Lets AI Agents Shop for You",
+      "teaser": "AI agents shop for users",
+      "summary": "OpenAI launched ChatGPT Wallet, allowing AI agents to shop and check out on users' behalf. The feature is available in a limited rollout to U.S. Pro subscribers.",
+      "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n14",
+      "headline": "Google's New Gemini 4 Hydrogen Model Is Available",
+      "teaser": "Gemini handles complex questions",
+      "summary": "Google says its new Gemini 4 Hydrogen model gives more helpful answers to complex questions by breaking them down. It is available starting today in search and the Gemini app.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25290329/STK255_Google_Gemini_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w5",
+      "headline": "K-water Is Using AI to Manage Water Flow",
+      "teaser": "K-water manages water with AI",
+      "summary": "Korea Water Resources Corporation, known as K-water, is using AI to transform how it connects the flow of water across dams and purification plants.",
+      "link": "https://www.cio.com/article/4247561/ai-leadership-inside-how-the-climate-crisis-has-changed-water-management-why-did-the-korea-water-resources-corporation-choose-ai.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4247561-0-49034300-1794564283-k-water-ai-VP.jpg?quality=50&strip=all"
+    },
+    {
+      "id": "w10",
+      "headline": "Natera Built Agentic AI System for Lab Ops",
+      "teaser": "Natera speeds up support tickets",
+      "summary": "Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore that captures lab-operations knowledge, delivering about 130x faster first response and 96.2% automated coverage across support tickets.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u1",
+      "summary": "Amazon's roaming Ring Robotics security drone and robot will debut in late 2026 and early 2027.",
+      "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ring-Drone-1152x648.jpeg",
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n6",
+      "summary": "ElevenLabs launched ElevenAI, a meeting note-taking and dictation app aimed at teams and enterprises.",
+      "link": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n12",
+      "summary": "FAA expanded an AI advice tool across U.S. airspace to manage air traffic congestion without involving the controllers' union.",
+      "link": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg"
+    },
+    {
+      "id": "w8",
+      "summary": "United Airlines blocked customer AI bots due to fears of data leakage, unintended purchases, and airline rule violations.",
+      "link": "https://www.cio.com/article/4248161/united-airlines-becomes-the-latest-enterprise-to-shut-its-door-to-customer-bots-2.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4248161-0-17678100-1794527830-happy-robots-chatting-by-juty_jang-via-shutterstock_2594534257.jpg?quality=50&strip=all"
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d3",
+        "label": "New feature",
+        "headline": "Gemini 4 Coding Agent Switches Models Mid-Task",
+        "summary": "Google launched Gemini 4 Hydrogen alongside a system that lets coding agents switch AI models mid-task, completing work 19% faster.",
+        "link": "https://thenewstack.io/gemini-4-hydrogen-orchestrator/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/ea0c233e-rizki-ardia-p-a6oda-mqu-unsplash-1024x768.jpg"
+      },
+      {
+        "id": "d7",
+        "label": "Open standard",
+        "headline": "Nvidia Donated OpenShell to Cloud Native Foundation",
+        "summary": "Nvidia donated OpenShell, its open-source runtime for securing and governing AI agents, to the Cloud Native Computing Foundation.",
+        "link": "https://thenewstack.io/nvidia-donates-openshell-cncf/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/07/45a2a83b-img_0484-1024x768.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d10",
+      "term": "Model Context Protocol (MCP)",
+      "explanation": "Model Context Protocol (MCP) is a system that connects AI assistants to external tools and data, which developers have been working around due to file-upload problems.",
+      "link": "https://thenewstack.io/mcp-file-upload-extension/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/11/b857591d-alex-shuper-ehko-zsjnoi-unsplash-1024x576.jpg"
+    }
+  },
+  "long_read": {
+    "id": "l8",
+    "headline": "Software correctness & supply chain security, with Sean Allen",
+    "summary": "This conversation explores the biggest challenges of developing with AI while trying not to mention the phrase \"AI\" once.",
+    "link": "https://newsletter.pragmaticengineer.com/p/software-correctness",
+    "source": "The Pragmatic Engineer",
+    "image": "https://substackcdn.com/image/youtube/w_728,c_limit/OrXKvOjR-vI"
+  },
+  "number": 20,
+  "date_iso": "2026-11-13",
+  "date_long": "Friday \u00b7 13 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-13",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": {
+    "term": "Latency (TTFT)",
+    "definition": "How long a user waits for a response. Time to first token (TTFT) measures how soon the first word of a streamed answer appears.",
+    "heard": "\"Total time is fine, but TTFT is three seconds and it feels broken.\"",
+    "analogy": "Like how long until the barista starts your drink, not just when it's done.",
+    "reviewed": false,
+    "theme": "Models, speed, and cost",
+    "day": 5
+  },
+  "keep_brewing": null,
+  "poll": null
+}

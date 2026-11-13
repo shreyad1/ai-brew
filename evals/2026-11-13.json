@@ -1,0 +1,380 @@
+{
+  "date": "2026-11-13",
+  "claims": 42,
+  "supported": 38,
+  "partial": 4,
+  "unsupported": 0,
+  "faithfulness": 0.952,
+  "flagged": [
+    {
+      "section": "glance",
+      "id": "n3",
+      "claim": "ChatGPT Wallet lets AI agents shop and check out for U.S.",
+      "source": "ChatGPT\u2019s new Wallet lets AI agents shop and check out for you. ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+      "verdict": "partial",
+      "reason": "The claim leaves out the important limitation that the rollout is specifically for U.S. Pro subscribers."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "OpenAI launched ChatGPT Wallet, allowing AI agents to shop and check out on users' behalf.",
+      "source": "ChatGPT\u2019s new Wallet lets AI agents shop and check out for you. ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+      "verdict": "partial",
+      "reason": "The source mentions ChatGPT's new Wallet, but does not explicitly name OpenAI as the launcher."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "The feature is available in a limited rollout to U.S.",
+      "source": "ChatGPT\u2019s new Wallet lets AI agents shop and check out for you. ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+      "verdict": "partial",
+      "reason": "The source specifies the rollout is limited to U.S. Pro subscribers, not all U.S. users generally."
+    },
+    {
+      "section": "builder",
+      "id": "d7",
+      "claim": "Nvidia Donated OpenShell to Cloud Native Foundation",
+      "source": "Why Nvidia gave OpenShell to the CNCF. Nvidia this week donated OpenShell, its open-source runtime for securing and governing AI agents, to the Cloud Native Computing Foundation.",
+      "verdict": "partial",
+      "reason": "The core fact is correct, but the claim slightly misnames the Cloud Native Computing Foundation as the Cloud Native Foundation."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n4",
+      "claim": "Jensen Huang Has Resigned From Nvidia Following Affair",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Jensen Huang has resigned from Nvidia following an affair."
+    },
+    {
+      "section": "glance",
+      "id": "n4",
+      "claim": "Jensen Huang has resigned from Nvidia following an affair.",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Jensen Huang has resigned from Nvidia following an affair."
+    },
+    {
+      "section": "glance",
+      "id": "n4",
+      "claim": "This could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "This statement is verbatim supported by the source text."
+    },
+    {
+      "section": "glance",
+      "id": "n4",
+      "claim": "Leadership changes at Nvidia could impact national security as nations race to develop advanced AI infrastructure.",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "This is a accurate paraphrase of the source describing Huang's resignation and its potential national security impact amid the US-China AI race."
+    },
+    {
+      "section": "glance",
+      "id": "n4",
+      "claim": "Jensen Huang has resigned from Nvidia following an affair.",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Jensen Huang has resigned from Nvidia following an affair."
+    },
+    {
+      "section": "glance",
+      "id": "n4",
+      "claim": "This could have ramifications for national security as the U.S. and China race to build advanced AI infrastructure.",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The claim directly mirrors the source text with a synonym ('build' for 'develop')."
+    },
+    {
+      "section": "glance",
+      "id": "n4",
+      "claim": "Jensen Huang has resigned from Nvidia following an affair, creating potential national security ramifications while the U.S. and China race to develop the most advanced AI infrastructure.",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The sentence combines facts directly stated in the source text without changing their meaning."
+    },
+    {
+      "section": "glance",
+      "id": "n4",
+      "claim": "Jensen Huang has resigned from Nvidia after an affair, introducing national security ramifications as the U.S. and China compete to develop the most advanced AI infrastructure.",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The claim accurately conveys all the facts presented in the source text."
+    },
+    {
+      "section": "glance",
+      "id": "n3",
+      "claim": "ChatGPT Wallet lets AI agents shop and check out for U.S.",
+      "source": "ChatGPT\u2019s new Wallet lets AI agents shop and check out for you. ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+      "verdict": "partial",
+      "reason": "The claim leaves out the important limitation that the rollout is specifically for U.S. Pro subscribers."
+    },
+    {
+      "section": "glance",
+      "id": "n14",
+      "claim": "Google's New Gemini 4 Hydrogen Model Is Available",
+      "source": "Google\u2019s new Gemini model is better at understanding complicated questions. Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states that the Gemini 4 Hydrogen model is available starting today."
+    },
+    {
+      "section": "glance",
+      "id": "n14",
+      "claim": "Google says its new Gemini 4 Hydrogen model gives more helpful answers to complex questions by breaking them down.",
+      "source": "Google\u2019s new Gemini model is better at understanding complicated questions. Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states that the model gives more helpful answers to complex questions by breaking them down."
+    },
+    {
+      "section": "glance",
+      "id": "n14",
+      "claim": "It is available starting today in search and the Gemini app.",
+      "source": "Google\u2019s new Gemini model is better at understanding complicated questions. Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly confirms that it is available starting today in search and the Gemini app."
+    },
+    {
+      "section": "glance",
+      "id": "w8",
+      "claim": "United Airlines blocked customer AI bots due to data leakage and rule violation risks.",
+      "source": "United Airlines becomes the latest enterprise to shut its door to customer bots. United Airlines on Wednesday became the latest enterprise to block customer bots, following similar moves from Walmart, Target and Amazon. The $59 billion airline, the second largest in the world, said the move was prompted by fears of data leakage, unintended purchases, and the risk of violating federal airline rules. But industry observers say that the more concerning business risks are the lack of industry standardization around AI coupled with an ever-increasing number of bots from major AI ",
+      "verdict": "supported",
+      "reason": "The source confirms United Airlines blocked customer bots due to fears of data leakage, unintended purchases, and violating federal airline rules."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Jensen Huang Has Resigned From Nvidia Following Affair",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The source directly states that Jensen Huang has resigned from Nvidia following an affair."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Jensen Huang has resigned from Nvidia following an affair.",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The source directly states that Jensen Huang has resigned from Nvidia following an affair."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "This could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The source directly states that this could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Leadership changes at Nvidia could impact national security as nations race to develop advanced AI infrastructure.",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The source confirms Jensen Huang's resignation from Nvidia could impact national security as the U.S. and China race to develop AI infrastructure."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Jensen Huang has resigned from Nvidia following an affair.",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The source directly states that Jensen Huang has resigned from Nvidia following an affair."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "This could have ramifications for national security as the U.S. and China race to build advanced AI infrastructure.",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The source supports that this could have national security ramifications while the U.S. and China race to develop/build advanced AI infrastructure."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Jensen Huang has resigned from Nvidia following an affair, creating potential national security ramifications while the U.S. and China race to develop the most advanced AI infrastructure.",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The source fully supports the resignation and its potential national security ramifications during the AI infrastructure race."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Jensen Huang has resigned from Nvidia after an affair, introducing national security ramifications as the U.S. and China compete to develop the most advanced AI infrastructure.",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The source fully supports that the resignation introduces national security ramifications while the U.S. and China compete in AI infrastructure."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "ChatGPT Wallet Lets AI Agents Shop for You",
+      "source": "ChatGPT\u2019s new Wallet lets AI agents shop and check out for you. ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that ChatGPT Wallet lets AI agents shop and check out for you."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "OpenAI launched ChatGPT Wallet, allowing AI agents to shop and check out on users' behalf.",
+      "source": "ChatGPT\u2019s new Wallet lets AI agents shop and check out for you. ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+      "verdict": "partial",
+      "reason": "The source mentions ChatGPT's new Wallet, but does not explicitly name OpenAI as the launcher."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "The feature is available in a limited rollout to U.S.",
+      "source": "ChatGPT\u2019s new Wallet lets AI agents shop and check out for you. ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+      "verdict": "partial",
+      "reason": "The source specifies the rollout is limited to U.S. Pro subscribers, not all U.S. users generally."
+    },
+    {
+      "section": "big_pour",
+      "id": "n14",
+      "claim": "Google's New Gemini 4 Hydrogen Model Is Available",
+      "source": "Google\u2019s new Gemini model is better at understanding complicated questions. Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google [\u2026]",
+      "verdict": "supported",
+      "reason": " The source explicitly states that Google's new Gemini 4 Hydrogen model is available starting today."
+    },
+    {
+      "section": "big_pour",
+      "id": "n14",
+      "claim": "Google says its new Gemini 4 Hydrogen model gives more helpful answers to complex questions by breaking them down.",
+      "source": "Google\u2019s new Gemini model is better at understanding complicated questions. Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google [\u2026]",
+      "verdict": "supported",
+      "reason": "The source directly states that the Gemini 4 Hydrogen model breaks down questions to give more helpful answers to complex requests."
+    },
+    {
+      "section": "big_pour",
+      "id": "n14",
+      "claim": "It is available starting today in search and the Gemini app.",
+      "source": "Google\u2019s new Gemini model is better at understanding complicated questions. Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly confirms it is available starting today in search and the Gemini app."
+    },
+    {
+      "section": "office_blend",
+      "id": "w5",
+      "claim": "K-water Is Using AI to Manage Water Flow",
+      "source": "The AI at the source of water management reform. Korea Water Resources Corporation, better known as K-water, serves as sort of a water wholesaler, managing water in dams, treating it at purification plants, and supplying it to local municipalities. Now, the company is using AI to transform how to connect the flow of water from one end to the other. K-water has a long history of using technology to operate dams. In the past, however, it relied largely on historical climate patterns and operating experience accumulated over many years. As climat",
+      "verdict": "supported",
+      "reason": "The source explicitly mentions that K-water is using AI to transform how it connects the flow of water."
+    },
+    {
+      "section": "office_blend",
+      "id": "w5",
+      "claim": "Korea Water Resources Corporation, known as K-water, is using AI to transform how it connects the flow of water across dams and purification plants.",
+      "source": "The AI at the source of water management reform. Korea Water Resources Corporation, better known as K-water, serves as sort of a water wholesaler, managing water in dams, treating it at purification plants, and supplying it to local municipalities. Now, the company is using AI to transform how to connect the flow of water from one end to the other. K-water has a long history of using technology to operate dams. In the past, however, it relied largely on historical climate patterns and operating experience accumulated over many years. As climat",
+      "verdict": "supported",
+      "reason": "The source explicitly describes K-water's role with dams and purification plants and its current use of AI to manage the flow of water."
+    },
+    {
+      "section": "office_blend",
+      "id": "w10",
+      "claim": "Natera Built Agentic AI System for Lab Ops",
+      "source": "How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore. Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore that captures institutional lab-operations knowledge and deploys it at scale. This post walks through the full architecture, from knowledge base construction to deployment and evaluation, delivering about 130x faster first response and 96.2% automated coverage across support tickets.",
+      "verdict": "supported",
+      "reason": "The headline and source text state that Natera built an agentic AI system for lab ops."
+    },
+    {
+      "section": "office_blend",
+      "id": "w10",
+      "claim": "Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore that captures lab-operations knowledge, delivering about 130x faster first response and 96.2% automated coverage across support tickets.",
+      "source": "How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore. Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore that captures institutional lab-operations knowledge and deploys it at scale. This post walks through the full architecture, from knowledge base construction to deployment and evaluation, delivering about 130x faster first response and 96.2% automated coverage across support tickets.",
+      "verdict": "supported",
+      "reason": "Every detail in the claim is directly supported by the source text."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u1",
+      "claim": "Amazon's roaming Ring Robotics security drone and robot will debut in late 2026 and early 2027.",
+      "source": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot. Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+      "verdict": "supported",
+      "reason": "The source confirms Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n6",
+      "claim": "ElevenLabs launched ElevenAI, a meeting note-taking and dictation app aimed at teams and enterprises.",
+      "source": "ElevenLabs\u2019 new app combines meeting note-taking and dictation for teams. ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
+      "verdict": "supported",
+      "reason": "The source text states ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises from ElevenLabs."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n12",
+      "claim": "FAA expanded an AI advice tool across U.S. airspace to manage air traffic congestion without involving the controllers' union.",
+      "source": "FAA expands AI advice to manage air traffic congestion across entire US airspace. Airlines praised the AI tool, but the air traffic controllers\u2019 union wasn\u2019t involved.",
+      "verdict": "supported",
+      "reason": "The source states that the FAA expanded AI advice across US airspace to manage air traffic congestion without involving the controllers' union."
+    },
+    {
+      "section": "quick_sips",
+      "id": "w8",
+      "claim": "United Airlines blocked customer AI bots due to fears of data leakage, unintended purchases, and airline rule violations.",
+      "source": "United Airlines becomes the latest enterprise to shut its door to customer bots. United Airlines on Wednesday became the latest enterprise to block customer bots, following similar moves from Walmart, Target and Amazon. The $59 billion airline, the second largest in the world, said the move was prompted by fears of data leakage, unintended purchases, and the risk of violating federal airline rules. But industry observers say that the more concerning business risks are the lack of industry standardization around AI coupled with an ever-increasing number of bots from major AI ",
+      "verdict": "supported",
+      "reason": "The source states United Airlines blocked customer bots due to fears of data leakage, unintended purchases, and violating federal airline rules."
+    },
+    {
+      "section": "builder",
+      "id": "d3",
+      "claim": "Gemini 4 Coding Agent Switches Models Mid-Task",
+      "source": "Google\u2019s Gemini 4 coding agent now switches models mid-task \u2014 and finishes 19% faster. Google launched Gemini 4 Hydrogen on Thursday alongside a new system that changes how coding agents use AI models. Rather",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Google's Gemini 4 coding agent switches models mid-task."
+    },
+    {
+      "section": "builder",
+      "id": "d3",
+      "claim": "Google launched Gemini 4 Hydrogen alongside a system that lets coding agents switch AI models mid-task, completing work 19% faster.",
+      "source": "Google\u2019s Gemini 4 coding agent now switches models mid-task \u2014 and finishes 19% faster. Google launched Gemini 4 Hydrogen on Thursday alongside a new system that changes how coding agents use AI models. Rather",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Google launched Gemini 4 Hydrogen alongside a system allowing model-switching mid-task to finish 19% faster."
+    },
+    {
+      "section": "builder",
+      "id": "d7",
+      "claim": "Nvidia Donated OpenShell to Cloud Native Foundation",
+      "source": "Why Nvidia gave OpenShell to the CNCF. Nvidia this week donated OpenShell, its open-source runtime for securing and governing AI agents, to the Cloud Native Computing Foundation.",
+      "verdict": "partial",
+      "reason": "The core fact is correct, but the claim slightly misnames the Cloud Native Computing Foundation as the Cloud Native Foundation."
+    },
+    {
+      "section": "builder",
+      "id": "d7",
+      "claim": "Nvidia donated OpenShell, its open-source runtime for securing and governing AI agents, to the Cloud Native Computing Foundation.",
+      "source": "Why Nvidia gave OpenShell to the CNCF. Nvidia this week donated OpenShell, its open-source runtime for securing and governing AI agents, to the Cloud Native Computing Foundation.",
+      "verdict": "supported",
+      "reason": "The claim directly matches the wording in the source text."
+    },
+    {
+      "section": "concept",
+      "id": "d10",
+      "claim": "Model Context Protocol (MCP) is a system that connects AI assistants to external tools and data, which developers have been working around due to file-upload problems.",
+      "source": "Developers have been hacking around MCP\u2019s file-upload problem for two years. A fix is taking shape.. The Model Context Protocol (MCP) has played an instrumental part in connecting AI assistants to external tools and data since",
+      "verdict": "supported",
+      "reason": "The source confirms that MCP connects AI assistants to external tools/data and that developers have been working around its file-upload problem."
+    },
+    {
+      "section": "long_read",
+      "id": "l8",
+      "claim": "Software correctness & supply chain security, with Sean Allen",
+      "source": "Software correctness & supply chain security, with Sean Allen. A deep conversation on the biggest challenges of developing with AI \u2013 while trying not to mention the phrase \u201cAI\u201d once. Why? To dig up the fundamentals that are as important as ever",
+      "verdict": "supported",
+      "reason": "The claim matches the exact headline provided in the source text."
+    },
+    {
+      "section": "long_read",
+      "id": "l8",
+      "claim": "This conversation explores the biggest challenges of developing with AI while trying not to mention the phrase \"AI\" once.",
+      "source": "Software correctness & supply chain security, with Sean Allen. A deep conversation on the biggest challenges of developing with AI \u2013 while trying not to mention the phrase \u201cAI\u201d once. Why? To dig up the fundamentals that are as important as ever",
+      "verdict": "supported",
+      "reason": "The source describes the conversation as exploring the biggest challenges of developing with AI while avoiding the phrase 'AI'."
+    }
+  ]
+}
