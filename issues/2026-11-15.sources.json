@@ -1,0 +1,766 @@
+{
+  "generated_at": "2026-11-15T14:15:14.436723-06:00",
+  "warnings": [
+    "Word of the Day 'Prompt injection' is not marked reviewed in learning_path.yaml"
+  ],
+  "failed_feeds": [],
+  "sources": {
+    "n1": {
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "source": "The Verge",
+      "published": "2026-11-15T19:15:43+00:00",
+      "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority [\u2026]",
+      "categories": [
+        "AI",
+        "News",
+        "Nvidia",
+        "Policy",
+        "Politics",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n2": {
+      "title": "An overview of Jensen Huang\u2019s messy days",
+      "link": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+      "source": "The Verge",
+      "published": "2026-11-15T13:00:00+00:00",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started On October [\u2026]",
+      "categories": [
+        "AI",
+        "Column",
+        "Nvidia",
+        "Security",
+        "Tech",
+        "The Stepback"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301620664.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n3": {
+      "title": "Where was Nvidia\u2019s security team?",
+      "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "source": "TechCrunch",
+      "published": "2026-11-15T00:08:07+00:00",
+      "summary": "Nvidia\u2019s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it\u2019s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+      "categories": [
+        "AI",
+        "TC",
+        "nvidia"
+      ],
+      "image": null
+    },
+    "n4": {
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "source": "TechCrunch",
+      "published": "2026-11-14T21:41:22+00:00",
+      "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "categories": [
+        "AI",
+        "Amjad Masad",
+        "Elon Musk",
+        "Jensen Huang",
+        "nvidia",
+        "tim sweeney"
+      ],
+      "image": null
+    },
+    "n5": {
+      "title": "The AI graveyard: a running list of projects and startups that didn\u2019t make it",
+      "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source": "TechCrunch",
+      "published": "2026-11-14T17:30:00+00:00",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "categories": [
+        "AI",
+        "evergreens",
+        "Microsoft",
+        "OpenAI",
+        "siri ai"
+      ],
+      "image": null
+    },
+    "n6": {
+      "title": "Asian governments react to Nvidia CEO Jensen Huang\u2019s exit",
+      "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "source": "TechCrunch",
+      "published": "2026-11-14T16:34:15+00:00",
+      "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "TC",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "image": null
+    },
+    "n7": {
+      "title": "The OpenAI board member who fired Sam Altman says we still can\u2019t trust AI CEOs",
+      "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "source": "The Verge",
+      "published": "2026-11-14T15:00:00+00:00",
+      "summary": "Today, I\u2019m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on [\u2026]",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Decoder",
+        "OpenAI",
+        "Podcasts",
+        "Policy",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD-Helen-Toner.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n8": {
+      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "link": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "source": "The Verge",
+      "published": "2026-11-14T12:00:00+00:00",
+      "summary": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that [\u2026]",
+      "categories": [
+        "AI",
+        "Nvidia",
+        "Report",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2194622930.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n9": {
+      "title": "Amazon has a plan to index the world\u2019s online shopping data",
+      "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "source": "The Verge",
+      "published": "2026-11-13T23:49:11+00:00",
+      "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their [\u2026]",
+      "categories": [
+        "AI",
+        "Amazon",
+        "News",
+        "Online Shopping",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/acastro_STK103__03.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n10": {
+      "title": "Jensen Huang\u2019s departure blasts big hole in AI startup funding, VCs and founders say",
+      "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "source": "TechCrunch",
+      "published": "2026-11-13T22:43:00+00:00",
+      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "categories": [
+        "AI",
+        "Startups",
+        "Venture",
+        "open source",
+        "nvidia",
+        "Jensen Huang",
+        "neocloud"
+      ],
+      "image": null
+    },
+    "n11": {
+      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+      "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "source": "Ars Technica",
+      "published": "2026-11-13T21:20:47+00:00",
+      "summary": "Airlines praised the AI tool, but the air traffic controllers\u2019 union wasn\u2019t involved.",
+      "categories": [
+        "AI",
+        "Features",
+        "AI tools",
+        "air traffic control",
+        "air traffic controllers",
+        "airlines",
+        "airports",
+        "airspace",
+        "FAA",
+        "Federal Aviation Administration",
+        "flight delays"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg"
+    },
+    "n12": {
+      "title": "ChatGPT Wallet lets OpenAI\u2019s Dots agents make purchases for you",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "source": "The Verge",
+      "published": "2026-11-13T20:45:10+00:00",
+      "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card [\u2026]",
+      "categories": [
+        "AI",
+        "News",
+        "OpenAI",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "w1": {
+      "title": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1",
+      "link": "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-13T23:22:09+00:00",
+      "summary": "GS Caltex connects Amazon SageMaker Canvas to Amazon SageMaker Pipelines so process engineers' no-code models run in production. This post shows how ML engineers reuse validated preprocessing flows and models, cutting deployment from about a week to a few hours and running batch inference every 30 minutes.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon SageMaker Canvas",
+        "Customer Solutions"
+      ],
+      "image": null
+    },
+    "w2": {
+      "title": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
+      "link": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-13T22:30:12+00:00",
+      "summary": "Coding agents work in tasks, and the number that matters is cost per solved task, not price per token. In this post, you use the AWS CDK to deploy LiteLLM with the NVIDIA NeMo Switchyard routing plugin on Amazon Bedrock, then measure cost per solved task for a routed model group against single-model baselines.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w3": {
+      "title": "Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime",
+      "link": "https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-13T22:02:39+00:00",
+      "summary": "Amazon Bedrock AgentCore runtime V2 snapshots your initialized environment and restores it for each new session, so session start no longer grows with image size. This post explains how V2 starts a session, how to measure session start time, and four patterns to keep work off the first request.",
+      "categories": [
+        "Amazon Bedrock AgentCore",
+        "Best Practices",
+        "Expert (400)"
+      ],
+      "image": null
+    },
+    "w4": {
+      "title": "OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures",
+      "link": "https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-13T21:53:40+00:00",
+      "summary": "Deploy OpenFold3-preview from Amazon SageMaker JumpStart to predict 3D structures of proteins, DNA, RNA, and ligand complexes in your own AWS account. The post covers asynchronous inference, multi-GPU parallelism, bringing your own MSAs for accuracy and privacy, and scaling to zero to reduce cost.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon SageMaker AI",
+        "Amazon SageMaker JumpStart",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w5": {
+      "title": "Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot",
+      "link": "https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-13T19:35:35+00:00",
+      "summary": "Learn how AssemblyAI runs cost-optimized speech-to-text inference at scale on AWS, using Amazon ECS, Amazon EC2 Spot GPU instances, and an Amazon SQS-based retry architecture to achieve 70% cost savings while maintaining SLA commitments across European Regions.",
+      "categories": [
+        "Amazon EC2",
+        "Customer Solutions"
+      ],
+      "image": null
+    },
+    "w6": {
+      "title": "Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-13T18:44:02+00:00",
+      "summary": "Amazon Bedrock provides built-in, zero-instrumentation cost attribution that traces every inference call back to the IAM principal that made it. This post shows how to attribute per-user Bedrock costs for AI developer and productivity tools using IAM Identity Center, session tags, and CUR 2.0, and how to enforce per-user usage limits.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w7": {
+      "title": "Nvidia\u2019s leadership crisis puts enterprise AI\u2019s dependence on one company under scrutiny",
+      "link": "https://www.cio.com/article/4248546/nvidias-leadership-crisis-puts-enterprise-ais-dependence-on-one-company-under-scrutiny-2.html",
+      "source": "CIO.com",
+      "published": "2026-11-13T18:19:32+00:00",
+      "summary": "The tech world has been rattled by the toppling of one of its most prominent leaders, and the widespread implications it could have on the AI industry itself. Nvidia, which provides the underlying AI infrastructure for seemingly every company on the planet, announced on Thursday that its president and CEO Jensen Huang has resigned, effective immediately. Earlier this week, news broke that Huang had had at least two extramarital affairs, including one with an alleged Chinese spy and one with a di",
+      "categories": [
+        "Artificial Intelligence, Industry, Markets, Technology Industry"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4248546-0-04101700-1794593991-File-Cropped-2026-11-12-at-16.42.25-by-OCGL.jpeg?quality=50&strip=all"
+    },
+    "w8": {
+      "title": "Build a model improvement flywheel with Amazon SageMaker HyperPod Data Capture",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-13T18:01:15+00:00",
+      "summary": "Amazon SageMaker HyperPod Data Capture records live inference inputs and outputs to Amazon S3. This post walks through one end-to-end example: capturing a support router's production traffic, surfacing a new-product blind spot with Amazon Athena, fine-tuning on the captured data with the HyperPod training operator, and measuring the before-and-after lift.",
+      "categories": [
+        "Amazon SageMaker HyperPod",
+        "Intermediate (200)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w9": {
+      "title": "Saying no to AI spend is how we protect AI value",
+      "link": "https://www.cio.com/article/4248060/saying-no-to-ai-spend-is-how-we-protect-ai-value.html",
+      "source": "CIO.com",
+      "published": "2026-11-13T10:00:00+00:00",
+      "summary": "It\u2019s the 17th of the month and one of our engineers wants more credits for Claude. They\u2019ve already spent $4,000 and we can\u2019t believe it. Barely halfway through July and they\u2019ve not only overshot their monthly budget but need an even larger allocation. Soon after, alerts start going out that we\u2019ve reached 75% of our allocated monthly spend limit. This request, among many others, made us think twice about AI spend. The interest is there and often the innovation is, too. But what about the value? I",
+      "categories": [
+        "Artificial Intelligence, Budgeting, IT Leadership, IT Management, ROI and Metrics"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4248060-0-42296800-1794564166-shutterstock_2302831119.jpg?quality=50&strip=all"
+    },
+    "w10": {
+      "title": "The AI at the source of water management reform",
+      "link": "https://www.cio.com/article/4247561/ai-leadership-inside-how-the-climate-crisis-has-changed-water-management-why-did-the-korea-water-resources-corporation-choose-ai.html",
+      "source": "CIO.com",
+      "published": "2026-11-13T10:00:00+00:00",
+      "summary": "Korea Water Resources Corporation, better known as K-water, serves as sort of a water wholesaler, managing water in dams, treating it at purification plants, and supplying it to local municipalities. Now, the company is using AI to transform how to connect the flow of water from one end to the other. K-water has a long history of using technology to operate dams. In the past, however, it relied largely on historical climate patterns and operating experience accumulated over many years. As climat",
+      "categories": [
+        "Artificial Intelligence, Change Management, Government, Government IT, Industry, IT Leadership, IT Operations, Markets"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4247561-0-49034300-1794564283-k-water-ai-VP.jpg?quality=50&strip=all"
+    },
+    "w11": {
+      "title": "Cisco\u2019s 4 pillars for achieving agentic AI transformation",
+      "link": "https://www.cio.com/article/4247042/ciscos-4-pillars-to-achieve-agentic-ai-transformation.html",
+      "source": "CIO.com",
+      "published": "2026-11-13T10:00:00+00:00",
+      "summary": "Cisco Systems, a giant in networking, cybersecurity, and AI, is leveraging a combination of agentic AI, traditional AI, and automation to transform its business from top to bottom. Liz Centoni, EVP and chief customer experience officer, is at the helm of the company\u2019s $15 billion services business, an organization of 20,000 employees responsible for professional services, customer success, technical support, and the renewals engine for software and services. In 2024, she led the company\u2019s $28 bi",
+      "categories": [
+        "Artificial Intelligence, C-Suite, Careers, CIO, Cisco Systems, Digital Transformation, Emerging Technology, Industry, IT Leadership, IT Management, IT Strategy, Mergers and Acquisitions, Vendors and Providers"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4247042-0-57132400-1794564258-Liz-Centoni-EVP-and-chief-customer-experience-officer-Cisco.jpg?quality=50&strip=all"
+    },
+    "w12": {
+      "title": "Your AI ROI problem is a culture problem",
+      "link": "https://www.cio.com/article/4248056/your-ai-roi-problem-is-a-culture-problem.html",
+      "source": "CIO.com",
+      "published": "2026-11-13T09:00:00+00:00",
+      "summary": "These days, when I talk to CIOs about how their organizations are using AI, there\u2019s a lot less excitement about new tools and the potential for higher productivity, and a lot more anxiety about what the return on investment has been so far. Because for most companies, that return has been less than expected, especially as cost per token is increasing . Last year, IBM\u2019s 2025 CEO study found that only 25% of AI initiatives had delivered the expected ROI over the last few years, and only 16% had sc",
+      "categories": [
+        "Artificial Intelligence, Employee Experience, IT Leadership, IT Management, ROI and Metrics"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4248056-0-26036900-1794560620-AI-ready-data-culture-shutterstock_2676206639.jpg?quality=50&strip=all"
+    },
+    "w13": {
+      "title": "United Airlines becomes the latest enterprise to shut its door to customer bots",
+      "link": "https://www.cio.com/article/4248161/united-airlines-becomes-the-latest-enterprise-to-shut-its-door-to-customer-bots-2.html",
+      "source": "CIO.com",
+      "published": "2026-11-12T23:56:52+00:00",
+      "summary": "United Airlines on Wednesday became the latest enterprise to block customer bots, following similar moves from Walmart, Target and Amazon. The $59 billion airline, the second largest in the world, said the move was prompted by fears of data leakage, unintended purchases, and the risk of violating federal airline rules. But industry observers say that the more concerning business risks are the lack of industry standardization around AI coupled with an ever-increasing number of bots from major AI ",
+      "categories": [
+        "Artificial Intelligence, Data and Information Security, Security"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4248161-0-17678100-1794527830-happy-robots-chatting-by-juty_jang-via-shutterstock_2594534257.jpg?quality=50&strip=all"
+    },
+    "w14": {
+      "title": "Deploy frontier AI models on AWS Trainium with SGLang-Neuron",
+      "link": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-12T22:03:34+00:00",
+      "summary": "SGLang-Neuron is now publicly available through an AWS Deep Learning Container. With SGLang-Neuron, you can serve models and generate reinforcement learning rollouts with SGLang on AWS Trainium using the same SGLang interface you already know, all running on native PyTorch.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon EC2",
+        "Announcements",
+        "AWS Trainium"
+      ],
+      "image": null
+    },
+    "w15": {
+      "title": "How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-12T21:47:07+00:00",
+      "summary": "Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore that captures institutional lab-operations knowledge and deploys it at scale. This post walks through the full architecture, from knowledge base construction to deployment and evaluation, delivering about 130x faster first response and 96.2% automated coverage across support tickets.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock AgentCore",
+        "Customer Solutions"
+      ],
+      "image": null
+    },
+    "u1": {
+      "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+      "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+      "source": "Ars Technica",
+      "published": "2026-11-10T22:35:01+00:00",
+      "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+      "categories": [
+        "AI",
+        "Tech",
+        "AI drones",
+        "Amazon",
+        "amazon drones",
+        "drones",
+        "physical AI",
+        "ring",
+        "ring doorbell camera",
+        "Robotics",
+        "robots"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ring-Drone-1152x648.jpeg",
+      "date_mentioned": null
+    },
+    "u2": {
+      "title": "OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures",
+      "link": "https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-13T21:53:40+00:00",
+      "summary": "Deploy OpenFold3-preview from Amazon SageMaker JumpStart to predict 3D structures of proteins, DNA, RNA, and ligand complexes in your own AWS account. The post covers asynchronous inference, multi-GPU parallelism, bringing your own MSAs for accuracy and privacy, and scaling to zero to reduce cost.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon SageMaker AI",
+        "Amazon SageMaker JumpStart",
+        "Technical How-to"
+      ],
+      "image": null,
+      "date_mentioned": null
+    },
+    "u3": {
+      "title": "Jev and the era of model Tetris",
+      "link": "https://www.cio.com/article/4247450/jev-and-the-era-of-model-tetris.html",
+      "source": "CIO.com",
+      "published": "2026-11-12T09:00:00+00:00",
+      "summary": "This spring, in an interview after a keynote, I said we were all playing LLM Tetris now. The days of using the same LLM for every agent problem were over. Some decisions needed to come back in milliseconds, and some could take three minutes. Some needed generative output, and some needed logical decisions where an open-weight model might do. Fit the model to the use case. I still believe that. But I was only half right, because I was still picturing every piece as an LLM. Bigger or smaller, pric",
+      "categories": [
+        "Artificial Intelligence, IT Leadership, IT Strategy"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4247450-0-83495100-1794474146-patrick-kuo-e2jXOJdz5v8-unsplash.jpg?quality=50&strip=all",
+      "date_mentioned": null
+    },
+    "d1": {
+      "title": "Claude Fable 5.2 vs. Opus 5.5: Same scores at almost 4x the cost",
+      "link": "https://thenewstack.io/claude-fable-5-2-vs-opus-5-5/",
+      "source": "The New Stack",
+      "published": "2026-11-15T15:00:00+00:00",
+      "summary": "Anthropic released Claude Fable 5.2 on November 9 and said it beats Claude Opus 5.5 in almost every capability the",
+      "categories": [
+        "AI",
+        "Large Language Models",
+        "Software Development",
+        "Software Testing"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/fd7d63c5-steve-a-johnson-cnkk7hrczto-unsplash-1024x576.jpg"
+    },
+    "d2": {
+      "title": "Claude Fable 5.2 vs. Fable 5.1: Fewer refusals, with small savings on the login fix",
+      "link": "https://thenewstack.io/claude-fable-5-2-vs-fable-5-1/",
+      "source": "The New Stack",
+      "published": "2026-11-14T17:00:00+00:00",
+      "summary": "Anthropic\u2019s Claude Fable 5.2 promises fewer refusals and lower token prices, but those changes played out very differently in our",
+      "categories": [
+        "AI Models",
+        "Anthropic",
+        "Security",
+        "Software Development",
+        "Software Testing"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/83d1a882-new-material-ug-sm8dogsq-unsplash-scaled-e1794608865950-1024x682.jpg"
+    },
+    "d3": {
+      "title": "Anthropic wants you to build on Claude. There\u2019s a catch.",
+      "link": "https://thenewstack.io/anthropic-enterprise-developer-competition/",
+      "source": "The New Stack",
+      "published": "2026-11-14T15:15:00+00:00",
+      "summary": "Anthropic wants developers to build businesses on Claude, but its expansion into enterprise software is raising concerns among founders that",
+      "categories": [
+        "AI",
+        "AI Strategy",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/2d5f82cf-pablo-dr-yvf7hmzw3hu-unsplash-1024x683.jpg"
+    },
+    "d4": {
+      "title": "Claude Fable 5.2 vs. GPT-6 Astra: A lower list price didn\u2019t mean a lower bill",
+      "link": "https://thenewstack.io/claude-fable-5-2-vs-gpt-6-astra/",
+      "source": "The New Stack",
+      "published": "2026-11-14T14:00:00+00:00",
+      "summary": "Anthropic is positioning its new model, Claude Fable 5.2, for demanding coding and technical work. Anthropic launched Fable 5.2 on",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Anthropic",
+        "Large Language Models",
+        "Software Testing"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/4d6230a3-igor-omilaev-ufre8j7i8r4-unsplash-1024x800.jpg"
+    },
+    "d5": {
+      "title": "Anthropic now lets you self-host Claude Managed Agents. The catch? 8 hours to act if it flags a safety risk in the software",
+      "link": "https://thenewstack.io/self-hosted-claude-managed-agents/",
+      "source": "The New Stack",
+      "published": "2026-11-13T21:29:30+00:00",
+      "summary": "Anthropic has unveiled a self-hosted version of its platform for building and running AI agents. Self-hosted Claude Managed Agents, as",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "AI Infrastructure",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/2876cde1-public-domain-vectors-grxqbf6y-dq-unsplash-1024x646.jpg"
+    },
+    "d6": {
+      "title": "DeepSeek\u2019s coding agent is too tidy for its own good \u2014 and benchmarks are punishing it",
+      "link": "https://thenewstack.io/deepseek-harness-cleanup-benchmark/",
+      "source": "The New Stack",
+      "published": "2026-11-13T17:56:30+00:00",
+      "summary": "DeepSeek\u2019s open-source coding agent is losing points on a major benchmark for a habit developers usually treat as good practice:",
+      "categories": [
+        "AI Agents",
+        "AI Engineering",
+        "Open Source"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/ca5aed9f-handrush-supply-i8sfnhlttdo-unsplash-1024x724.jpg"
+    },
+    "d7": {
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "link": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+      "source": "GitHub Blog",
+      "published": "2026-11-12T22:54:52+00:00",
+      "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.",
+      "categories": [
+        "AI & ML",
+        "GitHub Copilot",
+        "GitHub Universe"
+      ],
+      "image": null
+    },
+    "d8": {
+      "title": "Google\u2019s Gemini 4 coding agent now switches models mid-task \u2014 and finishes 19% faster",
+      "link": "https://thenewstack.io/gemini-4-hydrogen-orchestrator/",
+      "source": "The New Stack",
+      "published": "2026-11-12T21:26:08+00:00",
+      "summary": "Google launched Gemini 4 Hydrogen on Thursday alongside a new system that changes how coding agents use AI models. Rather",
+      "categories": [
+        "AI Agents",
+        "AI Models",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/ea0c233e-rizki-ardia-p-a6oda-mqu-unsplash-1024x768.jpg"
+    },
+    "d9": {
+      "title": "Google\u2019s coding agents now /swarm for one developer. Cursor\u2019s go multiplayer so teammates\u2019 agents can talk.",
+      "link": "https://thenewstack.io/cursor-google-multiplayer-swarm/",
+      "source": "The New Stack",
+      "published": "2026-11-12T21:22:46+00:00",
+      "summary": "Coding agents are pretty good at working in parallel: one writes a new API endpoint, another updates the tests, while",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "AI Engineering",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/45becf85-mariia-berezovsky-nz3wa499hnm-unsplash-1-1024x576.jpg"
+    },
+    "d10": {
+      "title": "Google built an AI model that can\u2019t write a sentence \u2014 and that\u2019s the point",
+      "link": "https://thenewstack.io/google-gemini-decisions-api/",
+      "source": "The New Stack",
+      "published": "2026-11-12T17:02:36+00:00",
+      "summary": "Google\u2019s new Gemini Decisions API, introduced Wednesday, is designed to handle the routine decisions that AI applications make thousands of",
+      "categories": [
+        "AI Engineering",
+        "AI Models",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/06ad4161-getty-images-jl42pasbxhs-unsplash-1024x683.jpg"
+    },
+    "l1": {
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "link": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "source": "Ahead of AI",
+      "published": "2026-11-15T12:10:37+00:00",
+      "summary": "The Methods Behind How LLMs Represent Token Positions",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!8RKL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb461a2cb-11ab-474a-affe-0ee99e5a8782_2850x2777.png"
+    },
+    "l2": {
+      "title": "Open-source AI without Jensen",
+      "link": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
+      "source": "Interconnects",
+      "published": "2026-11-14T12:23:15+00:00",
+      "summary": "A decapitation. It\u2019s time to rebuild.",
+      "categories": [],
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/ecd978b1-9b6a-4a7d-9324-356397d10839_3182x1790.png"
+    },
+    "l3": {
+      "title": "The Pulse: What can we learn from the Railway hack?",
+      "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from-114",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-11-12T18:53:19+00:00",
+      "summary": "Also: native mobile and frontend jobs are disappearing, how trust helps an \u201cAI-native\u201d engineering team to succeed, Carta starts selling a coding harness, and more",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!qBog!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7cde86f6-c46b-4000-9c17-7754eab47daa_1330x1418.png"
+    },
+    "l4": {
+      "title": "Who Stands to Benefit From Jensen Huang\u2019s Downfall?",
+      "link": "https://www.thealgorithmicbridge.com/p/who-stands-to-benefit-from-jensen",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-12T17:18:33+00:00",
+      "summary": "He has resigned from Nvidia this morning",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!dsol!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c035f6d-1a63-42f3-94a7-8c7ae6c422a4_1672x941.png"
+    },
+    "l5": {
+      "title": "To the man with AI, everything looks like a task",
+      "link": "https://www.bensbites.com/p/to-the-man-with-ai-everything-looks",
+      "source": "Ben's Bites",
+      "published": "2026-11-12T14:03:11+00:00",
+      "summary": "Real* quote from Charlie Munger - lightly modernised :)",
+      "categories": [],
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/3ab095b6-9930-4835-bb46-744b70bab239_1053x745.png"
+    },
+    "l6": {
+      "title": "Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave",
+      "link": "https://lastweekin.ai/p/last-week-month-in-ai-347-nvidias",
+      "source": "Last Week in AI",
+      "published": "2026-11-11T14:21:42+00:00",
+      "summary": "Catching up on five weeks: Huang under investigation, Anthropic and OpenAI priced at $1.4T and $1.25T as spending stalls, Anthropic warns it may be nearing recursive self-improvement, Gemini 4 Carbon",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!N5MW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ea61f46-93d0-4d43-a74b-5751a649daba_1720x980.png"
+    },
+    "l7": {
+      "title": "Fable 5.2: Too Good",
+      "link": "https://www.thealgorithmicbridge.com/p/claude-fable-52-too-good",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-11T00:05:45+00:00",
+      "summary": "Reality is the only benchmark",
+      "categories": [],
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/e57670d6-8db0-46c4-86da-26eb45d071f3_1920x1080.png"
+    },
+    "l8": {
+      "title": "The missing quadrant in responses to AI",
+      "link": "https://www.normaltech.ai/p/the-missing-quadrant-in-responses",
+      "source": "AI as Normal Technology",
+      "published": "2026-11-10T18:37:42+00:00",
+      "summary": "Announcing STABL: Societal Transformation and AI Bottlenecks Lab",
+      "categories": [],
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/2095f300-0a39-4e16-a60f-6c8a94728bf9_1666x932.jpeg"
+    }
+  },
+  "llm_draft": {
+    "glance": [
+      {
+        "id": "n1",
+        "summary": "Nvidia faces calls from US lawmakers to tighten AI chip export rules following Jensen Huang's resignation."
+      },
+      {
+        "id": "n11",
+        "summary": "The FAA expanded an AI advice tool to manage air traffic congestion across all US airspace."
+      },
+      {
+        "id": "w13",
+        "summary": "United Airlines blocked customer AI bots due to fears of data leakage and regulatory risks."
+      },
+      {
+        "id": "w10",
+        "summary": "K-water is using AI to manage water flow from dams to purification plants and municipalities."
+      }
+    ],
+    "big_pour": [
+      {
+        "id": "n12",
+        "headline": "OpenAI launches ChatGPT Wallet for automated purchasing agents",
+        "teaser": "ChatGPT Wallet launches for AI agents",
+        "summary": "OpenAI is launching ChatGPT Wallet to allow its Dots AI agents to make purchases for eligible US ChatGPT Pro subscribers. The feature works with select US-issued credit cards.",
+        "why": "US Pro subscribers can now let AI agents buy things automatically using supported credit cards.",
+        "explain": {
+          "kid": "OpenAI built a digital wallet so smart computer helpers called Dots agents can buy things for grown-ups in the US who use ChatGPT Pro.",
+          "pm": "ChatGPT Wallet lets Dots AI agents make purchases for US ChatGPT Pro subscribers aged 18 and older who hold eligible US-issued credit cards.",
+          "engineer": "OpenAI integrated ChatGPT Wallet into its Dots agents platform, enabling automated transactions for US ChatGPT Pro users with eligible credit cards."
+        }
+      },
+      {
+        "id": "n9",
+        "headline": "Amazon plans global index of internet product data",
+        "teaser": "Amazon indexes global product data",
+        "summary": "Amazon plans to build the World Product Graph, a vault storing data on every product sold on the internet. The project aims to prevent shoppers from leaving Amazon to research products."
+      },
+      {
+        "id": "n11",
+        "headline": "FAA expands AI air traffic system across United States",
+        "teaser": "FAA expands AI air traffic management",
+        "summary": "The FAA expanded an AI advice tool across all US airspace to help manage air traffic congestion. While airlines praised the system, the air traffic controllers' union was not involved."
+      }
+    ],
+    "office_blend": [
+      {
+        "id": "w10",
+        "headline": "K-water uses AI to manage South Korean water",
+        "teaser": "K-water adopts AI water management",
+        "summary": "South Korean water wholesaler K-water is using AI to manage water flow from dams to purification plants and local municipalities, replacing historical climate patterns."
+      },
+      {
+        "id": "w13",
+        "headline": "United Airlines blocks customer AI bots from platform",
+        "teaser": "United Airlines blocks customer bots",
+        "summary": "United Airlines blocked customer bots to prevent data leakage, unintended purchases, and regulatory risks. It joins companies like Walmart, Target, and Amazon in restricting customer AI tools."
+      }
+    ],
+    "still_roasting": [
+      {
+        "id": "u1",
+        "summary": "Ring Robotics plans to debut AI-powered security drones and roaming robots in late 2026 and early 2027."
+      }
+    ],
+    "quick_sips": [
+      {
+        "id": "n1",
+        "summary": "Nvidia faces calls from US lawmakers to tighten export rules on AI chips following Jensen Huang's resignation."
+      },
+      {
+        "id": "n5",
+        "summary": "Apple and OpenAI have listed delayed or failed projects in a growing tracker of struggling AI initiatives."
+      },
+      {
+        "id": "w15",
+        "summary": "Natera built an agentic AI system called SWARM on Amazon Bedrock AgentCore to automate laboratory operations support."
+      }
+    ],
+    "builder": {
+      "stories": [
+        {
+          "id": "d8",
+          "label": "New tool",
+          "headline": "Google Gemini 4 Hydrogen switches models mid-task",
+          "summary": "Google introduced Gemini 4 Hydrogen, featuring a system that switches models during tasks to let coding agents complete work 19% faster."
+        },
+        {
+          "id": "d10",
+          "label": "New API",
+          "headline": "Google introduces Gemini Decisions API for routine choices",
+          "summary": "Google released the Gemini Decisions API, a model designed to handle routine application decisions without generating written text."
+        }
+      ],
+      "concept": {
+        "id": "d7",
+        "term": "Agent skills",
+        "explanation": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them."
+      }
+    },
+    "long_read": {
+      "id": "l1",
+      "headline": "Understanding Positional Embeddings in Modern LLMs",
+      "summary": "The Daily AI Cup highlights an analysis of the methods behind how large language models represent token positions."
+    }
+  },
+  "first_check": {
+    "n1": [
+      "name 'Huang's' is not in the source"
+    ],
+    "n11": [
+      "name 'United' is not in the source",
+      "name 'States' is not in the source"
+    ],
+    "w10": [
+      "name 'South' is not in the source",
+      "name 'Korean' is not in the source",
+      "name 'Korean' is not in the source"
+    ],
+    "l1": [
+      "name 'Daily' is not in the source",
+      "name 'Cup' is not in the source"
+    ]
+  },
+  "dropped": [],
+  "explain_dropped": []
+}

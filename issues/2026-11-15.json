@@ -1,0 +1,188 @@
+{
+  "glance": [
+    {
+      "id": "n1",
+      "summary": "Congress is looking to tighten export rules on AI chips following a scandal involving now-former Nvidia CEO Jensen Huang.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n11",
+      "headline": "FAA expands AI advice across entire US airspace",
+      "teaser": "FAA expands AI advice tool",
+      "summary": "The FAA expanded an AI advice tool to manage air traffic congestion across entire US airspace. Airlines praised the tool, but the air traffic controllers' union was not involved.",
+      "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "w13",
+      "summary": "United Airlines blocked customer AI bots due to fears of data leakage and regulatory risks.",
+      "link": "https://www.cio.com/article/4248161/united-airlines-becomes-the-latest-enterprise-to-shut-its-door-to-customer-bots-2.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4248161-0-17678100-1794527830-happy-robots-chatting-by-juty_jang-via-shutterstock_2594534257.jpg?quality=50&strip=all"
+    },
+    {
+      "id": "w10",
+      "headline": "K-water uses AI to manage water flow",
+      "teaser": "K-water adopts AI water management",
+      "summary": "Water wholesaler K-water is using AI to connect the flow of water from dams to purification plants and local municipalities.",
+      "link": "https://www.cio.com/article/4247561/ai-leadership-inside-how-the-climate-crisis-has-changed-water-management-why-did-the-korea-water-resources-corporation-choose-ai.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4247561-0-49034300-1794564283-k-water-ai-VP.jpg?quality=50&strip=all"
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n12",
+      "headline": "OpenAI launches ChatGPT Wallet for automated purchasing agents",
+      "teaser": "ChatGPT Wallet launches for AI agents",
+      "summary": "OpenAI is launching ChatGPT Wallet to allow its Dots AI agents to make purchases for eligible US ChatGPT Pro subscribers. The feature works with select US-issued credit cards.",
+      "why": "US Pro subscribers can now let AI agents buy things automatically using supported credit cards.",
+      "explain": {
+        "kid": "OpenAI built a digital wallet so smart computer helpers called Dots agents can buy things for grown-ups in the US who use ChatGPT Pro.",
+        "pm": "ChatGPT Wallet lets Dots AI agents make purchases for US ChatGPT Pro subscribers aged 18 and older who hold eligible US-issued credit cards.",
+        "engineer": "OpenAI integrated ChatGPT Wallet into its Dots agents platform, enabling automated transactions for US ChatGPT Pro users with eligible credit cards."
+      },
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n9",
+      "headline": "Amazon plans global index of internet product data",
+      "teaser": "Amazon indexes global product data",
+      "summary": "Amazon plans to build the World Product Graph, a vault storing data on every product sold on the internet. The project aims to prevent shoppers from leaving Amazon to research products.",
+      "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/acastro_STK103__03.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n11",
+      "headline": "FAA expands AI advice across entire US airspace",
+      "teaser": "FAA expands AI advice tool",
+      "summary": "The FAA expanded an AI advice tool to manage air traffic congestion across entire US airspace. Airlines praised the tool, but the air traffic controllers' union was not involved.",
+      "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg",
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w10",
+      "headline": "K-water uses AI to manage water flow",
+      "teaser": "K-water adopts AI water management",
+      "summary": "Water wholesaler K-water is using AI to connect the flow of water from dams to purification plants and local municipalities.",
+      "link": "https://www.cio.com/article/4247561/ai-leadership-inside-how-the-climate-crisis-has-changed-water-management-why-did-the-korea-water-resources-corporation-choose-ai.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4247561-0-49034300-1794564283-k-water-ai-VP.jpg?quality=50&strip=all"
+    },
+    {
+      "id": "w13",
+      "headline": "United Airlines blocks customer AI bots from platform",
+      "teaser": "United Airlines blocks customer bots",
+      "summary": "United Airlines blocked customer bots to prevent data leakage, unintended purchases, and regulatory risks. It joins companies like Walmart, Target, and Amazon in restricting customer AI tools.",
+      "link": "https://www.cio.com/article/4248161/united-airlines-becomes-the-latest-enterprise-to-shut-its-door-to-customer-bots-2.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4248161-0-17678100-1794527830-happy-robots-chatting-by-juty_jang-via-shutterstock_2594534257.jpg?quality=50&strip=all"
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u1",
+      "summary": "Ring Robotics plans to debut AI-powered security drones and roaming robots in late 2026 and early 2027.",
+      "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ring-Drone-1152x648.jpeg",
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n1",
+      "summary": "Congress is looking to tighten export rules on AI chips following a scandal involving now-former Nvidia CEO Jensen Huang.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n5",
+      "summary": "Apple and OpenAI have listed delayed or failed projects in a growing tracker of struggling AI initiatives.",
+      "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "w15",
+      "summary": "Natera built an agentic AI system called SWARM on Amazon Bedrock AgentCore to automate laboratory operations support.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d8",
+        "label": "New tool",
+        "headline": "Google Gemini 4 Hydrogen switches models mid-task",
+        "summary": "Google introduced Gemini 4 Hydrogen, featuring a system that switches models during tasks to let coding agents complete work 19% faster.",
+        "link": "https://thenewstack.io/gemini-4-hydrogen-orchestrator/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/ea0c233e-rizki-ardia-p-a6oda-mqu-unsplash-1024x768.jpg"
+      },
+      {
+        "id": "d10",
+        "label": "New API",
+        "headline": "Google introduces Gemini Decisions API for routine choices",
+        "summary": "Google released the Gemini Decisions API, a model designed to handle routine application decisions without generating written text.",
+        "link": "https://thenewstack.io/google-gemini-decisions-api/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/06ad4161-getty-images-jl42pasbxhs-unsplash-1024x683.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d7",
+      "term": "Agent skills",
+      "explanation": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.",
+      "link": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+      "source": "GitHub Blog",
+      "image": null
+    }
+  },
+  "long_read": {
+    "id": "l1",
+    "headline": "Understanding Positional Embeddings in Modern LLMs",
+    "summary": "An analysis explains the methods behind how LLMs represent token positions.",
+    "link": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+    "source": "Ahead of AI",
+    "image": "https://substackcdn.com/image/fetch/$s_!8RKL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb461a2cb-11ab-474a-affe-0ee99e5a8782_2850x2777.png"
+  },
+  "number": 21,
+  "date_iso": "2026-11-15",
+  "date_long": "Sunday \u00b7 15 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-15",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": {
+    "term": "Prompt injection",
+    "definition": "An attack where text the model reads (an email, web page, or document) contains instructions that try to override what the app told the model to do.",
+    "heard": "\"The summariser followed instructions hidden in the email. Classic prompt injection.\"",
+    "analogy": "Like a note slipped into an order that says 'make every drink free'.",
+    "reviewed": false,
+    "theme": "Safety and operations",
+    "day": 1
+  },
+  "keep_brewing": null,
+  "poll": null
+}

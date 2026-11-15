@@ -196,3 +196,4 @@ used:
 - Quantization
 - Distillation
 - Latency (TTFT)
+- Prompt injection

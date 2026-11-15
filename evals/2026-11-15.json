@@ -1,0 +1,308 @@
+{
+  "date": "2026-11-15",
+  "claims": 36,
+  "supported": 35,
+  "partial": 1,
+  "unsupported": 0,
+  "faithfulness": 0.986,
+  "flagged": [
+    {
+      "section": "big_pour",
+      "id": "n9",
+      "claim": "The project aims to prevent shoppers from leaving Amazon to research products.",
+      "source": "Amazon has a plan to index the world\u2019s online shopping data. Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their [\u2026]",
+      "verdict": "partial",
+      "reason": "The core intention of keeping shoppers on Amazon is supported, but the text cuts off before explicitly mentioning 'research products'."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n1",
+      "claim": "Congress is looking to tighten export rules on AI chips following a scandal involving now-former Nvidia CEO Jensen Huang.",
+      "source": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal. Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Congress wants to tighten AI chip export rules following a scandal involving former Nvidia CEO Jensen Huang."
+    },
+    {
+      "section": "glance",
+      "id": "n11",
+      "claim": "FAA expands AI advice across entire US airspace",
+      "source": "FAA expands AI advice to manage air traffic congestion across entire US airspace. Airlines praised the AI tool, but the air traffic controllers\u2019 union wasn\u2019t involved.",
+      "verdict": "supported",
+      "reason": "The source headline confirms the FAA is expanding AI advice across the entire US airspace."
+    },
+    {
+      "section": "glance",
+      "id": "n11",
+      "claim": "The FAA expanded an AI advice tool to manage air traffic congestion across entire US airspace.",
+      "source": "FAA expands AI advice to manage air traffic congestion across entire US airspace. Airlines praised the AI tool, but the air traffic controllers\u2019 union wasn\u2019t involved.",
+      "verdict": "supported",
+      "reason": "The source states that the FAA expanded AI advice to manage air traffic congestion across the entire US airspace."
+    },
+    {
+      "section": "glance",
+      "id": "n11",
+      "claim": "Airlines praised the tool, but the air traffic controllers' union was not involved.",
+      "source": "FAA expands AI advice to manage air traffic congestion across entire US airspace. Airlines praised the AI tool, but the air traffic controllers\u2019 union wasn\u2019t involved.",
+      "verdict": "supported",
+      "reason": "The source directly states that airlines praised the AI tool, but the air traffic controllers' union was not involved."
+    },
+    {
+      "section": "glance",
+      "id": "w13",
+      "claim": "United Airlines blocked customer AI bots due to fears of data leakage and regulatory risks.",
+      "source": "United Airlines becomes the latest enterprise to shut its door to customer bots. United Airlines on Wednesday became the latest enterprise to block customer bots, following similar moves from Walmart, Target and Amazon. The $59 billion airline, the second largest in the world, said the move was prompted by fears of data leakage, unintended purchases, and the risk of violating federal airline rules. But industry observers say that the more concerning business risks are the lack of industry standardization around AI coupled with an ever-increasing number of bots from major AI ",
+      "verdict": "supported",
+      "reason": "The source mentions United Airlines blocked customer bots due to fears of data leakage and the risk of violating federal rules."
+    },
+    {
+      "section": "glance",
+      "id": "w10",
+      "claim": "K-water uses AI to manage water flow",
+      "source": "The AI at the source of water management reform. Korea Water Resources Corporation, better known as K-water, serves as sort of a water wholesaler, managing water in dams, treating it at purification plants, and supplying it to local municipalities. Now, the company is using AI to transform how to connect the flow of water from one end to the other. K-water has a long history of using technology to operate dams. In the past, however, it relied largely on historical climate patterns and operating experience accumulated over many years. As climat",
+      "verdict": "supported",
+      "reason": "The source mentions K-water is using AI to connect and manage the flow of water."
+    },
+    {
+      "section": "glance",
+      "id": "w10",
+      "claim": "Water wholesaler K-water is using AI to connect the flow of water from dams to purification plants and local municipalities.",
+      "source": "The AI at the source of water management reform. Korea Water Resources Corporation, better known as K-water, serves as sort of a water wholesaler, managing water in dams, treating it at purification plants, and supplying it to local municipalities. Now, the company is using AI to transform how to connect the flow of water from one end to the other. K-water has a long history of using technology to operate dams. In the past, however, it relied largely on historical climate patterns and operating experience accumulated over many years. As climat",
+      "verdict": "supported",
+      "reason": "The source identifies K-water as a water wholesaler managing dams, purification plants, and municipal supply, now using AI to connect water flow."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "OpenAI launches ChatGPT Wallet for automated purchasing agents",
+      "source": "ChatGPT Wallet lets OpenAI\u2019s Dots agents make purchases for you. After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states OpenAI is launching ChatGPT Wallet to allow its Dots AI agents to make purchases."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "OpenAI is launching ChatGPT Wallet to allow its Dots AI agents to make purchases for eligible US ChatGPT Pro subscribers.",
+      "source": "ChatGPT Wallet lets OpenAI\u2019s Dots agents make purchases for you. After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms OpenAI is launching ChatGPT Wallet for Dots AI agents to make purchases for eligible ChatGPT Pro subscribers in the US."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "The feature works with select US-issued credit cards.",
+      "source": "ChatGPT Wallet lets OpenAI\u2019s Dots agents make purchases for you. After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card [\u2026]",
+      "verdict": "supported",
+      "reason": "The source mentions the feature works with eligible US-issued American Express, Chase, Mastercard, and Visa cards."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "US Pro subscribers can now let AI agents buy things automatically using supported credit cards.",
+      "source": "ChatGPT Wallet lets OpenAI\u2019s Dots agents make purchases for you. After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states US ChatGPT Pro subscribers can use the wallet to let AI agents make purchases using eligible cards."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "OpenAI built a digital wallet so smart computer helpers called Dots agents can buy things for grown-ups in the US who use ChatGPT Pro.",
+      "source": "ChatGPT Wallet lets OpenAI\u2019s Dots agents make purchases for you. After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card [\u2026]",
+      "verdict": "supported",
+      "reason": "The source details that OpenAI built ChatGPT Wallet for Dots agents to buy things for US ChatGPT Pro subscribers aged 18 and older."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "ChatGPT Wallet lets Dots AI agents make purchases for US ChatGPT Pro subscribers aged 18 and older who hold eligible US-issued credit cards.",
+      "source": "ChatGPT Wallet lets OpenAI\u2019s Dots agents make purchases for you. After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states that ChatGPT Wallet lets OpenAI's Dots agents make purchases for US ChatGPT Pro subscribers aged 18 and older with eligible cards."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "OpenAI integrated ChatGPT Wallet into its Dots agents platform, enabling automated transactions for US ChatGPT Pro users with eligible credit cards.",
+      "source": "ChatGPT Wallet lets OpenAI\u2019s Dots agents make purchases for you. After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms OpenAI launched a wallet for its Dots agents platform to make purchases for eligible US ChatGPT Pro subscribers."
+    },
+    {
+      "section": "big_pour",
+      "id": "n9",
+      "claim": "Amazon plans global index of internet product data",
+      "source": "Amazon has a plan to index the world\u2019s online shopping data. Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Amazon plans to index online shopping data globally for products sold anywhere on the internet."
+    },
+    {
+      "section": "big_pour",
+      "id": "n9",
+      "claim": "Amazon plans to build the World Product Graph, a vault storing data on every product sold on the internet.",
+      "source": "Amazon has a plan to index the world\u2019s online shopping data. Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their [\u2026]",
+      "verdict": "supported",
+      "reason": " exact match for the source describing the project named 'World Product Graph' as a vault of data on every product sold on the internet."
+    },
+    {
+      "section": "big_pour",
+      "id": "n9",
+      "claim": "The project aims to prevent shoppers from leaving Amazon to research products.",
+      "source": "Amazon has a plan to index the world\u2019s online shopping data. Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their [\u2026]",
+      "verdict": "partial",
+      "reason": "The core intention of keeping shoppers on Amazon is supported, but the text cuts off before explicitly mentioning 'research products'."
+    },
+    {
+      "section": "big_pour",
+      "id": "n11",
+      "claim": "FAA expands AI advice across entire US airspace",
+      "source": "FAA expands AI advice to manage air traffic congestion across entire US airspace. Airlines praised the AI tool, but the air traffic controllers\u2019 union wasn\u2019t involved.",
+      "verdict": "supported",
+      "reason": "The source headline directly states that the FAA expands AI advice across the entire US airspace."
+    },
+    {
+      "section": "big_pour",
+      "id": "n11",
+      "claim": "The FAA expanded an AI advice tool to manage air traffic congestion across entire US airspace.",
+      "source": "FAA expands AI advice to manage air traffic congestion across entire US airspace. Airlines praised the AI tool, but the air traffic controllers\u2019 union wasn\u2019t involved.",
+      "verdict": "supported",
+      "reason": "The text directly states that the FAA expanded AI advice to manage air traffic congestion across the entire US airspace."
+    },
+    {
+      "section": "big_pour",
+      "id": "n11",
+      "claim": "Airlines praised the tool, but the air traffic controllers' union was not involved.",
+      "source": "FAA expands AI advice to manage air traffic congestion across entire US airspace. Airlines praised the AI tool, but the air traffic controllers\u2019 union wasn\u2019t involved.",
+      "verdict": "supported",
+      "reason": "The source directly states that airlines praised the tool while the air traffic controllers' union was not involved."
+    },
+    {
+      "section": "office_blend",
+      "id": "w10",
+      "claim": "K-water uses AI to manage water flow",
+      "source": "The AI at the source of water management reform. Korea Water Resources Corporation, better known as K-water, serves as sort of a water wholesaler, managing water in dams, treating it at purification plants, and supplying it to local municipalities. Now, the company is using AI to transform how to connect the flow of water from one end to the other. K-water has a long history of using technology to operate dams. In the past, however, it relied largely on historical climate patterns and operating experience accumulated over many years. As climat",
+      "verdict": "supported",
+      "reason": "The text confirms K-water is using AI to transform how it connects the flow of water."
+    },
+    {
+      "section": "office_blend",
+      "id": "w10",
+      "claim": "Water wholesaler K-water is using AI to connect the flow of water from dams to purification plants and local municipalities.",
+      "source": "The AI at the source of water management reform. Korea Water Resources Corporation, better known as K-water, serves as sort of a water wholesaler, managing water in dams, treating it at purification plants, and supplying it to local municipalities. Now, the company is using AI to transform how to connect the flow of water from one end to the other. K-water has a long history of using technology to operate dams. In the past, however, it relied largely on historical climate patterns and operating experience accumulated over many years. As climat",
+      "verdict": "supported",
+      "reason": "The source identifies K-water as a water wholesaler managing dams, purification plants, and supply to municipalities using AI to connect water flow."
+    },
+    {
+      "section": "office_blend",
+      "id": "w13",
+      "claim": "United Airlines blocks customer AI bots from platform",
+      "source": "United Airlines becomes the latest enterprise to shut its door to customer bots. United Airlines on Wednesday became the latest enterprise to block customer bots, following similar moves from Walmart, Target and Amazon. The $59 billion airline, the second largest in the world, said the move was prompted by fears of data leakage, unintended purchases, and the risk of violating federal airline rules. But industry observers say that the more concerning business risks are the lack of industry standardization around AI coupled with an ever-increasing number of bots from major AI ",
+      "verdict": "supported",
+      "reason": "The source explicitly reports that United Airlines blocked customer bots from its platform."
+    },
+    {
+      "section": "office_blend",
+      "id": "w13",
+      "claim": "United Airlines blocked customer bots to prevent data leakage, unintended purchases, and regulatory risks.",
+      "source": "United Airlines becomes the latest enterprise to shut its door to customer bots. United Airlines on Wednesday became the latest enterprise to block customer bots, following similar moves from Walmart, Target and Amazon. The $59 billion airline, the second largest in the world, said the move was prompted by fears of data leakage, unintended purchases, and the risk of violating federal airline rules. But industry observers say that the more concerning business risks are the lack of industry standardization around AI coupled with an ever-increasing number of bots from major AI ",
+      "verdict": "supported",
+      "reason": "The source notes the move was prompted by fears of data leakage, unintended purchases, and violating federal rules."
+    },
+    {
+      "section": "office_blend",
+      "id": "w13",
+      "claim": "It joins companies like Walmart, Target, and Amazon in restricting customer AI tools.",
+      "source": "United Airlines becomes the latest enterprise to shut its door to customer bots. United Airlines on Wednesday became the latest enterprise to block customer bots, following similar moves from Walmart, Target and Amazon. The $59 billion airline, the second largest in the world, said the move was prompted by fears of data leakage, unintended purchases, and the risk of violating federal airline rules. But industry observers say that the more concerning business risks are the lack of industry standardization around AI coupled with an ever-increasing number of bots from major AI ",
+      "verdict": "supported",
+      "reason": "The source explicitly states United Airlines blocked customer bots, following similar moves from Walmart, Target, and Amazon."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u1",
+      "claim": "Ring Robotics plans to debut AI-powered security drones and roaming robots in late 2026 and early 2027.",
+      "source": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot. Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+      "verdict": "supported",
+      "reason": "The source confirms Amazon's roaming Ring Robotics devices, including AI-powered security drones and robots, will debut in late 2026 and early 2027."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n1",
+      "claim": "Congress is looking to tighten export rules on AI chips following a scandal involving now-former Nvidia CEO Jensen Huang.",
+      "source": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal. Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states Congress is looking to further restrict AI chip exports following a scandal involving former Nvidia CEO Jensen Huang."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n5",
+      "claim": "Apple and OpenAI have listed delayed or failed projects in a growing tracker of struggling AI initiatives.",
+      "source": "The AI graveyard: a running list of projects and startups that didn\u2019t make it. From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "verdict": "supported",
+      "reason": "The source lists delayed or failed initiatives from Apple and OpenAI in a tracker of AI projects that missed expectations or shut down."
+    },
+    {
+      "section": "quick_sips",
+      "id": "w15",
+      "claim": "Natera built an agentic AI system called SWARM on Amazon Bedrock AgentCore to automate laboratory operations support.",
+      "source": "How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore. Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore that captures institutional lab-operations knowledge and deploys it at scale. This post walks through the full architecture, from knowledge base construction to deployment and evaluation, delivering about 130x faster first response and 96.2% automated coverage across support tickets.",
+      "verdict": "supported",
+      "reason": "The source confirms Natera built SWARM using Amazon Bedrock AgentCore to automate lab-operations support."
+    },
+    {
+      "section": "builder",
+      "id": "d8",
+      "claim": "Google Gemini 4 Hydrogen switches models mid-task",
+      "source": "Google\u2019s Gemini 4 coding agent now switches models mid-task \u2014 and finishes 19% faster. Google launched Gemini 4 Hydrogen on Thursday alongside a new system that changes how coding agents use AI models. Rather",
+      "verdict": "supported",
+      "reason": "The source confirms Google launched Gemini 4 Hydrogen alongside a system that allows coding agents to switch models mid-task."
+    },
+    {
+      "section": "builder",
+      "id": "d8",
+      "claim": "Google introduced Gemini 4 Hydrogen, featuring a system that switches models during tasks to let coding agents complete work 19% faster.",
+      "source": "Google\u2019s Gemini 4 coding agent now switches models mid-task \u2014 and finishes 19% faster. Google launched Gemini 4 Hydrogen on Thursday alongside a new system that changes how coding agents use AI models. Rather",
+      "verdict": "supported",
+      "reason": "The source states Google introduced Gemini 4 Hydrogen with a system that enables coding agents to switch models mid-task and finish 19% faster."
+    },
+    {
+      "section": "builder",
+      "id": "d10",
+      "claim": "Google introduces Gemini Decisions API for routine choices",
+      "source": "Google built an AI model that can\u2019t write a sentence \u2014 and that\u2019s the point. Google\u2019s new Gemini Decisions API, introduced Wednesday, is designed to handle the routine decisions that AI applications make thousands of",
+      "verdict": "supported",
+      "reason": "The source confirms Google introduced the Gemini Decisions API to handle routine application decisions."
+    },
+    {
+      "section": "builder",
+      "id": "d10",
+      "claim": "Google released the Gemini Decisions API, a model designed to handle routine application decisions without generating written text.",
+      "source": "Google built an AI model that can\u2019t write a sentence \u2014 and that\u2019s the point. Google\u2019s new Gemini Decisions API, introduced Wednesday, is designed to handle the routine decisions that AI applications make thousands of",
+      "verdict": "supported",
+      "reason": "The source states the Gemini Decisions API is designed for routine decisions and cannot write text."
+    },
+    {
+      "section": "concept",
+      "id": "d7",
+      "claim": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.",
+      "source": "Build once, run on any agent: A practical guide to agent skills. Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.",
+      "verdict": "supported",
+      "reason": "The claim directly quotes the provided source text verbatim."
+    },
+    {
+      "section": "long_read",
+      "id": "l1",
+      "claim": "Understanding Positional Embeddings in Modern LLMs",
+      "source": "Understanding Positional Embeddings in Modern LLMs. The Methods Behind How LLMs Represent Token Positions",
+      "verdict": "supported",
+      "reason": "The claim matches the exact title of the provided source text."
+    },
+    {
+      "section": "long_read",
+      "id": "l1",
+      "claim": "An analysis explains the methods behind how LLMs represent token positions.",
+      "source": "Understanding Positional Embeddings in Modern LLMs. The Methods Behind How LLMs Represent Token Positions",
+      "verdict": "supported",
+      "reason": "The source subtitle states that it explains the methods behind how LLMs represent token positions."
+    }
+  ]
+}
