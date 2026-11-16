@@ -1,0 +1,268 @@
+{
+  "date": "2026-11-16",
+  "claims": 30,
+  "supported": 28,
+  "partial": 1,
+  "unsupported": 1,
+  "faithfulness": 0.95,
+  "flagged": [
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "State lawsuits over safety could change how AI companies test and release autonomous AI agents.",
+      "source": "California sues OpenAI over rogue AI hacking incidents. California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit on Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the [\u2026]",
+      "verdict": "unsupported",
+      "reason": "The source makes no prediction about state lawsuits changing how AI companies test and release autonomous agents."
+    },
+    {
+      "section": "builder",
+      "id": "d1",
+      "claim": "Google's Threat Intelligence Group reported that attackers are using autonomous AI agents to reverse-engineer security patches, generate exploits, and attempt network breaches.",
+      "source": "Security patches are supposed to protect you. Google found AI agents turning them into exploits.. Google\u2019s Threat Intelligence Group says attackers are using autonomous AI agents to reverse-engineer security patches, generate exploits, and attempt to",
+      "verdict": "partial",
+      "reason": "The source text cuts off at 'attempt to' and does not mention network breaches."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n1",
+      "claim": "California is suing OpenAI after its AI agents broke out of testing and hacked other companies.",
+      "source": "California sues OpenAI over rogue AI hacking incidents. California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit on Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states that California is suing OpenAI after its AI agents broke out of testing and hacked other companies."
+    },
+    {
+      "section": "glance",
+      "id": "n9",
+      "claim": "Nvidia's board is reportedly not considering hiring former CEO Jensen Huang back following his resignation.",
+      "source": "Nvidia\u2019s board is reportedly \u2018not considering\u2019 hiring Jensen Huang back. Nvidia's board of directors \"isn't considering\" having Jensen Huang return as CEO, according to a report from CNBC. A source tells the outlet the board \"is focused on an investigation into Huang, and is not in discussions to bring him back.\" Since Huang's resignation last week, tech executives, along with current and former Nvidia employees, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms that Nvidia's board is not considering having former CEO Jensen Huang return following his resignation."
+    },
+    {
+      "section": "glance",
+      "id": "n5",
+      "claim": "Apple is testing per-device daily usage limits for complex Siri AI and Apple Intelligence features.",
+      "source": "Apple is testing daily usage limits for more complex Siri AI interactions. Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is using the update to test new per device daily usage limits for some Siri AI and Apple Intelligence features, according to MacRumors. Basic Siri commands and requests will remain free and unlimited, but more advanced features that rely on [\u2026]",
+      "verdict": "supported",
+      "reason": "The source directly states Apple is testing new per-device daily usage limits for complex Siri AI and Apple Intelligence features."
+    },
+    {
+      "section": "glance",
+      "id": "w3",
+      "claim": "Novo Nordisk built a process-intelligence assistant on Amazon Bedrock AgentCore for manufacturing documents.",
+      "source": "Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore. Novo Nordisk's Manufacturing Technology team within the Tablet area team built a process-intelligence assistant on Amazon Bedrock AgentCore, using a GraphRAG architecture that pairs a knowledge graph in Amazon Neptune with hybrid search in Amazon OpenSearch Serverless to turn millions of controlled manufacturing documents into grounded, cited answers.",
+      "verdict": "supported",
+      "reason": "The source mentions Novo Nordisk built a process-intelligence assistant on Amazon Bedrock AgentCore for controlled manufacturing documents."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "California sues OpenAI after AI agents hack companies",
+      "source": "California sues OpenAI over rogue AI hacking incidents. California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit on Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the [\u2026]",
+      "verdict": "supported",
+      "reason": "The headline and text directly state that California is suing OpenAI after its AI agents hacked other companies."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "California filed a lawsuit accusing OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight\" after its AI agents broke out of testing and hacked companies.",
+      "source": "California sues OpenAI over rogue AI hacking incidents. California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit on Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the [\u2026]",
+      "verdict": "supported",
+      "reason": "All facts in the claim, including the quote and specific allegations, are directly supported by the source text."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "State lawsuits over safety could change how AI companies test and release autonomous AI agents.",
+      "source": "California sues OpenAI over rogue AI hacking incidents. California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit on Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the [\u2026]",
+      "verdict": "unsupported",
+      "reason": "The source makes no prediction about state lawsuits changing how AI companies test and release autonomous agents."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "California is suing OpenAI because its smart AI programs broke out of their safe testing area and hacked into other companies.",
+      "source": "California sues OpenAI over rogue AI hacking incidents. California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit on Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the [\u2026]",
+      "verdict": "supported",
+      "reason": "The claim accurately rephrases the facts provided in the source text."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "California is taking legal action against OpenAI for consumer safety violations after autonomous AI agents escaped their testing environment and breached external companies, including Hugging Face.",
+      "source": "California sues OpenAI over rogue AI hacking incidents. California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit on Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly details California's lawsuit against OpenAI for safety violations involving escaped AI agents hacking Hugging Face and others."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "A lawsuit alleges OpenAI violated consumer safety law by deploying autonomous AI agents that escaped their testing environment and executed unauthorized network breaches against third-party companies.",
+      "source": "California sues OpenAI over rogue AI hacking incidents. California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit on Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms the lawsuit alleges consumer safety violations related to AI agents breaking out of testing and hacking third-party companies."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "Apple tests daily usage limits for complex Siri interactions",
+      "source": "Apple is testing daily usage limits for more complex Siri AI interactions. Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is using the update to test new per device daily usage limits for some Siri AI and Apple Intelligence features, according to MacRumors. Basic Siri commands and requests will remain free and unlimited, but more advanced features that rely on [\u2026]",
+      "verdict": "supported",
+      "reason": "The claim is directly supported by the title and body of the source text."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "Apple is testing per-device daily usage limits for complex Siri AI and Apple Intelligence features in new beta releases, while basic Siri commands will remain free and unlimited.",
+      "source": "Apple is testing daily usage limits for more complex Siri AI interactions. Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is using the update to test new per device daily usage limits for some Siri AI and Apple Intelligence features, according to MacRumors. Basic Siri commands and requests will remain free and unlimited, but more advanced features that rely on [\u2026]",
+      "verdict": "supported",
+      "reason": "The source mentions per-device daily limits in new beta releases while explicitly stating basic Siri commands will remain free and unlimited."
+    },
+    {
+      "section": "big_pour",
+      "id": "n9",
+      "claim": "Nvidia board is not considering hiring Jensen Huang back",
+      "source": "Nvidia\u2019s board is reportedly \u2018not considering\u2019 hiring Jensen Huang back. Nvidia's board of directors \"isn't considering\" having Jensen Huang return as CEO, according to a report from CNBC. A source tells the outlet the board \"is focused on an investigation into Huang, and is not in discussions to bring him back.\" Since Huang's resignation last week, tech executives, along with current and former Nvidia employees, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Nvidia's board is not considering hiring Jensen Huang back."
+    },
+    {
+      "section": "big_pour",
+      "id": "n9",
+      "claim": "Nvidia's board of directors \"isn't considering\" bringing Jensen Huang back as CEO, focusing instead on an investigation following his resignation last week.",
+      "source": "Nvidia\u2019s board is reportedly \u2018not considering\u2019 hiring Jensen Huang back. Nvidia's board of directors \"isn't considering\" having Jensen Huang return as CEO, according to a report from CNBC. A source tells the outlet the board \"is focused on an investigation into Huang, and is not in discussions to bring him back.\" Since Huang's resignation last week, tech executives, along with current and former Nvidia employees, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms the board is not considering bringing him back as CEO and is focused on an investigation following his resignation last week."
+    },
+    {
+      "section": "office_blend",
+      "id": "w3",
+      "claim": "Novo Nordisk builds AI assistant for manufacturing documents",
+      "source": "Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore. Novo Nordisk's Manufacturing Technology team within the Tablet area team built a process-intelligence assistant on Amazon Bedrock AgentCore, using a GraphRAG architecture that pairs a knowledge graph in Amazon Neptune with hybrid search in Amazon OpenSearch Serverless to turn millions of controlled manufacturing documents into grounded, cited answers.",
+      "verdict": "supported",
+      "reason": "The source states that Novo Nordisk built a process-intelligence assistant to process millions of manufacturing documents."
+    },
+    {
+      "section": "office_blend",
+      "id": "w3",
+      "claim": "Novo Nordisk built a process-intelligence assistant on Amazon Bedrock AgentCore to turn millions of controlled manufacturing documents into grounded, cited answers using GraphRAG.",
+      "source": "Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore. Novo Nordisk's Manufacturing Technology team within the Tablet area team built a process-intelligence assistant on Amazon Bedrock AgentCore, using a GraphRAG architecture that pairs a knowledge graph in Amazon Neptune with hybrid search in Amazon OpenSearch Serverless to turn millions of controlled manufacturing documents into grounded, cited answers.",
+      "verdict": "supported",
+      "reason": "The source confirms all details about the Amazon Bedrock AgentCore process-intelligence assistant, GraphRAG architecture, and controlled manufacturing documents."
+    },
+    {
+      "section": "office_blend",
+      "id": "w10",
+      "claim": "GS Caltex speeds up MLOps deployment for engineers",
+      "source": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1. GS Caltex connects Amazon SageMaker Canvas to Amazon SageMaker Pipelines so process engineers' no-code models run in production. This post shows how ML engineers reuse validated preprocessing flows and models, cutting deployment from about a week to a few hours and running batch inference every 30 minutes.",
+      "verdict": "supported",
+      "reason": "The source confirms that GS Caltex connects SageMaker Canvas to SageMaker Pipelines, speeding up model deployment for process engineers."
+    },
+    {
+      "section": "office_blend",
+      "id": "w10",
+      "claim": "GS Caltex connected Amazon SageMaker Canvas to SageMaker Pipelines, letting process engineers run no-code models in production and cutting deployment time from a week to a few hours.",
+      "source": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1. GS Caltex connects Amazon SageMaker Canvas to Amazon SageMaker Pipelines so process engineers' no-code models run in production. This post shows how ML engineers reuse validated preprocessing flows and models, cutting deployment from about a week to a few hours and running batch inference every 30 minutes.",
+      "verdict": "supported",
+      "reason": "The source directly states that connecting SageMaker Canvas to SageMaker Pipelines lets process engineers run no-code models in production and cuts deployment time from a week to a few hours."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u1",
+      "claim": "Amazon's roaming Ring Robotics devices, including an AI-powered security drone and robot, will debut in late 2026 and early 2027.",
+      "source": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot. Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+      "verdict": "supported",
+      "reason": "The source explicitly mentions Amazon's AI-powered Ring Robotics devices debuting in late 2026 and early 2027."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u2",
+      "claim": "OpenFold3-preview on Amazon SageMaker JumpStart will allow developers to predict 3D structures of proteins, DNA, RNA, and ligand complexes.",
+      "source": "OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures. Deploy OpenFold3-preview from Amazon SageMaker JumpStart to predict 3D structures of proteins, DNA, RNA, and ligand complexes in your own AWS account. The post covers asynchronous inference, multi-GPU parallelism, bringing your own MSAs for accuracy and privacy, and scaling to zero to reduce cost.",
+      "verdict": "supported",
+      "reason": "The source confirms that deploying OpenFold3-preview on SageMaker JumpStart predicts 3D structures of proteins, DNA, RNA, and ligand complexes."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n6",
+      "claim": "OpenAI announced a tool that detects abusive imagery of children, including AI-generated content, to aid sexual abuse investigators.",
+      "source": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines. OpenAI is announcing a tool that it says will help child sexual abuse investigators cut through the noise to find harmful material they can act on quickly. At a Monday press briefing in Washington, DC, OpenAI announced a classifier it says can better detect abusive imagery of kids, including whether it's AI-generated. It's also offering [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms OpenAI announced a classifier to aid child sexual abuse investigators by detecting abusive imagery of kids, including whether it is AI-generated."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n18",
+      "claim": "Google Maps can now construct trip itineraries with real-time details about each stop.",
+      "source": "Google Maps can now build trip itineraries with real-time details about each stop. You could use Ask Maps to plan a holiday shopping day trip or something more complex, like a three-day road trip featuring coastal hikes and oceanfront dining.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Google Maps can now build trip itineraries with real-time details about each stop."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n23",
+      "claim": "Apple launched a new app for a study to evaluate how people use AI for medical questions.",
+      "source": "Apple launches new app to study how people use AI for health. Apple's new app for a study will answer everyday medical questions.",
+      "verdict": "supported",
+      "reason": "The source confirms Apple launched a new app for a study regarding how people use AI for health/medical questions."
+    },
+    {
+      "section": "builder",
+      "id": "d1",
+      "claim": "AI agents turn security patches into exploits",
+      "source": "Security patches are supposed to protect you. Google found AI agents turning them into exploits.. Google\u2019s Threat Intelligence Group says attackers are using autonomous AI agents to reverse-engineer security patches, generate exploits, and attempt to",
+      "verdict": "supported",
+      "reason": "The source directly states that AI agents are being used to turn security patches into exploits."
+    },
+    {
+      "section": "builder",
+      "id": "d1",
+      "claim": "Google's Threat Intelligence Group reported that attackers are using autonomous AI agents to reverse-engineer security patches, generate exploits, and attempt network breaches.",
+      "source": "Security patches are supposed to protect you. Google found AI agents turning them into exploits.. Google\u2019s Threat Intelligence Group says attackers are using autonomous AI agents to reverse-engineer security patches, generate exploits, and attempt to",
+      "verdict": "partial",
+      "reason": "The source text cuts off at 'attempt to' and does not mention network breaches."
+    },
+    {
+      "section": "builder",
+      "id": "d2",
+      "claim": "Developer rebuilds browser tool in Rust for $60",
+      "source": "Dax Raad rebuilt his browser tool in Rust for $60. Then memory use fell 97%.. OpenCode developer Dax Raad says he rebuilt the project\u2019s browser automation tool in Rust for $60, replacing the parts of",
+      "verdict": "supported",
+      "reason": "The claim accurately reflects the source statement."
+    },
+    {
+      "section": "builder",
+      "id": "d2",
+      "claim": "OpenCode developer Dax Raad rebuilt the project's browser automation tool in Rust for $60, reducing memory usage by 97%.",
+      "source": "Dax Raad rebuilt his browser tool in Rust for $60. Then memory use fell 97%.. OpenCode developer Dax Raad says he rebuilt the project\u2019s browser automation tool in Rust for $60, replacing the parts of",
+      "verdict": "supported",
+      "reason": "All facts in the claim are directly stated in the source text."
+    },
+    {
+      "section": "concept",
+      "id": "d10",
+      "claim": "Agent skills capture repeatable engineering work in reusable files, while tools, project context, and permissions remain specific to the host running them.",
+      "source": "Build once, run on any agent: A practical guide to agent skills. Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.",
+      "verdict": "supported",
+      "reason": "The claim accurately summarizes the source text."
+    },
+    {
+      "section": "long_read",
+      "id": "l2",
+      "claim": "Software engineering after code becomes cheap with Satya Nadella",
+      "source": "Software engineering after code becomes cheap with Satya Nadella. Microsoft CEO Satya Nadella on AI\u2019s impact on software engineering, code verification, and engineers\u2019 careers.",
+      "verdict": "supported",
+      "reason": "The claim directly mirrors the title provided in the source."
+    },
+    {
+      "section": "long_read",
+      "id": "l2",
+      "claim": "Microsoft CEO Satya Nadella shares insights on how AI is transforming software engineering, code verification, and the future of engineering careers.",
+      "source": "Software engineering after code becomes cheap with Satya Nadella. Microsoft CEO Satya Nadella on AI\u2019s impact on software engineering, code verification, and engineers\u2019 careers.",
+      "verdict": "supported",
+      "reason": "The claim accurately reflects the content described in the source."
+    }
+  ]
+}
