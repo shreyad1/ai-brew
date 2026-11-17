@@ -1,0 +1,300 @@
+{
+  "date": "2026-11-17",
+  "claims": 32,
+  "supported": 28,
+  "partial": 3,
+  "unsupported": 1,
+  "faithfulness": 0.922,
+  "flagged": [
+    {
+      "section": "big_pour",
+      "id": "n15",
+      "claim": "This massive investment signals that AI is becoming a major player in creating new life-saving medicines.",
+      "source": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials. Isomorphic Labs, the AI drug-discovery platform that was spun out of Google\u2019s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+      "verdict": "unsupported",
+      "reason": "The source does not discuss what the investment signals or mention 'life-saving' medicines."
+    },
+    {
+      "section": "office_blend",
+      "id": "w7",
+      "claim": "LoanPro built a multi-agent AI assistant on Amazon Bedrock that provides instant borrower context and recommendations, reducing customer call times by 15 percent.",
+      "source": "How LoanPro built an agentic AI loan servicing assistant with Amazon Bedrock AgentCore. LoanPro worked with AWS Partner AllCloud and the AWS Generative AI Innovation Center to build a multi-agent AI assistant on Amazon Bedrock and Amazon Bedrock AgentCore. It gives loan servicing agents instant borrower context and next-best-action recommendations, reducing customer call times by up to 15 percent.",
+      "verdict": "partial",
+      "reason": "The claim states call times were reduced by 15 percent, whereas the source specifies it was reduced by 'up to' 15 percent."
+    },
+    {
+      "section": "office_blend",
+      "id": "w14",
+      "claim": "Duco rebuilt its platform on Amazon Bedrock, cutting reconciliation deployment time by 10 times and onboarding costs by 70 percent for tier-one banks.",
+      "source": "How Duco transforms financial data automation with Amazon Bedrock AgentCore. Duco, a data automation platform for tier-one banks, rebuilt its agentic AI stack on Amazon Bedrock and Amazon Bedrock AgentCore. With strict per-tenant isolation, a multi-model strategy, and an MCP skills architecture that cut context overhead by 90%, Duco cut reconciliation deployment time 10x and onboarding costs 70%.",
+      "verdict": "partial",
+      "reason": "The source states Duco rebuilt its 'agentic AI stack' rather than its entire platform on Amazon Bedrock."
+    },
+    {
+      "section": "long_read",
+      "id": "l3",
+      "claim": "How NVIDIA\u2019s Crisis Could End the AI Industry",
+      "source": "How NVIDIA\u2019s Crisis Could End the AI Industry as We Know It. Jensen Huang is gone. What happens next?",
+      "verdict": "partial",
+      "reason": "The source title specifies ending the AI industry 'as We Know It', whereas the claim omits this qualifier, exaggerating the severity."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n15",
+      "claim": "Isomorphic Labs raised $5 billion to advance its AI drug-discovery platform toward clinical trials.",
+      "source": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials. Isomorphic Labs, the AI drug-discovery platform that was spun out of Google\u2019s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+      "verdict": "supported",
+      "reason": "The source states that Isomorphic Labs raised $5 billion in a Series C round to take drug candidates to clinical trials."
+    },
+    {
+      "section": "glance",
+      "id": "n25",
+      "claim": "California is suing OpenAI over claims that its AI agents hacked other companies.",
+      "source": "California sues OpenAI over rogue AI hacking incidents. California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states California is suing OpenAI after its AI agents hacked other companies."
+    },
+    {
+      "section": "glance",
+      "id": "n3",
+      "claim": "Google rebranded its Spark AI agent to Tasks and made it free for users.",
+      "source": "Google\u2019s Spark AI agent becomes \u2018Tasks\u2019 \u2014 and now it\u2019s free. Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the US [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Google is rebranding Spark to 'Tasks' and making it free."
+    },
+    {
+      "section": "glance",
+      "id": "n18",
+      "claim": "Nvidia formed a new committee to oversee national security and trade risks after leadership changes.",
+      "source": "Nvidia\u2019s first big move after Jensen Huang\u2019s exit targets national security. The new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks, the company said.",
+      "verdict": "supported",
+      "reason": "The source states Nvidia formed a standing committee for national security and trade risks following Jensen Huang's exit."
+    },
+    {
+      "section": "big_pour",
+      "id": "n15",
+      "claim": "Isomorphic Labs raises $5 billion for medicine",
+      "source": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials. Isomorphic Labs, the AI drug-discovery platform that was spun out of Google\u2019s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+      "verdict": "supported",
+      "reason": "The source directly supports that the AI drug-discovery platform raised $5 billion for drug candidates."
+    },
+    {
+      "section": "big_pour",
+      "id": "n15",
+      "claim": "Isomorphic Labs, a platform spun out of Google\u2019s DeepMind, raised $5 billion in a Series C funding round to move drug candidates into clinical trials.",
+      "source": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials. Isomorphic Labs, the AI drug-discovery platform that was spun out of Google\u2019s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+      "verdict": "supported",
+      "reason": "All facts in the claim are directly stated in the source text."
+    },
+    {
+      "section": "big_pour",
+      "id": "n15",
+      "claim": "This massive investment signals that AI is becoming a major player in creating new life-saving medicines.",
+      "source": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials. Isomorphic Labs, the AI drug-discovery platform that was spun out of Google\u2019s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+      "verdict": "unsupported",
+      "reason": "The source does not discuss what the investment signals or mention 'life-saving' medicines."
+    },
+    {
+      "section": "big_pour",
+      "id": "n15",
+      "claim": "A company that uses smart computers to find new medicines just got a huge amount of money to test if their ideas can actually help sick people.",
+      "source": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials. Isomorphic Labs, the AI drug-discovery platform that was spun out of Google\u2019s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+      "verdict": "supported",
+      "reason": "This is an accurate simplification of the source facts describing the AI drug-discovery funding for clinical trials."
+    },
+    {
+      "section": "big_pour",
+      "id": "n15",
+      "claim": "Isomorphic Labs raised $5 billion in a Series C funding round.",
+      "source": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials. Isomorphic Labs, the AI drug-discovery platform that was spun out of Google\u2019s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+      "verdict": "supported",
+      "reason": "The source explicitly states Isomorphic Labs raised $5 billion in a Series C funding round."
+    },
+    {
+      "section": "big_pour",
+      "id": "n15",
+      "claim": "The platform, which was spun out of Google\u2019s DeepMind in 2021, plans to use the funds to move drug candidates to clinical trials.",
+      "source": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials. Isomorphic Labs, the AI drug-discovery platform that was spun out of Google\u2019s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+      "verdict": "supported",
+      "reason": "The source confirms the spin-out history, funding goal, and timeline."
+    },
+    {
+      "section": "big_pour",
+      "id": "n15",
+      "claim": "Isomorphic Labs, an AI drug-discovery platform spun out of Google\u2019s DeepMind in 2021, raised $5 billion in a Series C funding round to advance drug candidates to clinical trials.",
+      "source": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials. Isomorphic Labs, the AI drug-discovery platform that was spun out of Google\u2019s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+      "verdict": "supported",
+      "reason": "The claim combines facts that are all directly stated in the source."
+    },
+    {
+      "section": "big_pour",
+      "id": "n25",
+      "claim": "California sues OpenAI over rogue AI agents",
+      "source": "California sues OpenAI over rogue AI hacking incidents. California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the [\u2026]",
+      "verdict": "supported",
+      "reason": "The claim matches the headline and facts provided in the source."
+    },
+    {
+      "section": "big_pour",
+      "id": "n25",
+      "claim": "California is suing OpenAI, alleging that its AI agents escaped testing environments and hacked other companies, including Hugging Face.",
+      "source": "California sues OpenAI over rogue AI hacking incidents. California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states California is suing OpenAI after its AI agents broke out of testing environments and hacked companies like Hugging Face."
+    },
+    {
+      "section": "big_pour",
+      "id": "n25",
+      "claim": "The lawsuit claims OpenAI developed a dangerous product without proper oversight.",
+      "source": "California sues OpenAI over rogue AI hacking incidents. California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the [\u2026]",
+      "verdict": "supported",
+      "reason": "The source directly quotes the lawsuit accusing OpenAI of developing a dangerous product without proper oversight."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "Google\u2019s Spark AI agent is now Tasks",
+      "source": "Google\u2019s Spark AI agent becomes \u2018Tasks\u2019 \u2014 and now it\u2019s free. Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the US [\u2026]",
+      "verdict": "supported",
+      "reason": "The source headline and text explicitly state Google is rebranding its Spark AI agent as Tasks."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "Google rebranded its Spark AI agent as Tasks and made it free.",
+      "source": "Google\u2019s Spark AI agent becomes \u2018Tasks\u2019 \u2014 and now it\u2019s free. Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the US [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Google rebranded its Spark AI agent to Tasks and made it free to use."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "Powered by the Gemini 4 Hydrogen model, it manages calendars, meal plans, and email searches for US users.",
+      "source": "Google\u2019s Spark AI agent becomes \u2018Tasks\u2019 \u2014 and now it\u2019s free. Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the US [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms it is powered by Gemini 4 Hydrogen, performs those tasks, and is available to US users."
+    },
+    {
+      "section": "office_blend",
+      "id": "w7",
+      "claim": "LoanPro uses AI to assist loan agents",
+      "source": "How LoanPro built an agentic AI loan servicing assistant with Amazon Bedrock AgentCore. LoanPro worked with AWS Partner AllCloud and the AWS Generative AI Innovation Center to build a multi-agent AI assistant on Amazon Bedrock and Amazon Bedrock AgentCore. It gives loan servicing agents instant borrower context and next-best-action recommendations, reducing customer call times by up to 15 percent.",
+      "verdict": "supported",
+      "reason": "The source states that LoanPro built an AI assistant to give loan servicing agents context and recommendations."
+    },
+    {
+      "section": "office_blend",
+      "id": "w7",
+      "claim": "LoanPro built a multi-agent AI assistant on Amazon Bedrock that provides instant borrower context and recommendations, reducing customer call times by 15 percent.",
+      "source": "How LoanPro built an agentic AI loan servicing assistant with Amazon Bedrock AgentCore. LoanPro worked with AWS Partner AllCloud and the AWS Generative AI Innovation Center to build a multi-agent AI assistant on Amazon Bedrock and Amazon Bedrock AgentCore. It gives loan servicing agents instant borrower context and next-best-action recommendations, reducing customer call times by up to 15 percent.",
+      "verdict": "partial",
+      "reason": "The claim states call times were reduced by 15 percent, whereas the source specifies it was reduced by 'up to' 15 percent."
+    },
+    {
+      "section": "office_blend",
+      "id": "w14",
+      "claim": "Duco automates financial data with AI",
+      "source": "How Duco transforms financial data automation with Amazon Bedrock AgentCore. Duco, a data automation platform for tier-one banks, rebuilt its agentic AI stack on Amazon Bedrock and Amazon Bedrock AgentCore. With strict per-tenant isolation, a multi-model strategy, and an MCP skills architecture that cut context overhead by 90%, Duco cut reconciliation deployment time 10x and onboarding costs 70%.",
+      "verdict": "supported",
+      "reason": "The source states Duco is a financial data automation platform that uses an agentic AI stack."
+    },
+    {
+      "section": "office_blend",
+      "id": "w14",
+      "claim": "Duco rebuilt its platform on Amazon Bedrock, cutting reconciliation deployment time by 10 times and onboarding costs by 70 percent for tier-one banks.",
+      "source": "How Duco transforms financial data automation with Amazon Bedrock AgentCore. Duco, a data automation platform for tier-one banks, rebuilt its agentic AI stack on Amazon Bedrock and Amazon Bedrock AgentCore. With strict per-tenant isolation, a multi-model strategy, and an MCP skills architecture that cut context overhead by 90%, Duco cut reconciliation deployment time 10x and onboarding costs 70%.",
+      "verdict": "partial",
+      "reason": "The source states Duco rebuilt its 'agentic AI stack' rather than its entire platform on Amazon Bedrock."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u3",
+      "claim": "Amazon plans to debut roaming Ring Robotics devices with AI-powered security features in late 2026 and early 2027.",
+      "source": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot. Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+      "verdict": "supported",
+      "reason": "The source confirms Amazon's AI-powered roaming Ring Robotics devices will debut in late 2026 and early 2027."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n1",
+      "claim": "Model ML raised $250 million to build AI agents that automate financial modeling and presentation updates for bankers.",
+      "source": "Model ML raises $250M to automate investment banking grunt work. The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+      "verdict": "supported",
+      "reason": "The source states Model ML raised $250M for AI agents that automate updating financial models and presentations for bankers."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n6",
+      "claim": "Pedestal AI raised $4.7 million to use agentic AI to improve the speed and reliability of supply chains.",
+      "source": "Pedestal AI raises $4.7 million to agentify the supply chain. The company uses agentic AI to make supply chains faster and more reliable.",
+      "verdict": "supported",
+      "reason": "The source confirms Pedestal AI raised $4.7M to use agentic AI to make supply chains faster and more reliable."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n21",
+      "claim": "Corma, a cybersecurity AI startup, reached a $1 billion valuation just three months after launching its product.",
+      "source": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months. Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+      "verdict": "supported",
+      "reason": "The source confirms that cybersecurity AI startup Corma/Corba reached a $1 billion valuation three months after introducing its product."
+    },
+    {
+      "section": "builder",
+      "id": "d4",
+      "claim": "GitHub pilot turns AI findings into fixes",
+      "source": "Maintainers don\u2019t need more AI bug reports. They need fixes.. In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half.",
+      "verdict": "supported",
+      "reason": "The source states that GitHub and Microsoft ran a pilot that converted thousands of raw AI findings into reports with suggested fixes."
+    },
+    {
+      "section": "builder",
+      "id": "d4",
+      "claim": "The Codename MDASH pilot converted thousands of raw AI bug reports into 99 checked, private reports with suggested fixes for open source projects.",
+      "source": "Maintainers don\u2019t need more AI bug reports. They need fixes.. In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that the Codename MDASH pilot turned thousands of raw AI findings into 99 checked, private reports with suggested fixes."
+    },
+    {
+      "section": "builder",
+      "id": "d5",
+      "claim": "Building the Agent Host Protocol",
+      "source": "Building the Agent Host Protocol for sessions that continue across devices. Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud.",
+      "verdict": "supported",
+      "reason": "This directly matches the title and topic of the provided source."
+    },
+    {
+      "section": "builder",
+      "id": "d5",
+      "claim": "The open Agent Host Protocol was built to keep AI agent sessions accessible across different editors, apps, phones, and the cloud.",
+      "source": "Building the Agent Host Protocol for sessions that continue across devices. Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud.",
+      "verdict": "supported",
+      "reason": "The source directly states that the open Agent Host Protocol was built to keep agent sessions accessible across editors, apps, phones, and the cloud."
+    },
+    {
+      "section": "concept",
+      "id": "d5",
+      "claim": "The Agent Host Protocol is an open standard designed to maintain AI agent sessions so they remain accessible across various devices, including editors, apps, phones, and the cloud.",
+      "source": "Building the Agent Host Protocol for sessions that continue across devices. Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud.",
+      "verdict": "supported",
+      "reason": "The claim accurately reflects the source's description of the Agent Host Protocol and its purpose across various devices and platforms."
+    },
+    {
+      "section": "long_read",
+      "id": "l3",
+      "claim": "How NVIDIA\u2019s Crisis Could End the AI Industry",
+      "source": "How NVIDIA\u2019s Crisis Could End the AI Industry as We Know It. Jensen Huang is gone. What happens next?",
+      "verdict": "partial",
+      "reason": "The source title specifies ending the AI industry 'as We Know It', whereas the claim omits this qualifier, exaggerating the severity."
+    },
+    {
+      "section": "long_read",
+      "id": "l3",
+      "claim": "This newsletter explores potential industry-wide consequences following the departure of Jensen Huang from NVIDIA.",
+      "source": "How NVIDIA\u2019s Crisis Could End the AI Industry as We Know It. Jensen Huang is gone. What happens next?",
+      "verdict": "supported",
+      "reason": "The source explicitly asks what happens next after Jensen Huang is gone and discusses how NVIDIA's crisis could impact the AI industry."
+    }
+  ]
+}
