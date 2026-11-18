@@ -1,0 +1,181 @@
+{
+  "glance": [
+    {
+      "id": "n1",
+      "summary": "Anthropic is reportedly valued at $1.5 trillion following its latest share pricing.",
+      "link": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n20",
+      "summary": "Nvidia has stopped selling its advanced AI chips to China.",
+      "link": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK083_NVIDIA_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n14",
+      "summary": "Disney is testing new animatronics that use AI to interact with park guests.",
+      "link": "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/disney1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n6",
+      "summary": "Snapchat now allows developers to build AR Lenses using AI assistants.",
+      "link": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n1",
+      "headline": "Anthropic prices IPO at $83 per share",
+      "teaser": "Anthropic IPO pricing",
+      "summary": "Anthropic has reportedly priced its IPO at $83 a share, exceeding its projected range. This valuation places the company at $1.5 trillion on a fully diluted basis.",
+      "why": "This massive valuation signals how much investors believe in the future of AI companies.",
+      "explain": {
+        "kid": "A big company called Anthropic is now worth a huge amount of money, more than almost anyone expected.",
+        "pm": "Anthropic's IPO pricing at $83 per share reflects a $1.5 trillion valuation, highlighting significant market confidence in its long-term growth.",
+        "engineer": "The fully diluted valuation of $1.5 trillion, based on an $83 share price, sets a new benchmark for frontier model labs."
+      },
+      "link": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n20",
+      "headline": "Nvidia halts advanced chip sales to China",
+      "teaser": "Nvidia stops China sales",
+      "summary": "Nvidia has stopped shipping its advanced AI chips to China. This decision reverses previous approvals granted by the White House last year.",
+      "link": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK083_NVIDIA_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n14",
+      "headline": "Disney animatronics get an AI upgrade",
+      "teaser": "AI-powered Disney animatronics",
+      "summary": "Walt Disney Imagineering is testing three new Audio-Animatronic prototypes. Unlike previous versions that relied on predefined movements, these characters use AI to interact with guests.",
+      "link": "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/disney1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w11",
+      "headline": "Stretto uses AI voice for bankruptcy intake",
+      "teaser": "AI voice for bankruptcy",
+      "summary": "Stretto replaced its web-form lead capture with an AI voice agent named Tara. The agent conducts bankruptcy intake interviews by phone to qualify leads.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-stretto-built-an-ai-voice-agent-with-amazon-nova-2-sonic/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "w9",
+      "headline": "Social Department builds AI video discovery",
+      "teaser": "AI-powered video search",
+      "summary": "Social Department built a tool called QuickSearch that allows users to find specific scenes, lines, and frames across large video libraries using AI queries.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-social-department-built-culture-aware-video-discovery/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "n12",
+      "summary": "Will Wright is developing a simulation called MyMems that uses AI to mine content from a user's personal memories.",
+      "link": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Moonlit-walk-1152x648.png"
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n6",
+      "summary": "Snapchat now lets developers use AI assistants to build AR Lenses by describing them in plain language.",
+      "link": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n13",
+      "summary": "Google's AI feature in Search now includes a temporary mode that does not save conversations to search history.",
+      "link": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n15",
+      "summary": "Citi has stopped supporting personal finance AI agents, warning customers they are responsible if they get hacked.",
+      "link": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d10",
+        "label": "Bug fix pilot",
+        "headline": "GitHub and Microsoft automate open source fixes",
+        "summary": "In the Codename MDASH pilot, Microsoft and GitHub used AI to turn raw findings into 99 reports with suggested fixes for open source projects.",
+        "link": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+        "source": "GitHub Blog",
+        "image": "https://github.blog/wp-content/uploads/2026/11/01-participating-projects.png?resize=1024%2C576"
+      },
+      {
+        "id": "d11",
+        "label": "Open standard",
+        "headline": "Agent Host Protocol keeps sessions synced",
+        "summary": "The new open Agent Host Protocol allows AI agent sessions to remain accessible across different editors, apps, phones, and the cloud.",
+        "link": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+        "source": "GitHub Blog",
+        "image": "https://github.blog/wp-content/uploads/2026/11/ahp-protocol-state.png?resize=1024%2C512"
+      }
+    ],
+    "concept": {
+      "id": "d11",
+      "term": "Agent Host Protocol",
+      "explanation": "An open standard designed to keep AI agent sessions accessible and synced across various devices, including editors, apps, phones, and the cloud.",
+      "link": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+      "source": "GitHub Blog",
+      "image": "https://github.blog/wp-content/uploads/2026/11/ahp-protocol-state.png?resize=1024%2C512"
+    }
+  },
+  "long_read": {
+    "id": "l3",
+    "headline": "Inference engineering for software engineers",
+    "summary": "This newsletter recommends a deep dive into the practical challenges of inference engineering, including model selection, caching, and managing dedicated GPUs.",
+    "link": "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers",
+    "source": "The Pragmatic Engineer",
+    "image": "https://substackcdn.com/image/fetch/$s_!k1yV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8fecea03-44c9-44ef-8f85-fc46e4e4f69a_910x1062.png"
+  },
+  "number": 24,
+  "date_iso": "2026-11-18",
+  "date_long": "Wednesday \u00b7 18 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-18",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": {
+    "term": "Model drift",
+    "definition": "When a system's quality changes over time because the model, the data, or the users' requests change, even though your code didn't.",
+    "heard": "\"Evals dropped 6 points after the provider updated the model. Drift.\"",
+    "analogy": "Like the same recipe tasting different when the bean supplier changes.",
+    "reviewed": false,
+    "theme": "Safety and operations",
+    "day": 4
+  },
+  "keep_brewing": null,
+  "poll": null
+}

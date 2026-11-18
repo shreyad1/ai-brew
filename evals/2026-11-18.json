@@ -1,0 +1,332 @@
+{
+  "date": "2026-11-18",
+  "claims": 33,
+  "supported": 26,
+  "partial": 5,
+  "unsupported": 2,
+  "faithfulness": 0.864,
+  "flagged": [
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "Anthropic prices IPO at $83 per share",
+      "source": "Anthropic reportedly prices IPO at $83 a share, above projected range. The long-awaited IPO reportedly values the company at $1.5 trillion on fully diluted basis.",
+      "verdict": "partial",
+      "reason": "The claim states the pricing as definitive fact, whereas the source specifies it was 'reportedly' priced at $83 a share."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "This massive valuation signals how much investors believe in the future of AI companies.",
+      "source": "Anthropic reportedly prices IPO at $83 a share, above projected range. The long-awaited IPO reportedly values the company at $1.5 trillion on fully diluted basis.",
+      "verdict": "unsupported",
+      "reason": "The source makes no mention of what the valuation signals regarding investor belief in AI companies."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "A big company called Anthropic is now worth a huge amount of money, more than almost anyone expected.",
+      "source": "Anthropic reportedly prices IPO at $83 a share, above projected range. The long-awaited IPO reportedly values the company at $1.5 trillion on fully diluted basis.",
+      "verdict": "partial",
+      "reason": "The source states the price was 'above projected range', not 'more than almost anyone expected'."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "Anthropic's IPO pricing at $83 per share reflects a $1.5 trillion valuation, highlighting significant market confidence in its long-term growth.",
+      "source": "Anthropic reportedly prices IPO at $83 a share, above projected range. The long-awaited IPO reportedly values the company at $1.5 trillion on fully diluted basis.",
+      "verdict": "partial",
+      "reason": "The core valuation is supported, but the claim adds unsupported commentary about market confidence and long-term growth."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "The fully diluted valuation of $1.5 trillion, based on an $83 share price, sets a new benchmark for frontier model labs.",
+      "source": "Anthropic reportedly prices IPO at $83 a share, above projected range. The long-awaited IPO reportedly values the company at $1.5 trillion on fully diluted basis.",
+      "verdict": "partial",
+      "reason": "The core valuation details are present in the source, but the claim adds an unsupported statement about setting a benchmark for frontier model labs."
+    },
+    {
+      "section": "big_pour",
+      "id": "n20",
+      "claim": "This decision reverses previous approvals granted by the White House last year.",
+      "source": "Nvidia isn\u2019t selling any more AI chips to China. Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the company that, under former CEO Jensen Huang, [\u2026]",
+      "verdict": "unsupported",
+      "reason": "The source states Nvidia stopped sending chips despite White House approval, not that the decision reversed White House approvals."
+    },
+    {
+      "section": "builder",
+      "id": "d10",
+      "claim": "GitHub and Microsoft automate open source fixes",
+      "source": "Maintainers don\u2019t need more AI bug reports. They need fixes.. In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half.",
+      "verdict": "partial",
+      "reason": "They automated reports with suggested fixes, but human maintainers still had to apply and perform the actual fixes."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n1",
+      "claim": "Anthropic is reportedly valued at $1.5 trillion following its latest share pricing.",
+      "source": "Anthropic reportedly prices IPO at $83 a share, above projected range. The long-awaited IPO reportedly values the company at $1.5 trillion on fully diluted basis.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that the IPO reportedly values Anthropic at $1.5 trillion on a fully diluted basis."
+    },
+    {
+      "section": "glance",
+      "id": "n20",
+      "claim": "Nvidia has stopped selling its advanced AI chips to China.",
+      "source": "Nvidia isn\u2019t selling any more AI chips to China. Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the company that, under former CEO Jensen Huang, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Nvidia has stopped sending its advanced AI chips to China."
+    },
+    {
+      "section": "glance",
+      "id": "n14",
+      "claim": "Disney is testing new animatronics that use AI to interact with park guests.",
+      "source": "Disney\u2019s new Star Wars animatronics interact with guests using AI. As advanced and lifelike as the animatronic characters at Disney parks have become, they typically either stick to predefined movements and routines, or there's an out of sight puppeteer helping make their behavior appear more spontaneous. That could soon change as Walt Disney Imagineering R&D has revealed three new Audio-Animatronic prototypes that rely on Amazon's [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states that Disney Imagineering R&D revealed Audio-Animatronic prototypes that interact with guests using AI."
+    },
+    {
+      "section": "glance",
+      "id": "n6",
+      "claim": "Snapchat now allows developers to build AR Lenses using AI assistants.",
+      "source": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor. Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says.",
+      "verdict": "supported",
+      "reason": "The source directly states Snapchat now allows developers to build AR Lenses using AI assistants."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "Anthropic prices IPO at $83 per share",
+      "source": "Anthropic reportedly prices IPO at $83 a share, above projected range. The long-awaited IPO reportedly values the company at $1.5 trillion on fully diluted basis.",
+      "verdict": "partial",
+      "reason": "The claim states the pricing as definitive fact, whereas the source specifies it was 'reportedly' priced at $83 a share."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "Anthropic has reportedly priced its IPO at $83 a share, exceeding its projected range.",
+      "source": "Anthropic reportedly prices IPO at $83 a share, above projected range. The long-awaited IPO reportedly values the company at $1.5 trillion on fully diluted basis.",
+      "verdict": "supported",
+      "reason": "The claim accurately reflects all details from the source, including that it was reportedly priced above its projected range."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "This valuation places the company at $1.5 trillion on a fully diluted basis.",
+      "source": "Anthropic reportedly prices IPO at $83 a share, above projected range. The long-awaited IPO reportedly values the company at $1.5 trillion on fully diluted basis.",
+      "verdict": "supported",
+      "reason": "The source directly states that the IPO values the company at $1.5 trillion on a fully diluted basis."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "This massive valuation signals how much investors believe in the future of AI companies.",
+      "source": "Anthropic reportedly prices IPO at $83 a share, above projected range. The long-awaited IPO reportedly values the company at $1.5 trillion on fully diluted basis.",
+      "verdict": "unsupported",
+      "reason": "The source makes no mention of what the valuation signals regarding investor belief in AI companies."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "A big company called Anthropic is now worth a huge amount of money, more than almost anyone expected.",
+      "source": "Anthropic reportedly prices IPO at $83 a share, above projected range. The long-awaited IPO reportedly values the company at $1.5 trillion on fully diluted basis.",
+      "verdict": "partial",
+      "reason": "The source states the price was 'above projected range', not 'more than almost anyone expected'."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "Anthropic's IPO pricing at $83 per share reflects a $1.5 trillion valuation, highlighting significant market confidence in its long-term growth.",
+      "source": "Anthropic reportedly prices IPO at $83 a share, above projected range. The long-awaited IPO reportedly values the company at $1.5 trillion on fully diluted basis.",
+      "verdict": "partial",
+      "reason": "The core valuation is supported, but the claim adds unsupported commentary about market confidence and long-term growth."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "The fully diluted valuation of $1.5 trillion, based on an $83 share price, sets a new benchmark for frontier model labs.",
+      "source": "Anthropic reportedly prices IPO at $83 a share, above projected range. The long-awaited IPO reportedly values the company at $1.5 trillion on fully diluted basis.",
+      "verdict": "partial",
+      "reason": "The core valuation details are present in the source, but the claim adds an unsupported statement about setting a benchmark for frontier model labs."
+    },
+    {
+      "section": "big_pour",
+      "id": "n20",
+      "claim": "Nvidia halts advanced chip sales to China",
+      "source": "Nvidia isn\u2019t selling any more AI chips to China. Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the company that, under former CEO Jensen Huang, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source directly supports that Nvidia has halted advanced AI chip sales to China."
+    },
+    {
+      "section": "big_pour",
+      "id": "n20",
+      "claim": "Nvidia has stopped shipping its advanced AI chips to China.",
+      "source": "Nvidia isn\u2019t selling any more AI chips to China. Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the company that, under former CEO Jensen Huang, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Nvidia has stopped sending its advanced AI chips to China."
+    },
+    {
+      "section": "big_pour",
+      "id": "n20",
+      "claim": "This decision reverses previous approvals granted by the White House last year.",
+      "source": "Nvidia isn\u2019t selling any more AI chips to China. Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the company that, under former CEO Jensen Huang, [\u2026]",
+      "verdict": "unsupported",
+      "reason": "The source states Nvidia stopped sending chips despite White House approval, not that the decision reversed White House approvals."
+    },
+    {
+      "section": "big_pour",
+      "id": "n14",
+      "claim": "Disney animatronics get an AI upgrade",
+      "source": "Disney\u2019s new Star Wars animatronics interact with guests using AI. As advanced and lifelike as the animatronic characters at Disney parks have become, they typically either stick to predefined movements and routines, or there's an out of sight puppeteer helping make their behavior appear more spontaneous. That could soon change as Walt Disney Imagineering R&D has revealed three new Audio-Animatronic prototypes that rely on Amazon's [\u2026]",
+      "verdict": "supported",
+      "reason": "The headline and source text state that Disney's new animatronics interact with guests using AI."
+    },
+    {
+      "section": "big_pour",
+      "id": "n14",
+      "claim": "Walt Disney Imagineering is testing three new Audio-Animatronic prototypes.",
+      "source": "Disney\u2019s new Star Wars animatronics interact with guests using AI. As advanced and lifelike as the animatronic characters at Disney parks have become, they typically either stick to predefined movements and routines, or there's an out of sight puppeteer helping make their behavior appear more spontaneous. That could soon change as Walt Disney Imagineering R&D has revealed three new Audio-Animatronic prototypes that rely on Amazon's [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms that Walt Disney Imagineering R&D revealed three new Audio-Animatronic prototypes."
+    },
+    {
+      "section": "big_pour",
+      "id": "n14",
+      "claim": "Unlike previous versions that relied on predefined movements, these characters use AI to interact with guests.",
+      "source": "Disney\u2019s new Star Wars animatronics interact with guests using AI. As advanced and lifelike as the animatronic characters at Disney parks have become, they typically either stick to predefined movements and routines, or there's an out of sight puppeteer helping make their behavior appear more spontaneous. That could soon change as Walt Disney Imagineering R&D has revealed three new Audio-Animatronic prototypes that rely on Amazon's [\u2026]",
+      "verdict": "supported",
+      "reason": "The text contrasts previous animatronics using predefined movements with the new prototypes using AI to interact with guests."
+    },
+    {
+      "section": "office_blend",
+      "id": "w11",
+      "claim": "Stretto uses AI voice for bankruptcy intake",
+      "source": "How Stretto built an AI voice agent with Amazon Nova 2 Sonic. Stretto replaced its web-form lead capture with Tara, an AI voice agent built on Amazon Nova 2 Sonic that conducts bankruptcy intake interviews by phone and qualifies leads. See how Stretto, the AWS Generative AI Innovation Center, and CI&T designed the voice architecture, validated it for sensitive conversations, and moved it to production.",
+      "verdict": "supported",
+      "reason": "The source explicitly states Stretto built an AI voice agent for bankruptcy intake."
+    },
+    {
+      "section": "office_blend",
+      "id": "w11",
+      "claim": "Stretto replaced its web-form lead capture with an AI voice agent named Tara.",
+      "source": "How Stretto built an AI voice agent with Amazon Nova 2 Sonic. Stretto replaced its web-form lead capture with Tara, an AI voice agent built on Amazon Nova 2 Sonic that conducts bankruptcy intake interviews by phone and qualifies leads. See how Stretto, the AWS Generative AI Innovation Center, and CI&T designed the voice architecture, validated it for sensitive conversations, and moved it to production.",
+      "verdict": "supported",
+      "reason": "The text confirms Stretto replaced its web-form lead capture with an AI voice agent named Tara."
+    },
+    {
+      "section": "office_blend",
+      "id": "w11",
+      "claim": "The agent conducts bankruptcy intake interviews by phone to qualify leads.",
+      "source": "How Stretto built an AI voice agent with Amazon Nova 2 Sonic. Stretto replaced its web-form lead capture with Tara, an AI voice agent built on Amazon Nova 2 Sonic that conducts bankruptcy intake interviews by phone and qualifies leads. See how Stretto, the AWS Generative AI Innovation Center, and CI&T designed the voice architecture, validated it for sensitive conversations, and moved it to production.",
+      "verdict": "supported",
+      "reason": "The source states that Tara conducts bankruptcy intake interviews by phone and qualifies leads."
+    },
+    {
+      "section": "office_blend",
+      "id": "w9",
+      "claim": "Social Department builds AI video discovery",
+      "source": "How Social Department built culture-aware video discovery. Social Department, an AI operating system for entertainment marketing, worked with TrackIt and AWS to build QuickSearch: single-action queries that surface shareable scenes, quotable lines, memeable frames, and trend-aligned moments across large video libraries, using TwelveLabs models on Amazon Bedrock and Amazon OpenSearch Serverless.",
+      "verdict": "supported",
+      "reason": "The source headline explicitly states that Social Department built culture-aware video discovery using AI models."
+    },
+    {
+      "section": "office_blend",
+      "id": "w9",
+      "claim": "Social Department built a tool called QuickSearch that allows users to find specific scenes, lines, and frames across large video libraries using AI queries.",
+      "source": "How Social Department built culture-aware video discovery. Social Department, an AI operating system for entertainment marketing, worked with TrackIt and AWS to build QuickSearch: single-action queries that surface shareable scenes, quotable lines, memeable frames, and trend-aligned moments across large video libraries, using TwelveLabs models on Amazon Bedrock and Amazon OpenSearch Serverless.",
+      "verdict": "supported",
+      "reason": "The text directly states Social Department built QuickSearch to surface scenes, lines, and frames across large video libraries."
+    },
+    {
+      "section": "still_roasting",
+      "id": "n12",
+      "claim": "Will Wright is developing a simulation called MyMems that uses AI to mine content from a user's personal memories.",
+      "source": "Will Wright's next simulation will use AI to mine content from your memories. With MyMems , Wright says he wants to \"turn the simulation inward.\"",
+      "verdict": "supported",
+      "reason": "The source mentions that Will Wright's next simulation, MyMems, uses AI to mine content from user memories."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n6",
+      "claim": "Snapchat now lets developers use AI assistants to build AR Lenses by describing them in plain language.",
+      "source": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor. Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says.",
+      "verdict": "supported",
+      "reason": "The source confirms lens creators can describe the Lens they want in plain language using AI assistants."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n13",
+      "claim": "Google's AI feature in Search now includes a temporary mode that does not save conversations to search history.",
+      "source": "Google\u2019s AI feature in Search gets its own incognito mode. Google's new temporary threads let users have conversations in AI Mode without adding them to their search history or influencing future recommendations.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that temporary threads in AI Mode allow conversations without saving to search history."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n15",
+      "claim": "Citi has stopped supporting personal finance AI agents, warning customers they are responsible if they get hacked.",
+      "source": "More banks say customers using AI agents are on their own \u2014 even if they get hacked. Citi is the latest major financial institution to put the breaks on personal finance AI agents.",
+      "verdict": "supported",
+      "reason": "The source confirms Citi is stopping support for personal finance AI agents and that banks warn customers they are on their own if hacked."
+    },
+    {
+      "section": "builder",
+      "id": "d10",
+      "claim": "GitHub and Microsoft automate open source fixes",
+      "source": "Maintainers don\u2019t need more AI bug reports. They need fixes.. In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half.",
+      "verdict": "partial",
+      "reason": "They automated reports with suggested fixes, but human maintainers still had to apply and perform the actual fixes."
+    },
+    {
+      "section": "builder",
+      "id": "d10",
+      "claim": "In the Codename MDASH pilot, Microsoft and GitHub used AI to turn raw findings into 99 reports with suggested fixes for open source projects.",
+      "source": "Maintainers don\u2019t need more AI bug reports. They need fixes.. In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half.",
+      "verdict": "supported",
+      "reason": "The claim accurately reflects the source sentence detailing the Codename MDASH pilot."
+    },
+    {
+      "section": "builder",
+      "id": "d11",
+      "claim": "Agent Host Protocol keeps sessions synced",
+      "source": "Building the Agent Host Protocol for sessions that continue across devices. Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud.",
+      "verdict": "supported",
+      "reason": "The source directly states the protocol was built to keep agent sessions accessible across devices."
+    },
+    {
+      "section": "builder",
+      "id": "d11",
+      "claim": "The new open Agent Host Protocol allows AI agent sessions to remain accessible across different editors, apps, phones, and the cloud.",
+      "source": "Building the Agent Host Protocol for sessions that continue across devices. Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud.",
+      "verdict": "supported",
+      "reason": "The claim directly repeats the source's description of the open Agent Host Protocol."
+    },
+    {
+      "section": "concept",
+      "id": "d11",
+      "claim": "An open standard designed to keep AI agent sessions accessible and synced across various devices, including editors, apps, phones, and the cloud.",
+      "source": "Building the Agent Host Protocol for sessions that continue across devices. Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud.",
+      "verdict": "supported",
+      "reason": "The statement accurately reflects the protocol's purpose as described in the source."
+    },
+    {
+      "section": "long_read",
+      "id": "l3",
+      "claim": "Inference engineering for software engineers",
+      "source": "Inference engineering for software engineers. When is the right time to drop APIs provided by the frontier AI labs, and what about choosing models & providers, caching, dedicated GPUs, KV cache concerns, and more? A practical deepdive",
+      "verdict": "supported",
+      "reason": "The claim matches the exact title of the source text."
+    },
+    {
+      "section": "long_read",
+      "id": "l3",
+      "claim": "This newsletter recommends a deep dive into the practical challenges of inference engineering, including model selection, caching, and managing dedicated GPUs.",
+      "source": "Inference engineering for software engineers. When is the right time to drop APIs provided by the frontier AI labs, and what about choosing models & providers, caching, dedicated GPUs, KV cache concerns, and more? A practical deepdive",
+      "verdict": "supported",
+      "reason": "The source describes a practical deep dive covering model selection, caching, and dedicated GPUs."
+    }
+  ]
+}
