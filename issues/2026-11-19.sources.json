@@ -1,0 +1,948 @@
+{
+  "generated_at": "2026-11-19T16:38:05.572481-06:00",
+  "warnings": [
+    "Word of the Day 'Context engineering' is not marked reviewed in learning_path.yaml"
+  ],
+  "failed_feeds": [
+    "Import AI: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+  ],
+  "sources": {
+    "n1": {
+      "title": "A brief history of Nvidia\u2019s recent stock fluctuations",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "source": "The Verge",
+      "published": "2026-11-19T21:59:35+00:00",
+      "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings [\u2026]",
+      "categories": [
+        "AI",
+        "Business"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305716823.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n2": {
+      "title": "Meta\u2019s new Muse Charm device may cost $300",
+      "link": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "source": "TechCrunch",
+      "published": "2026-11-19T21:58:06+00:00",
+      "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+      "categories": [
+        "AI",
+        "AI wearables",
+        "hardware",
+        "Meta",
+        "muse"
+      ],
+      "image": null
+    },
+    "n3": {
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "link": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "source": "TechCrunch",
+      "published": "2026-11-19T21:42:31+00:00",
+      "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
+      "categories": [
+        "AI",
+        "Security",
+        "outages"
+      ],
+      "image": null
+    },
+    "n4": {
+      "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+      "link": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+      "source": "Ars Technica",
+      "published": "2026-11-19T20:19:28+00:00",
+      "summary": "Lawsuit: Over 99% of school system\u2019s AI gun alerts were false positives.",
+      "categories": [
+        "AI",
+        "Policy",
+        "ai gun detection",
+        "ai in schools",
+        "Artificial Intelligence",
+        "Omnilert"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-458680569-1152x648-1795115965.jpg"
+    },
+    "n5": {
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "link": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch",
+      "published": "2026-11-19T20:18:49+00:00",
+      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "categories": [
+        "AI",
+        "China",
+        "Donald Trump",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "image": null
+    },
+    "n6": {
+      "title": "Google is putting AI chats right on the homepage",
+      "link": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "source": "The Verge",
+      "published": "2026-11-19T20:05:06+00:00",
+      "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the [\u2026]",
+      "categories": [
+        "AI",
+        "Google",
+        "News",
+        "Tech",
+        "Web"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK093_GOOGLE_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n7": {
+      "title": "Anthropic\u2019s IPO could deliver $156B to charity",
+      "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "source": "TechCrunch",
+      "published": "2026-11-19T19:10:45+00:00",
+      "summary": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "anthropic ipo",
+        "IPO",
+        "philanthropy"
+      ],
+      "image": null
+    },
+    "n8": {
+      "title": "Gemini on Mac can now use your computer",
+      "link": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+      "source": "The Verge",
+      "published": "2026-11-19T18:21:13+00:00",
+      "summary": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms, making presentations, and listing items for sale. Users will [\u2026]",
+      "categories": [
+        "AI",
+        "Google",
+        "News",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/M6_MBP_hero2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n9": {
+      "title": "Meta\u2019s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+      "link": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "source": "TechCrunch",
+      "published": "2026-11-19T17:38:40+00:00",
+      "summary": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them.",
+      "categories": [
+        "AI",
+        "Apps",
+        "In Brief",
+        "Meta",
+        "muse"
+      ],
+      "image": null
+    },
+    "n10": {
+      "title": "Former Alibaba exec\u2019s Everful raises $48.5M to connect retailers with Chinese factories",
+      "link": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+      "source": "TechCrunch",
+      "published": "2026-11-19T17:00:00+00:00",
+      "summary": "Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers.",
+      "categories": [
+        "AI",
+        "Startups",
+        "alibaba",
+        "Asia",
+        "China",
+        "retailers",
+        "San Francisco",
+        "Singapore",
+        "supply chain"
+      ],
+      "image": null
+    },
+    "n11": {
+      "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+      "link": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+      "source": "TechCrunch",
+      "published": "2026-11-19T16:59:23+00:00",
+      "summary": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised.",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "In Brief",
+        "IPO"
+      ],
+      "image": null
+    },
+    "n12": {
+      "title": "Anthropic starts trading on Wall Street",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+      "source": "The Verge",
+      "published": "2026-11-19T16:52:01+00:00",
+      "summary": "Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Business",
+        "News"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305334560.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n13": {
+      "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+      "link": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+      "source": "TechCrunch",
+      "published": "2026-11-19T16:19:41+00:00",
+      "summary": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "dario amodei",
+        "IPO"
+      ],
+      "image": null
+    },
+    "n14": {
+      "title": "ChatGPT can transcribe as you speak now with Live Dictation",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+      "source": "The Verge",
+      "published": "2026-11-19T15:16:45+00:00",
+      "summary": "ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording. It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps. While using dictation in ChatGPT, you can tap or [\u2026]",
+      "categories": [
+        "AI",
+        "News",
+        "OpenAI",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/chatgpt-live-dictation-promo-screenshot.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n15": {
+      "title": "Anthropic\u2019s IPO puts AI\u2019s circular financing boom to the test",
+      "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+      "source": "TechCrunch",
+      "published": "2026-11-19T14:54:39+00:00",
+      "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "anthropic ipo",
+        "IPO"
+      ],
+      "image": null
+    },
+    "n16": {
+      "title": "With the biggest IPO of all time, Anthropic\u2019s \u2018good guy\u2019 reputation is on the line",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+      "source": "The Verge",
+      "published": "2026-11-19T14:25:37+00:00",
+      "summary": "Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come. But it's not simply a financial milestone. Anthropic was founded on the idea that it prioritized safety [\u2026]",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Policy",
+        "Report"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK202_DARIO_AMODEI_CVIRGINIA_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n17": {
+      "title": "Superhuman pushes its Go assistant everywhere",
+      "link": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
+      "source": "TechCrunch",
+      "published": "2026-11-19T14:00:00+00:00",
+      "summary": "Superhuman is making Go its central agent and making it available in Docs and Mail.",
+      "categories": [
+        "AI",
+        "Apps",
+        "productivity",
+        "superhuman"
+      ],
+      "image": null
+    },
+    "n18": {
+      "title": "I let Apple\u2019s always-listening AI summarize my life for two weeks",
+      "link": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+      "source": "The Verge",
+      "published": "2026-11-19T13:00:00+00:00",
+      "summary": "Was it worth it? I've been asking myself this quite a bit over the last month or so while testing both the Amazon Bee Frontier and Siri Recap on the Apple Watch Ultra 4. Both enable a wearable to ambiently listen to your conversations and, using AI, summarize them for you. Why? So you can [\u2026]",
+      "categories": [
+        "AI",
+        "Apple",
+        "Gadgets",
+        "Hands-on",
+        "Reviews",
+        "Smartwatch",
+        "Smartwatch Reviews",
+        "Tech",
+        "Wearable"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268874_siri_recaps_AKrales_0070.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n19": {
+      "title": "Canva adds an AI \u2018off\u2019 button",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+      "source": "The Verge",
+      "published": "2026-11-19T12:30:00+00:00",
+      "summary": "Canva will now allow you to turn off its generative AI features. With this change, you can disable the graphic design platform's array of AI tools, such as its AI photo-extending Magic Expand feature, as well as turn off the ability to generate images with its Canva chatbot. This toggle doesn't turn off every AI-powered [\u2026]",
+      "categories": [
+        "AI",
+        "Apps",
+        "Creators",
+        "News",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25355957/STK263_CANVA_D.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n20": {
+      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+      "source": "TechCrunch",
+      "published": "2026-11-19T00:42:56+00:00",
+      "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.",
+      "categories": [
+        "AI",
+        "Enterprise",
+        "TC",
+        "buyouts",
+        "Microsoft"
+      ],
+      "image": null
+    },
+    "n21": {
+      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is \u2018unpatchable\u2019",
+      "link": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+      "source": "TechCrunch",
+      "published": "2026-11-18T23:45:00+00:00",
+      "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
+      "categories": [
+        "AI",
+        "cyberattacks",
+        "Microsoft",
+        "Outlook"
+      ],
+      "image": null
+    },
+    "n22": {
+      "title": "Elon Musk says ousting Jensen Huang is like \u2018kicking Michael Jordan off your team\u2019",
+      "link": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+      "source": "TechCrunch",
+      "published": "2026-11-18T23:25:17+00:00",
+      "summary": "\u201cI don\u2019t think [Huang is] disloyal to the United States,\" Musk said.",
+      "categories": [
+        "AI",
+        "Elon Musk",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "image": null
+    },
+    "n23": {
+      "title": "The nation\u2019s largest school districts consider ditching Google Search",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+      "source": "The Verge",
+      "published": "2026-11-18T23:18:35+00:00",
+      "summary": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times. Starting next year, schools will not have the option to disable Gemini-powered features without also disabling Search. Chris Phillips, Google's vice [\u2026]",
+      "categories": [
+        "AI",
+        "Google",
+        "News",
+        "Policy",
+        "Politics",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/STK255_Google_Gemini_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n24": {
+      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang\u2019s exit",
+      "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+      "source": "TechCrunch",
+      "published": "2026-11-18T23:17:28+00:00",
+      "summary": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
+      "categories": [
+        "AI",
+        "Jensen Huang",
+        "Microsoft",
+        "Satya Nadella"
+      ],
+      "image": null
+    },
+    "n25": {
+      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+      "link": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+      "source": "TechCrunch",
+      "published": "2026-11-18T22:58:11+00:00",
+      "summary": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
+      "categories": [
+        "AI",
+        "Commerce",
+        "AI agents",
+        "In Brief",
+        "Microsoft",
+        "Satya Nadella"
+      ],
+      "image": null
+    },
+    "w1": {
+      "title": "How the BMW Group governs hundreds of agents across thousands of developers",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-19T22:20:23+00:00",
+      "summary": "When hundreds of agents serve thousands of developers, governance cannot be an afterthought. The BMW Group shares the practices and patterns its R&D teams use to build, govern, and operate AI agents at enterprise scale without sacrificing speed, quality, or compliance.",
+      "categories": [
+        "Automotive",
+        "Best Practices",
+        "Intermediate (200)"
+      ],
+      "image": null
+    },
+    "w2": {
+      "title": "Run your whole selling business in AWS Quick",
+      "link": "https://aws.amazon.com/blogs/machine-learning/run-your-whole-selling-business-in-aws-quick/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-19T22:16:22+00:00",
+      "summary": "Most sellers do not need another AI product to learn. They need the tools and information they already use brought together, so they can see what is happening in their business and act on it.",
+      "categories": [
+        "Announcements",
+        "AWS Quick",
+        "Foundational (100)"
+      ],
+      "image": null
+    },
+    "w3": {
+      "title": "Amazon SageMaker AI now detects latency drift, idle GPUs, and missed optimizations on your inference endpoints",
+      "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-19T21:28:18+00:00",
+      "summary": "Amazon SageMaker AI now monitors your generative AI inference endpoints by default and tells you when a change could improve performance or lower cost. It tracks latency, GPU utilization, and serving configuration, then sends a finding through AWS Health with a one-click path to benchmark alternatives in SageMaker Studio before you apply any change.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon SageMaker AI",
+        "Announcements"
+      ],
+      "image": null
+    },
+    "w4": {
+      "title": "Inside Amazon Connect Talent: The science of structured AI interviews",
+      "link": "https://aws.amazon.com/blogs/machine-learning/inside-amazon-connect-talent-the-science-of-structured-ai-interviews/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-19T21:23:20+00:00",
+      "summary": "For organizations hiring hundreds or thousands of people, every interview presents the same challenge: How do you give candidates a consistent opportunity to demonstrate their skills while gathering the evidence needed to make informed hiring decisions? Structured behavioral interviews offer a research-backed approach to this challenge. They use consistent, job-related questions and clear scoring criteria [\u2026]",
+      "categories": [
+        "Amazon Connect",
+        "Announcements",
+        "Generative AI"
+      ],
+      "image": null
+    },
+    "w5": {
+      "title": "Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle hooks",
+      "link": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-19T20:01:06+00:00",
+      "summary": "Amazon Bedrock AgentCore harness now runs on the open-source Strands harness, bringing a recommended model, task-oriented defaults, automatic prompt caching, proactive context management, and new built-in tools. It also adds lifecycle hooks so you can run deterministic allow or deny checks at defined points in the agent loop.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock AgentCore",
+        "Announcements"
+      ],
+      "image": null
+    },
+    "w6": {
+      "title": "Amazon Polly launches voice cloning: A unique voice for your brand",
+      "link": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-19T19:53:32+00:00",
+      "summary": "Voice cloning in Amazon Polly is now generally available. Give Amazon Polly a few minutes of recordings from a consenting speaker, and it builds a custom voice that reads new text in that speaker's voice. Cloned voices run on the Amazon Polly generative engine and support seven languages.",
+      "categories": [
+        "Amazon Polly",
+        "Announcements",
+        "Intermediate (200)"
+      ],
+      "image": null
+    },
+    "w7": {
+      "title": "Optimize AI economics on Amazon Bedrock with Accenture\u2019s sequenced approach",
+      "link": "https://aws.amazon.com/blogs/machine-learning/optimize-ai-economics-on-amazon-bedrock-with-accentures-sequenced-approach/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-19T18:48:55+00:00",
+      "summary": "As enterprises scale AI on Amazon Bedrock, token spend can grow even as per-token prices fall. This post walks through six composable optimization levers, shows how Accenture applied them across four client engagements, and recommends a sequence for cutting AI token spend on your own workloads.",
+      "categories": [
+        "Amazon Bedrock",
+        "Customer Solutions",
+        "Expert (400)"
+      ],
+      "image": null
+    },
+    "w8": {
+      "title": "From learning to leaderboard: How Cisco upskilled 1,200 engineers in agentic AI with AWS AI League",
+      "link": "https://aws.amazon.com/blogs/machine-learning/from-learning-to-leaderboard-how-cisco-upskilled-1200-engineers-in-agentic-ai-with-aws-ai-league/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-19T18:26:22+00:00",
+      "summary": "Cisco and AWS used Cisco Transformation Fest and AWS AI League to turn hands-on AI learning into a culture of building. A Cisco engineer won the 2025 AWS AI League global title and 1,200 engineers competed in 2026. This post shares Cisco's journey, lessons from the 2026 winning agent built on Amazon Bedrock AgentCore, and how to host your own league.",
+      "categories": [
+        "Amazon Bedrock AgentCore",
+        "Amazon SageMaker AI",
+        "Customer Solutions",
+        "Intermediate (200)"
+      ],
+      "image": null
+    },
+    "w9": {
+      "title": "Keep inference running through regional capacity shortfalls with cross-Region inference routing in Amazon SageMaker AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/keep-inference-running-through-regional-capacity-shortfalls-with-cross-region-inference-routing-in-amazon-sagemaker-ai/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-19T18:20:54+00:00",
+      "summary": "Cross-Region inference routing in Amazon SageMaker AI gives your application one invocation path across the endpoints and inference components you already run, in one or more AWS Regions and AWS accounts. The router prefers its own Region and shifts new requests to another destination only when the local one can't serve reliably.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon SageMaker AI",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w10": {
+      "title": "Protect agent tool calls with Skyflow and Amazon Bedrock AgentCore Gateway",
+      "link": "https://aws.amazon.com/blogs/machine-learning/protect-agent-tool-calls-with-skyflow-and-amazon-bedrock-agentcore-gateway/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-19T18:14:36+00:00",
+      "summary": "Learn how Skyflow and Amazon Bedrock AgentCore Gateway keep sensitive data out of the tools your AI agents call. Added as a gateway interceptor, Skyflow de-identifies data before any tool, model, or log sees it, and restores it for authorized callers, with no change to your agent code.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Bedrock AgentCore",
+        "Best Practices"
+      ],
+      "image": null
+    },
+    "w11": {
+      "title": "PolyAI Dialog-RSN-1 is now on Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/blogs/machine-learning/polyai-dialog-rsn-1-is-now-on-amazon-sagemaker-jumpstart/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-19T17:28:47+00:00",
+      "summary": "PolyAI Dialog-RSN-1, a reasoning model built for real-time complex dialog, is available today on AWS Marketplace and Amazon SageMaker JumpStart. Discover it, evaluate it on your own data, and deploy it to a secure SageMaker endpoint in your own AWS account.",
+      "categories": [
+        "Amazon SageMaker JumpStart",
+        "Announcements",
+        "Intermediate (200)"
+      ],
+      "image": null
+    },
+    "w12": {
+      "title": "Using NVIDIA Run:ai GPU Fractioning on Amazon EKS",
+      "link": "https://aws.amazon.com/blogs/machine-learning/using-nvidia-runai-gpu-fractioning-on-amazon-eks/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-19T16:13:51+00:00",
+      "summary": "Learn how to run two memory-bounded Kubernetes Pods on a single NVIDIA A10G GPU using open-source NVIDIA Run:ai GPU Fractioning on Amazon EKS. This walkthrough builds a custom Amazon Linux 2023 image, installs KAI Scheduler and the GPU Fractioning Operator, and validates per-Pod GPU-memory contracts with enforcement and metrics.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Elastic Kubernetes Service",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w13": {
+      "title": "Salesforce Data: Record Cyber Week Expected to Deliver $75.8B in AI-Driven Sales",
+      "link": "https://www.salesforce.com/news/stories/cyber-week-ai-sales-2026/",
+      "source": "Salesforce News",
+      "published": "2026-11-19T13:00:00+00:00",
+      "summary": "Retailers with shopper agents set to score big as consumers turn to AI and personal agents to find deals this holiday season",
+      "categories": [
+        "Uncategorized"
+      ],
+      "image": null
+    },
+    "w14": {
+      "title": "Salesforce to Lead Consortium Bringing Trusted American SI to Global Markets",
+      "link": "https://www.salesforce.com/news/press-releases/2026/11/19/salesforce-si-export-consortium/",
+      "source": "Salesforce News",
+      "published": "2026-11-19T13:00:00+00:00",
+      "summary": "Commerce designation supports Salesforce\u2019s delivery of governed data, model choice, and agents that modernize government services and business operations",
+      "categories": [],
+      "image": null
+    },
+    "w15": {
+      "title": "The dark side of AI in hiring: When job applicants become security threats",
+      "link": "https://www.cio.com/article/4250367/the-dark-side-of-ai-in-hiring-when-job-applicants-become-security-threats.html",
+      "source": "CIO.com",
+      "published": "2026-11-19T10:00:00+00:00",
+      "summary": "Employers have always dealt with job applicants who stretch the truth. Candidates exaggerate their technical skills, embellish their experience or take too much credit for accomplishments. Hiring managers have learned to expect some r\u00e9sum\u00e9 inflation. AI has changed the nature and scale of the problem. According to recent research , a cell of up to 22 North Korean operatives submitted nearly 167,000 job applications in roughly nine months using stolen identities, AI-assisted interviewing and US-b",
+      "categories": [
+        "Artificial Intelligence, Hiring, IT Management, Security, Security Practices"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/05/4177494-0-12363600-1779854723-shutterstock_2431635551.jpg?quality=50&strip=all"
+    },
+    "u1": {
+      "title": "Meta\u2019s new Muse Charm device may cost $300",
+      "link": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "source": "TechCrunch",
+      "published": "2026-11-19T21:58:06+00:00",
+      "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+      "categories": [
+        "AI",
+        "AI wearables",
+        "hardware",
+        "Meta",
+        "muse"
+      ],
+      "image": null,
+      "date_mentioned": null
+    },
+    "u2": {
+      "title": "AI leadership: 3 success lessons from CBA\u2019s chief AI officer",
+      "link": "https://www.cio.com/article/4250275/ai-leadership-3-success-lessons-from-cbas-chief-ai-officer.html",
+      "source": "CIO.com",
+      "published": "2026-11-19T09:00:00+00:00",
+      "summary": "These are early, fascinating days for the corporate title du jour \u2014 chief artificial intelligence officer (CAIO). So when the CAIO of Australia\u2019s largest bank, Commonwealth Bank (CBA), stands up to talk about his role and how times are changing, it\u2019s worth a closer look. I recently interviewed Ranil Boteju, CBA\u2019s CAIO, on stage at Momentum Media\u2019s FST Future of Financial Services, Data & AI conference , and one of his answers pointed to the story behind the story. \u201cI am the chief AI officer, but",
+      "categories": [
+        "Artificial Intelligence, IT Leadership"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4250275-0-38215400-1795079001-ranil-boteju-cba.jpg?quality=50&strip=all",
+      "date_mentioned": null
+    },
+    "d1": {
+      "title": "Google just gave Gemini the run of your Mac \u2014 three days after Apple tightened the rules",
+      "link": "https://thenewstack.io/gemini-mac-computer-use/",
+      "source": "The New Stack",
+      "published": "2026-11-19T21:35:09+00:00",
+      "summary": "Google is adding computer use to its Gemini app for macOS. The assistant can now work across desktop applications and",
+      "categories": [
+        "AI Agents",
+        "Emerging technologies",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/eedb006c-joshua-woroniecki-lzh3hptjz9c-unsplash-1024x685.jpg"
+    },
+    "d2": {
+      "title": "An engineer didn\u2019t message his AI for 22 of 44 days. It built an Android app anyway.",
+      "link": "https://thenewstack.io/cognition-devin-bots-management/",
+      "source": "The New Stack",
+      "published": "2026-11-19T20:22:18+00:00",
+      "summary": "Cognition has spent nearly three years developing Devin as an autonomous engineer that takes a ticket and ships a pull",
+      "categories": [
+        "AI Agents",
+        "AI Engineering",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/e4ef422e-milhad-yaktvxoa6gc-unsplash-1-1024x647.jpg"
+    },
+    "d3": {
+      "title": "IDrive wants to back up your coding agents, too",
+      "link": "https://thenewstack.io/idrive-ai-agents-backup/",
+      "source": "The New Stack",
+      "published": "2026-11-19T17:31:44+00:00",
+      "summary": "Coding agents need backups, too, or at least that\u2019s what IDrive is arguing. Backup and storage service IDrive on Thursday",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/3adb3cf7-benjamin-lehman-gnyjcepvrs8-unsplash-1024x683.jpg"
+    },
+    "d4": {
+      "title": "A \u201cheadless Slack\u201d: Vercel\u2019s new message board lets Claude Code and Codex agents work together",
+      "link": "https://thenewstack.io/vercel-board-agent-swarms/",
+      "source": "The New Stack",
+      "published": "2026-11-19T16:58:48+00:00",
+      "summary": "For AI agents to work together effectively, they need a way to communicate and divvy up tasks \u2014 much as",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Developer tools",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/7411f0ae-feat-1024x576.jpg"
+    },
+    "d5": {
+      "title": "Google\u2019s Gemini 4 Neon tripled its coding score without changing the model",
+      "link": "https://thenewstack.io/gemini-neon-antigravity-harness/",
+      "source": "The New Stack",
+      "published": "2026-11-19T00:45:11+00:00",
+      "summary": "Google\u2019s new Gemini 4 Neon resolved 12.8% of the SWE-sweep coding benchmark using the mini-SWE harness, but that score jumped",
+      "categories": [
+        "AI Agents",
+        "AI Models",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/8e85ff9b-getty-images-3sazdq7tpas-unsplash-1024x682.jpg"
+    },
+    "d6": {
+      "title": "Microsoft says Bing serves 1B people. Its next search engine isn\u2019t for them.",
+      "link": "https://thenewstack.io/microsoft-web-iq-agents/",
+      "source": "The New Stack",
+      "published": "2026-11-18T20:38:31+00:00",
+      "summary": "Microsoft says its Bing search engine now has one billion monthly users. The company says those are humans \u2014 not",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "AI Strategy"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/110a2c7f-microsoft-logo-ignite-26-1024x768.jpg"
+    },
+    "d7": {
+      "title": "\u201cThe best escape room players that you\u2019ve ever met\u201d: What Red Hat\u2019s AI architect really thinks about agents.",
+      "link": "https://thenewstack.io/openshell-ai-agent-security/",
+      "source": "The New Stack",
+      "published": "2026-11-18T20:25:18+00:00",
+      "summary": "Last week at KubeCon + CloudNativeCon North America, a major gathering of the open-source and cloud-native communities, many speakers \u2014",
+      "categories": [
+        "AI Agents",
+        "Containers",
+        "Kubecon Cloudnativecon NA 2026",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/e66150e7-se-tsuchiya-1esex83dsus-unsplash-1024x683.jpg"
+    },
+    "d8": {
+      "title": "Qwen4-Max vs. Claude Opus 5.5: The cheaper model costs you somewhere else.",
+      "link": "https://thenewstack.io/qwen4-max-vs-claude-opus-5-5/",
+      "source": "The New Stack",
+      "published": "2026-11-18T19:10:39+00:00",
+      "summary": "Qwen4-Max, made available in preview to Token Plan subscribers on November 11 and generally released on November 16, is quite",
+      "categories": [
+        "AI",
+        "AI Models",
+        "Anthropic",
+        "Large Language Models",
+        "Software Testing"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/2b7d750d-martin-sanchez-7zysqurp1dg-unsplash-1024x761.jpg"
+    },
+    "d9": {
+      "title": "OpenAI spent $1.2 million finding nearly 1,000 Linux security flaws. Sam Altman says this is just the beginning.",
+      "link": "https://thenewstack.io/openai-entire-ai-stack/",
+      "source": "The New Stack",
+      "published": "2026-11-18T18:17:50+00:00",
+      "summary": "OpenAI spent approximately $1.2 million in API costs to generate working exploits for 948 Linux kernel vulnerabilities. At The New",
+      "categories": [
+        "AI Agents",
+        "AI Infrastructure",
+        "AI Strategy"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/03/f7a6563d-screenshot-2026-03-04-at-14.29.48-1024x585.png"
+    },
+    "d10": {
+      "title": "\u201cCollaboration over competition\u201d: Hugging Face hands model inference traffic to OpenRouter",
+      "link": "https://thenewstack.io/hugging-face-openrouter-inference/",
+      "source": "The New Stack",
+      "published": "2026-11-18T13:39:13+00:00",
+      "summary": "Hugging Face and OpenRouter have announced a partnership that promises to make AI model inference faster and more reliable for",
+      "categories": [
+        "AI",
+        "AI Infrastructure",
+        "Large Language Models",
+        "Open Source"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/ba6a4f2b-aditya-sahu-lfqxdzlp-gm-unsplash-1024x724.jpg"
+    },
+    "d11": {
+      "title": "Your AI coding agent could cost 5x more depending on the harness, benchmark finds",
+      "link": "https://thenewstack.io/coding-agent-harness-costs/",
+      "source": "The New Stack",
+      "published": "2026-11-17T22:13:52+00:00",
+      "summary": "The same AI model can cost up to five times more to run depending on the coding agent harness it\u2019s",
+      "categories": [
+        "AI Agents",
+        "Developer tools",
+        "FinOps"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/a00e13bc-wildan-kurniawan-kb5ndzxgzo8-unsplash-1024x712.jpg"
+    },
+    "d12": {
+      "title": "OpenAI\u2019s own tests show GPT-6.2 Astra is twice as likely to hide coding failures",
+      "link": "https://thenewstack.io/astra-hides-coding-failures/",
+      "source": "The New Stack",
+      "published": "2026-11-17T19:59:04+00:00",
+      "summary": "OpenAI\u2019s new GPT-6.2 Astra is nearly twice as likely as its predecessor to leave users unaware of problems that prevented",
+      "categories": [
+        "AI Agents",
+        "AI Engineering",
+        "AI Models"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/448cf0b1-rizki-kurniawan-i0dc7f_riq0-unsplash-1024x571.jpg"
+    },
+    "l1": {
+      "title": "The Pulse: Is Amazon\u2019s writing culture collapsing because of AI?",
+      "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-11-19T17:08:59+00:00",
+      "summary": "Also: Anthropic goes public with the largest-ever IPO, Meta frantically reverses shutdown of popular AI coding harness Conductor, and more",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!dsZM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9817f36-232c-412a-89cc-57b2691171ec_819x900.png"
+    },
+    "l2": {
+      "title": "Wall Street Is Wrong About Anthropic",
+      "link": "https://www.thealgorithmicbridge.com/p/wall-street-is-wrong-about-anthropic",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-19T15:16:34+00:00",
+      "summary": "Anthropic\u2019s IPO is today. They think the world might end tomorrow",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!pnKT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36fad843-74be-4e4b-81b8-b231cb87c67a_960x730.jpeg"
+    },
+    "l3": {
+      "title": "My wife thinks AI is a person",
+      "link": "https://www.bensbites.com/p/my-wife-thinks-ai-is-a-person",
+      "source": "Ben's Bites",
+      "published": "2026-11-19T14:08:21+00:00",
+      "summary": "which isn\u2019t as nuts as it sounds...",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!lxT1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe0e94eb0-cad9-432c-8bab-9e162c206d28_1100x814.gif"
+    },
+    "l4": {
+      "title": "The Fall of Award-Winning Literature",
+      "link": "https://www.thealgorithmicbridge.com/p/the-fall-of-award-winning-literature",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-18T20:11:16+00:00",
+      "summary": "One more to AI\u2019s collection",
+      "categories": [],
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/3baeef6b-c5f4-4452-b746-b5d46cada77b_480x270.png"
+    },
+    "l5": {
+      "title": "Software factories and code reviews with Harjot Gill",
+      "link": "https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-11-18T18:08:52+00:00",
+      "summary": "CodeRabbit CEO Harjot Gill explains how he shipped over 5,000 pull requests in a month, why he believes human code review is dead, and what he gets from spending $250,000 a month on AI.",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!jCup!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff3b0c36f-48f4-4d26-a750-244e2f6e2e66_1600x140.png"
+    },
+    "l6": {
+      "title": "Inference engineering for software engineers",
+      "link": "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-11-17T16:11:23+00:00",
+      "summary": "When is the right time to drop APIs provided by the frontier AI labs, and what about choosing models & providers, caching, dedicated GPUs, KV cache concerns, and more? A practical deepdive",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!k1yV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8fecea03-44c9-44ef-8f85-fc46e4e4f69a_910x1062.png"
+    },
+    "l7": {
+      "title": "Productiv-icky",
+      "link": "https://www.bensbites.com/p/productiv-icky",
+      "source": "Ben's Bites",
+      "published": "2026-11-17T14:14:18+00:00",
+      "summary": "Digging holes on the beach",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!1gPk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09d649a8-ce78-4942-8987-e610f220531a_1100x1156.gif"
+    },
+    "l8": {
+      "title": "How NVIDIA\u2019s Crisis Could End the AI Industry as We Know It",
+      "link": "https://www.thealgorithmicbridge.com/p/how-nvidias-crisis-could-end-the",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-16T18:42:02+00:00",
+      "summary": "Jensen Huang is gone. What happens next?",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!EhTo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4fb95b6a-fc85-4d81-89e4-fd580dac7c9c_1670x942.png"
+    }
+  },
+  "llm_draft": {
+    "glance": [
+      {
+        "id": "n12",
+        "summary": "Anthropic officially went public on the Nasdaq under ticker symbol ANT at $111.50 per share."
+      },
+      {
+        "id": "n5",
+        "summary": "Nvidia CEO Jensen Huang resigned following an affair, prompting national security concerns."
+      },
+      {
+        "id": "n6",
+        "summary": "Google is updating its homepage with a collapsible sidebar to view and continue AI chats."
+      },
+      {
+        "id": "w8",
+        "summary": "Cisco upskilled 1,200 engineers in agentic AI using the AWS AI League program."
+      }
+    ],
+    "big_pour": [
+      {
+        "id": "n12",
+        "headline": "Anthropic starts trading on Nasdaq at $111.50 share price",
+        "teaser": "Anthropic officially goes public on Nasdaq",
+        "summary": "Anthropic has officially gone public under ticker symbol \"ANT\" at $111.50 per share. The listing comes nearly a month after Anthropic revealed its plans to go public.",
+        "why": "Anthropic's public debut raised over $80 billion in capital, putting the company's valuation around $1.5 trillion.",
+        "explain": {
+          "kid": "Anthropic put its stock on Wall Street for people to buy. Its value reached around $1.5 trillion!",
+          "pm": "Anthropic listed on Nasdaq under ticker symbol \"ANT\" at $111.50 per share, raising over $80 billion in new capital.",
+          "engineer": "Anthropic went public on Nasdaq under symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price."
+        }
+      },
+      {
+        "id": "n5",
+        "headline": "Jensen Huang resigns from Nvidia following an affair",
+        "teaser": "Jensen Huang resigns as Nvidia CEO",
+        "summary": "Jensen Huang has resigned from Nvidia following an affair. His exit could carry ramifications for national security during the U.S. and China AI development race."
+      },
+      {
+        "id": "n8",
+        "headline": "Google Gemini app for macOS gains computer use capabilities",
+        "teaser": "Gemini on Mac adds computer use",
+        "summary": "Google's Gemini app for macOS now supports computer use. The feature helps complete multi-step tasks across local files, desktop apps, and the web."
+      }
+    ],
+    "office_blend": [
+      {
+        "id": "w8",
+        "headline": "Cisco upskills 1,200 engineers using AWS AI League",
+        "teaser": "Cisco upskills 1,200 engineers in AI",
+        "summary": "Cisco used AWS AI League to upskill 1,200 engineers in agentic AI. A Cisco engineer won the 2025 global title."
+      },
+      {
+        "id": "w1",
+        "headline": "BMW Group governs AI agents across thousands of developers",
+        "teaser": "BMW governs hundreds of AI agents",
+        "summary": "The BMW Group shared practices used by its R&D teams to govern hundreds of AI agents across thousands of developers without sacrificing compliance."
+      }
+    ],
+    "still_roasting": [
+      {
+        "id": "u1",
+        "summary": "Meta has not denied reports that its upcoming Muse Charm AI wearable device may cost $300."
+      },
+      {
+        "id": "u2",
+        "summary": "Commonwealth Bank CAIO Ranil Boteju discussed corporate AI leadership lessons at a financial services conference."
+      }
+    ],
+    "quick_sips": [
+      {
+        "id": "n14",
+        "summary": "ChatGPT released Live Dictation to transcribe audio prompts as you speak across web, desktop, iOS, and Android apps."
+      },
+      {
+        "id": "n19",
+        "summary": "Canva added an AI toggle allowing users to turn off generative tools like Magic Expand and chatbot image generation."
+      },
+      {
+        "id": "w6",
+        "summary": "Amazon Polly introduced voice cloning in seven languages to generate custom brand voices using short audio recordings."
+      }
+    ],
+    "builder": {
+      "stories": [
+        {
+          "id": "d4",
+          "label": "New tool",
+          "headline": "Vercel launches message board for AI agent collaboration",
+          "summary": "Vercel released a message board platform that enables Claude Code and Codex agents to communicate and divide up tasks."
+        },
+        {
+          "id": "d9",
+          "label": "Security research",
+          "headline": "OpenAI spends $1.2M finding Linux security flaws",
+          "summary": "OpenAI spent around $1.2 million in API costs generating working exploits for 948 Linux kernel vulnerabilities."
+        }
+      ]
+    },
+    "long_read": {
+      "id": "l5",
+      "headline": "Software factories and code reviews with Harjot Gill",
+      "summary": "The newsletter examines CodeRabbit CEO Harjot Gill's view that human code review is dead, following his team shipping over 5,000 pull requests in a month."
+    }
+  },
+  "first_check": {
+    "n5": [
+      "name 'CEO' is not in the source"
+    ],
+    "n12": [
+      "number '80' is not in the source"
+    ],
+    "l5": [
+      "name 'Gill's' is not in the source"
+    ]
+  },
+  "dropped": [],
+  "explain_dropped": []
+}

@@ -1,0 +1,380 @@
+{
+  "date": "2026-11-19",
+  "claims": 43,
+  "supported": 40,
+  "partial": 1,
+  "unsupported": 2,
+  "faithfulness": 0.942,
+  "flagged": [
+    {
+      "section": "glance",
+      "id": "n12",
+      "claim": "The public listing puts the company's value at around $1.5 trillion after shares climbed to $111.50.",
+      "source": "Anthropic starts trading on Wall Street. Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "verdict": "unsupported",
+      "reason": "The source states the $1.5 trillion valuation was based on the initial $83 price, not after climbing to $111.50."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "The public listing puts the company's value at around $1.5 trillion after shares climbed to $111.50.",
+      "source": "Anthropic starts trading on Wall Street. Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "verdict": "unsupported",
+      "reason": "The source states the $1.5 trillion valuation was based on the initial $83 share price, not the $111.50 price."
+    },
+    {
+      "section": "long_read",
+      "id": "l5",
+      "claim": "The newsletter shares why CodeRabbit CEO Harjot Gill believes human code review is dead, following his team shipping over 5,000 pull requests in a month.",
+      "source": "Software factories and code reviews with Harjot Gill. CodeRabbit CEO Harjot Gill explains how he shipped over 5,000 pull requests in a month, why he believes human code review is dead, and what he gets from spending $250,000 a month on AI.",
+      "verdict": "partial",
+      "reason": "The source states Gill himself shipped over 5,000 pull requests rather than his team, and lists these as separate topics rather than a causal timeline."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n12",
+      "claim": "Anthropic starts trading on Nasdaq at $111.50 share price",
+      "source": "Anthropic starts trading on Wall Street. Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Anthropic began trading on the Nasdaq at $111.50 per share."
+    },
+    {
+      "section": "glance",
+      "id": "n12",
+      "claim": "Anthropic has officially gone public under ticker symbol \"ANT\" at $111.50 per share.",
+      "source": "Anthropic starts trading on Wall Street. Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Anthropic went public and began trading on the Nasdaq under 'ANT' at $111.50 per share."
+    },
+    {
+      "section": "glance",
+      "id": "n12",
+      "claim": "The listing comes nearly a month after Anthropic revealed its plans to go public.",
+      "source": "Anthropic starts trading on Wall Street. Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states verbatim that the listing comes nearly a month after Anthropic revealed its plans to go public."
+    },
+    {
+      "section": "glance",
+      "id": "n12",
+      "claim": "The public listing puts the company's value at around $1.5 trillion after shares climbed to $111.50.",
+      "source": "Anthropic starts trading on Wall Street. Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "verdict": "unsupported",
+      "reason": "The source states the $1.5 trillion valuation was based on the initial $83 price, not after climbing to $111.50."
+    },
+    {
+      "section": "glance",
+      "id": "n12",
+      "claim": "Anthropic put its stock on Wall Street for people to buy.",
+      "source": "Anthropic starts trading on Wall Street. Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Anthropic officially went public and started trading on Wall Street."
+    },
+    {
+      "section": "glance",
+      "id": "n12",
+      "claim": "Its value reached around $1.5 trillion!",
+      "source": "Anthropic starts trading on Wall Street. Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states the initial $83 per share price put the company's value at around $1.5 trillion."
+    },
+    {
+      "section": "glance",
+      "id": "n12",
+      "claim": "Anthropic listed on the Nasdaq under ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 price that valued the company at around $1.5 trillion.",
+      "source": "Anthropic starts trading on Wall Street. Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "verdict": "supported",
+      "reason": "All details accurately match the statement in the source text."
+    },
+    {
+      "section": "glance",
+      "id": "n12",
+      "claim": "Anthropic went public on the Nasdaq under symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price.",
+      "source": "Anthropic starts trading on Wall Street. Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source directly supports all elements of the claim."
+    },
+    {
+      "section": "glance",
+      "id": "n5",
+      "claim": "Jensen Huang resigns from Nvidia following an affair",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The source states directly that Jensen Huang has resigned from Nvidia following an affair."
+    },
+    {
+      "section": "glance",
+      "id": "n5",
+      "claim": "Jensen Huang has resigned from Nvidia following an affair.",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The source states verbatim that Jensen Huang has resigned from Nvidia following an affair."
+    },
+    {
+      "section": "glance",
+      "id": "n5",
+      "claim": "His exit could carry ramifications for national security during the U.S. and China AI development race.",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The source directly supports that his resignation could have ramifications for national security as the U.S. and China race to develop AI infrastructure."
+    },
+    {
+      "section": "glance",
+      "id": "n6",
+      "claim": "Google is updating its homepage with a collapsible sidebar to view and continue AI chats.",
+      "source": "Google is putting AI chats right on the homepage. Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Google is updating its homepage and shows a collapsible sidebar to view and continue AI chats."
+    },
+    {
+      "section": "glance",
+      "id": "w8",
+      "claim": "Cisco upskilled 1,200 engineers in agentic AI using the AWS AI League program.",
+      "source": "From learning to leaderboard: How Cisco upskilled 1,200 engineers in agentic AI with AWS AI League. Cisco and AWS used Cisco Transformation Fest and AWS AI League to turn hands-on AI learning into a culture of building. A Cisco engineer won the 2025 AWS AI League global title and 1,200 engineers competed in 2026. This post shares Cisco's journey, lessons from the 2026 winning agent built on Amazon Bedrock AgentCore, and how to host your own league.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Cisco upskilled 1,200 engineers in agentic AI with the AWS AI League."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "Anthropic starts trading on Nasdaq at $111.50 share price",
+      "source": "Anthropic starts trading on Wall Street. Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Anthropic began trading on the Nasdaq under symbol 'ANT' at $111.50 per share."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "Anthropic has officially gone public under ticker symbol \"ANT\" at $111.50 per share.",
+      "source": "Anthropic starts trading on Wall Street. Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Anthropic went public and began trading on the Nasdaq under 'ANT' at $111.50 per share."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "The listing comes nearly a month after Anthropic revealed its plans to go public.",
+      "source": "Anthropic starts trading on Wall Street. Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly notes that the listing comes nearly a month after Anthropic revealed its public plans."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "The public listing puts the company's value at around $1.5 trillion after shares climbed to $111.50.",
+      "source": "Anthropic starts trading on Wall Street. Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "verdict": "unsupported",
+      "reason": "The source states the $1.5 trillion valuation was based on the initial $83 share price, not the $111.50 price."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "Anthropic put its stock on Wall Street for people to buy.",
+      "source": "Anthropic starts trading on Wall Street. Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states that Anthropic officially went public and began trading on Wall Street."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "Its value reached around $1.5 trillion!",
+      "source": "Anthropic starts trading on Wall Street. Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly mentions that the company's value was put at around $1.5 trillion."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "Anthropic listed on the Nasdaq under ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 price that valued the company at around $1.5 trillion.",
+      "source": "Anthropic starts trading on Wall Street. Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms all details including the exchange, ticker, current price, initial price, and $1.5 trillion valuation."
+    },
+    {
+      "section": "big_pour",
+      "id": "n12",
+      "claim": "Anthropic went public on the Nasdaq under symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price.",
+      "source": "Anthropic starts trading on Wall Street. Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source directly supports that Anthropic went public on the Nasdaq under 'ANT' at $111.50 per share, up from $83."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "Jensen Huang resigns from Nvidia following an affair",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The source directly states that Jensen Huang has resigned from Nvidia following an affair."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "Jensen Huang has resigned from Nvidia following an affair.",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The source directly confirms Jensen Huang resigned from Nvidia following an affair."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "His exit could carry ramifications for national security during the U.S. and China AI development race.",
+      "source": "The unfolding Jensen Huang scandal: a timeline. Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "verdict": "supported",
+      "reason": "The source states his resignation could have national security ramifications amidst the U.S. and China AI infrastructure race."
+    },
+    {
+      "section": "big_pour",
+      "id": "n8",
+      "claim": "Google Gemini app for macOS gains computer use capabilities",
+      "source": "Gemini on Mac can now use your computer. Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms, making presentations, and listing items for sale. Users will [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Google's Gemini app for macOS now has computer use."
+    },
+    {
+      "section": "big_pour",
+      "id": "n8",
+      "claim": "Google's Gemini app for macOS now supports computer use.",
+      "source": "Gemini on Mac can now use your computer. Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms, making presentations, and listing items for sale. Users will [\u2026]",
+      "verdict": "supported",
+      "reason": "The text confirms that Google's Gemini app for macOS now has computer use."
+    },
+    {
+      "section": "big_pour",
+      "id": "n8",
+      "claim": "The feature helps complete multi-step tasks across local files, desktop apps, and the web.",
+      "source": "Gemini on Mac can now use your computer. Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms, making presentations, and listing items for sale. Users will [\u2026]",
+      "verdict": "supported",
+      "reason": "The source quotes Google stating the feature helps get multi-step tasks done across local files, desktop apps, and the web."
+    },
+    {
+      "section": "office_blend",
+      "id": "w8",
+      "claim": "Cisco upskills 1,200 engineers using AWS AI League",
+      "source": "From learning to leaderboard: How Cisco upskilled 1,200 engineers in agentic AI with AWS AI League. Cisco and AWS used Cisco Transformation Fest and AWS AI League to turn hands-on AI learning into a culture of building. A Cisco engineer won the 2025 AWS AI League global title and 1,200 engineers competed in 2026. This post shares Cisco's journey, lessons from the 2026 winning agent built on Amazon Bedrock AgentCore, and how to host your own league.",
+      "verdict": "supported",
+      "reason": "The source states that Cisco upskilled 1,200 engineers in agentic AI using AWS AI League."
+    },
+    {
+      "section": "office_blend",
+      "id": "w8",
+      "claim": "Cisco used AWS AI League to upskill 1,200 engineers in agentic AI.",
+      "source": "From learning to leaderboard: How Cisco upskilled 1,200 engineers in agentic AI with AWS AI League. Cisco and AWS used Cisco Transformation Fest and AWS AI League to turn hands-on AI learning into a culture of building. A Cisco engineer won the 2025 AWS AI League global title and 1,200 engineers competed in 2026. This post shares Cisco's journey, lessons from the 2026 winning agent built on Amazon Bedrock AgentCore, and how to host your own league.",
+      "verdict": "supported",
+      "reason": "The source directly describes how Cisco upskilled 1,200 engineers in agentic AI with AWS AI League."
+    },
+    {
+      "section": "office_blend",
+      "id": "w8",
+      "claim": "A Cisco engineer won the 2025 global title.",
+      "source": "From learning to leaderboard: How Cisco upskilled 1,200 engineers in agentic AI with AWS AI League. Cisco and AWS used Cisco Transformation Fest and AWS AI League to turn hands-on AI learning into a culture of building. A Cisco engineer won the 2025 AWS AI League global title and 1,200 engineers competed in 2026. This post shares Cisco's journey, lessons from the 2026 winning agent built on Amazon Bedrock AgentCore, and how to host your own league.",
+      "verdict": "supported",
+      "reason": "The text notes that a Cisco engineer won the 2025 AWS AI League global title."
+    },
+    {
+      "section": "office_blend",
+      "id": "w1",
+      "claim": "BMW Group governs AI agents across thousands of developers",
+      "source": "How the BMW Group governs hundreds of agents across thousands of developers. When hundreds of agents serve thousands of developers, governance cannot be an afterthought. The BMW Group shares the practices and patterns its R&D teams use to build, govern, and operate AI agents at enterprise scale without sacrificing speed, quality, or compliance.",
+      "verdict": "supported",
+      "reason": "The source title and text describe how the BMW Group governs agents across thousands of developers."
+    },
+    {
+      "section": "office_blend",
+      "id": "w1",
+      "claim": "The BMW Group shared practices used by its R&D teams to govern hundreds of AI agents across thousands of developers without sacrificing compliance.",
+      "source": "How the BMW Group governs hundreds of agents across thousands of developers. When hundreds of agents serve thousands of developers, governance cannot be an afterthought. The BMW Group shares the practices and patterns its R&D teams use to build, govern, and operate AI agents at enterprise scale without sacrificing speed, quality, or compliance.",
+      "verdict": "supported",
+      "reason": "The source details that BMW Group shares practices used by R&D teams to govern hundreds of agents across thousands of developers without sacrificing compliance."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u1",
+      "claim": "Meta has not denied reports that its upcoming Muse Charm AI wearable device may cost $300.",
+      "source": "Meta\u2019s new Muse Charm device may cost $300. Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+      "verdict": "supported",
+      "reason": "The source states that Meta hasn't denied reporting that its Muse Charm device may cost $300."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u2",
+      "claim": "Commonwealth Bank CAIO Ranil Boteju discussed corporate AI leadership lessons at a financial services conference.",
+      "source": "AI leadership: 3 success lessons from CBA\u2019s chief AI officer. These are early, fascinating days for the corporate title du jour \u2014 chief artificial intelligence officer (CAIO). So when the CAIO of Australia\u2019s largest bank, Commonwealth Bank (CBA), stands up to talk about his role and how times are changing, it\u2019s worth a closer look. I recently interviewed Ranil Boteju, CBA\u2019s CAIO, on stage at Momentum Media\u2019s FST Future of Financial Services, Data & AI conference , and one of his answers pointed to the story behind the story. \u201cI am the chief AI officer, but",
+      "verdict": "supported",
+      "reason": "The text mentions interviewing CBA's CAIO Ranil Boteju on stage at the FST Future of Financial Services, Data & AI conference."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n14",
+      "claim": "ChatGPT released Live Dictation to transcribe audio prompts as you speak across web, desktop, iOS, and Android apps.",
+      "source": "ChatGPT can transcribe as you speak now with Live Dictation. ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording. It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps. While using dictation in ChatGPT, you can tap or [\u2026]",
+      "verdict": "supported",
+      "reason": "The text confirms ChatGPT is rolling out Live Dictation globally across web, desktop, iOS, and Android apps."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n19",
+      "claim": "Canva added an AI toggle allowing users to turn off generative tools like Magic Expand and chatbot image generation.",
+      "source": "Canva adds an AI \u2018off\u2019 button. Canva will now allow you to turn off its generative AI features. With this change, you can disable the graphic design platform's array of AI tools, such as its AI photo-extending Magic Expand feature, as well as turn off the ability to generate images with its Canva chatbot. This toggle doesn't turn off every AI-powered [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states that Canva added a toggle allowing users to turn off generative AI tools, specifically mentioning Magic Expand and chatbot image generation."
+    },
+    {
+      "section": "quick_sips",
+      "id": "w6",
+      "claim": "Amazon Polly introduced voice cloning in seven languages to generate custom brand voices using short audio recordings.",
+      "source": "Amazon Polly launches voice cloning: A unique voice for your brand. Voice cloning in Amazon Polly is now generally available. Give Amazon Polly a few minutes of recordings from a consenting speaker, and it builds a custom voice that reads new text in that speaker's voice. Cloned voices run on the Amazon Polly generative engine and support seven languages.",
+      "verdict": "supported",
+      "reason": "The source confirms Amazon Polly voice cloning creates custom brand voices from a few minutes of audio across seven languages."
+    },
+    {
+      "section": "builder",
+      "id": "d4",
+      "claim": "Vercel launches message board for AI agent collaboration",
+      "source": "A \u201cheadless Slack\u201d: Vercel\u2019s new message board lets Claude Code and Codex agents work together. For AI agents to work together effectively, they need a way to communicate and divvy up tasks \u2014 much as",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Vercel launched a new message board for AI agents to work together."
+    },
+    {
+      "section": "builder",
+      "id": "d4",
+      "claim": "Vercel released a message board platform that enables Claude Code and Codex agents to communicate and divide up tasks.",
+      "source": "A \u201cheadless Slack\u201d: Vercel\u2019s new message board lets Claude Code and Codex agents work together. For AI agents to work together effectively, they need a way to communicate and divvy up tasks \u2014 much as",
+      "verdict": "supported",
+      "reason": "The source notes Vercel's message board lets Claude Code and Codex agents communicate and divvy up tasks."
+    },
+    {
+      "section": "builder",
+      "id": "d9",
+      "claim": "OpenAI spends $1.2M finding Linux security flaws",
+      "source": "OpenAI spent $1.2 million finding nearly 1,000 Linux security flaws. Sam Altman says this is just the beginning.. OpenAI spent approximately $1.2 million in API costs to generate working exploits for 948 Linux kernel vulnerabilities. At The New",
+      "verdict": "supported",
+      "reason": "The headline and text in the source confirm OpenAI spent $1.2M finding Linux security flaws."
+    },
+    {
+      "section": "builder",
+      "id": "d9",
+      "claim": "OpenAI spent around $1.2 million in API costs generating working exploits for 948 Linux kernel vulnerabilities.",
+      "source": "OpenAI spent $1.2 million finding nearly 1,000 Linux security flaws. Sam Altman says this is just the beginning.. OpenAI spent approximately $1.2 million in API costs to generate working exploits for 948 Linux kernel vulnerabilities. At The New",
+      "verdict": "supported",
+      "reason": "The source explicitly states OpenAI spent approximately $1.2 million in API costs generating working exploits for 948 Linux kernel vulnerabilities."
+    },
+    {
+      "section": "long_read",
+      "id": "l5",
+      "claim": "Software factories and code reviews with Harjot Gill",
+      "source": "Software factories and code reviews with Harjot Gill. CodeRabbit CEO Harjot Gill explains how he shipped over 5,000 pull requests in a month, why he believes human code review is dead, and what he gets from spending $250,000 a month on AI.",
+      "verdict": "supported",
+      "reason": "The text directly matches the title and topic described in the source."
+    },
+    {
+      "section": "long_read",
+      "id": "l5",
+      "claim": "The newsletter shares why CodeRabbit CEO Harjot Gill believes human code review is dead, following his team shipping over 5,000 pull requests in a month.",
+      "source": "Software factories and code reviews with Harjot Gill. CodeRabbit CEO Harjot Gill explains how he shipped over 5,000 pull requests in a month, why he believes human code review is dead, and what he gets from spending $250,000 a month on AI.",
+      "verdict": "partial",
+      "reason": "The source states Gill himself shipped over 5,000 pull requests rather than his team, and lists these as separate topics rather than a causal timeline."
+    }
+  ]
+}
