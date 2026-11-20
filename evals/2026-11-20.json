@@ -1,0 +1,372 @@
+{
+  "date": "2026-11-20",
+  "claims": 37,
+  "supported": 29,
+  "partial": 5,
+  "unsupported": 3,
+  "faithfulness": 0.851,
+  "flagged": [
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "A math puzzle solved by Claude",
+      "source": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude. Anthropic mathematician Levent Alp\u00f6ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [\u2026]",
+      "verdict": "partial",
+      "reason": "The claim states as a fact that the puzzle was solved, whereas the source states it is an unverified claim."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "It shows AI might soon solve complex, long-standing scientific problems that humans have struggled with for decades.",
+      "source": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude. Anthropic mathematician Levent Alp\u00f6ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [\u2026]",
+      "verdict": "unsupported",
+      "reason": "The source does not make general predictions about AI solving long-standing scientific problems."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "A math expert used an AI helper named Claude to solve a super hard math puzzle that nobody has been able to fix for a very long time.",
+      "source": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude. Anthropic mathematician Levent Alp\u00f6ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [\u2026]",
+      "verdict": "partial",
+      "reason": "The claim presents the puzzle as definitively solved, whereas the source clarifies this is an unverified claim."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "This demonstrates the model's utility in formal verification and advanced mathematical reasoning.",
+      "source": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude. Anthropic mathematician Levent Alp\u00f6ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [\u2026]",
+      "verdict": "unsupported",
+      "reason": "The source makes no mention of formal verification or advanced mathematical reasoning capabilities."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "AI is great at coding, not judgment",
+      "source": "The most misunderstood graph in AI just got a major update. A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory\u2014but it also indicates that models aren\u2019t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization\u2019s time horizon plot, which was widely\u2026",
+      "verdict": "partial",
+      "reason": "The claim overstates the source's nuanced finding that models are 'not quite as good' at judgment as they are at coding."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "A report from METR finds AI capabilities are improving exponentially.",
+      "source": "The most misunderstood graph in AI just got a major update. A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory\u2014but it also indicates that models aren\u2019t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization\u2019s time horizon plot, which was widely\u2026",
+      "verdict": "partial",
+      "reason": "The claim omits the qualifier 'some' when stating that AI capabilities are improving along an exponential trajectory."
+    },
+    {
+      "section": "concept",
+      "id": "d12",
+      "claim": "A harness is the software framework or environment that runs an AI model for specific tasks, such as coding.",
+      "source": "Your AI coding agent could cost 5x more depending on the harness, benchmark finds. The same AI model can cost up to five times more to run depending on the coding agent harness it\u2019s",
+      "verdict": "unsupported",
+      "reason": "The provided source text mentions a coding agent harness but does not provide a definition of what a harness is."
+    },
+    {
+      "section": "long_read",
+      "id": "l8",
+      "claim": "How NVIDIA\u2019s Crisis Could End the AI Industry",
+      "source": "How NVIDIA\u2019s Crisis Could End the AI Industry as We Know It. Jensen Huang is gone. What happens next?",
+      "verdict": "partial",
+      "reason": "The claim omits the qualifying phrase 'as We Know It' present in the headline of the source."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n5",
+      "claim": "Anthropic\u2019s mathematician claims to have solved the Riemann hypothesis using Claude.",
+      "source": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude. Anthropic mathematician Levent Alp\u00f6ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [\u2026]",
+      "verdict": "supported",
+      "reason": "The source directly states that an Anthropic mathematician claims to have proved the Riemann hypothesis with Claude."
+    },
+    {
+      "section": "glance",
+      "id": "n3",
+      "claim": "METR reports AI capabilities are improving exponentially but struggle with tasks requiring judgment.",
+      "source": "The most misunderstood graph in AI just got a major update. A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory\u2014but it also indicates that models aren\u2019t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization\u2019s time horizon plot, which was widely\u2026",
+      "verdict": "supported",
+      "reason": "The source confirms METR's report shows exponential improvements in some AI capabilities alongside relative struggles in tasks requiring judgment."
+    },
+    {
+      "section": "glance",
+      "id": "n11",
+      "claim": "Anthropic founders cashed out nearly $2 billion during the company's record-breaking IPO.",
+      "source": "Anthropic\u2019s 7 founders cashed out nearly $2B in record-breaking IPO. At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Anthropic's seven founders cashed out nearly $2B in a record-breaking IPO."
+    },
+    {
+      "section": "glance",
+      "id": "n9",
+      "claim": "Signal is blocking Gemini and Siri from reading user screens to protect privacy.",
+      "source": "Signal is blocking Gemini and Siri AI from reading your screen. Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Signal is blocking screen reading/taking screenshots on devices to prevent AI agents like Gemini and Siri from viewing user data."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "A math puzzle solved by Claude",
+      "source": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude. Anthropic mathematician Levent Alp\u00f6ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [\u2026]",
+      "verdict": "partial",
+      "reason": "The claim states as a fact that the puzzle was solved, whereas the source states it is an unverified claim."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "An Anthropic mathematician claims to have proved the Riemann hypothesis, a difficult mathematical problem, using Claude.",
+      "source": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude. Anthropic mathematician Levent Alp\u00f6ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [\u2026]",
+      "verdict": "supported",
+      "reason": "The claim accurately reflects the source statement that an Anthropic mathematician claims to have proved the Riemann hypothesis using Claude."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "If verified, this would be a significant achievement for AI in mathematics.",
+      "source": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude. Anthropic mathematician Levent Alp\u00f6ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly notes that, if verified, it would mark a seismic achievement for AI in mathematics."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "It shows AI might soon solve complex, long-standing scientific problems that humans have struggled with for decades.",
+      "source": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude. Anthropic mathematician Levent Alp\u00f6ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [\u2026]",
+      "verdict": "unsupported",
+      "reason": "The source does not make general predictions about AI solving long-standing scientific problems."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "A math expert used an AI helper named Claude to solve a super hard math puzzle that nobody has been able to fix for a very long time.",
+      "source": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude. Anthropic mathematician Levent Alp\u00f6ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [\u2026]",
+      "verdict": "partial",
+      "reason": "The claim presents the puzzle as definitively solved, whereas the source clarifies this is an unverified claim."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "The Riemann hypothesis, a Millennium Prize problem, was reportedly solved by an Anthropic researcher using Claude.",
+      "source": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude. Anthropic mathematician Levent Alp\u00f6ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [\u2026]",
+      "verdict": "supported",
+      "reason": "The source supports that the Millennium Prize problem was reportedly claimed to be solved by an Anthropic researcher using Claude."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "This demonstrates the model's utility in formal verification and advanced mathematical reasoning.",
+      "source": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude. Anthropic mathematician Levent Alp\u00f6ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [\u2026]",
+      "verdict": "unsupported",
+      "reason": "The source makes no mention of formal verification or advanced mathematical reasoning capabilities."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "Anthropic mathematician Levent Alp\u00f6ge claims he has proved the Riemann hypothesis with the help of Claude, cracking a difficult problem that has eluded some of the world's best mathematicians for decades.",
+      "source": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude. Anthropic mathematician Levent Alp\u00f6ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [\u2026]",
+      "verdict": "supported",
+      "reason": "The statement directly matches the information provided in the source text."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "If verified, it would mark another seismic achievement for AI in mathematics.",
+      "source": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude. Anthropic mathematician Levent Alp\u00f6ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states that if verified, it would mark yet another seismic achievement for AI in mathematics."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "AI is great at coding, not judgment",
+      "source": "The most misunderstood graph in AI just got a major update. A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory\u2014but it also indicates that models aren\u2019t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization\u2019s time horizon plot, which was widely\u2026",
+      "verdict": "partial",
+      "reason": "The claim overstates the source's nuanced finding that models are 'not quite as good' at judgment as they are at coding."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "A report from METR finds AI capabilities are improving exponentially.",
+      "source": "The most misunderstood graph in AI just got a major update. A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory\u2014but it also indicates that models aren\u2019t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization\u2019s time horizon plot, which was widely\u2026",
+      "verdict": "partial",
+      "reason": "The claim omits the qualifier 'some' when stating that AI capabilities are improving along an exponential trajectory."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "However, models remain less effective at tasks requiring human-like judgment compared to their performance in coding.",
+      "source": "The most misunderstood graph in AI just got a major update. A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory\u2014but it also indicates that models aren\u2019t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization\u2019s time horizon plot, which was widely\u2026",
+      "verdict": "supported",
+      "reason": "The source directly states that models aren't quite as good at tasks requiring judgment compared to coding."
+    },
+    {
+      "section": "big_pour",
+      "id": "n11",
+      "claim": "Anthropic\u2019s massive IPO payout",
+      "source": "Anthropic\u2019s 7 founders cashed out nearly $2B in record-breaking IPO. At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+      "verdict": "supported",
+      "reason": "The source describes the record-breaking IPO payout where seven founders cashed out nearly $2B."
+    },
+    {
+      "section": "big_pour",
+      "id": "n11",
+      "claim": "Anthropic went public with an IPO price of $83 per share.",
+      "source": "Anthropic\u2019s 7 founders cashed out nearly $2B in record-breaking IPO. At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+      "verdict": "supported",
+      "reason": "The source explicitly mentions the upgraded $83/share IPO price."
+    },
+    {
+      "section": "big_pour",
+      "id": "n11",
+      "claim": "The company raised nearly $105 billion, and its seven founders each received $280 million.",
+      "source": "Anthropic\u2019s 7 founders cashed out nearly $2B in record-breaking IPO. At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+      "verdict": "supported",
+      "reason": "The source specifies that the company nabbed nearly $105 billion and each of the seven founders pocketed $280 million."
+    },
+    {
+      "section": "office_blend",
+      "id": "w1",
+      "claim": "Standard Bank automates AI risk checks",
+      "source": "How Standard Bank Group automates AI risk assessment for generative AI. Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
+      "verdict": "supported",
+      "reason": "The source text states how Standard Bank Group automates evidence behind its generative AI risk assessments."
+    },
+    {
+      "section": "office_blend",
+      "id": "w1",
+      "claim": "Standard Bank Group worked with AWS to automate its generative AI approval process.",
+      "source": "How Standard Bank Group automates AI risk assessment for generative AI. Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
+      "verdict": "supported",
+      "reason": "The source confirms that Standard Bank worked with AWS Professional Services to automate evidence for its approval gates."
+    },
+    {
+      "section": "office_blend",
+      "id": "w1",
+      "claim": "They now use an LLM-as-a-judge on Amazon Bedrock to score use cases against policies.",
+      "source": "How Standard Bank Group automates AI risk assessment for generative AI. Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
+      "verdict": "supported",
+      "reason": "The source states that the bank uses LLM-as-a-judge on Amazon Bedrock to score use cases against standards and policies."
+    },
+    {
+      "section": "office_blend",
+      "id": "w9",
+      "claim": "BMW manages agents at scale",
+      "source": "How the BMW Group governs hundreds of agents across thousands of developers. When hundreds of agents serve thousands of developers, governance cannot be an afterthought. The BMW Group shares the practices and patterns its R&D teams use to build, govern, and operate AI agents at enterprise scale without sacrificing speed, quality, or compliance.",
+      "verdict": "supported",
+      "reason": "The source headline and text describe how the BMW Group governs and operates AI agents at enterprise scale."
+    },
+    {
+      "section": "office_blend",
+      "id": "w9",
+      "claim": "The BMW Group shared its methods for governing hundreds of AI agents across thousands of developers, focusing on maintaining speed and compliance.",
+      "source": "How the BMW Group governs hundreds of agents across thousands of developers. When hundreds of agents serve thousands of developers, governance cannot be an afterthought. The BMW Group shares the practices and patterns its R&D teams use to build, govern, and operate AI agents at enterprise scale without sacrificing speed, quality, or compliance.",
+      "verdict": "supported",
+      "reason": "The source mentions that BMW shared practices for governing hundreds of agents across thousands of developers without sacrificing speed, quality, or compliance."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u1",
+      "claim": "Meta\u2019s upcoming Muse Charm AI wearable may cost $300, though the company has not confirmed details.",
+      "source": "Meta\u2019s new Muse Charm device may cost $300. Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+      "verdict": "supported",
+      "reason": "The source explicitly states the device may cost $300 and Meta has not denied the reporting, stating only that it will share more soon."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u2",
+      "claim": "SAP is developing an 'Autonomous Enterprise' concept featuring AI agents that perform analyses and answer queries within the SAP system.",
+      "source": "An insider\u2019s look at SAP\u2019s \u2018Autonomous Enterprise\u2019. At the TechEd developer conference in Berlin, SAP presented additional details of its \u201c Autonomous Enterprise \u201d concept, which includes AI capabilities via Joule Work and SAP Autonomous Suite, built on the SAP Business AI Platform. The company\u2019s focus is not just AI, but AI agents capable of acting automatically within the SAP system by performing analyses and answering queries. This raises questions, such as: How can the costs of AI agents be controlled? Who is allowed to develop the agents, an",
+      "verdict": "supported",
+      "reason": "The source confirms SAP presented details of its 'Autonomous Enterprise' concept featuring AI agents that perform analyses and answer queries."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n9",
+      "claim": "Signal is restricting screenshots on mobile devices to prevent AI agents from reading user messages.",
+      "source": "Signal is blocking Gemini and Siri AI from reading your screen. Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states that Signal is restricting screenshot capability on Android and iOS to prevent AI agents from reading user messages."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n16",
+      "claim": "Google is adding a collapsible sidebar to its homepage to let users view and continue AI chats.",
+      "source": "Google is putting AI chats right on the homepage. Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states Google is updating its homepage to include a collapsible sidebar allowing users to view and continue AI chats."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n15",
+      "claim": "A lawsuit claims over 99% of a school system\u2019s AI gun alerts were false positives.",
+      "source": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert. Lawsuit: Over 99% of school system\u2019s AI gun alerts were false positives.",
+      "verdict": "supported",
+      "reason": "The source directly matches the statement that a lawsuit claims over 99% of the school system's AI gun alerts were false positives."
+    },
+    {
+      "section": "builder",
+      "id": "d12",
+      "claim": "Coding agent costs vary by harness",
+      "source": "Your AI coding agent could cost 5x more depending on the harness, benchmark finds. The same AI model can cost up to five times more to run depending on the coding agent harness it\u2019s",
+      "verdict": "supported",
+      "reason": "The source explicitly states that an AI coding agent's cost varies up to 5x depending on the harness."
+    },
+    {
+      "section": "builder",
+      "id": "d12",
+      "claim": "A benchmark found that the same AI model can cost up to five times more to run depending on the coding agent harness used.",
+      "source": "Your AI coding agent could cost 5x more depending on the harness, benchmark finds. The same AI model can cost up to five times more to run depending on the coding agent harness it\u2019s",
+      "verdict": "supported",
+      "reason": "The source confirms a benchmark found the same AI model can cost up to 5x more depending on the harness used."
+    },
+    {
+      "section": "builder",
+      "id": "d6",
+      "claim": "Gemini 4 Neon improves coding scores",
+      "source": "Google\u2019s Gemini 4 Neon tripled its coding score without changing the model. Google\u2019s new Gemini 4 Neon resolved 12.8% of the SWE-sweep coding benchmark using the mini-SWE harness, but that score jumped",
+      "verdict": "supported",
+      "reason": "The source states that Gemini 4 Neon tripled its coding score."
+    },
+    {
+      "section": "builder",
+      "id": "d6",
+      "claim": "Google\u2019s Gemini 4 Neon saw its coding benchmark score jump significantly without any changes to the model itself.",
+      "source": "Google\u2019s Gemini 4 Neon tripled its coding score without changing the model. Google\u2019s new Gemini 4 Neon resolved 12.8% of the SWE-sweep coding benchmark using the mini-SWE harness, but that score jumped",
+      "verdict": "supported",
+      "reason": "The source explicitly says Gemini 4 Neon tripled its coding score without changing the model."
+    },
+    {
+      "section": "concept",
+      "id": "d12",
+      "claim": "A harness is the software framework or environment that runs an AI model for specific tasks, such as coding.",
+      "source": "Your AI coding agent could cost 5x more depending on the harness, benchmark finds. The same AI model can cost up to five times more to run depending on the coding agent harness it\u2019s",
+      "verdict": "unsupported",
+      "reason": "The provided source text mentions a coding agent harness but does not provide a definition of what a harness is."
+    },
+    {
+      "section": "concept",
+      "id": "d12",
+      "claim": "The benchmark indicates that the choice of harness significantly impacts the operational cost of the model.",
+      "source": "Your AI coding agent could cost 5x more depending on the harness, benchmark finds. The same AI model can cost up to five times more to run depending on the coding agent harness it\u2019s",
+      "verdict": "supported",
+      "reason": "The source directly implies the choice of harness impacts operational costs by showing costs can vary up to 5x."
+    },
+    {
+      "section": "long_read",
+      "id": "l8",
+      "claim": "How NVIDIA\u2019s Crisis Could End the AI Industry",
+      "source": "How NVIDIA\u2019s Crisis Could End the AI Industry as We Know It. Jensen Huang is gone. What happens next?",
+      "verdict": "partial",
+      "reason": "The claim omits the qualifying phrase 'as We Know It' present in the headline of the source."
+    },
+    {
+      "section": "long_read",
+      "id": "l8",
+      "claim": "This newsletter explores how Nvidia's crisis could end the AI industry as we know it now that Jensen Huang is gone.",
+      "source": "How NVIDIA\u2019s Crisis Could End the AI Industry as We Know It. Jensen Huang is gone. What happens next?",
+      "verdict": "supported",
+      "reason": "The claim accurately reflects the source headline regarding Nvidia's crisis, the AI industry, and Jensen Huang's departure."
+    }
+  ]
+}

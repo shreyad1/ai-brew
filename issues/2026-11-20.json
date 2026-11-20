@@ -1,0 +1,182 @@
+{
+  "glance": [
+    {
+      "id": "n5",
+      "summary": "Anthropic\u2019s mathematician claims to have solved the Riemann hypothesis using Claude.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305894185.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n3",
+      "summary": "METR reports AI capabilities are improving exponentially but struggle with tasks requiring judgment.",
+      "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "source": "MIT Technology Review",
+      "image": null
+    },
+    {
+      "id": "n11",
+      "summary": "Anthropic founders cashed out nearly $2 billion during the company's record-breaking IPO.",
+      "link": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n9",
+      "summary": "Signal is blocking Gemini and Siri from reading user screens to protect privacy.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/protecting-your-privacy-1.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n5",
+      "headline": "A math puzzle solved by Claude",
+      "teaser": "Riemann hypothesis breakthrough",
+      "summary": "An Anthropic mathematician claims to have proved the Riemann hypothesis, a difficult mathematical problem, using Claude. If verified, this would be a significant achievement for AI in mathematics.",
+      "why": "It shows AI might soon solve complex, long-standing scientific problems that humans have struggled with for decades.",
+      "explain": {
+        "kid": "A math expert used an AI helper named Claude to solve a super hard math puzzle that nobody has been able to fix for a very long time.",
+        "engineer": "The Riemann hypothesis, a Millennium Prize problem, was reportedly solved by an Anthropic researcher using Claude. This demonstrates the model's utility in formal verification and advanced mathematical reasoning.",
+        "a product manager": "Anthropic mathematician Levent Alp\u00f6ge claims he has proved the Riemann hypothesis with the help of Claude, cracking a difficult problem that has eluded some of the world's best mathematicians for decades. If verified, it would mark another seismic achievement for AI in mathematics."
+      },
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305894185.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n3",
+      "headline": "AI is great at coding, not judgment",
+      "teaser": "New AI capability report",
+      "summary": "A report from METR finds AI capabilities are improving exponentially. However, models remain less effective at tasks requiring human-like judgment compared to their performance in coding.",
+      "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "source": "MIT Technology Review",
+      "image": null,
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n11",
+      "headline": "Anthropic\u2019s massive IPO payout",
+      "teaser": "Founders cash out $2B",
+      "summary": "Anthropic went public with an IPO price of $83 per share. The company raised nearly $105 billion, and its seven founders each received $280 million.",
+      "link": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w1",
+      "headline": "Standard Bank automates AI risk checks",
+      "teaser": "Automating AI compliance",
+      "summary": "Standard Bank Group worked with AWS to automate its generative AI approval process. They now use an LLM-as-a-judge on Amazon Bedrock to score use cases against policies.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "w9",
+      "headline": "BMW manages agents at scale",
+      "teaser": "Governing enterprise AI agents",
+      "summary": "The BMW Group shared its methods for governing hundreds of AI agents across thousands of developers, focusing on maintaining speed and compliance.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u1",
+      "summary": "Meta\u2019s upcoming Muse Charm AI wearable may cost $300, though the company has not confirmed details.",
+      "link": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "source": "TechCrunch",
+      "image": null,
+      "date_mentioned": null
+    },
+    {
+      "id": "u2",
+      "summary": "SAP is developing an 'Autonomous Enterprise' concept featuring AI agents that perform analyses and answer queries within the SAP system.",
+      "link": "https://www.cio.com/article/4249833/sap-caio-we-need-to-be-more-precise-in-managing-the-use-of-ai.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4249833-0-65129300-1795169119-vonrueden_sylvianebrauer_16zu9.jpg?quality=50&strip=all",
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n9",
+      "summary": "Signal is restricting screenshots on mobile devices to prevent AI agents from reading user messages.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/protecting-your-privacy-1.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n16",
+      "summary": "Google is adding a collapsible sidebar to its homepage to let users view and continue AI chats.",
+      "link": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK093_GOOGLE_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n15",
+      "summary": "A lawsuit claims over 99% of a school system\u2019s AI gun alerts were false positives.",
+      "link": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-458680569-1152x648-1795115965.jpg"
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d12",
+        "label": "Benchmark findings",
+        "headline": "Coding agent costs vary by harness",
+        "summary": "A benchmark found that the same AI model can cost up to five times more to run depending on the coding agent harness used.",
+        "link": "https://thenewstack.io/coding-agent-harness-costs/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/a00e13bc-wildan-kurniawan-kb5ndzxgzo8-unsplash-1024x712.jpg"
+      },
+      {
+        "id": "d6",
+        "label": "Model performance",
+        "headline": "Gemini 4 Neon improves coding scores",
+        "summary": "Google\u2019s Gemini 4 Neon saw its coding benchmark score jump significantly without any changes to the model itself.",
+        "link": "https://thenewstack.io/gemini-neon-antigravity-harness/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/8e85ff9b-getty-images-3sazdq7tpas-unsplash-1024x682.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d12",
+      "term": "harness",
+      "explanation": "A harness is the software framework or environment that runs an AI model for specific tasks, such as coding. The benchmark indicates that the choice of harness significantly impacts the operational cost of the model.",
+      "link": "https://thenewstack.io/coding-agent-harness-costs/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/11/a00e13bc-wildan-kurniawan-kb5ndzxgzo8-unsplash-1024x712.jpg"
+    }
+  },
+  "long_read": {
+    "id": "l8",
+    "headline": "How NVIDIA\u2019s Crisis Could End the AI Industry",
+    "summary": "This newsletter explores how Nvidia's crisis could end the AI industry as we know it now that Jensen Huang is gone.",
+    "link": "https://www.thealgorithmicbridge.com/p/how-nvidias-crisis-could-end-the",
+    "source": "The Algorithmic Bridge",
+    "image": "https://substackcdn.com/image/fetch/$s_!EhTo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4fb95b6a-fc85-4d81-89e4-fd580dac7c9c_1670x942.png"
+  },
+  "number": 26,
+  "date_iso": "2026-11-20",
+  "date_long": "Friday \u00b7 20 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-20",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": null,
+  "keep_brewing": null,
+  "poll": null
+}
