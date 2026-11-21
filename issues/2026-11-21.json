@@ -1,0 +1,183 @@
+{
+  "glance": [
+    {
+      "id": "n1",
+      "headline": "UN Fails to Agree on Killer Robot Rules",
+      "teaser": "UN autonomous weapons negotiations fail",
+      "summary": "UN diplomats meeting in Geneva failed to agree on rules for autonomous weapons, leaving after agreeing to \"start discussing options\".",
+      "why": "It highlights global challenges in agreeing on rules for autonomous weapons that act without human control.",
+      "explain": {
+        "kid": "UN diplomats met in Geneva this week to work on rules for autonomous weapons, also called killer robots. The UN failed to agree on rules to regulate them. After a mostly fruitless week of talks, representatives left the meetings agreeing to start discussing options.",
+        "pm": "UN diplomats in Geneva failed to agree on rules for autonomous weapons, leaving after agreeing to \"start discussing options\".",
+        "engineer": "Geneva negotiations on rules for autonomous weapons ended without agreement, with parties agreeing only to \"start discussing options\"."
+      },
+      "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13611631/503831564.jpg.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n7",
+      "headline": "Meta Reconsiders 2030 Net-Zero Goal",
+      "teaser": "Meta reconsiders 2030 climate goal",
+      "summary": "Meta is \"re-evaluating\" its 2030 sustainability goals amid record emissions from AI data centers.",
+      "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Meta-El-Paso-data-center-1152x648.jpg",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n6",
+      "headline": "Google Rolls Out New Search Homepage",
+      "teaser": "Google rolls out new search homepage",
+      "summary": "Google introduced a new search homepage with AI chat history and no search button to make AI tools easier to access.",
+      "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/google-sign-logo-1152x648.jpg",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "w5",
+      "headline": "Standard Bank Automates AI Risk Assessment",
+      "teaser": "Standard Bank automates AI checks",
+      "summary": "Standard Bank Group worked with AWS to score generative AI use cases against international standards and internal policies using Amazon Bedrock.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n1",
+      "headline": "UN Fails to Agree on Killer Robot Rules",
+      "teaser": "UN autonomous weapons negotiations fail",
+      "summary": "UN diplomats meeting in Geneva failed to agree on rules for autonomous weapons, leaving after agreeing to \"start discussing options\".",
+      "why": "It highlights global challenges in agreeing on rules for autonomous weapons that act without human control.",
+      "explain": {
+        "kid": "UN diplomats met in Geneva this week to work on rules for autonomous weapons, also called killer robots. The UN failed to agree on rules to regulate them. After a mostly fruitless week of talks, representatives left the meetings agreeing to start discussing options.",
+        "pm": "UN diplomats in Geneva failed to agree on rules for autonomous weapons, leaving after agreeing to \"start discussing options\".",
+        "engineer": "Geneva negotiations on rules for autonomous weapons ended without agreement, with parties agreeing only to \"start discussing options\"."
+      },
+      "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13611631/503831564.jpg.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n7",
+      "headline": "Meta Reconsiders 2030 Net-Zero Goal",
+      "teaser": "Meta reconsiders 2030 climate goal",
+      "summary": "Meta is \"re-evaluating\" its 2030 sustainability goals amid record emissions from AI data centers.",
+      "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Meta-El-Paso-data-center-1152x648.jpg",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n6",
+      "headline": "Google Rolls Out New Search Homepage",
+      "teaser": "Google rolls out new search homepage",
+      "summary": "Google introduced a new search homepage with AI chat history and no search button to make AI tools easier to access.",
+      "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/google-sign-logo-1152x648.jpg",
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w5",
+      "headline": "Standard Bank Automates AI Risk Assessment",
+      "teaser": "Standard Bank automates AI checks",
+      "summary": "Standard Bank Group worked with AWS to score generative AI use cases against international standards and internal policies using Amazon Bedrock.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "w12",
+      "headline": "BMW Group Governs AI Agents at Scale",
+      "teaser": "BMW shares AI agent governance",
+      "summary": "The BMW Group shared the practices and patterns its R&D teams use to govern hundreds of AI agents across thousands of developers.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u1",
+      "summary": "Meta is preparing an upcoming AI wearable called Muse Charm that may cost $300.",
+      "link": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "source": "TechCrunch",
+      "image": null,
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n5",
+      "summary": "Chess.com launched its Classic Games platform, adding 10 games including backgammon, checkers, go, mahjong, and sudoku.",
+      "link": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/classic-games-home-page-trimmed.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "w1",
+      "summary": "AWS Quick added business-process flows in chat, multi-agent answers, and data connections to Meta ads and Amplitude.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "w11",
+      "summary": "Amazon Bedrock AgentCore payments now allows AI agents to discover, buy, and pay for AWS Marketplace products.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d8",
+        "label": "Benchmark score",
+        "headline": "Gemini 4 Neon Tripled Coding Score",
+        "summary": "Google's Gemini 4 Neon tripled its coding score on the SWE-sweep benchmark using the mini-SWE harness without changing the model.",
+        "link": "https://thenewstack.io/gemini-neon-antigravity-harness/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/8e85ff9b-getty-images-3sazdq7tpas-unsplash-1024x682.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d7",
+      "term": "headless Slack",
+      "explanation": "In news from Vercel, this term describes a new message board designed for Claude Code and Codex agents to communicate and divvy up tasks.",
+      "link": "https://thenewstack.io/vercel-board-agent-swarms/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/11/7411f0ae-feat-1024x576.jpg"
+    }
+  },
+  "long_read": {
+    "id": "l7",
+    "headline": "Software factories and code reviews with Harjot Gill",
+    "summary": "CodeRabbit CEO Harjot Gill explains why he believes human code review is dead, following his team shipping over 5,000 pull requests in a month.",
+    "link": "https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews",
+    "source": "The Pragmatic Engineer",
+    "image": "https://substackcdn.com/image/fetch/$s_!jCup!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff3b0c36f-48f4-4d26-a750-244e2f6e2e66_1600x140.png"
+  },
+  "number": 27,
+  "date_iso": "2026-11-21",
+  "date_long": "Saturday \u00b7 21 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-21",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": null,
+  "keep_brewing": null,
+  "poll": null
+}

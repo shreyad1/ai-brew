@@ -1,0 +1,743 @@
+{
+  "generated_at": "2026-11-21T14:51:00.769979-06:00",
+  "warnings": [],
+  "failed_feeds": [
+    "Import AI: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+  ],
+  "sources": {
+    "n1": {
+      "title": "The UN fails to agree on rules regulating \u2018killer robots\u2019",
+      "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "source": "The Verge",
+      "published": "2026-11-21T20:03:37+00:00",
+      "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "categories": [
+        "AI",
+        "News",
+        "Policy",
+        "Politics",
+        "Robot",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13611631/503831564.jpg.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n2": {
+      "title": "Here are the top AI agents that can live in your text messages",
+      "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "TechCrunch",
+      "published": "2026-11-21T17:00:00+00:00",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "categories": [
+        "AI",
+        "instinct",
+        "AI agents"
+      ],
+      "image": null
+    },
+    "n3": {
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "link": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "source": "TechCrunch",
+      "published": "2026-11-21T16:00:00+00:00",
+      "summary": "An actor has licensed his face to a microdrama startup \u2014 in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+      "categories": [
+        "Media & Entertainment",
+        "AI",
+        "Hollywood",
+        "entertainment",
+        "microdramas"
+      ],
+      "image": null
+    },
+    "n4": {
+      "title": "Can Anthropic afford to put safety first?",
+      "link": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "source": "The Verge",
+      "published": "2026-11-21T15:00:00+00:00",
+      "summary": "Today, I\u2019m talking with Hayden Field, The Verge\u2019s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to [\u2026]",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Business",
+        "Decoder",
+        "OpenAI",
+        "Podcasts",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_DCD_1121_Site.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n5": {
+      "title": "Chess.com\u2019s next move is a new hub for classic games, from mahjong to sudoku",
+      "link": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "source": "The Verge",
+      "published": "2026-11-21T14:00:00+00:00",
+      "summary": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching [\u2026]",
+      "categories": [
+        "AI",
+        "Entertainment",
+        "Gaming",
+        "News",
+        "Tech",
+        "Web"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/classic-games-home-page-trimmed.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n6": {
+      "title": "Google rolls out new search homepage with AI chat history and no search button",
+      "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+      "source": "Ars Technica",
+      "published": "2026-11-20T21:58:29+00:00",
+      "summary": "Google search is making it even easier to access AI tools on the search page.",
+      "categories": [
+        "AI",
+        "Google",
+        "Artificial Intelligence",
+        "google",
+        "search"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/google-sign-logo-1152x648.jpg"
+    },
+    "n7": {
+      "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+      "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+      "source": "Ars Technica",
+      "published": "2026-11-20T21:47:10+00:00",
+      "summary": "Meta is \u201cre-evaluating\u201d 2030 sustainability goals. Will others follow?",
+      "categories": [
+        "AI",
+        "ai data centers",
+        "big tech",
+        "carbon emissions",
+        "data centers",
+        "environmental sustainability",
+        "meta",
+        "sustainability",
+        "tech company"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Meta-El-Paso-data-center-1152x648.jpg"
+    },
+    "n8": {
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+      "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "source": "Ars Technica",
+      "published": "2026-11-20T20:59:08+00:00",
+      "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+      "categories": [
+        "AI",
+        "Biz & IT",
+        "Security",
+        "inference",
+        "LLMs",
+        "privacy"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-1152x648.jpg"
+    },
+    "w1": {
+      "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
+      "link": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-21T01:06:42+00:00",
+      "summary": "AWS Quick is the AI workspace built only for work. Today we're releasing updates that help your team get more done: build and run business-process flows in chat, triage your day in the updated web app, get more complete answers from multiple agents at once, and connect new data sources like Meta ads and Amplitude.",
+      "categories": [
+        "Announcements",
+        "AWS Quick",
+        "Foundational (100)"
+      ],
+      "image": null
+    },
+    "w2": {
+      "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+      "link": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-21T00:14:26+00:00",
+      "summary": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which evaluates and sets up the cache from your coding agent.",
+      "categories": [
+        "Amazon ElastiCache",
+        "Expert (400)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w3": {
+      "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-20T23:07:03+00:00",
+      "summary": "Amazon SageMaker HyperPod now offers managed cluster extensions for observability and user management, bringing declarative, API- and console-driven configuration to the software running on Slurm cluster nodes. This post explains how the extensions work and follows a platform team through a quarter of running a shared Slurm cluster with them.",
+      "categories": [
+        "Amazon SageMaker HyperPod",
+        "Announcements",
+        "Intermediate (200)"
+      ],
+      "image": null
+    },
+    "w4": {
+      "title": "Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-20T22:35:24+00:00",
+      "summary": "Amazon SageMaker HyperPod introduces the Global Inference Gateway, one managed endpoint that routes inference requests across your HyperPod clusters in one Region or across Regions. It picks the best cluster, fails over automatically, and authenticates every request with SigV4 and IAM over AWS PrivateLink.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon SageMaker HyperPod",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w5": {
+      "title": "How Standard Bank Group automates AI risk assessment for generative AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-20T20:37:31+00:00",
+      "summary": "Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
+      "categories": [
+        "Intermediate (200)",
+        "Thought Leadership"
+      ],
+      "image": null
+    },
+    "w6": {
+      "title": "What developers and QA need from each other when AI writes the code",
+      "link": "https://www.cio.com/article/4251514/what-developers-and-qa-need-from-each-other-when-ai-writes-the-code.html",
+      "source": "CIO.com",
+      "published": "2026-11-20T15:30:21+00:00",
+      "summary": "The change was a small edit to a shared component. It passed code review and QA; the tests were green and the code did what the ticket asked. When a customer purchased a subscription and closed the browser, the system normally turned that order into working access in the background. The change, however, broke that step. An alert from the live system\u2019s logs caught the failure that QA and the code reviewers did not. The tests weren\u2019t what failed. The handoff was. No one had documented which other ",
+      "categories": [
+        "Development Approaches, IT Operations, Quality Assurance, Software Development"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2025/09/4061065-0-61648400-1758629640-shutterstock_111592973-100936712-orig.jpg?quality=50&strip=all"
+    },
+    "w7": {
+      "title": "AI is changing the build-versus-buy equation. Are CIOs ready?",
+      "link": "https://www.cio.com/article/4250943/ai-is-changing-the-build-versus-buy-equation-are-cios-ready.html",
+      "source": "CIO.com",
+      "published": "2026-11-20T11:00:00+00:00",
+      "summary": "For decades, CIOs have faced a familiar decision when evaluating enterprise software: Should we build it ourselves or buy it from a software provider? The answer has often favored buying. Commercial software, particularly software as a service (SaaS), provides mature capabilities, ongoing enhancements and technical support. Building custom applications typically requires significant investments in developers, infrastructure, testing, security and maintenance. Artificial intelligence is beginning",
+      "categories": [
+        "Artificial Intelligence, Cloud Computing, IT Leadership, ROI and Metrics, SaaS, Software Development"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/07/4197957-0-77733400-1784282545-AI-build-versus-buy-shutterstock_2712621347.jpg?quality=50&strip=all"
+    },
+    "w8": {
+      "title": "An insider\u2019s look at SAP\u2019s \u2018Autonomous Enterprise\u2019",
+      "link": "https://www.cio.com/article/4249833/sap-caio-we-need-to-be-more-precise-in-managing-the-use-of-ai.html",
+      "source": "CIO.com",
+      "published": "2026-11-20T10:01:00+00:00",
+      "summary": "At the TechEd developer conference in Berlin, SAP presented additional details of its \u201c Autonomous Enterprise \u201d concept, which includes AI capabilities via Joule Work and SAP Autonomous Suite, built on the SAP Business AI Platform. The company\u2019s focus is not just AI, but AI agents capable of acting automatically within the SAP system by performing analyses and answering queries. This raises questions, such as: How can the costs of AI agents be controlled? Who is allowed to develop the agents, an",
+      "categories": [
+        "Artificial Intelligence, Enterprise Applications, ERP Systems, SAP, Vendors and Providers"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4249833-0-65129300-1795169119-vonrueden_sylvianebrauer_16zu9.jpg?quality=50&strip=all"
+    },
+    "w9": {
+      "title": "Amazon SageMaker Inference: 2026 launches in review, part 2",
+      "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-20T00:34:07+00:00",
+      "summary": "This second installment reviews 13 more Amazon SageMaker AI inference launches from 2026, spanning configuration recommendations, fitting more models onto each GPU, serving models too large for one instance, cross-Region routing, and post-launch tuning, bringing the year's total to 26.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon SageMaker AI",
+        "Announcements"
+      ],
+      "image": null
+    },
+    "w10": {
+      "title": "Use Kimi Code CLI with models on Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-20T00:33:30+00:00",
+      "summary": "Kimi Code CLI v2.7.0 adds a native Amazon Bedrock provider, so you can connect the open source coding agent to models like Kimi K3.1 Pro using your standard AWS credential chain (named profiles or SSO) instead of a separate API key. This post shows how to configure the provider and send your first request.",
+      "categories": [
+        "Amazon Bedrock",
+        "Announcements",
+        "Intermediate (200)"
+      ],
+      "image": null
+    },
+    "w11": {
+      "title": "Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments",
+      "link": "https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-19T23:02:16+00:00",
+      "summary": "Amazon Bedrock AgentCore payments now supports AWS Marketplace, so agents can discover and buy x402-enabled products, APIs, data, and content and pay in USD on the developer's AWS bill, with no stablecoin wallets or API keys. This post walks through a research agent that finds a tool, pays per request through AWS Billing, and answers with sources.",
+      "categories": [
+        "Amazon Bedrock AgentCore",
+        "AWS Marketplace",
+        "Intermediate (200)",
+        "Technical How-to"
+      ],
+      "image": null
+    },
+    "w12": {
+      "title": "How the BMW Group governs hundreds of agents across thousands of developers",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-19T22:20:23+00:00",
+      "summary": "When hundreds of agents serve thousands of developers, governance cannot be an afterthought. The BMW Group shares the practices and patterns its R&D teams use to build, govern, and operate AI agents at enterprise scale without sacrificing speed, quality, or compliance.",
+      "categories": [
+        "Automotive",
+        "Best Practices",
+        "Intermediate (200)"
+      ],
+      "image": null
+    },
+    "w13": {
+      "title": "Run your whole selling business in AWS Quick",
+      "link": "https://aws.amazon.com/blogs/machine-learning/run-your-whole-selling-business-in-aws-quick/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-19T22:16:22+00:00",
+      "summary": "Most sellers do not need another AI product to learn. They need the tools and information they already use brought together, so they can see what is happening in their business and act on it.",
+      "categories": [
+        "Announcements",
+        "AWS Quick",
+        "Foundational (100)"
+      ],
+      "image": null
+    },
+    "w14": {
+      "title": "Amazon SageMaker AI now detects latency drift, idle GPUs, and missed optimizations on your inference endpoints",
+      "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-19T21:28:18+00:00",
+      "summary": "Amazon SageMaker AI now monitors your generative AI inference endpoints by default and tells you when a change could improve performance or lower cost. It tracks latency, GPU utilization, and serving configuration, then sends a finding through AWS Health with a one-click path to benchmark alternatives in SageMaker Studio before you apply any change.",
+      "categories": [
+        "Advanced (300)",
+        "Amazon SageMaker AI",
+        "Announcements"
+      ],
+      "image": null
+    },
+    "w15": {
+      "title": "Inside Amazon Connect Talent: The science of structured AI interviews",
+      "link": "https://aws.amazon.com/blogs/machine-learning/inside-amazon-connect-talent-the-science-of-structured-ai-interviews/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-19T21:23:20+00:00",
+      "summary": "For organizations hiring hundreds or thousands of people, every interview presents the same challenge: How do you give candidates a consistent opportunity to demonstrate their skills while gathering the evidence needed to make informed hiring decisions? Structured behavioral interviews offer a research-backed approach to this challenge. They use consistent, job-related questions and clear scoring criteria [\u2026]",
+      "categories": [
+        "Amazon Connect",
+        "Announcements",
+        "Generative AI"
+      ],
+      "image": null
+    },
+    "u1": {
+      "title": "Meta\u2019s new Muse Charm device may cost $300",
+      "link": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "source": "TechCrunch",
+      "published": "2026-11-19T21:58:06+00:00",
+      "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+      "categories": [
+        "AI",
+        "AI wearables",
+        "hardware",
+        "In Brief",
+        "Meta",
+        "muse"
+      ],
+      "image": null,
+      "date_mentioned": null
+    },
+    "u2": {
+      "title": "An insider\u2019s look at SAP\u2019s \u2018Autonomous Enterprise\u2019",
+      "link": "https://www.cio.com/article/4249833/sap-caio-we-need-to-be-more-precise-in-managing-the-use-of-ai.html",
+      "source": "CIO.com",
+      "published": "2026-11-20T10:01:00+00:00",
+      "summary": "At the TechEd developer conference in Berlin, SAP presented additional details of its \u201c Autonomous Enterprise \u201d concept, which includes AI capabilities via Joule Work and SAP Autonomous Suite, built on the SAP Business AI Platform. The company\u2019s focus is not just AI, but AI agents capable of acting automatically within the SAP system by performing analyses and answering queries. This raises questions, such as: How can the costs of AI agents be controlled? Who is allowed to develop the agents, an",
+      "categories": [
+        "Artificial Intelligence, Enterprise Applications, ERP Systems, SAP, Vendors and Providers"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4249833-0-65129300-1795169119-vonrueden_sylvianebrauer_16zu9.jpg?quality=50&strip=all",
+      "date_mentioned": null
+    },
+    "u3": {
+      "title": "AI leadership: 3 success lessons from CBA\u2019s chief AI officer",
+      "link": "https://www.cio.com/article/4250275/ai-leadership-3-success-lessons-from-cbas-chief-ai-officer.html",
+      "source": "CIO.com",
+      "published": "2026-11-19T09:00:00+00:00",
+      "summary": "These are early, fascinating days for the corporate title du jour \u2014 chief artificial intelligence officer (CAIO). So when the CAIO of Australia\u2019s largest bank, Commonwealth Bank (CBA), stands up to talk about his role and how times are changing, it\u2019s worth a closer look. I recently interviewed Ranil Boteju, CBA\u2019s CAIO, on stage at Momentum Media\u2019s FST Future of Financial Services, Data & AI conference , and one of his answers pointed to the story behind the story. \u201cI am the chief AI officer, but",
+      "categories": [
+        "Artificial Intelligence, IT Leadership"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4250275-0-38215400-1795079001-ranil-boteju-cba.jpg?quality=50&strip=all",
+      "date_mentioned": null
+    },
+    "d1": {
+      "title": "GPT-6.2 Sol vs. Claude Opus 5.5: Not as accurate, but still might be the better buy",
+      "link": "https://thenewstack.io/gpt-6-2-sol-vs-claude-opus-5-5/",
+      "source": "The New Stack",
+      "published": "2026-11-21T17:08:44+00:00",
+      "summary": "Claude Opus 5.5 is the model everyone wants to beat, and it has a mixed record in my tests since",
+      "categories": [
+        "AI Models",
+        "Anthropic",
+        "Large Language Models",
+        "Software Testing"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/f6686670-buddha-elemental-3d-ndm1ep5pfyo-unsplash-1024x545.jpg"
+    },
+    "d2": {
+      "title": "Nvidia used 20,000 training examples to fix its AI\u2019s mistakes. Its coding score jumped.",
+      "link": "https://thenewstack.io/nvidia-droid-harness-nemotron/",
+      "source": "The New Stack",
+      "published": "2026-11-21T15:30:00+00:00",
+      "summary": "Nvidia used Factory\u2019s Droid coding-agent harness to generate roughly 20,000 rows of post-training data for Nemotron 3 Ultra, the 550-billion-parameter",
+      "categories": [
+        "AI Agents",
+        "AI Engineering",
+        "AI Models"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/896468a0-getty-images-4oky858elvi-unsplash-1024x576.jpg"
+    },
+    "d3": {
+      "title": "Anthropic says Claude writes and reviews 90% of its team\u2019s code. The catch is how it checks the work.",
+      "link": "https://thenewstack.io/anthropic-claude-code-verification/",
+      "source": "The New Stack",
+      "published": "2026-11-20T16:41:28+00:00",
+      "summary": "Anthropic says Claude writes and reviews roughly 90% of the code produced by the team building Claude Code, and the",
+      "categories": [
+        "AI Agents",
+        "Developer tools",
+        "Software Testing"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/530f5f7f-dina-gazizova-tvbofummco8-unsplash-1024x652.jpg"
+    },
+    "d4": {
+      "title": "Google just gave Gemini the run of your Mac \u2014 three days after Apple tightened the rules",
+      "link": "https://thenewstack.io/gemini-mac-computer-use/",
+      "source": "The New Stack",
+      "published": "2026-11-19T21:35:09+00:00",
+      "summary": "Google is adding computer use to its Gemini app for macOS. The assistant can now work across desktop applications and",
+      "categories": [
+        "AI Agents",
+        "Emerging technologies",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/eedb006c-joshua-woroniecki-lzh3hptjz9c-unsplash-1024x685.jpg"
+    },
+    "d5": {
+      "title": "An engineer didn\u2019t message his AI for 22 of 44 days. It built an Android app anyway.",
+      "link": "https://thenewstack.io/cognition-devin-bots-management/",
+      "source": "The New Stack",
+      "published": "2026-11-19T20:22:18+00:00",
+      "summary": "Cognition has spent nearly three years developing Devin as an autonomous engineer that takes a ticket and ships a pull",
+      "categories": [
+        "AI Agents",
+        "AI Engineering",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/e4ef422e-milhad-yaktvxoa6gc-unsplash-1-1024x647.jpg"
+    },
+    "d6": {
+      "title": "IDrive wants to back up your coding agents, too",
+      "link": "https://thenewstack.io/idrive-ai-agents-backup/",
+      "source": "The New Stack",
+      "published": "2026-11-19T17:31:44+00:00",
+      "summary": "Coding agents need backups, too, or at least that\u2019s what IDrive is arguing. Backup and storage service IDrive on Thursday",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/3adb3cf7-benjamin-lehman-gnyjcepvrs8-unsplash-1024x683.jpg"
+    },
+    "d7": {
+      "title": "A \u201cheadless Slack\u201d: Vercel\u2019s new message board lets Claude Code and Codex agents work together",
+      "link": "https://thenewstack.io/vercel-board-agent-swarms/",
+      "source": "The New Stack",
+      "published": "2026-11-19T16:58:48+00:00",
+      "summary": "For AI agents to work together effectively, they need a way to communicate and divvy up tasks \u2014 much as",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Developer tools",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/7411f0ae-feat-1024x576.jpg"
+    },
+    "d8": {
+      "title": "Google\u2019s Gemini 4 Neon tripled its coding score without changing the model",
+      "link": "https://thenewstack.io/gemini-neon-antigravity-harness/",
+      "source": "The New Stack",
+      "published": "2026-11-19T00:45:11+00:00",
+      "summary": "Google\u2019s new Gemini 4 Neon resolved 12.8% of the SWE-sweep coding benchmark using the mini-SWE harness, but that score jumped",
+      "categories": [
+        "AI Agents",
+        "AI Models",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/8e85ff9b-getty-images-3sazdq7tpas-unsplash-1024x682.jpg"
+    },
+    "d9": {
+      "title": "Microsoft says Bing serves 1B people. Its next search engine isn\u2019t for them.",
+      "link": "https://thenewstack.io/microsoft-web-iq-agents/",
+      "source": "The New Stack",
+      "published": "2026-11-18T20:38:31+00:00",
+      "summary": "Microsoft says its Bing search engine now has one billion monthly users. The company says those are humans \u2014 not",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "AI Strategy"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/110a2c7f-microsoft-logo-ignite-26-1024x768.jpg"
+    },
+    "d10": {
+      "title": "\u201cThe best escape room players that you\u2019ve ever met\u201d: What Red Hat\u2019s AI architect really thinks about agents.",
+      "link": "https://thenewstack.io/openshell-ai-agent-security/",
+      "source": "The New Stack",
+      "published": "2026-11-18T20:25:18+00:00",
+      "summary": "Last week at KubeCon + CloudNativeCon North America, a major gathering of the open-source and cloud-native communities, many speakers \u2014",
+      "categories": [
+        "AI Agents",
+        "Containers",
+        "Kubecon Cloudnativecon NA 2026",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/e66150e7-se-tsuchiya-1esex83dsus-unsplash-1024x683.jpg"
+    },
+    "d11": {
+      "title": "Qwen4-Max vs. Claude Opus 5.5: The cheaper model costs you somewhere else.",
+      "link": "https://thenewstack.io/qwen4-max-vs-claude-opus-5-5/",
+      "source": "The New Stack",
+      "published": "2026-11-18T19:10:39+00:00",
+      "summary": "Qwen4-Max, made available in preview to Token Plan subscribers on November 11 and generally released on November 16, is quite",
+      "categories": [
+        "AI",
+        "AI Models",
+        "Anthropic",
+        "Large Language Models",
+        "Software Testing"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/2b7d750d-martin-sanchez-7zysqurp1dg-unsplash-1024x761.jpg"
+    },
+    "d12": {
+      "title": "OpenAI spent $1.2 million finding nearly 1,000 Linux security flaws. Sam Altman says this is just the beginning.",
+      "link": "https://thenewstack.io/openai-entire-ai-stack/",
+      "source": "The New Stack",
+      "published": "2026-11-18T18:17:50+00:00",
+      "summary": "OpenAI spent approximately $1.2 million in API costs to generate working exploits for 948 Linux kernel vulnerabilities. At The New",
+      "categories": [
+        "AI Agents",
+        "AI Infrastructure",
+        "AI Strategy"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/03/f7a6563d-screenshot-2026-03-04-at-14.29.48-1024x585.png"
+    },
+    "l1": {
+      "title": "AI Just Cracked the Hardest Problem in Mathematics. It Will Change Everything",
+      "link": "https://www.thealgorithmicbridge.com/p/ai-just-cracked-the-hardest-problem",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-21T18:59:24+00:00",
+      "summary": "The Riemann Hypothesis has fallen",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!HUnA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F10099a2e-ae2c-42a3-852f-ce37bba9805f_1280x720.png"
+    },
+    "l2": {
+      "title": "Last Week in AI #348 - IPO->Correction, new GPTs and Geminis, Nvidia\u2019s Fate",
+      "link": "https://lastweekin.ai/p/last-week-in-ai-348-ipo-correction",
+      "source": "Last Week in AI",
+      "published": "2026-11-21T08:41:43+00:00",
+      "summary": "Anthropic's $81B IPO, AI stocks enter a correction, Huang resigns from Nvidia, Trump and Xi agree on military AI",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!RcOW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe937cf00-17ca-41fb-866c-fd971727d6c6_3366x1906.png"
+    },
+    "l3": {
+      "title": "The Pulse: Is Amazon\u2019s writing culture collapsing because of AI?",
+      "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-11-19T17:08:59+00:00",
+      "summary": "Also: Anthropic goes public with the largest-ever IPO, Meta frantically reverses shutdown of popular AI coding harness Conductor, and more",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!dsZM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9817f36-232c-412a-89cc-57b2691171ec_819x900.png"
+    },
+    "l4": {
+      "title": "Wall Street Is Wrong About Anthropic",
+      "link": "https://www.thealgorithmicbridge.com/p/wall-street-is-wrong-about-anthropic",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-19T15:16:34+00:00",
+      "summary": "Anthropic\u2019s IPO is today. They think the world might end tomorrow",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!pnKT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36fad843-74be-4e4b-81b8-b231cb87c67a_960x730.jpeg"
+    },
+    "l5": {
+      "title": "My wife thinks AI is a person",
+      "link": "https://www.bensbites.com/p/my-wife-thinks-ai-is-a-person",
+      "source": "Ben's Bites",
+      "published": "2026-11-19T14:08:21+00:00",
+      "summary": "which isn\u2019t as nuts as it sounds...",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!lxT1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe0e94eb0-cad9-432c-8bab-9e162c206d28_1100x814.gif"
+    },
+    "l6": {
+      "title": "The Fall of Award-Winning Literature",
+      "link": "https://www.thealgorithmicbridge.com/p/the-fall-of-award-winning-literature",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-18T20:11:16+00:00",
+      "summary": "One more to AI\u2019s collection",
+      "categories": [],
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/3baeef6b-c5f4-4452-b746-b5d46cada77b_480x270.png"
+    },
+    "l7": {
+      "title": "Software factories and code reviews with Harjot Gill",
+      "link": "https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-11-18T18:08:52+00:00",
+      "summary": "CodeRabbit CEO Harjot Gill explains how he shipped over 5,000 pull requests in a month, why he believes human code review is dead, and what he gets from spending $250,000 a month on AI.",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!jCup!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff3b0c36f-48f4-4d26-a750-244e2f6e2e66_1600x140.png"
+    },
+    "l8": {
+      "title": "Inference engineering for software engineers",
+      "link": "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-11-17T16:11:23+00:00",
+      "summary": "When is the right time to drop APIs provided by the frontier AI labs, and what about choosing models & providers, caching, dedicated GPUs, KV cache concerns, and more? A practical deepdive",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!k1yV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8fecea03-44c9-44ef-8f85-fc46e4e4f69a_910x1062.png"
+    }
+  },
+  "llm_draft": {
+    "glance": [
+      {
+        "id": "n1",
+        "summary": "UN diplomats in Geneva failed to establish rules regulating autonomous weapons, agreeing only to discuss options."
+      },
+      {
+        "id": "n7",
+        "summary": "Meta is re-evaluating its 2030 net-zero goals due to record emissions from AI data centers."
+      },
+      {
+        "id": "n6",
+        "summary": "Google rolled out a redesigned search homepage featuring AI chat history and no search button."
+      },
+      {
+        "id": "w5",
+        "summary": "Standard Bank Group automated generative AI risk assessments against international standards and company policies."
+      }
+    ],
+    "big_pour": [
+      {
+        "id": "n1",
+        "headline": "UN Killer Robot Talks End Without Agreement",
+        "teaser": "UN autonomous weapons talks stall",
+        "summary": "UN diplomats meeting in Geneva failed to establish rules for autonomous weapons, leaving after a week of talks with an agreement only to \"start discussing options.\"",
+        "why": "It highlights global challenges in setting formal limits on autonomous weapons that make decisions without humans.",
+        "explain": {
+          "kid": "Countries met to make rules stopping machines from fighting wars by themselves, but they left without agreeing on any rules yet.",
+          "pm": "Diplomats tried establishing regulatory guardrails for autonomous weapons in Geneva, but consensus stalled, leaving them agreeing only to discuss options.",
+          "engineer": "Geneva negotiations on protocols regulating autonomous weapons ended without a framework, with parties agreeing only to discuss options moving forward."
+        }
+      },
+      {
+        "id": "n7",
+        "headline": "Meta Re-evaluates 2030 Net-Zero Goal",
+        "teaser": "Meta re-evaluates 2030 climate goal",
+        "summary": "Meta is re-evaluating its 2030 sustainability goals following record emissions generated by its AI data centers."
+      },
+      {
+        "id": "n6",
+        "headline": "Google Rolls Out Redesigned Search Homepage",
+        "teaser": "Google updates its search homepage",
+        "summary": "Google introduced a new search homepage featuring AI chat history and no search button, aiming to make its AI tools easier to access."
+      }
+    ],
+    "office_blend": [
+      {
+        "id": "w5",
+        "headline": "Standard Bank Automates AI Risk Reviews",
+        "teaser": "Standard Bank automates AI checks",
+        "summary": "Standard Bank Group worked with AWS to score generative AI use cases against international standards and internal policies using Amazon Bedrock."
+      },
+      {
+        "id": "w12",
+        "headline": "BMW Group Governs Large-Scale Developer Agents",
+        "teaser": "BMW shares AI agent governance",
+        "summary": "The BMW Group shared the practices and patterns its R&D teams use to govern hundreds of AI agents across thousands of developers."
+      }
+    ],
+    "still_roasting": [
+      {
+        "id": "u1",
+        "summary": "Meta is preparing an upcoming AI wearable called Muse Charm that may cost $300."
+      }
+    ],
+    "quick_sips": [
+      {
+        "id": "n5",
+        "summary": "Chess.com launched its Classic Games platform, adding 10 games including backgammon, checkers, go, mahjong, and sudoku."
+      },
+      {
+        "id": "w1",
+        "summary": "AWS Quick added business-process flows in chat, multi-agent answers, and data connections to Meta ads and Amplitude."
+      },
+      {
+        "id": "w11",
+        "summary": "Amazon Bedrock AgentCore payments now allows AI agents to discover, buy, and pay for AWS Marketplace products."
+      }
+    ],
+    "builder": {
+      "stories": [
+        {
+          "id": "d8",
+          "label": "Benchmark score",
+          "headline": "Gemini 4 Neon Triples Coding Score",
+          "summary": "Google's Gemini 4 Neon tripled its score on the SWE-sweep coding benchmark using the mini-SWE harness without changing the model."
+        },
+        {
+          "id": "d12",
+          "label": "Security testing",
+          "headline": "OpenAI Uncovers Nearly 1,000 Linux Flaws",
+          "summary": "OpenAI spent approximately $1.2 million in API costs generating working exploits for 948 Linux kernel vulnerabilities."
+        }
+      ],
+      "concept": {
+        "id": "d7",
+        "term": "headless Slack",
+        "explanation": "In news from Vercel, this term describes a new message board designed for Claude Code and Codex agents to communicate and divvy up tasks."
+      }
+    },
+    "long_read": {
+      "id": "l7",
+      "headline": "Software factories and code reviews with Harjot Gill",
+      "summary": "The newsletter explores CodeRabbit CEO Harjot Gill's perspective that human code review is dead, following his team shipping over 5,000 pull requests in a month using AI."
+    }
+  },
+  "first_check": {
+    "n1": [
+      "name 'Talks' is not in the source",
+      "name 'Without' is not in the source",
+      "name 'Agreement' is not in the source",
+      "quote \"start discussing options.\" is not copied exactly from the source"
+    ],
+    "n7": [
+      "name 'Re-evaluates' is not in the source"
+    ],
+    "n6": [
+      "name 'Redesigned' is not in the source"
+    ],
+    "w5": [
+      "name 'Reviews' is not in the source"
+    ],
+    "w12": [
+      "name 'Large-Scale' is not in the source"
+    ],
+    "d8": [
+      "name 'Triples' is not in the source"
+    ],
+    "d12": [
+      "name 'Uncovers' is not in the source"
+    ],
+    "l7": [
+      "name 'Gill's' is not in the source"
+    ]
+  },
+  "dropped": [
+    {
+      "id": "d12",
+      "problems": [
+        "name 'Finds' is not in the source"
+      ]
+    }
+  ],
+  "explain_dropped": []
+}

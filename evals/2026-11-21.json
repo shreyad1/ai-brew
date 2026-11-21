@@ -1,0 +1,356 @@
+{
+  "date": "2026-11-21",
+  "claims": 39,
+  "supported": 35,
+  "partial": 4,
+  "unsupported": 0,
+  "faithfulness": 0.949,
+  "flagged": [
+    {
+      "section": "glance",
+      "id": "n1",
+      "claim": "It highlights global challenges in agreeing on rules for autonomous weapons that act without human control.",
+      "source": "The UN fails to agree on rules regulating \u2018killer robots\u2019. One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "verdict": "partial",
+      "reason": "The source mentions autonomous weapons and the lack of agreement, but does not define them as acting 'without human control'."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "It highlights global challenges in agreeing on rules for autonomous weapons that act without human control.",
+      "source": "The UN fails to agree on rules regulating \u2018killer robots\u2019. One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "verdict": "partial",
+      "reason": "While it reflects the topic, the phrase 'weapons that act without human control' is not mentioned in the source text."
+    },
+    {
+      "section": "builder",
+      "id": "d8",
+      "claim": "Google's Gemini 4 Neon tripled its coding score on the SWE-sweep benchmark using the mini-SWE harness without changing the model.",
+      "source": "Google\u2019s Gemini 4 Neon tripled its coding score without changing the model. Google\u2019s new Gemini 4 Neon resolved 12.8% of the SWE-sweep coding benchmark using the mini-SWE harness, but that score jumped",
+      "verdict": "partial",
+      "reason": "The source mentions the tripling and the benchmark separately, but the source sentence describing the benchmark score cuts off before explicitly completing the connection."
+    },
+    {
+      "section": "long_read",
+      "id": "l7",
+      "claim": "CodeRabbit CEO Harjot Gill explains why he believes human code review is dead, following his team shipping over 5,000 pull requests in a month.",
+      "source": "Software factories and code reviews with Harjot Gill. CodeRabbit CEO Harjot Gill explains how he shipped over 5,000 pull requests in a month, why he believes human code review is dead, and what he gets from spending $250,000 a month on AI.",
+      "verdict": "partial",
+      "reason": "The source states that Harjot Gill himself shipped over 5,000 pull requests, whereas the claim attributes this to 'his team'."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n1",
+      "claim": "UN Fails to Agree on Killer Robot Rules",
+      "source": "The UN fails to agree on rules regulating \u2018killer robots\u2019. One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "verdict": "supported",
+      "reason": "Directly matches the headline and text in the source."
+    },
+    {
+      "section": "glance",
+      "id": "n1",
+      "claim": "UN diplomats meeting in Geneva failed to agree on rules for autonomous weapons, leaving after agreeing to \"start discussing options\".",
+      "source": "The UN fails to agree on rules regulating \u2018killer robots\u2019. One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "verdict": "supported",
+      "reason": "Directly stated in the source text."
+    },
+    {
+      "section": "glance",
+      "id": "n1",
+      "claim": "It highlights global challenges in agreeing on rules for autonomous weapons that act without human control.",
+      "source": "The UN fails to agree on rules regulating \u2018killer robots\u2019. One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "verdict": "partial",
+      "reason": "The source mentions autonomous weapons and the lack of agreement, but does not define them as acting 'without human control'."
+    },
+    {
+      "section": "glance",
+      "id": "n1",
+      "claim": "UN diplomats met in Geneva this week to work on rules for autonomous weapons, also called killer robots.",
+      "source": "The UN fails to agree on rules regulating \u2018killer robots\u2019. One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "verdict": "supported",
+      "reason": "Directly stated in the source text."
+    },
+    {
+      "section": "glance",
+      "id": "n1",
+      "claim": "The UN failed to agree on rules to regulate them.",
+      "source": "The UN fails to agree on rules regulating \u2018killer robots\u2019. One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "verdict": "supported",
+      "reason": "Directly stated in the source text."
+    },
+    {
+      "section": "glance",
+      "id": "n1",
+      "claim": "After a mostly fruitless week of talks, representatives left the meetings agreeing to start discussing options.",
+      "source": "The UN fails to agree on rules regulating \u2018killer robots\u2019. One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "verdict": "supported",
+      "reason": "Directly stated in the source text."
+    },
+    {
+      "section": "glance",
+      "id": "n1",
+      "claim": "UN diplomats in Geneva failed to agree on rules for autonomous weapons, leaving after agreeing to \"start discussing options\".",
+      "source": "The UN fails to agree on rules regulating \u2018killer robots\u2019. One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "verdict": "supported",
+      "reason": "Directly stated in the source text."
+    },
+    {
+      "section": "glance",
+      "id": "n1",
+      "claim": "Geneva negotiations on rules for autonomous weapons ended without agreement, with parties agreeing only to \"start discussing options\".",
+      "source": "The UN fails to agree on rules regulating \u2018killer robots\u2019. One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "verdict": "supported",
+      "reason": "Directly stated or implied by the source text."
+    },
+    {
+      "section": "glance",
+      "id": "n7",
+      "claim": "Meta Reconsiders 2030 Net-Zero Goal",
+      "source": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers. Meta is \u201cre-evaluating\u201d 2030 sustainability goals. Will others follow?",
+      "verdict": "supported",
+      "reason": "Directly matches the headline in the source."
+    },
+    {
+      "section": "glance",
+      "id": "n7",
+      "claim": "Meta is \"re-evaluating\" its 2030 sustainability goals amid record emissions from AI data centers.",
+      "source": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers. Meta is \u201cre-evaluating\u201d 2030 sustainability goals. Will others follow?",
+      "verdict": "supported",
+      "reason": "Directly stated across the headline and body of the source."
+    },
+    {
+      "section": "glance",
+      "id": "n6",
+      "claim": "Google Rolls Out New Search Homepage",
+      "source": "Google rolls out new search homepage with AI chat history and no search button. Google search is making it even easier to access AI tools on the search page.",
+      "verdict": "supported",
+      "reason": "Directly matches the headline in the source."
+    },
+    {
+      "section": "glance",
+      "id": "n6",
+      "claim": "Google introduced a new search homepage with AI chat history and no search button to make AI tools easier to access.",
+      "source": "Google rolls out new search homepage with AI chat history and no search button. Google search is making it even easier to access AI tools on the search page.",
+      "verdict": "supported",
+      "reason": "Directly supported by the details in the source text."
+    },
+    {
+      "section": "glance",
+      "id": "w5",
+      "claim": "Standard Bank Automates AI Risk Assessment",
+      "source": "How Standard Bank Group automates AI risk assessment for generative AI. Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
+      "verdict": "supported",
+      "reason": "The headline and text explicitly state that Standard Bank automates AI risk assessment."
+    },
+    {
+      "section": "glance",
+      "id": "w5",
+      "claim": "Standard Bank Group worked with AWS to score generative AI use cases against international standards and internal policies using Amazon Bedrock.",
+      "source": "How Standard Bank Group automates AI risk assessment for generative AI. Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
+      "verdict": "supported",
+      "reason": "The source details that the bank worked with AWS to score generative AI use cases against international standards and its own policies using Amazon Bedrock."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "UN Fails to Agree on Killer Robot Rules",
+      "source": "The UN fails to agree on rules regulating \u2018killer robots\u2019. One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "verdict": "supported",
+      "reason": "The source headline states directly that the UN fails to agree on rules regulating killer robots."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "UN diplomats meeting in Geneva failed to agree on rules for autonomous weapons, leaving after agreeing to \"start discussing options\".",
+      "source": "The UN fails to agree on rules regulating \u2018killer robots\u2019. One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "verdict": "supported",
+      "reason": "The text confirms diplomats in Geneva left after agreeing to 'start discussing options' following a failure to agree on rules."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "It highlights global challenges in agreeing on rules for autonomous weapons that act without human control.",
+      "source": "The UN fails to agree on rules regulating \u2018killer robots\u2019. One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "verdict": "partial",
+      "reason": "While it reflects the topic, the phrase 'weapons that act without human control' is not mentioned in the source text."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "UN diplomats met in Geneva this week to work on rules for autonomous weapons, also called killer robots.",
+      "source": "The UN fails to agree on rules regulating \u2018killer robots\u2019. One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "verdict": "supported",
+      "reason": "The text explicitly mentions UN diplomats meeting in Geneva this week to work towards rules for autonomous weapons, or 'killer robots'."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "The UN failed to agree on rules to regulate them.",
+      "source": "The UN fails to agree on rules regulating \u2018killer robots\u2019. One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states in the headline that the UN failed to agree on rules regulating them."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "After a mostly fruitless week of talks, representatives left the meetings agreeing to start discussing options.",
+      "source": "The UN fails to agree on rules regulating \u2018killer robots\u2019. One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms representatives left agreeing to 'start discussing options' after a largely fruitless week of negotiations."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "UN diplomats in Geneva failed to agree on rules for autonomous weapons, leaving after agreeing to \"start discussing options\".",
+      "source": "The UN fails to agree on rules regulating \u2018killer robots\u2019. One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "verdict": "supported",
+      "reason": "The text directly states diplomats left agreeing to 'start discussing options' after failing to reach an agreement."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "Geneva negotiations on rules for autonomous weapons ended without agreement, with parties agreeing only to \"start discussing options\".",
+      "source": "The UN fails to agree on rules regulating \u2018killer robots\u2019. One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "verdict": "supported",
+      "reason": "The text confirms negotiations in Geneva ended without agreement beyond agreeing to 'start discussing options'."
+    },
+    {
+      "section": "big_pour",
+      "id": "n7",
+      "claim": "Meta Reconsiders 2030 Net-Zero Goal",
+      "source": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers. Meta is \u201cre-evaluating\u201d 2030 sustainability goals. Will others follow?",
+      "verdict": "supported",
+      "reason": "The headline of the source directly matches the claim."
+    },
+    {
+      "section": "big_pour",
+      "id": "n7",
+      "claim": "Meta is \"re-evaluating\" its 2030 sustainability goals amid record emissions from AI data centers.",
+      "source": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers. Meta is \u201cre-evaluating\u201d 2030 sustainability goals. Will others follow?",
+      "verdict": "supported",
+      "reason": "The source explicitly reports that Meta is re-evaluating 2030 sustainability goals amid record emissions from AI data centers."
+    },
+    {
+      "section": "big_pour",
+      "id": "n6",
+      "claim": "Google Rolls Out New Search Homepage",
+      "source": "Google rolls out new search homepage with AI chat history and no search button. Google search is making it even easier to access AI tools on the search page.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Google is rolling out a new search homepage."
+    },
+    {
+      "section": "big_pour",
+      "id": "n6",
+      "claim": "Google introduced a new search homepage with AI chat history and no search button to make AI tools easier to access.",
+      "source": "Google rolls out new search homepage with AI chat history and no search button. Google search is making it even easier to access AI tools on the search page.",
+      "verdict": "supported",
+      "reason": "The source confirms Google rolled out a new search homepage with AI chat history, no search button, and to make AI tools easier to access."
+    },
+    {
+      "section": "office_blend",
+      "id": "w5",
+      "claim": "Standard Bank Automates AI Risk Assessment",
+      "source": "How Standard Bank Group automates AI risk assessment for generative AI. Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
+      "verdict": "supported",
+      "reason": "The source title and body directly state that Standard Bank Group automated AI risk assessment."
+    },
+    {
+      "section": "office_blend",
+      "id": "w5",
+      "claim": "Standard Bank Group worked with AWS to score generative AI use cases against international standards and internal policies using Amazon Bedrock.",
+      "source": "How Standard Bank Group automates AI risk assessment for generative AI. Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
+      "verdict": "supported",
+      "reason": "The source directly states that the bank worked with AWS to score use cases against international standards and internal policies using Amazon Bedrock."
+    },
+    {
+      "section": "office_blend",
+      "id": "w12",
+      "claim": "BMW Group Governs AI Agents at Scale",
+      "source": "How the BMW Group governs hundreds of agents across thousands of developers. When hundreds of agents serve thousands of developers, governance cannot be an afterthought. The BMW Group shares the practices and patterns its R&D teams use to build, govern, and operate AI agents at enterprise scale without sacrificing speed, quality, or compliance.",
+      "verdict": "supported",
+      "reason": "The source directly covers how BMW Group governs hundreds of AI agents across thousands of developers at enterprise scale."
+    },
+    {
+      "section": "office_blend",
+      "id": "w12",
+      "claim": "The BMW Group shared the practices and patterns its R&D teams use to govern hundreds of AI agents across thousands of developers.",
+      "source": "How the BMW Group governs hundreds of agents across thousands of developers. When hundreds of agents serve thousands of developers, governance cannot be an afterthought. The BMW Group shares the practices and patterns its R&D teams use to build, govern, and operate AI agents at enterprise scale without sacrificing speed, quality, or compliance.",
+      "verdict": "supported",
+      "reason": "The source states that BMW Group shares the practices and patterns its R&D teams use to govern AI agents across developers."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u1",
+      "claim": "Meta is preparing an upcoming AI wearable called Muse Charm that may cost $300.",
+      "source": "Meta\u2019s new Muse Charm device may cost $300. Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+      "verdict": "supported",
+      "reason": "The source notes Meta's upcoming AI wearable device called Muse Charm may cost $300."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n5",
+      "claim": "Chess.com launched its Classic Games platform, adding 10 games including backgammon, checkers, go, mahjong, and sudoku.",
+      "source": "Chess.com\u2019s next move is a new hub for classic games, from mahjong to sudoku. Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Chess.com is launching its Classic Games platform with 10 added games, including all five listed."
+    },
+    {
+      "section": "quick_sips",
+      "id": "w1",
+      "claim": "AWS Quick added business-process flows in chat, multi-agent answers, and data connections to Meta ads and Amplitude.",
+      "source": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together. AWS Quick is the AI workspace built only for work. Today we're releasing updates that help your team get more done: build and run business-process flows in chat, triage your day in the updated web app, get more complete answers from multiple agents at once, and connect new data sources like Meta ads and Amplitude.",
+      "verdict": "supported",
+      "reason": "The source confirms AWS Quick added business-process flows in chat, multi-agent answers, and connections to Meta ads and Amplitude."
+    },
+    {
+      "section": "quick_sips",
+      "id": "w11",
+      "claim": "Amazon Bedrock AgentCore payments now allows AI agents to discover, buy, and pay for AWS Marketplace products.",
+      "source": "Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments. Amazon Bedrock AgentCore payments now supports AWS Marketplace, so agents can discover and buy x402-enabled products, APIs, data, and content and pay in USD on the developer's AWS bill, with no stablecoin wallets or API keys. This post walks through a research agent that finds a tool, pays per request through AWS Billing, and answers with sources.",
+      "verdict": "supported",
+      "reason": "The source confirms Amazon Bedrock AgentCore payments enables AI agents to discover, buy, and pay for AWS Marketplace products."
+    },
+    {
+      "section": "builder",
+      "id": "d8",
+      "claim": "Gemini 4 Neon Tripled Coding Score",
+      "source": "Google\u2019s Gemini 4 Neon tripled its coding score without changing the model. Google\u2019s new Gemini 4 Neon resolved 12.8% of the SWE-sweep coding benchmark using the mini-SWE harness, but that score jumped",
+      "verdict": "supported",
+      "reason": "The source headline directly states that Google's Gemini 4 Neon tripled its coding score without changing the model."
+    },
+    {
+      "section": "builder",
+      "id": "d8",
+      "claim": "Google's Gemini 4 Neon tripled its coding score on the SWE-sweep benchmark using the mini-SWE harness without changing the model.",
+      "source": "Google\u2019s Gemini 4 Neon tripled its coding score without changing the model. Google\u2019s new Gemini 4 Neon resolved 12.8% of the SWE-sweep coding benchmark using the mini-SWE harness, but that score jumped",
+      "verdict": "partial",
+      "reason": "The source mentions the tripling and the benchmark separately, but the source sentence describing the benchmark score cuts off before explicitly completing the connection."
+    },
+    {
+      "section": "concept",
+      "id": "d7",
+      "claim": "In news from Vercel, this term describes a new message board designed for Claude Code and Codex agents to communicate and divvy up tasks.",
+      "source": "A \u201cheadless Slack\u201d: Vercel\u2019s new message board lets Claude Code and Codex agents work together. For AI agents to work together effectively, they need a way to communicate and divvy up tasks \u2014 much as",
+      "verdict": "supported",
+      "reason": "The source confirms Vercel created a new message board ('headless Slack') for Claude Code and Codex agents to communicate and divvy up tasks."
+    },
+    {
+      "section": "long_read",
+      "id": "l7",
+      "claim": "Software factories and code reviews with Harjot Gill",
+      "source": "Software factories and code reviews with Harjot Gill. CodeRabbit CEO Harjot Gill explains how he shipped over 5,000 pull requests in a month, why he believes human code review is dead, and what he gets from spending $250,000 a month on AI.",
+      "verdict": "supported",
+      "reason": "The claim is an exact match to the headline in the source text."
+    },
+    {
+      "section": "long_read",
+      "id": "l7",
+      "claim": "CodeRabbit CEO Harjot Gill explains why he believes human code review is dead, following his team shipping over 5,000 pull requests in a month.",
+      "source": "Software factories and code reviews with Harjot Gill. CodeRabbit CEO Harjot Gill explains how he shipped over 5,000 pull requests in a month, why he believes human code review is dead, and what he gets from spending $250,000 a month on AI.",
+      "verdict": "partial",
+      "reason": "The source states that Harjot Gill himself shipped over 5,000 pull requests, whereas the claim attributes this to 'his team'."
+    }
+  ]
+}
