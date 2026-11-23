@@ -1,0 +1,308 @@
+{
+  "date": "2026-11-23",
+  "claims": 34,
+  "supported": 31,
+  "partial": 3,
+  "unsupported": 0,
+  "faithfulness": 0.956,
+  "flagged": [
+    {
+      "section": "glance",
+      "id": "n10",
+      "claim": "Nvidia CEO Jensen Huang returned to company headquarters following his reinstatement as CEO.",
+      "source": "Nvidia employees greet Jensen Huang like a hero as he returns to company\u2019s HQ. \"I'm going to be a better CEO the second time around,\" Huang told employees.",
+      "verdict": "partial",
+      "reason": "The source confirms Jensen Huang returned to HQ, but does not state he was reinstated."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Claude Ship introduces AI agents designed to review, fix, and approve routine pull requests and AI-generated code changes directly.",
+      "source": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes. As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "verdict": "partial",
+      "reason": "The source supports AI agents approving code changes, but does not explicitly mention pull requests."
+    },
+    {
+      "section": "concept",
+      "id": "d3",
+      "claim": "An architecture introduced in Z.ai's GLM-5.4 model that executes the same 28 layers multiple times to increase computational capacity.",
+      "source": "Z.ai ran the same 28 layers twice \u2014 and claims its 750B model can rival a 3-trillion-parameter one. Z.ai released GLM-5.4 on Monday, introducing a Loop Transformer architecture that executes the same layers multiple times to increase computational",
+      "verdict": "partial",
+      "reason": "The source confirms GLM-5.4 introduced an architecture executing layers multiple times, but the source sentence cuts off at 'computational'."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n10",
+      "claim": "Nvidia CEO Jensen Huang returned to company headquarters following his reinstatement as CEO.",
+      "source": "Nvidia employees greet Jensen Huang like a hero as he returns to company\u2019s HQ. \"I'm going to be a better CEO the second time around,\" Huang told employees.",
+      "verdict": "partial",
+      "reason": "The source confirms Jensen Huang returned to HQ, but does not state he was reinstated."
+    },
+    {
+      "section": "glance",
+      "id": "n4",
+      "claim": "Anthropic launched Claude Ship to review, fix, and approve code changes automatically.",
+      "source": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes. As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "verdict": "supported",
+      "reason": "The source states Anthropic launched Claude Ship to let AI agents review, fix, and approve code changes."
+    },
+    {
+      "section": "glance",
+      "id": "n22",
+      "claim": "Sierra raised $1.75 billion in a Series F round, doubling its valuation to $30 billion.",
+      "source": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off. Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round.",
+      "verdict": "supported",
+      "reason": "The source confirms Sierra raised $1.75 billion in Series F funding and doubled its valuation to $30 billion."
+    },
+    {
+      "section": "glance",
+      "id": "w14",
+      "claim": "Standard Bank Group automated generative AI risk assessments using Amazon Bedrock in its AWS account.",
+      "source": "How Standard Bank Group automates AI risk assessment for generative AI. Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
+      "verdict": "supported",
+      "reason": "The source details how Standard Bank Group automated AI risk assessments in its AWS account using Amazon Bedrock."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Anthropic launches Claude Ship for code approvals",
+      "source": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes. As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "verdict": "supported",
+      "reason": "The source directly states that Anthropic launched Claude Ship to let AI agents review, fix, and approve code changes."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Anthropic released Claude Ship, a set of developer tools.",
+      "source": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes. As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "verdict": "supported",
+      "reason": "The source explicitly refers to Claude Ship as Anthropic's new developer tools."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "It allows AI agents to review, fix, and approve routine AI-generated code changes.",
+      "source": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes. As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "verdict": "supported",
+      "reason": "The source states that the tools let AI agents review, fix, and approve code changes to handle routine approvals."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Routine code review bottlenecks can now be handled directly by AI agents.",
+      "source": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes. As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "verdict": "supported",
+      "reason": "The source explains that the tool eliminates bottlenecks by letting AI agents handle routine code approvals."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Anthropic made AI tools called Claude Ship that can check, fix, and approve code changes all by themselves.",
+      "source": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes. As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "verdict": "supported",
+      "reason": "The source confirms Anthropic launched tools named Claude Ship that enable AI agents to review, fix, and approve code changes."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Anthropic launched Claude Ship to clear developer bottlenecks by letting AI agents automatically review, fix, and approve routine code changes.",
+      "source": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes. As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "verdict": "supported",
+      "reason": "The source states that Claude Ship aims to eliminate developer bottlenecks by having AI agents handle routine code approvals."
+    },
+    {
+      "section": "big_pour",
+      "id": "n4",
+      "claim": "Claude Ship introduces AI agents designed to review, fix, and approve routine pull requests and AI-generated code changes directly.",
+      "source": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes. As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "verdict": "partial",
+      "reason": "The source supports AI agents approving code changes, but does not explicitly mention pull requests."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "Amazon acquires Decart's AI optimization technology",
+      "source": "Amazon snaps up Decart\u2019s AI optimization tech for $7.5B as it prepares to sell Trainium chips. Amazon is acquiring Decart\u2019s AI optimization technology and research team in a reported $7.5 billion deal.",
+      "verdict": "supported",
+      "reason": "The source states Amazon is acquiring Decart's AI optimization technology."
+    },
+    {
+      "section": "big_pour",
+      "id": "n16",
+      "claim": "Amazon is acquiring Decart's AI optimization technology and research team in a reported $7.5 billion deal as it prepares to sell Trainium chips.",
+      "source": "Amazon snaps up Decart\u2019s AI optimization tech for $7.5B as it prepares to sell Trainium chips. Amazon is acquiring Decart\u2019s AI optimization technology and research team in a reported $7.5 billion deal.",
+      "verdict": "supported",
+      "reason": "The source explicitly states Amazon is acquiring Decart's AI optimization tech and research team in a reported $7.5B deal as it prepares to sell Trainium chips."
+    },
+    {
+      "section": "big_pour",
+      "id": "n22",
+      "claim": "Sierra doubles valuation to $30 billion",
+      "source": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off. Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round.",
+      "verdict": "supported",
+      "reason": "The headline of the source directly states that Sierra doubled its valuation to $30 billion."
+    },
+    {
+      "section": "big_pour",
+      "id": "n22",
+      "claim": "Enterprise customer experience company Sierra raised $1.75 billion in a Series F round.",
+      "source": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off. Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round.",
+      "verdict": "supported",
+      "reason": " the source explicitly states that enterprise customer experience company Sierra raised $1.75 billion in a Series F round."
+    },
+    {
+      "section": "big_pour",
+      "id": "n22",
+      "claim": "Co-founded by former Salesforce co-CEO Bret Taylor, Sierra doubled its valuation to $30 billion.",
+      "source": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off. Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round.",
+      "verdict": "supported",
+      "reason": "The source supports both that Sierra was co-founded by former Salesforce co-CEO Bret Taylor and that it doubled its valuation to $30B."
+    },
+    {
+      "section": "office_blend",
+      "id": "w14",
+      "claim": "Standard Bank Group automates AI risk assessments",
+      "source": "How Standard Bank Group automates AI risk assessment for generative AI. Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
+      "verdict": "supported",
+      "reason": "The headline and text of the source directly confirm that Standard Bank Group automates AI risk assessments."
+    },
+    {
+      "section": "office_blend",
+      "id": "w14",
+      "claim": "Standard Bank Group automated evidence for its generative AI approval gates.",
+      "source": "How Standard Bank Group automates AI risk assessment for generative AI. Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Standard Bank Group automated the evidence behind its generative AI approval gates."
+    },
+    {
+      "section": "office_blend",
+      "id": "w14",
+      "claim": "Working with AWS Professional Services, the bank uses LLM-as-a-judge on Amazon Bedrock to score use cases against policies and standards.",
+      "source": "How Standard Bank Group automates AI risk assessment for generative AI. Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
+      "verdict": "supported",
+      "reason": "The source confirms the bank worked with AWS Professional Services to score use cases against policies and standards using LLM-as-a-judge on Amazon Bedrock."
+    },
+    {
+      "section": "office_blend",
+      "id": "w8",
+      "claim": "Hyring Insight platform sees tenfold revenue growth",
+      "source": "Hyring Insight Reports 10x Revenue Growth in 3 months. Hyring\u2019s newest workforce intelligence platform has grown 10x in revenue in just 90 days. Hyring , the emerging AI hiring platform , which to date has run 900,000 plus AI interviews, announced that its new product, Hyring Insight, has grown tenfold over the last 90 days. The company\u2019s quick success comes from two key product decisions: transparency and Ask AI, an aide that helps explain what employees did during the workday. Hyring Insight is time tracking software that prides itself on transpar",
+      "verdict": "supported",
+      "reason": "The headline and body of the source confirm tenfold (10x) revenue growth for the Hyring Insight platform."
+    },
+    {
+      "section": "office_blend",
+      "id": "w8",
+      "claim": "Hyring announced that its workforce intelligence platform, Hyring Insight, grew tenfold in revenue over 90 days.",
+      "source": "Hyring Insight Reports 10x Revenue Growth in 3 months. Hyring\u2019s newest workforce intelligence platform has grown 10x in revenue in just 90 days. Hyring , the emerging AI hiring platform , which to date has run 900,000 plus AI interviews, announced that its new product, Hyring Insight, has grown tenfold over the last 90 days. The company\u2019s quick success comes from two key product decisions: transparency and Ask AI, an aide that helps explain what employees did during the workday. Hyring Insight is time tracking software that prides itself on transpar",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Hyring announced its new product, Hyring Insight, has grown tenfold in revenue over 90 days."
+    },
+    {
+      "section": "office_blend",
+      "id": "w8",
+      "claim": "The AI hiring platform relies on transparency and its Ask AI feature.",
+      "source": "Hyring Insight Reports 10x Revenue Growth in 3 months. Hyring\u2019s newest workforce intelligence platform has grown 10x in revenue in just 90 days. Hyring , the emerging AI hiring platform , which to date has run 900,000 plus AI interviews, announced that its new product, Hyring Insight, has grown tenfold over the last 90 days. The company\u2019s quick success comes from two key product decisions: transparency and Ask AI, an aide that helps explain what employees did during the workday. Hyring Insight is time tracking software that prides itself on transpar",
+      "verdict": "supported",
+      "reason": "The source states that the company's quick success stems from two key product decisions: transparency and the Ask AI feature."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u2",
+      "claim": "Nothing CEO Carl Pei demonstrated the upcoming Ear Note earbuds and charging case that record and transcribe conversations.",
+      "source": "Nothing\u2019s upcoming Ear Note is a pair of earbuds with AI transcription. Nothing's new AI device is the Ear Note, a set of earbuds and their microphone-equipped charging case that can record and transcribe conversations, with a connected app to manage the recordings, transcriptions and AI-generated summaries, similar to Apple's new Watch feature and devices like Amazon's Bee wearable. Nothing CEO Carl Pei demonstrated the new device [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms CEO Carl Pei demonstrated the Ear Note earbuds and charging case, which record and transcribe conversations."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u3",
+      "claim": "SAP detailed its upcoming Autonomous Enterprise concept featuring AI agents that act automatically within the SAP system.",
+      "source": "An insider\u2019s look at SAP\u2019s \u2018Autonomous Enterprise\u2019. At the TechEd developer conference in Berlin, SAP presented additional details of its \u201c Autonomous Enterprise \u201d concept, which includes AI capabilities via Joule Work and SAP Autonomous Suite, built on the SAP Business AI Platform. The company\u2019s focus is not just AI, but AI agents capable of acting automatically within the SAP system by performing analyses and answering queries. This raises questions, such as: How can the costs of AI agents be controlled? Who is allowed to develop the agents, an",
+      "verdict": "supported",
+      "reason": "The source states SAP presented details of its Autonomous Enterprise concept focusing on AI agents that act automatically within the SAP system."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n12",
+      "claim": "Google Search's AI Mode can now access Drive and Wallet to provide users with more personalized responses.",
+      "source": "Google Search\u2019s AI Mode can now tap into Drive and Wallet for more personalized responses. By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Google Search's AI Mode can tap into Drive and Wallet for more personalized responses."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n14",
+      "claim": "SpaceX was sued by Oregon and Virginia over state consumer protection violations involving Grok AI features.",
+      "source": "Oregon and Virginia sue SpaceX over Grok\u2019s porn deepfakes. In separate but similar lawsuits filed on Monday, Oregon Attorney General Dan Rayfield and Virginia Attorney General Jay Jones accused SpaceX of violating state consumer protection laws by ignoring industry-standard safeguards and falsely promoting the safety of its X social media platform and Grok AI features. The complaint filed in Virginia accuses Musk of willfully [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Oregon and Virginia sued SpaceX for violating state consumer protection laws regarding Grok AI features."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n23",
+      "claim": "Asus released the ProArt P16 laptop, costing up to $7,000, which can run multiple local AI agents.",
+      "source": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI. The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents.",
+      "verdict": "supported",
+      "reason": "The source confirms the Asus ProArt P16 costs up to $7,000 and can run local AI agents."
+    },
+    {
+      "section": "builder",
+      "id": "d2",
+      "claim": "Google DeepMind open-sources quantum algorithm verification framework",
+      "source": "Google\u2019s AI agents cut quantum computing costs 290-fold \u2014 now you can check their work. Google DeepMind has open-sourced the Lean 4 framework used to verify quantum algorithms developed by its Gemini 4 agents, including",
+      "verdict": "supported",
+      "reason": "The source states that Google DeepMind open-sourced the Lean 4 framework used to verify quantum algorithms."
+    },
+    {
+      "section": "builder",
+      "id": "d2",
+      "claim": "Google DeepMind open-sourced the Lean 4 framework used to verify quantum algorithms developed by Gemini 4 agents, which cut quantum computing costs 290-fold.",
+      "source": "Google\u2019s AI agents cut quantum computing costs 290-fold \u2014 now you can check their work. Google DeepMind has open-sourced the Lean 4 framework used to verify quantum algorithms developed by its Gemini 4 agents, including",
+      "verdict": "supported",
+      "reason": "The source directly supports all elements of the claim, including the 290-fold cost reduction and the open-sourcing of Lean 4 for Gemini 4 agents."
+    },
+    {
+      "section": "builder",
+      "id": "d4",
+      "claim": "AWS launches open decision models for AI agents",
+      "source": "AWS launches 5 new open decision models for AI agents. AWS on Monday launched Strands Decider v2, a family of five open decision models. The release comes only seven weeks",
+      "verdict": "supported",
+      "reason": "The source directly matches the headline statement that AWS launched open decision models for AI agents."
+    },
+    {
+      "section": "builder",
+      "id": "d4",
+      "claim": "AWS launched Strands Decider v2, a family of five open decision models designed for AI agents.",
+      "source": "AWS launches 5 new open decision models for AI agents. AWS on Monday launched Strands Decider v2, a family of five open decision models. The release comes only seven weeks",
+      "verdict": "supported",
+      "reason": "The source confirms AWS launched Strands Decider v2, a family of five open decision models for AI agents."
+    },
+    {
+      "section": "concept",
+      "id": "d3",
+      "claim": "An architecture introduced in Z.ai's GLM-5.4 model that executes the same 28 layers multiple times to increase computational capacity.",
+      "source": "Z.ai ran the same 28 layers twice \u2014 and claims its 750B model can rival a 3-trillion-parameter one. Z.ai released GLM-5.4 on Monday, introducing a Loop Transformer architecture that executes the same layers multiple times to increase computational",
+      "verdict": "partial",
+      "reason": "The source confirms GLM-5.4 introduced an architecture executing layers multiple times, but the source sentence cuts off at 'computational'."
+    },
+    {
+      "section": "long_read",
+      "id": "l1",
+      "claim": "Management consulting is not a thin wrapper on intelligence",
+      "source": "Management consulting is not a thin wrapper on intelligence. Consulting as a test case for AI's impact on knowledge work",
+      "verdict": "supported",
+      "reason": " The source directly contains the phrase 'Management consulting is not a thin wrapper on intelligence'."
+    },
+    {
+      "section": "long_read",
+      "id": "l1",
+      "claim": "Management consulting serves as a test case for AI's impact on knowledge work.",
+      "source": "Management consulting is not a thin wrapper on intelligence. Consulting as a test case for AI's impact on knowledge work",
+      "verdict": "supported",
+      "reason": "The source directly states 'Consulting as a test case for AI's impact on knowledge work'."
+    }
+  ]
+}

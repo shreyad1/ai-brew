@@ -1,0 +1,182 @@
+{
+  "glance": [
+    {
+      "id": "n10",
+      "summary": "Nvidia CEO Jensen Huang returned to company headquarters following his reinstatement as CEO.",
+      "link": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n4",
+      "summary": "Anthropic launched Claude Ship to review, fix, and approve code changes automatically.",
+      "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n22",
+      "summary": "Sierra raised $1.75 billion in a Series F round, doubling its valuation to $30 billion.",
+      "link": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "w14",
+      "summary": "Standard Bank Group automated generative AI risk assessments using Amazon Bedrock in its AWS account.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n4",
+      "headline": "Anthropic launches Claude Ship for code approvals",
+      "teaser": "AI agents handle routine code",
+      "summary": "Anthropic released Claude Ship, a set of developer tools. It allows AI agents to review, fix, and approve routine AI-generated code changes.",
+      "why": "Routine code review bottlenecks can now be handled directly by AI agents.",
+      "explain": {
+        "kid": "Anthropic made AI tools called Claude Ship that can check, fix, and approve code changes all by themselves.",
+        "pm": "Anthropic launched Claude Ship to clear developer bottlenecks by letting AI agents automatically review, fix, and approve routine code changes.",
+        "engineer": "Claude Ship introduces AI agents designed to review, fix, and approve routine pull requests and AI-generated code changes directly."
+      },
+      "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n16",
+      "headline": "Amazon acquires Decart's AI optimization technology",
+      "teaser": "$7.5B deal for chip rollout",
+      "summary": "Amazon is acquiring Decart's AI optimization technology and research team in a reported $7.5 billion deal as it prepares to sell Trainium chips.",
+      "link": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n22",
+      "headline": "Sierra doubles valuation to $30 billion",
+      "teaser": "Demand for AI customer experience surges",
+      "summary": "Enterprise customer experience company Sierra raised $1.75 billion in a Series F round. Co-founded by former Salesforce co-CEO Bret Taylor, Sierra doubled its valuation to $30 billion.",
+      "link": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w14",
+      "headline": "Standard Bank Group automates AI risk assessments",
+      "teaser": "AWS Bedrock scores AI safety",
+      "summary": "Standard Bank Group automated evidence for its generative AI approval gates. Working with AWS Professional Services, the bank uses LLM-as-a-judge on Amazon Bedrock to score use cases against policies and standards.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "w8",
+      "headline": "Hyring Insight platform sees tenfold revenue growth",
+      "teaser": "Workforce intelligence platform scales quickly",
+      "summary": "Hyring announced that its workforce intelligence platform, Hyring Insight, grew tenfold in revenue over 90 days. The AI hiring platform relies on transparency and its Ask AI feature.",
+      "link": "https://www.cio.com/article/4251871/hyring-insight-reports-10x-revenue-growth-in-3-months.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4251871-0-60670500-1795413128-Hyring-Insight-Reports-10x-Revenue-Growth-in-3-months.png"
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u2",
+      "summary": "Nothing CEO Carl Pei demonstrated the upcoming Ear Note earbuds and charging case that record and transcribe conversations.",
+      "link": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/nothing.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    {
+      "id": "u3",
+      "summary": "SAP detailed its upcoming Autonomous Enterprise concept featuring AI agents that act automatically within the SAP system.",
+      "link": "https://www.cio.com/article/4249833/sap-caio-we-need-to-be-more-precise-in-managing-the-use-of-ai.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4249833-0-65129300-1795169119-vonrueden_sylvianebrauer_16zu9.jpg?quality=50&strip=all",
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n12",
+      "summary": "Google Search's AI Mode can now access Drive and Wallet to provide users with more personalized responses.",
+      "link": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n14",
+      "summary": "SpaceX was sued by Oregon and Virginia over state consumer protection violations involving Grok AI features.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK419_DEEPFAKE_CVIRGINIA_F.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n23",
+      "summary": "Asus released the ProArt P16 laptop, costing up to $7,000, which can run multiple local AI agents.",
+      "link": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Asus-P16-3-1152x648.jpg"
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d2",
+        "label": "Open source tool",
+        "headline": "Google DeepMind open-sources quantum algorithm verification framework",
+        "summary": "Google DeepMind open-sourced the Lean 4 framework used to verify quantum algorithms developed by Gemini 4 agents, which cut quantum computing costs 290-fold.",
+        "link": "https://thenewstack.io/deepmind-lean-quantum-verification/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/a4389c06-brecht-corbeel-2jyl5vvrheo-unsplash-1024x683.jpg"
+      },
+      {
+        "id": "d4",
+        "label": "Open models",
+        "headline": "AWS launches open decision models for AI agents",
+        "summary": "AWS launched Strands Decider v2, a family of five open decision models designed for AI agents.",
+        "link": "https://thenewstack.io/aws-strands-decider-v2/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/05/2f95a795-img_3509-1024x768.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d3",
+      "term": "Loop Transformer architecture",
+      "explanation": "An architecture introduced in Z.ai's GLM-5.4 model that executes the same 28 layers multiple times to increase computational capacity.",
+      "link": "https://thenewstack.io/zai-glm54-loop-transformer/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/11/5012e819-balaji-krishnamurty-airyna080uy-unsplash-1024x571.jpg"
+    }
+  },
+  "long_read": {
+    "id": "l1",
+    "headline": "Management consulting is not a thin wrapper on intelligence",
+    "summary": "Management consulting serves as a test case for AI's impact on knowledge work.",
+    "link": "https://www.normaltech.ai/p/management-consulting-is-not-a-thin",
+    "source": "AI as Normal Technology",
+    "image": "https://substackcdn.com/image/fetch/$s_!sZXB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7d10095-1c9d-44e0-ad6d-433fdc8ef214_2476x1296.jpeg"
+  },
+  "number": 28,
+  "date_iso": "2026-11-23",
+  "date_long": "Monday \u00b7 23 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-23",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": null,
+  "keep_brewing": null,
+  "poll": null
+}
