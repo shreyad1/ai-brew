@@ -1,0 +1,268 @@
+{
+  "date": "2026-11-24",
+  "claims": 31,
+  "supported": 30,
+  "partial": 1,
+  "unsupported": 0,
+  "faithfulness": 0.984,
+  "flagged": [
+    {
+      "section": "office_blend",
+      "id": "w4",
+      "claim": "UX designers and content teams at Ally Financial use agentic AI to reinvent customer personas to help tailor digital experiences.",
+      "source": "Ally Financial reinvents customer personas with agentic AI. When the bottom line depends on robust, personalized digital experiences, anticipating how customers and prospects will respond to new services or offerings or to changes in existing customer journeys is paramount. For that, leading organizations turn to personas to help get in the mind of consumers as a means for tailoring customer experiences to their desires and needs. At digital financial services company Ally Financial, UX designers and content teams have long used personas to help hone dig",
+      "verdict": "partial",
+      "reason": "The source says Ally Financial reinvents personas with agentic AI and mentions UX designers use personas, but does not explicitly state that UX designers are using the agentic AI."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n12",
+      "claim": "Tidal will ban AI-generated music and delete 27 million tracks from its catalog.",
+      "source": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted. AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Tidal announced a ban on AI-generated music and will delete 27 million tracks."
+    },
+    {
+      "section": "glance",
+      "id": "n4",
+      "claim": "Walmart partnered with Meta to offer Black Friday deals inside the Muse AI agent.",
+      "source": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse. Walmart now lets customers shop Black Friday deals through Muse, Meta\u2019s AI agent.",
+      "verdict": "supported",
+      "reason": "The source confirms Walmart teamed up with Meta to offer Black Friday deals via Meta's AI agent, Muse."
+    },
+    {
+      "section": "glance",
+      "id": "n8",
+      "claim": "Amazon Prime Air drones delivered hundreds of thousands of orders despite a recent crash.",
+      "source": "Amazon drone crashes on garage after delivering shampoo, draws FAA probe. Amazon says Prime Air drones made \u201chundreds of thousands\u201d of deliveries in 2026.",
+      "verdict": "supported",
+      "reason": "The source notes a recent Amazon drone crash as well as Amazon's statement that Prime Air drones made hundreds of thousands of deliveries."
+    },
+    {
+      "section": "glance",
+      "id": "n18",
+      "claim": "Pinterest now lets parents limit the AI-generated content appearing in teenagers' feeds.",
+      "source": "Pinterest will now let parents limit the AI-generated content their teens see. While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+      "verdict": "supported",
+      "reason": "The source confirms Pinterest allows parents to limit the AI-generated content appearing in their teenagers' feeds."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "Even top AI agents struggle with everyday tasks",
+      "source": "Even the best AI agents struggle with everyday life. As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "verdict": "supported",
+      "reason": "The source states that even the best AI agents struggle with everyday life and tasks."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "A new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "source": "Even the best AI agents struggle with everyday life. As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "verdict": "supported",
+      "reason": "The claim is an exact match for a statement in the source text."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "Advanced personal AI assistants may fail or create problems when completing basic everyday tasks.",
+      "source": "Even the best AI agents struggle with everyday life. As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "verdict": "supported",
+      "reason": "The source directly supports that advanced AI models struggle to complete everyday tasks reliably and without creating new problems."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "Smart AI helpers still have trouble doing basic everyday tasks, so they might make mistakes or cause new problems when trying to help.",
+      "source": "Even the best AI agents struggle with everyday life. As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "verdict": "supported",
+      "reason": "The claim accurately rephrases the source's statement that advanced AI models struggle with everyday tasks and may introduce potential new problems."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "A new benchmark shows that advanced AI models fail to complete everyday tasks reliably and safely, often introducing new execution risks for users.",
+      "source": "Even the best AI agents struggle with everyday life. As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "verdict": "supported",
+      "reason": "The claim accurately reflects the benchmark finding mentioned in the source that advanced AI models struggle to complete everyday tasks safely and reliably."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "According to a new benchmark, state-of-the-art AI models struggle to complete basic everyday tasks safely and reliably, frequently introducing unintended execution problems.",
+      "source": "Even the best AI agents struggle with everyday life. As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "verdict": "supported",
+      "reason": "The claim accurately conveys the source's description of the benchmark findings regarding state-of-the-art AI models."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "Maple raises $5.3M for private AI architecture",
+      "source": "Maple raises $5.3M to build AI products that protect your data, even from itself. The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+      "verdict": "supported",
+      "reason": "The source states that Maple raised $5.3M to build an encrypted AI architecture."
+    },
+    {
+      "section": "big_pour",
+      "id": "n5",
+      "claim": "Maple raised $5.3 million to build an encrypted AI architecture that prevents the startup itself from accessing users' private data.",
+      "source": "Maple raises $5.3M to build AI products that protect your data, even from itself. The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+      "verdict": "supported",
+      "reason": "The source confirms Maple raised $5.3 million for an encrypted AI architecture designed to prevent the startup from accessing private user data."
+    },
+    {
+      "section": "big_pour",
+      "id": "n19",
+      "claim": "Amazon acquires Decart to boost Trainium chip efficiency",
+      "source": "Amazon\u2019s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia. Amazon\u2019s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips.",
+      "verdict": "supported",
+      "reason": "The source explicitly states Amazon decided to acquire Decart to improve the efficiency of its Trainium chips."
+    },
+    {
+      "section": "big_pour",
+      "id": "n19",
+      "claim": "Amazon acquired Decart for a reported $7.5 billion to improve the efficiency of its Trainium chips using software.",
+      "source": "Amazon\u2019s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia. Amazon\u2019s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips.",
+      "verdict": "supported",
+      "reason": "The source states Amazon is acquiring Decart for a reported $7.5 billion using software to improve Trainium chip efficiency."
+    },
+    {
+      "section": "office_blend",
+      "id": "w4",
+      "claim": "Ally Financial reinvents customer personas with agentic AI",
+      "source": "Ally Financial reinvents customer personas with agentic AI. When the bottom line depends on robust, personalized digital experiences, anticipating how customers and prospects will respond to new services or offerings or to changes in existing customer journeys is paramount. For that, leading organizations turn to personas to help get in the mind of consumers as a means for tailoring customer experiences to their desires and needs. At digital financial services company Ally Financial, UX designers and content teams have long used personas to help hone dig",
+      "verdict": "supported",
+      "reason": "The claim matches the exact headline of the source text."
+    },
+    {
+      "section": "office_blend",
+      "id": "w4",
+      "claim": "UX designers and content teams at Ally Financial use agentic AI to reinvent customer personas to help tailor digital experiences.",
+      "source": "Ally Financial reinvents customer personas with agentic AI. When the bottom line depends on robust, personalized digital experiences, anticipating how customers and prospects will respond to new services or offerings or to changes in existing customer journeys is paramount. For that, leading organizations turn to personas to help get in the mind of consumers as a means for tailoring customer experiences to their desires and needs. At digital financial services company Ally Financial, UX designers and content teams have long used personas to help hone dig",
+      "verdict": "partial",
+      "reason": "The source says Ally Financial reinvents personas with agentic AI and mentions UX designers use personas, but does not explicitly state that UX designers are using the agentic AI."
+    },
+    {
+      "section": "office_blend",
+      "id": "w15",
+      "claim": "Hyring Insight reports 10x revenue growth",
+      "source": "Hyring Insight Reports 10x Revenue Growth in 3 months. Hyring\u2019s newest workforce intelligence platform has grown 10x in revenue in just 90 days. Hyring , the emerging AI hiring platform , which to date has run 900,000 plus AI interviews, announced that its new product, Hyring Insight, has grown tenfold over the last 90 days. The company\u2019s quick success comes from two key product decisions: transparency and Ask AI, an aide that helps explain what employees did during the workday. Hyring Insight is time tracking software that prides itself on transpar",
+      "verdict": "supported",
+      "reason": "The source confirms Hyring Insight reported 10x revenue growth in 90 days."
+    },
+    {
+      "section": "office_blend",
+      "id": "w15",
+      "claim": "Hyring announced that its workforce intelligence product, Hyring Insight, grew tenfold in revenue over 90 days by using AI to summarize daily employee activity.",
+      "source": "Hyring Insight Reports 10x Revenue Growth in 3 months. Hyring\u2019s newest workforce intelligence platform has grown 10x in revenue in just 90 days. Hyring , the emerging AI hiring platform , which to date has run 900,000 plus AI interviews, announced that its new product, Hyring Insight, has grown tenfold over the last 90 days. The company\u2019s quick success comes from two key product decisions: transparency and Ask AI, an aide that helps explain what employees did during the workday. Hyring Insight is time tracking software that prides itself on transpar",
+      "verdict": "supported",
+      "reason": "The source supports that Hyring Insight grew tenfold over 90 days due to features including Ask AI, which explains employee workday activities."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u1",
+      "claim": "Tidal will start banning AI-generated music on December 9th, deleting around 29 million tracks.",
+      "source": "Tidal will start banning AI-generated music next month. Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months after Tidal began labeling and demonetizing tracks identified as 100 [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states Tidal will ban AI-generated music on December 9th and delete around 29 million AI-generated songs."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u3",
+      "claim": "Jensen Huang is scheduled to testify in the Senate next week following his reinstatement as Nvidia CEO.",
+      "source": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO. The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
+      "verdict": "supported",
+      "reason": "The claim is directly stated in the source text."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u4",
+      "claim": "Amazon Bedrock is launching a public preview for its Trusted Access API with safeguards for Claude models.",
+      "source": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models. Amazon Bedrock now offers a trusted access program API: one place to discover, request, and enroll in model provider programs. The first two offerings, in public preview, are Anthropic's Enterprise Frontier Safeguards (EFS) and Enterprise Data Controls (EDC), which give you control over your data when you use Claude Fable models.",
+      "verdict": "supported",
+      "reason": "The source confirms Amazon Bedrock is launching a public preview for its Trusted Access API with safeguards for Claude models."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n14",
+      "claim": "Meta integrated its Muse AI assistant directly into Instagram DMs so users do not need to switch apps.",
+      "source": "Meta brings its Muse AI assistant directly into Instagram DMs. The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+      "verdict": "supported",
+      "reason": "The source states Meta integrated Muse into Instagram DMs, eliminating the need to switch apps."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n17",
+      "claim": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop over AI features.",
+      "source": "The New York Times warns photographers not to update Photoshop over AI features. The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leaders, Meaghan Looram and Josh [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms The New York Times asked freelance photographers not to use the newest Photoshop version due to AI features."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n11",
+      "claim": "The British cyber agency warned that AI hacking tools are exploiting simple security flaws to expose weak systems.",
+      "source": "UK warns AI-driven cyberattacks are exposing years of weak security. The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+      "verdict": "supported",
+      "reason": "The source states the British cyber agency warned AI hacking tools exploit simple security flaws to expose weak foundations."
+    },
+    {
+      "section": "builder",
+      "id": "d7",
+      "claim": "Anthropic launches Claude Ship to handle pull requests",
+      "source": "Anthropic\u2019s Claude Ship lets Claude approve routine pull requests. Anthropic on Monday launched Claude Ship, a set of three agents that can review pull requests (PRs), fix them, and approve",
+      "verdict": "supported",
+      "reason": "The source explicitly states that Anthropic launched Claude Ship to handle, review, fix, and approve pull requests."
+    },
+    {
+      "section": "builder",
+      "id": "d7",
+      "claim": "Anthropic introduced Claude Ship, a set of three AI agents that can review, fix, and approve routine pull requests.",
+      "source": "Anthropic\u2019s Claude Ship lets Claude approve routine pull requests. Anthropic on Monday launched Claude Ship, a set of three agents that can review pull requests (PRs), fix them, and approve",
+      "verdict": "supported",
+      "reason": "The source states that Anthropic launched Claude Ship, consisting of three agents that review, fix, and approve routine pull requests."
+    },
+    {
+      "section": "builder",
+      "id": "d8",
+      "claim": "Google DeepMind open-sources Lean 4 quantum framework",
+      "source": "Google\u2019s AI agents cut quantum computing costs 290-fold \u2014 now you can check their work. Google DeepMind has open-sourced the Lean 4 framework used to verify quantum algorithms developed by its Gemini 4 agents, including",
+      "verdict": "supported",
+      "reason": "The source confirms that Google DeepMind has open-sourced the Lean 4 framework used to verify quantum algorithms."
+    },
+    {
+      "section": "builder",
+      "id": "d8",
+      "claim": "Google DeepMind open-sourced the Lean 4 framework used to verify quantum algorithms developed by Gemini 4 AI agents.",
+      "source": "Google\u2019s AI agents cut quantum computing costs 290-fold \u2014 now you can check their work. Google DeepMind has open-sourced the Lean 4 framework used to verify quantum algorithms developed by its Gemini 4 agents, including",
+      "verdict": "supported",
+      "reason": "The source confirms Google DeepMind open-sourced the Lean 4 framework used to verify algorithms from its Gemini 4 agents."
+    },
+    {
+      "section": "concept",
+      "id": "d9",
+      "claim": "An architecture introduced by Z.ai in GLM-5.4 that executes the same layers multiple times to boost computational capability.",
+      "source": "Z.ai ran the same 28 layers twice \u2014 and claims its 750B model can rival a 3-trillion-parameter one. Z.ai released GLM-5.4 on Monday, introducing a Loop Transformer architecture that executes the same layers multiple times to increase computational",
+      "verdict": "supported",
+      "reason": "The source notes that Z.ai released GLM-5.4 with an architecture that executes the same layers multiple times to increase computational capacity."
+    },
+    {
+      "section": "long_read",
+      "id": "l3",
+      "claim": "Management consulting is not a thin wrapper on intelligence",
+      "source": "Management consulting is not a thin wrapper on intelligence. Consulting as a test case for AI's impact on knowledge work",
+      "verdict": "supported",
+      "reason": "The source text directly contains this statement."
+    },
+    {
+      "section": "long_read",
+      "id": "l3",
+      "claim": "The essay examines management consulting as a test case to evaluate how AI transforms knowledge work.",
+      "source": "Management consulting is not a thin wrapper on intelligence. Consulting as a test case for AI's impact on knowledge work",
+      "verdict": "supported",
+      "reason": "The source presents consulting as a test case for AI's impact on knowledge work."
+    }
+  ]
+}

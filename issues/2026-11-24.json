@@ -1,0 +1,190 @@
+{
+  "glance": [
+    {
+      "id": "n12",
+      "summary": "Tidal will ban AI-generated music and delete 27 million tracks from its catalog.",
+      "link": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1083228790-1152x648.jpg"
+    },
+    {
+      "id": "n4",
+      "summary": "Walmart partnered with Meta to offer Black Friday deals inside the Muse AI agent.",
+      "link": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n8",
+      "summary": "Amazon Prime Air drones delivered hundreds of thousands of orders despite a recent crash.",
+      "link": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/prime-air-mk30-drone-package-loading-1152x648.jpg"
+    },
+    {
+      "id": "n18",
+      "summary": "Pinterest now lets parents limit the AI-generated content appearing in teenagers' feeds.",
+      "link": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n3",
+      "headline": "Even top AI agents struggle with everyday tasks",
+      "teaser": "Top AI agents struggle with chores",
+      "summary": "A new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "why": "Advanced personal AI assistants may fail or create problems when completing basic everyday tasks.",
+      "explain": {
+        "kid": "Smart AI helpers still have trouble doing basic everyday tasks, so they might make mistakes or cause new problems when trying to help.",
+        "pm": "A new benchmark shows that advanced AI models fail to complete everyday tasks reliably and safely, often introducing new execution risks for users.",
+        "engineer": "According to a new benchmark, state-of-the-art AI models struggle to complete basic everyday tasks safely and reliably, frequently introducing unintended execution problems."
+      },
+      "link": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n5",
+      "headline": "Maple raises $5.3M for private AI architecture",
+      "teaser": "Startup protects user data from itself",
+      "summary": "Maple raised $5.3 million to build an encrypted AI architecture that prevents the startup itself from accessing users' private data.",
+      "link": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n19",
+      "headline": "Amazon acquires Decart to boost Trainium chip efficiency",
+      "teaser": "Amazon buys Decart for chip efficiency",
+      "summary": "Amazon acquired Decart for a reported $7.5 billion to improve the efficiency of its Trainium chips using software.",
+      "link": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w4",
+      "headline": "Ally Financial reinvents customer personas with agentic AI",
+      "teaser": "Tailoring customer experiences with personas",
+      "summary": "UX designers and content teams at Ally Financial use agentic AI to reinvent customer personas to help tailor digital experiences.",
+      "link": "https://www.cio.com/article/4249853/ally-financial-reinvents-customer-personas-with-agentic-ai.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4249853-0-26167800-1795514704-AllyCharlotteCenter.jpg?quality=50&strip=all"
+    },
+    {
+      "id": "w15",
+      "headline": "Hyring Insight reports 10x revenue growth",
+      "teaser": "Workforce intelligence software sees rapid growth",
+      "summary": "Hyring announced that its workforce intelligence product, Hyring Insight, grew tenfold in revenue over 90 days by using AI to summarize daily employee activity.",
+      "link": "https://www.cio.com/article/4251871/hyring-insight-reports-10x-revenue-growth-in-3-months.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4251871-0-60670500-1795413128-Hyring-Insight-Reports-10x-Revenue-Growth-in-3-months.png"
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u1",
+      "summary": "Tidal will start banning AI-generated music on December 9th, deleting around 29 million tracks.",
+      "link": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319678/STK301_Tidal_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    {
+      "id": "u3",
+      "summary": "Jensen Huang is scheduled to testify in the Senate next week following his reinstatement as Nvidia CEO.",
+      "link": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+      "source": "TechCrunch",
+      "image": null,
+      "date_mentioned": null
+    },
+    {
+      "id": "u4",
+      "summary": "Amazon Bedrock is launching a public preview for its Trusted Access API with safeguards for Claude models.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/",
+      "source": "AWS Machine Learning Blog",
+      "image": null,
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n14",
+      "summary": "Meta integrated its Muse AI assistant directly into Instagram DMs so users do not need to switch apps.",
+      "link": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n17",
+      "summary": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop over AI features.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n11",
+      "summary": "The British cyber agency warned that AI hacking tools are exploiting simple security flaws to expose weak systems.",
+      "link": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d7",
+        "label": "New tool",
+        "headline": "Anthropic launches Claude Ship to handle pull requests",
+        "summary": "Anthropic introduced Claude Ship, a set of three AI agents that can review, fix, and approve routine pull requests.",
+        "link": "https://thenewstack.io/anthropic-claude-ship-approvals/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/04/4ee2d757-img_0972-1024x768.jpg"
+      },
+      {
+        "id": "d8",
+        "label": "Open standard",
+        "headline": "Google DeepMind open-sources Lean 4 quantum framework",
+        "summary": "Google DeepMind open-sourced the Lean 4 framework used to verify quantum algorithms developed by Gemini 4 AI agents.",
+        "link": "https://thenewstack.io/deepmind-lean-quantum-verification/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/a4389c06-brecht-corbeel-2jyl5vvrheo-unsplash-1024x683.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d9",
+      "term": "Loop Transformer architecture",
+      "explanation": "An architecture introduced by Z.ai in GLM-5.4 that executes the same layers multiple times to boost computational capability.",
+      "link": "https://thenewstack.io/zai-glm54-loop-transformer/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/11/5012e819-balaji-krishnamurty-airyna080uy-unsplash-1024x571.jpg"
+    }
+  },
+  "long_read": {
+    "id": "l3",
+    "headline": "Management consulting is not a thin wrapper on intelligence",
+    "summary": "The essay examines management consulting as a test case to evaluate how AI transforms knowledge work.",
+    "link": "https://www.normaltech.ai/p/management-consulting-is-not-a-thin",
+    "source": "AI as Normal Technology",
+    "image": "https://substackcdn.com/image/fetch/$s_!sZXB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7d10095-1c9d-44e0-ad6d-433fdc8ef214_2476x1296.jpeg"
+  },
+  "number": 29,
+  "date_iso": "2026-11-24",
+  "date_long": "Tuesday \u00b7 24 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-24",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": null,
+  "keep_brewing": null,
+  "poll": null
+}

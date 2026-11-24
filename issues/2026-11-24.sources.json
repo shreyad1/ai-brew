@@ -1,0 +1,938 @@
+{
+  "generated_at": "2026-11-24T17:49:05.794061-06:00",
+  "warnings": [],
+  "failed_feeds": [
+    "Import AI: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+  ],
+  "sources": {
+    "n1": {
+      "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+      "link": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+      "source": "TechCrunch",
+      "published": "2026-11-24T22:27:52+00:00",
+      "summary": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
+      "categories": [
+        "AI",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "image": null
+    },
+    "n2": {
+      "title": "In all-hands meeting, Jensen Huang thanks White House and says he\u2019s in therapy",
+      "link": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+      "source": "TechCrunch",
+      "published": "2026-11-24T21:48:27+00:00",
+      "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
+      "categories": [
+        "AI",
+        "Donald Trump",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "image": null
+    },
+    "n3": {
+      "title": "Even the best AI agents struggle with everyday life",
+      "link": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "source": "TechCrunch",
+      "published": "2026-11-24T21:33:29+00:00",
+      "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "categories": [
+        "AI",
+        "Commerce",
+        "AI agents",
+        "Anthropic",
+        "Hugging Face",
+        "Meta",
+        "muse",
+        "OpenAI",
+        "openclaw",
+        "personal assistant"
+      ],
+      "image": null
+    },
+    "n4": {
+      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "link": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+      "source": "TechCrunch",
+      "published": "2026-11-24T21:32:38+00:00",
+      "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta\u2019s AI agent.",
+      "categories": [
+        "AI",
+        "Commerce",
+        "AI agents",
+        "black friday",
+        "Meta",
+        "Walmart"
+      ],
+      "image": null
+    },
+    "n5": {
+      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+      "link": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+      "source": "TechCrunch",
+      "published": "2026-11-24T21:19:52+00:00",
+      "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+      "categories": [
+        "AI",
+        "Privacy",
+        "Startups",
+        "TC",
+        "AI agents",
+        "ai apps",
+        "Exclusive",
+        "privacy",
+        "security"
+      ],
+      "image": null
+    },
+    "n6": {
+      "title": "What's going on with the Riemann hypothesis?",
+      "link": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
+      "source": "Ars Technica",
+      "published": "2026-11-24T20:34:53+00:00",
+      "summary": "A new AI-assisted proof seems to be solid, but we're not sure what it tells us.",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Claude",
+        "math",
+        "proofs",
+        "Reimann hypothesis"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-220180413-1152x648.jpeg"
+    },
+    "n7": {
+      "title": "Jensen Huang reportedly tells Nvidia staff it\u2019s \u2018not true\u2019 Trump got him rehired",
+      "link": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+      "source": "The Verge",
+      "published": "2026-11-24T20:02:03+00:00",
+      "summary": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Times, and The Handbasket's Marisa Kabas. During the meeting, Huang [\u2026]",
+      "categories": [
+        "AI",
+        "Business",
+        "News",
+        "Nvidia",
+        "Policy",
+        "Politics",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2300373989.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n8": {
+      "title": "Amazon drone crashes on garage after delivering shampoo, draws FAA probe",
+      "link": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/",
+      "source": "Ars Technica",
+      "published": "2026-11-24T18:47:57+00:00",
+      "summary": "Amazon says Prime Air drones made \u201chundreds of thousands\u201d of deliveries in 2026.",
+      "categories": [
+        "AI",
+        "Tech",
+        "AI drones",
+        "Amazon",
+        "amazon drones",
+        "delivery drones",
+        "drones",
+        "FAA",
+        "Federal Aviation Administration"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/prime-air-mk30-drone-package-loading-1152x648.jpg"
+    },
+    "n9": {
+      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "link": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+      "source": "TechCrunch",
+      "published": "2026-11-24T18:30:42+00:00",
+      "summary": "Anthropic\u2019s post-IPO slump could put pressure on AI startup valuations.",
+      "categories": [
+        "AI",
+        "Startups",
+        "Venture",
+        "Anthropic",
+        "In Brief",
+        "IPO"
+      ],
+      "image": null
+    },
+    "n10": {
+      "title": "David Fincher is being dragged for suspected use of AI in his latest film",
+      "link": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+      "source": "The Verge",
+      "published": "2026-11-24T18:15:00+00:00",
+      "summary": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether generative AI was used in the film. People have claimed that the movie is chock-full of uncanny, inconsistent visuals that make it [\u2026]",
+      "categories": [
+        "AI",
+        "Entertainment",
+        "Film",
+        "Netflix",
+        "Streaming"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/UFP25_R4_Rec709_2p4gamma_6188x3240_20260828.0363314_R2.jpg?quality=90&#038;strip=all&#038;crop=20.001873779297,0,79.998126220703,100"
+    },
+    "n11": {
+      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+      "link": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "source": "TechCrunch",
+      "published": "2026-11-24T18:02:59+00:00",
+      "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+      "categories": [
+        "AI",
+        "Security",
+        "cyberattacks",
+        "cybersecurity",
+        "data breaches",
+        "UK government"
+      ],
+      "image": null
+    },
+    "n12": {
+      "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+      "link": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+      "source": "Ars Technica",
+      "published": "2026-11-24T17:34:34+00:00",
+      "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+      "categories": [
+        "AI",
+        "Artificial Intelligence",
+        "music streaming",
+        "tidal"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1083228790-1152x648.jpg"
+    },
+    "n13": {
+      "title": "Tidal will start banning AI-generated music next month",
+      "link": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+      "source": "The Verge",
+      "published": "2026-11-24T17:17:09+00:00",
+      "summary": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months after Tidal began labeling and demonetizing tracks identified as 100 [\u2026]",
+      "categories": [
+        "AI",
+        "Entertainment",
+        "Music",
+        "News",
+        "Tidal"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319678/STK301_Tidal_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n14": {
+      "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+      "link": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "source": "TechCrunch",
+      "published": "2026-11-24T17:00:00+00:00",
+      "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+      "categories": [
+        "AI",
+        "Apps",
+        "Social",
+        "Instagram",
+        "muse"
+      ],
+      "image": null
+    },
+    "n15": {
+      "title": "Jensen Huang deepfakes are the hot new AI slop",
+      "link": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+      "source": "The Verge",
+      "published": "2026-11-24T16:30:00+00:00",
+      "summary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive and suspected spy he [\u2026]",
+      "categories": [
+        "AI",
+        "Nvidia",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Jensen_huang_AI_deepfakes.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n16": {
+      "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+      "link": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+      "source": "TechCrunch",
+      "published": "2026-11-24T16:10:00+00:00",
+      "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+      "categories": [
+        "AI",
+        "Climate",
+        "data centers",
+        "energy storage",
+        "Solar Power",
+        "G2VP"
+      ],
+      "image": null
+    },
+    "n17": {
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "source": "The Verge",
+      "published": "2026-11-24T16:09:23+00:00",
+      "summary": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leaders, Meaghan Looram and Josh [\u2026]",
+      "categories": [
+        "Adobe",
+        "AI",
+        "Creators",
+        "News",
+        "Tech"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    "n18": {
+      "title": "Pinterest will now let parents limit the AI-generated content their teens see",
+      "link": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+      "source": "TechCrunch",
+      "published": "2026-11-24T16:02:37+00:00",
+      "summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+      "categories": [
+        "AI",
+        "Apps",
+        "Social",
+        "ai generated content",
+        "Pinterest"
+      ],
+      "image": null
+    },
+    "n19": {
+      "title": "Amazon\u2019s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+      "link": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+      "source": "TechCrunch",
+      "published": "2026-11-24T15:51:07+00:00",
+      "summary": "Amazon\u2019s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips.",
+      "categories": [
+        "AI",
+        "Amazon",
+        "decart",
+        "Mergers and Acquisitions",
+        "trainium"
+      ],
+      "image": null
+    },
+    "n20": {
+      "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
+      "link": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
+      "source": "Ars Technica",
+      "published": "2026-11-24T14:56:50+00:00",
+      "summary": "Huang\u2019s allies enlisted Trump and Vance to pressure Nvidia\u2019s board into taking him back.",
+      "categories": [
+        "AI",
+        "Policy",
+        "corporate governance",
+        "Jensen Huang",
+        "NVIDIA",
+        "syndication"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2297759490-1024x648.jpg"
+    },
+    "n21": {
+      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+      "source": "Ars Technica",
+      "published": "2026-11-24T12:30:05+00:00",
+      "summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+      "categories": [
+        "AI",
+        "Biz & IT",
+        "Security",
+        "agents",
+        "hacking",
+        "zerodays"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cairn-banner.jpg"
+    },
+    "w1": {
+      "title": "How to choose a secure PDF solution for your business",
+      "link": "https://www.cio.com/article/4252731/how-to-choose-a-secure-pdf-solution-for-your-business.html",
+      "source": "CIO.com",
+      "published": "2026-11-24T20:04:18+00:00",
+      "summary": "AI is changing the economics and speed of cyberattacks. In September 2026, The Wall Street Journal reported that a three-person security research team used Anthropic\u2019s Claude to chain together software flaws and reach OpenAI\u2019s internal code systems. The researchers were white-hat testers working through a bug-bounty program, and the full path from a newly found bug to access took under three days. The lesson is sobering: work that once required a well-resourced team can increasingly be done by a",
+      "categories": [
+        "Application Security, Security"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4252731-0-44972000-1795550694-Adobe-Acrobat-Graphic-3.png"
+    },
+    "w2": {
+      "title": "Your AI incident clock is already running. The US-China channel hasn\u2019t said what starts it",
+      "link": "https://www.cio.com/article/4252273/your-ai-incident-clock-is-already-running-the-us-china-channel-hasnt-said-what-starts-it.html",
+      "source": "CIO.com",
+      "published": "2026-11-24T12:00:00+00:00",
+      "summary": "On November 19 in Shenzhen, China, Xi Jinping told Donald Trump that the two countries should coordinate on AI security risks and \u201censure AI always remains under human control,\u201d according to China\u2019s Foreign Ministry readout . The next day, Treasury Secretary Scott Bessent told CNBC the leaders had agreed to keep humans involved in any military decision AI makes. AI, he added, should not act on its own in major military actions. Neither government has published a text with those terms, and Beijin",
+      "categories": [
+        "Artificial Intelligence, Government, Incident Response, Industry, Laws and Regulations, Markets, Network Security, Security, Security Practices"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2025/05/3974078-0-08210100-1746091921-shutterstock_2200286089.jpg?quality=50&strip=all"
+    },
+    "w3": {
+      "title": "The AI invoice is a governance signal most CIOs are failing to read",
+      "link": "https://www.cio.com/article/4252236/the-ai-invoice-is-a-governance-signal-most-cios-are-failing-to-read.html",
+      "source": "CIO.com",
+      "published": "2026-11-24T11:00:00+00:00",
+      "summary": "Generative AI has fundamentally rewritten the expectations around enterprise software development. With coding assistants dramatically accelerating output, most IT leaders naturally assume outsourced development costs should be plummeting. Yet when the monthly invoice from your technology partners arrives, the figures often tell a different story: static costs in a time of hyper-accelerated coding. This discrepancy isn\u2019t necessarily a sign of misalignment or padded billing. Rather, it points to ",
+      "categories": [
+        "Artificial Intelligence, Budgeting, IT Governance, IT Leadership, IT Management"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4252236-0-26969300-1795518193-Andrey_Popov_shutterstock_2592696597.jpg?quality=50&strip=all"
+    },
+    "w4": {
+      "title": "Ally Financial reinvents customer personas with agentic AI",
+      "link": "https://www.cio.com/article/4249853/ally-financial-reinvents-customer-personas-with-agentic-ai.html",
+      "source": "CIO.com",
+      "published": "2026-11-24T10:01:00+00:00",
+      "summary": "When the bottom line depends on robust, personalized digital experiences, anticipating how customers and prospects will respond to new services or offerings or to changes in existing customer journeys is paramount. For that, leading organizations turn to personas to help get in the mind of consumers as a means for tailoring customer experiences to their desires and needs. At digital financial services company Ally Financial, UX designers and content teams have long used personas to help hone dig",
+      "categories": [
+        "Artificial Intelligence, CIO 100, Digital Transformation, Financial Services Industry"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4249853-0-26167800-1795514704-AllyCharlotteCenter.jpg?quality=50&strip=all"
+    },
+    "w5": {
+      "title": "Changing the engine while flying: How to turn AI productivity gains into business transformation",
+      "link": "https://www.cio.com/article/4252232/changing-the-engine-while-flying-how-to-turn-ai-productivity-gains-into-business-transformation.html",
+      "source": "CIO.com",
+      "published": "2026-11-24T10:00:00+00:00",
+      "summary": "I\u2019ve seen plenty of companies roll out copilots and AI assistants and expect individual productivity gains to translate into enterprise-level results. But it doesn\u2019t usually work that way. Those gains, while real, almost always fall short of expectations when token costs, implementation expenses and existing process inefficiencies eat into the returns. The underlying problem with this approach? Expecting transformational results without fundamentally changing how the work gets done. Even as lead",
+      "categories": [
+        "Artificial Intelligence, Digital Transformation, IT Leadership, ROI and Metrics"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4252232-0-88367100-1795514561-pasqualino-capobianco-eBtq_0-LNPc-unsplash.jpg?quality=50&strip=all"
+    },
+    "w6": {
+      "title": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-24T05:01:14+00:00",
+      "summary": "Amazon Bedrock now offers a trusted access program API: one place to discover, request, and enroll in model provider programs. The first two offerings, in public preview, are Anthropic's Enterprise Frontier Safeguards (EFS) and Enterprise Data Controls (EDC), which give you control over your data when you use Claude Fable models.",
+      "categories": [
+        "Amazon Bedrock",
+        "Announcements",
+        "Intermediate (200)"
+      ],
+      "image": null
+    },
+    "w7": {
+      "title": "Nvidia CEO boomerang reinforces IT worries about AI risk exposure",
+      "link": "https://www.cio.com/article/4252245/nvidia-ceo-boomerang-reinforces-it-worries-about-ai-risk-exposure.html",
+      "source": "CIO.com",
+      "published": "2026-11-23T20:36:15+00:00",
+      "summary": "Today\u2019s move by the Nvidia board of directors is raising enterprise CIO concerns about AI over-reliance on one vendor, along with the question of whether boards can still effectively manage their CEOs, analysts and consultants said. Despite saying last week that Jensen Huang was out for good, the board announced on Monday that it was reinstating him as CEO. One concern raised by the Nvidia statement is that of the direct involvement of US President Donald Trump in the board\u2019s move. \u201cThe Board re",
+      "categories": [
+        "Artificial Intelligence, C-Suite, CEO, Nvidia, Risk Management, Security, Vendors and Providers"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/08/4213351-0-77743700-1787622508-shutterstock_2567997995.jpg?quality=50&strip=all"
+    },
+    "w8": {
+      "title": "AI-powered, customer-first thinking drives CRM advantage",
+      "link": "https://www.cio.com/article/4251704/ai-powered-customer-first-thinking-drives-crm-advantage.html",
+      "source": "CIO.com",
+      "published": "2026-11-23T18:17:04+00:00",
+      "summary": "Organizations are redefining CRM with AI-enabled systems that deliver highly personalized, responsive customer experiences and create competitive advantage. Yet technology on its own isn\u2019t enough to power the transition. Organizations need a partner willing to go beyond the generic playbook to align CRM transformation with strategic priorities and measurable business goals. Simply adding AI on top of legacy CRM isn\u2019t the fix for creating end-to-end, autonomous workflows that free sales reps from",
+      "categories": [
+        "Artificial Intelligence, CRM Systems"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4251704-0-49404400-1795457845-shutterstock_2433610363_1422_800.jpg?quality=50&strip=all"
+    },
+    "w9": {
+      "title": "The FAA outage is a warning about technical debt in the AI era",
+      "link": "https://www.cio.com/article/4251637/the-faa-outage-is-a-warning-about-technical-debt-in-the-ai-era.html",
+      "source": "CIO.com",
+      "published": "2026-11-23T12:00:00+00:00",
+      "summary": "The search for a single culpable company in the November 13 nationwide ground stop risks missing the point. Investigators are examining a Juniper Networks router installed by FAA contractor L3Harris, which says it is cooperating with the inquiry. As of November 19, the precise cause remained unresolved. Accountability matters. But identifying who triggered the disruption will not, by itself, explain why the wider system was so vulnerable. According to the FAA, a flood of network connection attem",
+      "categories": [
+        "Business Continuity, IT Leadership, IT Strategy, Network Security, Security"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4251637-0-89591000-1795435389-anete-lusina-rFKBUwLg_WQ-unsplash.jpg?quality=50&strip=all"
+    },
+    "w10": {
+      "title": "IT leaders aren\u2019t sold on outcome-based software pricing",
+      "link": "https://www.cio.com/article/4249850/it-leaders-arent-sold-on-outcome-based-software-pricing.html",
+      "source": "CIO.com",
+      "published": "2026-11-23T10:01:00+00:00",
+      "summary": "AI and traditional software vendors have begun experimenting with pricing models tied to outcomes, but IT leaders largely remain wary of the change. Some SaaS providers have explored outcome-based pricing due to competition from AI-based tools, but IT leaders say the emerging cost model leaves them with many questions. CIOs say sticking to budgets may be more difficult with outcome-based agreements than traditional software pricing models, and the new approach may set up huge disagreements over ",
+      "categories": [
+        "Budgeting, Business Operations, Enterprise Applications, IT Management, SaaS"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4229940-0-30994400-1790927030-AI-agents-IT-savings-shutterstock_2851913399.jpg?quality=50&strip=all"
+    },
+    "w11": {
+      "title": "3 key answers for CIOs as trust in AI still raises questions",
+      "link": "https://www.cio.com/article/4249799/3-key-answers-for-cios-as-trust-in-ai-still-raises-questions.html",
+      "source": "CIO.com",
+      "published": "2026-11-23T10:00:00+00:00",
+      "summary": "Now in its fourth year, the Thinkers360 AI Trust Index examines the current state of trust in AI from both an AI end user and AI provider perspective, and as an annual pulse check on sentiment across various aspects of trust. The primary research survey was conducted, in conjunction with Babson College and Innogentic.ai , in Q3 2026 among Thinkers360 members and the global community of AI end users and providers. This year\u2019s findings showed the overall AI Trust Index score for 2026 was 303 on a ",
+      "categories": [
+        "Artificial Intelligence, C-Suite, Careers, CIO, Digital Transformation, Emerging Technology, IT Governance, IT Governance Frameworks, IT Leadership, IT Strategy"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/04/4154079-0-86416200-1776445109-five-cio-questions-shutterstock_662965375.jpg?quality=50&strip=all"
+    },
+    "w12": {
+      "title": "Claude, Copilot and Agentforce are ready. Are your SAP and ServiceNow platforms ready?",
+      "link": "https://www.cio.com/article/4251456/claude-copilot-and-agentforce-are-ready-are-your-sap-and-servicenow-platforms-ready.html",
+      "source": "CIO.com",
+      "published": "2026-11-23T10:00:00+00:00",
+      "summary": "At a 2027 planning session in October, I watched a leadership team approve three AI agent pilots in under ten minutes. The three were a claims-intake agent, a collections agent and a finance close assistant, each with a sponsor, a vendor quote and a slide of projected savings. The next item on the agenda was the SAP clean-core program those same agents would run on. It took forty minutes, drew questions about payback and slipped to 2028. Nobody in the room did anything wrong. The agents came in ",
+      "categories": [
+        "Artificial Intelligence, Enterprise Architecture, IT Leadership, IT Strategy, SAP, ServiceNow, Vendors and Providers"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4251456-0-20047900-1795428168-SAP-shutterstock_2433092297.jpg?quality=50&strip=all"
+    },
+    "w13": {
+      "title": "Could AI data centers help with the US senior housing crisis?",
+      "link": "https://www.cio.com/article/4251439/could-ai-data-centers-help-with-the-us-senior-housing-crisis.html",
+      "source": "CIO.com",
+      "published": "2026-11-23T09:00:00+00:00",
+      "summary": "Two seemingly unrelated trends are creating major infrastructure challenges in the United States. One is familiar to virtually every CIO; the other may be less so. Less familiar, America\u2019s demand for senior living communities is rising faster than developers are building them. The oldest baby boomers turn 80 this year, and the shortfall of senior housing units is growing more severe. According to NIC MAP\u2019s 2026 Senior Housing Market Outlook , the need for additional senior housing will reach app",
+      "categories": [
+        "Data Center, Data Center Design, Energy Efficiency, Energy Industry, Industry, Markets, Renewable Energy, Sustainable IT"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4251439-0-75894800-1795424570-centre-for-ageing-better-GJaWV0YoBeU-unsplash.jpg?quality=50&strip=all"
+    },
+    "w14": {
+      "title": "How AI is redefining the speed, cost and efficiency of application modernization initiatives",
+      "link": "https://www.cio.com/article/4251205/how-ai-is-redefining-the-speed-cost-and-efficiency-of-application-modernization-initiatives.html",
+      "source": "CIO.com",
+      "published": "2026-11-23T07:17:32+00:00",
+      "summary": "Mainframes have provided high reliability, availability and security to organisations for several decades, across industries. In fact, many mission-critical workloads still run on these systems, and they have continued to play a critical role even in the digital world. But these core, foundational applications suffer from severe technical debt, and this introduces several challenges. Application components are not modular, maintenance is difficult, code is hard to maintain, documentation is scar",
+      "categories": [
+        "Application Management, Artificial Intelligence, IT Operations"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4251205-0-12723400-1795531320-shutterstock_2805086991-1.png"
+    },
+    "w15": {
+      "title": "Hyring Insight Reports 10x Revenue Growth in 3 months",
+      "link": "https://www.cio.com/article/4251871/hyring-insight-reports-10x-revenue-growth-in-3-months.html",
+      "source": "CIO.com",
+      "published": "2026-11-23T05:51:51+00:00",
+      "summary": "Hyring\u2019s newest workforce intelligence platform has grown 10x in revenue in just 90 days. Hyring , the emerging AI hiring platform , which to date has run 900,000 plus AI interviews, announced that its new product, Hyring Insight, has grown tenfold over the last 90 days. The company\u2019s quick success comes from two key product decisions: transparency and Ask AI, an aide that helps explain what employees did during the workday. Hyring Insight is time tracking software that prides itself on transpar",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4251871-0-60670500-1795413128-Hyring-Insight-Reports-10x-Revenue-Growth-in-3-months.png"
+    },
+    "u1": {
+      "title": "Tidal will start banning AI-generated music next month",
+      "link": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+      "source": "The Verge",
+      "published": "2026-11-24T17:17:09+00:00",
+      "summary": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months after Tidal began labeling and demonetizing tracks identified as 100 [\u2026]",
+      "categories": [
+        "AI",
+        "Entertainment",
+        "Music",
+        "News",
+        "Tidal"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319678/STK301_Tidal_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    "u2": {
+      "title": "AI data centers throw another wrench into chaotic UN climate talks",
+      "link": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+      "source": "The Verge",
+      "published": "2026-11-23T21:09:37+00:00",
+      "summary": "The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations climate conference, called COP31, that came to a chaotic and unsatisfying close in Antalya, Turkey, on Sunday. Each year, attendees [\u2026]",
+      "categories": [
+        "AI",
+        "Energy",
+        "Environment",
+        "Policy",
+        "Science"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2306098413.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    "u3": {
+      "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+      "link": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+      "source": "TechCrunch",
+      "published": "2026-11-23T18:12:22+00:00",
+      "summary": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "Congress",
+        "In Brief",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "image": null,
+      "date_mentioned": null
+    },
+    "u4": {
+      "title": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-11-24T05:01:14+00:00",
+      "summary": "Amazon Bedrock now offers a trusted access program API: one place to discover, request, and enroll in model provider programs. The first two offerings, in public preview, are Anthropic's Enterprise Frontier Safeguards (EFS) and Enterprise Data Controls (EDC), which give you control over your data when you use Claude Fable models.",
+      "categories": [
+        "Amazon Bedrock",
+        "Announcements",
+        "Intermediate (200)"
+      ],
+      "image": null,
+      "date_mentioned": null
+    },
+    "u5": {
+      "title": "An insider\u2019s look at SAP\u2019s \u2018Autonomous Enterprise\u2019",
+      "link": "https://www.cio.com/article/4249833/sap-caio-we-need-to-be-more-precise-in-managing-the-use-of-ai.html",
+      "source": "CIO.com",
+      "published": "2026-11-20T10:01:00+00:00",
+      "summary": "At the TechEd developer conference in Berlin, SAP presented additional details of its \u201c Autonomous Enterprise \u201d concept, which includes AI capabilities via Joule Work and SAP Autonomous Suite, built on the SAP Business AI Platform. The company\u2019s focus is not just AI, but AI agents capable of acting automatically within the SAP system by performing analyses and answering queries. This raises questions, such as: How can the costs of AI agents be controlled? Who is allowed to develop the agents, an",
+      "categories": [
+        "Artificial Intelligence, Enterprise Applications, ERP Systems, SAP, Vendors and Providers"
+      ],
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4249833-0-65129300-1795169119-vonrueden_sylvianebrauer_16zu9.jpg?quality=50&strip=all",
+      "date_mentioned": null
+    },
+    "d1": {
+      "title": "Move fast, don\u2019t break 100 apps: Dan Garfield on keeping AI-powered coding on the rails",
+      "link": "https://thenewstack.io/ai-coding-delivery-bottleneck/",
+      "source": "The New Stack",
+      "published": "2026-11-24T19:48:46+00:00",
+      "summary": "An AI coding agent can give a product manager a working prototype before the next planning meeting. Which is great!",
+      "categories": [
+        "AI",
+        "CI/CD",
+        "DevOps",
+        "Open Source",
+        "Podcast",
+        "Video"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/b1ec37cf-thumbnail-22-1024x576.png"
+    },
+    "d2": {
+      "title": "Confluent spent 3 months rewriting Kafka\u2019s Java client in Rust with AI \u2014 and had to start over",
+      "link": "https://thenewstack.io/confluent-kafka-rust-agents/",
+      "source": "The New Stack",
+      "published": "2026-11-24T19:26:18+00:00",
+      "summary": "Confluent spent nearly three months using AI coding agents to translate Apache Kafka\u2019s Java client into Rust. The engineers discarded",
+      "categories": [
+        "AI Agents",
+        "Data Streaming",
+        "Rust"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/028e7f98-getty-images-7ag-cmu7_fw-unsplash-1024x682.jpg"
+    },
+    "d3": {
+      "title": "Anthropic let AI agents review each other\u2019s code \u2014 one PR got stuck in a 50+ round loop overnight",
+      "link": "https://thenewstack.io/claude-ship-automated-approvals/",
+      "source": "The New Stack",
+      "published": "2026-11-24T18:15:59+00:00",
+      "summary": "A year after Claude Code creator Boris Cherny began relying on AI to write all his code, he\u2019s looking to",
+      "categories": [
+        "AI Agents",
+        "CI/CD",
+        "Developer tools"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/a17804b8-getty-images-uy7k_kemuum-unsplash-1024x607.jpg"
+    },
+    "d4": {
+      "title": "As MCP turns two, Claude gets Skills over MCP and better support for long-running tasks",
+      "link": "https://thenewstack.io/mcp-skills-tasks-claude/",
+      "source": "The New Stack",
+      "published": "2026-11-24T18:08:34+00:00",
+      "summary": "Anthropic on Tuesday marked the second anniversary of the Model Context Protocol (MCP) by bringing support for skills, long-running tasks,",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "Model Context Protocol (MCP)"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/03/2777d715-img_2911-1024x768.jpg"
+    },
+    "d5": {
+      "title": "OpenClaw at one: its chief architect on a year of explosive growth, wooing the enterprise, and being Meta\u2019s muse",
+      "link": "https://thenewstack.io/openclaw-vincent-koc-interview/",
+      "source": "The New Stack",
+      "published": "2026-11-24T12:39:32+00:00",
+      "summary": "It\u2019s been a whirlwind 12 months for OpenClaw, the open source personal AI agent used for everything from managing calendars",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "AI Infrastructure",
+        "Open Source"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/524a3468-enterpfeat-1024x538.jpg"
+    },
+    "d6": {
+      "title": "Vercel will make AI providers prove they don\u2019t keep prompts. Here\u2019s why it matters for developers.",
+      "link": "https://thenewstack.io/vercel-audited-zdr-inference/",
+      "source": "The New Stack",
+      "published": "2026-11-24T12:00:00+00:00",
+      "summary": "Since April, developers using Vercel\u2019s AI Gateway have been able to request provider-level zero data retention (ZDR). Vercel says its",
+      "categories": [
+        "AI Infrastructure",
+        "Compliance",
+        "Security"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/366bd3b9-alex-shuper-nacmb7m2rhi-unsplash-1024x576.jpg"
+    },
+    "d7": {
+      "title": "Anthropic\u2019s Claude Ship lets Claude approve routine pull requests",
+      "link": "https://thenewstack.io/anthropic-claude-ship-approvals/",
+      "source": "The New Stack",
+      "published": "2026-11-23T20:24:17+00:00",
+      "summary": "Anthropic on Monday launched Claude Ship, a set of three agents that can review pull requests (PRs), fix them, and approve",
+      "categories": [
+        "AI",
+        "AI Agents",
+        "AI Engineering"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/04/4ee2d757-img_0972-1024x768.jpg"
+    },
+    "d8": {
+      "title": "Google\u2019s AI agents cut quantum computing costs 290-fold \u2014 now you can check their work",
+      "link": "https://thenewstack.io/deepmind-lean-quantum-verification/",
+      "source": "The New Stack",
+      "published": "2026-11-23T20:08:34+00:00",
+      "summary": "Google DeepMind has open-sourced the Lean 4 framework used to verify quantum algorithms developed by its Gemini 4 agents, including",
+      "categories": [
+        "AI Agents",
+        "Open Source",
+        "Science"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/a4389c06-brecht-corbeel-2jyl5vvrheo-unsplash-1024x683.jpg"
+    },
+    "d9": {
+      "title": "Z.ai ran the same 28 layers twice \u2014 and claims its 750B model can rival a 3-trillion-parameter one",
+      "link": "https://thenewstack.io/zai-glm54-loop-transformer/",
+      "source": "The New Stack",
+      "published": "2026-11-23T18:46:42+00:00",
+      "summary": "Z.ai released GLM-5.4 on Monday, introducing a Loop Transformer architecture that executes the same layers multiple times to increase computational",
+      "categories": [
+        "AI Engineering",
+        "AI Models",
+        "Large Language Models"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/5012e819-balaji-krishnamurty-airyna080uy-unsplash-1024x571.jpg"
+    },
+    "d10": {
+      "title": "AWS launches 5 new open decision models for AI agents",
+      "link": "https://thenewstack.io/aws-strands-decider-v2/",
+      "source": "The New Stack",
+      "published": "2026-11-23T18:00:00+00:00",
+      "summary": "AWS on Monday launched Strands Decider v2, a family of five open decision models. The release comes only seven weeks",
+      "categories": [
+        "AI"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/05/2f95a795-img_3509-1024x768.jpg"
+    },
+    "d11": {
+      "title": "Palo Alto and Elastic snap up AI startups. The prize? Enterprise trust and control.",
+      "link": "https://thenewstack.io/palo-alto-applied-computer-elastic-honeyhive/",
+      "source": "The New Stack",
+      "published": "2026-11-23T15:22:07+00:00",
+      "summary": "They say that to understand where an industry is heading, you have to follow the money. And two acquisitions announced",
+      "categories": [
+        "AI",
+        "AI Infrastructure",
+        "AI Operations",
+        "Observability"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/95ebc045-hj-project-jykqoo7i25w-unsplash-1024x640.jpg"
+    },
+    "d12": {
+      "title": "GPT-6.2 Astra vs. Claude Fable 5.2: Astra\u2019s launch got mixed reviews, but it tested well here",
+      "link": "https://thenewstack.io/gpt-6-2-astra-vs-claude-fable-5-2/",
+      "source": "The New Stack",
+      "published": "2026-11-22T15:00:00+00:00",
+      "summary": "When I compared Anthropic\u2019s Fable 5.2 vs. OpenAI\u2019s GPT-6 Astra last week, Fable 5.2 was slightly more accurate (149 points",
+      "categories": [
+        "AI Models",
+        "Anthropic",
+        "Large Language Models",
+        "Software Testing"
+      ],
+      "image": "https://cdn.thenewstack.io/media/2026/11/a7a49ed2-steve-a-johnson-z4cfaa14neu-unsplash-1024x576.jpg"
+    },
+    "l1": {
+      "title": "The Pragmatic Engineer Essay Challenge: Category Winners (Part 1)",
+      "link": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-essay-challenge",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-11-24T19:16:38+00:00",
+      "summary": "How is AI changing the way we build software? Excerpts from three category winners of our recent essay contest, with links to 40 more by software engineers and experts",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!nbv5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F710bc15b-efad-4643-bb7d-fd4748f219ff_1672x941.png"
+    },
+    "l2": {
+      "title": "Commitment issues (app edition)",
+      "link": "https://www.bensbites.com/p/commitment-issues-app-edition",
+      "source": "Ben's Bites",
+      "published": "2026-11-24T14:04:45+00:00",
+      "summary": "It\u2019s not me, it\u2019s you",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!DPzK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe6021f14-f83a-451e-b6b1-de721dad5135_1100x603.gif"
+    },
+    "l3": {
+      "title": "Management consulting is not a thin wrapper on intelligence",
+      "link": "https://www.normaltech.ai/p/management-consulting-is-not-a-thin",
+      "source": "AI as Normal Technology",
+      "published": "2026-11-23T20:12:32+00:00",
+      "summary": "Consulting as a test case for AI's impact on knowledge work",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!sZXB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7d10095-1c9d-44e0-ad6d-433fdc8ef214_2476x1296.jpeg"
+    },
+    "l4": {
+      "title": "The Agentic State",
+      "link": "https://www.chinatalk.media/p/the-agentic-state",
+      "source": "ChinaTalk",
+      "published": "2026-11-23T11:58:38+00:00",
+      "summary": "How AI can transform government for the better",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!Z8_3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70fa4136-197a-442b-abb5-ad915bc29287_1672x941.png"
+    },
+    "l5": {
+      "title": "AI and The Ethnic Unity Law",
+      "link": "https://www.chinatalk.media/p/the-role-of-ai-in-enforcing-chinas",
+      "source": "ChinaTalk",
+      "published": "2026-11-22T11:38:55+00:00",
+      "summary": "\u4e00\u5207\u4e3a\u4e86\u5b9e\u73b0\u6c11\u65cf\u56e2\u7ed3",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!IM-W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5556e3d-59b6-4596-aa03-89e0a711f927_2048x1467.png"
+    },
+    "l6": {
+      "title": "AI Just Cracked the Hardest Problem in Mathematics. It Will Change Everything",
+      "link": "https://www.thealgorithmicbridge.com/p/ai-just-cracked-the-hardest-problem",
+      "source": "The Algorithmic Bridge",
+      "published": "2026-11-21T18:59:24+00:00",
+      "summary": "The Riemann Hypothesis has fallen",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!HUnA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F10099a2e-ae2c-42a3-852f-ce37bba9805f_1280x720.png"
+    },
+    "l7": {
+      "title": "Last Week in AI #348 - IPO->Correction, new GPTs and Geminis, Nvidia\u2019s Fate",
+      "link": "https://lastweekin.ai/p/last-week-in-ai-348-ipo-correction",
+      "source": "Last Week in AI",
+      "published": "2026-11-21T08:41:43+00:00",
+      "summary": "Anthropic's $81B IPO, AI stocks enter a correction, Huang resigns from Nvidia, Trump and Xi agree on military AI",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!RcOW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe937cf00-17ca-41fb-866c-fd971727d6c6_3366x1906.png"
+    },
+    "l8": {
+      "title": "The Pulse: Is Amazon\u2019s writing culture collapsing because of AI?",
+      "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture",
+      "source": "The Pragmatic Engineer",
+      "published": "2026-11-19T17:08:59+00:00",
+      "summary": "Also: Anthropic goes public with the largest-ever IPO, Meta frantically reverses shutdown of popular AI coding harness Conductor, and more",
+      "categories": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!dsZM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9817f36-232c-412a-89cc-57b2691171ec_819x900.png"
+    }
+  },
+  "llm_draft": {
+    "glance": [
+      {
+        "id": "n12",
+        "summary": "Tidal will ban AI-generated music and delete 27 million tracks from its catalog."
+      },
+      {
+        "id": "n4",
+        "summary": "Walmart partnered with Meta to offer Black Friday deals inside the Muse AI agent."
+      },
+      {
+        "id": "n8",
+        "summary": "Amazon Prime Air drones delivered hundreds of thousands of orders despite a recent crash."
+      },
+      {
+        "id": "n18",
+        "summary": "Pinterest now lets parents limit the AI-generated content appearing in teenagers' feeds."
+      }
+    ],
+    "big_pour": [
+      {
+        "id": "n3",
+        "headline": "Even top AI agents struggle with everyday tasks",
+        "teaser": "Top AI agents struggle with chores",
+        "summary": "A new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+        "why": "Advanced personal AI assistants may fail or create problems when completing basic everyday tasks.",
+        "explain": {
+          "kid": "Smart AI helpers still have trouble doing basic everyday tasks, so they might make mistakes or cause new problems when trying to help.",
+          "pm": "A new benchmark shows that advanced AI models fail to complete everyday tasks reliably and safely, often introducing new execution risks for users.",
+          "engineer": "According to a new benchmark, state-of-the-art AI models struggle to complete basic everyday tasks safely and reliably, frequently introducing unintended execution problems."
+        }
+      },
+      {
+        "id": "n5",
+        "headline": "Maple raises $5.3M for private AI architecture",
+        "teaser": "Startup protects user data from itself",
+        "summary": "Maple raised $5.3 million to build an encrypted AI architecture that prevents the startup itself from accessing users' private data."
+      },
+      {
+        "id": "n19",
+        "headline": "Amazon acquires Decart to boost Trainium chip efficiency",
+        "teaser": "Amazon buys Decart for chip efficiency",
+        "summary": "Amazon acquired Decart for a reported $7.5 billion to improve the efficiency of its Trainium chips using software."
+      }
+    ],
+    "office_blend": [
+      {
+        "id": "w4",
+        "headline": "Ally Financial uses agentic AI for customer personas",
+        "teaser": "Designing digital experiences with AI personas",
+        "summary": "Ally Financial's user experience and content teams are using agentic AI to create customer personas that help tailor digital financial experiences."
+      },
+      {
+        "id": "w15",
+        "headline": "Hyring Insight reports 10x revenue growth",
+        "teaser": "Workforce intelligence software sees rapid growth",
+        "summary": "Hyring announced that its workforce intelligence product, Hyring Insight, grew tenfold in revenue over 90 days by using AI to summarize daily employee activity."
+      }
+    ],
+    "still_roasting": [
+      {
+        "id": "u1",
+        "summary": "Tidal will start banning AI-generated music on December 9th, deleting around 29 million tracks."
+      },
+      {
+        "id": "u3",
+        "summary": "Jensen Huang is scheduled to testify in the Senate next week following his reinstatement as Nvidia CEO."
+      },
+      {
+        "id": "u4",
+        "summary": "Amazon Bedrock is launching a public preview for its Trusted Access API with safeguards for Claude models."
+      }
+    ],
+    "quick_sips": [
+      {
+        "id": "n14",
+        "summary": "Meta integrated its Muse AI assistant directly into Instagram DMs so users do not need to switch apps."
+      },
+      {
+        "id": "n17",
+        "summary": "The New York Times warned freelance photographers not to install Adobe Photoshop's 2027 update due to automated AI features."
+      },
+      {
+        "id": "n11",
+        "summary": "The British cyber agency warned that AI hacking tools are exploiting simple security flaws to expose weak systems."
+      }
+    ],
+    "builder": {
+      "stories": [
+        {
+          "id": "d7",
+          "label": "New tool",
+          "headline": "Anthropic launches Claude Ship to handle pull requests",
+          "summary": "Anthropic introduced Claude Ship, a set of three AI agents that can review, fix, and approve routine pull requests."
+        },
+        {
+          "id": "d8",
+          "label": "Open standard",
+          "headline": "Google DeepMind open-sources Lean 4 quantum framework",
+          "summary": "Google DeepMind open-sourced the Lean 4 framework used to verify quantum algorithms developed by Gemini 4 AI agents."
+        }
+      ],
+      "concept": {
+        "id": "d9",
+        "term": "Loop Transformer architecture",
+        "explanation": "An architecture introduced by Z.ai in GLM-5.4 that executes the same layers multiple times to boost computational capability."
+      }
+    },
+    "long_read": {
+      "id": "l3",
+      "headline": "Management consulting is not a thin wrapper on intelligence",
+      "summary": "The essay examines management consulting as a test case to evaluate how AI transforms knowledge work."
+    }
+  },
+  "first_check": {
+    "w4": [
+      "name 'Financial's' is not in the source"
+    ],
+    "n17": [
+      "name 'Photoshop's' is not in the source"
+    ]
+  },
+  "dropped": [],
+  "explain_dropped": []
+}
