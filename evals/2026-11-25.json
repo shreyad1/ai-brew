@@ -1,0 +1,364 @@
+{
+  "date": "2026-11-25",
+  "claims": 43,
+  "supported": 42,
+  "partial": 1,
+  "unsupported": 0,
+  "faithfulness": 0.988,
+  "flagged": [
+    {
+      "section": "concept",
+      "id": "d10",
+      "claim": "Zero data retention (ZDR) is a feature in Vercel's AI Gateway where developers require AI providers to prove they do not keep submitted prompts.",
+      "source": "Vercel will make AI providers prove they don\u2019t keep prompts. Here\u2019s why it matters for developers.. Since April, developers using Vercel\u2019s AI Gateway have been able to request provider-level zero data retention (ZDR). Vercel says its",
+      "verdict": "partial",
+      "reason": "The source states Vercel will make providers prove this, while developers can request provider-level ZDR."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n7",
+      "claim": "FCC Signs Off on SpaceX Satellite Plan",
+      "source": "FCC signs off on SpaceX\u2019s plan to put up to 1 million data center satellites into space. In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency [\u2026]",
+      "verdict": "supported",
+      "reason": "The source directly states that the FCC signed off on SpaceX's plan."
+    },
+    {
+      "section": "glance",
+      "id": "n7",
+      "claim": "The FCC authorized SpaceX to deploy up to 1 million AI chip-equipped satellites into space for its \"Starmind\" initiative.",
+      "source": "FCC signs off on SpaceX\u2019s plan to put up to 1 million data center satellites into space. In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly confirms the FCC authorized SpaceX to deploy up to 1 million AI chip-equipped satellites for the 'Starmind' initiative."
+    },
+    {
+      "section": "glance",
+      "id": "n7",
+      "claim": "This is the agency's first approval for AI data centers in space.",
+      "source": "FCC signs off on SpaceX\u2019s plan to put up to 1 million data center satellites into space. In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states that this is the first approval the agency has granted for putting AI data centers in space."
+    },
+    {
+      "section": "glance",
+      "id": "n6",
+      "claim": "AI Chatbot Toys Banned in New York",
+      "source": "Want to buy your kid an AI toy this Christmas? Not in New York. New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "verdict": "supported",
+      "reason": "The source directly states that New York has banned AI chatbot toys."
+    },
+    {
+      "section": "glance",
+      "id": "n6",
+      "claim": "New York has banned AI chatbot toys for five years.",
+      "source": "Want to buy your kid an AI toy this Christmas? Not in New York. New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "verdict": "supported",
+      "reason": "The source confirms that New York has banned AI chatbot toys for five years."
+    },
+    {
+      "section": "glance",
+      "id": "n6",
+      "claim": "Common Sense Media research revealed troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "source": "Want to buy your kid an AI toy this Christmas? Not in New York. New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "verdict": "supported",
+      "reason": "The source directly mentions these specific findings from Common Sense Media research."
+    },
+    {
+      "section": "glance",
+      "id": "n6",
+      "claim": "Families cannot buy AI chatbot toys in New York because of safety failures and development risks.",
+      "source": "Want to buy your kid an AI toy this Christmas? Not in New York. New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "verdict": "supported",
+      "reason": "The source explains that families cannot buy these toys in NY due to a ban tied to safety failures and development risks."
+    },
+    {
+      "section": "glance",
+      "id": "n6",
+      "claim": "New York decided you cannot buy AI chatbot toys for five years because tests showed safety failures and content that is not appropriate.",
+      "source": "Want to buy your kid an AI toy this Christmas? Not in New York. New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "verdict": "supported",
+      "reason": "The source supports that NY banned buying these toys for five years amid research showing safety failures and inappropriate content."
+    },
+    {
+      "section": "glance",
+      "id": "n6",
+      "claim": "New York has banned AI chatbot toys for five years after Common Sense Media research revealed safety failures, including inappropriate content exposure and emotional development risks.",
+      "source": "Want to buy your kid an AI toy this Christmas? Not in New York. New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "verdict": "supported",
+      "reason": "The source directly links the five-year ban in New York to the research findings from Common Sense Media."
+    },
+    {
+      "section": "glance",
+      "id": "n6",
+      "claim": "New York has banned AI chatbot toys for five years following Common Sense Media findings of safety failures, exposure to inappropriate content, and risks to emotional development.",
+      "source": "Want to buy your kid an AI toy this Christmas? Not in New York. New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "verdict": "supported",
+      "reason": "The source fully supports that New York enacted a five-year ban following the research findings from Common Sense Media."
+    },
+    {
+      "section": "glance",
+      "id": "n8",
+      "claim": "State AGs Challenge Character.AI Private Chats Auction",
+      "source": "Character.AI\u2019s plan to auction off users\u2019 private chats challenged by state AGs. The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+      "verdict": "supported",
+      "reason": "The source directly confirms that state AGs are challenging Character.AI's plan to auction off users' private chats."
+    },
+    {
+      "section": "glance",
+      "id": "n8",
+      "claim": "State AGs are challenging Character.ai's proposed bankruptcy sale.",
+      "source": "Character.AI\u2019s plan to auction off users\u2019 private chats challenged by state AGs. The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+      "verdict": "supported",
+      "reason": "The source confirms the state AGs are challenging Character.AI's proposed bankruptcy sale."
+    },
+    {
+      "section": "glance",
+      "id": "n8",
+      "claim": "The auction of users' private chats includes sensitive personal data from over 21 million U.S. accounts, including 2.1 million registered to minors.",
+      "source": "Character.AI\u2019s plan to auction off users\u2019 private chats challenged by state AGs. The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+      "verdict": "supported",
+      "reason": "The source confirms that the proposed bankruptcy sale includes sensitive personal data from over 21 million U.S. accounts, including 2.1 million registered to minors."
+    },
+    {
+      "section": "glance",
+      "id": "n3",
+      "claim": "OpenAI will introduce a single usage meter for ChatGPT as it combines Chat and Work.",
+      "source": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work. OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+      "verdict": "supported",
+      "reason": "The text directly states that OpenAI will introduce a single usage meter across ChatGPT as it combines Chat and Work."
+    },
+    {
+      "section": "big_pour",
+      "id": "n6",
+      "claim": "AI Chatbot Toys Banned in New York",
+      "source": "Want to buy your kid an AI toy this Christmas? Not in New York. New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "verdict": "supported",
+      "reason": "The source explicitly states that New York has banned AI chatbot toys."
+    },
+    {
+      "section": "big_pour",
+      "id": "n6",
+      "claim": "New York has banned AI chatbot toys for five years.",
+      "source": "Want to buy your kid an AI toy this Christmas? Not in New York. New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "verdict": "supported",
+      "reason": "The source clearly states that New York has banned AI chatbot toys for five years."
+    },
+    {
+      "section": "big_pour",
+      "id": "n6",
+      "claim": "Common Sense Media research revealed troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "source": "Want to buy your kid an AI toy this Christmas? Not in New York. New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "verdict": "supported",
+      "reason": "The source directly attributes findings of troubling safety failures, inappropriate content exposure, and emotional development risks to Common Sense Media."
+    },
+    {
+      "section": "big_pour",
+      "id": "n6",
+      "claim": "Families cannot buy AI chatbot toys in New York because of safety failures and development risks.",
+      "source": "Want to buy your kid an AI toy this Christmas? Not in New York. New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "verdict": "supported",
+      "reason": "The source directly connects New York's ban on buying AI chatbot toys to safety failures and development risks."
+    },
+    {
+      "section": "big_pour",
+      "id": "n6",
+      "claim": "New York decided you cannot buy AI chatbot toys for five years because tests showed safety failures and content that is not appropriate.",
+      "source": "Want to buy your kid an AI toy this Christmas? Not in New York. New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "verdict": "supported",
+      "reason": "The source states that New York banned AI chatbot toys for five years as research revealed safety failures and inappropriate content."
+    },
+    {
+      "section": "big_pour",
+      "id": "n6",
+      "claim": "New York has banned AI chatbot toys for five years after Common Sense Media research revealed safety failures, including inappropriate content exposure and emotional development risks.",
+      "source": "Want to buy your kid an AI toy this Christmas? Not in New York. New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "verdict": "supported",
+      "reason": "The source directly links the five-year ban to the research by Common Sense Media uncovering those exact risks."
+    },
+    {
+      "section": "big_pour",
+      "id": "n6",
+      "claim": "New York has banned AI chatbot toys for five years following Common Sense Media findings of safety failures, exposure to inappropriate content, and risks to emotional development.",
+      "source": "Want to buy your kid an AI toy this Christmas? Not in New York. New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "verdict": "supported",
+      "reason": "All facts in the claim match the provided source text."
+    },
+    {
+      "section": "big_pour",
+      "id": "n7",
+      "claim": "FCC Signs Off on SpaceX Satellite Plan",
+      "source": "FCC signs off on SpaceX\u2019s plan to put up to 1 million data center satellites into space. In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency [\u2026]",
+      "verdict": "supported",
+      "reason": "The headline of the source confirms that the FCC signed off on SpaceX's satellite plan."
+    },
+    {
+      "section": "big_pour",
+      "id": "n7",
+      "claim": "The FCC authorized SpaceX to deploy up to 1 million AI chip-equipped satellites into space for its \"Starmind\" initiative.",
+      "source": "FCC signs off on SpaceX\u2019s plan to put up to 1 million data center satellites into space. In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states the FCC authorized SpaceX to deploy up to 1 million AI chip-equipped satellites for its Starmind initiative."
+    },
+    {
+      "section": "big_pour",
+      "id": "n7",
+      "claim": "This is the agency's first approval for AI data centers in space.",
+      "source": "FCC signs off on SpaceX\u2019s plan to put up to 1 million data center satellites into space. In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency [\u2026]",
+      "verdict": "supported",
+      "reason": "The source affirms this is the first approval the agency has granted among those pursuing AI data centers in space."
+    },
+    {
+      "section": "big_pour",
+      "id": "n8",
+      "claim": "State AGs Challenge Character.AI Private Chats Auction",
+      "source": "Character.AI\u2019s plan to auction off users\u2019 private chats challenged by state AGs. The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+      "verdict": "supported",
+      "reason": "The headline and text directly state that state AGs challenged Character.AI's plan to auction off users' private chats."
+    },
+    {
+      "section": "big_pour",
+      "id": "n8",
+      "claim": "State AGs are challenging Character.ai's proposed bankruptcy sale.",
+      "source": "Character.AI\u2019s plan to auction off users\u2019 private chats challenged by state AGs. The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+      "verdict": "supported",
+      "reason": "The source explicitly mentions the proposed Character.ai bankruptcy sale is being challenged by state AGs."
+    },
+    {
+      "section": "big_pour",
+      "id": "n8",
+      "claim": "The auction of users' private chats includes sensitive personal data from over 21 million U.S. accounts, including 2.1 million registered to minors.",
+      "source": "Character.AI\u2019s plan to auction off users\u2019 private chats challenged by state AGs. The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+      "verdict": "supported",
+      "reason": "The source states the bankruptcy sale includes sensitive personal data from over 21 million U.S. accounts, including 2.1 million registered to minors."
+    },
+    {
+      "section": "office_blend",
+      "id": "w2",
+      "claim": "Physical AI Value at Atlanta Airport",
+      "source": "Atlanta Hartsfield-Jackson Airport shows where physical AI can create value. Seven thousand cameras ought to make it pretty hard to lose someone in an airport. But imagine being the person who has to find him. All you know is that he is tall, wearing a red hat and a blue jacket, and someone has reported that he dropped a bag and ran. Somewhere in that enormous collection of camera feeds is the information you need. Meanwhile, he is moving. Chris Crist, the chief information officer at Hartsfield-Jackson Atlanta International Airport (ATL), used that example in a conversa",
+      "verdict": "supported",
+      "reason": "The headline directly supports that Atlanta Airport shows where physical AI can create value."
+    },
+    {
+      "section": "office_blend",
+      "id": "w2",
+      "claim": "Chris Crist, chief information officer at Hartsfield-Jackson Atlanta International Airport, showed how physical AI could find someone across seven thousand camera feeds, like a person who dropped a bag and ran.",
+      "source": "Atlanta Hartsfield-Jackson Airport shows where physical AI can create value. Seven thousand cameras ought to make it pretty hard to lose someone in an airport. But imagine being the person who has to find him. All you know is that he is tall, wearing a red hat and a blue jacket, and someone has reported that he dropped a bag and ran. Somewhere in that enormous collection of camera feeds is the information you need. Meanwhile, he is moving. Chris Crist, the chief information officer at Hartsfield-Jackson Atlanta International Airport (ATL), used that example in a conversa",
+      "verdict": "supported",
+      "reason": "The source describes Chris Crist using an example of tracking a person who dropped a bag and ran across 7,000 cameras to show physical AI's value."
+    },
+    {
+      "section": "office_blend",
+      "id": "w8",
+      "claim": "Ally Financial Reinvents Customer Personas With Agentic AI",
+      "source": "Ally Financial reinvents customer personas with agentic AI. When the bottom line depends on robust, personalized digital experiences, anticipating how customers and prospects will respond to new services or offerings or to changes in existing customer journeys is paramount. For that, leading organizations turn to personas to help get in the mind of consumers as a means for tailoring customer experiences to their desires and needs. At digital financial services company Ally Financial, UX designers and content teams have long used personas to help hone dig",
+      "verdict": "supported",
+      "reason": "The source headline directly matches the claim."
+    },
+    {
+      "section": "office_blend",
+      "id": "w8",
+      "claim": "At Ally Financial, UX designers and content teams use agentic AI to reinvent customer personas.",
+      "source": "Ally Financial reinvents customer personas with agentic AI. When the bottom line depends on robust, personalized digital experiences, anticipating how customers and prospects will respond to new services or offerings or to changes in existing customer journeys is paramount. For that, leading organizations turn to personas to help get in the mind of consumers as a means for tailoring customer experiences to their desires and needs. At digital financial services company Ally Financial, UX designers and content teams have long used personas to help hone dig",
+      "verdict": "supported",
+      "reason": "The source headline and text connect UX designers and content teams at Ally Financial with using agentic AI to reinvent customer personas."
+    },
+    {
+      "section": "office_blend",
+      "id": "w8",
+      "claim": "This helps tailor digital experiences and anticipate how customers will respond to new offerings.",
+      "source": "Ally Financial reinvents customer personas with agentic AI. When the bottom line depends on robust, personalized digital experiences, anticipating how customers and prospects will respond to new services or offerings or to changes in existing customer journeys is paramount. For that, leading organizations turn to personas to help get in the mind of consumers as a means for tailoring customer experiences to their desires and needs. At digital financial services company Ally Financial, UX designers and content teams have long used personas to help hone dig",
+      "verdict": "supported",
+      "reason": "The text explains that personas are used to anticipate customer responses to new offerings and tailor customer experiences."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u1",
+      "claim": "Nothing revealed its upcoming Ear Note AI earbuds and microphone-equipped recording charging case ahead of their December 8th release.",
+      "source": "Nothing offers a full look at its AI earbuds and charging case. Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes with a \"Talk\" button that you [\u2026]",
+      "verdict": "supported",
+      "reason": "The text confirms Nothing offered a look at the Ear Note AI earbuds and microphone-equipped recording charging case ahead of December 8th."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u2",
+      "claim": "Tidal will ban AI-generated music on December 9th, deleting roughly 29 million songs and rejecting tens of thousands of submissions daily.",
+      "source": "Tidal will start banning AI-generated music next month. Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months after Tidal began labeling and demonetizing tracks identified as 100 [\u2026]",
+      "verdict": "supported",
+      "reason": "The source verifies Tidal will ban AI music on Dec 9, delete around 29 million songs, and reject 80,000-85,000 tracks per day."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u3",
+      "claim": "Amazon Bedrock launched a public preview of its Trusted Access API featuring Anthropic controls for Claude Fable models.",
+      "source": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models. Amazon Bedrock now offers a trusted access program API: one place to discover, request, and enroll in model provider programs. The first two offerings, in public preview, are Anthropic's Enterprise Frontier Safeguards (EFS) and Enterprise Data Controls (EDC), which give you control over your data when you use Claude Fable models.",
+      "verdict": "supported",
+      "reason": "The text confirms the public preview of Bedrock's Trusted Access API featuring Anthropic controls for Claude Fable models."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n1",
+      "claim": "S&P may lower Nvidia's credit rating to AA- over corporate governance and \"key man\" risks.",
+      "source": "S&P considers Nvidia credit downgrade over governance and \u2018key man\u2019 risks. The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+      "verdict": "supported",
+      "reason": "The source explicitly states S&P considers downgrading Nvidia's credit rating to AA- over governance and 'key man' risks."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n3",
+      "claim": "OpenAI warned heavy ChatGPT users they may hit limits sooner as it combines its Chat and Work experiences.",
+      "source": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work. OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+      "verdict": "supported",
+      "reason": "The source directly states that heavy users may hit limits sooner as Chat and Work are merged."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n12",
+      "claim": "Amazon held discussions about allowing Meta's Muse AI agent to shop directly on its marketplace.",
+      "source": "Amazon is reportedly in talks to end Muse AI shopping block. Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Amazon held talks about letting Meta's Muse AI agent shop on its online marketplace."
+    },
+    {
+      "section": "builder",
+      "id": "d11",
+      "claim": "Claude Ship Lets Claude Approve Routine Pull Requests",
+      "source": "Anthropic\u2019s Claude Ship lets Claude approve routine pull requests. Anthropic on Monday launched Claude Ship, a set of three agents that can review pull requests (PRs), fix them, and approve",
+      "verdict": "supported",
+      "reason": "The source headline states that Anthropic's Claude Ship lets Claude approve routine pull requests."
+    },
+    {
+      "section": "builder",
+      "id": "d11",
+      "claim": "Anthropic launched Claude Ship, a set of three agents that can review pull requests, fix them, and approve routine pull requests.",
+      "source": "Anthropic\u2019s Claude Ship lets Claude approve routine pull requests. Anthropic on Monday launched Claude Ship, a set of three agents that can review pull requests (PRs), fix them, and approve",
+      "verdict": "supported",
+      "reason": "The source states that Anthropic launched Claude Ship, consisting of three agents that can review, fix, and approve PRs."
+    },
+    {
+      "section": "concept",
+      "id": "d10",
+      "claim": "Zero data retention (ZDR) is a feature in Vercel's AI Gateway where developers require AI providers to prove they do not keep submitted prompts.",
+      "source": "Vercel will make AI providers prove they don\u2019t keep prompts. Here\u2019s why it matters for developers.. Since April, developers using Vercel\u2019s AI Gateway have been able to request provider-level zero data retention (ZDR). Vercel says its",
+      "verdict": "partial",
+      "reason": "The source states Vercel will make providers prove this, while developers can request provider-level ZDR."
+    },
+    {
+      "section": "long_read",
+      "id": "l1",
+      "claim": "How Anthropic builds software in 2026 with Katelyn Lesse",
+      "source": "How Anthropic builds software in 2026 with Katelyn Lesse. Katelyn Lesse explains how Anthropic rewrote Claude\u2019s API in Rust and how AI agents are changing engineering at the company.",
+      "verdict": "supported",
+      "reason": "This is an exact match for the source title."
+    },
+    {
+      "section": "long_read",
+      "id": "l1",
+      "claim": "The newsletter covers an explanation by Katelyn Lesse on how Anthropic rewrote Claude's API in Rust and how AI agents are changing engineering at the company.",
+      "source": "How Anthropic builds software in 2026 with Katelyn Lesse. Katelyn Lesse explains how Anthropic rewrote Claude\u2019s API in Rust and how AI agents are changing engineering at the company.",
+      "verdict": "supported",
+      "reason": "The source directly states that Katelyn Lesse explains both of these topics."
+    }
+  ]
+}

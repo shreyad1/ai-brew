@@ -1,0 +1,197 @@
+{
+  "glance": [
+    {
+      "id": "n7",
+      "headline": "FCC Signs Off on SpaceX Satellite Plan",
+      "teaser": "SpaceX satellite plan gets FCC approval",
+      "summary": "The FCC authorized SpaceX to deploy up to 1 million AI chip-equipped satellites into space for its \"Starmind\" initiative. This is the agency's first approval for AI data centers in space.",
+      "link": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2269580650.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n6",
+      "headline": "AI Chatbot Toys Banned in New York",
+      "teaser": "New York banned chatbot toys",
+      "summary": "New York has banned AI chatbot toys for five years. Common Sense Media research revealed troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "why": "Families cannot buy AI chatbot toys in New York because of safety failures and development risks.",
+      "explain": {
+        "kid": "New York decided you cannot buy AI chatbot toys for five years because tests showed safety failures and content that is not appropriate.",
+        "pm": "New York has banned AI chatbot toys for five years after Common Sense Media research revealed safety failures, including inappropriate content exposure and emotional development risks.",
+        "engineer": "New York has banned AI chatbot toys for five years following Common Sense Media findings of safety failures, exposure to inappropriate content, and risks to emotional development."
+      },
+      "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n8",
+      "headline": "State AGs Challenge Character.AI Private Chats Auction",
+      "teaser": "State AGs challenge Character.AI sale",
+      "summary": "State AGs are challenging Character.ai's proposed bankruptcy sale. The auction of users' private chats includes sensitive personal data from over 21 million U.S. accounts, including 2.1 million registered to minors.",
+      "link": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n3",
+      "summary": "OpenAI will introduce a single usage meter for ChatGPT as it combines Chat and Work.",
+      "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "source": "TechCrunch",
+      "image": null
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n6",
+      "headline": "AI Chatbot Toys Banned in New York",
+      "teaser": "New York banned chatbot toys",
+      "summary": "New York has banned AI chatbot toys for five years. Common Sense Media research revealed troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "why": "Families cannot buy AI chatbot toys in New York because of safety failures and development risks.",
+      "explain": {
+        "kid": "New York decided you cannot buy AI chatbot toys for five years because tests showed safety failures and content that is not appropriate.",
+        "pm": "New York has banned AI chatbot toys for five years after Common Sense Media research revealed safety failures, including inappropriate content exposure and emotional development risks.",
+        "engineer": "New York has banned AI chatbot toys for five years following Common Sense Media findings of safety failures, exposure to inappropriate content, and risks to emotional development."
+      },
+      "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n7",
+      "headline": "FCC Signs Off on SpaceX Satellite Plan",
+      "teaser": "SpaceX satellite plan gets FCC approval",
+      "summary": "The FCC authorized SpaceX to deploy up to 1 million AI chip-equipped satellites into space for its \"Starmind\" initiative. This is the agency's first approval for AI data centers in space.",
+      "link": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2269580650.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n8",
+      "headline": "State AGs Challenge Character.AI Private Chats Auction",
+      "teaser": "State AGs challenge Character.AI sale",
+      "summary": "State AGs are challenging Character.ai's proposed bankruptcy sale. The auction of users' private chats includes sensitive personal data from over 21 million U.S. accounts, including 2.1 million registered to minors.",
+      "link": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w2",
+      "headline": "Physical AI Value at Atlanta Airport",
+      "teaser": "Physical AI at Atlanta airport",
+      "summary": "Chris Crist, chief information officer at Hartsfield-Jackson Atlanta International Airport, showed how physical AI could find someone across seven thousand camera feeds, like a person who dropped a bag and ran.",
+      "link": "https://www.cio.com/article/4252557/atlanta-hartsfield-jackson-airport-shows-where-physical-ai-can-create-value.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4252557-0-96597800-1795600988-jeshoots-com-mSESwdMZr-A-unsplash.jpg?quality=50&strip=all"
+    },
+    {
+      "id": "w8",
+      "headline": "Ally Financial Reinvents Customer Personas With Agentic AI",
+      "teaser": "Ally reinvents personas with AI",
+      "summary": "At Ally Financial, UX designers and content teams use agentic AI to reinvent customer personas. This helps tailor digital experiences and anticipate how customers will respond to new offerings.",
+      "link": "https://www.cio.com/article/4249853/ally-financial-reinvents-customer-personas-with-agentic-ai.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4249853-0-26167800-1795514704-AllyCharlotteCenter.jpg?quality=50&strip=all"
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u1",
+      "summary": "Nothing revealed its upcoming Ear Note AI earbuds and microphone-equipped recording charging case ahead of their December 8th release.",
+      "link": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ear-note-nothing.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    {
+      "id": "u2",
+      "summary": "Tidal will ban AI-generated music on December 9th, deleting roughly 29 million songs and rejecting tens of thousands of submissions daily.",
+      "link": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319678/STK301_Tidal_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    {
+      "id": "u3",
+      "summary": "Amazon Bedrock launched a public preview of its Trusted Access API featuring Anthropic controls for Claude Fable models.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/",
+      "source": "AWS Machine Learning Blog",
+      "image": null,
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n1",
+      "summary": "S&P may lower Nvidia's credit rating to AA- over corporate governance and \"key man\" risks.",
+      "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n3",
+      "summary": "OpenAI warned heavy ChatGPT users they may hit limits sooner as it combines its Chat and Work experiences.",
+      "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n12",
+      "summary": "Amazon held discussions about allowing Meta's Muse AI agent to shop directly on its marketplace.",
+      "link": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d11",
+        "label": "Code review",
+        "headline": "Claude Ship Lets Claude Approve Routine Pull Requests",
+        "summary": "Anthropic launched Claude Ship, a set of three agents that can review pull requests, fix them, and approve routine pull requests.",
+        "link": "https://thenewstack.io/anthropic-claude-ship-approvals/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/04/4ee2d757-img_0972-1024x768.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d10",
+      "term": "zero data retention (ZDR)",
+      "explanation": "Zero data retention (ZDR) is a feature in Vercel's AI Gateway where developers require AI providers to prove they do not keep submitted prompts.",
+      "link": "https://thenewstack.io/vercel-audited-zdr-inference/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/11/366bd3b9-alex-shuper-nacmb7m2rhi-unsplash-1024x576.jpg"
+    }
+  },
+  "long_read": {
+    "id": "l1",
+    "headline": "How Anthropic builds software in 2026 with Katelyn Lesse",
+    "summary": "The newsletter covers an explanation by Katelyn Lesse on how Anthropic rewrote Claude's API in Rust and how AI agents are changing engineering at the company.",
+    "link": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in",
+    "source": "The Pragmatic Engineer",
+    "image": "https://substackcdn.com/image/fetch/$s_!AlJu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e3d3c6f-6a37-411e-aa1a-dfcefc979af3_1600x140.png"
+  },
+  "number": 30,
+  "date_iso": "2026-11-25",
+  "date_long": "Wednesday \u00b7 25 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-25",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": null,
+  "keep_brewing": null,
+  "poll": null
+}
