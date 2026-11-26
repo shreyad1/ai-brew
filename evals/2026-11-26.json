@@ -1,0 +1,340 @@
+{
+  "date": "2026-11-26",
+  "claims": 38,
+  "supported": 35,
+  "partial": 3,
+  "unsupported": 0,
+  "faithfulness": 0.961,
+  "flagged": [
+    {
+      "section": "glance",
+      "id": "n3",
+      "claim": "During Chapter 11 bankruptcy, 42 state attorneys general filed to prevent Character.AI from auctioning user data, specifically private chat histories of more than 21 million U.S. accounts.",
+      "source": "42 state AGs are trying to stop Character.AI from selling users\u2019 chats. A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - [\u2026]",
+      "verdict": "partial",
+      "reason": "The source mentions press releases by the AGs trying to prevent the sale, but does not state that they officially filed court documents."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "During Chapter 11 bankruptcy, 42 state attorneys general filed to prevent Character.AI from auctioning user data, specifically private chat histories of more than 21 million U.S. accounts.",
+      "source": "42 state AGs are trying to stop Character.AI from selling users\u2019 chats. A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - [\u2026]",
+      "verdict": "partial",
+      "reason": "The source mentions AGs accusing the company via press releases, but does not state that they officially filed in court."
+    },
+    {
+      "section": "concept",
+      "id": "d11",
+      "claim": "Model Context Protocol (MCP) is an open standard that Anthropic updated on its second anniversary to support skills, long-running tasks, and better integration with Claude.",
+      "source": "As MCP turns two, Claude gets Skills over MCP and better support for long-running tasks. Anthropic on Tuesday marked the second anniversary of the Model Context Protocol (MCP) by bringing support for skills, long-running tasks,",
+      "verdict": "partial",
+      "reason": "While the source mentions the 2nd anniversary of MCP and bringing support for skills and long-running tasks, it does not state that MCP is an 'open standard'."
+    }
+  ],
+  "all": [
+    {
+      "section": "glance",
+      "id": "n10",
+      "claim": "FCC approves SpaceX plan for data center satellites",
+      "source": "FCC signs off on SpaceX\u2019s plan to put up to 1 million data center satellites into space. In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency [\u2026]",
+      "verdict": "supported",
+      "reason": "The source explicitly states that the FCC approved SpaceX's plan to deploy up to 1 million data center satellites."
+    },
+    {
+      "section": "glance",
+      "id": "n10",
+      "claim": "The FCC authorized SpaceX to deploy up to 1 million AI chip-equipped satellites for its Starmind initiative, marking the first approval for putting AI data centers in space.",
+      "source": "FCC signs off on SpaceX\u2019s plan to put up to 1 million data center satellites into space. In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency [\u2026]",
+      "verdict": "supported",
+      "reason": "The claim accurately reflects the source statement about the FCC's authorization and it being the first approval of its kind."
+    },
+    {
+      "section": "glance",
+      "id": "n3",
+      "claim": "42 state AGs try to stop Character.AI selling chats",
+      "source": "42 state AGs are trying to stop Character.AI from selling users\u2019 chats. A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - [\u2026]",
+      "verdict": "supported",
+      "reason": "The claim directly matches the headline of the source text."
+    },
+    {
+      "section": "glance",
+      "id": "n3",
+      "claim": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data, including private chat histories of more than 21 million U.S. accounts, during bankruptcy.",
+      "source": "42 state AGs are trying to stop Character.AI from selling users\u2019 chats. A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - [\u2026]",
+      "verdict": "supported",
+      "reason": "All facts in the claim are directly stated in the source text."
+    },
+    {
+      "section": "glance",
+      "id": "n3",
+      "claim": "State officials are trying to prevent the auction of private chat histories from over 21 million accounts.",
+      "source": "42 state AGs are trying to stop Character.AI from selling users\u2019 chats. A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - [\u2026]",
+      "verdict": "supported",
+      "reason": "The claim is fully supported by the source details regarding the 42 state AGs acting to prevent the sale of user chat data."
+    },
+    {
+      "section": "glance",
+      "id": "n3",
+      "claim": "Character.AI wants to sell people's private chats during bankruptcy, but 42 state attorneys general are trying to stop them to protect more than 21 million user accounts.",
+      "source": "42 state AGs are trying to stop Character.AI from selling users\u2019 chats. A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - [\u2026]",
+      "verdict": "supported",
+      "reason": "The claim summarizes the facts presented in the source without introducing external information."
+    },
+    {
+      "section": "glance",
+      "id": "n3",
+      "claim": "As Character.AI navigates Chapter 11 bankruptcy, 42 state attorneys general are trying to prevent it from auctioning off private chat histories belonging to more than 21 million U.S. accounts.",
+      "source": "42 state AGs are trying to stop Character.AI from selling users\u2019 chats. A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - [\u2026]",
+      "verdict": "supported",
+      "reason": "The claim accurately combines all relevant facts provided in the source text."
+    },
+    {
+      "section": "glance",
+      "id": "n3",
+      "claim": "During Chapter 11 bankruptcy, 42 state attorneys general filed to prevent Character.AI from auctioning user data, specifically private chat histories of more than 21 million U.S. accounts.",
+      "source": "42 state AGs are trying to stop Character.AI from selling users\u2019 chats. A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - [\u2026]",
+      "verdict": "partial",
+      "reason": "The source mentions press releases by the AGs trying to prevent the sale, but does not state that they officially filed court documents."
+    },
+    {
+      "section": "glance",
+      "id": "n1",
+      "claim": "Nvidia hits pause on Southeast Asia chip shipments",
+      "source": "Nvidia hits pause on chip shipments to Southeast Asia. Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "verdict": "supported",
+      "reason": "The claim directly matches the headline of the source text."
+    },
+    {
+      "section": "glance",
+      "id": "n1",
+      "claim": "Nvidia told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand, and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "source": "Nvidia hits pause on chip shipments to Southeast Asia. Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "verdict": "supported",
+      "reason": "The claim is a direct verbatim match to the source text."
+    },
+    {
+      "section": "glance",
+      "id": "w9",
+      "claim": "Ally Financial reinvents customer personas with agentic AI",
+      "source": "Ally Financial reinvents customer personas with agentic AI. When the bottom line depends on robust, personalized digital experiences, anticipating how customers and prospects will respond to new services or offerings or to changes in existing customer journeys is paramount. For that, leading organizations turn to personas to help get in the mind of consumers as a means for tailoring customer experiences to their desires and needs. At digital financial services company Ally Financial, UX designers and content teams have long used personas to help hone dig",
+      "verdict": "supported",
+      "reason": "The claim directly matches the headline of the source text."
+    },
+    {
+      "section": "glance",
+      "id": "w9",
+      "claim": "Ally Financial is turning to agentic AI to help UX designers and content teams reinvent customer personas for tailoring digital experiences.",
+      "source": "Ally Financial reinvents customer personas with agentic AI. When the bottom line depends on robust, personalized digital experiences, anticipating how customers and prospects will respond to new services or offerings or to changes in existing customer journeys is paramount. For that, leading organizations turn to personas to help get in the mind of consumers as a means for tailoring customer experiences to their desires and needs. At digital financial services company Ally Financial, UX designers and content teams have long used personas to help hone dig",
+      "verdict": "supported",
+      "reason": "The claim is fully supported by combining the headline and the body text of the source."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "42 state AGs try to stop Character.AI selling chats",
+      "source": "42 state AGs are trying to stop Character.AI from selling users\u2019 chats. A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - [\u2026]",
+      "verdict": "supported",
+      "reason": "The text directly states that 42 state AGs are trying to stop Character.AI from selling users' chats."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data, including private chat histories of more than 21 million U.S. accounts, during bankruptcy.",
+      "source": "42 state AGs are trying to stop Character.AI from selling users\u2019 chats. A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - [\u2026]",
+      "verdict": "supported",
+      "reason": "All facts in the claim, including the count of 42 AGs, the 21 million accounts, and the bankruptcy context, are in the source."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "State officials are trying to prevent the auction of private chat histories from over 21 million accounts.",
+      "source": "42 state AGs are trying to stop Character.AI from selling users\u2019 chats. A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - [\u2026]",
+      "verdict": "supported",
+      "reason": "The source states state AGs are trying to prevent the auction of private chat histories from over 21 million accounts."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "Character.AI wants to sell people's private chats during bankruptcy, but 42 state attorneys general are trying to stop them to protect more than 21 million user accounts.",
+      "source": "42 state AGs are trying to stop Character.AI from selling users\u2019 chats. A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - [\u2026]",
+      "verdict": "supported",
+      "reason": "The claim accurately reflects the source regarding Character.AI's auction plan during bankruptcy and the AGs' intervention."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "As Character.AI navigates Chapter 11 bankruptcy, 42 state attorneys general are trying to prevent it from auctioning off private chat histories belonging to more than 21 million U.S. accounts.",
+      "source": "42 state AGs are trying to stop Character.AI from selling users\u2019 chats. A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - [\u2026]",
+      "verdict": "supported",
+      "reason": "The claim fully aligns with the details provided in the source."
+    },
+    {
+      "section": "big_pour",
+      "id": "n3",
+      "claim": "During Chapter 11 bankruptcy, 42 state attorneys general filed to prevent Character.AI from auctioning user data, specifically private chat histories of more than 21 million U.S. accounts.",
+      "source": "42 state AGs are trying to stop Character.AI from selling users\u2019 chats. A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - [\u2026]",
+      "verdict": "partial",
+      "reason": "The source mentions AGs accusing the company via press releases, but does not state that they officially filed in court."
+    },
+    {
+      "section": "big_pour",
+      "id": "n10",
+      "claim": "FCC approves SpaceX plan for data center satellites",
+      "source": "FCC signs off on SpaceX\u2019s plan to put up to 1 million data center satellites into space. In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms the FCC signed off on SpaceX's plan for data center satellites."
+    },
+    {
+      "section": "big_pour",
+      "id": "n10",
+      "claim": "The FCC authorized SpaceX to deploy up to 1 million AI chip-equipped satellites for its Starmind initiative, marking the first approval for putting AI data centers in space.",
+      "source": "FCC signs off on SpaceX\u2019s plan to put up to 1 million data center satellites into space. In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency [\u2026]",
+      "verdict": "supported",
+      "reason": "The claim accurately summarizes the details of the FCC authorization for the Starmind initiative."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "Nvidia hits pause on Southeast Asia chip shipments",
+      "source": "Nvidia hits pause on chip shipments to Southeast Asia. Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "verdict": "supported",
+      "reason": "The claim matches the exact headline and statement in the source."
+    },
+    {
+      "section": "big_pour",
+      "id": "n1",
+      "claim": "Nvidia told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand, and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "source": "Nvidia hits pause on chip shipments to Southeast Asia. Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "verdict": "supported",
+      "reason": "The claim directly restates the information provided in the source text."
+    },
+    {
+      "section": "office_blend",
+      "id": "w4",
+      "claim": "Atlanta airport shows where physical AI creates value",
+      "source": "Atlanta Hartsfield-Jackson Airport shows where physical AI can create value. Seven thousand cameras ought to make it pretty hard to lose someone in an airport. But imagine being the person who has to find him. All you know is that he is tall, wearing a red hat and a blue jacket, and someone has reported that he dropped a bag and ran. Somewhere in that enormous collection of camera feeds is the information you need. Meanwhile, he is moving. Chris Crist, the chief information officer at Hartsfield-Jackson Atlanta International Airport (ATL), used that example in a conversa",
+      "verdict": "supported",
+      "reason": "The claim matches the exact headline of the source."
+    },
+    {
+      "section": "office_blend",
+      "id": "w4",
+      "claim": "Chris Crist, chief information officer at Hartsfield-Jackson Atlanta International Airport, shared how physical AI can find a moving person across seven thousand camera feeds.",
+      "source": "Atlanta Hartsfield-Jackson Airport shows where physical AI can create value. Seven thousand cameras ought to make it pretty hard to lose someone in an airport. But imagine being the person who has to find him. All you know is that he is tall, wearing a red hat and a blue jacket, and someone has reported that he dropped a bag and ran. Somewhere in that enormous collection of camera feeds is the information you need. Meanwhile, he is moving. Chris Crist, the chief information officer at Hartsfield-Jackson Atlanta International Airport (ATL), used that example in a conversa",
+      "verdict": "supported",
+      "reason": "The source confirms Chris Crist used the example of tracking someone across seven thousand cameras to illustrate physical AI's value."
+    },
+    {
+      "section": "office_blend",
+      "id": "w9",
+      "claim": "Ally Financial reinvents customer personas with agentic AI",
+      "source": "Ally Financial reinvents customer personas with agentic AI. When the bottom line depends on robust, personalized digital experiences, anticipating how customers and prospects will respond to new services or offerings or to changes in existing customer journeys is paramount. For that, leading organizations turn to personas to help get in the mind of consumers as a means for tailoring customer experiences to their desires and needs. At digital financial services company Ally Financial, UX designers and content teams have long used personas to help hone dig",
+      "verdict": "supported",
+      "reason": "The claim directly matches the title and statement provided in the source text."
+    },
+    {
+      "section": "office_blend",
+      "id": "w9",
+      "claim": "Ally Financial is turning to agentic AI to help UX designers and content teams reinvent customer personas for tailoring digital experiences.",
+      "source": "Ally Financial reinvents customer personas with agentic AI. When the bottom line depends on robust, personalized digital experiences, anticipating how customers and prospects will respond to new services or offerings or to changes in existing customer journeys is paramount. For that, leading organizations turn to personas to help get in the mind of consumers as a means for tailoring customer experiences to their desires and needs. At digital financial services company Ally Financial, UX designers and content teams have long used personas to help hone dig",
+      "verdict": "supported",
+      "reason": "The source supports that Ally Financial is using agentic AI to reinvent customer personas used by UX designers and content teams to tailor digital experiences."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u1",
+      "claim": "Nothing showed its Ear Note AI earbuds arriving December 8th with a charging case that records, transcribes, and summarizes conversations.",
+      "source": "Nothing offers a full look at its AI earbuds and charging case. Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes with a \"Talk\" button that you [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Nothing's Ear Note AI earbuds launch on December 8th with a charging case that records, transcribes, and summarizes conversations."
+    },
+    {
+      "section": "still_roasting",
+      "id": "u2",
+      "claim": "Tidal will ban AI-generated music starting December 9th, deleting about 29 million songs and rejecting up to 85,000 tracks daily.",
+      "source": "Tidal will start banning AI-generated music next month. Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months after Tidal began labeling and demonetizing tracks identified as 100 [\u2026]",
+      "verdict": "supported",
+      "reason": "All facts, including the December 9th date, deleting 29 million songs, and rejecting 80,000 to 85,000 tracks daily, are directly supported by the source."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n9",
+      "claim": "New York has banned AI chatbot toys for five years following research revealing troubling safety failures.",
+      "source": "Want to buy your kid an AI toy this Christmas? Not in New York. New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "verdict": "supported",
+      "reason": "The source explicitly states New York banned AI chatbot toys for five years following research showing safety failures."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n6",
+      "claim": "OpenAI is combining ChatGPT Chat and Work experiences into a single usage meter, which may limit heavy users sooner.",
+      "source": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work. OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+      "verdict": "supported",
+      "reason": "The source confirms OpenAI is introducing a single usage meter across combined Chat and Work experiences, which may cause heavy users to hit limits sooner."
+    },
+    {
+      "section": "quick_sips",
+      "id": "n14",
+      "claim": "Amazon has held discussions about allowing Meta's Muse AI agent to shop on its online marketplace.",
+      "source": "Amazon is reportedly in talks to end Muse AI shopping block. Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune, [\u2026]",
+      "verdict": "supported",
+      "reason": "The source confirms Amazon has held talks about letting Meta's Muse AI agent shop on its marketplace."
+    },
+    {
+      "section": "builder",
+      "id": "d1",
+      "claim": "Cloudflare lets websites add search for AI agents",
+      "source": "Cloudflare now lets websites add search for AI agents with a single toggle. Site owners foot the query bill.. Cloudflare has announced a new feature that makes it easier for AI agents to find and retrieve relevant information from",
+      "verdict": "supported",
+      "reason": "The claim accurately reflects the source statement that Cloudflare lets websites add search for AI agents."
+    },
+    {
+      "section": "builder",
+      "id": "d1",
+      "claim": "Cloudflare announced a new feature that lets websites add search for AI agents with a single toggle, with site owners footing the query bill.",
+      "source": "Cloudflare now lets websites add search for AI agents with a single toggle. Site owners foot the query bill.. Cloudflare has announced a new feature that makes it easier for AI agents to find and retrieve relevant information from",
+      "verdict": "supported",
+      "reason": " The source directly confirms Cloudflare's new feature allows adding search for AI agents with a single toggle, with site owners paying the query bill."
+    },
+    {
+      "section": "builder",
+      "id": "d6",
+      "claim": "JetBrains coding model uses 45% fewer tokens",
+      "source": "JetBrains\u2019 latest Mellum coding model uses 45% fewer tokens. It got there by not thinking.. JetBrains has launched a new variant of its open source coding model, one designed to tackle quick code edits, tool",
+      "verdict": "supported",
+      "reason": "The source explicitly states JetBrains' latest Mellum coding model uses 45% fewer tokens."
+    },
+    {
+      "section": "builder",
+      "id": "d6",
+      "claim": "JetBrains launched a new variant of its open source Mellum coding model that uses 45% fewer tokens by not thinking, designed for quick code edits.",
+      "source": "JetBrains\u2019 latest Mellum coding model uses 45% fewer tokens. It got there by not thinking.. JetBrains has launched a new variant of its open source coding model, one designed to tackle quick code edits, tool",
+      "verdict": "supported",
+      "reason": "The source supports that JetBrains launched a new open-source variant of the Mellum model that uses 45% fewer tokens by not thinking, designed for quick code edits."
+    },
+    {
+      "section": "concept",
+      "id": "d11",
+      "claim": "Model Context Protocol (MCP) is an open standard that Anthropic updated on its second anniversary to support skills, long-running tasks, and better integration with Claude.",
+      "source": "As MCP turns two, Claude gets Skills over MCP and better support for long-running tasks. Anthropic on Tuesday marked the second anniversary of the Model Context Protocol (MCP) by bringing support for skills, long-running tasks,",
+      "verdict": "partial",
+      "reason": "While the source mentions the 2nd anniversary of MCP and bringing support for skills and long-running tasks, it does not state that MCP is an 'open standard'."
+    },
+    {
+      "section": "long_read",
+      "id": "l5",
+      "claim": "Management consulting is not a thin wrapper on intelligence",
+      "source": "Management consulting is not a thin wrapper on intelligence. Consulting as a test case for AI's impact on knowledge work",
+      "verdict": "supported",
+      "reason": "The statement matches the source text verbatim."
+    },
+    {
+      "section": "long_read",
+      "id": "l5",
+      "claim": "The essay examines management consulting as a key test case for evaluating how AI impacts knowledge work.",
+      "source": "Management consulting is not a thin wrapper on intelligence. Consulting as a test case for AI's impact on knowledge work",
+      "verdict": "supported",
+      "reason": "The source directly presents consulting as a test case for AI's impact on knowledge work."
+    }
+  ]
+}

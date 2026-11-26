@@ -1,0 +1,200 @@
+{
+  "glance": [
+    {
+      "id": "n10",
+      "headline": "FCC approves SpaceX plan for data center satellites",
+      "teaser": "SpaceX satellites approved by FCC",
+      "summary": "The FCC authorized SpaceX to deploy up to 1 million AI chip-equipped satellites for its Starmind initiative, marking the first approval for putting AI data centers in space.",
+      "link": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2269580650.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n3",
+      "headline": "42 state AGs try to stop Character.AI selling chats",
+      "teaser": "States fight user chat auction",
+      "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data, including private chat histories of more than 21 million U.S. accounts, during bankruptcy.",
+      "why": "State officials are trying to prevent the auction of private chat histories from over 21 million accounts.",
+      "explain": {
+        "kid": "Character.AI wants to sell people's private chats during bankruptcy, but 42 state attorneys general are trying to stop them to protect more than 21 million user accounts.",
+        "pm": "As Character.AI navigates Chapter 11 bankruptcy, 42 state attorneys general are trying to prevent it from auctioning off private chat histories belonging to more than 21 million U.S. accounts.",
+        "engineer": "During Chapter 11 bankruptcy, 42 state attorneys general filed to prevent Character.AI from auctioning user data, specifically private chat histories of more than 21 million U.S. accounts."
+      },
+      "link": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25557391/STK278_character_ai_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n1",
+      "headline": "Nvidia hits pause on Southeast Asia chip shipments",
+      "teaser": "Nvidia server shipments on hold",
+      "summary": "Nvidia told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand, and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "w9",
+      "headline": "Ally Financial reinvents customer personas with agentic AI",
+      "teaser": "Ally Financial reinvents customer personas",
+      "summary": "Ally Financial is turning to agentic AI to help UX designers and content teams reinvent customer personas for tailoring digital experiences.",
+      "link": "https://www.cio.com/article/4249853/ally-financial-reinvents-customer-personas-with-agentic-ai.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4249853-0-26167800-1795514704-AllyCharlotteCenter.jpg?quality=50&strip=all"
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n3",
+      "headline": "42 state AGs try to stop Character.AI selling chats",
+      "teaser": "States fight user chat auction",
+      "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data, including private chat histories of more than 21 million U.S. accounts, during bankruptcy.",
+      "why": "State officials are trying to prevent the auction of private chat histories from over 21 million accounts.",
+      "explain": {
+        "kid": "Character.AI wants to sell people's private chats during bankruptcy, but 42 state attorneys general are trying to stop them to protect more than 21 million user accounts.",
+        "pm": "As Character.AI navigates Chapter 11 bankruptcy, 42 state attorneys general are trying to prevent it from auctioning off private chat histories belonging to more than 21 million U.S. accounts.",
+        "engineer": "During Chapter 11 bankruptcy, 42 state attorneys general filed to prevent Character.AI from auctioning user data, specifically private chat histories of more than 21 million U.S. accounts."
+      },
+      "link": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25557391/STK278_character_ai_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n10",
+      "headline": "FCC approves SpaceX plan for data center satellites",
+      "teaser": "SpaceX satellites approved by FCC",
+      "summary": "The FCC authorized SpaceX to deploy up to 1 million AI chip-equipped satellites for its Starmind initiative, marking the first approval for putting AI data centers in space.",
+      "link": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2269580650.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n1",
+      "headline": "Nvidia hits pause on Southeast Asia chip shipments",
+      "teaser": "Nvidia server shipments on hold",
+      "summary": "Nvidia told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand, and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w4",
+      "headline": "Atlanta airport shows where physical AI creates value",
+      "teaser": "Physical AI at Atlanta airport",
+      "summary": "Chris Crist, chief information officer at Hartsfield-Jackson Atlanta International Airport, shared how physical AI can find a moving person across seven thousand camera feeds.",
+      "link": "https://www.cio.com/article/4252557/atlanta-hartsfield-jackson-airport-shows-where-physical-ai-can-create-value.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4252557-0-96597800-1795600988-jeshoots-com-mSESwdMZr-A-unsplash.jpg?quality=50&strip=all"
+    },
+    {
+      "id": "w9",
+      "headline": "Ally Financial reinvents customer personas with agentic AI",
+      "teaser": "Ally Financial reinvents customer personas",
+      "summary": "Ally Financial is turning to agentic AI to help UX designers and content teams reinvent customer personas for tailoring digital experiences.",
+      "link": "https://www.cio.com/article/4249853/ally-financial-reinvents-customer-personas-with-agentic-ai.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4249853-0-26167800-1795514704-AllyCharlotteCenter.jpg?quality=50&strip=all"
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u1",
+      "summary": "Nothing showed its Ear Note AI earbuds arriving December 8th with a charging case that records, transcribes, and summarizes conversations.",
+      "link": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ear-note-nothing.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    {
+      "id": "u2",
+      "summary": "Tidal will ban AI-generated music starting December 9th, deleting about 29 million songs and rejecting up to 85,000 tracks daily.",
+      "link": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319678/STK301_Tidal_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "n9",
+      "summary": "New York has banned AI chatbot toys for five years following research revealing troubling safety failures.",
+      "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n6",
+      "summary": "OpenAI is combining ChatGPT Chat and Work experiences into a single usage meter, which may limit heavy users sooner.",
+      "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n14",
+      "summary": "Amazon has held discussions about allowing Meta's Muse AI agent to shop on its online marketplace.",
+      "link": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d1",
+        "label": "New feature",
+        "headline": "Cloudflare lets websites add search for AI agents",
+        "summary": "Cloudflare announced a new feature that lets websites add search for AI agents with a single toggle, with site owners footing the query bill.",
+        "link": "https://thenewstack.io/cloudflare-agent-search-endpoint/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/7ea76efc-growtika-o7uvqahgeos-unsplash-1024x576.jpg"
+      },
+      {
+        "id": "d6",
+        "label": "Model release",
+        "headline": "JetBrains coding model uses 45% fewer tokens",
+        "summary": "JetBrains launched a new variant of its open source Mellum coding model that uses 45% fewer tokens by not thinking, designed for quick code edits.",
+        "link": "https://thenewstack.io/jetbrains-mellum2-1-instruct-coding-model/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/1381c9a4-vecto-vecto-oysxhuljwhq-unsplash-1024x576.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d11",
+      "term": "Model Context Protocol",
+      "explanation": "Model Context Protocol (MCP) is an open standard that Anthropic updated on its second anniversary to support skills, long-running tasks, and better integration with Claude.",
+      "link": "https://thenewstack.io/mcp-skills-tasks-claude/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/03/2777d715-img_2911-1024x768.jpg"
+    }
+  },
+  "long_read": {
+    "id": "l5",
+    "headline": "Management consulting is not a thin wrapper on intelligence",
+    "summary": "The essay examines management consulting as a key test case for evaluating how AI impacts knowledge work.",
+    "link": "https://www.normaltech.ai/p/management-consulting-is-not-a-thin",
+    "source": "AI as Normal Technology",
+    "image": "https://substackcdn.com/image/fetch/$s_!sZXB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7d10095-1c9d-44e0-ad6d-433fdc8ef214_2476x1296.jpeg"
+  },
+  "number": 31,
+  "date_iso": "2026-11-26",
+  "date_long": "Thursday \u00b7 26 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-26",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": null,
+  "keep_brewing": null,
+  "poll": null
+}
