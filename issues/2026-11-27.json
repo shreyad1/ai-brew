@@ -1,0 +1,182 @@
+{
+  "glance": [
+    {
+      "id": "n2",
+      "summary": "Nvidia paused server shipments to Southeast Asia to comply with U.S. chip restrictions.",
+      "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "source": "TechCrunch",
+      "image": null
+    },
+    {
+      "id": "n4",
+      "summary": "Forty-two state attorneys general are acting to stop Character.AI from selling user chat histories.",
+      "link": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25557391/STK278_character_ai_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "w1",
+      "summary": "SAP is considering eliminating 10,000 jobs as leadership sees AI permanently reducing labor needs.",
+      "link": "https://www.cio.com/article/4253973/why-saps-second-10000-job-overhaul-in-two-years-matters-to-cios.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/10/4240684-0-39886800-1793125339-shutterstock_2423167951.jpg?quality=50&strip=all"
+    },
+    {
+      "id": "w14",
+      "summary": "Nvidia reinstated Jensen Huang as CEO following discussions involving U.S. President Donald Trump.",
+      "link": "https://www.cio.com/article/4252245/nvidia-ceo-boomerang-reinforces-it-worries-about-ai-risk-exposure.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/08/4213351-0-77743700-1787622508-shutterstock_2567997995.jpg?quality=50&strip=all"
+    }
+  ],
+  "big_pour": [
+    {
+      "id": "n4",
+      "headline": "State AGs fight Character.AI chat sale",
+      "teaser": "State AGs block chat auction",
+      "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling user chat histories from over 21 million U.S. accounts in Chapter 11 bankruptcy.",
+      "why": "If you use Character.AI, state AGs are working to prevent your private chats from being sold.",
+      "explain": {
+        "kid": "Character.AI is in bankruptcy court, and state leaders are trying to stop the company from selling 21 million people's private chat messages.",
+        "pm": "Forty-two state attorneys general filed to prevent Character.AI from selling user data, specifically private chat histories from 21 million U.S. accounts, as part of Chapter 11 bankruptcy proceedings.",
+        "engineer": "As Character.AI undergoes Chapter 11 bankruptcy proceedings, 42 state AGs are attempting to stop the auction of private chat histories from more than 21 million U.S. accounts."
+      },
+      "link": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25557391/STK278_character_ai_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "n2",
+      "headline": "Nvidia pauses server shipments to Southeast Asia",
+      "teaser": "Nvidia pauses Southeast Asia shipments",
+      "summary": "Nvidia told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand, and Indonesia as the U.S. tightens efforts to keep AI chips out of China.",
+      "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    },
+    {
+      "id": "n5",
+      "headline": "S&P weighs Nvidia credit rating downgrade",
+      "teaser": "S&P considers Nvidia downgrade",
+      "summary": "Credit rating agency S&P may lower Nvidia's credit rating to AA- over concerns regarding governance and key man risks.",
+      "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "source": "TechCrunch",
+      "image": null,
+      "why": null,
+      "explain": null
+    }
+  ],
+  "office_blend": [
+    {
+      "id": "w6",
+      "headline": "Atlanta airport explores physical AI with cameras",
+      "teaser": "Atlanta airport explores physical AI",
+      "summary": "Chris Crist, the chief information officer at Hartsfield-Jackson Atlanta International Airport, discussed how physical AI and seven thousand cameras can help locate someone who dropped a bag.",
+      "link": "https://www.cio.com/article/4252557/atlanta-hartsfield-jackson-airport-shows-where-physical-ai-can-create-value.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4252557-0-96597800-1795600988-jeshoots-com-mSESwdMZr-A-unsplash.jpg?quality=50&strip=all"
+    },
+    {
+      "id": "w11",
+      "headline": "Ally Financial updates customer personas with AI",
+      "teaser": "Ally Financial builds AI personas",
+      "summary": "UX designers and content teams at Ally Financial use agentic AI to reinvent customer personas to predict how consumers respond to digital services.",
+      "link": "https://www.cio.com/article/4249853/ally-financial-reinvents-customer-personas-with-agentic-ai.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4249853-0-26167800-1795514704-AllyCharlotteCenter.jpg?quality=50&strip=all"
+    }
+  ],
+  "still_roasting": [
+    {
+      "id": "u1",
+      "summary": "Nothing detailed its Ear Note AI earbuds and charging case, which can record and summarize conversations, ahead of their December 8th release.",
+      "link": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ear-note-nothing.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    },
+    {
+      "id": "u2",
+      "summary": "Tidal will ban AI-generated music starting December 9th, deleting around 29 million songs and rejecting up to 85,000 tracks daily.",
+      "link": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319678/STK301_Tidal_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "date_mentioned": null
+    }
+  ],
+  "quick_sips": [
+    {
+      "id": "w8",
+      "summary": "Anthropic's Claude was used by security researchers to reach OpenAI's internal code systems in under three days.",
+      "link": "https://www.cio.com/article/4252731/how-to-choose-a-secure-pdf-solution-for-your-business.html",
+      "source": "CIO.com",
+      "image": "https://www.cio.com/wp-content/uploads/2026/11/4252731-0-44972000-1795550694-Adobe-Acrobat-Graphic-3.png"
+    },
+    {
+      "id": "w13",
+      "summary": "Amazon Bedrock launched a Trusted Access API preview providing enterprise data controls for Anthropic's Claude models.",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/",
+      "source": "AWS Machine Learning Blog",
+      "image": null
+    },
+    {
+      "id": "n6",
+      "summary": "Google had its patent rejected for My Channel, a system designed to generate personalized AI video feeds.",
+      "link": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-25-at-11.34.07-AM.png?quality=90&#038;strip=all&#038;crop=2.859375,3.7218027238494,93.788122558594,91.658221639303"
+    }
+  ],
+  "builder": {
+    "stories": [
+      {
+        "id": "d9",
+        "label": "New model",
+        "headline": "JetBrains launches Mellum model for fast edits",
+        "summary": "JetBrains launched an open-source Mellum coding model variant that uses 45% fewer tokens by skipping thinking steps during quick code edits.",
+        "link": "https://thenewstack.io/jetbrains-mellum2-1-instruct-coding-model/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/1381c9a4-vecto-vecto-oysxhuljwhq-unsplash-1024x576.jpg"
+      },
+      {
+        "id": "d12",
+        "label": "Case study",
+        "headline": "Confluent restarts AI rewrite of Kafka client",
+        "summary": "Confluent spent nearly three months using AI coding agents to translate Apache Kafka's Java client into Rust before starting over.",
+        "link": "https://thenewstack.io/confluent-kafka-rust-agents/",
+        "source": "The New Stack",
+        "image": "https://cdn.thenewstack.io/media/2026/11/028e7f98-getty-images-7ag-cmu7_fw-unsplash-1024x682.jpg"
+      }
+    ],
+    "concept": {
+      "id": "d9",
+      "term": "tokens",
+      "explanation": "In JetBrains' announcement, tokens refer to the processing metric for its open source Mellum coding model, which reduced token usage by 45% for quick code edits by skipping thinking steps.",
+      "link": "https://thenewstack.io/jetbrains-mellum2-1-instruct-coding-model/",
+      "source": "The New Stack",
+      "image": "https://cdn.thenewstack.io/media/2026/11/1381c9a4-vecto-vecto-oysxhuljwhq-unsplash-1024x576.jpg"
+    }
+  },
+  "long_read": {
+    "id": "l1",
+    "headline": "How Anthropic builds software in 2026",
+    "summary": "The newsletter shares Katelyn Lesse explaining how Anthropic rewrote Claude\u2019s API in Rust and how AI agents are changing engineering at the company.",
+    "link": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in",
+    "source": "The Pragmatic Engineer",
+    "image": "https://substackcdn.com/image/fetch/$s_!AlJu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e3d3c6f-6a37-411e-aa1a-dfcefc979af3_1600x140.png"
+  },
+  "number": 32,
+  "date_iso": "2026-11-27",
+  "date_long": "Friday \u00b7 27 November 2026",
+  "read_minutes": 3,
+  "web_url": "https://thedailyaicup.pages.dev/#/issue/2026-11-27",
+  "reply_to": "shreyadeshpande119@gmail.com",
+  "subscribe_url": "#",
+  "unsubscribe_url": "#",
+  "sign_off": "That's the last sip. See you next morning.",
+  "word": null,
+  "keep_brewing": null,
+  "poll": null
+}
